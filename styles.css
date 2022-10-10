@@ -12,6 +12,13 @@
 
 .team-member {
     background-color: grey;
+    width: 15vw;
+    text-align: center;
+}
+
+#options {
+    display: flex;
+    margin: 20px auto;
 }
 
 #pokedex {

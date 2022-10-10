@@ -606,10 +606,17 @@ let generation1Pokemon = [
     }
 ];
 
+// DOM Setup
+
 let teamMember1Image = document.querySelector('#team-member-1-image');
+
 let pokedex = document.querySelector('#pokedex');
 
+// function setup, global variables
+
 let selectedGeneration = generation1Pokemon;
+
+//functions
 
 function displayAvailablePokemon() {
     for (let i = 0; i < selectedGeneration.length; i++) {
@@ -622,5 +629,7 @@ function displayAvailablePokemon() {
         pokedex.appendChild(printID)
     };
 };
+
+//run on load
 
 displayAvailablePokemon()
