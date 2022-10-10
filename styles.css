@@ -1,0 +1,24 @@
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#team {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-member {
+    background-color: grey;
+}
+
+#pokedex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokedex-entry {
+    background-color: grey;
+}
