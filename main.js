@@ -95,41 +95,6 @@ let teamMembers = [
 
 let team = document.querySelector('#team');
 
-let teamMember1 = document.querySelector('#team-member-1');
-let teamMember2 = document.querySelector('#team-member-2');
-let teamMember3 = document.querySelector('#team-member-3');
-let teamMember4 = document.querySelector('#team-member-4');
-let teamMember5 = document.querySelector('#team-member-5');
-let teamMember6 = document.querySelector('#team-member-6');
-
-let teamMember1Name = document.querySelector('#team-member-1-name');
-let teamMember2Name = document.querySelector('#team-member-2-name');
-let teamMember3Name = document.querySelector('#team-member-3-name');
-let teamMember4Name = document.querySelector('#team-member-4-name');
-let teamMember5Name = document.querySelector('#team-member-5-name');
-let teamMember6Name = document.querySelector('#team-member-6-name');
-
-let teamMember1Image = document.querySelector('#team-member-1-image');
-let teamMember2Image = document.querySelector('#team-member-2-image');
-let teamMember3Image = document.querySelector('#team-member-3-image');
-let teamMember4Image = document.querySelector('#team-member-4-image');
-let teamMember5Image = document.querySelector('#team-member-5-image');
-let teamMember6Image = document.querySelector('#team-member-6-image');
-
-let teamMember1Type1 = document.querySelector('#team-member-1-type-1');
-let teamMember2Type1 = document.querySelector('#team-member-2-type-1');
-let teamMember3Type1 = document.querySelector('#team-member-3-type-1');
-let teamMember4Type1 = document.querySelector('#team-member-4-type-1');
-let teamMember5Type1 = document.querySelector('#team-member-5-type-1');
-let teamMember6Type1 = document.querySelector('#team-member-6-type-1');
-
-let teamMember1Type2 = document.querySelector('#team-member-1-type-2');
-let teamMember2Type2 = document.querySelector('#team-member-2-type-2');
-let teamMember3Type2 = document.querySelector('#team-member-3-type-2');
-let teamMember4Type2 = document.querySelector('#team-member-4-type-2');
-let teamMember5Type2 = document.querySelector('#team-member-5-type-2');
-let teamMember6Type2 = document.querySelector('#team-member-6-type-2');
-
 let pokedex = document.querySelector('#pokedex');
 
 // function setup, global variables
@@ -184,38 +149,42 @@ function addToTeam() {
     for (let i = 0; i < 6; i++) {
         if (teamMembers[i].name === "") {
             teamMembers[i] = selectedPokemon;
+            let position = i;
+            updateTeam(position);
             break
         } else if (i === 5 && teamMembers[i].name != "") {
             console.log('team full, remove one first')
         };
     };
-    console.log(teamMembers)
-    updateTeam();
 };
 
-function updateTeam() {
-    teamMember1Name.textContent = teamMembers[0].name;
-    teamMember1Image.src = teamMembers[0].image;
-    teamMember1.style.backgroundColor = `var(--${teamMembers[0].types[0].type.name})`;
-    teamMember2Name.textContent = teamMembers[1].name;
-    teamMember2Image.src = teamMembers[1].image;
-    teamMember2.style.backgroundColor = `var(--${teamMembers[1].types[0].type.name})`;
-    teamMember3Name.textContent = teamMembers[2].name;
-    teamMember3Image.src = teamMembers[2].image;
-    teamMember3.style.backgroundColor = `var(--${teamMembers[2].types[0].type.name})`;
-    teamMember4Name.textContent = teamMembers[3].name;
-    teamMember4Image.src = teamMembers[3].image;
-    teamMember4.style.backgroundColor = `var(--${teamMembers[3].types[0].type.name})`;
-    teamMember5Name.textContent = teamMembers[4].name;
-    teamMember5Image.src = teamMembers[4].image;
-    teamMember5.style.backgroundColor = `var(--${teamMembers[4].types[0].type.name})`;
-    teamMember6Name.textContent = teamMembers[5].name;
-    teamMember6Image.src = teamMembers[5].image;
-    teamMember6.style.backgroundColor = `var(--${teamMembers[5].types[0].type.name})`;
+function updateTeam(position) {
+    let teamMember = teamMembers[position];
+    let teamMemberCard = document.createElement('div');
+    teamMemberCard.classList.add('team-member');
+    teamMemberCard.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
+    let teamMemberImage = document.createElement('img');
+    teamMemberImage.src = teamMember.image;
+    let teamMemberName = document.createElement('p');
+    teamMemberName.textContent = teamMember.name;
+    let teamMemberType1 = document.createElement('p');
+    teamMemberType1.textContent = teamMember.types[0].type.name;
+    team.appendChild(teamMemberCard);
+    teamMemberCard.appendChild(teamMemberImage)
+    teamMemberCard.appendChild(teamMemberName)
+    teamMemberCard.appendChild(teamMemberType1)
+    try {
+        if (typeof teamMember.types[1].type.name !== undefined) {
+        let teamMemberType2 = document.createElement('p');
+        teamMemberType2.textContent = teamMember.types[1].type.name;
+        teamMemberCard.appendChild(teamMemberType2)
+        }
+    } catch(err) {
+        // just to stop an error going to the console when no second type exists
+    };
 };
 
 //run on load
-updateTeam();
 displayAvailablePokemon()
 
 /* 

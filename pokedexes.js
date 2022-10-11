@@ -526,7 +526,7 @@ let generation1Pokemon = [
         ]
     },
     {
-        "name": "Nidoran-f",
+        "name": "Nidoran-F",
         "url": "https://pokeapi.co/api/v2/pokemon/29/",
         "id": 29,
         "image": "images/sprites/pokemon/versions/generation-i/red-blue/transparent/29.png",
@@ -578,7 +578,7 @@ let generation1Pokemon = [
         ]
     },
     {
-        "name": "Nidoran-m",
+        "name": "Nidoran-M",
         "url": "https://pokeapi.co/api/v2/pokemon/32/",
         "id": 32,
         "image": "images/sprites/pokemon/versions/generation-i/red-blue/transparent/32.png",
@@ -2201,7 +2201,7 @@ let generation1Pokemon = [
         ]
     },
     {
-        "name": "Mr-mime",
+        "name": "Mr-Mime",
         "url": "https://pokeapi.co/api/v2/pokemon/122/",
         "id": 122,
         "image": "images/sprites/pokemon/versions/generation-i/red-blue/transparent/122.png",
