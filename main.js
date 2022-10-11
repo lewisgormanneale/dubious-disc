@@ -3,37 +3,91 @@ let teamMembers = [
         "name": "",
         "url": "",
         "id": 0,
-        "image": "images/sprites/pokemon/0.png"
+        "image": "images/sprites/pokemon/0.png",
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "normal",
+                    "url": "https://pokeapi.co/api/v2/type/1/"
+                }
+            }
+        ]
     },
     {
         "name": "",
         "url": "",
         "id": 0,
-        "image": "images/sprites/pokemon/0.png"
+        "image": "images/sprites/pokemon/0.png",
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "normal",
+                    "url": "https://pokeapi.co/api/v2/type/1/"
+                }
+            }
+        ]
     },
     {
         "name": "",
         "url": "",
         "id": 0,
-        "image": "images/sprites/pokemon/0.png"
+        "image": "images/sprites/pokemon/0.png",
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "normal",
+                    "url": "https://pokeapi.co/api/v2/type/1/"
+                }
+            }
+        ]
     },
     {
         "name": "",
         "url": "",
         "id": 0,
-        "image": "images/sprites/pokemon/0.png"
+        "image": "images/sprites/pokemon/0.png",
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "normal",
+                    "url": "https://pokeapi.co/api/v2/type/1/"
+                }
+            }
+        ]
     },
     {
         "name": "",
         "url": "",
         "id": 0,
-        "image": "images/sprites/pokemon/0.png"
+        "image": "images/sprites/pokemon/0.png",
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "normal",
+                    "url": "https://pokeapi.co/api/v2/type/1/"
+                }
+            }
+        ]
     },
     {
         "name": "",
         "url": "",
         "id": 0,
-        "image": "images/sprites/pokemon/0.png"
+        "image": "images/sprites/pokemon/0.png",
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "normal",
+                    "url": "https://pokeapi.co/api/v2/type/1/"
+                }
+            }
+        ]
     }
 ];
 
@@ -62,8 +116,21 @@ let teamMember4Image = document.querySelector('#team-member-4-image');
 let teamMember5Image = document.querySelector('#team-member-5-image');
 let teamMember6Image = document.querySelector('#team-member-6-image');
 
-let pokedex = document.querySelector('#pokedex');
+let teamMember1Type1 = document.querySelector('#team-member-1-type-1');
+let teamMember2Type1 = document.querySelector('#team-member-2-type-1');
+let teamMember3Type1 = document.querySelector('#team-member-3-type-1');
+let teamMember4Type1 = document.querySelector('#team-member-4-type-1');
+let teamMember5Type1 = document.querySelector('#team-member-5-type-1');
+let teamMember6Type1 = document.querySelector('#team-member-6-type-1');
 
+let teamMember1Type2 = document.querySelector('#team-member-1-type-2');
+let teamMember2Type2 = document.querySelector('#team-member-2-type-2');
+let teamMember3Type2 = document.querySelector('#team-member-3-type-2');
+let teamMember4Type2 = document.querySelector('#team-member-4-type-2');
+let teamMember5Type2 = document.querySelector('#team-member-5-type-2');
+let teamMember6Type2 = document.querySelector('#team-member-6-type-2');
+
+let pokedex = document.querySelector('#pokedex');
 
 // function setup, global variables
 
@@ -73,25 +140,25 @@ let selectedGeneration = generation1Pokemon;
 let sticky = team.offsetTop;
 
 //functions
-window.onscroll = function() {stickyTeamWindow()};
-
-
+window.addEventListener("scroll", stickyTeamWindow);
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function stickyTeamWindow() {
   if (window.pageYOffset > sticky) {
     team.classList.add("sticky");
+    console.log('hello')
+    console.log(window)
   } else {
     team.classList.remove("sticky");
   }
 }
-
 
 function displayAvailablePokemon() {
     for (let i = 0; i < selectedGeneration.length; i++) {
         let pokedexEntry = document.createElement('div');
         pokedexEntry.classList.add('pokedex-entry')
         pokedexEntry.setAttribute('data-id', `${selectedGeneration[i].id}`)
+        pokedexEntry.style.backgroundColor = `var(--${selectedGeneration[i].types[0].type.name})`;
         let pokedexImage = document.createElement('img');
         pokedexImage.classList.add('pokedex-image')
         pokedexImage.src = selectedGeneration[i].image
@@ -127,19 +194,25 @@ function addToTeam() {
 };
 
 function updateTeam() {
-    teamMember1Name.textContent = teamMembers[0].name
-    teamMember1Image.src = teamMembers[0].image
-    teamMember2Name.textContent = teamMembers[1].name
-    teamMember2Image.src = teamMembers[1].image
-    teamMember3Name.textContent = teamMembers[2].name
-    teamMember3Image.src = teamMembers[2].image
-    teamMember4Name.textContent = teamMembers[3].name
-    teamMember4Image.src = teamMembers[3].image
-    teamMember5Name.textContent = teamMembers[4].name
-    teamMember5Image.src = teamMembers[4].image
-    teamMember6Name.textContent = teamMembers[5].name
-    teamMember6Image.src = teamMembers[5].image
-}
+    teamMember1Name.textContent = teamMembers[0].name;
+    teamMember1Image.src = teamMembers[0].image;
+    teamMember1.style.backgroundColor = `var(--${teamMembers[0].types[0].type.name})`;
+    teamMember2Name.textContent = teamMembers[1].name;
+    teamMember2Image.src = teamMembers[1].image;
+    teamMember2.style.backgroundColor = `var(--${teamMembers[1].types[0].type.name})`;
+    teamMember3Name.textContent = teamMembers[2].name;
+    teamMember3Image.src = teamMembers[2].image;
+    teamMember3.style.backgroundColor = `var(--${teamMembers[2].types[0].type.name})`;
+    teamMember4Name.textContent = teamMembers[3].name;
+    teamMember4Image.src = teamMembers[3].image;
+    teamMember4.style.backgroundColor = `var(--${teamMembers[3].types[0].type.name})`;
+    teamMember5Name.textContent = teamMembers[4].name;
+    teamMember5Image.src = teamMembers[4].image;
+    teamMember5.style.backgroundColor = `var(--${teamMembers[4].types[0].type.name})`;
+    teamMember6Name.textContent = teamMembers[5].name;
+    teamMember6Image.src = teamMembers[5].image;
+    teamMember6.style.backgroundColor = `var(--${teamMembers[5].types[0].type.name})`;
+};
 
 //run on load
 updateTeam();
