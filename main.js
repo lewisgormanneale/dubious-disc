@@ -91,7 +91,13 @@ let teamMembers = [
     }
 ];
 
+let darkMode = false;
+
 // DOM Setup
+
+let body = document.querySelector('body');
+
+let darkModeButton = document.querySelector('#dark-mode-button');
 
 let team = document.querySelector('#team');
 
@@ -105,9 +111,9 @@ let selectedGeneration = generation1Pokemon;
 let sticky = team.offsetTop;
 
 //functions
-window.addEventListener("scroll", stickyTeamWindow);
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+window.addEventListener("scroll", stickyTeamWindow);
 function stickyTeamWindow() {
   if (window.pageYOffset > sticky) {
     team.classList.add("sticky");
@@ -117,6 +123,21 @@ function stickyTeamWindow() {
     team.classList.remove("sticky");
   }
 }
+
+//dark mode
+darkModeButton.addEventListener('click', darkModeToggle);
+function darkModeToggle() {
+    console.log('hello')
+    if (darkMode === false) {
+        body.classList.add('dark-mode');
+        darkMode = true;
+    } else if (darkMode === true) {
+        body.classList.remove('dark-mode')
+        darkMode = false;
+    };
+};
+
+// pokemon/pokedex load in
 
 function displayAvailablePokemon() {
     for (let i = 0; i < selectedGeneration.length; i++) {
@@ -165,10 +186,13 @@ function updateTeam(position) {
     teamMemberCard.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
     let teamMemberImage = document.createElement('img');
     teamMemberImage.src = teamMember.image;
+    teamMemberImage.classList.add('team-member-image')
     let teamMemberName = document.createElement('p');
     teamMemberName.textContent = teamMember.name;
     let teamMemberType1 = document.createElement('p');
     teamMemberType1.textContent = teamMember.types[0].type.name;
+    teamMemberType1.classList.add('type')
+    teamMemberType1.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
     team.appendChild(teamMemberCard);
     teamMemberCard.appendChild(teamMemberImage)
     teamMemberCard.appendChild(teamMemberName)
@@ -177,6 +201,8 @@ function updateTeam(position) {
         if (typeof teamMember.types[1].type.name !== undefined) {
         let teamMemberType2 = document.createElement('p');
         teamMemberType2.textContent = teamMember.types[1].type.name;
+        teamMemberType2.classList.add('type')
+        teamMemberType2.style.backgroundColor = `var(--${teamMember.types[1].type.name})`;
         teamMemberCard.appendChild(teamMemberType2)
         }
     } catch(err) {
@@ -186,6 +212,7 @@ function updateTeam(position) {
 
 //run on load
 displayAvailablePokemon()
+darkModeToggle()
 
 /* 
 // function used to update basic object pulled from PokeAPI - saving for reuse if other generations added

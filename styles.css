@@ -1,4 +1,7 @@
 :root {
+    /* general global variables */
+    --primary-background-color: white; 
+    --primary-color: black;
     /* type colours */ 
     --normal: #AAAA99;
     --fighting: #BB5544;
@@ -29,6 +32,11 @@
     font-family: 'Press Start 2P', cursive;
 }
 
+.dark-mode {
+    --primary-background-color: black;
+    --primary-color: white;
+}
+
 .content {
     font-family: 'Press Start 2P', cursive;
 }
@@ -43,6 +51,16 @@
     padding-top: 23vh;
 }
 
+button {
+    color: white;
+    background-color: black;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+}
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -53,30 +71,55 @@
     font-size: 1em;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
 }
 
 #team {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    background-color: white;
-    height: 240px;
+    background-color: rgb(0, 0, 42);
+    height: 250px;
 }
 
 .team-member {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    align-items: center;
+    border: 10px solid black;
     text-align: center;
     border-radius: 10%;
     min-width: 100px;
     width: 200px;
-    height: 200px;
+    height: 250px;
+    color: black;
+}
+
+.team-member-image {
+    height: 67%
+}
+
+.type {
+    width: 80%;
+    border-radius: 10%;
+    border: 1px solid white;
+    padding: 3px;
+    text-align: center;
+    
 }
 
 #options {
     display: flex;
     margin: 20px auto;
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);    
+}
+
+#options label {
+    display: flex;
+    padding: 0 20px;
 }
 
 #pokedex {
@@ -84,6 +127,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
 }
 
 .pokedex-entry {
@@ -96,6 +141,8 @@
     margin: 5px;
     padding: 10px;
     font-size: 0.7em;
+    color: black;
+    
 }
 
 #footer {
