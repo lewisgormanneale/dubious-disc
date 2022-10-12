@@ -1,18 +1,3 @@
-/* async function updateObject() {
-    for (let i = 0; generation1Pokemon.length; i++) {
-        let name = generation1Pokemon[i].name;
-        let uncapitalizedName = name.toLowerCase(); 
-        let apiString = `https://pokeapi.co/api/v2/pokemon/${uncapitalizedName}/`
-        console.log(apiString)
-        let data = await fetch(apiString);
-        let jsonData = await data.json();
-        generation1Pokemon[i].types = jsonData.types;
-    };
-    console.log(generation1Pokemon)
-};
-
-*/ 
-
 let generation1Pokemon = [
     {
         "name": "Bulbasaur",
@@ -2749,3 +2734,40 @@ let generation1Pokemon = [
         ]
     }
 ]
+
+// capitalise type function
+
+/* async function updateObject() {
+    for (let i = 0; generation1Pokemon.length; i++) {
+        let name = generation1Pokemon[i].name;
+        let uncapitalizedName = name.toLowerCase(); 
+        let apiString = `https://pokeapi.co/api/v2/pokemon/${uncapitalizedName}/`
+        console.log(apiString)
+        let data = await fetch(apiString);
+        let jsonData = await data.json();
+        generation1Pokemon[i].types = jsonData.types;
+    };
+    console.log(generation1Pokemon)
+};
+*/ 
+
+
+/* 
+function updateObject() {
+    for (let i = 0; i < generation1Pokemon.length; i++) {
+        let capitalisedType = (generation1Pokemon[i].types[0].type.name.charAt(0).toUpperCase()) + (generation1Pokemon[i].types[0].type.name.slice(1));
+        generation1Pokemon[i].types[0].type.name = capitalisedType;
+        console.log(capitalisedType)
+        try {
+        if (typeof generation1Pokemon[i].types[1].type.name !== undefined) {
+            let capitalisedType2 = (generation1Pokemon[i].types[1].type.name.charAt(0).toUpperCase()) + (generation1Pokemon[i].types[0].type.name.slice(1));
+            generation1Pokemon[i].types[1].type.name = capitalisedType2;
+            console.log(capitalisedType2)
+        }
+        } catch(err) {
+            // just to stop an error going to the console when no second type exists
+        };
+    };
+};
+
+*/

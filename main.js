@@ -130,9 +130,11 @@ function darkModeToggle() {
     console.log('hello')
     if (darkMode === false) {
         body.classList.add('dark-mode');
+        darkModeButton.textContent = 'Light Mode'
         darkMode = true;
     } else if (darkMode === true) {
         body.classList.remove('dark-mode')
+        darkModeButton.textContent = 'Dark Mode'
         darkMode = false;
     };
 };
@@ -191,21 +193,26 @@ function updateTeam(position) {
     teamMemberImage.alt = teamMember.name;
     let teamMemberName = document.createElement('p');
     teamMemberName.textContent = teamMember.name;
+    let teamMemberTypes = document.createElement('div');
+    teamMemberImage.classList.add('types')
     let teamMemberType1 = document.createElement('p');
     teamMemberType1.textContent = teamMember.types[0].type.name;
+    teamMemberType1.textContent = teamMemberType1.textContent.charAt(0).toUpperCase() + teamMemberType1.textContent.slice(1)
     teamMemberType1.classList.add('type')
     teamMemberType1.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
     team.appendChild(teamMemberCard);
     teamMemberCard.appendChild(teamMemberImage)
     teamMemberCard.appendChild(teamMemberName)
-    teamMemberCard.appendChild(teamMemberType1)
+    teamMemberCard.appendChild(teamMemberTypes)
+    teamMemberTypes.appendChild(teamMemberType1)
     try {
         if (typeof teamMember.types[1].type.name !== undefined) {
         let teamMemberType2 = document.createElement('p');
         teamMemberType2.textContent = teamMember.types[1].type.name;
+        teamMemberType2.textContent = teamMemberType2.textContent.charAt(0).toUpperCase() + teamMemberType2.textContent.slice(1)
         teamMemberType2.classList.add('type')
         teamMemberType2.style.backgroundColor = `var(--${teamMember.types[1].type.name})`;
-        teamMemberCard.appendChild(teamMemberType2)
+        teamMemberTypes.appendChild(teamMemberType2)
         }
     } catch(err) {
         // just to stop an error going to the console when no second type exists
