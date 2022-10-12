@@ -25,11 +25,16 @@
     --shadow: black;
 }
 
+@font-face {
+    font-family: 'PokemonGB';
+    src: url('/fonts/PokemonGB.ttf')
+}
+
 * {
     box-sizing: border-box;
     border: 0;
     margin: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'PokemonGB', serif;
 }
 
 .dark-mode {
@@ -51,11 +56,6 @@
     padding-top: 23vh;
 }
 
-button {
-    color: white;
-    background-color: black;
-}
-
 body {
     background-color: var(--primary-background-color);
     color: var(--primary-color);
@@ -75,13 +75,47 @@ body {
     color: var(--primary-color);
 }
 
+#game-select-container {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+#dark-mode-container {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-button {
+    height: 7vh;
+    width: 105px;
+    word-wrap: normal;
+    background: url('/images/pokemon-text-box.png') no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #team {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
     background-color: rgb(0, 0, 42);
-    height: 250px;
+    height: 22vh;
 }
 
 .team-member {
@@ -91,10 +125,9 @@ body {
     border: 10px solid black;
     text-align: center;
     border-radius: 10%;
-    min-width: 100px;
-    width: 200px;
-    height: 250px;
+    height: 22vh;
     color: black;
+    cursor: pointer;
 }
 
 .team-member-image {
@@ -110,16 +143,23 @@ body {
     
 }
 
+#team-analysis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 #options {
     display: flex;
     margin: 20px auto;
+    padding-left: 20px;
     background-color: var(--primary-background-color);
-    color: var(--primary-color);    
+    color: var(--primary-color);
 }
 
-#options label {
-    display: flex;
-    padding: 0 20px;
+#options input {
+    padding-left: 20px;
 }
 
 #pokedex {
@@ -142,12 +182,13 @@ body {
     padding: 10px;
     font-size: 0.7em;
     color: black;
+    cursor: pointer;
     
 }
 
 #footer {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
     color: white;

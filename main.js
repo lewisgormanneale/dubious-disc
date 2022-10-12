@@ -148,6 +148,7 @@ function displayAvailablePokemon() {
         let pokedexImage = document.createElement('img');
         pokedexImage.classList.add('pokedex-image')
         pokedexImage.src = selectedGeneration[i].image
+        pokedexImage.alt = selectedGeneration[i].name
         pokedexImage.ondragstart = function () { return false; };
         let pokedexName = document.createElement('p');
         pokedexName.classList.add('pokedex-name')
@@ -185,8 +186,9 @@ function updateTeam(position) {
     teamMemberCard.classList.add('team-member');
     teamMemberCard.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
     let teamMemberImage = document.createElement('img');
-    teamMemberImage.src = teamMember.image;
     teamMemberImage.classList.add('team-member-image')
+    teamMemberImage.src = teamMember.image;
+    teamMemberImage.alt = teamMember.name;
     let teamMemberName = document.createElement('p');
     teamMemberName.textContent = teamMember.name;
     let teamMemberType1 = document.createElement('p');
