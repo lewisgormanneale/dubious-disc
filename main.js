@@ -112,7 +112,7 @@ function stickyTeamWindow() {
   }
 }
 
-//navbar functionality
+//navbar
 
 function openNav() {
     document.getElementById("navbar").style.width = "33%";
@@ -162,8 +162,27 @@ function filterHM() {
         pokedexEntries[i].classList.remove('.invisible');
     }
 } */
-function displayAvailablePokemon() {
 
+function updateGeneration(gen) {
+    console.log(gen)
+    switch(gen) {
+        case 1:
+            gen === 1;
+            selectedGeneration = rbyDexGen1;
+            break;
+        case 2:
+            gen === 2;
+            selectedGeneration = gscDexGen2;
+            break;
+    }
+    console.log(selectedGeneration)
+    while (pokedex.hasChildNodes()) {
+        pokedex.removeChild(pokedex.firstChild);
+    }
+    displayAvailablePokemon()
+};
+
+function displayAvailablePokemon() {
     for (let i = 0; i < selectedGeneration.length; i++) {
         let pokedexEntry = document.createElement('div');
         pokedexEntry.classList.add('pokedex-entry')

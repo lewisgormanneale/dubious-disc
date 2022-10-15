@@ -15,14 +15,15 @@
             <button id="game-select-button" class="header-button" onclick="openNav()">Game Select</button>
             <div id="navbar">
                 <a href="javascript:void(0)" id="close-button" onclick="closeNav()">&times;</a>
-                <a>Pokémon R/B/Y</a>
-                <a>Pokémon G/S/C</a>
-                <a>Pokémon R/S/E</a>
-                <a>Pokémon FR/LG</a>
-                <a>Pokémon D/P/P</a>
-                <a>Pokémon HG/SS</a>
-                <a>Pokémon B/W</a>
-                <a>Pokémon B2/W2</a>
+                <a onclick="updateGeneration(1)">Pokémon Red/Blue/Yellow</a>
+                <a onclick="updateGeneration(2)">Pokémon Gold/Silver/Crystal</a>
+                <a onclick="updateGeneration(3)">Pokémon Ruby/Sapphire/Emerald</a>
+                <a onclick="updateGeneration(3.5)">Pokémon FireRed/LeafGreen</a>
+                <a onclick="updateGeneration(4)">Pokémon Diamond & Pearl</a>
+                <a onclick="updateGeneration(4.1)">Pokémon Platinum</a>
+                <a onclick="updateGeneration(4.5)">Pokémon HeartGold/SoulSilver</a>
+                <a onclick="updateGeneration(5)">Pokémon Black/White</a>
+                <a onclick="updateGeneration(5.5)">Pokémon Black 2/White 2</a>
             </div>
         </div>  
         <h1 id="title">Pokémon Team Planner</h1>
@@ -38,7 +39,10 @@
             <button>Evaluate Team</button>
         </section>
         <section id="options" class="content">
-            <button>Prevent Type Overlap</button>
+            <div>
+                <button>Prevent Type Overlap</button>
+                <button>Gen 2 Only</button>
+            </div>
             <div id="hms">
                 <input type="checkbox" name="cut" onclick="filterHM()" class="check">
                 <label for="cut">Cut</label>
