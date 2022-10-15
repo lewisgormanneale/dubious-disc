@@ -33,6 +33,7 @@ async function updatePokedexInfo() {
         let jsonData = await data.json();
         let natDexID = jsonData.id
         gscDexGen2[i].name = pokemonName;
+        gscDexGen2[i].national_dex_id = natDexID;
         gscDexGen2[i].types = jsonData.types;
         gscDexGen2[i].sprite = `images/sprites/pokemon/versions/generation-ii/crystal/transparent/${natDexID}.png`
         delete gscDexGen2[i].pokemon_species
@@ -134,11 +135,11 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -177,11 +178,11 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -220,11 +221,11 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -327,7 +328,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "fly",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "surf",
@@ -562,7 +563,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -691,7 +692,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -840,7 +841,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -876,7 +877,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -888,7 +889,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -1078,11 +1079,11 @@ let rbyDexGen1 = [
             },
             {
                 "name": "surf",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -1114,11 +1115,11 @@ let rbyDexGen1 = [
             },
             {
                 "name": "surf",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -1214,7 +1215,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -1226,7 +1227,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -1250,7 +1251,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -1262,7 +1263,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -1293,7 +1294,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -1329,7 +1330,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -1341,7 +1342,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -1365,7 +1366,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -1377,7 +1378,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -1408,7 +1409,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -1435,8 +1436,8 @@ let rbyDexGen1 = [
             {
                 "slot": 1,
                 "type": {
-                    "name": "fairy",
-                    "url": "https://pokeapi.co/api/v2/type/18/"
+                    "name": "normal",
+                    "url": "https://pokeapi.co/api/v2/type/1/"
                 }
             }
         ],
@@ -1471,8 +1472,8 @@ let rbyDexGen1 = [
             {
                 "slot": 1,
                 "type": {
-                    "name": "fairy",
-                    "url": "https://pokeapi.co/api/v2/type/18/"
+                    "name": "normal",
+                    "url": "https://pokeapi.co/api/v2/type/1/"
                 }
             }
         ],
@@ -1582,13 +1583,6 @@ let rbyDexGen1 = [
                     "name": "normal",
                     "url": "https://pokeapi.co/api/v2/type/1/"
                 }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "fairy",
-                    "url": "https://pokeapi.co/api/v2/type/18/"
-                }
             }
         ],
         "sprite": "images/sprites/pokemon/versions/generation-i/red-blue/transparent/39.png",
@@ -1624,13 +1618,6 @@ let rbyDexGen1 = [
                 "type": {
                     "name": "normal",
                     "url": "https://pokeapi.co/api/v2/type/1/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "fairy",
-                    "url": "https://pokeapi.co/api/v2/type/18/"
                 }
             }
         ],
@@ -1685,7 +1672,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "fly",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "surf",
@@ -1728,7 +1715,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "fly",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "surf",
@@ -1783,7 +1770,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -1826,7 +1813,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -1869,7 +1856,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -1912,7 +1899,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -1955,7 +1942,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -1998,7 +1985,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -2041,7 +2028,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -2061,7 +2048,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -2097,7 +2084,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -2133,7 +2120,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -2149,7 +2136,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -2169,7 +2156,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -2185,7 +2172,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -2221,7 +2208,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -2257,7 +2244,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -2361,7 +2348,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -2397,7 +2384,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -2775,7 +2762,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -2818,7 +2805,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -2861,7 +2848,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -3108,7 +3095,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -3144,7 +3131,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -3248,13 +3235,6 @@ let rbyDexGen1 = [
                     "name": "electric",
                     "url": "https://pokeapi.co/api/v2/type/13/"
                 }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "steel",
-                    "url": "https://pokeapi.co/api/v2/type/9/"
-                }
             }
         ],
         "sprite": "images/sprites/pokemon/versions/generation-i/red-blue/transparent/81.png",
@@ -3290,13 +3270,6 @@ let rbyDexGen1 = [
                 "type": {
                     "name": "electric",
                     "url": "https://pokeapi.co/api/v2/type/13/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "steel",
-                    "url": "https://pokeapi.co/api/v2/type/9/"
                 }
             }
         ],
@@ -3560,7 +3533,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -3596,7 +3569,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -4106,11 +4079,11 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -4153,7 +4126,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -4369,7 +4342,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -4405,7 +4378,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -4475,7 +4448,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -4563,7 +4536,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -4583,7 +4556,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -4951,7 +4924,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "flash",
-                "can_learn": true
+                "can_learn": false
             }
         ]
     },
@@ -5087,7 +5060,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "surf",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "strength",
@@ -5321,7 +5294,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -5357,7 +5330,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -5393,7 +5366,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -5589,7 +5562,7 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
@@ -5644,7 +5617,7 @@ let rbyDexGen1 = [
             },
             {
                 "name": "strength",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "flash",
@@ -5912,11 +5885,11 @@ let rbyDexGen1 = [
         "hms": [
             {
                 "name": "cut",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "fly",
-                "can_learn": true
+                "can_learn": false
             },
             {
                 "name": "surf",

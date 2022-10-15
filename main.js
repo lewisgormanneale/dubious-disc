@@ -3,6 +3,7 @@
 let body = document.querySelector('body');
 let darkModeButton = document.querySelector('#dark-mode-button');
 let team = document.querySelector('#team');
+let genXOnlyButton = document.querySelector('#gen-x-only-button');
 let pokedex = document.querySelector('#pokedex');
 let pokedexEntries = document.querySelectorAll('.pokedex-entry');
 
@@ -165,21 +166,25 @@ function filterHM() {
 
 function updateGeneration(gen) {
     console.log(gen)
+    genXOnlyButton.classList.remove('invisible')
     switch(gen) {
         case 1:
             gen === 1;
             selectedGeneration = rbyDexGen1;
+            genXOnlyButton.classList.add('invisible')
             break;
         case 2:
             gen === 2;
             selectedGeneration = gscDexGen2;
+            genXOnlyButton.textContent = "Gen 2 Only";
             break;
     }
     console.log(selectedGeneration)
     while (pokedex.hasChildNodes()) {
         pokedex.removeChild(pokedex.firstChild);
     }
-    displayAvailablePokemon()
+    displayAvailablePokemon();
+    closeNav();
 };
 
 function displayAvailablePokemon() {
