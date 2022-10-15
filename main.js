@@ -1,3 +1,13 @@
+// DOM Setup
+
+let body = document.querySelector('body');
+let darkModeButton = document.querySelector('#dark-mode-button');
+let team = document.querySelector('#team');
+let pokedex = document.querySelector('#pokedex');
+
+// function setup, global variables
+let darkMode = false;
+let selectedGeneration = rbyDexGen1;
 let teamMembers = [
     {
         "name": "",
@@ -90,23 +100,6 @@ let teamMembers = [
         ]
     }
 ];
-
-let darkMode = false;
-
-// DOM Setup
-
-let body = document.querySelector('body');
-
-let darkModeButton = document.querySelector('#dark-mode-button');
-
-let team = document.querySelector('#team');
-
-let pokedex = document.querySelector('#pokedex');
-
-// function setup, global variables
-
-let selectedGeneration = generation1Pokemon;
-
 // Get the offset position of the team window
 let sticky = team.offsetTop;
 
@@ -145,11 +138,11 @@ function displayAvailablePokemon() {
     for (let i = 0; i < selectedGeneration.length; i++) {
         let pokedexEntry = document.createElement('div');
         pokedexEntry.classList.add('pokedex-entry')
-        pokedexEntry.setAttribute('data-id', `${selectedGeneration[i].id}`)
+        pokedexEntry.setAttribute('data-id', `${selectedGeneration[i].entry_number}`)
         pokedexEntry.style.backgroundColor = `var(--${selectedGeneration[i].types[0].type.name})`;
         let pokedexImage = document.createElement('img');
         pokedexImage.classList.add('pokedex-image')
-        pokedexImage.src = selectedGeneration[i].image
+        pokedexImage.src = selectedGeneration[i].sprite
         pokedexImage.alt = selectedGeneration[i].name
         pokedexImage.ondragstart = function () { return false; };
         let pokedexName = document.createElement('p');
@@ -157,7 +150,7 @@ function displayAvailablePokemon() {
         pokedexName.textContent = selectedGeneration[i].name;
         let pokedexID = document.createElement('p');
         pokedexID.classList.add('pokedex-id');
-        pokedexID.textContent = `#${selectedGeneration[i].id}`;
+        pokedexID.textContent = `#${selectedGeneration[i].entry_number}`;
         pokedex.appendChild(pokedexEntry);
         pokedexEntry.addEventListener('click', addToTeam)
         pokedexEntry.appendChild(pokedexImage);
@@ -168,7 +161,7 @@ function displayAvailablePokemon() {
 };
 
 function addToTeam() {
-    let id = (this.getAttribute('data-id') - 1)
+    let id = (this.getAttribute('entry_number') - 1)
     let selectedPokemon = selectedGeneration[id]
     for (let i = 0; i < 6; i++) {
         if (teamMembers[i].name === "") {
@@ -219,21 +212,16 @@ function updateTeam(position) {
     };
 };
 
+//option functions
+
+function preventTypeOverlap() {
+
+}
+
+function filterHM() {
+
+}
+
 //run on load
 displayAvailablePokemon()
 darkModeToggle()
-
-/* 
-// function used to update basic object pulled from PokeAPI - saving for reuse if other generations added
-
-function updateObject() {
-    for (let i = 0; i < generation1Pokemon.length; i++) {
-        let pokemonID = i + 1;
-        generation1Pokemon[i].id = pokemonID;
-        generation1Pokemon[i].image = `images/sprites/pokemon/versions/generation-i/red-blue/transparent/${pokemonID}.png`;
-        let capitalisedName = (generation1Pokemon[i].name.charAt(0).toUpperCase()) + (generation1Pokemon[i].name.slice(1));
-        generation1Pokemon[i].name = capitalisedName;
-    };
-}
-
-*/
