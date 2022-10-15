@@ -171,12 +171,21 @@ function updateGeneration(gen) {
         case 1:
             gen === 1;
             selectedGeneration = rbyDexGen1;
+            genXOnlyButton.setAttribute('data-id', `1`);
             genXOnlyButton.classList.add('invisible')
+            
             break;
         case 2:
             gen === 2;
             selectedGeneration = gscDexGen2;
             genXOnlyButton.textContent = "Gen 2 Only";
+            genXOnlyButton.setAttribute('data-id', `2`);
+            break;
+        case 3:
+            gen === 3;
+            selectedGeneration = rseDexGen3;
+            genXOnlyButton.textContent = "Gen 3 Only";
+            genXOnlyButton.setAttribute('data-id', `3`);
             break;
     }
     console.log(selectedGeneration)
@@ -278,7 +287,9 @@ function preventTypeOverlap() {
 
 }
 
-
+function genXOnly() {
+    
+}
 
 //run on load
 displayAvailablePokemon()
