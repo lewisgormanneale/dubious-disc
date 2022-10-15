@@ -6014,6 +6014,8 @@ let rbyDexGen1 = [
     }
 ];
 
+let rbyHMsGen1 = [];
+
 let gscDexGen2 = [
     {
         "entry_number": 1,
