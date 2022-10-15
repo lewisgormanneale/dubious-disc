@@ -112,8 +112,17 @@ function stickyTeamWindow() {
   }
 }
 
+//navbar functionality
+
+function openNav() {
+    document.getElementById("navbar").style.width = "33%";
+}
+
+function closeNav() {
+    document.getElementById("navbar").style.width = "0";
+}
+
 //dark mode
-darkModeButton.addEventListener('click', darkModeToggle);
 function darkModeToggle() {
     if (darkMode === false) {
         body.classList.add('dark-mode');
@@ -250,3 +259,4 @@ function preventTypeOverlap() {
 //run on load
 displayAvailablePokemon()
 darkModeToggle()
+closeNav()

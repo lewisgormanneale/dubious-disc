@@ -12,21 +12,22 @@
 <body>
     <header id="header">
         <div id="game-select-container">
-            <button id="game-select-button" class="header-button">Game Select</button>
-            <ul id="navbar" class="invisible">
-                <li><a>Pokémon R/B/Y</a></li>
-                <li><a>Pokémon G/S/C</a></li>
-                <li>Pokémon R/S/E</li>
-                <li>Pokémon FR/LG</li>
-                <li>Pokémon D/P/P</li>
-                <li>Pokémon HG/SS</li>
-                <li>Pokémon B/W</li>
-                <li>Pokémon B2/W2</li>
-            </ul>
+            <button id="game-select-button" class="header-button" onclick="openNav()">Game Select</button>
+            <div id="navbar">
+                <a href="javascript:void(0)" id="close-button" onclick="closeNav()">&times;</a>
+                <a>Pokémon R/B/Y</a>
+                <a>Pokémon G/S/C</a>
+                <a>Pokémon R/S/E</a>
+                <a>Pokémon FR/LG</a>
+                <a>Pokémon D/P/P</a>
+                <a>Pokémon HG/SS</a>
+                <a>Pokémon B/W</a>
+                <a>Pokémon B2/W2</a>
+            </div>
         </div>  
         <h1 id="title">Pokémon Team Planner</h1>
         <div id="dark-mode-container">
-            <button id="dark-mode-button" class="header-button">Dark Mode</button>
+            <button id="dark-mode-button" class="header-button" onclick="darkModeToggle()">Dark Mode</button>
         </div>
         
     </header>
