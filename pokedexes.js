@@ -102,7 +102,7 @@ async function hmData() {
     console.log(rbyDexGen1);
 };
 
-//done so far: data imported, hms assigned, hmData function ran and results checked against pokedb
+//done so far: data imported, hms assigned, hmData function ran for all hms and results checked against pokedb along with types
 let rbyDexGen1 = [
     {
         "entry_number": 1,

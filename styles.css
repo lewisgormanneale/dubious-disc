@@ -63,6 +63,7 @@ button {
     border: 10px solid transparent;
     border-image: url('/images/pokemon-text-box.png') 15 round;
     cursor: pointer;
+    font-weight: bold;
 }
 
 body {
@@ -163,7 +164,8 @@ main {
     align-items: center;
     width: 100%;
     background-color: darkred;
-    height: 25vh;
+    height: 30vh;
+    border: 5px solid black;
 }
 
 .team-member {
@@ -175,24 +177,30 @@ main {
     text-align: center;
     font-size: 1.2vmin;
     border-radius: 10%;
-    height: 20vh;
+    height: 25vh;
     width: 15vw;
     color: black;
     cursor: pointer;
 }
 
 .team-member-image {
-    width: max-content;
+    margin-top: 100px;
+    object-fit: contain;
+    width: 100%;
+    min-width: 100px;
     height: auto;
 }
 
-.types {
-    padding: 4px;
+.team-member-name {
+    font-weight: bolder;
+    font-size: 1.6em;
 }
 
 .type {
     display: inline-block;
     width: 66px;
+    padding: 4px;
+    margin: 4px;
     border-radius: 4px;
     margin-bottom: 4px;
     border: 1px solid black;
@@ -201,6 +209,7 @@ main {
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
     font-family: 'Fira Sans', sans-serif;
+    font-size: 1.1em;
 }
 
 #evaluate-team {
@@ -236,6 +245,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     background-color: var(--primary-background-color);
     color: var(--primary-color);
 }
@@ -247,12 +257,15 @@ main {
     align-items: center;
     width: 125px;
     height: 125px;
-    margin: 5px;
     padding: 10px;
     font-size: 0.7em;
     color: black;
     cursor: pointer;
-    
+    font-weight: bold;   
+}
+
+.pokedex-name {
+    font-weight: bolder;   
 }
 
 #faq {

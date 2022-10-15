@@ -165,7 +165,6 @@ function filterHM() {
 } */
 
 function updateGeneration(gen) {
-    console.log(gen)
     genXOnlyButton.classList.remove('invisible')
     switch(gen) {
         case 1:
@@ -255,6 +254,7 @@ function updateTeam(position) {
     let teamMemberName = document.createElement('p');
     teamMemberName.textContent = teamMember.name;
     teamMemberName.textContent = teamMember.name.charAt(0).toUpperCase() + teamMemberName.textContent.slice(1)
+    teamMemberName.classList.add('team-member-name');
     let teamMemberTypes = document.createElement('div');
     teamMemberImage.classList.add('types')
     let teamMemberType1 = document.createElement('p');
