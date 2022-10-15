@@ -10,94 +10,88 @@ let darkMode = false;
 let selectedGeneration = rbyDexGen1;
 let teamMembers = [
     {
+        "entry_number": 0,
         "name": "",
-        "url": "",
-        "id": 0,
-        "image": "images/sprites/pokemon/0.png",
         "types": [
             {
                 "slot": 1,
                 "type": {
                     "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/1/"
+                    "url": "https://pokeapi.co/api/v2/type/12/"
                 }
             }
-        ]
+        ],
+        "sprite": "images/sprites/pokemon/0.png",
     },
     {
+        "entry_number": 0,
         "name": "",
-        "url": "",
-        "id": 0,
-        "image": "images/sprites/pokemon/0.png",
         "types": [
             {
                 "slot": 1,
                 "type": {
                     "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/1/"
+                    "url": "https://pokeapi.co/api/v2/type/12/"
                 }
             }
-        ]
+        ],
+        "sprite": "images/sprites/pokemon/0.png",
     },
     {
+        "entry_number": 0,
         "name": "",
-        "url": "",
-        "id": 0,
-        "image": "images/sprites/pokemon/0.png",
         "types": [
             {
                 "slot": 1,
                 "type": {
                     "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/1/"
+                    "url": "https://pokeapi.co/api/v2/type/12/"
                 }
             }
-        ]
+        ],
+        "sprite": "images/sprites/pokemon/0.png",
     },
     {
+        "entry_number": 0,
         "name": "",
-        "url": "",
-        "id": 0,
-        "image": "images/sprites/pokemon/0.png",
         "types": [
             {
                 "slot": 1,
                 "type": {
                     "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/1/"
+                    "url": "https://pokeapi.co/api/v2/type/12/"
                 }
             }
-        ]
+        ],
+        "sprite": "images/sprites/pokemon/0.png",
     },
     {
+        "entry_number": 0,
         "name": "",
-        "url": "",
-        "id": 0,
-        "image": "images/sprites/pokemon/0.png",
         "types": [
             {
                 "slot": 1,
                 "type": {
                     "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/1/"
+                    "url": "https://pokeapi.co/api/v2/type/12/"
                 }
             }
-        ]
+        ],
+        "sprite": "images/sprites/pokemon/0.png",
     },
     {
+        "entry_number": 0,
         "name": "",
-        "url": "",
-        "id": 0,
-        "image": "images/sprites/pokemon/0.png",
         "types": [
             {
                 "slot": 1,
                 "type": {
                     "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/1/"
+                    "url": "https://pokeapi.co/api/v2/type/12/"
                 }
             }
-        ]
+        ],
+        "sprite": "images/sprites/pokemon/0.png",
     }
 ];
 // Get the offset position of the team window
@@ -161,10 +155,10 @@ function displayAvailablePokemon() {
 };
 
 function addToTeam() {
-    let id = (this.getAttribute('entry_number') - 1)
-    let selectedPokemon = selectedGeneration[id]
+    let arrayPos = (this.getAttribute('data-id') - 1)
+    let selectedPokemon = selectedGeneration[arrayPos]
     for (let i = 0; i < 6; i++) {
-        if (teamMembers[i].name === "") {
+        if (teamMembers[i].entry_number === 0) {
             teamMembers[i] = selectedPokemon;
             let position = i;
             updateTeam(position);
@@ -182,7 +176,7 @@ function updateTeam(position) {
     teamMemberCard.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
     let teamMemberImage = document.createElement('img');
     teamMemberImage.classList.add('team-member-image')
-    teamMemberImage.src = teamMember.image;
+    teamMemberImage.src = teamMember.sprite;
     teamMemberImage.alt = teamMember.name;
     let teamMemberName = document.createElement('p');
     teamMemberName.textContent = teamMember.name;
