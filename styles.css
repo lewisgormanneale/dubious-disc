@@ -61,7 +61,7 @@ button {
     background-clip: padding-box;
     color: black;
     border: 10px solid transparent;
-    border-image: url('/images/pokemon-text-box.png') 15 round;
+    border-image: url('./images/pokemon-text-box.png') 15 round;
     cursor: pointer;
     font-weight: bold;
 }
