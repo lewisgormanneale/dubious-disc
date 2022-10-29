@@ -1,5 +1,4 @@
 // DOM Setup
-
 let body = document.querySelector('body');
 let darkModeButton = document.querySelector('#dark-mode-button');
 let team = document.querySelector('#team');
@@ -9,7 +8,8 @@ let pokedexEntries = document.querySelectorAll('.pokedex-entry');
 
 // function setup, global variables
 let darkMode = false;
-let selectedGeneration = rbyDexGen1;
+let selectedGeneration = 'gen-1-rby.js'
+let generationLink = `../data/pokedexes/${selectedGeneration}`
 let teamMembers = [
     {
         "entry_number": 0,
@@ -96,6 +96,7 @@ let teamMembers = [
         "sprite": "images/sprites/pokemon/0.png",
     }
 ];
+
 // Get the offset position of the team window
 let sticky = team.offsetTop;
 
@@ -106,8 +107,6 @@ window.addEventListener("scroll", stickyTeamWindow);
 function stickyTeamWindow() {
   if (window.pageYOffset > sticky) {
     team.classList.add("sticky");
-    console.log('hello')
-    console.log(window)
   } else {
     team.classList.remove("sticky");
   }
@@ -166,10 +165,11 @@ function filterHM() {
 
 function updateGeneration(gen) {
     genXOnlyButton.classList.remove('invisible')
+    
     switch(gen) {
         case 1:
             gen === 1;
-            selectedGeneration = rbyDexGen1;
+            generationLink = ''
             genXOnlyButton.setAttribute('data-id', `1`);
             genXOnlyButton.classList.add('invisible')
             
@@ -195,7 +195,9 @@ function updateGeneration(gen) {
     closeNav();
 };
 
-function displayAvailablePokemon() {
+async function displayAvailablePokemon() {
+    let data = await import(generationLink);
+    selectedGeneration = await data.gen1rbyDex;
     for (let i = 0; i < selectedGeneration.length; i++) {
         let pokedexEntry = document.createElement('div');
         pokedexEntry.classList.add('pokedex-entry')
@@ -296,3 +298,12 @@ function genXOnly() {
 displayAvailablePokemon()
 darkModeToggle()
 closeNav()
+
+
+function fixSpriteURL() {
+    console.log(selectedGeneration)
+    for (let i = 0; i < selectedGeneration.length; i++) {
+        selectedGeneration[i].sprite = '../' + selectedGeneration[i].sprite
+    };
+    console.log(selectedGeneration)
+};

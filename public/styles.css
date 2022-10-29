@@ -25,11 +25,6 @@
     --shadow: black;
 }
 
-@font-face {
-    font-family: 'PokemonGB';
-    src: url('/fonts/PokemonGB.ttf')
-}
-
 * {
     box-sizing: border-box;
     border: 0;
