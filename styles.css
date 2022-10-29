@@ -184,11 +184,9 @@ main {
 }
 
 .team-member-image {
-    margin-top: 100px;
     object-fit: contain;
     width: 100%;
     min-width: 100px;
-    height: auto;
 }
 
 .team-member-name {

@@ -243,42 +243,43 @@ function addToTeam() {
 };
 
 function updateTeam(position) {
-    let teamMember = teamMembers[position];
-    let teamMemberCard = document.createElement('div');
+    const teamMember = teamMembers[position];
+    const teamMemberCard = document.createElement('div');
     teamMemberCard.classList.add('team-member');
     teamMemberCard.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
-    let teamMemberImage = document.createElement('img');
+
+    const teamMemberImage = document.createElement('img');
     teamMemberImage.classList.add('team-member-image')
     teamMemberImage.src = teamMember.sprite;
     teamMemberImage.alt = teamMember.name;
-    let teamMemberName = document.createElement('p');
+    
+    const teamMemberName = document.createElement('p');
     teamMemberName.textContent = teamMember.name;
     teamMemberName.textContent = teamMember.name.charAt(0).toUpperCase() + teamMemberName.textContent.slice(1)
     teamMemberName.classList.add('team-member-name');
-    let teamMemberTypes = document.createElement('div');
+
+    const teamMemberTypes = document.createElement('div');
     teamMemberImage.classList.add('types')
-    let teamMemberType1 = document.createElement('p');
+
+    const teamMemberType1 = document.createElement('p');
     teamMemberType1.textContent = teamMember.types[0].type.name;
     teamMemberType1.textContent = teamMemberType1.textContent.charAt(0).toUpperCase() + teamMemberType1.textContent.slice(1)
     teamMemberType1.classList.add('type')
     teamMemberType1.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
+    
     team.appendChild(teamMemberCard);
     teamMemberCard.appendChild(teamMemberImage)
     teamMemberCard.appendChild(teamMemberName)
     teamMemberCard.appendChild(teamMemberTypes)
     teamMemberTypes.appendChild(teamMemberType1)
-    try {
-        if (typeof teamMember.types[1].type.name !== undefined) {
-        let teamMemberType2 = document.createElement('p');
+    if (teamMember.types[1]) {
+        const teamMemberType2 = document.createElement('p');
         teamMemberType2.textContent = teamMember.types[1].type.name;
         teamMemberType2.textContent = teamMemberType2.textContent.charAt(0).toUpperCase() + teamMemberType2.textContent.slice(1)
         teamMemberType2.classList.add('type')
         teamMemberType2.style.backgroundColor = `var(--${teamMember.types[1].type.name})`;
         teamMemberTypes.appendChild(teamMemberType2)
-        }
-    } catch(err) {
-        // just to stop an error going to the console when no second type exists
-    };
+    }
 };
 
 //option functions
