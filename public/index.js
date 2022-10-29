@@ -8,8 +8,10 @@ let pokedexEntries = document.querySelectorAll('.pokedex-entry');
 
 // function setup, global variables
 let darkMode = false;
-let selectedGeneration = 'gen-1-rby.js'
-let generationLink = `../data/pokedexes/${selectedGeneration}`
+
+let selectedGeneration = 'data.gen1rbyDex';
+let data = []
+
 let teamMembers = [
     {
         "entry_number": 0,
@@ -163,31 +165,31 @@ function filterHM() {
     }
 } */
 
-function updateGeneration(gen) {
+async function updateGeneration(gen) {
     genXOnlyButton.classList.remove('invisible')
-    
     switch(gen) {
         case 1:
             gen === 1;
-            generationLink = ''
+            data = await import('../data/pokedexes/gen-1-rby.js');
+            selectedGeneration = data.gen1rbyDex;
             genXOnlyButton.setAttribute('data-id', `1`);
             genXOnlyButton.classList.add('invisible')
-            
             break;
         case 2:
             gen === 2;
-            selectedGeneration = gscDexGen2;
+            data = await import('../data/pokedexes/gen-2-gsc.js');
+            selectedGeneration = data.gen2gscDex;
             genXOnlyButton.textContent = "Gen 2 Only";
             genXOnlyButton.setAttribute('data-id', `2`);
             break;
         case 3:
             gen === 3;
-            selectedGeneration = rseDexGen3;
+            data = await import('../data/pokedexes/gen-3-rse.js');
+            selectedGeneration = data.gen3rseDex;
             genXOnlyButton.textContent = "Gen 3 Only";
             genXOnlyButton.setAttribute('data-id', `3`);
             break;
     }
-    console.log(selectedGeneration)
     while (pokedex.hasChildNodes()) {
         pokedex.removeChild(pokedex.firstChild);
     }
@@ -196,8 +198,6 @@ function updateGeneration(gen) {
 };
 
 async function displayAvailablePokemon() {
-    let data = await import(generationLink);
-    selectedGeneration = await data.gen1rbyDex;
     for (let i = 0; i < selectedGeneration.length; i++) {
         let pokedexEntry = document.createElement('div');
         pokedexEntry.classList.add('pokedex-entry')
@@ -274,6 +274,7 @@ function updateTeam(position) {
     teamMemberCard.appendChild(teamMemberName)
     teamMemberCard.appendChild(teamMemberTypes)
     teamMemberTypes.appendChild(teamMemberType1)
+
     if (teamMember.types[1]) {
         const teamMemberType2 = document.createElement('p');
         teamMemberType2.textContent = teamMember.types[1].type.name;
@@ -295,15 +296,7 @@ function genXOnly() {
 }
 
 //run on load
-displayAvailablePokemon()
+
+updateGeneration(1)
 darkModeToggle()
 closeNav()
-
-
-function fixSpriteURL() {
-    console.log(selectedGeneration)
-    for (let i = 0; i < selectedGeneration.length; i++) {
-        selectedGeneration[i].sprite = '../' + selectedGeneration[i].sprite
-    };
-    console.log(selectedGeneration)
-};

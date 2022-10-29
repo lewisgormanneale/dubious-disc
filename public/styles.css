@@ -163,6 +163,10 @@ main {
     border: 5px solid black;
 }
 
+.team-half {
+    min-width: 300px;
+}
+
 .team-member {
     display: flex;
     flex-direction: column;
