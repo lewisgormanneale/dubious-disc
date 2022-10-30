@@ -5,8 +5,6 @@ let darkModeButton = document.querySelector('#dark-mode-button');
 
 let teamAndOptions = document.querySelector('#team-and-options');
 let team = document.querySelector('#team');
-let team1to3 = document.querySelector('#team1-3');
-let team4to6 = document.querySelector('#team4-6');
 
 let genXOnlyButton = document.querySelector('#gen-x-only-button');
 let pokedex = document.querySelector('#pokedex');
@@ -333,13 +331,12 @@ function updateTeam(position) {
     teamMemberName.classList.add('team-member-name');
 
     const teamMemberTypes = document.createElement('div');
-    teamMemberImage.classList.add('types')
+    teamMemberTypes.classList.add('types')
 
-    const teamMemberType1 = document.createElement('p');
-    teamMemberType1.textContent = teamMember.types[0].type.name;
-    teamMemberType1.textContent = teamMemberType1.textContent.charAt(0).toUpperCase() + teamMemberType1.textContent.slice(1)
+    const teamMemberType1 = document.createElement('img');
+    teamMemberType1.src = `./images/type-icons/${teamMember.types[0].type.name}.svg`;
+    teamMemberType1.alt = teamMember.types[0].type.name;
     teamMemberType1.classList.add('type')
-    teamMemberType1.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
     
     team.appendChild(teamMemberCard);
     teamMemberCard.appendChild(teamMemberImage)
@@ -348,11 +345,10 @@ function updateTeam(position) {
     teamMemberTypes.appendChild(teamMemberType1)
 
     if (teamMember.types[1]) {
-        const teamMemberType2 = document.createElement('p');
-        teamMemberType2.textContent = teamMember.types[1].type.name;
-        teamMemberType2.textContent = teamMemberType2.textContent.charAt(0).toUpperCase() + teamMemberType2.textContent.slice(1)
+        const teamMemberType2 = document.createElement('img');
+        teamMemberType2.src = `./images/type-icons/${teamMember.types[1].type.name}.svg`;
+        teamMemberType2.alt = teamMember.types[1].type.name;
         teamMemberType2.classList.add('type')
-        teamMemberType2.style.backgroundColor = `var(--${teamMember.types[1].type.name})`;
         teamMemberTypes.appendChild(teamMemberType2)
     }
 };

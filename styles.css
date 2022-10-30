@@ -55,7 +55,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-
 }
 
 #header {
@@ -168,7 +167,7 @@ main {
 
 #team {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
     width: 100%;
@@ -196,7 +195,11 @@ main {
 }
 
 .team-member {
-    color: black;
+    margin-right: auto
+}
+
+.team-member:first-of-type {
+    margin-left: 20px;
 }
 
 .team-member-image {
@@ -210,24 +213,17 @@ main {
 
 .types {
     display: flex;
-    justify-content: center;
+    height: 20px;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
 }
+
 .type {
     display: inline-block;
-    height: 20px;
-    width: 50px;
-    padding: 4px;
-    margin: 4px;
-    border-radius: 4px;
-    margin-bottom: 4px;
-    border: 1px solid black;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 1em;
+    height: 18px;
+    width: 18px;
+    margin: 2px;
 }
 
 #options {
