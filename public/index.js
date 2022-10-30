@@ -154,17 +154,21 @@ async function displayAvailablePokemon() {
         pokedexEntry.classList.add('pokedex-entry')
         pokedexEntry.setAttribute('data-id', `${selectedGeneration[i].entry_number}`)
         pokedexEntry.style.backgroundColor = `var(--${selectedGeneration[i].types[0].type.name})`;
+
         let pokedexImage = document.createElement('img');
         pokedexImage.classList.add('pokedex-image')
         pokedexImage.src = selectedGeneration[i].sprite
         pokedexImage.alt = selectedGeneration[i].name
         pokedexImage.ondragstart = function () { return false; };
+
         let pokedexName = document.createElement('p');
         pokedexName.classList.add('pokedex-name')
         pokedexName.textContent = selectedGeneration[i].name.charAt(0).toUpperCase() + selectedGeneration[i].name.slice(1);
+
         let pokedexID = document.createElement('p');
         pokedexID.classList.add('pokedex-id');
         pokedexID.textContent = `#${selectedGeneration[i].entry_number}`;
+
         let learnableHMs = selectedGeneration[i].hms;
         for (let j = 0; j < learnableHMs.length; j++) {
             if (learnableHMs[j].can_learn === true) {
@@ -257,12 +261,15 @@ async function updateGeneration(gen) {
     closeNav();
 };
 
-// hm filtering
+
+// HM Checkboxes
 
 function populateHMs() {
+    // Remove existing HM checkboxes on generation switch
     while (hms.hasChildNodes()) {
         hms.removeChild(hms.firstChild);
     }
+    // Populate HMs based on values found in selected generation Pokemon object
     for (let i = 0; i < selectedGeneration[0].hms.length; i++) {
         let hmInput = document.createElement('input');
         hmInput.type = 'checkbox';
@@ -280,12 +287,13 @@ function populateHMs() {
     }
 }
 
-let hmCheckboxes = document.querySelectorAll(".check");
-
 function filterHM() {
+    // 
+    let hmCheckboxes = document.querySelectorAll(".check");
+    //
     hmCheckboxes.forEach((hm) => {
         if (!(hm.checked)) {
-            let hmShow = document.querySelectorAll(`.${hm.name}`)
+            let hmShow = document.querySelectorAll(`.${hm.value}`)
             for (let i = 0; i < hmShow.length; i++) {
                 hmShow[i].classList.remove('invisible');
             }
@@ -293,7 +301,7 @@ function filterHM() {
     })
     hmCheckboxes.forEach((hm) => {
         if (hm.checked) {
-            let hmHide = document.querySelectorAll(`div:not(.${hm.name}).pokedex-entry`)
+            let hmHide = document.querySelectorAll(`div:not(.${hm.value}).pokedex-entry`)
             for (let i = 0; i < hmHide.length; i++) {
                 hmHide[i].classList.add('invisible');
             }
