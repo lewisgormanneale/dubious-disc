@@ -219,38 +219,39 @@ async function updateGeneration(gen) {
             break;
         case 4:
             gen === 4;
-            data = await import('../data/pokedexes/gen-3-rse.js');
-            selectedGeneration = data.gen3rseDex;
+            data = await import('../data/pokedexes/gen-4-dp.js');
+            selectedGeneration = data.gen4dpDex;
+            console.log(selectedGeneration)
             genXOnlyButton.textContent = "Gen 4 Only";
             genXOnlyButton.setAttribute('data-id', `4`);
             break;
         case 4.1:
             gen === 4.1;
-            data = await import('../data/pokedexes/gen-3-rse.js');
-            selectedGeneration = data.gen3rseDex;
+            data = await import('../data/pokedexes/gen-4-pt.js');
+            selectedGeneration = data.gen4ptDex;
             genXOnlyButton.textContent = "Gen 4 Only";
             genXOnlyButton.setAttribute('data-id', `4`);
             break;
         case 4.5:
             gen === 4.5;
-            data = await import('../data/pokedexes/gen-3-rse.js');
-            selectedGeneration = data.gen3rseDex;
-            genXOnlyButton.textContent = "Gen 4 Only";
-            genXOnlyButton.setAttribute('data-id', `4`);
+            data = await import('../data/pokedexes/gen-4-hgss.js');
+            selectedGeneration = data.gen4hgssDex;
+            genXOnlyButton.textContent = "Gen 2 Only";
+            genXOnlyButton.setAttribute('data-id', `2`);
             break;
         case 5:
             gen === 5;
-            data = await import('../data/pokedexes/gen-3-rse.js');
-            selectedGeneration = data.gen3rseDex;
-            genXOnlyButton.textContent = "Gen 4 Only";
-            genXOnlyButton.setAttribute('data-id', `4`);
+            data = await import('../data/pokedexes/gen-5-bw.js');
+            selectedGeneration = data.gen5bwDex;
+            genXOnlyButton.setAttribute('data-id', `5`);
+            genXOnlyButton.classList.add('invisible')
             break;
         case 5.5:
             gen === 5.5;
-            data = await import('../data/pokedexes/gen-3-rse.js');
-            selectedGeneration = data.gen3rseDex;
-            genXOnlyButton.textContent = "Gen 4 Only";
-            genXOnlyButton.setAttribute('data-id', `4`);
+            data = await import('../data/pokedexes/gen-5-bw2.js');
+            selectedGeneration = data.gen5bw2Dex;
+            genXOnlyButton.textContent = "Gen 5 Only";
+            genXOnlyButton.setAttribute('data-id', `5`);
             break;
     }
     while (pokedex.hasChildNodes()) {
