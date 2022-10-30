@@ -288,9 +288,7 @@ function populateHMs() {
 }
 
 function filterHM() {
-    // 
     let hmCheckboxes = document.querySelectorAll(".check");
-    //
     hmCheckboxes.forEach((hm) => {
         if (!(hm.checked)) {
             let hmShow = document.querySelectorAll(`.${hm.value}`)
