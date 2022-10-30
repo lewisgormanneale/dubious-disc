@@ -105,7 +105,8 @@ body {
     position: absolute;
     top: 0;
     right: 0px;
-    font-size: 36px;
+    font-size: 28px;
+    height: 50px;
     margin-left: 50px;
 }
 
@@ -162,26 +163,18 @@ main {
     position: fixed;
     flex-direction: column;
     width: 100%;
-    min-height: 250px;
+    min-height: 200px;
     z-index: 2;
 }
 
 #team {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
-    min-height: 125px;
+    min-height: 150px;
     background-color: darkred;
-}
-
-.team-half {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 50%;
-    min-width: 300px;
 }
 
 .pokemon {
@@ -190,21 +183,21 @@ main {
     justify-content: flex-end;
     align-items: center;
     text-align: center;
-    width: 125px;
-    height: 125px;
+    font-size: 1.2vmin;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    color: black;
+    cursor: pointer;
+}
+
+.pokemon-name {
+    font-weight: bolder;
+    font-size: 1.6em;
 }
 
 .team-member {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    text-align: center;
-    font-size: 1.2vmin;
-    height: 125px;
-    width: calc(100% / 3);
     color: black;
-    cursor: pointer;
 }
 
 .team-member-image {
@@ -214,13 +207,17 @@ main {
 
 .team-member-name {
     font-weight: bolder;
-    font-size: 1.6em;
 }
 
+.types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .type {
     display: inline-block;
-    height: 25px;
-    width: 66px;
+    height: 20px;
+    width: 50px;
     padding: 4px;
     margin: 4px;
     border-radius: 4px;
@@ -231,7 +228,7 @@ main {
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 #options {
@@ -239,7 +236,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    height: 60px;
+    height: 50px;
     width: 100%;
     background-color: var(--primary-background-color);
     color: var(--primary-color);
@@ -288,14 +285,6 @@ main {
 }
 
 .pokedex-entry {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 125px;
-    height: 125px;
-    padding: 10px;
-    font-size: 0.7em;
     color: black;
     cursor: pointer;
     font-weight: bold;   
@@ -328,6 +317,10 @@ main {
 }
 
 @media screen and (max-width: 600px) {
+    #team {
+        height: 275px;
+        flex-wrap: wrap;
+    }
     .team-half {
         width: 100%;
         min-width: 300px;

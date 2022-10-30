@@ -135,6 +135,7 @@ function darkModeToggle() {
 async function displayAvailablePokemon() {
     for (let i = 0; i < selectedGeneration.length; i++) {
         let pokedexEntry = document.createElement('div');
+        pokedexEntry.classList.add('pokemon')
         pokedexEntry.classList.add('pokedex-entry')
         pokedexEntry.setAttribute('data-id', `${selectedGeneration[i].entry_number}`)
         pokedexEntry.style.backgroundColor = `var(--${selectedGeneration[i].types[0].type.name})`;
@@ -176,63 +177,63 @@ async function updateGeneration(gen) {
     switch(gen) {
         case 1:
             gen === 1;
-            data = await import('../data/pokedexes/gen-1-rby.js');
+            data = await import('./data/pokedexes/gen-1-rby.js');
             selectedGeneration = data.gen1rbyDex;
             genXOnlyButton.setAttribute('data-id', `1`);
             genXOnlyButton.classList.add('invisible')
             break;
         case 2:
             gen === 2;
-            data = await import('../data/pokedexes/gen-2-gsc.js');
+            data = await import('./data/pokedexes/gen-2-gsc.js');
             selectedGeneration = data.gen2gscDex;
             genXOnlyButton.textContent = "Gen 2 Only";
             genXOnlyButton.setAttribute('data-id', `2`);
             break;
         case 3:
             gen === 3;
-            data = await import('../data/pokedexes/gen-3-rse.js');
+            data = await import('./data/pokedexes/gen-3-rse.js');
             selectedGeneration = data.gen3rseDex;
             genXOnlyButton.textContent = "Gen 3 Only";
             genXOnlyButton.setAttribute('data-id', `3`);
             break;
         case 3.5:
             gen === 3.5;
-            data = await import('../data/pokedexes/gen-3-frlg.js');
+            data = await import('./data/pokedexes/gen-3-frlg.js');
             selectedGeneration = data.gen3frlgDex;
             genXOnlyButton.setAttribute('data-id', `1`);
             genXOnlyButton.classList.add('invisible')
             break;
         case 4:
             gen === 4;
-            data = await import('../data/pokedexes/gen-4-dp.js');
+            data = await import('./data/pokedexes/gen-4-dp.js');
             selectedGeneration = data.gen4dpDex;
             genXOnlyButton.textContent = "Gen 4 Only";
             genXOnlyButton.setAttribute('data-id', `4`);
             break;
         case 4.1:
             gen === 4.1;
-            data = await import('../data/pokedexes/gen-4-pt.js');
+            data = await import('./data/pokedexes/gen-4-pt.js');
             selectedGeneration = data.gen4ptDex;
             genXOnlyButton.textContent = "Gen 4 Only";
             genXOnlyButton.setAttribute('data-id', `4`);
             break;
         case 4.5:
             gen === 4.5;
-            data = await import('../data/pokedexes/gen-4-hgss.js');
+            data = await import('./data/pokedexes/gen-4-hgss.js');
             selectedGeneration = data.gen4hgssDex;
             genXOnlyButton.textContent = "Gen 2 Only";
             genXOnlyButton.setAttribute('data-id', `2`);
             break;
         case 5:
             gen === 5;
-            data = await import('../data/pokedexes/gen-5-bw.js');
+            data = await import('./data/pokedexes/gen-5-bw.js');
             selectedGeneration = data.gen5bwDex;
             genXOnlyButton.setAttribute('data-id', `5`);
             genXOnlyButton.classList.add('invisible')
             break;
         case 5.5:
             gen === 5.5;
-            data = await import('../data/pokedexes/gen-5-bw2.js');
+            data = await import('./data/pokedexes/gen-5-bw2.js');
             selectedGeneration = data.gen5bw2Dex;
             genXOnlyButton.textContent = "Gen 5 Only";
             genXOnlyButton.setAttribute('data-id', `5`);
@@ -317,6 +318,7 @@ function addToTeam() {
 function updateTeam(position) {
     const teamMember = teamMembers[position];
     const teamMemberCard = document.createElement('div');
+    teamMemberCard.classList.add('pokemon');
     teamMemberCard.classList.add('team-member');
     teamMemberCard.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
 
@@ -339,12 +341,7 @@ function updateTeam(position) {
     teamMemberType1.classList.add('type')
     teamMemberType1.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
     
-    if (position < 3) {
-        team1to3.appendChild(teamMemberCard);
-    } else {
-        team4to6.appendChild(teamMemberCard);
-    };
-
+    team.appendChild(teamMemberCard);
     teamMemberCard.appendChild(teamMemberImage)
     teamMemberCard.appendChild(teamMemberName)
     teamMemberCard.appendChild(teamMemberTypes)
