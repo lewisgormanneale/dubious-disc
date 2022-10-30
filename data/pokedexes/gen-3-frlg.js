@@ -1,1059 +1,7266 @@
 export const gen3frlgDex = [
     {
       "entry_number": 1,
-      "pokemon_species": {
-        "name": "bulbasaur",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
-      }
+      "name": "bulbasaur",
+      "national_dex_id": 1,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/1.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 2,
-      "pokemon_species": {
-        "name": "ivysaur",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
-      }
+      "name": "ivysaur",
+      "national_dex_id": 2,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/2.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 3,
-      "pokemon_species": {
-        "name": "venusaur",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/3/"
-      }
+      "name": "venusaur",
+      "national_dex_id": 3,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/3.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 4,
-      "pokemon_species": {
-        "name": "charmander",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/4/"
-      }
+      "name": "charmander",
+      "national_dex_id": 4,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/4.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 5,
-      "pokemon_species": {
-        "name": "charmeleon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/5/"
-      }
+      "name": "charmeleon",
+      "national_dex_id": 5,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/5.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 6,
-      "pokemon_species": {
-        "name": "charizard",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/6/"
-      }
+      "name": "charizard",
+      "national_dex_id": 6,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/6.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 7,
-      "pokemon_species": {
-        "name": "squirtle",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/7/"
-      }
+      "name": "squirtle",
+      "national_dex_id": 7,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/7.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 8,
-      "pokemon_species": {
-        "name": "wartortle",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/8/"
-      }
+      "name": "wartortle",
+      "national_dex_id": 8,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/8.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 9,
-      "pokemon_species": {
-        "name": "blastoise",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/9/"
-      }
+      "name": "blastoise",
+      "national_dex_id": 9,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/9.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 10,
-      "pokemon_species": {
-        "name": "caterpie",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/10/"
-      }
+      "name": "caterpie",
+      "national_dex_id": 10,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/10.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 11,
-      "pokemon_species": {
-        "name": "metapod",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/11/"
-      }
+      "name": "metapod",
+      "national_dex_id": 11,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/11.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 12,
-      "pokemon_species": {
-        "name": "butterfree",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/12/"
-      }
+      "name": "butterfree",
+      "national_dex_id": 12,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/12.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 13,
-      "pokemon_species": {
-        "name": "weedle",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/13/"
-      }
+      "name": "weedle",
+      "national_dex_id": 13,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/13.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 14,
-      "pokemon_species": {
-        "name": "kakuna",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/14/"
-      }
+      "name": "kakuna",
+      "national_dex_id": 14,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/14.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 15,
-      "pokemon_species": {
-        "name": "beedrill",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/15/"
-      }
+      "name": "beedrill",
+      "national_dex_id": 15,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/15.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 16,
-      "pokemon_species": {
-        "name": "pidgey",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/16/"
-      }
+      "name": "pidgey",
+      "national_dex_id": 16,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/16.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 17,
-      "pokemon_species": {
-        "name": "pidgeotto",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/17/"
-      }
+      "name": "pidgeotto",
+      "national_dex_id": 17,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/17.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 18,
-      "pokemon_species": {
-        "name": "pidgeot",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/18/"
-      }
+      "name": "pidgeot",
+      "national_dex_id": 18,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/18.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 19,
-      "pokemon_species": {
-        "name": "rattata",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/19/"
-      }
+      "name": "rattata",
+      "national_dex_id": 19,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/19.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 20,
-      "pokemon_species": {
-        "name": "raticate",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/20/"
-      }
+      "name": "raticate",
+      "national_dex_id": 20,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/20.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 21,
-      "pokemon_species": {
-        "name": "spearow",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/21/"
-      }
+      "name": "spearow",
+      "national_dex_id": 21,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/21.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 22,
-      "pokemon_species": {
-        "name": "fearow",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/22/"
-      }
+      "name": "fearow",
+      "national_dex_id": 22,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/22.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 23,
-      "pokemon_species": {
-        "name": "ekans",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/23/"
-      }
+      "name": "ekans",
+      "national_dex_id": 23,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/23.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 24,
-      "pokemon_species": {
-        "name": "arbok",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/24/"
-      }
+      "name": "arbok",
+      "national_dex_id": 24,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/24.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 25,
-      "pokemon_species": {
-        "name": "pikachu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/25/"
-      }
+      "name": "pikachu",
+      "national_dex_id": 25,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "electric",
+            "url": "https://pokeapi.co/api/v2/type/13/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/25.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 26,
-      "pokemon_species": {
-        "name": "raichu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/26/"
-      }
+      "name": "raichu",
+      "national_dex_id": 26,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "electric",
+            "url": "https://pokeapi.co/api/v2/type/13/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/26.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 27,
-      "pokemon_species": {
-        "name": "sandshrew",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/27/"
-      }
+      "name": "sandshrew",
+      "national_dex_id": 27,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/27.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 28,
-      "pokemon_species": {
-        "name": "sandslash",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/28/"
-      }
+      "name": "sandslash",
+      "national_dex_id": 28,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/28.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 29,
-      "pokemon_species": {
-        "name": "nidoran-f",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/29/"
-      }
+      "name": "nidoran-f",
+      "national_dex_id": 29,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/29.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 30,
-      "pokemon_species": {
-        "name": "nidorina",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/30/"
-      }
+      "name": "nidorina",
+      "national_dex_id": 30,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/30.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 31,
-      "pokemon_species": {
-        "name": "nidoqueen",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/31/"
-      }
+      "name": "nidoqueen",
+      "national_dex_id": 31,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/31.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 32,
-      "pokemon_species": {
-        "name": "nidoran-m",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/32/"
-      }
+      "name": "nidoran-m",
+      "national_dex_id": 32,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/32.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 33,
-      "pokemon_species": {
-        "name": "nidorino",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/33/"
-      }
+      "name": "nidorino",
+      "national_dex_id": 33,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/33.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 34,
-      "pokemon_species": {
-        "name": "nidoking",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/34/"
-      }
+      "name": "nidoking",
+      "national_dex_id": 34,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/34.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 35,
-      "pokemon_species": {
-        "name": "clefairy",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/35/"
-      }
+      "name": "clefairy",
+      "national_dex_id": 35,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fairy",
+            "url": "https://pokeapi.co/api/v2/type/18/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/35.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 36,
-      "pokemon_species": {
-        "name": "clefable",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/36/"
-      }
+      "name": "clefable",
+      "national_dex_id": 36,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fairy",
+            "url": "https://pokeapi.co/api/v2/type/18/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/36.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 37,
-      "pokemon_species": {
-        "name": "vulpix",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/37/"
-      }
+      "name": "vulpix",
+      "national_dex_id": 37,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/37.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 38,
-      "pokemon_species": {
-        "name": "ninetales",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/38/"
-      }
+      "name": "ninetales",
+      "national_dex_id": 38,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/38.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 39,
-      "pokemon_species": {
-        "name": "jigglypuff",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/39/"
-      }
+      "name": "jigglypuff",
+      "national_dex_id": 39,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "fairy",
+            "url": "https://pokeapi.co/api/v2/type/18/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/39.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 40,
-      "pokemon_species": {
-        "name": "wigglytuff",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/40/"
-      }
+      "name": "wigglytuff",
+      "national_dex_id": 40,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "fairy",
+            "url": "https://pokeapi.co/api/v2/type/18/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/40.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 41,
-      "pokemon_species": {
-        "name": "zubat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/41/"
-      }
+      "name": "zubat",
+      "national_dex_id": 41,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/41.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 42,
-      "pokemon_species": {
-        "name": "golbat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/42/"
-      }
+      "name": "golbat",
+      "national_dex_id": 42,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/42.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 43,
-      "pokemon_species": {
-        "name": "oddish",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/43/"
-      }
+      "name": "oddish",
+      "national_dex_id": 43,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/43.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 44,
-      "pokemon_species": {
-        "name": "gloom",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/44/"
-      }
+      "name": "gloom",
+      "national_dex_id": 44,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/44.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 45,
-      "pokemon_species": {
-        "name": "vileplume",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/45/"
-      }
+      "name": "vileplume",
+      "national_dex_id": 45,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/45.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 46,
-      "pokemon_species": {
-        "name": "paras",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/46/"
-      }
+      "name": "paras",
+      "national_dex_id": 46,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/46.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 47,
-      "pokemon_species": {
-        "name": "parasect",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/47/"
-      }
+      "name": "parasect",
+      "national_dex_id": 47,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/47.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 48,
-      "pokemon_species": {
-        "name": "venonat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/48/"
-      }
+      "name": "venonat",
+      "national_dex_id": 48,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/48.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 49,
-      "pokemon_species": {
-        "name": "venomoth",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/49/"
-      }
+      "name": "venomoth",
+      "national_dex_id": 49,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/49.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 50,
-      "pokemon_species": {
-        "name": "diglett",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/50/"
-      }
+      "name": "diglett",
+      "national_dex_id": 50,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/50.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 51,
-      "pokemon_species": {
-        "name": "dugtrio",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/51/"
-      }
+      "name": "dugtrio",
+      "national_dex_id": 51,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/51.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 52,
-      "pokemon_species": {
-        "name": "meowth",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/52/"
-      }
+      "name": "meowth",
+      "national_dex_id": 52,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/52.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 53,
-      "pokemon_species": {
-        "name": "persian",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/53/"
-      }
+      "name": "persian",
+      "national_dex_id": 53,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/53.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 54,
-      "pokemon_species": {
-        "name": "psyduck",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/54/"
-      }
+      "name": "psyduck",
+      "national_dex_id": 54,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/54.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 55,
-      "pokemon_species": {
-        "name": "golduck",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/55/"
-      }
+      "name": "golduck",
+      "national_dex_id": 55,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/55.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 56,
-      "pokemon_species": {
-        "name": "mankey",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/56/"
-      }
+      "name": "mankey",
+      "national_dex_id": 56,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fighting",
+            "url": "https://pokeapi.co/api/v2/type/2/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/56.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 57,
-      "pokemon_species": {
-        "name": "primeape",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/57/"
-      }
+      "name": "primeape",
+      "national_dex_id": 57,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fighting",
+            "url": "https://pokeapi.co/api/v2/type/2/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/57.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 58,
-      "pokemon_species": {
-        "name": "growlithe",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/58/"
-      }
+      "name": "growlithe",
+      "national_dex_id": 58,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/58.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 59,
-      "pokemon_species": {
-        "name": "arcanine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/59/"
-      }
+      "name": "arcanine",
+      "national_dex_id": 59,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/59.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 60,
-      "pokemon_species": {
-        "name": "poliwag",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/60/"
-      }
+      "name": "poliwag",
+      "national_dex_id": 60,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/60.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 61,
-      "pokemon_species": {
-        "name": "poliwhirl",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/61/"
-      }
+      "name": "poliwhirl",
+      "national_dex_id": 61,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/61.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 62,
-      "pokemon_species": {
-        "name": "poliwrath",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/62/"
-      }
+      "name": "poliwrath",
+      "national_dex_id": 62,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "fighting",
+            "url": "https://pokeapi.co/api/v2/type/2/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/62.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 63,
-      "pokemon_species": {
-        "name": "abra",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/63/"
-      }
+      "name": "abra",
+      "national_dex_id": 63,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/63.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 64,
-      "pokemon_species": {
-        "name": "kadabra",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/64/"
-      }
+      "name": "kadabra",
+      "national_dex_id": 64,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/64.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 65,
-      "pokemon_species": {
-        "name": "alakazam",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/65/"
-      }
+      "name": "alakazam",
+      "national_dex_id": 65,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/65.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 66,
-      "pokemon_species": {
-        "name": "machop",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/66/"
-      }
+      "name": "machop",
+      "national_dex_id": 66,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fighting",
+            "url": "https://pokeapi.co/api/v2/type/2/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/66.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 67,
-      "pokemon_species": {
-        "name": "machoke",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/67/"
-      }
+      "name": "machoke",
+      "national_dex_id": 67,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fighting",
+            "url": "https://pokeapi.co/api/v2/type/2/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/67.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 68,
-      "pokemon_species": {
-        "name": "machamp",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/68/"
-      }
+      "name": "machamp",
+      "national_dex_id": 68,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fighting",
+            "url": "https://pokeapi.co/api/v2/type/2/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/68.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 69,
-      "pokemon_species": {
-        "name": "bellsprout",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/69/"
-      }
+      "name": "bellsprout",
+      "national_dex_id": 69,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/69.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 70,
-      "pokemon_species": {
-        "name": "weepinbell",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/70/"
-      }
+      "name": "weepinbell",
+      "national_dex_id": 70,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/70.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 71,
-      "pokemon_species": {
-        "name": "victreebel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/71/"
-      }
+      "name": "victreebel",
+      "national_dex_id": 71,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/71.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 72,
-      "pokemon_species": {
-        "name": "tentacool",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/72/"
-      }
+      "name": "tentacool",
+      "national_dex_id": 72,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/72.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 73,
-      "pokemon_species": {
-        "name": "tentacruel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/73/"
-      }
+      "name": "tentacruel",
+      "national_dex_id": 73,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/73.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 74,
-      "pokemon_species": {
-        "name": "geodude",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/74/"
-      }
+      "name": "geodude",
+      "national_dex_id": 74,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/74.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 75,
-      "pokemon_species": {
-        "name": "graveler",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/75/"
-      }
+      "name": "graveler",
+      "national_dex_id": 75,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/75.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 76,
-      "pokemon_species": {
-        "name": "golem",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/76/"
-      }
+      "name": "golem",
+      "national_dex_id": 76,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/76.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 77,
-      "pokemon_species": {
-        "name": "ponyta",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/77/"
-      }
+      "name": "ponyta",
+      "national_dex_id": 77,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/77.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 78,
-      "pokemon_species": {
-        "name": "rapidash",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/78/"
-      }
+      "name": "rapidash",
+      "national_dex_id": 78,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/78.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 79,
-      "pokemon_species": {
-        "name": "slowpoke",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/79/"
-      }
+      "name": "slowpoke",
+      "national_dex_id": 79,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/79.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 80,
-      "pokemon_species": {
-        "name": "slowbro",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/80/"
-      }
+      "name": "slowbro",
+      "national_dex_id": 80,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/80.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 81,
-      "pokemon_species": {
-        "name": "magnemite",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/81/"
-      }
+      "name": "magnemite",
+      "national_dex_id": 81,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "electric",
+            "url": "https://pokeapi.co/api/v2/type/13/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "steel",
+            "url": "https://pokeapi.co/api/v2/type/9/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/81.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 82,
-      "pokemon_species": {
-        "name": "magneton",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/82/"
-      }
+      "name": "magneton",
+      "national_dex_id": 82,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "electric",
+            "url": "https://pokeapi.co/api/v2/type/13/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "steel",
+            "url": "https://pokeapi.co/api/v2/type/9/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/82.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 83,
-      "pokemon_species": {
-        "name": "farfetchd",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/83/"
-      }
+      "name": "farfetchd",
+      "national_dex_id": 83,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/83.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 84,
-      "pokemon_species": {
-        "name": "doduo",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/84/"
-      }
+      "name": "doduo",
+      "national_dex_id": 84,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/84.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 85,
-      "pokemon_species": {
-        "name": "dodrio",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/85/"
-      }
+      "name": "dodrio",
+      "national_dex_id": 85,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/85.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 86,
-      "pokemon_species": {
-        "name": "seel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/86/"
-      }
+      "name": "seel",
+      "national_dex_id": 86,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/86.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 87,
-      "pokemon_species": {
-        "name": "dewgong",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/87/"
-      }
+      "name": "dewgong",
+      "national_dex_id": 87,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "ice",
+            "url": "https://pokeapi.co/api/v2/type/15/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/87.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 88,
-      "pokemon_species": {
-        "name": "grimer",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/88/"
-      }
+      "name": "grimer",
+      "national_dex_id": 88,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/88.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 89,
-      "pokemon_species": {
-        "name": "muk",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/89/"
-      }
+      "name": "muk",
+      "national_dex_id": 89,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/89.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 90,
-      "pokemon_species": {
-        "name": "shellder",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/90/"
-      }
+      "name": "shellder",
+      "national_dex_id": 90,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/90.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 91,
-      "pokemon_species": {
-        "name": "cloyster",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/91/"
-      }
+      "name": "cloyster",
+      "national_dex_id": 91,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "ice",
+            "url": "https://pokeapi.co/api/v2/type/15/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/91.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 92,
-      "pokemon_species": {
-        "name": "gastly",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/92/"
-      }
+      "name": "gastly",
+      "national_dex_id": 92,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ghost",
+            "url": "https://pokeapi.co/api/v2/type/8/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/92.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 93,
-      "pokemon_species": {
-        "name": "haunter",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/93/"
-      }
+      "name": "haunter",
+      "national_dex_id": 93,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ghost",
+            "url": "https://pokeapi.co/api/v2/type/8/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/93.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 94,
-      "pokemon_species": {
-        "name": "gengar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/94/"
-      }
+      "name": "gengar",
+      "national_dex_id": 94,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ghost",
+            "url": "https://pokeapi.co/api/v2/type/8/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/94.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 95,
-      "pokemon_species": {
-        "name": "onix",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/95/"
-      }
+      "name": "onix",
+      "national_dex_id": 95,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/95.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 96,
-      "pokemon_species": {
-        "name": "drowzee",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/96/"
-      }
+      "name": "drowzee",
+      "national_dex_id": 96,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/96.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 97,
-      "pokemon_species": {
-        "name": "hypno",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/97/"
-      }
+      "name": "hypno",
+      "national_dex_id": 97,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/97.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 98,
-      "pokemon_species": {
-        "name": "krabby",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/98/"
-      }
+      "name": "krabby",
+      "national_dex_id": 98,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/98.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 99,
-      "pokemon_species": {
-        "name": "kingler",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/99/"
-      }
+      "name": "kingler",
+      "national_dex_id": 99,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/99.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 100,
-      "pokemon_species": {
-        "name": "voltorb",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/100/"
-      }
+      "name": "voltorb",
+      "national_dex_id": 100,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "electric",
+            "url": "https://pokeapi.co/api/v2/type/13/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/100.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 101,
-      "pokemon_species": {
-        "name": "electrode",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/101/"
-      }
+      "name": "electrode",
+      "national_dex_id": 101,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "electric",
+            "url": "https://pokeapi.co/api/v2/type/13/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/101.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 102,
-      "pokemon_species": {
-        "name": "exeggcute",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/102/"
-      }
+      "name": "exeggcute",
+      "national_dex_id": 102,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/102.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 103,
-      "pokemon_species": {
-        "name": "exeggutor",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/103/"
-      }
+      "name": "exeggutor",
+      "national_dex_id": 103,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/103.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 104,
-      "pokemon_species": {
-        "name": "cubone",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/104/"
-      }
+      "name": "cubone",
+      "national_dex_id": 104,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/104.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 105,
-      "pokemon_species": {
-        "name": "marowak",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/105/"
-      }
+      "name": "marowak",
+      "national_dex_id": 105,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/105.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 106,
-      "pokemon_species": {
-        "name": "hitmonlee",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/106/"
-      }
+      "name": "hitmonlee",
+      "national_dex_id": 106,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fighting",
+            "url": "https://pokeapi.co/api/v2/type/2/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/106.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 107,
-      "pokemon_species": {
-        "name": "hitmonchan",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/107/"
-      }
+      "name": "hitmonchan",
+      "national_dex_id": 107,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fighting",
+            "url": "https://pokeapi.co/api/v2/type/2/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/107.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 108,
-      "pokemon_species": {
-        "name": "lickitung",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/108/"
-      }
+      "name": "lickitung",
+      "national_dex_id": 108,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/108.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 109,
-      "pokemon_species": {
-        "name": "koffing",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/109/"
-      }
+      "name": "koffing",
+      "national_dex_id": 109,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/109.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 110,
-      "pokemon_species": {
-        "name": "weezing",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/110/"
-      }
+      "name": "weezing",
+      "national_dex_id": 110,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/110.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 111,
-      "pokemon_species": {
-        "name": "rhyhorn",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/111/"
-      }
+      "name": "rhyhorn",
+      "national_dex_id": 111,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/111.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 112,
-      "pokemon_species": {
-        "name": "rhydon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/112/"
-      }
+      "name": "rhydon",
+      "national_dex_id": 112,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/type/5/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/112.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 113,
-      "pokemon_species": {
-        "name": "chansey",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/113/"
-      }
+      "name": "chansey",
+      "national_dex_id": 113,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/113.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 114,
-      "pokemon_species": {
-        "name": "tangela",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/114/"
-      }
+      "name": "tangela",
+      "national_dex_id": 114,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/114.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 115,
-      "pokemon_species": {
-        "name": "kangaskhan",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/115/"
-      }
+      "name": "kangaskhan",
+      "national_dex_id": 115,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/115.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 116,
-      "pokemon_species": {
-        "name": "horsea",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/116/"
-      }
+      "name": "horsea",
+      "national_dex_id": 116,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/116.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 117,
-      "pokemon_species": {
-        "name": "seadra",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/117/"
-      }
+      "name": "seadra",
+      "national_dex_id": 117,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/117.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 118,
-      "pokemon_species": {
-        "name": "goldeen",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/118/"
-      }
+      "name": "goldeen",
+      "national_dex_id": 118,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/118.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 119,
-      "pokemon_species": {
-        "name": "seaking",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/119/"
-      }
+      "name": "seaking",
+      "national_dex_id": 119,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/119.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 120,
-      "pokemon_species": {
-        "name": "staryu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/120/"
-      }
+      "name": "staryu",
+      "national_dex_id": 120,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/120.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 121,
-      "pokemon_species": {
-        "name": "starmie",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/121/"
-      }
+      "name": "starmie",
+      "national_dex_id": 121,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/121.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 122,
-      "pokemon_species": {
-        "name": "mr-mime",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/122/"
-      }
+      "name": "mr-mime",
+      "national_dex_id": 122,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "fairy",
+            "url": "https://pokeapi.co/api/v2/type/18/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/122.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 123,
-      "pokemon_species": {
-        "name": "scyther",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/123/"
-      }
+      "name": "scyther",
+      "national_dex_id": 123,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/123.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 124,
-      "pokemon_species": {
-        "name": "jynx",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/124/"
-      }
+      "name": "jynx",
+      "national_dex_id": 124,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ice",
+            "url": "https://pokeapi.co/api/v2/type/15/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/124.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 125,
-      "pokemon_species": {
-        "name": "electabuzz",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/125/"
-      }
+      "name": "electabuzz",
+      "national_dex_id": 125,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "electric",
+            "url": "https://pokeapi.co/api/v2/type/13/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/125.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 126,
-      "pokemon_species": {
-        "name": "magmar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/126/"
-      }
+      "name": "magmar",
+      "national_dex_id": 126,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/126.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 127,
-      "pokemon_species": {
-        "name": "pinsir",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/127/"
-      }
+      "name": "pinsir",
+      "national_dex_id": 127,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/127.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 128,
-      "pokemon_species": {
-        "name": "tauros",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/128/"
-      }
+      "name": "tauros",
+      "national_dex_id": 128,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/128.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 129,
-      "pokemon_species": {
-        "name": "magikarp",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/129/"
-      }
+      "name": "magikarp",
+      "national_dex_id": 129,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/129.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 130,
-      "pokemon_species": {
-        "name": "gyarados",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/130/"
-      }
+      "name": "gyarados",
+      "national_dex_id": 130,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/130.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 131,
-      "pokemon_species": {
-        "name": "lapras",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/131/"
-      }
+      "name": "lapras",
+      "national_dex_id": 131,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "ice",
+            "url": "https://pokeapi.co/api/v2/type/15/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/131.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 132,
-      "pokemon_species": {
-        "name": "ditto",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/132/"
-      }
+      "name": "ditto",
+      "national_dex_id": 132,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/132.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 133,
-      "pokemon_species": {
-        "name": "eevee",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/133/"
-      }
+      "name": "eevee",
+      "national_dex_id": 133,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/133.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 134,
-      "pokemon_species": {
-        "name": "vaporeon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/134/"
-      }
+      "name": "vaporeon",
+      "national_dex_id": 134,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/134.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 135,
-      "pokemon_species": {
-        "name": "jolteon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/135/"
-      }
+      "name": "jolteon",
+      "national_dex_id": 135,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "electric",
+            "url": "https://pokeapi.co/api/v2/type/13/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/135.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 136,
-      "pokemon_species": {
-        "name": "flareon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/136/"
-      }
+      "name": "flareon",
+      "national_dex_id": 136,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/136.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 137,
-      "pokemon_species": {
-        "name": "porygon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/137/"
-      }
+      "name": "porygon",
+      "national_dex_id": 137,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/137.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 138,
-      "pokemon_species": {
-        "name": "omanyte",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/138/"
-      }
+      "name": "omanyte",
+      "national_dex_id": 138,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/138.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 139,
-      "pokemon_species": {
-        "name": "omastar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/139/"
-      }
+      "name": "omastar",
+      "national_dex_id": 139,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/139.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 140,
-      "pokemon_species": {
-        "name": "kabuto",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/140/"
-      }
+      "name": "kabuto",
+      "national_dex_id": 140,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/140.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 141,
-      "pokemon_species": {
-        "name": "kabutops",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/141/"
-      }
+      "name": "kabutops",
+      "national_dex_id": 141,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/141.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 142,
-      "pokemon_species": {
-        "name": "aerodactyl",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/142/"
-      }
+      "name": "aerodactyl",
+      "national_dex_id": 142,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/142.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 143,
-      "pokemon_species": {
-        "name": "snorlax",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/143/"
-      }
+      "name": "snorlax",
+      "national_dex_id": 143,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "normal",
+            "url": "https://pokeapi.co/api/v2/type/1/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/143.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 144,
-      "pokemon_species": {
-        "name": "articuno",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/144/"
-      }
+      "name": "articuno",
+      "national_dex_id": 144,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "ice",
+            "url": "https://pokeapi.co/api/v2/type/15/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/144.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 145,
-      "pokemon_species": {
-        "name": "zapdos",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/145/"
-      }
+      "name": "zapdos",
+      "national_dex_id": 145,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "electric",
+            "url": "https://pokeapi.co/api/v2/type/13/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/145.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 146,
-      "pokemon_species": {
-        "name": "moltres",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/146/"
-      }
+      "name": "moltres",
+      "national_dex_id": 146,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/146.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 147,
-      "pokemon_species": {
-        "name": "dratini",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/147/"
-      }
+      "name": "dratini",
+      "national_dex_id": 147,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "dragon",
+            "url": "https://pokeapi.co/api/v2/type/16/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/147.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 148,
-      "pokemon_species": {
-        "name": "dragonair",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/148/"
-      }
+      "name": "dragonair",
+      "national_dex_id": 148,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "dragon",
+            "url": "https://pokeapi.co/api/v2/type/16/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/148.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 149,
-      "pokemon_species": {
-        "name": "dragonite",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/149/"
-      }
+      "name": "dragonite",
+      "national_dex_id": 149,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "dragon",
+            "url": "https://pokeapi.co/api/v2/type/16/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/149.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 150,
-      "pokemon_species": {
-        "name": "mewtwo",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/150/"
-      }
+      "name": "mewtwo",
+      "national_dex_id": 150,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/150.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     },
     {
       "entry_number": 151,
-      "pokemon_species": {
-        "name": "mew",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/151/"
-      }
+      "name": "mew",
+      "national_dex_id": 151,
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/151.png",
+      "hms": [
+        {
+          "name": "cut",
+          "can_learn": false
+        },
+        {
+          "name": "fly",
+          "can_learn": false
+        },
+        {
+          "name": "surf",
+          "can_learn": false
+        },
+        {
+          "name": "strength",
+          "can_learn": false
+        },
+        {
+          "name": "flash",
+          "can_learn": false
+        },
+        {
+          "name": "rock smash",
+          "can_learn": false
+        },
+        {
+          "name": "waterfall",
+          "can_learn": false
+        }
+      ]
     }
-];
+  ]

@@ -3,6 +3,7 @@ let body = document.querySelector('body');
 
 let darkModeButton = document.querySelector('#dark-mode-button');
 
+let teamAndOptions = document.querySelector('#team-and-options');
 let team = document.querySelector('#team');
 let team1to3 = document.querySelector('#team1-3');
 let team4to6 = document.querySelector('#team4-6');
@@ -105,7 +106,7 @@ let teamMembers = [
 ];
 
 // Get the offset position of the team window
-let sticky = team.offsetTop;
+let sticky = teamAndOptions.offsetTop;
 
 //functions
 
@@ -113,9 +114,9 @@ let sticky = team.offsetTop;
 window.addEventListener("scroll", stickyTeamWindow);
 function stickyTeamWindow() {
   if (window.pageYOffset > sticky) {
-    team.classList.add("sticky");
+    teamAndOptions.classList.add("sticky");
   } else {
-    team.classList.remove("sticky");
+    teamAndOptions.classList.remove("sticky");
   }
 }
 
@@ -196,8 +197,8 @@ async function updateGeneration(gen) {
             break;
         case 3.5:
             gen === 3.5;
-            data = await import('../data/pokedexes/gen-1-rby.js');
-            selectedGeneration = data.gen1rbyDex;
+            data = await import('../data/pokedexes/gen-3-frlg.js');
+            selectedGeneration = data.gen3frlgDex;
             genXOnlyButton.setAttribute('data-id', `1`);
             genXOnlyButton.classList.add('invisible')
             break;
