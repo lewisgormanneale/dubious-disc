@@ -36,25 +36,28 @@
             <div id="team1-3" class="team-half"></div>
             <div id="team4-6" class="team-half"></div>
         </section>
-        <section id="evaluate-team" class="content">
-            <button>Evaluate Team</button>
-        </section>
         <section id="options" class="content">
             <div>
                 <button onclick="preventTypeOverlap()">Prevent Type Overlap</button>
                 <button id="gen-x-only-button" class="invisible" onclick="genXOnly()">Gen 2 Only</button>
             </div>
-            <div id="hms">
-                <input type="checkbox" name="cut" onclick="filterHM()" class="check">
-                <label for="cut">Cut</label>
-                <input type="checkbox" name="fly" onclick="filterHM()" class="check">
-                <label for="fly">Fly</label>
-                <input type="checkbox" name="surf" onclick="filterHM()" class="check">
-                <label for="surf">Surf</label>
-                <input type="checkbox" name="strength" onclick="filterHM()" class="check">
-                <label for="strength">Strength</label>
-                <input type="checkbox" name="flash" onclick="filterHM()" class="check">
-                <label for="flash">Flash</label>
+            <div id="evaluate-team" class="content">
+                <button>Evaluate Team</button>
+            </div>
+            <div id="hm-filters">
+                <p>Filter by HM:</p>
+                <div id="hms">
+                    <input type="checkbox" name="cut" onclick="filterHM()" class="check">
+                    <label for="cut">Cut</label>
+                    <input type="checkbox" name="fly" onclick="filterHM()" class="check">
+                    <label for="fly">Fly</label>
+                    <input type="checkbox" name="surf" onclick="filterHM()" class="check">
+                    <label for="surf">Surf</label>
+                    <input type="checkbox" name="strength" onclick="filterHM()" class="check">
+                    <label for="strength">Strength</label>
+                    <input type="checkbox" name="flash" onclick="filterHM()" class="check">
+                    <label for="flash">Flash</label>
+                </div>
             </div>
         </section>
         <section id="pokedex">

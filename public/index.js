@@ -1,7 +1,12 @@
 // DOM Setup
 let body = document.querySelector('body');
+
 let darkModeButton = document.querySelector('#dark-mode-button');
+
 let team = document.querySelector('#team');
+let team1to3 = document.querySelector('#team1-3');
+let team4to6 = document.querySelector('#team4-6');
+
 let genXOnlyButton = document.querySelector('#gen-x-only-button');
 let pokedex = document.querySelector('#pokedex');
 let pokedexEntries = document.querySelectorAll('.pokedex-entry');
@@ -25,7 +30,7 @@ let teamMembers = [
                 }
             }
         ],
-        "sprite": "images/sprites/pokemon/0.png",
+        "sprite": "../images/sprites/pokemon/0.png",
     },
     {
         "entry_number": 0,
@@ -39,7 +44,7 @@ let teamMembers = [
                 }
             }
         ],
-        "sprite": "images/sprites/pokemon/0.png",
+        "sprite": "../images/sprites/pokemon/0.png",
     },
     {
         "entry_number": 0,
@@ -53,7 +58,7 @@ let teamMembers = [
                 }
             }
         ],
-        "sprite": "images/sprites/pokemon/0.png",
+        "sprite": "../images/sprites/pokemon/0.png",
     },
     {
         "entry_number": 0,
@@ -67,7 +72,7 @@ let teamMembers = [
                 }
             }
         ],
-        "sprite": "images/sprites/pokemon/0.png",
+        "sprite": "../images/sprites/pokemon/0.png",
     },
     {
         "entry_number": 0,
@@ -81,7 +86,7 @@ let teamMembers = [
                 }
             }
         ],
-        "sprite": "images/sprites/pokemon/0.png",
+        "sprite": "../images/sprites/pokemon/0.png",
     },
     {
         "entry_number": 0,
@@ -95,7 +100,7 @@ let teamMembers = [
                 }
             }
         ],
-        "sprite": "images/sprites/pokemon/0.png",
+        "sprite": "../images/sprites/pokemon/0.png",
     }
 ];
 
@@ -189,6 +194,48 @@ async function updateGeneration(gen) {
             genXOnlyButton.textContent = "Gen 3 Only";
             genXOnlyButton.setAttribute('data-id', `3`);
             break;
+        case 3.5:
+            gen === 3.5;
+            data = await import('../data/pokedexes/gen-1-rby.js');
+            selectedGeneration = data.gen1rbyDex;
+            genXOnlyButton.setAttribute('data-id', `1`);
+            genXOnlyButton.classList.add('invisible')
+            break;
+        case 4:
+            gen === 4;
+            data = await import('../data/pokedexes/gen-3-rse.js');
+            selectedGeneration = data.gen3rseDex;
+            genXOnlyButton.textContent = "Gen 4 Only";
+            genXOnlyButton.setAttribute('data-id', `4`);
+            break;
+        case 4.1:
+            gen === 4.1;
+            data = await import('../data/pokedexes/gen-3-rse.js');
+            selectedGeneration = data.gen3rseDex;
+            genXOnlyButton.textContent = "Gen 4 Only";
+            genXOnlyButton.setAttribute('data-id', `4`);
+            break;
+        case 4.5:
+            gen === 4.5;
+            data = await import('../data/pokedexes/gen-3-rse.js');
+            selectedGeneration = data.gen3rseDex;
+            genXOnlyButton.textContent = "Gen 4 Only";
+            genXOnlyButton.setAttribute('data-id', `4`);
+            break;
+        case 5:
+            gen === 5;
+            data = await import('../data/pokedexes/gen-3-rse.js');
+            selectedGeneration = data.gen3rseDex;
+            genXOnlyButton.textContent = "Gen 4 Only";
+            genXOnlyButton.setAttribute('data-id', `4`);
+            break;
+        case 5.5:
+            gen === 5.5;
+            data = await import('../data/pokedexes/gen-3-rse.js');
+            selectedGeneration = data.gen3rseDex;
+            genXOnlyButton.textContent = "Gen 4 Only";
+            genXOnlyButton.setAttribute('data-id', `4`);
+            break;
     }
     while (pokedex.hasChildNodes()) {
         pokedex.removeChild(pokedex.firstChild);
@@ -269,7 +316,12 @@ function updateTeam(position) {
     teamMemberType1.classList.add('type')
     teamMemberType1.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
     
-    team.appendChild(teamMemberCard);
+    if (position < 3) {
+        team1to3.appendChild(teamMemberCard);
+    } else {
+        team4to6.appendChild(teamMemberCard);
+    };
+
     teamMemberCard.appendChild(teamMemberImage)
     teamMemberCard.appendChild(teamMemberName)
     teamMemberCard.appendChild(teamMemberTypes)

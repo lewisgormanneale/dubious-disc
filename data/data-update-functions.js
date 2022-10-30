@@ -15,14 +15,6 @@ function updateObject() {
     };
 };
 
-
-function fixSpriteURL() {
-    for (let i = 0; i < selectedGeneration.length; i++) {
-        selectedGeneration[i].sprite = '../' + selectedGeneration[i].sprite
-    };
-};
-
-
 async function updatePokedexInfo() {
     for (let i = 0; i < rseDexGen3.length; i++) {
         let pokemonName = rseDexGen3[i].name
@@ -33,7 +25,7 @@ async function updatePokedexInfo() {
         rseDexGen3[i].name = pokemonName;
         rseDexGen3[i].national_dex_id = natDexID;
         rseDexGen3[i].types = jsonData.types;
-        rseDexGen3[i].sprite = `images/sprites/pokemon/versions/generation-iii/emerald/${natDexID}.png`
+        rseDexGen3[i].sprite = `../images/sprites/pokemon/versions/generation-iii/emerald/${natDexID}.png`
         delete rseDexGen3[i].pokemon_species
     };
     console.log(rseDexGen3)
@@ -99,10 +91,12 @@ async function hmData() {
     }
     console.log(rbyDexGen1);
 };
+
+
 //function to get new pokedex from PokeAPI with no extra data
 
 async function getNewPokedex() {
-    let call = await fetch('https://pokeapi.co/api/v2/pokedex/4');
+    let call = await fetch('https://pokeapi.co/api/v2/pokedex/2');
     let data = await call.json();
     console.log(data);
 };

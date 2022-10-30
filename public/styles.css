@@ -56,7 +56,7 @@ button {
     background-clip: padding-box;
     color: black;
     border: 10px solid transparent;
-    border-image: url('./images/pokemon-text-box.png') 15 round;
+    border-image: url('../images/pokemon-text-box.png') 15 round;
     cursor: pointer;
     font-weight: bold;
 }
@@ -155,15 +155,19 @@ main {
 
 #team {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
+    min-height: 200px;
     background-color: darkred;
-    height: 30vh;
-    border: 5px solid black;
 }
 
 .team-half {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
     min-width: 300px;
 }
 
@@ -172,12 +176,10 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    border: 10px solid black;
     text-align: center;
     font-size: 1.2vmin;
-    border-radius: 10%;
-    height: 25vh;
-    width: 15vw;
+    height: 200px;
+    width: calc(100% / 3);
     color: black;
     cursor: pointer;
 }
@@ -209,19 +211,6 @@ main {
     font-size: 1.1em;
 }
 
-#evaluate-team {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: darkred;
-    width: 100%;
-    padding-bottom: 10px;
-}
-
-#evaluate-team button {
-    padding: 10px;
-}
-
 #options {
     display: flex;
     justify-content: space-between;
@@ -233,8 +222,36 @@ main {
     color: var(--primary-color);
 }
 
-#options input {
-    padding-left: 20px;
+#options > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    min-width: 100px;
+}
+
+#options > div:first-of-type {
+    justify-content: flex-start;
+}
+
+#options > div:nth-of-type(3){
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#options > button {
+    padding: 10px;
+}
+
+#hms {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#hms > input {
+    padding-left: 25px;
 }
 
 #pokedex {
