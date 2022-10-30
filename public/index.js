@@ -17,13 +17,13 @@ const hms = document.querySelector('#hms');
 // function setup, global variables
 let darkMode = false;
 
-let generationNumber = 5;
+let generationNumber = 5.5;
 let selectedGeneration = 'data.gen1rbyDex';
 let data = []
 
 let teamMembers = [
     {
-        "entry_number": 0,
+        "entry_number": -1,
         "name": "",
         "types": [
             {
@@ -37,7 +37,7 @@ let teamMembers = [
         "sprite": "../images/sprites/pokemon/0.png",
     },
     {
-        "entry_number": 0,
+        "entry_number": -1,
         "name": "",
         "types": [
             {
@@ -51,7 +51,7 @@ let teamMembers = [
         "sprite": "../images/sprites/pokemon/0.png",
     },
     {
-        "entry_number": 0,
+        "entry_number": -1,
         "name": "",
         "types": [
             {
@@ -65,7 +65,7 @@ let teamMembers = [
         "sprite": "../images/sprites/pokemon/0.png",
     },
     {
-        "entry_number": 0,
+        "entry_number": -1,
         "name": "",
         "types": [
             {
@@ -79,7 +79,7 @@ let teamMembers = [
         "sprite": "../images/sprites/pokemon/0.png",
     },
     {
-        "entry_number": 0,
+        "entry_number": -1,
         "name": "",
         "types": [
             {
@@ -93,7 +93,7 @@ let teamMembers = [
         "sprite": "../images/sprites/pokemon/0.png",
     },
     {
-        "entry_number": 0,
+        "entry_number": -1,
         "name": "",
         "types": [
             {
@@ -320,7 +320,7 @@ function addToTeam() {
     }
     let selectedPokemon = selectedGeneration[arrayPos]
     for (let i = 0; i < 6; i++) {
-        if (teamMembers[i].entry_number === 0) {
+        if (teamMembers[i].entry_number === -1) {
             teamMembers[i] = selectedPokemon;
             let position = i;
             updateTeam(position);

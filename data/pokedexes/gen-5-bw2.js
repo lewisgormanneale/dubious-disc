@@ -1,2109 +1,13379 @@
 export const gen5bw2Dex = [
-    {
-      "entry_number": 0,
-      "pokemon_species": {
-        "name": "victini",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/494/"
-      }
-    },
-    {
-      "entry_number": 1,
-      "pokemon_species": {
-        "name": "snivy",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/495/"
-      }
-    },
-    {
-      "entry_number": 2,
-      "pokemon_species": {
-        "name": "servine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/496/"
-      }
-    },
-    {
-      "entry_number": 3,
-      "pokemon_species": {
-        "name": "serperior",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/497/"
-      }
-    },
-    {
-      "entry_number": 4,
-      "pokemon_species": {
-        "name": "tepig",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/498/"
-      }
-    },
-    {
-      "entry_number": 5,
-      "pokemon_species": {
-        "name": "pignite",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/499/"
-      }
-    },
-    {
-      "entry_number": 6,
-      "pokemon_species": {
-        "name": "emboar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/500/"
-      }
-    },
-    {
-      "entry_number": 7,
-      "pokemon_species": {
-        "name": "oshawott",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/501/"
-      }
-    },
-    {
-      "entry_number": 8,
-      "pokemon_species": {
-        "name": "dewott",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/502/"
-      }
-    },
-    {
-      "entry_number": 9,
-      "pokemon_species": {
-        "name": "samurott",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/503/"
-      }
-    },
-    {
-      "entry_number": 10,
-      "pokemon_species": {
-        "name": "patrat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/504/"
-      }
-    },
-    {
-      "entry_number": 11,
-      "pokemon_species": {
-        "name": "watchog",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/505/"
-      }
-    },
-    {
-      "entry_number": 12,
-      "pokemon_species": {
-        "name": "purrloin",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/509/"
-      }
-    },
-    {
-      "entry_number": 13,
-      "pokemon_species": {
-        "name": "liepard",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/510/"
-      }
-    },
-    {
-      "entry_number": 14,
-      "pokemon_species": {
-        "name": "pidove",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/519/"
-      }
-    },
-    {
-      "entry_number": 15,
-      "pokemon_species": {
-        "name": "tranquill",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/520/"
-      }
-    },
-    {
-      "entry_number": 16,
-      "pokemon_species": {
-        "name": "unfezant",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/521/"
-      }
-    },
-    {
-      "entry_number": 17,
-      "pokemon_species": {
-        "name": "sewaddle",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/540/"
-      }
-    },
-    {
-      "entry_number": 18,
-      "pokemon_species": {
-        "name": "swadloon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/541/"
-      }
-    },
-    {
-      "entry_number": 19,
-      "pokemon_species": {
-        "name": "leavanny",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/542/"
-      }
-    },
-    {
-      "entry_number": 20,
-      "pokemon_species": {
-        "name": "sunkern",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/191/"
-      }
-    },
-    {
-      "entry_number": 21,
-      "pokemon_species": {
-        "name": "sunflora",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/192/"
-      }
-    },
-    {
-      "entry_number": 22,
-      "pokemon_species": {
-        "name": "lillipup",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/506/"
-      }
-    },
-    {
-      "entry_number": 23,
-      "pokemon_species": {
-        "name": "herdier",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/507/"
-      }
-    },
-    {
-      "entry_number": 24,
-      "pokemon_species": {
-        "name": "stoutland",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/508/"
-      }
-    },
-    {
-      "entry_number": 25,
-      "pokemon_species": {
-        "name": "mareep",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/179/"
-      }
-    },
-    {
-      "entry_number": 26,
-      "pokemon_species": {
-        "name": "flaaffy",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/180/"
-      }
-    },
-    {
-      "entry_number": 27,
-      "pokemon_species": {
-        "name": "ampharos",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/181/"
-      }
-    },
-    {
-      "entry_number": 28,
-      "pokemon_species": {
-        "name": "psyduck",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/54/"
-      }
-    },
-    {
-      "entry_number": 29,
-      "pokemon_species": {
-        "name": "golduck",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/55/"
-      }
-    },
-    {
-      "entry_number": 30,
-      "pokemon_species": {
-        "name": "azurill",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/298/"
-      }
-    },
-    {
-      "entry_number": 31,
-      "pokemon_species": {
-        "name": "marill",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/183/"
-      }
-    },
-    {
-      "entry_number": 32,
-      "pokemon_species": {
-        "name": "azumarill",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/184/"
-      }
-    },
-    {
-      "entry_number": 33,
-      "pokemon_species": {
-        "name": "riolu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/447/"
-      }
-    },
-    {
-      "entry_number": 34,
-      "pokemon_species": {
-        "name": "lucario",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/448/"
-      }
-    },
-    {
-      "entry_number": 35,
-      "pokemon_species": {
-        "name": "dunsparce",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/206/"
-      }
-    },
-    {
-      "entry_number": 36,
-      "pokemon_species": {
-        "name": "audino",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/531/"
-      }
-    },
-    {
-      "entry_number": 37,
-      "pokemon_species": {
-        "name": "pansage",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/511/"
-      }
-    },
-    {
-      "entry_number": 38,
-      "pokemon_species": {
-        "name": "simisage",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/512/"
-      }
-    },
-    {
-      "entry_number": 39,
-      "pokemon_species": {
-        "name": "pansear",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/513/"
-      }
-    },
-    {
-      "entry_number": 40,
-      "pokemon_species": {
-        "name": "simisear",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/514/"
-      }
-    },
-    {
-      "entry_number": 41,
-      "pokemon_species": {
-        "name": "panpour",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/515/"
-      }
-    },
-    {
-      "entry_number": 42,
-      "pokemon_species": {
-        "name": "simipour",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/516/"
-      }
-    },
-    {
-      "entry_number": 43,
-      "pokemon_species": {
-        "name": "venipede",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/543/"
-      }
-    },
-    {
-      "entry_number": 44,
-      "pokemon_species": {
-        "name": "whirlipede",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/544/"
-      }
-    },
-    {
-      "entry_number": 45,
-      "pokemon_species": {
-        "name": "scolipede",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/545/"
-      }
-    },
-    {
-      "entry_number": 46,
-      "pokemon_species": {
-        "name": "koffing",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/109/"
-      }
-    },
-    {
-      "entry_number": 47,
-      "pokemon_species": {
-        "name": "weezing",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/110/"
-      }
-    },
-    {
-      "entry_number": 48,
-      "pokemon_species": {
-        "name": "magnemite",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/81/"
-      }
-    },
-    {
-      "entry_number": 49,
-      "pokemon_species": {
-        "name": "magneton",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/82/"
-      }
-    },
-    {
-      "entry_number": 50,
-      "pokemon_species": {
-        "name": "magnezone",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/462/"
-      }
-    },
-    {
-      "entry_number": 51,
-      "pokemon_species": {
-        "name": "growlithe",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/58/"
-      }
-    },
-    {
-      "entry_number": 52,
-      "pokemon_species": {
-        "name": "arcanine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/59/"
-      }
-    },
-    {
-      "entry_number": 53,
-      "pokemon_species": {
-        "name": "magby",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/240/"
-      }
-    },
-    {
-      "entry_number": 54,
-      "pokemon_species": {
-        "name": "magmar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/126/"
-      }
-    },
-    {
-      "entry_number": 55,
-      "pokemon_species": {
-        "name": "magmortar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/467/"
-      }
-    },
-    {
-      "entry_number": 56,
-      "pokemon_species": {
-        "name": "elekid",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/239/"
-      }
-    },
-    {
-      "entry_number": 57,
-      "pokemon_species": {
-        "name": "electabuzz",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/125/"
-      }
-    },
-    {
-      "entry_number": 58,
-      "pokemon_species": {
-        "name": "electivire",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/466/"
-      }
-    },
-    {
-      "entry_number": 59,
-      "pokemon_species": {
-        "name": "rattata",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/19/"
-      }
-    },
-    {
-      "entry_number": 60,
-      "pokemon_species": {
-        "name": "raticate",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/20/"
-      }
-    },
-    {
-      "entry_number": 61,
-      "pokemon_species": {
-        "name": "zubat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/41/"
-      }
-    },
-    {
-      "entry_number": 62,
-      "pokemon_species": {
-        "name": "golbat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/42/"
-      }
-    },
-    {
-      "entry_number": 63,
-      "pokemon_species": {
-        "name": "crobat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/169/"
-      }
-    },
-    {
-      "entry_number": 64,
-      "pokemon_species": {
-        "name": "grimer",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/88/"
-      }
-    },
-    {
-      "entry_number": 65,
-      "pokemon_species": {
-        "name": "muk",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/89/"
-      }
-    },
-    {
-      "entry_number": 66,
-      "pokemon_species": {
-        "name": "woobat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/527/"
-      }
-    },
-    {
-      "entry_number": 67,
-      "pokemon_species": {
-        "name": "swoobat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/528/"
-      }
-    },
-    {
-      "entry_number": 68,
-      "pokemon_species": {
-        "name": "roggenrola",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/524/"
-      }
-    },
-    {
-      "entry_number": 69,
-      "pokemon_species": {
-        "name": "boldore",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/525/"
-      }
-    },
-    {
-      "entry_number": 70,
-      "pokemon_species": {
-        "name": "gigalith",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/526/"
-      }
-    },
-    {
-      "entry_number": 71,
-      "pokemon_species": {
-        "name": "onix",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/95/"
-      }
-    },
-    {
-      "entry_number": 72,
-      "pokemon_species": {
-        "name": "steelix",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/208/"
-      }
-    },
-    {
-      "entry_number": 73,
-      "pokemon_species": {
-        "name": "timburr",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/532/"
-      }
-    },
-    {
-      "entry_number": 74,
-      "pokemon_species": {
-        "name": "gurdurr",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/533/"
-      }
-    },
-    {
-      "entry_number": 75,
-      "pokemon_species": {
-        "name": "conkeldurr",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/534/"
-      }
-    },
-    {
-      "entry_number": 76,
-      "pokemon_species": {
-        "name": "drilbur",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/529/"
-      }
-    },
-    {
-      "entry_number": 77,
-      "pokemon_species": {
-        "name": "excadrill",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/530/"
-      }
-    },
-    {
-      "entry_number": 78,
-      "pokemon_species": {
-        "name": "skitty",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/300/"
-      }
-    },
-    {
-      "entry_number": 79,
-      "pokemon_species": {
-        "name": "delcatty",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/301/"
-      }
-    },
-    {
-      "entry_number": 80,
-      "pokemon_species": {
-        "name": "buneary",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/427/"
-      }
-    },
-    {
-      "entry_number": 81,
-      "pokemon_species": {
-        "name": "lopunny",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/428/"
-      }
-    },
-    {
-      "entry_number": 82,
-      "pokemon_species": {
-        "name": "cottonee",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/546/"
-      }
-    },
-    {
-      "entry_number": 83,
-      "pokemon_species": {
-        "name": "whimsicott",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/547/"
-      }
-    },
-    {
-      "entry_number": 84,
-      "pokemon_species": {
-        "name": "petilil",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/548/"
-      }
-    },
-    {
-      "entry_number": 85,
-      "pokemon_species": {
-        "name": "lilligant",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/549/"
-      }
-    },
-    {
-      "entry_number": 86,
-      "pokemon_species": {
-        "name": "munna",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/517/"
-      }
-    },
-    {
-      "entry_number": 87,
-      "pokemon_species": {
-        "name": "musharna",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/518/"
-      }
-    },
-    {
-      "entry_number": 88,
-      "pokemon_species": {
-        "name": "cleffa",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/173/"
-      }
-    },
-    {
-      "entry_number": 89,
-      "pokemon_species": {
-        "name": "clefairy",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/35/"
-      }
-    },
-    {
-      "entry_number": 90,
-      "pokemon_species": {
-        "name": "clefable",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/36/"
-      }
-    },
-    {
-      "entry_number": 91,
-      "pokemon_species": {
-        "name": "eevee",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/133/"
-      }
-    },
-    {
-      "entry_number": 92,
-      "pokemon_species": {
-        "name": "vaporeon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/134/"
-      }
-    },
-    {
-      "entry_number": 93,
-      "pokemon_species": {
-        "name": "jolteon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/135/"
-      }
-    },
-    {
-      "entry_number": 94,
-      "pokemon_species": {
-        "name": "flareon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/136/"
-      }
-    },
-    {
-      "entry_number": 95,
-      "pokemon_species": {
-        "name": "espeon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/196/"
-      }
-    },
-    {
-      "entry_number": 96,
-      "pokemon_species": {
-        "name": "umbreon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/197/"
-      }
-    },
-    {
-      "entry_number": 97,
-      "pokemon_species": {
-        "name": "leafeon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/470/"
-      }
-    },
-    {
-      "entry_number": 98,
-      "pokemon_species": {
-        "name": "glaceon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/471/"
-      }
-    },
-    {
-      "entry_number": 99,
-      "pokemon_species": {
-        "name": "sandile",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/551/"
-      }
-    },
-    {
-      "entry_number": 100,
-      "pokemon_species": {
-        "name": "krokorok",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/552/"
-      }
-    },
-    {
-      "entry_number": 101,
-      "pokemon_species": {
-        "name": "krookodile",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/553/"
-      }
-    },
-    {
-      "entry_number": 102,
-      "pokemon_species": {
-        "name": "darumaka",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/554/"
-      }
-    },
-    {
-      "entry_number": 103,
-      "pokemon_species": {
-        "name": "darmanitan",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/555/"
-      }
-    },
-    {
-      "entry_number": 104,
-      "pokemon_species": {
-        "name": "basculin",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/550/"
-      }
-    },
-    {
-      "entry_number": 105,
-      "pokemon_species": {
-        "name": "trubbish",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/568/"
-      }
-    },
-    {
-      "entry_number": 106,
-      "pokemon_species": {
-        "name": "garbodor",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/569/"
-      }
-    },
-    {
-      "entry_number": 107,
-      "pokemon_species": {
-        "name": "minccino",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/572/"
-      }
-    },
-    {
-      "entry_number": 108,
-      "pokemon_species": {
-        "name": "cinccino",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/573/"
-      }
-    },
-    {
-      "entry_number": 109,
-      "pokemon_species": {
-        "name": "rufflet",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/627/"
-      }
-    },
-    {
-      "entry_number": 110,
-      "pokemon_species": {
-        "name": "braviary",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/628/"
-      }
-    },
-    {
-      "entry_number": 111,
-      "pokemon_species": {
-        "name": "vullaby",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/629/"
-      }
-    },
-    {
-      "entry_number": 112,
-      "pokemon_species": {
-        "name": "mandibuzz",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/630/"
-      }
-    },
-    {
-      "entry_number": 113,
-      "pokemon_species": {
-        "name": "sandshrew",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/27/"
-      }
-    },
-    {
-      "entry_number": 114,
-      "pokemon_species": {
-        "name": "sandslash",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/28/"
-      }
-    },
-    {
-      "entry_number": 115,
-      "pokemon_species": {
-        "name": "dwebble",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/557/"
-      }
-    },
-    {
-      "entry_number": 116,
-      "pokemon_species": {
-        "name": "crustle",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/558/"
-      }
-    },
-    {
-      "entry_number": 117,
-      "pokemon_species": {
-        "name": "scraggy",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/559/"
-      }
-    },
-    {
-      "entry_number": 118,
-      "pokemon_species": {
-        "name": "scrafty",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/560/"
-      }
-    },
-    {
-      "entry_number": 119,
-      "pokemon_species": {
-        "name": "maractus",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/556/"
-      }
-    },
-    {
-      "entry_number": 120,
-      "pokemon_species": {
-        "name": "sigilyph",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/561/"
-      }
-    },
-    {
-      "entry_number": 121,
-      "pokemon_species": {
-        "name": "trapinch",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/328/"
-      }
-    },
-    {
-      "entry_number": 122,
-      "pokemon_species": {
-        "name": "vibrava",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/329/"
-      }
-    },
-    {
-      "entry_number": 123,
-      "pokemon_species": {
-        "name": "flygon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/330/"
-      }
-    },
-    {
-      "entry_number": 124,
-      "pokemon_species": {
-        "name": "yamask",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/562/"
-      }
-    },
-    {
-      "entry_number": 125,
-      "pokemon_species": {
-        "name": "cofagrigus",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/563/"
-      }
-    },
-    {
-      "entry_number": 126,
-      "pokemon_species": {
-        "name": "tirtouga",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/564/"
-      }
-    },
-    {
-      "entry_number": 127,
-      "pokemon_species": {
-        "name": "carracosta",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/565/"
-      }
-    },
-    {
-      "entry_number": 128,
-      "pokemon_species": {
-        "name": "archen",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/566/"
-      }
-    },
-    {
-      "entry_number": 129,
-      "pokemon_species": {
-        "name": "archeops",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/567/"
-      }
-    },
-    {
-      "entry_number": 130,
-      "pokemon_species": {
-        "name": "klink",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/599/"
-      }
-    },
-    {
-      "entry_number": 131,
-      "pokemon_species": {
-        "name": "klang",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/600/"
-      }
-    },
-    {
-      "entry_number": 132,
-      "pokemon_species": {
-        "name": "klinklang",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/601/"
-      }
-    },
-    {
-      "entry_number": 133,
-      "pokemon_species": {
-        "name": "budew",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/406/"
-      }
-    },
-    {
-      "entry_number": 134,
-      "pokemon_species": {
-        "name": "roselia",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/315/"
-      }
-    },
-    {
-      "entry_number": 135,
-      "pokemon_species": {
-        "name": "roserade",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/407/"
-      }
-    },
-    {
-      "entry_number": 136,
-      "pokemon_species": {
-        "name": "gothita",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/574/"
-      }
-    },
-    {
-      "entry_number": 137,
-      "pokemon_species": {
-        "name": "gothorita",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/575/"
-      }
-    },
-    {
-      "entry_number": 138,
-      "pokemon_species": {
-        "name": "gothitelle",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/576/"
-      }
-    },
-    {
-      "entry_number": 139,
-      "pokemon_species": {
-        "name": "solosis",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/577/"
-      }
-    },
-    {
-      "entry_number": 140,
-      "pokemon_species": {
-        "name": "duosion",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/578/"
-      }
-    },
-    {
-      "entry_number": 141,
-      "pokemon_species": {
-        "name": "reuniclus",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/579/"
-      }
-    },
-    {
-      "entry_number": 142,
-      "pokemon_species": {
-        "name": "combee",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/415/"
-      }
-    },
-    {
-      "entry_number": 143,
-      "pokemon_species": {
-        "name": "vespiquen",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/416/"
-      }
-    },
-    {
-      "entry_number": 144,
-      "pokemon_species": {
-        "name": "emolga",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/587/"
-      }
-    },
-    {
-      "entry_number": 145,
-      "pokemon_species": {
-        "name": "heracross",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/214/"
-      }
-    },
-    {
-      "entry_number": 146,
-      "pokemon_species": {
-        "name": "pinsir",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/127/"
-      }
-    },
-    {
-      "entry_number": 147,
-      "pokemon_species": {
-        "name": "blitzle",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/522/"
-      }
-    },
-    {
-      "entry_number": 148,
-      "pokemon_species": {
-        "name": "zebstrika",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/523/"
-      }
-    },
-    {
-      "entry_number": 149,
-      "pokemon_species": {
-        "name": "buizel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/418/"
-      }
-    },
-    {
-      "entry_number": 150,
-      "pokemon_species": {
-        "name": "floatzel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/419/"
-      }
-    },
-    {
-      "entry_number": 151,
-      "pokemon_species": {
-        "name": "zorua",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/570/"
-      }
-    },
-    {
-      "entry_number": 152,
-      "pokemon_species": {
-        "name": "zoroark",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/571/"
-      }
-    },
-    {
-      "entry_number": 153,
-      "pokemon_species": {
-        "name": "ducklett",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/580/"
-      }
-    },
-    {
-      "entry_number": 154,
-      "pokemon_species": {
-        "name": "swanna",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/581/"
-      }
-    },
-    {
-      "entry_number": 155,
-      "pokemon_species": {
-        "name": "karrablast",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/588/"
-      }
-    },
-    {
-      "entry_number": 156,
-      "pokemon_species": {
-        "name": "escavalier",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/589/"
-      }
-    },
-    {
-      "entry_number": 157,
-      "pokemon_species": {
-        "name": "shelmet",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/616/"
-      }
-    },
-    {
-      "entry_number": 158,
-      "pokemon_species": {
-        "name": "accelgor",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/617/"
-      }
-    },
-    {
-      "entry_number": 159,
-      "pokemon_species": {
-        "name": "deerling",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/585/"
-      }
-    },
-    {
-      "entry_number": 160,
-      "pokemon_species": {
-        "name": "sawsbuck",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/586/"
-      }
-    },
-    {
-      "entry_number": 161,
-      "pokemon_species": {
-        "name": "foongus",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/590/"
-      }
-    },
-    {
-      "entry_number": 162,
-      "pokemon_species": {
-        "name": "amoonguss",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/591/"
-      }
-    },
-    {
-      "entry_number": 163,
-      "pokemon_species": {
-        "name": "castform",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/351/"
-      }
-    },
-    {
-      "entry_number": 164,
-      "pokemon_species": {
-        "name": "nosepass",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/299/"
-      }
-    },
-    {
-      "entry_number": 165,
-      "pokemon_species": {
-        "name": "probopass",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/476/"
-      }
-    },
-    {
-      "entry_number": 166,
-      "pokemon_species": {
-        "name": "aron",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/304/"
-      }
-    },
-    {
-      "entry_number": 167,
-      "pokemon_species": {
-        "name": "lairon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/305/"
-      }
-    },
-    {
-      "entry_number": 168,
-      "pokemon_species": {
-        "name": "aggron",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/306/"
-      }
-    },
-    {
-      "entry_number": 169,
-      "pokemon_species": {
-        "name": "baltoy",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/343/"
-      }
-    },
-    {
-      "entry_number": 170,
-      "pokemon_species": {
-        "name": "claydol",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/344/"
-      }
-    },
-    {
-      "entry_number": 171,
-      "pokemon_species": {
-        "name": "larvesta",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/636/"
-      }
-    },
-    {
-      "entry_number": 172,
-      "pokemon_species": {
-        "name": "volcarona",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/637/"
-      }
-    },
-    {
-      "entry_number": 173,
-      "pokemon_species": {
-        "name": "joltik",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/595/"
-      }
-    },
-    {
-      "entry_number": 174,
-      "pokemon_species": {
-        "name": "galvantula",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/596/"
-      }
-    },
-    {
-      "entry_number": 175,
-      "pokemon_species": {
-        "name": "ferroseed",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/597/"
-      }
-    },
-    {
-      "entry_number": 176,
-      "pokemon_species": {
-        "name": "ferrothorn",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/598/"
-      }
-    },
-    {
-      "entry_number": 177,
-      "pokemon_species": {
-        "name": "tynamo",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/602/"
-      }
-    },
-    {
-      "entry_number": 178,
-      "pokemon_species": {
-        "name": "eelektrik",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/603/"
-      }
-    },
-    {
-      "entry_number": 179,
-      "pokemon_species": {
-        "name": "eelektross",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/604/"
-      }
-    },
-    {
-      "entry_number": 180,
-      "pokemon_species": {
-        "name": "frillish",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/592/"
-      }
-    },
-    {
-      "entry_number": 181,
-      "pokemon_species": {
-        "name": "jellicent",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/593/"
-      }
-    },
-    {
-      "entry_number": 182,
-      "pokemon_species": {
-        "name": "alomomola",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/594/"
-      }
-    },
-    {
-      "entry_number": 183,
-      "pokemon_species": {
-        "name": "axew",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/610/"
-      }
-    },
-    {
-      "entry_number": 184,
-      "pokemon_species": {
-        "name": "fraxure",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/611/"
-      }
-    },
-    {
-      "entry_number": 185,
-      "pokemon_species": {
-        "name": "haxorus",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/612/"
-      }
-    },
-    {
-      "entry_number": 186,
-      "pokemon_species": {
-        "name": "zangoose",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/335/"
-      }
-    },
-    {
-      "entry_number": 187,
-      "pokemon_species": {
-        "name": "seviper",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/336/"
-      }
-    },
-    {
-      "entry_number": 188,
-      "pokemon_species": {
-        "name": "elgyem",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/605/"
-      }
-    },
-    {
-      "entry_number": 189,
-      "pokemon_species": {
-        "name": "beheeyem",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/606/"
-      }
-    },
-    {
-      "entry_number": 190,
-      "pokemon_species": {
-        "name": "litwick",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/607/"
-      }
-    },
-    {
-      "entry_number": 191,
-      "pokemon_species": {
-        "name": "lampent",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/608/"
-      }
-    },
-    {
-      "entry_number": 192,
-      "pokemon_species": {
-        "name": "chandelure",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/609/"
-      }
-    },
-    {
-      "entry_number": 193,
-      "pokemon_species": {
-        "name": "heatmor",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/631/"
-      }
-    },
-    {
-      "entry_number": 194,
-      "pokemon_species": {
-        "name": "durant",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/632/"
-      }
-    },
-    {
-      "entry_number": 195,
-      "pokemon_species": {
-        "name": "cubchoo",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/613/"
-      }
-    },
-    {
-      "entry_number": 196,
-      "pokemon_species": {
-        "name": "beartic",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/614/"
-      }
-    },
-    {
-      "entry_number": 197,
-      "pokemon_species": {
-        "name": "cryogonal",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/615/"
-      }
-    },
-    {
-      "entry_number": 198,
-      "pokemon_species": {
-        "name": "tornadus",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/641/"
-      }
-    },
-    {
-      "entry_number": 199,
-      "pokemon_species": {
-        "name": "thundurus",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/642/"
-      }
-    },
-    {
-      "entry_number": 200,
-      "pokemon_species": {
-        "name": "landorus",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/645/"
-      }
-    },
-    {
-      "entry_number": 201,
-      "pokemon_species": {
-        "name": "skorupi",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/451/"
-      }
-    },
-    {
-      "entry_number": 202,
-      "pokemon_species": {
-        "name": "drapion",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/452/"
-      }
-    },
-    {
-      "entry_number": 203,
-      "pokemon_species": {
-        "name": "skarmory",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/227/"
-      }
-    },
-    {
-      "entry_number": 204,
-      "pokemon_species": {
-        "name": "numel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/322/"
-      }
-    },
-    {
-      "entry_number": 205,
-      "pokemon_species": {
-        "name": "camerupt",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/323/"
-      }
-    },
-    {
-      "entry_number": 206,
-      "pokemon_species": {
-        "name": "spoink",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/325/"
-      }
-    },
-    {
-      "entry_number": 207,
-      "pokemon_species": {
-        "name": "grumpig",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/326/"
-      }
-    },
-    {
-      "entry_number": 208,
-      "pokemon_species": {
-        "name": "drifloon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/425/"
-      }
-    },
-    {
-      "entry_number": 209,
-      "pokemon_species": {
-        "name": "drifblim",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/426/"
-      }
-    },
-    {
-      "entry_number": 210,
-      "pokemon_species": {
-        "name": "shuppet",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/353/"
-      }
-    },
-    {
-      "entry_number": 211,
-      "pokemon_species": {
-        "name": "banette",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/354/"
-      }
-    },
-    {
-      "entry_number": 212,
-      "pokemon_species": {
-        "name": "wingull",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/278/"
-      }
-    },
-    {
-      "entry_number": 213,
-      "pokemon_species": {
-        "name": "pelipper",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/279/"
-      }
-    },
-    {
-      "entry_number": 214,
-      "pokemon_species": {
-        "name": "lunatone",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/337/"
-      }
-    },
-    {
-      "entry_number": 215,
-      "pokemon_species": {
-        "name": "solrock",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/338/"
-      }
-    },
-    {
-      "entry_number": 216,
-      "pokemon_species": {
-        "name": "absol",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/359/"
-      }
-    },
-    {
-      "entry_number": 217,
-      "pokemon_species": {
-        "name": "tangela",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/114/"
-      }
-    },
-    {
-      "entry_number": 218,
-      "pokemon_species": {
-        "name": "tangrowth",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/465/"
-      }
-    },
-    {
-      "entry_number": 219,
-      "pokemon_species": {
-        "name": "mienfoo",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/619/"
-      }
-    },
-    {
-      "entry_number": 220,
-      "pokemon_species": {
-        "name": "mienshao",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/620/"
-      }
-    },
-    {
-      "entry_number": 221,
-      "pokemon_species": {
-        "name": "gligar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/207/"
-      }
-    },
-    {
-      "entry_number": 222,
-      "pokemon_species": {
-        "name": "gliscor",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/472/"
-      }
-    },
-    {
-      "entry_number": 223,
-      "pokemon_species": {
-        "name": "pawniard",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/624/"
-      }
-    },
-    {
-      "entry_number": 224,
-      "pokemon_species": {
-        "name": "bisharp",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/625/"
-      }
-    },
-    {
-      "entry_number": 225,
-      "pokemon_species": {
-        "name": "cobalion",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/638/"
-      }
-    },
-    {
-      "entry_number": 226,
-      "pokemon_species": {
-        "name": "terrakion",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/639/"
-      }
-    },
-    {
-      "entry_number": 227,
-      "pokemon_species": {
-        "name": "virizion",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/640/"
-      }
-    },
-    {
-      "entry_number": 228,
-      "pokemon_species": {
-        "name": "tympole",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/535/"
-      }
-    },
-    {
-      "entry_number": 229,
-      "pokemon_species": {
-        "name": "palpitoad",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/536/"
-      }
-    },
-    {
-      "entry_number": 230,
-      "pokemon_species": {
-        "name": "seismitoad",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/537/"
-      }
-    },
-    {
-      "entry_number": 231,
-      "pokemon_species": {
-        "name": "stunfisk",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/618/"
-      }
-    },
-    {
-      "entry_number": 232,
-      "pokemon_species": {
-        "name": "shuckle",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/213/"
-      }
-    },
-    {
-      "entry_number": 233,
-      "pokemon_species": {
-        "name": "mantyke",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/458/"
-      }
-    },
-    {
-      "entry_number": 234,
-      "pokemon_species": {
-        "name": "mantine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/226/"
-      }
-    },
-    {
-      "entry_number": 235,
-      "pokemon_species": {
-        "name": "remoraid",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/223/"
-      }
-    },
-    {
-      "entry_number": 236,
-      "pokemon_species": {
-        "name": "octillery",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/224/"
-      }
-    },
-    {
-      "entry_number": 237,
-      "pokemon_species": {
-        "name": "corsola",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/222/"
-      }
-    },
-    {
-      "entry_number": 238,
-      "pokemon_species": {
-        "name": "staryu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/120/"
-      }
-    },
-    {
-      "entry_number": 239,
-      "pokemon_species": {
-        "name": "starmie",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/121/"
-      }
-    },
-    {
-      "entry_number": 240,
-      "pokemon_species": {
-        "name": "wailmer",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/320/"
-      }
-    },
-    {
-      "entry_number": 241,
-      "pokemon_species": {
-        "name": "wailord",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/321/"
-      }
-    },
-    {
-      "entry_number": 242,
-      "pokemon_species": {
-        "name": "lapras",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/131/"
-      }
-    },
-    {
-      "entry_number": 243,
-      "pokemon_species": {
-        "name": "spheal",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/363/"
-      }
-    },
-    {
-      "entry_number": 244,
-      "pokemon_species": {
-        "name": "sealeo",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/364/"
-      }
-    },
-    {
-      "entry_number": 245,
-      "pokemon_species": {
-        "name": "walrein",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/365/"
-      }
-    },
-    {
-      "entry_number": 246,
-      "pokemon_species": {
-        "name": "swablu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/333/"
-      }
-    },
-    {
-      "entry_number": 247,
-      "pokemon_species": {
-        "name": "altaria",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/334/"
-      }
-    },
-    {
-      "entry_number": 248,
-      "pokemon_species": {
-        "name": "vulpix",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/37/"
-      }
-    },
-    {
-      "entry_number": 249,
-      "pokemon_species": {
-        "name": "ninetales",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/38/"
-      }
-    },
-    {
-      "entry_number": 250,
-      "pokemon_species": {
-        "name": "bronzor",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/436/"
-      }
-    },
-    {
-      "entry_number": 251,
-      "pokemon_species": {
-        "name": "bronzong",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/437/"
-      }
-    },
-    {
-      "entry_number": 252,
-      "pokemon_species": {
-        "name": "sneasel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/215/"
-      }
-    },
-    {
-      "entry_number": 253,
-      "pokemon_species": {
-        "name": "weavile",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/461/"
-      }
-    },
-    {
-      "entry_number": 254,
-      "pokemon_species": {
-        "name": "delibird",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/225/"
-      }
-    },
-    {
-      "entry_number": 255,
-      "pokemon_species": {
-        "name": "vanillite",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/582/"
-      }
-    },
-    {
-      "entry_number": 256,
-      "pokemon_species": {
-        "name": "vanillish",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/583/"
-      }
-    },
-    {
-      "entry_number": 257,
-      "pokemon_species": {
-        "name": "vanilluxe",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/584/"
-      }
-    },
-    {
-      "entry_number": 258,
-      "pokemon_species": {
-        "name": "swinub",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/220/"
-      }
-    },
-    {
-      "entry_number": 259,
-      "pokemon_species": {
-        "name": "piloswine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/221/"
-      }
-    },
-    {
-      "entry_number": 260,
-      "pokemon_species": {
-        "name": "mamoswine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/473/"
-      }
-    },
-    {
-      "entry_number": 261,
-      "pokemon_species": {
-        "name": "ditto",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/132/"
-      }
-    },
-    {
-      "entry_number": 262,
-      "pokemon_species": {
-        "name": "beldum",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/374/"
-      }
-    },
-    {
-      "entry_number": 263,
-      "pokemon_species": {
-        "name": "metang",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/375/"
-      }
-    },
-    {
-      "entry_number": 264,
-      "pokemon_species": {
-        "name": "metagross",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/376/"
-      }
-    },
-    {
-      "entry_number": 265,
-      "pokemon_species": {
-        "name": "seel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/86/"
-      }
-    },
-    {
-      "entry_number": 266,
-      "pokemon_species": {
-        "name": "dewgong",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/87/"
-      }
-    },
-    {
-      "entry_number": 267,
-      "pokemon_species": {
-        "name": "throh",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/538/"
-      }
-    },
-    {
-      "entry_number": 268,
-      "pokemon_species": {
-        "name": "sawk",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/539/"
-      }
-    },
-    {
-      "entry_number": 269,
-      "pokemon_species": {
-        "name": "bouffalant",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/626/"
-      }
-    },
-    {
-      "entry_number": 270,
-      "pokemon_species": {
-        "name": "druddigon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/621/"
-      }
-    },
-    {
-      "entry_number": 271,
-      "pokemon_species": {
-        "name": "golett",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/622/"
-      }
-    },
-    {
-      "entry_number": 272,
-      "pokemon_species": {
-        "name": "golurk",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/623/"
-      }
-    },
-    {
-      "entry_number": 273,
-      "pokemon_species": {
-        "name": "deino",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/633/"
-      }
-    },
-    {
-      "entry_number": 274,
-      "pokemon_species": {
-        "name": "zweilous",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/634/"
-      }
-    },
-    {
-      "entry_number": 275,
-      "pokemon_species": {
-        "name": "hydreigon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/635/"
-      }
-    },
-    {
-      "entry_number": 276,
-      "pokemon_species": {
-        "name": "slakoth",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/287/"
-      }
-    },
-    {
-      "entry_number": 277,
-      "pokemon_species": {
-        "name": "vigoroth",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/288/"
-      }
-    },
-    {
-      "entry_number": 278,
-      "pokemon_species": {
-        "name": "slaking",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/289/"
-      }
-    },
-    {
-      "entry_number": 279,
-      "pokemon_species": {
-        "name": "corphish",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/341/"
-      }
-    },
-    {
-      "entry_number": 280,
-      "pokemon_species": {
-        "name": "crawdaunt",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/342/"
-      }
-    },
-    {
-      "entry_number": 281,
-      "pokemon_species": {
-        "name": "igglybuff",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/174/"
-      }
-    },
-    {
-      "entry_number": 282,
-      "pokemon_species": {
-        "name": "jigglypuff",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/39/"
-      }
-    },
-    {
-      "entry_number": 283,
-      "pokemon_species": {
-        "name": "wigglytuff",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/40/"
-      }
-    },
-    {
-      "entry_number": 284,
-      "pokemon_species": {
-        "name": "lickitung",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/108/"
-      }
-    },
-    {
-      "entry_number": 285,
-      "pokemon_species": {
-        "name": "lickilicky",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/463/"
-      }
-    },
-    {
-      "entry_number": 286,
-      "pokemon_species": {
-        "name": "yanma",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/193/"
-      }
-    },
-    {
-      "entry_number": 287,
-      "pokemon_species": {
-        "name": "yanmega",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/469/"
-      }
-    },
-    {
-      "entry_number": 288,
-      "pokemon_species": {
-        "name": "tropius",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/357/"
-      }
-    },
-    {
-      "entry_number": 289,
-      "pokemon_species": {
-        "name": "carnivine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/455/"
-      }
-    },
-    {
-      "entry_number": 290,
-      "pokemon_species": {
-        "name": "croagunk",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/453/"
-      }
-    },
-    {
-      "entry_number": 291,
-      "pokemon_species": {
-        "name": "toxicroak",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/454/"
-      }
-    },
-    {
-      "entry_number": 292,
-      "pokemon_species": {
-        "name": "larvitar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/246/"
-      }
-    },
-    {
-      "entry_number": 293,
-      "pokemon_species": {
-        "name": "pupitar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/247/"
-      }
-    },
-    {
-      "entry_number": 294,
-      "pokemon_species": {
-        "name": "tyranitar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/248/"
-      }
-    },
-    {
-      "entry_number": 295,
-      "pokemon_species": {
-        "name": "reshiram",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/643/"
-      }
-    },
-    {
-      "entry_number": 296,
-      "pokemon_species": {
-        "name": "zekrom",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/644/"
-      }
-    },
-    {
-      "entry_number": 297,
-      "pokemon_species": {
-        "name": "kyurem",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/646/"
-      }
-    },
-    {
-      "entry_number": 298,
-      "pokemon_species": {
-        "name": "keldeo",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/647/"
-      }
-    },
-    {
-      "entry_number": 299,
-      "pokemon_species": {
-        "name": "meloetta",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/648/"
-      }
-    },
-    {
-      "entry_number": 300,
-      "pokemon_species": {
-        "name": "genesect",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/649/"
-      }
-    }
-];
+  {
+    "entry_number": 0,
+    "name": "victini",
+    "national_dex_id": 494,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/494.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 1,
+    "name": "snivy",
+    "national_dex_id": 495,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/495.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 2,
+    "name": "servine",
+    "national_dex_id": 496,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/496.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 3,
+    "name": "serperior",
+    "national_dex_id": 497,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/497.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 4,
+    "name": "tepig",
+    "national_dex_id": 498,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/498.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 5,
+    "name": "pignite",
+    "national_dex_id": 499,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/499.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 6,
+    "name": "emboar",
+    "national_dex_id": 500,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/500.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 7,
+    "name": "oshawott",
+    "national_dex_id": 501,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/501.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 8,
+    "name": "dewott",
+    "national_dex_id": 502,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/502.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 9,
+    "name": "samurott",
+    "national_dex_id": 503,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/503.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 10,
+    "name": "patrat",
+    "national_dex_id": 504,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/504.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 11,
+    "name": "watchog",
+    "national_dex_id": 505,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/505.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 12,
+    "name": "purrloin",
+    "national_dex_id": 509,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/509.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 13,
+    "name": "liepard",
+    "national_dex_id": 510,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/510.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 14,
+    "name": "pidove",
+    "national_dex_id": 519,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/519.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 15,
+    "name": "tranquill",
+    "national_dex_id": 520,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/520.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 16,
+    "name": "unfezant",
+    "national_dex_id": 521,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/521.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 17,
+    "name": "sewaddle",
+    "national_dex_id": 540,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/540.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 18,
+    "name": "swadloon",
+    "national_dex_id": 541,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/541.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 19,
+    "name": "leavanny",
+    "national_dex_id": 542,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/542.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 20,
+    "name": "sunkern",
+    "national_dex_id": 191,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/191.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 21,
+    "name": "sunflora",
+    "national_dex_id": 192,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/192.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 22,
+    "name": "lillipup",
+    "national_dex_id": 506,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/506.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 23,
+    "name": "herdier",
+    "national_dex_id": 507,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/507.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 24,
+    "name": "stoutland",
+    "national_dex_id": 508,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/508.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 25,
+    "name": "mareep",
+    "national_dex_id": 179,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/179.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 26,
+    "name": "flaaffy",
+    "national_dex_id": 180,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/180.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 27,
+    "name": "ampharos",
+    "national_dex_id": 181,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/181.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 28,
+    "name": "psyduck",
+    "national_dex_id": 54,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/54.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 29,
+    "name": "golduck",
+    "national_dex_id": 55,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/55.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 30,
+    "name": "azurill",
+    "national_dex_id": 298,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/298.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 31,
+    "name": "marill",
+    "national_dex_id": 183,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/183.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 32,
+    "name": "azumarill",
+    "national_dex_id": 184,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/184.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 33,
+    "name": "riolu",
+    "national_dex_id": 447,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/447.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 34,
+    "name": "lucario",
+    "national_dex_id": 448,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/448.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 35,
+    "name": "dunsparce",
+    "national_dex_id": 206,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/206.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 36,
+    "name": "audino",
+    "national_dex_id": 531,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/531.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 37,
+    "name": "pansage",
+    "national_dex_id": 511,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/511.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 38,
+    "name": "simisage",
+    "national_dex_id": 512,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/512.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 39,
+    "name": "pansear",
+    "national_dex_id": 513,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/513.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 40,
+    "name": "simisear",
+    "national_dex_id": 514,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/514.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 41,
+    "name": "panpour",
+    "national_dex_id": 515,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/515.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 42,
+    "name": "simipour",
+    "national_dex_id": 516,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/516.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 43,
+    "name": "venipede",
+    "national_dex_id": 543,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/543.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 44,
+    "name": "whirlipede",
+    "national_dex_id": 544,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/544.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 45,
+    "name": "scolipede",
+    "national_dex_id": 545,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/545.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 46,
+    "name": "koffing",
+    "national_dex_id": 109,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/109.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 47,
+    "name": "weezing",
+    "national_dex_id": 110,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/110.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 48,
+    "name": "magnemite",
+    "national_dex_id": 81,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/81.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 49,
+    "name": "magneton",
+    "national_dex_id": 82,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/82.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 50,
+    "name": "magnezone",
+    "national_dex_id": 462,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/462.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 51,
+    "name": "growlithe",
+    "national_dex_id": 58,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/58.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 52,
+    "name": "arcanine",
+    "national_dex_id": 59,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/59.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 53,
+    "name": "magby",
+    "national_dex_id": 240,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/240.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 54,
+    "name": "magmar",
+    "national_dex_id": 126,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/126.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 55,
+    "name": "magmortar",
+    "national_dex_id": 467,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/467.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 56,
+    "name": "elekid",
+    "national_dex_id": 239,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/239.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 57,
+    "name": "electabuzz",
+    "national_dex_id": 125,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/125.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 58,
+    "name": "electivire",
+    "national_dex_id": 466,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/466.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 59,
+    "name": "rattata",
+    "national_dex_id": 19,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/19.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 60,
+    "name": "raticate",
+    "national_dex_id": 20,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/20.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 61,
+    "name": "zubat",
+    "national_dex_id": 41,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/41.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 62,
+    "name": "golbat",
+    "national_dex_id": 42,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/42.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 63,
+    "name": "crobat",
+    "national_dex_id": 169,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/169.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 64,
+    "name": "grimer",
+    "national_dex_id": 88,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/88.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 65,
+    "name": "muk",
+    "national_dex_id": 89,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/89.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 66,
+    "name": "woobat",
+    "national_dex_id": 527,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/527.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 67,
+    "name": "swoobat",
+    "national_dex_id": 528,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/528.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 68,
+    "name": "roggenrola",
+    "national_dex_id": 524,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/524.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 69,
+    "name": "boldore",
+    "national_dex_id": 525,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/525.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 70,
+    "name": "gigalith",
+    "national_dex_id": 526,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/526.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 71,
+    "name": "onix",
+    "national_dex_id": 95,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/95.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 72,
+    "name": "steelix",
+    "national_dex_id": 208,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/208.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 73,
+    "name": "timburr",
+    "national_dex_id": 532,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/532.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 74,
+    "name": "gurdurr",
+    "national_dex_id": 533,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/533.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 75,
+    "name": "conkeldurr",
+    "national_dex_id": 534,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/534.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 76,
+    "name": "drilbur",
+    "national_dex_id": 529,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/529.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 77,
+    "name": "excadrill",
+    "national_dex_id": 530,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/530.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 78,
+    "name": "skitty",
+    "national_dex_id": 300,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/300.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 79,
+    "name": "delcatty",
+    "national_dex_id": 301,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/301.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 80,
+    "name": "buneary",
+    "national_dex_id": 427,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/427.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 81,
+    "name": "lopunny",
+    "national_dex_id": 428,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/428.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 82,
+    "name": "cottonee",
+    "national_dex_id": 546,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/546.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 83,
+    "name": "whimsicott",
+    "national_dex_id": 547,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/547.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 84,
+    "name": "petilil",
+    "national_dex_id": 548,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/548.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 85,
+    "name": "lilligant",
+    "national_dex_id": 549,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/549.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 86,
+    "name": "munna",
+    "national_dex_id": 517,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/517.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 87,
+    "name": "musharna",
+    "national_dex_id": 518,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/518.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 88,
+    "name": "cleffa",
+    "national_dex_id": 173,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/173.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 89,
+    "name": "clefairy",
+    "national_dex_id": 35,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/35.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 90,
+    "name": "clefable",
+    "national_dex_id": 36,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/36.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 91,
+    "name": "eevee",
+    "national_dex_id": 133,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/133.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 92,
+    "name": "vaporeon",
+    "national_dex_id": 134,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/134.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 93,
+    "name": "jolteon",
+    "national_dex_id": 135,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/135.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 94,
+    "name": "flareon",
+    "national_dex_id": 136,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/136.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 95,
+    "name": "espeon",
+    "national_dex_id": 196,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/196.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 96,
+    "name": "umbreon",
+    "national_dex_id": 197,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/197.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 97,
+    "name": "leafeon",
+    "national_dex_id": 470,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/470.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 98,
+    "name": "glaceon",
+    "national_dex_id": 471,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/471.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 99,
+    "name": "sandile",
+    "national_dex_id": 551,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/551.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 100,
+    "name": "krokorok",
+    "national_dex_id": 552,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/552.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 101,
+    "name": "krookodile",
+    "national_dex_id": 553,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/553.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 102,
+    "name": "darumaka",
+    "national_dex_id": 554,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/554.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 103,
+    "name": "darmanitan-standard",
+    "national_dex_id": 555,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/555.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 104,
+    "name": "basculin-red-striped",
+    "national_dex_id": 550,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/550.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 105,
+    "name": "trubbish",
+    "national_dex_id": 568,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/568.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 106,
+    "name": "garbodor",
+    "national_dex_id": 569,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/569.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 107,
+    "name": "minccino",
+    "national_dex_id": 572,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/572.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 108,
+    "name": "cinccino",
+    "national_dex_id": 573,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/573.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 109,
+    "name": "rufflet",
+    "national_dex_id": 627,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/627.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 110,
+    "name": "braviary",
+    "national_dex_id": 628,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/628.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 111,
+    "name": "vullaby",
+    "national_dex_id": 629,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/629.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 112,
+    "name": "mandibuzz",
+    "national_dex_id": 630,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/630.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 113,
+    "name": "sandshrew",
+    "national_dex_id": 27,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/27.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 114,
+    "name": "sandslash",
+    "national_dex_id": 28,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/28.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 115,
+    "name": "dwebble",
+    "national_dex_id": 557,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/557.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 116,
+    "name": "crustle",
+    "national_dex_id": 558,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/558.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 117,
+    "name": "scraggy",
+    "national_dex_id": 559,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/559.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 118,
+    "name": "scrafty",
+    "national_dex_id": 560,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/560.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 119,
+    "name": "maractus",
+    "national_dex_id": 556,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/556.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 120,
+    "name": "sigilyph",
+    "national_dex_id": 561,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/561.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 121,
+    "name": "trapinch",
+    "national_dex_id": 328,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/328.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 122,
+    "name": "vibrava",
+    "national_dex_id": 329,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/329.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 123,
+    "name": "flygon",
+    "national_dex_id": 330,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/330.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 124,
+    "name": "yamask",
+    "national_dex_id": 562,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/562.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 125,
+    "name": "cofagrigus",
+    "national_dex_id": 563,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/563.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 126,
+    "name": "tirtouga",
+    "national_dex_id": 564,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/564.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 127,
+    "name": "carracosta",
+    "national_dex_id": 565,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/565.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 128,
+    "name": "archen",
+    "national_dex_id": 566,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/566.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 129,
+    "name": "archeops",
+    "national_dex_id": 567,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/567.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 130,
+    "name": "klink",
+    "national_dex_id": 599,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/599.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 131,
+    "name": "klang",
+    "national_dex_id": 600,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/600.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 132,
+    "name": "klinklang",
+    "national_dex_id": 601,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/601.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 133,
+    "name": "budew",
+    "national_dex_id": 406,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/406.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 134,
+    "name": "roselia",
+    "national_dex_id": 315,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/315.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 135,
+    "name": "roserade",
+    "national_dex_id": 407,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/407.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 136,
+    "name": "gothita",
+    "national_dex_id": 574,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/574.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 137,
+    "name": "gothorita",
+    "national_dex_id": 575,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/575.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 138,
+    "name": "gothitelle",
+    "national_dex_id": 576,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/576.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 139,
+    "name": "solosis",
+    "national_dex_id": 577,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/577.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 140,
+    "name": "duosion",
+    "national_dex_id": 578,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/578.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 141,
+    "name": "reuniclus",
+    "national_dex_id": 579,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/579.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 142,
+    "name": "combee",
+    "national_dex_id": 415,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/415.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 143,
+    "name": "vespiquen",
+    "national_dex_id": 416,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/416.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 144,
+    "name": "emolga",
+    "national_dex_id": 587,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/587.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 145,
+    "name": "heracross",
+    "national_dex_id": 214,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/214.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 146,
+    "name": "pinsir",
+    "national_dex_id": 127,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/127.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 147,
+    "name": "blitzle",
+    "national_dex_id": 522,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/522.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 148,
+    "name": "zebstrika",
+    "national_dex_id": 523,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/523.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 149,
+    "name": "buizel",
+    "national_dex_id": 418,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/418.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 150,
+    "name": "floatzel",
+    "national_dex_id": 419,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/419.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 151,
+    "name": "zorua",
+    "national_dex_id": 570,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/570.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 152,
+    "name": "zoroark",
+    "national_dex_id": 571,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/571.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 153,
+    "name": "ducklett",
+    "national_dex_id": 580,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/580.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 154,
+    "name": "swanna",
+    "national_dex_id": 581,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/581.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 155,
+    "name": "karrablast",
+    "national_dex_id": 588,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/588.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 156,
+    "name": "escavalier",
+    "national_dex_id": 589,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/589.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 157,
+    "name": "shelmet",
+    "national_dex_id": 616,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/616.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 158,
+    "name": "accelgor",
+    "national_dex_id": 617,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/617.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 159,
+    "name": "deerling",
+    "national_dex_id": 585,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/585.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 160,
+    "name": "sawsbuck",
+    "national_dex_id": 586,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/586.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 161,
+    "name": "foongus",
+    "national_dex_id": 590,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/590.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 162,
+    "name": "amoonguss",
+    "national_dex_id": 591,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/591.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 163,
+    "name": "castform",
+    "national_dex_id": 351,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/351.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 164,
+    "name": "nosepass",
+    "national_dex_id": 299,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/299.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 165,
+    "name": "probopass",
+    "national_dex_id": 476,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/476.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 166,
+    "name": "aron",
+    "national_dex_id": 304,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/304.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 167,
+    "name": "lairon",
+    "national_dex_id": 305,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/305.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 168,
+    "name": "aggron",
+    "national_dex_id": 306,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/306.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 169,
+    "name": "baltoy",
+    "national_dex_id": 343,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/343.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 170,
+    "name": "claydol",
+    "national_dex_id": 344,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/344.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 171,
+    "name": "larvesta",
+    "national_dex_id": 636,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/636.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 172,
+    "name": "volcarona",
+    "national_dex_id": 637,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/637.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 173,
+    "name": "joltik",
+    "national_dex_id": 595,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/595.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 174,
+    "name": "galvantula",
+    "national_dex_id": 596,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/596.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 175,
+    "name": "ferroseed",
+    "national_dex_id": 597,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/597.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 176,
+    "name": "ferrothorn",
+    "national_dex_id": 598,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/598.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 177,
+    "name": "tynamo",
+    "national_dex_id": 602,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/602.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 178,
+    "name": "eelektrik",
+    "national_dex_id": 603,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/603.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 179,
+    "name": "eelektross",
+    "national_dex_id": 604,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/604.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 180,
+    "name": "frillish",
+    "national_dex_id": 592,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/592.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 181,
+    "name": "jellicent",
+    "national_dex_id": 593,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/593.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 182,
+    "name": "alomomola",
+    "national_dex_id": 594,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/594.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 183,
+    "name": "axew",
+    "national_dex_id": 610,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/610.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 184,
+    "name": "fraxure",
+    "national_dex_id": 611,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/611.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 185,
+    "name": "haxorus",
+    "national_dex_id": 612,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/612.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 186,
+    "name": "zangoose",
+    "national_dex_id": 335,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/335.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 187,
+    "name": "seviper",
+    "national_dex_id": 336,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/336.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 188,
+    "name": "elgyem",
+    "national_dex_id": 605,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/605.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 189,
+    "name": "beheeyem",
+    "national_dex_id": 606,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/606.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 190,
+    "name": "litwick",
+    "national_dex_id": 607,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/607.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 191,
+    "name": "lampent",
+    "national_dex_id": 608,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/608.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 192,
+    "name": "chandelure",
+    "national_dex_id": 609,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/609.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 193,
+    "name": "heatmor",
+    "national_dex_id": 631,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/631.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 194,
+    "name": "durant",
+    "national_dex_id": 632,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/632.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 195,
+    "name": "cubchoo",
+    "national_dex_id": 613,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/613.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 196,
+    "name": "beartic",
+    "national_dex_id": 614,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/614.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 197,
+    "name": "cryogonal",
+    "national_dex_id": 615,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/615.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 198,
+    "name": "tornadus-incarnate",
+    "national_dex_id": 641,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/641.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 199,
+    "name": "thundurus-incarnate",
+    "national_dex_id": 642,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/642.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 200,
+    "name": "landorus-incarnate",
+    "national_dex_id": 645,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/645.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 201,
+    "name": "skorupi",
+    "national_dex_id": 451,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/451.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 202,
+    "name": "drapion",
+    "national_dex_id": 452,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/452.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 203,
+    "name": "skarmory",
+    "national_dex_id": 227,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/227.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 204,
+    "name": "numel",
+    "national_dex_id": 322,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/322.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 205,
+    "name": "camerupt",
+    "national_dex_id": 323,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/323.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 206,
+    "name": "spoink",
+    "national_dex_id": 325,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/325.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 207,
+    "name": "grumpig",
+    "national_dex_id": 326,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/326.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 208,
+    "name": "drifloon",
+    "national_dex_id": 425,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/425.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 209,
+    "name": "drifblim",
+    "national_dex_id": 426,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/426.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 210,
+    "name": "shuppet",
+    "national_dex_id": 353,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/353.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 211,
+    "name": "banette",
+    "national_dex_id": 354,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/354.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 212,
+    "name": "wingull",
+    "national_dex_id": 278,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/278.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 213,
+    "name": "pelipper",
+    "national_dex_id": 279,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/279.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 214,
+    "name": "lunatone",
+    "national_dex_id": 337,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/337.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 215,
+    "name": "solrock",
+    "national_dex_id": 338,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/338.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 216,
+    "name": "absol",
+    "national_dex_id": 359,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/359.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 217,
+    "name": "tangela",
+    "national_dex_id": 114,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/114.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 218,
+    "name": "tangrowth",
+    "national_dex_id": 465,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/465.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 219,
+    "name": "mienfoo",
+    "national_dex_id": 619,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/619.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 220,
+    "name": "mienshao",
+    "national_dex_id": 620,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/620.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 221,
+    "name": "gligar",
+    "national_dex_id": 207,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/207.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 222,
+    "name": "gliscor",
+    "national_dex_id": 472,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/472.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 223,
+    "name": "pawniard",
+    "national_dex_id": 624,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/624.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 224,
+    "name": "bisharp",
+    "national_dex_id": 625,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/625.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 225,
+    "name": "cobalion",
+    "national_dex_id": 638,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/638.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 226,
+    "name": "terrakion",
+    "national_dex_id": 639,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/639.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 227,
+    "name": "virizion",
+    "national_dex_id": 640,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/640.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 228,
+    "name": "tympole",
+    "national_dex_id": 535,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/535.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 229,
+    "name": "palpitoad",
+    "national_dex_id": 536,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/536.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 230,
+    "name": "seismitoad",
+    "national_dex_id": 537,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/537.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 231,
+    "name": "stunfisk",
+    "national_dex_id": 618,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/618.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 232,
+    "name": "shuckle",
+    "national_dex_id": 213,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/213.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 233,
+    "name": "mantyke",
+    "national_dex_id": 458,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/458.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 234,
+    "name": "mantine",
+    "national_dex_id": 226,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/226.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 235,
+    "name": "remoraid",
+    "national_dex_id": 223,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/223.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 236,
+    "name": "octillery",
+    "national_dex_id": 224,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/224.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 237,
+    "name": "corsola",
+    "national_dex_id": 222,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/222.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 238,
+    "name": "staryu",
+    "national_dex_id": 120,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/120.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 239,
+    "name": "starmie",
+    "national_dex_id": 121,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/121.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 240,
+    "name": "wailmer",
+    "national_dex_id": 320,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/320.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 241,
+    "name": "wailord",
+    "national_dex_id": 321,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/321.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 242,
+    "name": "lapras",
+    "national_dex_id": 131,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/131.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 243,
+    "name": "spheal",
+    "national_dex_id": 363,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/363.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 244,
+    "name": "sealeo",
+    "national_dex_id": 364,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/364.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 245,
+    "name": "walrein",
+    "national_dex_id": 365,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/365.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 246,
+    "name": "swablu",
+    "national_dex_id": 333,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/333.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 247,
+    "name": "altaria",
+    "national_dex_id": 334,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/334.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 248,
+    "name": "vulpix",
+    "national_dex_id": 37,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/37.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 249,
+    "name": "ninetales",
+    "national_dex_id": 38,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/38.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 250,
+    "name": "bronzor",
+    "national_dex_id": 436,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/436.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 251,
+    "name": "bronzong",
+    "national_dex_id": 437,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/437.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 252,
+    "name": "sneasel",
+    "national_dex_id": 215,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/215.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 253,
+    "name": "weavile",
+    "national_dex_id": 461,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/461.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 254,
+    "name": "delibird",
+    "national_dex_id": 225,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/225.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 255,
+    "name": "vanillite",
+    "national_dex_id": 582,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/582.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 256,
+    "name": "vanillish",
+    "national_dex_id": 583,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/583.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 257,
+    "name": "vanilluxe",
+    "national_dex_id": 584,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/584.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 258,
+    "name": "swinub",
+    "national_dex_id": 220,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/220.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 259,
+    "name": "piloswine",
+    "national_dex_id": 221,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/221.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 260,
+    "name": "mamoswine",
+    "national_dex_id": 473,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/473.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 261,
+    "name": "ditto",
+    "national_dex_id": 132,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/132.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 262,
+    "name": "beldum",
+    "national_dex_id": 374,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/374.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 263,
+    "name": "metang",
+    "national_dex_id": 375,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/375.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 264,
+    "name": "metagross",
+    "national_dex_id": 376,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/376.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 265,
+    "name": "seel",
+    "national_dex_id": 86,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/86.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 266,
+    "name": "dewgong",
+    "national_dex_id": 87,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/87.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 267,
+    "name": "throh",
+    "national_dex_id": 538,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/538.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 268,
+    "name": "sawk",
+    "national_dex_id": 539,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/539.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 269,
+    "name": "bouffalant",
+    "national_dex_id": 626,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/626.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 270,
+    "name": "druddigon",
+    "national_dex_id": 621,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/621.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 271,
+    "name": "golett",
+    "national_dex_id": 622,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/622.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 272,
+    "name": "golurk",
+    "national_dex_id": 623,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/623.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 273,
+    "name": "deino",
+    "national_dex_id": 633,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/633.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 274,
+    "name": "zweilous",
+    "national_dex_id": 634,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/634.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 275,
+    "name": "hydreigon",
+    "national_dex_id": 635,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/635.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 276,
+    "name": "slakoth",
+    "national_dex_id": 287,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/287.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 277,
+    "name": "vigoroth",
+    "national_dex_id": 288,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/288.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 278,
+    "name": "slaking",
+    "national_dex_id": 289,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/289.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 279,
+    "name": "corphish",
+    "national_dex_id": 341,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/341.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 280,
+    "name": "crawdaunt",
+    "national_dex_id": 342,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/342.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "dive",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 281,
+    "name": "igglybuff",
+    "national_dex_id": 174,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/174.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 282,
+    "name": "jigglypuff",
+    "national_dex_id": 39,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/39.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 283,
+    "name": "wigglytuff",
+    "national_dex_id": 40,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/40.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 284,
+    "name": "lickitung",
+    "national_dex_id": 108,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/108.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 285,
+    "name": "lickilicky",
+    "national_dex_id": 463,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/463.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 286,
+    "name": "yanma",
+    "national_dex_id": 193,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/193.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 287,
+    "name": "yanmega",
+    "national_dex_id": 469,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/469.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 288,
+    "name": "tropius",
+    "national_dex_id": 357,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/357.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 289,
+    "name": "carnivine",
+    "national_dex_id": 455,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/455.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 290,
+    "name": "croagunk",
+    "national_dex_id": 453,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/453.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 291,
+    "name": "toxicroak",
+    "national_dex_id": 454,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/454.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 292,
+    "name": "larvitar",
+    "national_dex_id": 246,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/246.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 293,
+    "name": "pupitar",
+    "national_dex_id": 247,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/247.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 294,
+    "name": "tyranitar",
+    "national_dex_id": 248,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/248.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 295,
+    "name": "reshiram",
+    "national_dex_id": 643,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/643.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 296,
+    "name": "zekrom",
+    "national_dex_id": 644,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/644.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 297,
+    "name": "kyurem",
+    "national_dex_id": 646,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/646.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 298,
+    "name": "keldeo-ordinary",
+    "national_dex_id": 647,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/647.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 299,
+    "name": "meloetta-aria",
+    "national_dex_id": 648,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/648.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 300,
+    "name": "genesect",
+    "national_dex_id": 649,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/649.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "dive",
+        "can_learn": false
+      }
+    ]
+  }
+]
