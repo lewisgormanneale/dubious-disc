@@ -108,21 +108,6 @@ let teamMembers = [
     }
 ];
 
-// Get the offset position of the team window
-let sticky = teamAndOptions.offsetTop;
-
-//functions
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-window.addEventListener("scroll", stickyTeamWindow);
-function stickyTeamWindow() {
-  if (window.pageYOffset > sticky) {
-    teamAndOptions.classList.add("sticky");
-  } else {
-    teamAndOptions.classList.remove("sticky");
-  }
-}
-
 //navbar
 
 function openNav() {
@@ -138,11 +123,9 @@ function closeNav() {
 function darkModeToggle() {
     if (darkMode === false) {
         body.classList.add('dark-mode');
-        darkModeButton.textContent = 'Light Mode'
         darkMode = true;
     } else if (darkMode === true) {
         body.classList.remove('dark-mode')
-        darkModeButton.textContent = 'Dark Mode'
         darkMode = false;
     };
 };

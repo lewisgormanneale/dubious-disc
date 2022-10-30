@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700&family=Montserrat:wght@400;600;700;800&family=Teko&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e4de2803d7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header id="header">
+    <header id="header" class="sticky">
         <div id="game-select-container">
-            <button id="game-select-button" class="header-button" onclick="openNav()">Game Select</button>
+            <button id="game-select-button" class="header-button" onclick="openNav()"><i class="fa-solid fa-bars"></i></button>
             <div id="navbar">
                 <a href="javascript:void(0)" id="close-button" onclick="closeNav()">&times;</a>
                 <a onclick="updateGeneration(1)">Pokémon Red/Blue/Yellow</a>
@@ -26,14 +27,15 @@
                 <a onclick="updateGeneration(5)">Pokémon Black/White</a>
                 <a onclick="updateGeneration(5.5)">Pokémon Black 2/White 2</a>
             </div>
-        </div>  
-        <h1 id="title">Pokémon Team Planner</h1>
+        </div>
+        <div id="title">
+            <h1 id="title">Pokémon Team Planner</h1></div>
         <div id="dark-mode-container">
-            <button id="dark-mode-button" class="header-button" onclick="darkModeToggle()">Dark Mode</button>
+            <button id="dark-mode-button" class="header-button" onclick="darkModeToggle()"><i class="fa-solid fa-circle-half-stroke"></i></button>
         </div>
     </header>
     <main>
-        <section id="team-and-options">
+        <section id="team-and-options" class="sticky">
             <div id="team">
                 <div id="team1-3" class="team-half"></div>
                 <div id="team4-6" class="team-half"></div>
