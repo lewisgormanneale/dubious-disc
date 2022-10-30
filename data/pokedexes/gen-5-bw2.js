@@ -19,7 +19,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/494.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/494.png",
     "hms": [
       {
         "name": "cut",
