@@ -12,7 +12,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/387.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/387.png",
     "hms": [
       {
         "name": "cut",
@@ -61,7 +61,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/388.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/388.png",
     "hms": [
       {
         "name": "cut",
@@ -117,7 +117,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/389.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/389.png",
     "hms": [
       {
         "name": "cut",
@@ -166,7 +166,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/390.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/390.png",
     "hms": [
       {
         "name": "cut",
@@ -222,7 +222,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/391.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/391.png",
     "hms": [
       {
         "name": "cut",
@@ -278,7 +278,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/392.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/392.png",
     "hms": [
       {
         "name": "cut",
@@ -327,7 +327,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/393.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/393.png",
     "hms": [
       {
         "name": "cut",
@@ -376,7 +376,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/394.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/394.png",
     "hms": [
       {
         "name": "cut",
@@ -432,7 +432,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/395.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/395.png",
     "hms": [
       {
         "name": "cut",
@@ -488,7 +488,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/396.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/396.png",
     "hms": [
       {
         "name": "cut",
@@ -544,7 +544,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/397.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/397.png",
     "hms": [
       {
         "name": "cut",
@@ -600,7 +600,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/398.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/398.png",
     "hms": [
       {
         "name": "cut",
@@ -649,7 +649,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/399.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/399.png",
     "hms": [
       {
         "name": "cut",
@@ -705,7 +705,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/400.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/400.png",
     "hms": [
       {
         "name": "cut",
@@ -754,7 +754,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/401.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/401.png",
     "hms": [
       {
         "name": "cut",
@@ -803,7 +803,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/402.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/402.png",
     "hms": [
       {
         "name": "cut",
@@ -852,7 +852,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/403.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/403.png",
     "hms": [
       {
         "name": "cut",
@@ -901,7 +901,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/404.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/404.png",
     "hms": [
       {
         "name": "cut",
@@ -950,7 +950,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/405.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/405.png",
     "hms": [
       {
         "name": "cut",
@@ -999,7 +999,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/63.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/63.png",
     "hms": [
       {
         "name": "cut",
@@ -1048,7 +1048,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/64.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/64.png",
     "hms": [
       {
         "name": "cut",
@@ -1097,7 +1097,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/65.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/65.png",
     "hms": [
       {
         "name": "cut",
@@ -1146,7 +1146,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/129.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/129.png",
     "hms": [
       {
         "name": "cut",
@@ -1202,7 +1202,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/130.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/130.png",
     "hms": [
       {
         "name": "cut",
@@ -1258,7 +1258,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/406.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/406.png",
     "hms": [
       {
         "name": "cut",
@@ -1314,7 +1314,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/315.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/315.png",
     "hms": [
       {
         "name": "cut",
@@ -1370,7 +1370,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/407.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/407.png",
     "hms": [
       {
         "name": "cut",
@@ -1426,7 +1426,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/41.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/41.png",
     "hms": [
       {
         "name": "cut",
@@ -1482,7 +1482,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/42.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/42.png",
     "hms": [
       {
         "name": "cut",
@@ -1538,7 +1538,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/169.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/169.png",
     "hms": [
       {
         "name": "cut",
@@ -1594,7 +1594,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/74.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/74.png",
     "hms": [
       {
         "name": "cut",
@@ -1650,7 +1650,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/75.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/75.png",
     "hms": [
       {
         "name": "cut",
@@ -1706,7 +1706,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/76.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/76.png",
     "hms": [
       {
         "name": "cut",
@@ -1762,7 +1762,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/95.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/95.png",
     "hms": [
       {
         "name": "cut",
@@ -1818,7 +1818,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/208.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/208.png",
     "hms": [
       {
         "name": "cut",
@@ -1867,7 +1867,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/408.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/408.png",
     "hms": [
       {
         "name": "cut",
@@ -1916,7 +1916,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/409.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/409.png",
     "hms": [
       {
         "name": "cut",
@@ -1972,7 +1972,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/410.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/410.png",
     "hms": [
       {
         "name": "cut",
@@ -2028,7 +2028,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/411.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/411.png",
     "hms": [
       {
         "name": "cut",
@@ -2077,7 +2077,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/66.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/66.png",
     "hms": [
       {
         "name": "cut",
@@ -2126,7 +2126,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/67.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/67.png",
     "hms": [
       {
         "name": "cut",
@@ -2175,7 +2175,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/68.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/68.png",
     "hms": [
       {
         "name": "cut",
@@ -2224,7 +2224,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/54.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/54.png",
     "hms": [
       {
         "name": "cut",
@@ -2273,7 +2273,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/55.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/55.png",
     "hms": [
       {
         "name": "cut",
@@ -2322,7 +2322,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/412.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/412.png",
     "hms": [
       {
         "name": "cut",
@@ -2378,7 +2378,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/413.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/413.png",
     "hms": [
       {
         "name": "cut",
@@ -2434,7 +2434,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/414.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/414.png",
     "hms": [
       {
         "name": "cut",
@@ -2483,7 +2483,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/265.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/265.png",
     "hms": [
       {
         "name": "cut",
@@ -2532,7 +2532,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/266.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/266.png",
     "hms": [
       {
         "name": "cut",
@@ -2588,7 +2588,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/267.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/267.png",
     "hms": [
       {
         "name": "cut",
@@ -2637,7 +2637,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/268.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/268.png",
     "hms": [
       {
         "name": "cut",
@@ -2693,7 +2693,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/269.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/269.png",
     "hms": [
       {
         "name": "cut",
@@ -2749,7 +2749,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/415.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/415.png",
     "hms": [
       {
         "name": "cut",
@@ -2805,7 +2805,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/416.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/416.png",
     "hms": [
       {
         "name": "cut",
@@ -2854,7 +2854,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/417.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/417.png",
     "hms": [
       {
         "name": "cut",
@@ -2903,7 +2903,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/418.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/418.png",
     "hms": [
       {
         "name": "cut",
@@ -2952,7 +2952,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/419.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/419.png",
     "hms": [
       {
         "name": "cut",
@@ -3001,7 +3001,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/420.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/420.png",
     "hms": [
       {
         "name": "cut",
@@ -3050,7 +3050,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/421.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/421.png",
     "hms": [
       {
         "name": "cut",
@@ -3099,7 +3099,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/422.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/422.png",
     "hms": [
       {
         "name": "cut",
@@ -3155,7 +3155,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/423.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/423.png",
     "hms": [
       {
         "name": "cut",
@@ -3211,7 +3211,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/214.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/214.png",
     "hms": [
       {
         "name": "cut",
@@ -3260,7 +3260,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/190.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/190.png",
     "hms": [
       {
         "name": "cut",
@@ -3309,7 +3309,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/424.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/424.png",
     "hms": [
       {
         "name": "cut",
@@ -3365,7 +3365,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/425.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/425.png",
     "hms": [
       {
         "name": "cut",
@@ -3421,7 +3421,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/426.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/426.png",
     "hms": [
       {
         "name": "cut",
@@ -3470,7 +3470,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/427.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/427.png",
     "hms": [
       {
         "name": "cut",
@@ -3519,7 +3519,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/428.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/428.png",
     "hms": [
       {
         "name": "cut",
@@ -3575,7 +3575,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/92.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/92.png",
     "hms": [
       {
         "name": "cut",
@@ -3631,7 +3631,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/93.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/93.png",
     "hms": [
       {
         "name": "cut",
@@ -3687,7 +3687,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/94.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/94.png",
     "hms": [
       {
         "name": "cut",
@@ -3736,7 +3736,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/200.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/200.png",
     "hms": [
       {
         "name": "cut",
@@ -3785,7 +3785,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/429.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/429.png",
     "hms": [
       {
         "name": "cut",
@@ -3841,7 +3841,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/198.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/198.png",
     "hms": [
       {
         "name": "cut",
@@ -3897,7 +3897,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/430.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/430.png",
     "hms": [
       {
         "name": "cut",
@@ -3946,7 +3946,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/431.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/431.png",
     "hms": [
       {
         "name": "cut",
@@ -3995,7 +3995,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/432.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/432.png",
     "hms": [
       {
         "name": "cut",
@@ -4044,7 +4044,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/118.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/118.png",
     "hms": [
       {
         "name": "cut",
@@ -4093,7 +4093,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/119.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/119.png",
     "hms": [
       {
         "name": "cut",
@@ -4149,7 +4149,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/339.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/339.png",
     "hms": [
       {
         "name": "cut",
@@ -4205,7 +4205,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/340.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/340.png",
     "hms": [
       {
         "name": "cut",
@@ -4254,7 +4254,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/433.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/433.png",
     "hms": [
       {
         "name": "cut",
@@ -4303,7 +4303,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/358.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/358.png",
     "hms": [
       {
         "name": "cut",
@@ -4359,7 +4359,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/434.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/434.png",
     "hms": [
       {
         "name": "cut",
@@ -4415,7 +4415,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/435.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/435.png",
     "hms": [
       {
         "name": "cut",
@@ -4471,7 +4471,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/307.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/307.png",
     "hms": [
       {
         "name": "cut",
@@ -4527,7 +4527,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/308.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/308.png",
     "hms": [
       {
         "name": "cut",
@@ -4583,7 +4583,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/436.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/436.png",
     "hms": [
       {
         "name": "cut",
@@ -4639,7 +4639,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/437.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/437.png",
     "hms": [
       {
         "name": "cut",
@@ -4688,7 +4688,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/77.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/77.png",
     "hms": [
       {
         "name": "cut",
@@ -4737,7 +4737,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/78.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/78.png",
     "hms": [
       {
         "name": "cut",
@@ -4786,7 +4786,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/438.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/438.png",
     "hms": [
       {
         "name": "cut",
@@ -4835,7 +4835,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/185.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/185.png",
     "hms": [
       {
         "name": "cut",
@@ -4891,7 +4891,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/439.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/439.png",
     "hms": [
       {
         "name": "cut",
@@ -4947,7 +4947,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/122.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/122.png",
     "hms": [
       {
         "name": "cut",
@@ -4996,7 +4996,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/440.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/440.png",
     "hms": [
       {
         "name": "cut",
@@ -5045,7 +5045,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/113.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/113.png",
     "hms": [
       {
         "name": "cut",
@@ -5094,7 +5094,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/242.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/242.png",
     "hms": [
       {
         "name": "cut",
@@ -5143,7 +5143,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/173.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/173.png",
     "hms": [
       {
         "name": "cut",
@@ -5192,7 +5192,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/35.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/35.png",
     "hms": [
       {
         "name": "cut",
@@ -5241,7 +5241,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/36.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/36.png",
     "hms": [
       {
         "name": "cut",
@@ -5297,7 +5297,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/441.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/441.png",
     "hms": [
       {
         "name": "cut",
@@ -5346,7 +5346,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/172.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/172.png",
     "hms": [
       {
         "name": "cut",
@@ -5395,7 +5395,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/25.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/25.png",
     "hms": [
       {
         "name": "cut",
@@ -5444,7 +5444,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/26.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/26.png",
     "hms": [
       {
         "name": "cut",
@@ -5500,7 +5500,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/163.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/163.png",
     "hms": [
       {
         "name": "cut",
@@ -5556,7 +5556,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/164.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/164.png",
     "hms": [
       {
         "name": "cut",
@@ -5612,7 +5612,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/442.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/442.png",
     "hms": [
       {
         "name": "cut",
@@ -5668,7 +5668,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/443.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/443.png",
     "hms": [
       {
         "name": "cut",
@@ -5724,7 +5724,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/444.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/444.png",
     "hms": [
       {
         "name": "cut",
@@ -5780,7 +5780,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/445.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/445.png",
     "hms": [
       {
         "name": "cut",
@@ -5829,7 +5829,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/446.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/446.png",
     "hms": [
       {
         "name": "cut",
@@ -5878,7 +5878,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/143.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/143.png",
     "hms": [
       {
         "name": "cut",
@@ -5927,7 +5927,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/201.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/201.png",
     "hms": [
       {
         "name": "cut",
@@ -5976,7 +5976,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/447.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/447.png",
     "hms": [
       {
         "name": "cut",
@@ -6032,7 +6032,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/448.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/448.png",
     "hms": [
       {
         "name": "cut",
@@ -6088,7 +6088,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/194.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/194.png",
     "hms": [
       {
         "name": "cut",
@@ -6144,7 +6144,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/195.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/195.png",
     "hms": [
       {
         "name": "cut",
@@ -6200,7 +6200,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/278.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/278.png",
     "hms": [
       {
         "name": "cut",
@@ -6256,7 +6256,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/279.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/279.png",
     "hms": [
       {
         "name": "cut",
@@ -6312,7 +6312,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/203.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/203.png",
     "hms": [
       {
         "name": "cut",
@@ -6361,7 +6361,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/449.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/449.png",
     "hms": [
       {
         "name": "cut",
@@ -6410,7 +6410,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/450.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/450.png",
     "hms": [
       {
         "name": "cut",
@@ -6466,7 +6466,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/298.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/298.png",
     "hms": [
       {
         "name": "cut",
@@ -6522,7 +6522,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/183.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/183.png",
     "hms": [
       {
         "name": "cut",
@@ -6578,7 +6578,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/184.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/184.png",
     "hms": [
       {
         "name": "cut",
@@ -6634,7 +6634,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/451.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/451.png",
     "hms": [
       {
         "name": "cut",
@@ -6690,7 +6690,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/452.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/452.png",
     "hms": [
       {
         "name": "cut",
@@ -6746,7 +6746,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/453.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/453.png",
     "hms": [
       {
         "name": "cut",
@@ -6802,7 +6802,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/454.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/454.png",
     "hms": [
       {
         "name": "cut",
@@ -6851,7 +6851,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/455.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/455.png",
     "hms": [
       {
         "name": "cut",
@@ -6900,7 +6900,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/223.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/223.png",
     "hms": [
       {
         "name": "cut",
@@ -6949,7 +6949,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/224.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/224.png",
     "hms": [
       {
         "name": "cut",
@@ -6998,7 +6998,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/456.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/456.png",
     "hms": [
       {
         "name": "cut",
@@ -7047,7 +7047,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/457.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/457.png",
     "hms": [
       {
         "name": "cut",
@@ -7103,7 +7103,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/72.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/72.png",
     "hms": [
       {
         "name": "cut",
@@ -7159,7 +7159,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/73.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/73.png",
     "hms": [
       {
         "name": "cut",
@@ -7208,7 +7208,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/349.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/349.png",
     "hms": [
       {
         "name": "cut",
@@ -7257,7 +7257,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/350.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/350.png",
     "hms": [
       {
         "name": "cut",
@@ -7313,7 +7313,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/458.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/458.png",
     "hms": [
       {
         "name": "cut",
@@ -7369,7 +7369,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/226.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/226.png",
     "hms": [
       {
         "name": "cut",
@@ -7425,7 +7425,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/459.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/459.png",
     "hms": [
       {
         "name": "cut",
@@ -7481,7 +7481,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/460.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/460.png",
     "hms": [
       {
         "name": "cut",
@@ -7537,7 +7537,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/215.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/215.png",
     "hms": [
       {
         "name": "cut",
@@ -7593,7 +7593,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/461.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/461.png",
     "hms": [
       {
         "name": "cut",
@@ -7642,7 +7642,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/480.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/480.png",
     "hms": [
       {
         "name": "cut",
@@ -7691,7 +7691,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/481.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/481.png",
     "hms": [
       {
         "name": "cut",
@@ -7740,7 +7740,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/482.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/482.png",
     "hms": [
       {
         "name": "cut",
@@ -7796,7 +7796,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/483.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/483.png",
     "hms": [
       {
         "name": "cut",
@@ -7852,7 +7852,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/484.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/484.png",
     "hms": [
       {
         "name": "cut",
@@ -7901,7 +7901,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/490.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/490.png",
     "hms": [
       {
         "name": "cut",
@@ -7957,7 +7957,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/479.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/479.png",
     "hms": [
       {
         "name": "cut",
@@ -8013,7 +8013,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/207.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/207.png",
     "hms": [
       {
         "name": "cut",
@@ -8069,7 +8069,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/472.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/472.png",
     "hms": [
       {
         "name": "cut",
@@ -8118,7 +8118,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/299.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/299.png",
     "hms": [
       {
         "name": "cut",
@@ -8174,7 +8174,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/476.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/476.png",
     "hms": [
       {
         "name": "cut",
@@ -8230,7 +8230,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/280.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/280.png",
     "hms": [
       {
         "name": "cut",
@@ -8286,7 +8286,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/281.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/281.png",
     "hms": [
       {
         "name": "cut",
@@ -8342,7 +8342,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/282.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/282.png",
     "hms": [
       {
         "name": "cut",
@@ -8398,7 +8398,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/475.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/475.png",
     "hms": [
       {
         "name": "cut",
@@ -8447,7 +8447,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/108.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/108.png",
     "hms": [
       {
         "name": "cut",
@@ -8496,7 +8496,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/463.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/463.png",
     "hms": [
       {
         "name": "cut",
@@ -8545,7 +8545,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/133.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/133.png",
     "hms": [
       {
         "name": "cut",
@@ -8594,7 +8594,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/134.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/134.png",
     "hms": [
       {
         "name": "cut",
@@ -8643,7 +8643,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/135.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/135.png",
     "hms": [
       {
         "name": "cut",
@@ -8692,7 +8692,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/136.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/136.png",
     "hms": [
       {
         "name": "cut",
@@ -8741,7 +8741,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/196.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/196.png",
     "hms": [
       {
         "name": "cut",
@@ -8790,7 +8790,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/197.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/197.png",
     "hms": [
       {
         "name": "cut",
@@ -8839,7 +8839,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/470.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/470.png",
     "hms": [
       {
         "name": "cut",
@@ -8888,7 +8888,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/471.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/471.png",
     "hms": [
       {
         "name": "cut",
@@ -8944,7 +8944,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/333.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/333.png",
     "hms": [
       {
         "name": "cut",
@@ -9000,7 +9000,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/334.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/334.png",
     "hms": [
       {
         "name": "cut",
@@ -9049,7 +9049,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/175.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/175.png",
     "hms": [
       {
         "name": "cut",
@@ -9105,7 +9105,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/176.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/176.png",
     "hms": [
       {
         "name": "cut",
@@ -9161,7 +9161,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/468.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/468.png",
     "hms": [
       {
         "name": "cut",
@@ -9217,7 +9217,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/228.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/228.png",
     "hms": [
       {
         "name": "cut",
@@ -9273,7 +9273,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/229.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/229.png",
     "hms": [
       {
         "name": "cut",
@@ -9329,7 +9329,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/81.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/81.png",
     "hms": [
       {
         "name": "cut",
@@ -9385,7 +9385,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/82.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/82.png",
     "hms": [
       {
         "name": "cut",
@@ -9441,7 +9441,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/462.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/462.png",
     "hms": [
       {
         "name": "cut",
@@ -9490,7 +9490,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/114.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/114.png",
     "hms": [
       {
         "name": "cut",
@@ -9539,7 +9539,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/465.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/465.png",
     "hms": [
       {
         "name": "cut",
@@ -9595,7 +9595,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/193.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/193.png",
     "hms": [
       {
         "name": "cut",
@@ -9651,7 +9651,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/469.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/469.png",
     "hms": [
       {
         "name": "cut",
@@ -9707,7 +9707,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/357.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/357.png",
     "hms": [
       {
         "name": "cut",
@@ -9763,7 +9763,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/111.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/111.png",
     "hms": [
       {
         "name": "cut",
@@ -9819,7 +9819,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/112.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/112.png",
     "hms": [
       {
         "name": "cut",
@@ -9875,7 +9875,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/464.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/464.png",
     "hms": [
       {
         "name": "cut",
@@ -9924,7 +9924,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/355.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/355.png",
     "hms": [
       {
         "name": "cut",
@@ -9973,7 +9973,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/356.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/356.png",
     "hms": [
       {
         "name": "cut",
@@ -10022,7 +10022,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/477.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/477.png",
     "hms": [
       {
         "name": "cut",
@@ -10071,7 +10071,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/137.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/137.png",
     "hms": [
       {
         "name": "cut",
@@ -10120,7 +10120,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/233.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/233.png",
     "hms": [
       {
         "name": "cut",
@@ -10169,7 +10169,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/474.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/474.png",
     "hms": [
       {
         "name": "cut",
@@ -10225,7 +10225,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/123.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/123.png",
     "hms": [
       {
         "name": "cut",
@@ -10281,7 +10281,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/212.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/212.png",
     "hms": [
       {
         "name": "cut",
@@ -10330,7 +10330,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/239.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/239.png",
     "hms": [
       {
         "name": "cut",
@@ -10379,7 +10379,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/125.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/125.png",
     "hms": [
       {
         "name": "cut",
@@ -10428,7 +10428,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/466.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/466.png",
     "hms": [
       {
         "name": "cut",
@@ -10477,7 +10477,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/240.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/240.png",
     "hms": [
       {
         "name": "cut",
@@ -10526,7 +10526,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/126.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/126.png",
     "hms": [
       {
         "name": "cut",
@@ -10575,7 +10575,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/467.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/467.png",
     "hms": [
       {
         "name": "cut",
@@ -10631,7 +10631,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/220.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/220.png",
     "hms": [
       {
         "name": "cut",
@@ -10687,7 +10687,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/221.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/221.png",
     "hms": [
       {
         "name": "cut",
@@ -10743,7 +10743,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/473.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/473.png",
     "hms": [
       {
         "name": "cut",
@@ -10792,7 +10792,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/361.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/361.png",
     "hms": [
       {
         "name": "cut",
@@ -10841,7 +10841,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/362.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/362.png",
     "hms": [
       {
         "name": "cut",
@@ -10897,7 +10897,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/478.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/478.png",
     "hms": [
       {
         "name": "cut",
@@ -10946,7 +10946,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/359.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/359.png",
     "hms": [
       {
         "name": "cut",
@@ -11002,7 +11002,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/487.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/487.png",
     "hms": [
       {
         "name": "cut",

@@ -12,7 +12,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/387.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/387.png",
     "hms": [
       {
         "name": "cut",
@@ -61,7 +61,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/388.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/388.png",
     "hms": [
       {
         "name": "cut",
@@ -117,7 +117,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/389.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/389.png",
     "hms": [
       {
         "name": "cut",
@@ -166,7 +166,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/390.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/390.png",
     "hms": [
       {
         "name": "cut",
@@ -222,7 +222,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/391.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/391.png",
     "hms": [
       {
         "name": "cut",
@@ -278,7 +278,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/392.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/392.png",
     "hms": [
       {
         "name": "cut",
@@ -327,7 +327,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/393.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/393.png",
     "hms": [
       {
         "name": "cut",
@@ -376,7 +376,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/394.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/394.png",
     "hms": [
       {
         "name": "cut",
@@ -432,7 +432,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/395.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/395.png",
     "hms": [
       {
         "name": "cut",
@@ -488,7 +488,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/396.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/396.png",
     "hms": [
       {
         "name": "cut",
@@ -544,7 +544,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/397.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/397.png",
     "hms": [
       {
         "name": "cut",
@@ -600,7 +600,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/398.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/398.png",
     "hms": [
       {
         "name": "cut",
@@ -649,7 +649,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/399.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/399.png",
     "hms": [
       {
         "name": "cut",
@@ -705,7 +705,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/400.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/400.png",
     "hms": [
       {
         "name": "cut",
@@ -754,7 +754,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/401.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/401.png",
     "hms": [
       {
         "name": "cut",
@@ -803,7 +803,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/402.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/402.png",
     "hms": [
       {
         "name": "cut",
@@ -852,7 +852,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/403.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/403.png",
     "hms": [
       {
         "name": "cut",
@@ -901,7 +901,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/404.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/404.png",
     "hms": [
       {
         "name": "cut",
@@ -950,7 +950,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/405.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/405.png",
     "hms": [
       {
         "name": "cut",
@@ -999,7 +999,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/63.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/63.png",
     "hms": [
       {
         "name": "cut",
@@ -1048,7 +1048,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/64.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/64.png",
     "hms": [
       {
         "name": "cut",
@@ -1097,7 +1097,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/65.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/65.png",
     "hms": [
       {
         "name": "cut",
@@ -1146,7 +1146,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/129.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/129.png",
     "hms": [
       {
         "name": "cut",
@@ -1202,7 +1202,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/130.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/130.png",
     "hms": [
       {
         "name": "cut",
@@ -1258,7 +1258,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/406.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/406.png",
     "hms": [
       {
         "name": "cut",
@@ -1314,7 +1314,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/315.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/315.png",
     "hms": [
       {
         "name": "cut",
@@ -1370,7 +1370,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/407.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/407.png",
     "hms": [
       {
         "name": "cut",
@@ -1426,7 +1426,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/41.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/41.png",
     "hms": [
       {
         "name": "cut",
@@ -1482,7 +1482,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/42.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/42.png",
     "hms": [
       {
         "name": "cut",
@@ -1538,7 +1538,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/169.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/169.png",
     "hms": [
       {
         "name": "cut",
@@ -1594,7 +1594,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/74.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/74.png",
     "hms": [
       {
         "name": "cut",
@@ -1650,7 +1650,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/75.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/75.png",
     "hms": [
       {
         "name": "cut",
@@ -1706,7 +1706,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/76.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/76.png",
     "hms": [
       {
         "name": "cut",
@@ -1762,7 +1762,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/95.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/95.png",
     "hms": [
       {
         "name": "cut",
@@ -1818,7 +1818,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/208.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/208.png",
     "hms": [
       {
         "name": "cut",
@@ -1867,7 +1867,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/408.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/408.png",
     "hms": [
       {
         "name": "cut",
@@ -1916,7 +1916,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/409.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/409.png",
     "hms": [
       {
         "name": "cut",
@@ -1972,7 +1972,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/410.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/410.png",
     "hms": [
       {
         "name": "cut",
@@ -2028,7 +2028,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/411.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/411.png",
     "hms": [
       {
         "name": "cut",
@@ -2077,7 +2077,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/66.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/66.png",
     "hms": [
       {
         "name": "cut",
@@ -2126,7 +2126,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/67.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/67.png",
     "hms": [
       {
         "name": "cut",
@@ -2175,7 +2175,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/68.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/68.png",
     "hms": [
       {
         "name": "cut",
@@ -2224,7 +2224,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/54.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/54.png",
     "hms": [
       {
         "name": "cut",
@@ -2273,7 +2273,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/55.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/55.png",
     "hms": [
       {
         "name": "cut",
@@ -2322,7 +2322,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/412.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/412.png",
     "hms": [
       {
         "name": "cut",
@@ -2378,7 +2378,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/413.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/413.png",
     "hms": [
       {
         "name": "cut",
@@ -2434,7 +2434,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/414.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/414.png",
     "hms": [
       {
         "name": "cut",
@@ -2483,7 +2483,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/265.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/265.png",
     "hms": [
       {
         "name": "cut",
@@ -2532,7 +2532,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/266.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/266.png",
     "hms": [
       {
         "name": "cut",
@@ -2588,7 +2588,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/267.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/267.png",
     "hms": [
       {
         "name": "cut",
@@ -2637,7 +2637,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/268.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/268.png",
     "hms": [
       {
         "name": "cut",
@@ -2693,7 +2693,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/269.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/269.png",
     "hms": [
       {
         "name": "cut",
@@ -2749,7 +2749,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/415.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/415.png",
     "hms": [
       {
         "name": "cut",
@@ -2805,7 +2805,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/416.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/416.png",
     "hms": [
       {
         "name": "cut",
@@ -2854,7 +2854,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/417.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/417.png",
     "hms": [
       {
         "name": "cut",
@@ -2903,7 +2903,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/418.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/418.png",
     "hms": [
       {
         "name": "cut",
@@ -2952,7 +2952,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/419.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/419.png",
     "hms": [
       {
         "name": "cut",
@@ -3001,7 +3001,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/420.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/420.png",
     "hms": [
       {
         "name": "cut",
@@ -3050,7 +3050,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/421.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/421.png",
     "hms": [
       {
         "name": "cut",
@@ -3099,7 +3099,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/422.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/422.png",
     "hms": [
       {
         "name": "cut",
@@ -3155,7 +3155,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/423.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/423.png",
     "hms": [
       {
         "name": "cut",
@@ -3211,7 +3211,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/214.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/214.png",
     "hms": [
       {
         "name": "cut",
@@ -3260,7 +3260,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/190.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/190.png",
     "hms": [
       {
         "name": "cut",
@@ -3309,7 +3309,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/424.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/424.png",
     "hms": [
       {
         "name": "cut",
@@ -3365,7 +3365,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/425.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/425.png",
     "hms": [
       {
         "name": "cut",
@@ -3421,7 +3421,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/426.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/426.png",
     "hms": [
       {
         "name": "cut",
@@ -3470,7 +3470,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/427.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/427.png",
     "hms": [
       {
         "name": "cut",
@@ -3519,7 +3519,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/428.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/428.png",
     "hms": [
       {
         "name": "cut",
@@ -3575,7 +3575,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/92.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/92.png",
     "hms": [
       {
         "name": "cut",
@@ -3631,7 +3631,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/93.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/93.png",
     "hms": [
       {
         "name": "cut",
@@ -3687,7 +3687,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/94.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/94.png",
     "hms": [
       {
         "name": "cut",
@@ -3736,7 +3736,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/200.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/200.png",
     "hms": [
       {
         "name": "cut",
@@ -3785,7 +3785,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/429.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/429.png",
     "hms": [
       {
         "name": "cut",
@@ -3841,7 +3841,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/198.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/198.png",
     "hms": [
       {
         "name": "cut",
@@ -3897,7 +3897,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/430.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/430.png",
     "hms": [
       {
         "name": "cut",
@@ -3946,7 +3946,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/431.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/431.png",
     "hms": [
       {
         "name": "cut",
@@ -3995,7 +3995,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/432.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/432.png",
     "hms": [
       {
         "name": "cut",
@@ -4044,7 +4044,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/118.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/118.png",
     "hms": [
       {
         "name": "cut",
@@ -4093,7 +4093,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/119.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/119.png",
     "hms": [
       {
         "name": "cut",
@@ -4149,7 +4149,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/339.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/339.png",
     "hms": [
       {
         "name": "cut",
@@ -4205,7 +4205,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/340.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/340.png",
     "hms": [
       {
         "name": "cut",
@@ -4254,7 +4254,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/433.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/433.png",
     "hms": [
       {
         "name": "cut",
@@ -4303,7 +4303,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/358.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/358.png",
     "hms": [
       {
         "name": "cut",
@@ -4359,7 +4359,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/434.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/434.png",
     "hms": [
       {
         "name": "cut",
@@ -4415,7 +4415,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/435.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/435.png",
     "hms": [
       {
         "name": "cut",
@@ -4471,7 +4471,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/307.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/307.png",
     "hms": [
       {
         "name": "cut",
@@ -4527,7 +4527,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/308.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/308.png",
     "hms": [
       {
         "name": "cut",
@@ -4583,7 +4583,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/436.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/436.png",
     "hms": [
       {
         "name": "cut",
@@ -4639,7 +4639,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/437.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/437.png",
     "hms": [
       {
         "name": "cut",
@@ -4688,7 +4688,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/77.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/77.png",
     "hms": [
       {
         "name": "cut",
@@ -4737,7 +4737,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/78.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/78.png",
     "hms": [
       {
         "name": "cut",
@@ -4786,7 +4786,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/438.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/438.png",
     "hms": [
       {
         "name": "cut",
@@ -4835,7 +4835,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/185.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/185.png",
     "hms": [
       {
         "name": "cut",
@@ -4891,7 +4891,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/439.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/439.png",
     "hms": [
       {
         "name": "cut",
@@ -4947,7 +4947,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/122.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/122.png",
     "hms": [
       {
         "name": "cut",
@@ -4996,7 +4996,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/440.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/440.png",
     "hms": [
       {
         "name": "cut",
@@ -5045,7 +5045,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/113.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/113.png",
     "hms": [
       {
         "name": "cut",
@@ -5094,7 +5094,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/242.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/242.png",
     "hms": [
       {
         "name": "cut",
@@ -5143,7 +5143,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/173.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/173.png",
     "hms": [
       {
         "name": "cut",
@@ -5192,7 +5192,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/35.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/35.png",
     "hms": [
       {
         "name": "cut",
@@ -5241,7 +5241,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/36.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/36.png",
     "hms": [
       {
         "name": "cut",
@@ -5297,7 +5297,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/441.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/441.png",
     "hms": [
       {
         "name": "cut",
@@ -5346,7 +5346,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/172.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/172.png",
     "hms": [
       {
         "name": "cut",
@@ -5395,7 +5395,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/25.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/25.png",
     "hms": [
       {
         "name": "cut",
@@ -5444,7 +5444,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/26.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/26.png",
     "hms": [
       {
         "name": "cut",
@@ -5500,7 +5500,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/163.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/163.png",
     "hms": [
       {
         "name": "cut",
@@ -5556,7 +5556,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/164.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/164.png",
     "hms": [
       {
         "name": "cut",
@@ -5612,7 +5612,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/442.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/442.png",
     "hms": [
       {
         "name": "cut",
@@ -5668,7 +5668,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/443.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/443.png",
     "hms": [
       {
         "name": "cut",
@@ -5724,7 +5724,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/444.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/444.png",
     "hms": [
       {
         "name": "cut",
@@ -5780,7 +5780,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/445.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/445.png",
     "hms": [
       {
         "name": "cut",
@@ -5829,7 +5829,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/446.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/446.png",
     "hms": [
       {
         "name": "cut",
@@ -5878,7 +5878,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/143.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/143.png",
     "hms": [
       {
         "name": "cut",
@@ -5927,7 +5927,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/201.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/201.png",
     "hms": [
       {
         "name": "cut",
@@ -5976,7 +5976,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/447.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/447.png",
     "hms": [
       {
         "name": "cut",
@@ -6032,7 +6032,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/448.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/448.png",
     "hms": [
       {
         "name": "cut",
@@ -6088,7 +6088,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/194.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/194.png",
     "hms": [
       {
         "name": "cut",
@@ -6144,7 +6144,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/195.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/195.png",
     "hms": [
       {
         "name": "cut",
@@ -6200,7 +6200,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/278.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/278.png",
     "hms": [
       {
         "name": "cut",
@@ -6256,7 +6256,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/279.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/279.png",
     "hms": [
       {
         "name": "cut",
@@ -6312,7 +6312,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/203.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/203.png",
     "hms": [
       {
         "name": "cut",
@@ -6361,7 +6361,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/449.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/449.png",
     "hms": [
       {
         "name": "cut",
@@ -6410,7 +6410,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/450.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/450.png",
     "hms": [
       {
         "name": "cut",
@@ -6466,7 +6466,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/298.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/298.png",
     "hms": [
       {
         "name": "cut",
@@ -6522,7 +6522,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/183.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/183.png",
     "hms": [
       {
         "name": "cut",
@@ -6578,7 +6578,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/184.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/184.png",
     "hms": [
       {
         "name": "cut",
@@ -6634,7 +6634,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/451.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/451.png",
     "hms": [
       {
         "name": "cut",
@@ -6690,7 +6690,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/452.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/452.png",
     "hms": [
       {
         "name": "cut",
@@ -6746,7 +6746,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/453.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/453.png",
     "hms": [
       {
         "name": "cut",
@@ -6802,7 +6802,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/454.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/454.png",
     "hms": [
       {
         "name": "cut",
@@ -6851,7 +6851,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/455.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/455.png",
     "hms": [
       {
         "name": "cut",
@@ -6900,7 +6900,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/223.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/223.png",
     "hms": [
       {
         "name": "cut",
@@ -6949,7 +6949,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/224.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/224.png",
     "hms": [
       {
         "name": "cut",
@@ -6998,7 +6998,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/456.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/456.png",
     "hms": [
       {
         "name": "cut",
@@ -7047,7 +7047,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/457.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/457.png",
     "hms": [
       {
         "name": "cut",
@@ -7103,7 +7103,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/72.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/72.png",
     "hms": [
       {
         "name": "cut",
@@ -7159,7 +7159,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/73.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/73.png",
     "hms": [
       {
         "name": "cut",
@@ -7208,7 +7208,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/349.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/349.png",
     "hms": [
       {
         "name": "cut",
@@ -7257,7 +7257,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/350.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/350.png",
     "hms": [
       {
         "name": "cut",
@@ -7313,7 +7313,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/458.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/458.png",
     "hms": [
       {
         "name": "cut",
@@ -7369,7 +7369,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/226.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/226.png",
     "hms": [
       {
         "name": "cut",
@@ -7425,7 +7425,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/459.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/459.png",
     "hms": [
       {
         "name": "cut",
@@ -7481,7 +7481,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/460.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/460.png",
     "hms": [
       {
         "name": "cut",
@@ -7537,7 +7537,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/215.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/215.png",
     "hms": [
       {
         "name": "cut",
@@ -7593,7 +7593,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/461.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/461.png",
     "hms": [
       {
         "name": "cut",
@@ -7642,7 +7642,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/480.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/480.png",
     "hms": [
       {
         "name": "cut",
@@ -7691,7 +7691,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/481.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/481.png",
     "hms": [
       {
         "name": "cut",
@@ -7740,7 +7740,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/482.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/482.png",
     "hms": [
       {
         "name": "cut",
@@ -7796,7 +7796,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/483.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/483.png",
     "hms": [
       {
         "name": "cut",
@@ -7852,7 +7852,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/484.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/484.png",
     "hms": [
       {
         "name": "cut",
@@ -7901,7 +7901,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/490.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/490.png",
     "hms": [
       {
         "name": "cut",

@@ -12,7 +12,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/152.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/152.png",
     "hms": [
       {
         "name": "cut",
@@ -61,7 +61,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/153.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/153.png",
     "hms": [
       {
         "name": "cut",
@@ -110,7 +110,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/154.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/154.png",
     "hms": [
       {
         "name": "cut",
@@ -159,7 +159,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/155.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/155.png",
     "hms": [
       {
         "name": "cut",
@@ -208,7 +208,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/156.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/156.png",
     "hms": [
       {
         "name": "cut",
@@ -257,7 +257,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/157.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/157.png",
     "hms": [
       {
         "name": "cut",
@@ -306,7 +306,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/158.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/158.png",
     "hms": [
       {
         "name": "cut",
@@ -355,7 +355,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/159.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/159.png",
     "hms": [
       {
         "name": "cut",
@@ -404,7 +404,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/160.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/160.png",
     "hms": [
       {
         "name": "cut",
@@ -460,7 +460,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/16.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/16.png",
     "hms": [
       {
         "name": "cut",
@@ -516,7 +516,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/17.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/17.png",
     "hms": [
       {
         "name": "cut",
@@ -572,7 +572,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/18.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/18.png",
     "hms": [
       {
         "name": "cut",
@@ -628,7 +628,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/21.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/21.png",
     "hms": [
       {
         "name": "cut",
@@ -684,7 +684,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/22.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/22.png",
     "hms": [
       {
         "name": "cut",
@@ -740,7 +740,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/163.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/163.png",
     "hms": [
       {
         "name": "cut",
@@ -796,7 +796,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/164.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/164.png",
     "hms": [
       {
         "name": "cut",
@@ -845,7 +845,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/19.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/19.png",
     "hms": [
       {
         "name": "cut",
@@ -894,7 +894,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/20.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/20.png",
     "hms": [
       {
         "name": "cut",
@@ -943,7 +943,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/161.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/161.png",
     "hms": [
       {
         "name": "cut",
@@ -992,7 +992,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/162.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/162.png",
     "hms": [
       {
         "name": "cut",
@@ -1041,7 +1041,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/172.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/172.png",
     "hms": [
       {
         "name": "cut",
@@ -1090,7 +1090,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/25.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/25.png",
     "hms": [
       {
         "name": "cut",
@@ -1139,7 +1139,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/26.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/26.png",
     "hms": [
       {
         "name": "cut",
@@ -1188,7 +1188,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/10.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/10.png",
     "hms": [
       {
         "name": "cut",
@@ -1237,7 +1237,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/11.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/11.png",
     "hms": [
       {
         "name": "cut",
@@ -1293,7 +1293,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/12.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/12.png",
     "hms": [
       {
         "name": "cut",
@@ -1349,7 +1349,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/13.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/13.png",
     "hms": [
       {
         "name": "cut",
@@ -1405,7 +1405,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/14.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/14.png",
     "hms": [
       {
         "name": "cut",
@@ -1461,7 +1461,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/15.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/15.png",
     "hms": [
       {
         "name": "cut",
@@ -1517,7 +1517,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/165.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/165.png",
     "hms": [
       {
         "name": "cut",
@@ -1573,7 +1573,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/166.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/166.png",
     "hms": [
       {
         "name": "cut",
@@ -1629,7 +1629,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/167.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/167.png",
     "hms": [
       {
         "name": "cut",
@@ -1685,7 +1685,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/168.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/168.png",
     "hms": [
       {
         "name": "cut",
@@ -1741,7 +1741,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/74.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/74.png",
     "hms": [
       {
         "name": "cut",
@@ -1797,7 +1797,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/75.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/75.png",
     "hms": [
       {
         "name": "cut",
@@ -1853,7 +1853,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/76.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/76.png",
     "hms": [
       {
         "name": "cut",
@@ -1909,7 +1909,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/41.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/41.png",
     "hms": [
       {
         "name": "cut",
@@ -1965,7 +1965,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/42.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/42.png",
     "hms": [
       {
         "name": "cut",
@@ -2021,7 +2021,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/169.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/169.png",
     "hms": [
       {
         "name": "cut",
@@ -2070,7 +2070,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/173.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/173.png",
     "hms": [
       {
         "name": "cut",
@@ -2119,7 +2119,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/35.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/35.png",
     "hms": [
       {
         "name": "cut",
@@ -2168,7 +2168,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/36.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/36.png",
     "hms": [
       {
         "name": "cut",
@@ -2224,7 +2224,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/174.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/174.png",
     "hms": [
       {
         "name": "cut",
@@ -2280,7 +2280,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/39.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/39.png",
     "hms": [
       {
         "name": "cut",
@@ -2336,7 +2336,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/40.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/40.png",
     "hms": [
       {
         "name": "cut",
@@ -2385,7 +2385,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/175.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/175.png",
     "hms": [
       {
         "name": "cut",
@@ -2441,7 +2441,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/176.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/176.png",
     "hms": [
       {
         "name": "cut",
@@ -2490,7 +2490,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/27.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/27.png",
     "hms": [
       {
         "name": "cut",
@@ -2539,7 +2539,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/28.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/28.png",
     "hms": [
       {
         "name": "cut",
@@ -2588,7 +2588,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/23.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/23.png",
     "hms": [
       {
         "name": "cut",
@@ -2637,7 +2637,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/24.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/24.png",
     "hms": [
       {
         "name": "cut",
@@ -2686,7 +2686,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/206.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/206.png",
     "hms": [
       {
         "name": "cut",
@@ -2735,7 +2735,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/179.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/179.png",
     "hms": [
       {
         "name": "cut",
@@ -2784,7 +2784,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/180.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/180.png",
     "hms": [
       {
         "name": "cut",
@@ -2833,7 +2833,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/181.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/181.png",
     "hms": [
       {
         "name": "cut",
@@ -2889,7 +2889,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/194.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/194.png",
     "hms": [
       {
         "name": "cut",
@@ -2945,7 +2945,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/195.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/195.png",
     "hms": [
       {
         "name": "cut",
@@ -3001,7 +3001,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/92.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/92.png",
     "hms": [
       {
         "name": "cut",
@@ -3057,7 +3057,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/93.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/93.png",
     "hms": [
       {
         "name": "cut",
@@ -3113,7 +3113,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/94.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/94.png",
     "hms": [
       {
         "name": "cut",
@@ -3162,7 +3162,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/201.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/201.png",
     "hms": [
       {
         "name": "cut",
@@ -3218,7 +3218,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/95.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/95.png",
     "hms": [
       {
         "name": "cut",
@@ -3274,7 +3274,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/208.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/208.png",
     "hms": [
       {
         "name": "cut",
@@ -3330,7 +3330,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/69.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/69.png",
     "hms": [
       {
         "name": "cut",
@@ -3386,7 +3386,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/70.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/70.png",
     "hms": [
       {
         "name": "cut",
@@ -3442,7 +3442,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/71.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/71.png",
     "hms": [
       {
         "name": "cut",
@@ -3498,7 +3498,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/187.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/187.png",
     "hms": [
       {
         "name": "cut",
@@ -3554,7 +3554,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/188.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/188.png",
     "hms": [
       {
         "name": "cut",
@@ -3610,7 +3610,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/189.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/189.png",
     "hms": [
       {
         "name": "cut",
@@ -3666,7 +3666,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/46.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/46.png",
     "hms": [
       {
         "name": "cut",
@@ -3722,7 +3722,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/47.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/47.png",
     "hms": [
       {
         "name": "cut",
@@ -3771,7 +3771,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/60.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/60.png",
     "hms": [
       {
         "name": "cut",
@@ -3820,7 +3820,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/61.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/61.png",
     "hms": [
       {
         "name": "cut",
@@ -3876,7 +3876,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/62.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/62.png",
     "hms": [
       {
         "name": "cut",
@@ -3925,7 +3925,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/186.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/186.png",
     "hms": [
       {
         "name": "cut",
@@ -3974,7 +3974,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/129.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/129.png",
     "hms": [
       {
         "name": "cut",
@@ -4030,7 +4030,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/130.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/130.png",
     "hms": [
       {
         "name": "cut",
@@ -4079,7 +4079,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/118.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/118.png",
     "hms": [
       {
         "name": "cut",
@@ -4128,7 +4128,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/119.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/119.png",
     "hms": [
       {
         "name": "cut",
@@ -4184,7 +4184,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/79.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/79.png",
     "hms": [
       {
         "name": "cut",
@@ -4240,7 +4240,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/80.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/80.png",
     "hms": [
       {
         "name": "cut",
@@ -4296,7 +4296,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/199.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/199.png",
     "hms": [
       {
         "name": "cut",
@@ -4352,7 +4352,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/43.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/43.png",
     "hms": [
       {
         "name": "cut",
@@ -4408,7 +4408,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/44.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/44.png",
     "hms": [
       {
         "name": "cut",
@@ -4464,7 +4464,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/45.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/45.png",
     "hms": [
       {
         "name": "cut",
@@ -4513,7 +4513,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/182.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/182.png",
     "hms": [
       {
         "name": "cut",
@@ -4562,7 +4562,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/96.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/96.png",
     "hms": [
       {
         "name": "cut",
@@ -4611,7 +4611,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/97.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/97.png",
     "hms": [
       {
         "name": "cut",
@@ -4660,7 +4660,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/63.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/63.png",
     "hms": [
       {
         "name": "cut",
@@ -4709,7 +4709,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/64.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/64.png",
     "hms": [
       {
         "name": "cut",
@@ -4758,7 +4758,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/65.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/65.png",
     "hms": [
       {
         "name": "cut",
@@ -4807,7 +4807,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/132.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/132.png",
     "hms": [
       {
         "name": "cut",
@@ -4856,7 +4856,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/204.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/204.png",
     "hms": [
       {
         "name": "cut",
@@ -4912,7 +4912,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/205.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/205.png",
     "hms": [
       {
         "name": "cut",
@@ -4961,7 +4961,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/29.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/29.png",
     "hms": [
       {
         "name": "cut",
@@ -5010,7 +5010,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/30.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/30.png",
     "hms": [
       {
         "name": "cut",
@@ -5066,7 +5066,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/31.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/31.png",
     "hms": [
       {
         "name": "cut",
@@ -5115,7 +5115,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/32.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/32.png",
     "hms": [
       {
         "name": "cut",
@@ -5164,7 +5164,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/33.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/33.png",
     "hms": [
       {
         "name": "cut",
@@ -5220,7 +5220,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/34.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/34.png",
     "hms": [
       {
         "name": "cut",
@@ -5276,7 +5276,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/193.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/193.png",
     "hms": [
       {
         "name": "cut",
@@ -5332,7 +5332,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/469.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/469.png",
     "hms": [
       {
         "name": "cut",
@@ -5381,7 +5381,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/191.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/191.png",
     "hms": [
       {
         "name": "cut",
@@ -5430,7 +5430,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/192.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/192.png",
     "hms": [
       {
         "name": "cut",
@@ -5486,7 +5486,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/102.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/102.png",
     "hms": [
       {
         "name": "cut",
@@ -5542,7 +5542,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/103.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/103.png",
     "hms": [
       {
         "name": "cut",
@@ -5591,7 +5591,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/185.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/185.png",
     "hms": [
       {
         "name": "cut",
@@ -5640,7 +5640,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/202.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/202.png",
     "hms": [
       {
         "name": "cut",
@@ -5696,7 +5696,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/48.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/48.png",
     "hms": [
       {
         "name": "cut",
@@ -5752,7 +5752,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/49.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/49.png",
     "hms": [
       {
         "name": "cut",
@@ -5808,7 +5808,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/123.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/123.png",
     "hms": [
       {
         "name": "cut",
@@ -5864,7 +5864,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/212.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/212.png",
     "hms": [
       {
         "name": "cut",
@@ -5913,7 +5913,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/127.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/127.png",
     "hms": [
       {
         "name": "cut",
@@ -5969,7 +5969,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/214.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/214.png",
     "hms": [
       {
         "name": "cut",
@@ -6018,7 +6018,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/109.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/109.png",
     "hms": [
       {
         "name": "cut",
@@ -6067,7 +6067,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/110.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/110.png",
     "hms": [
       {
         "name": "cut",
@@ -6116,7 +6116,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/88.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/88.png",
     "hms": [
       {
         "name": "cut",
@@ -6165,7 +6165,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/89.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/89.png",
     "hms": [
       {
         "name": "cut",
@@ -6221,7 +6221,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/81.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/81.png",
     "hms": [
       {
         "name": "cut",
@@ -6277,7 +6277,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/82.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/82.png",
     "hms": [
       {
         "name": "cut",
@@ -6326,7 +6326,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/100.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/100.png",
     "hms": [
       {
         "name": "cut",
@@ -6375,7 +6375,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/101.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/101.png",
     "hms": [
       {
         "name": "cut",
@@ -6424,7 +6424,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/190.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/190.png",
     "hms": [
       {
         "name": "cut",
@@ -6473,7 +6473,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/424.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/424.png",
     "hms": [
       {
         "name": "cut",
@@ -6522,7 +6522,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/209.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/209.png",
     "hms": [
       {
         "name": "cut",
@@ -6571,7 +6571,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/210.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/210.png",
     "hms": [
       {
         "name": "cut",
@@ -6620,7 +6620,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/37.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/37.png",
     "hms": [
       {
         "name": "cut",
@@ -6669,7 +6669,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/38.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/38.png",
     "hms": [
       {
         "name": "cut",
@@ -6718,7 +6718,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/58.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/58.png",
     "hms": [
       {
         "name": "cut",
@@ -6767,7 +6767,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/59.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/59.png",
     "hms": [
       {
         "name": "cut",
@@ -6816,7 +6816,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/234.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/234.png",
     "hms": [
       {
         "name": "cut",
@@ -6872,7 +6872,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/183.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/183.png",
     "hms": [
       {
         "name": "cut",
@@ -6928,7 +6928,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/184.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/184.png",
     "hms": [
       {
         "name": "cut",
@@ -6977,7 +6977,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/50.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/50.png",
     "hms": [
       {
         "name": "cut",
@@ -7026,7 +7026,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/51.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/51.png",
     "hms": [
       {
         "name": "cut",
@@ -7075,7 +7075,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/56.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/56.png",
     "hms": [
       {
         "name": "cut",
@@ -7124,7 +7124,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/57.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/57.png",
     "hms": [
       {
         "name": "cut",
@@ -7173,7 +7173,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/52.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/52.png",
     "hms": [
       {
         "name": "cut",
@@ -7222,7 +7222,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/53.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/53.png",
     "hms": [
       {
         "name": "cut",
@@ -7271,7 +7271,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/54.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/54.png",
     "hms": [
       {
         "name": "cut",
@@ -7320,7 +7320,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/55.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/55.png",
     "hms": [
       {
         "name": "cut",
@@ -7369,7 +7369,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/66.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/66.png",
     "hms": [
       {
         "name": "cut",
@@ -7418,7 +7418,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/67.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/67.png",
     "hms": [
       {
         "name": "cut",
@@ -7467,7 +7467,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/68.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/68.png",
     "hms": [
       {
         "name": "cut",
@@ -7516,7 +7516,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/236.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/236.png",
     "hms": [
       {
         "name": "cut",
@@ -7565,7 +7565,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/106.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/106.png",
     "hms": [
       {
         "name": "cut",
@@ -7614,7 +7614,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/107.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/107.png",
     "hms": [
       {
         "name": "cut",
@@ -7663,7 +7663,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/237.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/237.png",
     "hms": [
       {
         "name": "cut",
@@ -7719,7 +7719,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/203.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/203.png",
     "hms": [
       {
         "name": "cut",
@@ -7768,7 +7768,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/128.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/128.png",
     "hms": [
       {
         "name": "cut",
@@ -7817,7 +7817,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/241.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/241.png",
     "hms": [
       {
         "name": "cut",
@@ -7866,7 +7866,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/240.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/240.png",
     "hms": [
       {
         "name": "cut",
@@ -7915,7 +7915,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/126.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/126.png",
     "hms": [
       {
         "name": "cut",
@@ -7971,7 +7971,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/238.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/238.png",
     "hms": [
       {
         "name": "cut",
@@ -8027,7 +8027,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/124.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/124.png",
     "hms": [
       {
         "name": "cut",
@@ -8076,7 +8076,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/239.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/239.png",
     "hms": [
       {
         "name": "cut",
@@ -8125,7 +8125,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/125.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/125.png",
     "hms": [
       {
         "name": "cut",
@@ -8181,7 +8181,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/122.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/122.png",
     "hms": [
       {
         "name": "cut",
@@ -8230,7 +8230,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/235.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/235.png",
     "hms": [
       {
         "name": "cut",
@@ -8286,7 +8286,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/83.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/83.png",
     "hms": [
       {
         "name": "cut",
@@ -8342,7 +8342,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/177.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/177.png",
     "hms": [
       {
         "name": "cut",
@@ -8398,7 +8398,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/178.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/178.png",
     "hms": [
       {
         "name": "cut",
@@ -8454,7 +8454,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/211.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/211.png",
     "hms": [
       {
         "name": "cut",
@@ -8510,7 +8510,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/72.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/72.png",
     "hms": [
       {
         "name": "cut",
@@ -8566,7 +8566,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/73.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/73.png",
     "hms": [
       {
         "name": "cut",
@@ -8615,7 +8615,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/98.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/98.png",
     "hms": [
       {
         "name": "cut",
@@ -8664,7 +8664,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/99.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/99.png",
     "hms": [
       {
         "name": "cut",
@@ -8720,7 +8720,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/213.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/213.png",
     "hms": [
       {
         "name": "cut",
@@ -8769,7 +8769,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/120.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/120.png",
     "hms": [
       {
         "name": "cut",
@@ -8825,7 +8825,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/121.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/121.png",
     "hms": [
       {
         "name": "cut",
@@ -8874,7 +8874,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/90.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/90.png",
     "hms": [
       {
         "name": "cut",
@@ -8930,7 +8930,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/91.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/91.png",
     "hms": [
       {
         "name": "cut",
@@ -8986,7 +8986,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/222.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/222.png",
     "hms": [
       {
         "name": "cut",
@@ -9035,7 +9035,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/223.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/223.png",
     "hms": [
       {
         "name": "cut",
@@ -9084,7 +9084,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/224.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/224.png",
     "hms": [
       {
         "name": "cut",
@@ -9140,7 +9140,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/170.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/170.png",
     "hms": [
       {
         "name": "cut",
@@ -9196,7 +9196,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/171.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/171.png",
     "hms": [
       {
         "name": "cut",
@@ -9245,7 +9245,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/86.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/86.png",
     "hms": [
       {
         "name": "cut",
@@ -9301,7 +9301,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/87.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/87.png",
     "hms": [
       {
         "name": "cut",
@@ -9350,7 +9350,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/108.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/108.png",
     "hms": [
       {
         "name": "cut",
@@ -9399,7 +9399,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/463.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/463.png",
     "hms": [
       {
         "name": "cut",
@@ -9448,7 +9448,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/114.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/114.png",
     "hms": [
       {
         "name": "cut",
@@ -9497,7 +9497,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/465.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/465.png",
     "hms": [
       {
         "name": "cut",
@@ -9546,7 +9546,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/133.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/133.png",
     "hms": [
       {
         "name": "cut",
@@ -9595,7 +9595,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/134.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/134.png",
     "hms": [
       {
         "name": "cut",
@@ -9644,7 +9644,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/135.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/135.png",
     "hms": [
       {
         "name": "cut",
@@ -9693,7 +9693,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/136.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/136.png",
     "hms": [
       {
         "name": "cut",
@@ -9742,7 +9742,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/196.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/196.png",
     "hms": [
       {
         "name": "cut",
@@ -9791,7 +9791,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/197.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/197.png",
     "hms": [
       {
         "name": "cut",
@@ -9840,7 +9840,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/116.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/116.png",
     "hms": [
       {
         "name": "cut",
@@ -9889,7 +9889,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/117.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/117.png",
     "hms": [
       {
         "name": "cut",
@@ -9945,7 +9945,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/230.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/230.png",
     "hms": [
       {
         "name": "cut",
@@ -10001,7 +10001,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/207.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/207.png",
     "hms": [
       {
         "name": "cut",
@@ -10057,7 +10057,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/225.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/225.png",
     "hms": [
       {
         "name": "cut",
@@ -10113,7 +10113,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/220.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/220.png",
     "hms": [
       {
         "name": "cut",
@@ -10169,7 +10169,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/221.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/221.png",
     "hms": [
       {
         "name": "cut",
@@ -10225,7 +10225,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/473.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/473.png",
     "hms": [
       {
         "name": "cut",
@@ -10274,7 +10274,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/216.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/216.png",
     "hms": [
       {
         "name": "cut",
@@ -10323,7 +10323,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/217.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/217.png",
     "hms": [
       {
         "name": "cut",
@@ -10372,7 +10372,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/231.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/231.png",
     "hms": [
       {
         "name": "cut",
@@ -10421,7 +10421,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/232.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/232.png",
     "hms": [
       {
         "name": "cut",
@@ -10477,7 +10477,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/226.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/226.png",
     "hms": [
       {
         "name": "cut",
@@ -10533,7 +10533,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/227.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/227.png",
     "hms": [
       {
         "name": "cut",
@@ -10589,7 +10589,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/84.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/84.png",
     "hms": [
       {
         "name": "cut",
@@ -10645,7 +10645,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/85.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/85.png",
     "hms": [
       {
         "name": "cut",
@@ -10694,7 +10694,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/77.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/77.png",
     "hms": [
       {
         "name": "cut",
@@ -10743,7 +10743,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/78.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/78.png",
     "hms": [
       {
         "name": "cut",
@@ -10792,7 +10792,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/104.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/104.png",
     "hms": [
       {
         "name": "cut",
@@ -10841,7 +10841,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/105.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/105.png",
     "hms": [
       {
         "name": "cut",
@@ -10890,7 +10890,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/115.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/115.png",
     "hms": [
       {
         "name": "cut",
@@ -10946,7 +10946,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/111.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/111.png",
     "hms": [
       {
         "name": "cut",
@@ -11002,7 +11002,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/112.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/112.png",
     "hms": [
       {
         "name": "cut",
@@ -11058,7 +11058,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/198.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/198.png",
     "hms": [
       {
         "name": "cut",
@@ -11114,7 +11114,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/228.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/228.png",
     "hms": [
       {
         "name": "cut",
@@ -11170,7 +11170,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/229.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/229.png",
     "hms": [
       {
         "name": "cut",
@@ -11219,7 +11219,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/218.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/218.png",
     "hms": [
       {
         "name": "cut",
@@ -11275,7 +11275,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/219.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/219.png",
     "hms": [
       {
         "name": "cut",
@@ -11331,7 +11331,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/215.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/215.png",
     "hms": [
       {
         "name": "cut",
@@ -11380,7 +11380,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/200.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/200.png",
     "hms": [
       {
         "name": "cut",
@@ -11429,7 +11429,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/137.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/137.png",
     "hms": [
       {
         "name": "cut",
@@ -11478,7 +11478,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/233.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/233.png",
     "hms": [
       {
         "name": "cut",
@@ -11527,7 +11527,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/113.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/113.png",
     "hms": [
       {
         "name": "cut",
@@ -11576,7 +11576,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/242.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/242.png",
     "hms": [
       {
         "name": "cut",
@@ -11632,7 +11632,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/131.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/131.png",
     "hms": [
       {
         "name": "cut",
@@ -11688,7 +11688,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/138.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/138.png",
     "hms": [
       {
         "name": "cut",
@@ -11744,7 +11744,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/139.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/139.png",
     "hms": [
       {
         "name": "cut",
@@ -11800,7 +11800,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/140.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/140.png",
     "hms": [
       {
         "name": "cut",
@@ -11856,7 +11856,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/141.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/141.png",
     "hms": [
       {
         "name": "cut",
@@ -11912,7 +11912,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/142.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/142.png",
     "hms": [
       {
         "name": "cut",
@@ -11961,7 +11961,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/143.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/143.png",
     "hms": [
       {
         "name": "cut",
@@ -12017,7 +12017,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/1.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/1.png",
     "hms": [
       {
         "name": "cut",
@@ -12073,7 +12073,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/2.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/2.png",
     "hms": [
       {
         "name": "cut",
@@ -12129,7 +12129,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/3.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/3.png",
     "hms": [
       {
         "name": "cut",
@@ -12178,7 +12178,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/4.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/4.png",
     "hms": [
       {
         "name": "cut",
@@ -12227,7 +12227,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/5.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/5.png",
     "hms": [
       {
         "name": "cut",
@@ -12283,7 +12283,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/6.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/6.png",
     "hms": [
       {
         "name": "cut",
@@ -12332,7 +12332,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/7.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/7.png",
     "hms": [
       {
         "name": "cut",
@@ -12381,7 +12381,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/8.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/8.png",
     "hms": [
       {
         "name": "cut",
@@ -12430,7 +12430,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/9.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/9.png",
     "hms": [
       {
         "name": "cut",
@@ -12486,7 +12486,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/144.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/144.png",
     "hms": [
       {
         "name": "cut",
@@ -12542,7 +12542,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/145.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/145.png",
     "hms": [
       {
         "name": "cut",
@@ -12598,7 +12598,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/146.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/146.png",
     "hms": [
       {
         "name": "cut",
@@ -12647,7 +12647,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/243.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/243.png",
     "hms": [
       {
         "name": "cut",
@@ -12696,7 +12696,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/244.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/244.png",
     "hms": [
       {
         "name": "cut",
@@ -12745,7 +12745,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/245.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/245.png",
     "hms": [
       {
         "name": "cut",
@@ -12794,7 +12794,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/147.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/147.png",
     "hms": [
       {
         "name": "cut",
@@ -12843,7 +12843,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/148.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/148.png",
     "hms": [
       {
         "name": "cut",
@@ -12899,7 +12899,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/149.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/149.png",
     "hms": [
       {
         "name": "cut",
@@ -12955,7 +12955,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/246.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/246.png",
     "hms": [
       {
         "name": "cut",
@@ -13011,7 +13011,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/247.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/247.png",
     "hms": [
       {
         "name": "cut",
@@ -13067,7 +13067,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/248.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/248.png",
     "hms": [
       {
         "name": "cut",
@@ -13123,7 +13123,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/249.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/249.png",
     "hms": [
       {
         "name": "cut",
@@ -13179,7 +13179,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/250.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/250.png",
     "hms": [
       {
         "name": "cut",
@@ -13228,7 +13228,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/150.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/150.png",
     "hms": [
       {
         "name": "cut",
@@ -13277,7 +13277,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/151.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/151.png",
     "hms": [
       {
         "name": "cut",
@@ -13333,7 +13333,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/251.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/251.png",
     "hms": [
       {
         "name": "cut",

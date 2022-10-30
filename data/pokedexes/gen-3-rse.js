@@ -12,7 +12,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/252.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/252.png",
     "hms": [
       {
         "name": "cut",
@@ -61,7 +61,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/253.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/253.png",
     "hms": [
       {
         "name": "cut",
@@ -110,7 +110,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/254.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/254.png",
     "hms": [
       {
         "name": "cut",
@@ -159,7 +159,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/255.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/255.png",
     "hms": [
       {
         "name": "cut",
@@ -215,7 +215,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/256.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/256.png",
     "hms": [
       {
         "name": "cut",
@@ -271,7 +271,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/257.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/257.png",
     "hms": [
       {
         "name": "cut",
@@ -320,7 +320,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/258.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/258.png",
     "hms": [
       {
         "name": "cut",
@@ -376,7 +376,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/259.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/259.png",
     "hms": [
       {
         "name": "cut",
@@ -432,7 +432,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/260.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/260.png",
     "hms": [
       {
         "name": "cut",
@@ -481,7 +481,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/261.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/261.png",
     "hms": [
       {
         "name": "cut",
@@ -530,7 +530,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/262.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/262.png",
     "hms": [
       {
         "name": "cut",
@@ -579,7 +579,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/263.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/263.png",
     "hms": [
       {
         "name": "cut",
@@ -628,7 +628,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/264.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/264.png",
     "hms": [
       {
         "name": "cut",
@@ -677,7 +677,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/265.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/265.png",
     "hms": [
       {
         "name": "cut",
@@ -726,7 +726,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/266.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/266.png",
     "hms": [
       {
         "name": "cut",
@@ -782,7 +782,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/267.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/267.png",
     "hms": [
       {
         "name": "cut",
@@ -831,7 +831,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/268.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/268.png",
     "hms": [
       {
         "name": "cut",
@@ -887,7 +887,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/269.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/269.png",
     "hms": [
       {
         "name": "cut",
@@ -943,7 +943,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/270.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/270.png",
     "hms": [
       {
         "name": "cut",
@@ -999,7 +999,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/271.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/271.png",
     "hms": [
       {
         "name": "cut",
@@ -1055,7 +1055,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/272.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/272.png",
     "hms": [
       {
         "name": "cut",
@@ -1104,7 +1104,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/273.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/273.png",
     "hms": [
       {
         "name": "cut",
@@ -1160,7 +1160,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/274.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/274.png",
     "hms": [
       {
         "name": "cut",
@@ -1216,7 +1216,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/275.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/275.png",
     "hms": [
       {
         "name": "cut",
@@ -1272,7 +1272,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/276.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/276.png",
     "hms": [
       {
         "name": "cut",
@@ -1328,7 +1328,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/277.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/277.png",
     "hms": [
       {
         "name": "cut",
@@ -1384,7 +1384,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/278.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/278.png",
     "hms": [
       {
         "name": "cut",
@@ -1440,7 +1440,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/279.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/279.png",
     "hms": [
       {
         "name": "cut",
@@ -1496,7 +1496,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/280.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/280.png",
     "hms": [
       {
         "name": "cut",
@@ -1552,7 +1552,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/281.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/281.png",
     "hms": [
       {
         "name": "cut",
@@ -1608,7 +1608,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/282.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/282.png",
     "hms": [
       {
         "name": "cut",
@@ -1664,7 +1664,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/283.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/283.png",
     "hms": [
       {
         "name": "cut",
@@ -1720,7 +1720,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/284.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/284.png",
     "hms": [
       {
         "name": "cut",
@@ -1769,7 +1769,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/285.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/285.png",
     "hms": [
       {
         "name": "cut",
@@ -1825,7 +1825,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/286.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/286.png",
     "hms": [
       {
         "name": "cut",
@@ -1874,7 +1874,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/287.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/287.png",
     "hms": [
       {
         "name": "cut",
@@ -1923,7 +1923,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/288.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/288.png",
     "hms": [
       {
         "name": "cut",
@@ -1972,7 +1972,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/289.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/289.png",
     "hms": [
       {
         "name": "cut",
@@ -2021,7 +2021,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/63.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/63.png",
     "hms": [
       {
         "name": "cut",
@@ -2070,7 +2070,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/64.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/64.png",
     "hms": [
       {
         "name": "cut",
@@ -2119,7 +2119,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/65.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/65.png",
     "hms": [
       {
         "name": "cut",
@@ -2175,7 +2175,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/290.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/290.png",
     "hms": [
       {
         "name": "cut",
@@ -2231,7 +2231,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/291.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/291.png",
     "hms": [
       {
         "name": "cut",
@@ -2287,7 +2287,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/292.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/292.png",
     "hms": [
       {
         "name": "cut",
@@ -2336,7 +2336,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/293.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/293.png",
     "hms": [
       {
         "name": "cut",
@@ -2385,7 +2385,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/294.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/294.png",
     "hms": [
       {
         "name": "cut",
@@ -2434,7 +2434,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/295.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/295.png",
     "hms": [
       {
         "name": "cut",
@@ -2483,7 +2483,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/296.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/296.png",
     "hms": [
       {
         "name": "cut",
@@ -2532,7 +2532,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/297.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/297.png",
     "hms": [
       {
         "name": "cut",
@@ -2581,7 +2581,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/118.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/118.png",
     "hms": [
       {
         "name": "cut",
@@ -2630,7 +2630,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/119.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/119.png",
     "hms": [
       {
         "name": "cut",
@@ -2679,7 +2679,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/129.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/129.png",
     "hms": [
       {
         "name": "cut",
@@ -2735,7 +2735,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/130.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/130.png",
     "hms": [
       {
         "name": "cut",
@@ -2791,7 +2791,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/298.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/298.png",
     "hms": [
       {
         "name": "cut",
@@ -2847,7 +2847,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/183.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/183.png",
     "hms": [
       {
         "name": "cut",
@@ -2903,7 +2903,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/184.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/184.png",
     "hms": [
       {
         "name": "cut",
@@ -2959,7 +2959,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/74.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/74.png",
     "hms": [
       {
         "name": "cut",
@@ -3015,7 +3015,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/75.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/75.png",
     "hms": [
       {
         "name": "cut",
@@ -3071,7 +3071,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/76.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/76.png",
     "hms": [
       {
         "name": "cut",
@@ -3120,7 +3120,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/299.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/299.png",
     "hms": [
       {
         "name": "cut",
@@ -3169,7 +3169,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/300.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/300.png",
     "hms": [
       {
         "name": "cut",
@@ -3218,7 +3218,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/301.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/301.png",
     "hms": [
       {
         "name": "cut",
@@ -3274,7 +3274,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/41.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/41.png",
     "hms": [
       {
         "name": "cut",
@@ -3330,7 +3330,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/42.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/42.png",
     "hms": [
       {
         "name": "cut",
@@ -3386,7 +3386,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/169.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/169.png",
     "hms": [
       {
         "name": "cut",
@@ -3442,7 +3442,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/72.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/72.png",
     "hms": [
       {
         "name": "cut",
@@ -3498,7 +3498,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/73.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/73.png",
     "hms": [
       {
         "name": "cut",
@@ -3554,7 +3554,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/302.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/302.png",
     "hms": [
       {
         "name": "cut",
@@ -3610,7 +3610,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/303.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/303.png",
     "hms": [
       {
         "name": "cut",
@@ -3666,7 +3666,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/304.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/304.png",
     "hms": [
       {
         "name": "cut",
@@ -3722,7 +3722,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/305.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/305.png",
     "hms": [
       {
         "name": "cut",
@@ -3778,7 +3778,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/306.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/306.png",
     "hms": [
       {
         "name": "cut",
@@ -3827,7 +3827,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/66.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/66.png",
     "hms": [
       {
         "name": "cut",
@@ -3876,7 +3876,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/67.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/67.png",
     "hms": [
       {
         "name": "cut",
@@ -3925,7 +3925,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/68.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/68.png",
     "hms": [
       {
         "name": "cut",
@@ -3981,7 +3981,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/307.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/307.png",
     "hms": [
       {
         "name": "cut",
@@ -4037,7 +4037,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/308.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/308.png",
     "hms": [
       {
         "name": "cut",
@@ -4086,7 +4086,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/309.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/309.png",
     "hms": [
       {
         "name": "cut",
@@ -4135,7 +4135,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/310.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/310.png",
     "hms": [
       {
         "name": "cut",
@@ -4184,7 +4184,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/311.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/311.png",
     "hms": [
       {
         "name": "cut",
@@ -4233,7 +4233,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/312.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/312.png",
     "hms": [
       {
         "name": "cut",
@@ -4289,7 +4289,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/81.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/81.png",
     "hms": [
       {
         "name": "cut",
@@ -4345,7 +4345,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/82.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/82.png",
     "hms": [
       {
         "name": "cut",
@@ -4394,7 +4394,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/100.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/100.png",
     "hms": [
       {
         "name": "cut",
@@ -4443,7 +4443,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/101.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/101.png",
     "hms": [
       {
         "name": "cut",
@@ -4492,7 +4492,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/313.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/313.png",
     "hms": [
       {
         "name": "cut",
@@ -4541,7 +4541,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/314.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/314.png",
     "hms": [
       {
         "name": "cut",
@@ -4597,7 +4597,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/43.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/43.png",
     "hms": [
       {
         "name": "cut",
@@ -4653,7 +4653,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/44.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/44.png",
     "hms": [
       {
         "name": "cut",
@@ -4709,7 +4709,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/45.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/45.png",
     "hms": [
       {
         "name": "cut",
@@ -4758,7 +4758,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/182.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/182.png",
     "hms": [
       {
         "name": "cut",
@@ -4814,7 +4814,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/84.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/84.png",
     "hms": [
       {
         "name": "cut",
@@ -4870,7 +4870,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/85.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/85.png",
     "hms": [
       {
         "name": "cut",
@@ -4926,7 +4926,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/315.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/315.png",
     "hms": [
       {
         "name": "cut",
@@ -4975,7 +4975,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/316.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/316.png",
     "hms": [
       {
         "name": "cut",
@@ -5024,7 +5024,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/317.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/317.png",
     "hms": [
       {
         "name": "cut",
@@ -5080,7 +5080,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/318.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/318.png",
     "hms": [
       {
         "name": "cut",
@@ -5136,7 +5136,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/319.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/319.png",
     "hms": [
       {
         "name": "cut",
@@ -5185,7 +5185,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/320.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/320.png",
     "hms": [
       {
         "name": "cut",
@@ -5234,7 +5234,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/321.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/321.png",
     "hms": [
       {
         "name": "cut",
@@ -5290,7 +5290,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/322.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/322.png",
     "hms": [
       {
         "name": "cut",
@@ -5346,7 +5346,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/323.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/323.png",
     "hms": [
       {
         "name": "cut",
@@ -5395,7 +5395,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/218.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/218.png",
     "hms": [
       {
         "name": "cut",
@@ -5451,7 +5451,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/219.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/219.png",
     "hms": [
       {
         "name": "cut",
@@ -5500,7 +5500,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/324.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/324.png",
     "hms": [
       {
         "name": "cut",
@@ -5549,7 +5549,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/88.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/88.png",
     "hms": [
       {
         "name": "cut",
@@ -5598,7 +5598,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/89.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/89.png",
     "hms": [
       {
         "name": "cut",
@@ -5647,7 +5647,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/109.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/109.png",
     "hms": [
       {
         "name": "cut",
@@ -5696,7 +5696,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/110.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/110.png",
     "hms": [
       {
         "name": "cut",
@@ -5745,7 +5745,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/325.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/325.png",
     "hms": [
       {
         "name": "cut",
@@ -5794,7 +5794,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/326.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/326.png",
     "hms": [
       {
         "name": "cut",
@@ -5843,7 +5843,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/27.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/27.png",
     "hms": [
       {
         "name": "cut",
@@ -5892,7 +5892,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/28.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/28.png",
     "hms": [
       {
         "name": "cut",
@@ -5941,7 +5941,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/327.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/327.png",
     "hms": [
       {
         "name": "cut",
@@ -5997,7 +5997,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/227.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/227.png",
     "hms": [
       {
         "name": "cut",
@@ -6046,7 +6046,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/328.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/328.png",
     "hms": [
       {
         "name": "cut",
@@ -6102,7 +6102,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/329.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/329.png",
     "hms": [
       {
         "name": "cut",
@@ -6158,7 +6158,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/330.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/330.png",
     "hms": [
       {
         "name": "cut",
@@ -6207,7 +6207,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/331.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/331.png",
     "hms": [
       {
         "name": "cut",
@@ -6263,7 +6263,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/332.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/332.png",
     "hms": [
       {
         "name": "cut",
@@ -6319,7 +6319,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/333.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/333.png",
     "hms": [
       {
         "name": "cut",
@@ -6375,7 +6375,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/334.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/334.png",
     "hms": [
       {
         "name": "cut",
@@ -6424,7 +6424,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/335.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/335.png",
     "hms": [
       {
         "name": "cut",
@@ -6473,7 +6473,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/336.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/336.png",
     "hms": [
       {
         "name": "cut",
@@ -6529,7 +6529,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/337.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/337.png",
     "hms": [
       {
         "name": "cut",
@@ -6585,7 +6585,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/338.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/338.png",
     "hms": [
       {
         "name": "cut",
@@ -6641,7 +6641,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/339.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/339.png",
     "hms": [
       {
         "name": "cut",
@@ -6697,7 +6697,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/340.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/340.png",
     "hms": [
       {
         "name": "cut",
@@ -6746,7 +6746,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/341.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/341.png",
     "hms": [
       {
         "name": "cut",
@@ -6802,7 +6802,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/342.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/342.png",
     "hms": [
       {
         "name": "cut",
@@ -6858,7 +6858,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/343.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/343.png",
     "hms": [
       {
         "name": "cut",
@@ -6914,7 +6914,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/344.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/344.png",
     "hms": [
       {
         "name": "cut",
@@ -6970,7 +6970,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/345.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/345.png",
     "hms": [
       {
         "name": "cut",
@@ -7026,7 +7026,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/346.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/346.png",
     "hms": [
       {
         "name": "cut",
@@ -7082,7 +7082,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/347.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/347.png",
     "hms": [
       {
         "name": "cut",
@@ -7138,7 +7138,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/348.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/348.png",
     "hms": [
       {
         "name": "cut",
@@ -7194,7 +7194,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/174.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/174.png",
     "hms": [
       {
         "name": "cut",
@@ -7250,7 +7250,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/39.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/39.png",
     "hms": [
       {
         "name": "cut",
@@ -7306,7 +7306,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/40.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/40.png",
     "hms": [
       {
         "name": "cut",
@@ -7355,7 +7355,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/349.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/349.png",
     "hms": [
       {
         "name": "cut",
@@ -7404,7 +7404,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/350.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/350.png",
     "hms": [
       {
         "name": "cut",
@@ -7453,7 +7453,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/351.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/351.png",
     "hms": [
       {
         "name": "cut",
@@ -7502,7 +7502,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/120.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/120.png",
     "hms": [
       {
         "name": "cut",
@@ -7558,7 +7558,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/121.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/121.png",
     "hms": [
       {
         "name": "cut",
@@ -7607,7 +7607,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/352.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/352.png",
     "hms": [
       {
         "name": "cut",
@@ -7656,7 +7656,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/353.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/353.png",
     "hms": [
       {
         "name": "cut",
@@ -7705,7 +7705,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/354.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/354.png",
     "hms": [
       {
         "name": "cut",
@@ -7754,7 +7754,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/355.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/355.png",
     "hms": [
       {
         "name": "cut",
@@ -7803,7 +7803,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/356.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/356.png",
     "hms": [
       {
         "name": "cut",
@@ -7859,7 +7859,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/357.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/357.png",
     "hms": [
       {
         "name": "cut",
@@ -7908,7 +7908,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/358.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/358.png",
     "hms": [
       {
         "name": "cut",
@@ -7957,7 +7957,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/359.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/359.png",
     "hms": [
       {
         "name": "cut",
@@ -8006,7 +8006,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/37.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/37.png",
     "hms": [
       {
         "name": "cut",
@@ -8055,7 +8055,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/38.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/38.png",
     "hms": [
       {
         "name": "cut",
@@ -8104,7 +8104,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/172.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/172.png",
     "hms": [
       {
         "name": "cut",
@@ -8153,7 +8153,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/25.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/25.png",
     "hms": [
       {
         "name": "cut",
@@ -8202,7 +8202,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/26.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/26.png",
     "hms": [
       {
         "name": "cut",
@@ -8251,7 +8251,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/54.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/54.png",
     "hms": [
       {
         "name": "cut",
@@ -8300,7 +8300,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/55.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/55.png",
     "hms": [
       {
         "name": "cut",
@@ -8349,7 +8349,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/360.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/360.png",
     "hms": [
       {
         "name": "cut",
@@ -8398,7 +8398,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/202.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/202.png",
     "hms": [
       {
         "name": "cut",
@@ -8454,7 +8454,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/177.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/177.png",
     "hms": [
       {
         "name": "cut",
@@ -8510,7 +8510,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/178.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/178.png",
     "hms": [
       {
         "name": "cut",
@@ -8566,7 +8566,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/203.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/203.png",
     "hms": [
       {
         "name": "cut",
@@ -8615,7 +8615,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/231.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/231.png",
     "hms": [
       {
         "name": "cut",
@@ -8664,7 +8664,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/232.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/232.png",
     "hms": [
       {
         "name": "cut",
@@ -8713,7 +8713,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/127.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/127.png",
     "hms": [
       {
         "name": "cut",
@@ -8769,7 +8769,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/214.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/214.png",
     "hms": [
       {
         "name": "cut",
@@ -8825,7 +8825,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/111.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/111.png",
     "hms": [
       {
         "name": "cut",
@@ -8881,7 +8881,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/112.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/112.png",
     "hms": [
       {
         "name": "cut",
@@ -8930,7 +8930,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/361.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/361.png",
     "hms": [
       {
         "name": "cut",
@@ -8979,7 +8979,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/362.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/362.png",
     "hms": [
       {
         "name": "cut",
@@ -9035,7 +9035,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/363.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/363.png",
     "hms": [
       {
         "name": "cut",
@@ -9091,7 +9091,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/364.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/364.png",
     "hms": [
       {
         "name": "cut",
@@ -9147,7 +9147,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/365.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/365.png",
     "hms": [
       {
         "name": "cut",
@@ -9196,7 +9196,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/366.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/366.png",
     "hms": [
       {
         "name": "cut",
@@ -9245,7 +9245,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/367.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/367.png",
     "hms": [
       {
         "name": "cut",
@@ -9294,7 +9294,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/368.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/368.png",
     "hms": [
       {
         "name": "cut",
@@ -9350,7 +9350,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/369.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/369.png",
     "hms": [
       {
         "name": "cut",
@@ -9406,7 +9406,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/222.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/222.png",
     "hms": [
       {
         "name": "cut",
@@ -9462,7 +9462,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/170.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/170.png",
     "hms": [
       {
         "name": "cut",
@@ -9518,7 +9518,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/171.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/171.png",
     "hms": [
       {
         "name": "cut",
@@ -9567,7 +9567,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/370.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/370.png",
     "hms": [
       {
         "name": "cut",
@@ -9616,7 +9616,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/116.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/116.png",
     "hms": [
       {
         "name": "cut",
@@ -9665,7 +9665,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/117.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/117.png",
     "hms": [
       {
         "name": "cut",
@@ -9721,7 +9721,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/230.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/230.png",
     "hms": [
       {
         "name": "cut",
@@ -9770,7 +9770,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/371.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/371.png",
     "hms": [
       {
         "name": "cut",
@@ -9819,7 +9819,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/372.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/372.png",
     "hms": [
       {
         "name": "cut",
@@ -9875,7 +9875,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/373.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/373.png",
     "hms": [
       {
         "name": "cut",
@@ -9931,7 +9931,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/374.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/374.png",
     "hms": [
       {
         "name": "cut",
@@ -9987,7 +9987,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/375.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/375.png",
     "hms": [
       {
         "name": "cut",
@@ -10043,7 +10043,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/376.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/376.png",
     "hms": [
       {
         "name": "cut",
@@ -10092,7 +10092,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/377.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/377.png",
     "hms": [
       {
         "name": "cut",
@@ -10141,7 +10141,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/378.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/378.png",
     "hms": [
       {
         "name": "cut",
@@ -10190,7 +10190,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/379.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/379.png",
     "hms": [
       {
         "name": "cut",
@@ -10246,7 +10246,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/380.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/380.png",
     "hms": [
       {
         "name": "cut",
@@ -10302,7 +10302,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/381.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/381.png",
     "hms": [
       {
         "name": "cut",
@@ -10351,7 +10351,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/382.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/382.png",
     "hms": [
       {
         "name": "cut",
@@ -10400,7 +10400,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/383.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/383.png",
     "hms": [
       {
         "name": "cut",
@@ -10456,7 +10456,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/384.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/384.png",
     "hms": [
       {
         "name": "cut",
@@ -10512,7 +10512,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/385.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/385.png",
     "hms": [
       {
         "name": "cut",
@@ -10561,7 +10561,7 @@ export const gen3rseDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/emerald/386.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/386.png",
     "hms": [
       {
         "name": "cut",

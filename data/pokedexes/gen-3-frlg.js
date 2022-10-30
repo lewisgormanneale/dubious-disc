@@ -19,7 +19,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/1.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/1.png",
     "hms": [
       {
         "name": "cut",
@@ -71,7 +71,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/2.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/2.png",
     "hms": [
       {
         "name": "cut",
@@ -123,7 +123,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/3.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/3.png",
     "hms": [
       {
         "name": "cut",
@@ -168,7 +168,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/4.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/4.png",
     "hms": [
       {
         "name": "cut",
@@ -213,7 +213,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/5.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/5.png",
     "hms": [
       {
         "name": "cut",
@@ -265,7 +265,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/6.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/6.png",
     "hms": [
       {
         "name": "cut",
@@ -310,7 +310,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/7.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/7.png",
     "hms": [
       {
         "name": "cut",
@@ -355,7 +355,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/8.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/8.png",
     "hms": [
       {
         "name": "cut",
@@ -400,7 +400,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/9.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/9.png",
     "hms": [
       {
         "name": "cut",
@@ -445,7 +445,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/10.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/10.png",
     "hms": [
       {
         "name": "cut",
@@ -490,7 +490,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/11.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/11.png",
     "hms": [
       {
         "name": "cut",
@@ -542,7 +542,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/12.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/12.png",
     "hms": [
       {
         "name": "cut",
@@ -594,7 +594,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/13.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/13.png",
     "hms": [
       {
         "name": "cut",
@@ -646,7 +646,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/14.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/14.png",
     "hms": [
       {
         "name": "cut",
@@ -698,7 +698,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/15.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/15.png",
     "hms": [
       {
         "name": "cut",
@@ -750,7 +750,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/16.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/16.png",
     "hms": [
       {
         "name": "cut",
@@ -802,7 +802,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/17.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/17.png",
     "hms": [
       {
         "name": "cut",
@@ -854,7 +854,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/18.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/18.png",
     "hms": [
       {
         "name": "cut",
@@ -899,7 +899,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/19.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/19.png",
     "hms": [
       {
         "name": "cut",
@@ -944,7 +944,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/20.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/20.png",
     "hms": [
       {
         "name": "cut",
@@ -996,7 +996,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/21.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/21.png",
     "hms": [
       {
         "name": "cut",
@@ -1048,7 +1048,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/22.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/22.png",
     "hms": [
       {
         "name": "cut",
@@ -1093,7 +1093,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/23.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/23.png",
     "hms": [
       {
         "name": "cut",
@@ -1138,7 +1138,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/24.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/24.png",
     "hms": [
       {
         "name": "cut",
@@ -1183,7 +1183,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/25.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/25.png",
     "hms": [
       {
         "name": "cut",
@@ -1228,7 +1228,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/26.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/26.png",
     "hms": [
       {
         "name": "cut",
@@ -1273,7 +1273,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/27.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/27.png",
     "hms": [
       {
         "name": "cut",
@@ -1318,7 +1318,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/28.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/28.png",
     "hms": [
       {
         "name": "cut",
@@ -1363,7 +1363,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/29.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/29.png",
     "hms": [
       {
         "name": "cut",
@@ -1408,7 +1408,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/30.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/30.png",
     "hms": [
       {
         "name": "cut",
@@ -1460,7 +1460,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/31.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/31.png",
     "hms": [
       {
         "name": "cut",
@@ -1505,7 +1505,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/32.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/32.png",
     "hms": [
       {
         "name": "cut",
@@ -1550,7 +1550,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/33.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/33.png",
     "hms": [
       {
         "name": "cut",
@@ -1602,7 +1602,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/34.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/34.png",
     "hms": [
       {
         "name": "cut",
@@ -1647,7 +1647,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/35.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/35.png",
     "hms": [
       {
         "name": "cut",
@@ -1692,7 +1692,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/36.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/36.png",
     "hms": [
       {
         "name": "cut",
@@ -1737,7 +1737,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/37.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/37.png",
     "hms": [
       {
         "name": "cut",
@@ -1782,7 +1782,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/38.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/38.png",
     "hms": [
       {
         "name": "cut",
@@ -1834,7 +1834,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/39.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/39.png",
     "hms": [
       {
         "name": "cut",
@@ -1886,7 +1886,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/40.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/40.png",
     "hms": [
       {
         "name": "cut",
@@ -1938,7 +1938,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/41.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/41.png",
     "hms": [
       {
         "name": "cut",
@@ -1990,7 +1990,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/42.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/42.png",
     "hms": [
       {
         "name": "cut",
@@ -2042,7 +2042,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/43.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/43.png",
     "hms": [
       {
         "name": "cut",
@@ -2094,7 +2094,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/44.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/44.png",
     "hms": [
       {
         "name": "cut",
@@ -2146,7 +2146,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/45.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/45.png",
     "hms": [
       {
         "name": "cut",
@@ -2198,7 +2198,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/46.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/46.png",
     "hms": [
       {
         "name": "cut",
@@ -2250,7 +2250,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/47.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/47.png",
     "hms": [
       {
         "name": "cut",
@@ -2302,7 +2302,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/48.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/48.png",
     "hms": [
       {
         "name": "cut",
@@ -2354,7 +2354,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/49.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/49.png",
     "hms": [
       {
         "name": "cut",
@@ -2399,7 +2399,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/50.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/50.png",
     "hms": [
       {
         "name": "cut",
@@ -2444,7 +2444,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/51.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/51.png",
     "hms": [
       {
         "name": "cut",
@@ -2489,7 +2489,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/52.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/52.png",
     "hms": [
       {
         "name": "cut",
@@ -2534,7 +2534,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/53.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/53.png",
     "hms": [
       {
         "name": "cut",
@@ -2579,7 +2579,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/54.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/54.png",
     "hms": [
       {
         "name": "cut",
@@ -2624,7 +2624,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/55.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/55.png",
     "hms": [
       {
         "name": "cut",
@@ -2669,7 +2669,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/56.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/56.png",
     "hms": [
       {
         "name": "cut",
@@ -2714,7 +2714,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/57.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/57.png",
     "hms": [
       {
         "name": "cut",
@@ -2759,7 +2759,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/58.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/58.png",
     "hms": [
       {
         "name": "cut",
@@ -2804,7 +2804,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/59.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/59.png",
     "hms": [
       {
         "name": "cut",
@@ -2849,7 +2849,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/60.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/60.png",
     "hms": [
       {
         "name": "cut",
@@ -2894,7 +2894,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/61.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/61.png",
     "hms": [
       {
         "name": "cut",
@@ -2946,7 +2946,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/62.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/62.png",
     "hms": [
       {
         "name": "cut",
@@ -2991,7 +2991,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/63.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/63.png",
     "hms": [
       {
         "name": "cut",
@@ -3036,7 +3036,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/64.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/64.png",
     "hms": [
       {
         "name": "cut",
@@ -3081,7 +3081,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/65.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/65.png",
     "hms": [
       {
         "name": "cut",
@@ -3126,7 +3126,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/66.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/66.png",
     "hms": [
       {
         "name": "cut",
@@ -3171,7 +3171,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/67.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/67.png",
     "hms": [
       {
         "name": "cut",
@@ -3216,7 +3216,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/68.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/68.png",
     "hms": [
       {
         "name": "cut",
@@ -3268,7 +3268,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/69.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/69.png",
     "hms": [
       {
         "name": "cut",
@@ -3320,7 +3320,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/70.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/70.png",
     "hms": [
       {
         "name": "cut",
@@ -3372,7 +3372,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/71.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/71.png",
     "hms": [
       {
         "name": "cut",
@@ -3424,7 +3424,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/72.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/72.png",
     "hms": [
       {
         "name": "cut",
@@ -3476,7 +3476,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/73.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/73.png",
     "hms": [
       {
         "name": "cut",
@@ -3528,7 +3528,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/74.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/74.png",
     "hms": [
       {
         "name": "cut",
@@ -3580,7 +3580,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/75.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/75.png",
     "hms": [
       {
         "name": "cut",
@@ -3632,7 +3632,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/76.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/76.png",
     "hms": [
       {
         "name": "cut",
@@ -3677,7 +3677,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/77.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/77.png",
     "hms": [
       {
         "name": "cut",
@@ -3722,7 +3722,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/78.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/78.png",
     "hms": [
       {
         "name": "cut",
@@ -3774,7 +3774,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/79.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/79.png",
     "hms": [
       {
         "name": "cut",
@@ -3826,7 +3826,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/80.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/80.png",
     "hms": [
       {
         "name": "cut",
@@ -3878,7 +3878,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/81.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/81.png",
     "hms": [
       {
         "name": "cut",
@@ -3930,7 +3930,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/82.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/82.png",
     "hms": [
       {
         "name": "cut",
@@ -3982,7 +3982,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/83.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/83.png",
     "hms": [
       {
         "name": "cut",
@@ -4034,7 +4034,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/84.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/84.png",
     "hms": [
       {
         "name": "cut",
@@ -4086,7 +4086,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/85.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/85.png",
     "hms": [
       {
         "name": "cut",
@@ -4131,7 +4131,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/86.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/86.png",
     "hms": [
       {
         "name": "cut",
@@ -4183,7 +4183,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/87.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/87.png",
     "hms": [
       {
         "name": "cut",
@@ -4228,7 +4228,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/88.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/88.png",
     "hms": [
       {
         "name": "cut",
@@ -4273,7 +4273,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/89.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/89.png",
     "hms": [
       {
         "name": "cut",
@@ -4318,7 +4318,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/90.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/90.png",
     "hms": [
       {
         "name": "cut",
@@ -4370,7 +4370,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/91.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/91.png",
     "hms": [
       {
         "name": "cut",
@@ -4422,7 +4422,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/92.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/92.png",
     "hms": [
       {
         "name": "cut",
@@ -4474,7 +4474,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/93.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/93.png",
     "hms": [
       {
         "name": "cut",
@@ -4526,7 +4526,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/94.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/94.png",
     "hms": [
       {
         "name": "cut",
@@ -4578,7 +4578,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/95.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/95.png",
     "hms": [
       {
         "name": "cut",
@@ -4623,7 +4623,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/96.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/96.png",
     "hms": [
       {
         "name": "cut",
@@ -4668,7 +4668,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/97.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/97.png",
     "hms": [
       {
         "name": "cut",
@@ -4713,7 +4713,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/98.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/98.png",
     "hms": [
       {
         "name": "cut",
@@ -4758,7 +4758,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/99.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/99.png",
     "hms": [
       {
         "name": "cut",
@@ -4803,7 +4803,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/100.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/100.png",
     "hms": [
       {
         "name": "cut",
@@ -4848,7 +4848,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/101.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/101.png",
     "hms": [
       {
         "name": "cut",
@@ -4900,7 +4900,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/102.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/102.png",
     "hms": [
       {
         "name": "cut",
@@ -4952,7 +4952,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/103.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/103.png",
     "hms": [
       {
         "name": "cut",
@@ -4997,7 +4997,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/104.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/104.png",
     "hms": [
       {
         "name": "cut",
@@ -5042,7 +5042,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/105.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/105.png",
     "hms": [
       {
         "name": "cut",
@@ -5087,7 +5087,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/106.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/106.png",
     "hms": [
       {
         "name": "cut",
@@ -5132,7 +5132,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/107.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/107.png",
     "hms": [
       {
         "name": "cut",
@@ -5177,7 +5177,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/108.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/108.png",
     "hms": [
       {
         "name": "cut",
@@ -5222,7 +5222,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/109.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/109.png",
     "hms": [
       {
         "name": "cut",
@@ -5267,7 +5267,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/110.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/110.png",
     "hms": [
       {
         "name": "cut",
@@ -5319,7 +5319,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/111.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/111.png",
     "hms": [
       {
         "name": "cut",
@@ -5371,7 +5371,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/112.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/112.png",
     "hms": [
       {
         "name": "cut",
@@ -5416,7 +5416,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/113.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/113.png",
     "hms": [
       {
         "name": "cut",
@@ -5461,7 +5461,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/114.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/114.png",
     "hms": [
       {
         "name": "cut",
@@ -5506,7 +5506,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/115.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/115.png",
     "hms": [
       {
         "name": "cut",
@@ -5551,7 +5551,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/116.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/116.png",
     "hms": [
       {
         "name": "cut",
@@ -5596,7 +5596,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/117.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/117.png",
     "hms": [
       {
         "name": "cut",
@@ -5641,7 +5641,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/118.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/118.png",
     "hms": [
       {
         "name": "cut",
@@ -5686,7 +5686,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/119.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/119.png",
     "hms": [
       {
         "name": "cut",
@@ -5731,7 +5731,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/120.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/120.png",
     "hms": [
       {
         "name": "cut",
@@ -5783,7 +5783,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/121.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/121.png",
     "hms": [
       {
         "name": "cut",
@@ -5835,7 +5835,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/122.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/122.png",
     "hms": [
       {
         "name": "cut",
@@ -5887,7 +5887,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/123.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/123.png",
     "hms": [
       {
         "name": "cut",
@@ -5939,7 +5939,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/124.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/124.png",
     "hms": [
       {
         "name": "cut",
@@ -5984,7 +5984,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/125.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/125.png",
     "hms": [
       {
         "name": "cut",
@@ -6029,7 +6029,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/126.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/126.png",
     "hms": [
       {
         "name": "cut",
@@ -6074,7 +6074,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/127.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/127.png",
     "hms": [
       {
         "name": "cut",
@@ -6119,7 +6119,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/128.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/128.png",
     "hms": [
       {
         "name": "cut",
@@ -6164,7 +6164,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/129.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/129.png",
     "hms": [
       {
         "name": "cut",
@@ -6216,7 +6216,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/130.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/130.png",
     "hms": [
       {
         "name": "cut",
@@ -6268,7 +6268,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/131.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/131.png",
     "hms": [
       {
         "name": "cut",
@@ -6313,7 +6313,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/132.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/132.png",
     "hms": [
       {
         "name": "cut",
@@ -6358,7 +6358,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/133.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/133.png",
     "hms": [
       {
         "name": "cut",
@@ -6403,7 +6403,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/134.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/134.png",
     "hms": [
       {
         "name": "cut",
@@ -6448,7 +6448,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/135.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/135.png",
     "hms": [
       {
         "name": "cut",
@@ -6493,7 +6493,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/136.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/136.png",
     "hms": [
       {
         "name": "cut",
@@ -6538,7 +6538,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/137.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/137.png",
     "hms": [
       {
         "name": "cut",
@@ -6590,7 +6590,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/138.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/138.png",
     "hms": [
       {
         "name": "cut",
@@ -6642,7 +6642,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/139.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/139.png",
     "hms": [
       {
         "name": "cut",
@@ -6694,7 +6694,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/140.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/140.png",
     "hms": [
       {
         "name": "cut",
@@ -6746,7 +6746,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/141.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/141.png",
     "hms": [
       {
         "name": "cut",
@@ -6798,7 +6798,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/142.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/142.png",
     "hms": [
       {
         "name": "cut",
@@ -6843,7 +6843,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/143.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/143.png",
     "hms": [
       {
         "name": "cut",
@@ -6895,7 +6895,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/144.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/144.png",
     "hms": [
       {
         "name": "cut",
@@ -6947,7 +6947,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/145.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/145.png",
     "hms": [
       {
         "name": "cut",
@@ -6999,7 +6999,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/146.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/146.png",
     "hms": [
       {
         "name": "cut",
@@ -7044,7 +7044,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/147.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/147.png",
     "hms": [
       {
         "name": "cut",
@@ -7089,7 +7089,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/148.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/148.png",
     "hms": [
       {
         "name": "cut",
@@ -7141,7 +7141,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/149.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/149.png",
     "hms": [
       {
         "name": "cut",
@@ -7186,7 +7186,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/150.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/150.png",
     "hms": [
       {
         "name": "cut",
@@ -7231,7 +7231,7 @@ export const gen3frlgDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-iii/firered-leafgreen/151.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/151.png",
     "hms": [
       {
         "name": "cut",

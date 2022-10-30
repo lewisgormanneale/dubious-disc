@@ -60,7 +60,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/495.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/495.png",
     "hms": [
       {
         "name": "cut",
@@ -101,7 +101,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/496.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/496.png",
     "hms": [
       {
         "name": "cut",
@@ -142,7 +142,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/497.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/497.png",
     "hms": [
       {
         "name": "cut",
@@ -183,7 +183,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/498.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/498.png",
     "hms": [
       {
         "name": "cut",
@@ -231,7 +231,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/499.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/499.png",
     "hms": [
       {
         "name": "cut",
@@ -279,7 +279,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/500.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/500.png",
     "hms": [
       {
         "name": "cut",
@@ -320,7 +320,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/501.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/501.png",
     "hms": [
       {
         "name": "cut",
@@ -361,7 +361,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/502.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/502.png",
     "hms": [
       {
         "name": "cut",
@@ -402,7 +402,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/503.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/503.png",
     "hms": [
       {
         "name": "cut",
@@ -443,7 +443,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/504.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/504.png",
     "hms": [
       {
         "name": "cut",
@@ -484,7 +484,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/505.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/505.png",
     "hms": [
       {
         "name": "cut",
@@ -525,7 +525,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/509.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/509.png",
     "hms": [
       {
         "name": "cut",
@@ -566,7 +566,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/510.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/510.png",
     "hms": [
       {
         "name": "cut",
@@ -614,7 +614,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/519.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/519.png",
     "hms": [
       {
         "name": "cut",
@@ -662,7 +662,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/520.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/520.png",
     "hms": [
       {
         "name": "cut",
@@ -710,7 +710,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/521.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/521.png",
     "hms": [
       {
         "name": "cut",
@@ -758,7 +758,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/540.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/540.png",
     "hms": [
       {
         "name": "cut",
@@ -806,7 +806,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/541.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/541.png",
     "hms": [
       {
         "name": "cut",
@@ -854,7 +854,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/542.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/542.png",
     "hms": [
       {
         "name": "cut",
@@ -895,7 +895,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/191.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/191.png",
     "hms": [
       {
         "name": "cut",
@@ -936,7 +936,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/192.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/192.png",
     "hms": [
       {
         "name": "cut",
@@ -977,7 +977,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/506.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/506.png",
     "hms": [
       {
         "name": "cut",
@@ -1018,7 +1018,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/507.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/507.png",
     "hms": [
       {
         "name": "cut",
@@ -1059,7 +1059,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/508.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/508.png",
     "hms": [
       {
         "name": "cut",
@@ -1100,7 +1100,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/179.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/179.png",
     "hms": [
       {
         "name": "cut",
@@ -1141,7 +1141,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/180.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/180.png",
     "hms": [
       {
         "name": "cut",
@@ -1182,7 +1182,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/181.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/181.png",
     "hms": [
       {
         "name": "cut",
@@ -1223,7 +1223,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/54.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/54.png",
     "hms": [
       {
         "name": "cut",
@@ -1264,7 +1264,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/55.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/55.png",
     "hms": [
       {
         "name": "cut",
@@ -1312,7 +1312,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/298.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/298.png",
     "hms": [
       {
         "name": "cut",
@@ -1360,7 +1360,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/183.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/183.png",
     "hms": [
       {
         "name": "cut",
@@ -1408,7 +1408,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/184.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/184.png",
     "hms": [
       {
         "name": "cut",
@@ -1449,7 +1449,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/447.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/447.png",
     "hms": [
       {
         "name": "cut",
@@ -1497,7 +1497,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/448.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/448.png",
     "hms": [
       {
         "name": "cut",
@@ -1538,7 +1538,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/206.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/206.png",
     "hms": [
       {
         "name": "cut",
@@ -1579,7 +1579,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/531.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/531.png",
     "hms": [
       {
         "name": "cut",
@@ -1620,7 +1620,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/511.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/511.png",
     "hms": [
       {
         "name": "cut",
@@ -1661,7 +1661,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/512.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/512.png",
     "hms": [
       {
         "name": "cut",
@@ -1702,7 +1702,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/513.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/513.png",
     "hms": [
       {
         "name": "cut",
@@ -1743,7 +1743,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/514.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/514.png",
     "hms": [
       {
         "name": "cut",
@@ -1784,7 +1784,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/515.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/515.png",
     "hms": [
       {
         "name": "cut",
@@ -1825,7 +1825,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/516.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/516.png",
     "hms": [
       {
         "name": "cut",
@@ -1873,7 +1873,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/543.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/543.png",
     "hms": [
       {
         "name": "cut",
@@ -1921,7 +1921,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/544.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/544.png",
     "hms": [
       {
         "name": "cut",
@@ -1969,7 +1969,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/545.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/545.png",
     "hms": [
       {
         "name": "cut",
@@ -2010,7 +2010,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/109.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/109.png",
     "hms": [
       {
         "name": "cut",
@@ -2051,7 +2051,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/110.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/110.png",
     "hms": [
       {
         "name": "cut",
@@ -2099,7 +2099,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/81.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/81.png",
     "hms": [
       {
         "name": "cut",
@@ -2147,7 +2147,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/82.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/82.png",
     "hms": [
       {
         "name": "cut",
@@ -2195,7 +2195,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/462.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/462.png",
     "hms": [
       {
         "name": "cut",
@@ -2236,7 +2236,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/58.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/58.png",
     "hms": [
       {
         "name": "cut",
@@ -2277,7 +2277,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/59.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/59.png",
     "hms": [
       {
         "name": "cut",
@@ -2318,7 +2318,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/240.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/240.png",
     "hms": [
       {
         "name": "cut",
@@ -2359,7 +2359,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/126.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/126.png",
     "hms": [
       {
         "name": "cut",
@@ -2400,7 +2400,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/467.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/467.png",
     "hms": [
       {
         "name": "cut",
@@ -2441,7 +2441,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/239.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/239.png",
     "hms": [
       {
         "name": "cut",
@@ -2482,7 +2482,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/125.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/125.png",
     "hms": [
       {
         "name": "cut",
@@ -2523,7 +2523,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/466.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/466.png",
     "hms": [
       {
         "name": "cut",
@@ -2564,7 +2564,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/19.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/19.png",
     "hms": [
       {
         "name": "cut",
@@ -2605,7 +2605,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/20.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/20.png",
     "hms": [
       {
         "name": "cut",
@@ -2653,7 +2653,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/41.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/41.png",
     "hms": [
       {
         "name": "cut",
@@ -2701,7 +2701,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/42.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/42.png",
     "hms": [
       {
         "name": "cut",
@@ -2749,7 +2749,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/169.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/169.png",
     "hms": [
       {
         "name": "cut",
@@ -2790,7 +2790,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/88.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/88.png",
     "hms": [
       {
         "name": "cut",
@@ -2831,7 +2831,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/89.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/89.png",
     "hms": [
       {
         "name": "cut",
@@ -2879,7 +2879,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/527.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/527.png",
     "hms": [
       {
         "name": "cut",
@@ -2927,7 +2927,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/528.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/528.png",
     "hms": [
       {
         "name": "cut",
@@ -2968,7 +2968,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/524.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/524.png",
     "hms": [
       {
         "name": "cut",
@@ -3009,7 +3009,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/525.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/525.png",
     "hms": [
       {
         "name": "cut",
@@ -3050,7 +3050,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/526.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/526.png",
     "hms": [
       {
         "name": "cut",
@@ -3098,7 +3098,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/95.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/95.png",
     "hms": [
       {
         "name": "cut",
@@ -3146,7 +3146,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/208.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/208.png",
     "hms": [
       {
         "name": "cut",
@@ -3187,7 +3187,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/532.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/532.png",
     "hms": [
       {
         "name": "cut",
@@ -3228,7 +3228,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/533.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/533.png",
     "hms": [
       {
         "name": "cut",
@@ -3269,7 +3269,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/534.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/534.png",
     "hms": [
       {
         "name": "cut",
@@ -3310,7 +3310,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/529.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/529.png",
     "hms": [
       {
         "name": "cut",
@@ -3358,7 +3358,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/530.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/530.png",
     "hms": [
       {
         "name": "cut",
@@ -3399,7 +3399,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/300.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/300.png",
     "hms": [
       {
         "name": "cut",
@@ -3440,7 +3440,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/301.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/301.png",
     "hms": [
       {
         "name": "cut",
@@ -3481,7 +3481,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/427.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/427.png",
     "hms": [
       {
         "name": "cut",
@@ -3522,7 +3522,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/428.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/428.png",
     "hms": [
       {
         "name": "cut",
@@ -3570,7 +3570,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/546.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/546.png",
     "hms": [
       {
         "name": "cut",
@@ -3618,7 +3618,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/547.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/547.png",
     "hms": [
       {
         "name": "cut",
@@ -3659,7 +3659,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/548.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/548.png",
     "hms": [
       {
         "name": "cut",
@@ -3700,7 +3700,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/549.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/549.png",
     "hms": [
       {
         "name": "cut",
@@ -3741,7 +3741,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/517.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/517.png",
     "hms": [
       {
         "name": "cut",
@@ -3782,7 +3782,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/518.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/518.png",
     "hms": [
       {
         "name": "cut",
@@ -3823,7 +3823,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/173.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/173.png",
     "hms": [
       {
         "name": "cut",
@@ -3864,7 +3864,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/35.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/35.png",
     "hms": [
       {
         "name": "cut",
@@ -3905,7 +3905,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/36.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/36.png",
     "hms": [
       {
         "name": "cut",
@@ -3946,7 +3946,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/133.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/133.png",
     "hms": [
       {
         "name": "cut",
@@ -3987,7 +3987,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/134.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/134.png",
     "hms": [
       {
         "name": "cut",
@@ -4028,7 +4028,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/135.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/135.png",
     "hms": [
       {
         "name": "cut",
@@ -4069,7 +4069,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/136.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/136.png",
     "hms": [
       {
         "name": "cut",
@@ -4110,7 +4110,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/196.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/196.png",
     "hms": [
       {
         "name": "cut",
@@ -4151,7 +4151,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/197.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/197.png",
     "hms": [
       {
         "name": "cut",
@@ -4192,7 +4192,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/470.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/470.png",
     "hms": [
       {
         "name": "cut",
@@ -4233,7 +4233,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/471.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/471.png",
     "hms": [
       {
         "name": "cut",
@@ -4281,7 +4281,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/551.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/551.png",
     "hms": [
       {
         "name": "cut",
@@ -4329,7 +4329,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/552.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/552.png",
     "hms": [
       {
         "name": "cut",
@@ -4377,7 +4377,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/553.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/553.png",
     "hms": [
       {
         "name": "cut",
@@ -4418,7 +4418,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/554.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/554.png",
     "hms": [
       {
         "name": "cut",
@@ -4459,7 +4459,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/555.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/555.png",
     "hms": [
       {
         "name": "cut",
@@ -4500,7 +4500,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/550.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/550.png",
     "hms": [
       {
         "name": "cut",
@@ -4541,7 +4541,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/568.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/568.png",
     "hms": [
       {
         "name": "cut",
@@ -4582,7 +4582,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/569.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/569.png",
     "hms": [
       {
         "name": "cut",
@@ -4623,7 +4623,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/572.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/572.png",
     "hms": [
       {
         "name": "cut",
@@ -4664,7 +4664,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/573.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/573.png",
     "hms": [
       {
         "name": "cut",
@@ -4712,7 +4712,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/627.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/627.png",
     "hms": [
       {
         "name": "cut",
@@ -4760,7 +4760,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/628.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/628.png",
     "hms": [
       {
         "name": "cut",
@@ -4808,7 +4808,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/629.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/629.png",
     "hms": [
       {
         "name": "cut",
@@ -4856,7 +4856,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/630.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/630.png",
     "hms": [
       {
         "name": "cut",
@@ -4897,7 +4897,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/27.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/27.png",
     "hms": [
       {
         "name": "cut",
@@ -4938,7 +4938,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/28.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/28.png",
     "hms": [
       {
         "name": "cut",
@@ -4986,7 +4986,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/557.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/557.png",
     "hms": [
       {
         "name": "cut",
@@ -5034,7 +5034,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/558.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/558.png",
     "hms": [
       {
         "name": "cut",
@@ -5082,7 +5082,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/559.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/559.png",
     "hms": [
       {
         "name": "cut",
@@ -5130,7 +5130,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/560.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/560.png",
     "hms": [
       {
         "name": "cut",
@@ -5171,7 +5171,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/556.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/556.png",
     "hms": [
       {
         "name": "cut",
@@ -5219,7 +5219,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/561.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/561.png",
     "hms": [
       {
         "name": "cut",
@@ -5260,7 +5260,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/328.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/328.png",
     "hms": [
       {
         "name": "cut",
@@ -5308,7 +5308,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/329.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/329.png",
     "hms": [
       {
         "name": "cut",
@@ -5356,7 +5356,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/330.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/330.png",
     "hms": [
       {
         "name": "cut",
@@ -5397,7 +5397,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/562.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/562.png",
     "hms": [
       {
         "name": "cut",
@@ -5438,7 +5438,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/563.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/563.png",
     "hms": [
       {
         "name": "cut",
@@ -5486,7 +5486,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/564.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/564.png",
     "hms": [
       {
         "name": "cut",
@@ -5534,7 +5534,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/565.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/565.png",
     "hms": [
       {
         "name": "cut",
@@ -5582,7 +5582,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/566.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/566.png",
     "hms": [
       {
         "name": "cut",
@@ -5630,7 +5630,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/567.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/567.png",
     "hms": [
       {
         "name": "cut",
@@ -5671,7 +5671,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/599.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/599.png",
     "hms": [
       {
         "name": "cut",
@@ -5712,7 +5712,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/600.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/600.png",
     "hms": [
       {
         "name": "cut",
@@ -5753,7 +5753,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/601.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/601.png",
     "hms": [
       {
         "name": "cut",
@@ -5801,7 +5801,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/406.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/406.png",
     "hms": [
       {
         "name": "cut",
@@ -5849,7 +5849,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/315.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/315.png",
     "hms": [
       {
         "name": "cut",
@@ -5897,7 +5897,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/407.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/407.png",
     "hms": [
       {
         "name": "cut",
@@ -5938,7 +5938,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/574.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/574.png",
     "hms": [
       {
         "name": "cut",
@@ -5979,7 +5979,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/575.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/575.png",
     "hms": [
       {
         "name": "cut",
@@ -6020,7 +6020,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/576.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/576.png",
     "hms": [
       {
         "name": "cut",
@@ -6061,7 +6061,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/577.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/577.png",
     "hms": [
       {
         "name": "cut",
@@ -6102,7 +6102,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/578.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/578.png",
     "hms": [
       {
         "name": "cut",
@@ -6143,7 +6143,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/579.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/579.png",
     "hms": [
       {
         "name": "cut",
@@ -6191,7 +6191,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/415.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/415.png",
     "hms": [
       {
         "name": "cut",
@@ -6239,7 +6239,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/416.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/416.png",
     "hms": [
       {
         "name": "cut",
@@ -6287,7 +6287,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/587.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/587.png",
     "hms": [
       {
         "name": "cut",
@@ -6335,7 +6335,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/214.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/214.png",
     "hms": [
       {
         "name": "cut",
@@ -6376,7 +6376,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/127.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/127.png",
     "hms": [
       {
         "name": "cut",
@@ -6417,7 +6417,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/522.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/522.png",
     "hms": [
       {
         "name": "cut",
@@ -6458,7 +6458,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/523.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/523.png",
     "hms": [
       {
         "name": "cut",
@@ -6499,7 +6499,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/418.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/418.png",
     "hms": [
       {
         "name": "cut",
@@ -6540,7 +6540,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/419.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/419.png",
     "hms": [
       {
         "name": "cut",
@@ -6581,7 +6581,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/570.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/570.png",
     "hms": [
       {
         "name": "cut",
@@ -6622,7 +6622,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/571.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/571.png",
     "hms": [
       {
         "name": "cut",
@@ -6670,7 +6670,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/580.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/580.png",
     "hms": [
       {
         "name": "cut",
@@ -6718,7 +6718,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/581.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/581.png",
     "hms": [
       {
         "name": "cut",
@@ -6759,7 +6759,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/588.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/588.png",
     "hms": [
       {
         "name": "cut",
@@ -6807,7 +6807,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/589.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/589.png",
     "hms": [
       {
         "name": "cut",
@@ -6848,7 +6848,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/616.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/616.png",
     "hms": [
       {
         "name": "cut",
@@ -6889,7 +6889,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/617.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/617.png",
     "hms": [
       {
         "name": "cut",
@@ -6937,7 +6937,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/585.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/585.png",
     "hms": [
       {
         "name": "cut",
@@ -6985,7 +6985,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/586.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/586.png",
     "hms": [
       {
         "name": "cut",
@@ -7033,7 +7033,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/590.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/590.png",
     "hms": [
       {
         "name": "cut",
@@ -7081,7 +7081,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/591.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/591.png",
     "hms": [
       {
         "name": "cut",
@@ -7122,7 +7122,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/351.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/351.png",
     "hms": [
       {
         "name": "cut",
@@ -7163,7 +7163,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/299.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/299.png",
     "hms": [
       {
         "name": "cut",
@@ -7211,7 +7211,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/476.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/476.png",
     "hms": [
       {
         "name": "cut",
@@ -7259,7 +7259,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/304.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/304.png",
     "hms": [
       {
         "name": "cut",
@@ -7307,7 +7307,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/305.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/305.png",
     "hms": [
       {
         "name": "cut",
@@ -7355,7 +7355,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/306.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/306.png",
     "hms": [
       {
         "name": "cut",
@@ -7403,7 +7403,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/343.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/343.png",
     "hms": [
       {
         "name": "cut",
@@ -7451,7 +7451,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/344.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/344.png",
     "hms": [
       {
         "name": "cut",
@@ -7499,7 +7499,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/636.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/636.png",
     "hms": [
       {
         "name": "cut",
@@ -7547,7 +7547,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/637.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/637.png",
     "hms": [
       {
         "name": "cut",
@@ -7595,7 +7595,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/595.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/595.png",
     "hms": [
       {
         "name": "cut",
@@ -7643,7 +7643,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/596.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/596.png",
     "hms": [
       {
         "name": "cut",
@@ -7691,7 +7691,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/597.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/597.png",
     "hms": [
       {
         "name": "cut",
@@ -7739,7 +7739,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/598.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/598.png",
     "hms": [
       {
         "name": "cut",
@@ -7780,7 +7780,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/602.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/602.png",
     "hms": [
       {
         "name": "cut",
@@ -7821,7 +7821,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/603.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/603.png",
     "hms": [
       {
         "name": "cut",
@@ -7862,7 +7862,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/604.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/604.png",
     "hms": [
       {
         "name": "cut",
@@ -7910,7 +7910,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/592.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/592.png",
     "hms": [
       {
         "name": "cut",
@@ -7958,7 +7958,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/593.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/593.png",
     "hms": [
       {
         "name": "cut",
@@ -7999,7 +7999,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/594.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/594.png",
     "hms": [
       {
         "name": "cut",
@@ -8040,7 +8040,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/610.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/610.png",
     "hms": [
       {
         "name": "cut",
@@ -8081,7 +8081,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/611.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/611.png",
     "hms": [
       {
         "name": "cut",
@@ -8122,7 +8122,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/612.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/612.png",
     "hms": [
       {
         "name": "cut",
@@ -8163,7 +8163,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/335.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/335.png",
     "hms": [
       {
         "name": "cut",
@@ -8204,7 +8204,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/336.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/336.png",
     "hms": [
       {
         "name": "cut",
@@ -8245,7 +8245,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/605.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/605.png",
     "hms": [
       {
         "name": "cut",
@@ -8286,7 +8286,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/606.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/606.png",
     "hms": [
       {
         "name": "cut",
@@ -8334,7 +8334,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/607.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/607.png",
     "hms": [
       {
         "name": "cut",
@@ -8382,7 +8382,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/608.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/608.png",
     "hms": [
       {
         "name": "cut",
@@ -8430,7 +8430,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/609.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/609.png",
     "hms": [
       {
         "name": "cut",
@@ -8471,7 +8471,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/631.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/631.png",
     "hms": [
       {
         "name": "cut",
@@ -8519,7 +8519,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/632.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/632.png",
     "hms": [
       {
         "name": "cut",
@@ -8560,7 +8560,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/613.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/613.png",
     "hms": [
       {
         "name": "cut",
@@ -8601,7 +8601,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/614.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/614.png",
     "hms": [
       {
         "name": "cut",
@@ -8642,7 +8642,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/615.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/615.png",
     "hms": [
       {
         "name": "cut",
@@ -8683,7 +8683,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/641.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/641.png",
     "hms": [
       {
         "name": "cut",
@@ -8731,7 +8731,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/642.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/642.png",
     "hms": [
       {
         "name": "cut",
@@ -8779,7 +8779,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/645.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/645.png",
     "hms": [
       {
         "name": "cut",
@@ -8827,7 +8827,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/451.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/451.png",
     "hms": [
       {
         "name": "cut",
@@ -8875,7 +8875,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/452.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/452.png",
     "hms": [
       {
         "name": "cut",
@@ -8923,7 +8923,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/227.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/227.png",
     "hms": [
       {
         "name": "cut",
@@ -8971,7 +8971,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/322.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/322.png",
     "hms": [
       {
         "name": "cut",
@@ -9019,7 +9019,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/323.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/323.png",
     "hms": [
       {
         "name": "cut",
@@ -9060,7 +9060,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/325.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/325.png",
     "hms": [
       {
         "name": "cut",
@@ -9101,7 +9101,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/326.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/326.png",
     "hms": [
       {
         "name": "cut",
@@ -9149,7 +9149,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/425.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/425.png",
     "hms": [
       {
         "name": "cut",
@@ -9197,7 +9197,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/426.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/426.png",
     "hms": [
       {
         "name": "cut",
@@ -9238,7 +9238,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/353.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/353.png",
     "hms": [
       {
         "name": "cut",
@@ -9279,7 +9279,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/354.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/354.png",
     "hms": [
       {
         "name": "cut",
@@ -9327,7 +9327,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/278.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/278.png",
     "hms": [
       {
         "name": "cut",
@@ -9375,7 +9375,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/279.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/279.png",
     "hms": [
       {
         "name": "cut",
@@ -9423,7 +9423,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/337.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/337.png",
     "hms": [
       {
         "name": "cut",
@@ -9471,7 +9471,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/338.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/338.png",
     "hms": [
       {
         "name": "cut",
@@ -9512,7 +9512,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/359.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/359.png",
     "hms": [
       {
         "name": "cut",
@@ -9553,7 +9553,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/114.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/114.png",
     "hms": [
       {
         "name": "cut",
@@ -9594,7 +9594,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/465.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/465.png",
     "hms": [
       {
         "name": "cut",
@@ -9635,7 +9635,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/619.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/619.png",
     "hms": [
       {
         "name": "cut",
@@ -9676,7 +9676,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/620.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/620.png",
     "hms": [
       {
         "name": "cut",
@@ -9724,7 +9724,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/207.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/207.png",
     "hms": [
       {
         "name": "cut",
@@ -9772,7 +9772,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/472.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/472.png",
     "hms": [
       {
         "name": "cut",
@@ -9820,7 +9820,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/624.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/624.png",
     "hms": [
       {
         "name": "cut",
@@ -9868,7 +9868,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/625.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/625.png",
     "hms": [
       {
         "name": "cut",
@@ -9916,7 +9916,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/638.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/638.png",
     "hms": [
       {
         "name": "cut",
@@ -9964,7 +9964,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/639.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/639.png",
     "hms": [
       {
         "name": "cut",
@@ -10012,7 +10012,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/640.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/640.png",
     "hms": [
       {
         "name": "cut",
@@ -10053,7 +10053,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/535.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/535.png",
     "hms": [
       {
         "name": "cut",
@@ -10101,7 +10101,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/536.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/536.png",
     "hms": [
       {
         "name": "cut",
@@ -10149,7 +10149,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/537.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/537.png",
     "hms": [
       {
         "name": "cut",
@@ -10197,7 +10197,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/618.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/618.png",
     "hms": [
       {
         "name": "cut",
@@ -10245,7 +10245,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/213.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/213.png",
     "hms": [
       {
         "name": "cut",
@@ -10293,7 +10293,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/458.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/458.png",
     "hms": [
       {
         "name": "cut",
@@ -10341,7 +10341,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/226.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/226.png",
     "hms": [
       {
         "name": "cut",
@@ -10382,7 +10382,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/223.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/223.png",
     "hms": [
       {
         "name": "cut",
@@ -10423,7 +10423,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/224.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/224.png",
     "hms": [
       {
         "name": "cut",
@@ -10471,7 +10471,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/222.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/222.png",
     "hms": [
       {
         "name": "cut",
@@ -10512,7 +10512,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/120.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/120.png",
     "hms": [
       {
         "name": "cut",
@@ -10560,7 +10560,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/121.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/121.png",
     "hms": [
       {
         "name": "cut",
@@ -10601,7 +10601,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/320.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/320.png",
     "hms": [
       {
         "name": "cut",
@@ -10642,7 +10642,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/321.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/321.png",
     "hms": [
       {
         "name": "cut",
@@ -10690,7 +10690,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/131.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/131.png",
     "hms": [
       {
         "name": "cut",
@@ -10738,7 +10738,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/363.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/363.png",
     "hms": [
       {
         "name": "cut",
@@ -10786,7 +10786,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/364.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/364.png",
     "hms": [
       {
         "name": "cut",
@@ -10834,7 +10834,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/365.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/365.png",
     "hms": [
       {
         "name": "cut",
@@ -10882,7 +10882,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/333.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/333.png",
     "hms": [
       {
         "name": "cut",
@@ -10930,7 +10930,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/334.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/334.png",
     "hms": [
       {
         "name": "cut",
@@ -10971,7 +10971,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/37.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/37.png",
     "hms": [
       {
         "name": "cut",
@@ -11012,7 +11012,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/38.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/38.png",
     "hms": [
       {
         "name": "cut",
@@ -11060,7 +11060,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/436.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/436.png",
     "hms": [
       {
         "name": "cut",
@@ -11108,7 +11108,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/437.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/437.png",
     "hms": [
       {
         "name": "cut",
@@ -11156,7 +11156,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/215.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/215.png",
     "hms": [
       {
         "name": "cut",
@@ -11204,7 +11204,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/461.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/461.png",
     "hms": [
       {
         "name": "cut",
@@ -11252,7 +11252,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/225.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/225.png",
     "hms": [
       {
         "name": "cut",
@@ -11293,7 +11293,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/582.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/582.png",
     "hms": [
       {
         "name": "cut",
@@ -11334,7 +11334,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/583.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/583.png",
     "hms": [
       {
         "name": "cut",
@@ -11375,7 +11375,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/584.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/584.png",
     "hms": [
       {
         "name": "cut",
@@ -11423,7 +11423,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/220.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/220.png",
     "hms": [
       {
         "name": "cut",
@@ -11471,7 +11471,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/221.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/221.png",
     "hms": [
       {
         "name": "cut",
@@ -11519,7 +11519,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/473.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/473.png",
     "hms": [
       {
         "name": "cut",
@@ -11560,7 +11560,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/132.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/132.png",
     "hms": [
       {
         "name": "cut",
@@ -11608,7 +11608,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/374.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/374.png",
     "hms": [
       {
         "name": "cut",
@@ -11656,7 +11656,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/375.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/375.png",
     "hms": [
       {
         "name": "cut",
@@ -11704,7 +11704,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/376.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/376.png",
     "hms": [
       {
         "name": "cut",
@@ -11745,7 +11745,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/86.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/86.png",
     "hms": [
       {
         "name": "cut",
@@ -11793,7 +11793,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/87.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/87.png",
     "hms": [
       {
         "name": "cut",
@@ -11834,7 +11834,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/538.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/538.png",
     "hms": [
       {
         "name": "cut",
@@ -11875,7 +11875,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/539.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/539.png",
     "hms": [
       {
         "name": "cut",
@@ -11916,7 +11916,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/626.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/626.png",
     "hms": [
       {
         "name": "cut",
@@ -11957,7 +11957,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/621.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/621.png",
     "hms": [
       {
         "name": "cut",
@@ -12005,7 +12005,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/622.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/622.png",
     "hms": [
       {
         "name": "cut",
@@ -12053,7 +12053,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/623.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/623.png",
     "hms": [
       {
         "name": "cut",
@@ -12101,7 +12101,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/633.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/633.png",
     "hms": [
       {
         "name": "cut",
@@ -12149,7 +12149,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/634.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/634.png",
     "hms": [
       {
         "name": "cut",
@@ -12197,7 +12197,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/635.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/635.png",
     "hms": [
       {
         "name": "cut",
@@ -12238,7 +12238,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/287.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/287.png",
     "hms": [
       {
         "name": "cut",
@@ -12279,7 +12279,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/288.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/288.png",
     "hms": [
       {
         "name": "cut",
@@ -12320,7 +12320,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/289.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/289.png",
     "hms": [
       {
         "name": "cut",
@@ -12361,7 +12361,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/341.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/341.png",
     "hms": [
       {
         "name": "cut",
@@ -12409,7 +12409,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/342.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/342.png",
     "hms": [
       {
         "name": "cut",
@@ -12457,7 +12457,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/174.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/174.png",
     "hms": [
       {
         "name": "cut",
@@ -12505,7 +12505,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/39.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/39.png",
     "hms": [
       {
         "name": "cut",
@@ -12553,7 +12553,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/40.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/40.png",
     "hms": [
       {
         "name": "cut",
@@ -12594,7 +12594,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/108.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/108.png",
     "hms": [
       {
         "name": "cut",
@@ -12635,7 +12635,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/463.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/463.png",
     "hms": [
       {
         "name": "cut",
@@ -12683,7 +12683,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/193.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/193.png",
     "hms": [
       {
         "name": "cut",
@@ -12731,7 +12731,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/469.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/469.png",
     "hms": [
       {
         "name": "cut",
@@ -12779,7 +12779,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/357.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/357.png",
     "hms": [
       {
         "name": "cut",
@@ -12820,7 +12820,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/455.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/455.png",
     "hms": [
       {
         "name": "cut",
@@ -12868,7 +12868,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/453.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/453.png",
     "hms": [
       {
         "name": "cut",
@@ -12916,7 +12916,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/454.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/454.png",
     "hms": [
       {
         "name": "cut",
@@ -12964,7 +12964,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/246.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/246.png",
     "hms": [
       {
         "name": "cut",
@@ -13012,7 +13012,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/247.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/247.png",
     "hms": [
       {
         "name": "cut",
@@ -13060,7 +13060,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/248.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/248.png",
     "hms": [
       {
         "name": "cut",
@@ -13108,7 +13108,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/643.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/643.png",
     "hms": [
       {
         "name": "cut",
@@ -13156,7 +13156,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/644.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/644.png",
     "hms": [
       {
         "name": "cut",
@@ -13204,7 +13204,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/646.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/646.png",
     "hms": [
       {
         "name": "cut",
@@ -13252,7 +13252,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/647.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/647.png",
     "hms": [
       {
         "name": "cut",
@@ -13300,7 +13300,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/648.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/648.png",
     "hms": [
       {
         "name": "cut",
@@ -13348,7 +13348,7 @@ export const gen5bw2Dex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-v/black-white/649.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/649.png",
     "hms": [
       {
         "name": "cut",

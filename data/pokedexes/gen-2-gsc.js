@@ -11,7 +11,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/152.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/152.png",
     "hms": [
       {
         "name": "cut",
@@ -56,7 +56,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/153.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/153.png",
     "hms": [
       {
         "name": "cut",
@@ -101,7 +101,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/154.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/154.png",
     "hms": [
       {
         "name": "cut",
@@ -146,7 +146,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/155.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/155.png",
     "hms": [
       {
         "name": "cut",
@@ -191,7 +191,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/156.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/156.png",
     "hms": [
       {
         "name": "cut",
@@ -236,7 +236,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/157.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/157.png",
     "hms": [
       {
         "name": "cut",
@@ -281,7 +281,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/158.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/158.png",
     "hms": [
       {
         "name": "cut",
@@ -326,7 +326,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/159.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/159.png",
     "hms": [
       {
         "name": "cut",
@@ -371,7 +371,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/160.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/160.png",
     "hms": [
       {
         "name": "cut",
@@ -423,7 +423,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/16.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/16.png",
     "hms": [
       {
         "name": "cut",
@@ -475,7 +475,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/17.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/17.png",
     "hms": [
       {
         "name": "cut",
@@ -527,7 +527,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/18.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/18.png",
     "hms": [
       {
         "name": "cut",
@@ -579,7 +579,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/21.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/21.png",
     "hms": [
       {
         "name": "cut",
@@ -631,7 +631,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/22.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/22.png",
     "hms": [
       {
         "name": "cut",
@@ -683,7 +683,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/163.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/163.png",
     "hms": [
       {
         "name": "cut",
@@ -735,7 +735,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/164.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/164.png",
     "hms": [
       {
         "name": "cut",
@@ -780,7 +780,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/19.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/19.png",
     "hms": [
       {
         "name": "cut",
@@ -825,7 +825,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/20.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/20.png",
     "hms": [
       {
         "name": "cut",
@@ -870,7 +870,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/161.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/161.png",
     "hms": [
       {
         "name": "cut",
@@ -915,7 +915,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/162.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/162.png",
     "hms": [
       {
         "name": "cut",
@@ -960,7 +960,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/172.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/172.png",
     "hms": [
       {
         "name": "cut",
@@ -1005,7 +1005,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/25.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/25.png",
     "hms": [
       {
         "name": "cut",
@@ -1050,7 +1050,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/26.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/26.png",
     "hms": [
       {
         "name": "cut",
@@ -1095,7 +1095,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/10.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/10.png",
     "hms": [
       {
         "name": "cut",
@@ -1140,7 +1140,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/11.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/11.png",
     "hms": [
       {
         "name": "cut",
@@ -1192,7 +1192,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/12.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/12.png",
     "hms": [
       {
         "name": "cut",
@@ -1244,7 +1244,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/13.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/13.png",
     "hms": [
       {
         "name": "cut",
@@ -1296,7 +1296,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/14.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/14.png",
     "hms": [
       {
         "name": "cut",
@@ -1348,7 +1348,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/15.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/15.png",
     "hms": [
       {
         "name": "cut",
@@ -1400,7 +1400,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/165.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/165.png",
     "hms": [
       {
         "name": "cut",
@@ -1452,7 +1452,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/166.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/166.png",
     "hms": [
       {
         "name": "cut",
@@ -1504,7 +1504,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/167.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/167.png",
     "hms": [
       {
         "name": "cut",
@@ -1556,7 +1556,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/168.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/168.png",
     "hms": [
       {
         "name": "cut",
@@ -1608,7 +1608,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/74.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/74.png",
     "hms": [
       {
         "name": "cut",
@@ -1660,7 +1660,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/75.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/75.png",
     "hms": [
       {
         "name": "cut",
@@ -1712,7 +1712,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/76.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/76.png",
     "hms": [
       {
         "name": "cut",
@@ -1764,7 +1764,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/41.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/41.png",
     "hms": [
       {
         "name": "cut",
@@ -1816,7 +1816,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/42.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/42.png",
     "hms": [
       {
         "name": "cut",
@@ -1868,7 +1868,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/169.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/169.png",
     "hms": [
       {
         "name": "cut",
@@ -1913,7 +1913,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/173.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/173.png",
     "hms": [
       {
         "name": "cut",
@@ -1958,7 +1958,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/35.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/35.png",
     "hms": [
       {
         "name": "cut",
@@ -2003,7 +2003,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/36.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/36.png",
     "hms": [
       {
         "name": "cut",
@@ -2055,7 +2055,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/174.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/174.png",
     "hms": [
       {
         "name": "cut",
@@ -2107,7 +2107,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/39.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/39.png",
     "hms": [
       {
         "name": "cut",
@@ -2159,7 +2159,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/40.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/40.png",
     "hms": [
       {
         "name": "cut",
@@ -2204,7 +2204,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/175.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/175.png",
     "hms": [
       {
         "name": "cut",
@@ -2256,7 +2256,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/176.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/176.png",
     "hms": [
       {
         "name": "cut",
@@ -2301,7 +2301,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/27.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/27.png",
     "hms": [
       {
         "name": "cut",
@@ -2346,7 +2346,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/28.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/28.png",
     "hms": [
       {
         "name": "cut",
@@ -2391,7 +2391,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/23.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/23.png",
     "hms": [
       {
         "name": "cut",
@@ -2436,7 +2436,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/24.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/24.png",
     "hms": [
       {
         "name": "cut",
@@ -2481,7 +2481,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/206.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/206.png",
     "hms": [
       {
         "name": "cut",
@@ -2526,7 +2526,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/179.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/179.png",
     "hms": [
       {
         "name": "cut",
@@ -2571,7 +2571,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/180.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/180.png",
     "hms": [
       {
         "name": "cut",
@@ -2616,7 +2616,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/181.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/181.png",
     "hms": [
       {
         "name": "cut",
@@ -2668,7 +2668,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/194.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/194.png",
     "hms": [
       {
         "name": "cut",
@@ -2720,7 +2720,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/195.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/195.png",
     "hms": [
       {
         "name": "cut",
@@ -2772,7 +2772,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/92.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/92.png",
     "hms": [
       {
         "name": "cut",
@@ -2824,7 +2824,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/93.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/93.png",
     "hms": [
       {
         "name": "cut",
@@ -2876,7 +2876,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/94.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/94.png",
     "hms": [
       {
         "name": "cut",
@@ -2921,7 +2921,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/201.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/201.png",
     "hms": [
       {
         "name": "cut",
@@ -2973,7 +2973,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/95.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/95.png",
     "hms": [
       {
         "name": "cut",
@@ -3025,7 +3025,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/208.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/208.png",
     "hms": [
       {
         "name": "cut",
@@ -3077,7 +3077,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/69.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/69.png",
     "hms": [
       {
         "name": "cut",
@@ -3129,7 +3129,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/70.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/70.png",
     "hms": [
       {
         "name": "cut",
@@ -3181,7 +3181,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/71.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/71.png",
     "hms": [
       {
         "name": "cut",
@@ -3233,7 +3233,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/187.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/187.png",
     "hms": [
       {
         "name": "cut",
@@ -3285,7 +3285,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/188.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/188.png",
     "hms": [
       {
         "name": "cut",
@@ -3337,7 +3337,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/189.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/189.png",
     "hms": [
       {
         "name": "cut",
@@ -3389,7 +3389,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/46.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/46.png",
     "hms": [
       {
         "name": "cut",
@@ -3441,7 +3441,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/47.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/47.png",
     "hms": [
       {
         "name": "cut",
@@ -3486,7 +3486,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/60.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/60.png",
     "hms": [
       {
         "name": "cut",
@@ -3531,7 +3531,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/61.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/61.png",
     "hms": [
       {
         "name": "cut",
@@ -3583,7 +3583,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/62.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/62.png",
     "hms": [
       {
         "name": "cut",
@@ -3628,7 +3628,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/186.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/186.png",
     "hms": [
       {
         "name": "cut",
@@ -3673,7 +3673,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/129.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/129.png",
     "hms": [
       {
         "name": "cut",
@@ -3725,7 +3725,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/130.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/130.png",
     "hms": [
       {
         "name": "cut",
@@ -3770,7 +3770,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/118.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/118.png",
     "hms": [
       {
         "name": "cut",
@@ -3815,7 +3815,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/119.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/119.png",
     "hms": [
       {
         "name": "cut",
@@ -3867,7 +3867,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/79.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/79.png",
     "hms": [
       {
         "name": "cut",
@@ -3919,7 +3919,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/80.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/80.png",
     "hms": [
       {
         "name": "cut",
@@ -3971,7 +3971,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/199.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/199.png",
     "hms": [
       {
         "name": "cut",
@@ -4023,7 +4023,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/43.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/43.png",
     "hms": [
       {
         "name": "cut",
@@ -4075,7 +4075,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/44.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/44.png",
     "hms": [
       {
         "name": "cut",
@@ -4127,7 +4127,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/45.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/45.png",
     "hms": [
       {
         "name": "cut",
@@ -4172,7 +4172,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/182.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/182.png",
     "hms": [
       {
         "name": "cut",
@@ -4217,7 +4217,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/96.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/96.png",
     "hms": [
       {
         "name": "cut",
@@ -4262,7 +4262,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/97.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/97.png",
     "hms": [
       {
         "name": "cut",
@@ -4307,7 +4307,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/63.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/63.png",
     "hms": [
       {
         "name": "cut",
@@ -4352,7 +4352,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/64.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/64.png",
     "hms": [
       {
         "name": "cut",
@@ -4397,7 +4397,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/65.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/65.png",
     "hms": [
       {
         "name": "cut",
@@ -4442,7 +4442,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/132.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/132.png",
     "hms": [
       {
         "name": "cut",
@@ -4487,7 +4487,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/204.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/204.png",
     "hms": [
       {
         "name": "cut",
@@ -4539,7 +4539,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/205.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/205.png",
     "hms": [
       {
         "name": "cut",
@@ -4584,7 +4584,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/29.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/29.png",
     "hms": [
       {
         "name": "cut",
@@ -4629,7 +4629,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/30.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/30.png",
     "hms": [
       {
         "name": "cut",
@@ -4681,7 +4681,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/31.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/31.png",
     "hms": [
       {
         "name": "cut",
@@ -4726,7 +4726,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/32.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/32.png",
     "hms": [
       {
         "name": "cut",
@@ -4771,7 +4771,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/33.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/33.png",
     "hms": [
       {
         "name": "cut",
@@ -4823,7 +4823,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/34.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/34.png",
     "hms": [
       {
         "name": "cut",
@@ -4875,7 +4875,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/193.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/193.png",
     "hms": [
       {
         "name": "cut",
@@ -4920,7 +4920,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/191.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/191.png",
     "hms": [
       {
         "name": "cut",
@@ -4965,7 +4965,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/192.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/192.png",
     "hms": [
       {
         "name": "cut",
@@ -5017,7 +5017,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/102.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/102.png",
     "hms": [
       {
         "name": "cut",
@@ -5069,7 +5069,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/103.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/103.png",
     "hms": [
       {
         "name": "cut",
@@ -5114,7 +5114,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/185.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/185.png",
     "hms": [
       {
         "name": "cut",
@@ -5159,7 +5159,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/202.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/202.png",
     "hms": [
       {
         "name": "cut",
@@ -5211,7 +5211,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/48.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/48.png",
     "hms": [
       {
         "name": "cut",
@@ -5263,7 +5263,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/49.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/49.png",
     "hms": [
       {
         "name": "cut",
@@ -5315,7 +5315,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/123.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/123.png",
     "hms": [
       {
         "name": "cut",
@@ -5367,7 +5367,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/212.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/212.png",
     "hms": [
       {
         "name": "cut",
@@ -5412,7 +5412,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/127.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/127.png",
     "hms": [
       {
         "name": "cut",
@@ -5464,7 +5464,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/214.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/214.png",
     "hms": [
       {
         "name": "cut",
@@ -5509,7 +5509,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/109.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/109.png",
     "hms": [
       {
         "name": "cut",
@@ -5554,7 +5554,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/110.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/110.png",
     "hms": [
       {
         "name": "cut",
@@ -5599,7 +5599,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/88.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/88.png",
     "hms": [
       {
         "name": "cut",
@@ -5644,7 +5644,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/89.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/89.png",
     "hms": [
       {
         "name": "cut",
@@ -5696,7 +5696,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/81.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/81.png",
     "hms": [
       {
         "name": "cut",
@@ -5748,7 +5748,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/82.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/82.png",
     "hms": [
       {
         "name": "cut",
@@ -5793,7 +5793,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/100.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/100.png",
     "hms": [
       {
         "name": "cut",
@@ -5838,7 +5838,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/101.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/101.png",
     "hms": [
       {
         "name": "cut",
@@ -5883,7 +5883,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/190.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/190.png",
     "hms": [
       {
         "name": "cut",
@@ -5928,7 +5928,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/209.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/209.png",
     "hms": [
       {
         "name": "cut",
@@ -5973,7 +5973,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/210.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/210.png",
     "hms": [
       {
         "name": "cut",
@@ -6018,7 +6018,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/37.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/37.png",
     "hms": [
       {
         "name": "cut",
@@ -6063,7 +6063,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/38.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/38.png",
     "hms": [
       {
         "name": "cut",
@@ -6108,7 +6108,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/58.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/58.png",
     "hms": [
       {
         "name": "cut",
@@ -6153,7 +6153,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/59.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/59.png",
     "hms": [
       {
         "name": "cut",
@@ -6198,7 +6198,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/234.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/234.png",
     "hms": [
       {
         "name": "cut",
@@ -6250,7 +6250,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/183.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/183.png",
     "hms": [
       {
         "name": "cut",
@@ -6302,7 +6302,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/184.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/184.png",
     "hms": [
       {
         "name": "cut",
@@ -6347,7 +6347,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/50.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/50.png",
     "hms": [
       {
         "name": "cut",
@@ -6392,7 +6392,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/51.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/51.png",
     "hms": [
       {
         "name": "cut",
@@ -6437,7 +6437,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/56.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/56.png",
     "hms": [
       {
         "name": "cut",
@@ -6482,7 +6482,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/57.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/57.png",
     "hms": [
       {
         "name": "cut",
@@ -6527,7 +6527,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/52.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/52.png",
     "hms": [
       {
         "name": "cut",
@@ -6572,7 +6572,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/53.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/53.png",
     "hms": [
       {
         "name": "cut",
@@ -6617,7 +6617,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/54.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/54.png",
     "hms": [
       {
         "name": "cut",
@@ -6662,7 +6662,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/55.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/55.png",
     "hms": [
       {
         "name": "cut",
@@ -6707,7 +6707,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/66.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/66.png",
     "hms": [
       {
         "name": "cut",
@@ -6752,7 +6752,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/67.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/67.png",
     "hms": [
       {
         "name": "cut",
@@ -6797,7 +6797,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/68.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/68.png",
     "hms": [
       {
         "name": "cut",
@@ -6842,7 +6842,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/236.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/236.png",
     "hms": [
       {
         "name": "cut",
@@ -6887,7 +6887,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/106.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/106.png",
     "hms": [
       {
         "name": "cut",
@@ -6932,7 +6932,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/107.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/107.png",
     "hms": [
       {
         "name": "cut",
@@ -6977,7 +6977,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/237.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/237.png",
     "hms": [
       {
         "name": "cut",
@@ -7029,7 +7029,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/203.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/203.png",
     "hms": [
       {
         "name": "cut",
@@ -7074,7 +7074,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/128.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/128.png",
     "hms": [
       {
         "name": "cut",
@@ -7119,7 +7119,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/241.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/241.png",
     "hms": [
       {
         "name": "cut",
@@ -7164,7 +7164,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/240.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/240.png",
     "hms": [
       {
         "name": "cut",
@@ -7209,7 +7209,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/126.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/126.png",
     "hms": [
       {
         "name": "cut",
@@ -7261,7 +7261,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/238.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/238.png",
     "hms": [
       {
         "name": "cut",
@@ -7313,7 +7313,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/124.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/124.png",
     "hms": [
       {
         "name": "cut",
@@ -7358,7 +7358,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/239.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/239.png",
     "hms": [
       {
         "name": "cut",
@@ -7403,7 +7403,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/125.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/125.png",
     "hms": [
       {
         "name": "cut",
@@ -7455,7 +7455,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/122.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/122.png",
     "hms": [
       {
         "name": "cut",
@@ -7500,7 +7500,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/235.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/235.png",
     "hms": [
       {
         "name": "cut",
@@ -7552,7 +7552,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/83.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/83.png",
     "hms": [
       {
         "name": "cut",
@@ -7604,7 +7604,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/177.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/177.png",
     "hms": [
       {
         "name": "cut",
@@ -7656,7 +7656,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/178.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/178.png",
     "hms": [
       {
         "name": "cut",
@@ -7708,7 +7708,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/211.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/211.png",
     "hms": [
       {
         "name": "cut",
@@ -7760,7 +7760,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/72.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/72.png",
     "hms": [
       {
         "name": "cut",
@@ -7812,7 +7812,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/73.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/73.png",
     "hms": [
       {
         "name": "cut",
@@ -7857,7 +7857,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/98.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/98.png",
     "hms": [
       {
         "name": "cut",
@@ -7902,7 +7902,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/99.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/99.png",
     "hms": [
       {
         "name": "cut",
@@ -7954,7 +7954,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/213.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/213.png",
     "hms": [
       {
         "name": "cut",
@@ -7999,7 +7999,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/120.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/120.png",
     "hms": [
       {
         "name": "cut",
@@ -8051,7 +8051,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/121.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/121.png",
     "hms": [
       {
         "name": "cut",
@@ -8096,7 +8096,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/90.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/90.png",
     "hms": [
       {
         "name": "cut",
@@ -8148,7 +8148,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/91.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/91.png",
     "hms": [
       {
         "name": "cut",
@@ -8200,7 +8200,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/222.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/222.png",
     "hms": [
       {
         "name": "cut",
@@ -8245,7 +8245,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/223.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/223.png",
     "hms": [
       {
         "name": "cut",
@@ -8290,7 +8290,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/224.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/224.png",
     "hms": [
       {
         "name": "cut",
@@ -8342,7 +8342,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/170.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/170.png",
     "hms": [
       {
         "name": "cut",
@@ -8394,7 +8394,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/171.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/171.png",
     "hms": [
       {
         "name": "cut",
@@ -8439,7 +8439,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/86.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/86.png",
     "hms": [
       {
         "name": "cut",
@@ -8491,7 +8491,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/87.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/87.png",
     "hms": [
       {
         "name": "cut",
@@ -8536,7 +8536,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/108.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/108.png",
     "hms": [
       {
         "name": "cut",
@@ -8581,7 +8581,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/114.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/114.png",
     "hms": [
       {
         "name": "cut",
@@ -8626,7 +8626,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/133.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/133.png",
     "hms": [
       {
         "name": "cut",
@@ -8671,7 +8671,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/134.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/134.png",
     "hms": [
       {
         "name": "cut",
@@ -8716,7 +8716,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/135.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/135.png",
     "hms": [
       {
         "name": "cut",
@@ -8761,7 +8761,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/136.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/136.png",
     "hms": [
       {
         "name": "cut",
@@ -8806,7 +8806,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/196.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/196.png",
     "hms": [
       {
         "name": "cut",
@@ -8851,7 +8851,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/197.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/197.png",
     "hms": [
       {
         "name": "cut",
@@ -8896,7 +8896,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/116.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/116.png",
     "hms": [
       {
         "name": "cut",
@@ -8941,7 +8941,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/117.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/117.png",
     "hms": [
       {
         "name": "cut",
@@ -8993,7 +8993,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/230.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/230.png",
     "hms": [
       {
         "name": "cut",
@@ -9045,7 +9045,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/207.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/207.png",
     "hms": [
       {
         "name": "cut",
@@ -9097,7 +9097,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/225.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/225.png",
     "hms": [
       {
         "name": "cut",
@@ -9149,7 +9149,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/220.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/220.png",
     "hms": [
       {
         "name": "cut",
@@ -9201,7 +9201,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/221.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/221.png",
     "hms": [
       {
         "name": "cut",
@@ -9246,7 +9246,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/216.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/216.png",
     "hms": [
       {
         "name": "cut",
@@ -9291,7 +9291,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/217.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/217.png",
     "hms": [
       {
         "name": "cut",
@@ -9336,7 +9336,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/231.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/231.png",
     "hms": [
       {
         "name": "cut",
@@ -9381,7 +9381,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/232.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/232.png",
     "hms": [
       {
         "name": "cut",
@@ -9433,7 +9433,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/226.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/226.png",
     "hms": [
       {
         "name": "cut",
@@ -9485,7 +9485,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/227.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/227.png",
     "hms": [
       {
         "name": "cut",
@@ -9537,7 +9537,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/84.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/84.png",
     "hms": [
       {
         "name": "cut",
@@ -9589,7 +9589,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/85.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/85.png",
     "hms": [
       {
         "name": "cut",
@@ -9634,7 +9634,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/77.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/77.png",
     "hms": [
       {
         "name": "cut",
@@ -9679,7 +9679,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/78.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/78.png",
     "hms": [
       {
         "name": "cut",
@@ -9724,7 +9724,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/104.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/104.png",
     "hms": [
       {
         "name": "cut",
@@ -9769,7 +9769,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/105.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/105.png",
     "hms": [
       {
         "name": "cut",
@@ -9814,7 +9814,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/115.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/115.png",
     "hms": [
       {
         "name": "cut",
@@ -9866,7 +9866,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/111.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/111.png",
     "hms": [
       {
         "name": "cut",
@@ -9918,7 +9918,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/112.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/112.png",
     "hms": [
       {
         "name": "cut",
@@ -9970,7 +9970,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/198.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/198.png",
     "hms": [
       {
         "name": "cut",
@@ -10022,7 +10022,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/228.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/228.png",
     "hms": [
       {
         "name": "cut",
@@ -10074,7 +10074,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/229.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/229.png",
     "hms": [
       {
         "name": "cut",
@@ -10119,7 +10119,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/218.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/218.png",
     "hms": [
       {
         "name": "cut",
@@ -10171,7 +10171,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/219.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/219.png",
     "hms": [
       {
         "name": "cut",
@@ -10223,7 +10223,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/215.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/215.png",
     "hms": [
       {
         "name": "cut",
@@ -10268,7 +10268,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/200.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/200.png",
     "hms": [
       {
         "name": "cut",
@@ -10313,7 +10313,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/137.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/137.png",
     "hms": [
       {
         "name": "cut",
@@ -10358,7 +10358,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/233.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/233.png",
     "hms": [
       {
         "name": "cut",
@@ -10403,7 +10403,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/113.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/113.png",
     "hms": [
       {
         "name": "cut",
@@ -10448,7 +10448,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/242.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/242.png",
     "hms": [
       {
         "name": "cut",
@@ -10500,7 +10500,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/131.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/131.png",
     "hms": [
       {
         "name": "cut",
@@ -10552,7 +10552,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/138.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/138.png",
     "hms": [
       {
         "name": "cut",
@@ -10604,7 +10604,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/139.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/139.png",
     "hms": [
       {
         "name": "cut",
@@ -10656,7 +10656,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/140.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/140.png",
     "hms": [
       {
         "name": "cut",
@@ -10708,7 +10708,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/141.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/141.png",
     "hms": [
       {
         "name": "cut",
@@ -10760,7 +10760,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/142.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/142.png",
     "hms": [
       {
         "name": "cut",
@@ -10805,7 +10805,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/143.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/143.png",
     "hms": [
       {
         "name": "cut",
@@ -10857,7 +10857,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/1.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/1.png",
     "hms": [
       {
         "name": "cut",
@@ -10909,7 +10909,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/2.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/2.png",
     "hms": [
       {
         "name": "cut",
@@ -10961,7 +10961,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/3.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/3.png",
     "hms": [
       {
         "name": "cut",
@@ -11006,7 +11006,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/4.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/4.png",
     "hms": [
       {
         "name": "cut",
@@ -11051,7 +11051,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/5.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/5.png",
     "hms": [
       {
         "name": "cut",
@@ -11103,7 +11103,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/6.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/6.png",
     "hms": [
       {
         "name": "cut",
@@ -11148,7 +11148,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/7.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/7.png",
     "hms": [
       {
         "name": "cut",
@@ -11193,7 +11193,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/8.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/8.png",
     "hms": [
       {
         "name": "cut",
@@ -11238,7 +11238,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/9.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/9.png",
     "hms": [
       {
         "name": "cut",
@@ -11290,7 +11290,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/144.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/144.png",
     "hms": [
       {
         "name": "cut",
@@ -11342,7 +11342,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/145.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/145.png",
     "hms": [
       {
         "name": "cut",
@@ -11394,7 +11394,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/146.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/146.png",
     "hms": [
       {
         "name": "cut",
@@ -11439,7 +11439,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/243.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/243.png",
     "hms": [
       {
         "name": "cut",
@@ -11484,7 +11484,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/244.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/244.png",
     "hms": [
       {
         "name": "cut",
@@ -11529,7 +11529,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/245.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/245.png",
     "hms": [
       {
         "name": "cut",
@@ -11574,7 +11574,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/147.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/147.png",
     "hms": [
       {
         "name": "cut",
@@ -11619,7 +11619,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/148.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/148.png",
     "hms": [
       {
         "name": "cut",
@@ -11671,7 +11671,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/149.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/149.png",
     "hms": [
       {
         "name": "cut",
@@ -11723,7 +11723,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/246.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/246.png",
     "hms": [
       {
         "name": "cut",
@@ -11775,7 +11775,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/247.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/247.png",
     "hms": [
       {
         "name": "cut",
@@ -11827,7 +11827,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/248.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/248.png",
     "hms": [
       {
         "name": "cut",
@@ -11879,7 +11879,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/249.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/249.png",
     "hms": [
       {
         "name": "cut",
@@ -11931,7 +11931,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/250.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/250.png",
     "hms": [
       {
         "name": "cut",
@@ -11976,7 +11976,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/150.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/150.png",
     "hms": [
       {
         "name": "cut",
@@ -12021,7 +12021,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/151.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/151.png",
     "hms": [
       {
         "name": "cut",
@@ -12073,7 +12073,7 @@ export const gen2gscDex = [
         }
       }
     ],
-    "sprite": "../images/sprites/pokemon/versions/generation-ii/crystal/transparent/251.png",
+    "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/251.png",
     "hms": [
       {
         "name": "cut",
