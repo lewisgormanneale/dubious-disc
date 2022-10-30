@@ -12,6 +12,8 @@ let genXOnlyButton = document.querySelector('#gen-x-only-button');
 let pokedex = document.querySelector('#pokedex');
 let pokedexEntries = document.querySelectorAll('.pokedex-entry');
 
+const hms = document.querySelector('#hms');
+
 // function setup, global variables
 let darkMode = false;
 
@@ -131,6 +133,7 @@ function closeNav() {
 }
 
 //dark mode
+
 function darkModeToggle() {
     if (darkMode === false) {
         body.classList.add('dark-mode');
@@ -145,31 +148,39 @@ function darkModeToggle() {
 
 // pokemon/pokedex load in
 
-let hmCheckboxes = document.querySelectorAll(".check");
+async function displayAvailablePokemon() {
+    for (let i = 0; i < selectedGeneration.length; i++) {
+        let pokedexEntry = document.createElement('div');
+        pokedexEntry.classList.add('pokedex-entry')
+        pokedexEntry.setAttribute('data-id', `${selectedGeneration[i].entry_number}`)
+        pokedexEntry.style.backgroundColor = `var(--${selectedGeneration[i].types[0].type.name})`;
+        let pokedexImage = document.createElement('img');
+        pokedexImage.classList.add('pokedex-image')
+        pokedexImage.src = selectedGeneration[i].sprite
+        pokedexImage.alt = selectedGeneration[i].name
+        pokedexImage.ondragstart = function () { return false; };
+        let pokedexName = document.createElement('p');
+        pokedexName.classList.add('pokedex-name')
+        pokedexName.textContent = selectedGeneration[i].name.charAt(0).toUpperCase() + selectedGeneration[i].name.slice(1);
+        let pokedexID = document.createElement('p');
+        pokedexID.classList.add('pokedex-id');
+        pokedexID.textContent = `#${selectedGeneration[i].entry_number}`;
+        let learnableHMs = selectedGeneration[i].hms;
+        for (let j = 0; j < learnableHMs.length; j++) {
+            if (learnableHMs[j].can_learn === true) {
+                pokedexEntry.classList.add(`${learnableHMs[j].name}`)
+            };
+        };
+        pokedex.appendChild(pokedexEntry);
+        pokedexEntry.addEventListener('click', addToTeam)
+        pokedexEntry.appendChild(pokedexImage);
+        pokedexEntry.appendChild(pokedexName);
+        pokedexEntry.appendChild(pokedexID);
+        pokedexEntries = document.querySelectorAll('.pokedex-entry');
+    };
+};
 
-function filterHM() {
-    hmCheckboxes.forEach((hm) => {
-        if (!(hm.checked)) {
-            let hmShow = document.querySelectorAll(`.${hm.name}`)
-            for (let i = 0; i < hmShow.length; i++) {
-                hmShow[i].classList.remove('invisible');
-            }
-        }
-    })
-    hmCheckboxes.forEach((hm) => {
-        if (hm.checked) {
-            let hmHide = document.querySelectorAll(`div:not(.${hm.name}).pokedex-entry`)
-            for (let i = 0; i < hmHide.length; i++) {
-                hmHide[i].classList.add('invisible');
-            }
-        }
-    })
-}
-/* else {
-    for (let i = 0; i < pokedexEntries.length; i++) {
-        pokedexEntries[i].classList.remove('.invisible');
-    }
-} */
+// generation switching
 
 async function updateGeneration(gen) {
     genXOnlyButton.classList.remove('invisible')
@@ -242,40 +253,55 @@ async function updateGeneration(gen) {
         pokedex.removeChild(pokedex.firstChild);
     }
     displayAvailablePokemon();
+    populateHMs()
     closeNav();
 };
 
-async function displayAvailablePokemon() {
-    for (let i = 0; i < selectedGeneration.length; i++) {
-        let pokedexEntry = document.createElement('div');
-        pokedexEntry.classList.add('pokedex-entry')
-        pokedexEntry.setAttribute('data-id', `${selectedGeneration[i].entry_number}`)
-        pokedexEntry.style.backgroundColor = `var(--${selectedGeneration[i].types[0].type.name})`;
-        let pokedexImage = document.createElement('img');
-        pokedexImage.classList.add('pokedex-image')
-        pokedexImage.src = selectedGeneration[i].sprite
-        pokedexImage.alt = selectedGeneration[i].name
-        pokedexImage.ondragstart = function () { return false; };
-        let pokedexName = document.createElement('p');
-        pokedexName.classList.add('pokedex-name')
-        pokedexName.textContent = selectedGeneration[i].name.charAt(0).toUpperCase() + selectedGeneration[i].name.slice(1);
-        let pokedexID = document.createElement('p');
-        pokedexID.classList.add('pokedex-id');
-        pokedexID.textContent = `#${selectedGeneration[i].entry_number}`;
-        let learnableHMs = selectedGeneration[i].hms;
-        for (let j = 0; j < learnableHMs.length; j++) {
-            if (learnableHMs[j].can_learn === true) {
-                pokedexEntry.classList.add(`${learnableHMs[j].name}`)
-            };
-        };
-        pokedex.appendChild(pokedexEntry);
-        pokedexEntry.addEventListener('click', addToTeam)
-        pokedexEntry.appendChild(pokedexImage);
-        pokedexEntry.appendChild(pokedexName);
-        pokedexEntry.appendChild(pokedexID);
-        pokedexEntries = document.querySelectorAll('.pokedex-entry');
-    };
-};
+// hm filtering
+
+function populateHMs() {
+    while (hms.hasChildNodes()) {
+        hms.removeChild(hms.firstChild);
+    }
+    for (let i = 0; i < selectedGeneration[0].hms.length; i++) {
+        let hmInput = document.createElement('input');
+        hmInput.type = 'checkbox';
+        hmInput.name = selectedGeneration[0].hms[i].name.charAt(0).toUpperCase() + selectedGeneration[0].hms[i].name.slice(1);
+        hmInput.value = selectedGeneration[0].hms[i].name;
+        hmInput.addEventListener('click', filterHM);
+        hmInput.classList.add('check')
+
+        let hmLabel = document.createElement('label');
+        hmLabel.for = hmInput.name;
+        hmLabel.textContent = hmInput.name;
+
+        hms.appendChild(hmInput)
+        hms.appendChild(hmLabel)
+    }
+}
+
+let hmCheckboxes = document.querySelectorAll(".check");
+
+function filterHM() {
+    hmCheckboxes.forEach((hm) => {
+        if (!(hm.checked)) {
+            let hmShow = document.querySelectorAll(`.${hm.name}`)
+            for (let i = 0; i < hmShow.length; i++) {
+                hmShow[i].classList.remove('invisible');
+            }
+        }
+    })
+    hmCheckboxes.forEach((hm) => {
+        if (hm.checked) {
+            let hmHide = document.querySelectorAll(`div:not(.${hm.name}).pokedex-entry`)
+            for (let i = 0; i < hmHide.length; i++) {
+                hmHide[i].classList.add('invisible');
+            }
+        }
+    })
+}
+
+//team update functionality
 
 function addToTeam() {
     let arrayPos = (this.getAttribute('data-id') - 1)
@@ -351,5 +377,7 @@ function genXOnly() {
 //run on load
 
 updateGeneration(1)
+
 darkModeToggle()
+
 closeNav()
