@@ -1259,29 +1259,5 @@ export const gen6TypeMatchups = [
         ],
         "no_damage_to": []
       }
-    },
-    {
-      "name": "unknown",
-      "url": "https://pokeapi.co/api/v2/type/10001/",
-      "damage_relations": {
-        "double_damage_from": [],
-        "double_damage_to": [],
-        "half_damage_from": [],
-        "half_damage_to": [],
-        "no_damage_from": [],
-        "no_damage_to": []
-      }
-    },
-    {
-      "name": "shadow",
-      "url": "https://pokeapi.co/api/v2/type/10002/",
-      "damage_relations": {
-        "double_damage_from": [],
-        "double_damage_to": [],
-        "half_damage_from": [],
-        "half_damage_to": [],
-        "no_damage_from": [],
-        "no_damage_to": []
-      }
     }
 ]
