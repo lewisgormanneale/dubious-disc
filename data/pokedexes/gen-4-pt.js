@@ -1,1472 +1,11041 @@
 export const gen4ptDex = [
-    {
-      "entry_number": 1,
-      "pokemon_species": {
-        "name": "turtwig",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/387/"
-      }
-    },
-    {
-      "entry_number": 2,
-      "pokemon_species": {
-        "name": "grotle",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/388/"
-      }
-    },
-    {
-      "entry_number": 3,
-      "pokemon_species": {
-        "name": "torterra",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/389/"
-      }
-    },
-    {
-      "entry_number": 4,
-      "pokemon_species": {
-        "name": "chimchar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/390/"
-      }
-    },
-    {
-      "entry_number": 5,
-      "pokemon_species": {
-        "name": "monferno",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/391/"
-      }
-    },
-    {
-      "entry_number": 6,
-      "pokemon_species": {
-        "name": "infernape",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/392/"
-      }
-    },
-    {
-      "entry_number": 7,
-      "pokemon_species": {
-        "name": "piplup",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/393/"
-      }
-    },
-    {
-      "entry_number": 8,
-      "pokemon_species": {
-        "name": "prinplup",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/394/"
-      }
-    },
-    {
-      "entry_number": 9,
-      "pokemon_species": {
-        "name": "empoleon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/395/"
-      }
-    },
-    {
-      "entry_number": 10,
-      "pokemon_species": {
-        "name": "starly",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/396/"
-      }
-    },
-    {
-      "entry_number": 11,
-      "pokemon_species": {
-        "name": "staravia",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/397/"
-      }
-    },
-    {
-      "entry_number": 12,
-      "pokemon_species": {
-        "name": "staraptor",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/398/"
-      }
-    },
-    {
-      "entry_number": 13,
-      "pokemon_species": {
-        "name": "bidoof",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/399/"
-      }
-    },
-    {
-      "entry_number": 14,
-      "pokemon_species": {
-        "name": "bibarel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/400/"
-      }
-    },
-    {
-      "entry_number": 15,
-      "pokemon_species": {
-        "name": "kricketot",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/401/"
-      }
-    },
-    {
-      "entry_number": 16,
-      "pokemon_species": {
-        "name": "kricketune",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/402/"
-      }
-    },
-    {
-      "entry_number": 17,
-      "pokemon_species": {
-        "name": "shinx",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/403/"
-      }
-    },
-    {
-      "entry_number": 18,
-      "pokemon_species": {
-        "name": "luxio",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/404/"
-      }
-    },
-    {
-      "entry_number": 19,
-      "pokemon_species": {
-        "name": "luxray",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/405/"
-      }
-    },
-    {
-      "entry_number": 20,
-      "pokemon_species": {
-        "name": "abra",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/63/"
-      }
-    },
-    {
-      "entry_number": 21,
-      "pokemon_species": {
-        "name": "kadabra",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/64/"
-      }
-    },
-    {
-      "entry_number": 22,
-      "pokemon_species": {
-        "name": "alakazam",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/65/"
-      }
-    },
-    {
-      "entry_number": 23,
-      "pokemon_species": {
-        "name": "magikarp",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/129/"
-      }
-    },
-    {
-      "entry_number": 24,
-      "pokemon_species": {
-        "name": "gyarados",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/130/"
-      }
-    },
-    {
-      "entry_number": 25,
-      "pokemon_species": {
-        "name": "budew",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/406/"
-      }
-    },
-    {
-      "entry_number": 26,
-      "pokemon_species": {
-        "name": "roselia",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/315/"
-      }
-    },
-    {
-      "entry_number": 27,
-      "pokemon_species": {
-        "name": "roserade",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/407/"
-      }
-    },
-    {
-      "entry_number": 28,
-      "pokemon_species": {
-        "name": "zubat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/41/"
-      }
-    },
-    {
-      "entry_number": 29,
-      "pokemon_species": {
-        "name": "golbat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/42/"
-      }
-    },
-    {
-      "entry_number": 30,
-      "pokemon_species": {
-        "name": "crobat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/169/"
-      }
-    },
-    {
-      "entry_number": 31,
-      "pokemon_species": {
-        "name": "geodude",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/74/"
-      }
-    },
-    {
-      "entry_number": 32,
-      "pokemon_species": {
-        "name": "graveler",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/75/"
-      }
-    },
-    {
-      "entry_number": 33,
-      "pokemon_species": {
-        "name": "golem",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/76/"
-      }
-    },
-    {
-      "entry_number": 34,
-      "pokemon_species": {
-        "name": "onix",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/95/"
-      }
-    },
-    {
-      "entry_number": 35,
-      "pokemon_species": {
-        "name": "steelix",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/208/"
-      }
-    },
-    {
-      "entry_number": 36,
-      "pokemon_species": {
-        "name": "cranidos",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/408/"
-      }
-    },
-    {
-      "entry_number": 37,
-      "pokemon_species": {
-        "name": "rampardos",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/409/"
-      }
-    },
-    {
-      "entry_number": 38,
-      "pokemon_species": {
-        "name": "shieldon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/410/"
-      }
-    },
-    {
-      "entry_number": 39,
-      "pokemon_species": {
-        "name": "bastiodon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/411/"
-      }
-    },
-    {
-      "entry_number": 40,
-      "pokemon_species": {
-        "name": "machop",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/66/"
-      }
-    },
-    {
-      "entry_number": 41,
-      "pokemon_species": {
-        "name": "machoke",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/67/"
-      }
-    },
-    {
-      "entry_number": 42,
-      "pokemon_species": {
-        "name": "machamp",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/68/"
-      }
-    },
-    {
-      "entry_number": 43,
-      "pokemon_species": {
-        "name": "psyduck",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/54/"
-      }
-    },
-    {
-      "entry_number": 44,
-      "pokemon_species": {
-        "name": "golduck",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/55/"
-      }
-    },
-    {
-      "entry_number": 45,
-      "pokemon_species": {
-        "name": "burmy",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/412/"
-      }
-    },
-    {
-      "entry_number": 46,
-      "pokemon_species": {
-        "name": "wormadam",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/413/"
-      }
-    },
-    {
-      "entry_number": 47,
-      "pokemon_species": {
-        "name": "mothim",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/414/"
-      }
-    },
-    {
-      "entry_number": 48,
-      "pokemon_species": {
-        "name": "wurmple",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/265/"
-      }
-    },
-    {
-      "entry_number": 49,
-      "pokemon_species": {
-        "name": "silcoon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/266/"
-      }
-    },
-    {
-      "entry_number": 50,
-      "pokemon_species": {
-        "name": "beautifly",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/267/"
-      }
-    },
-    {
-      "entry_number": 51,
-      "pokemon_species": {
-        "name": "cascoon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/268/"
-      }
-    },
-    {
-      "entry_number": 52,
-      "pokemon_species": {
-        "name": "dustox",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/269/"
-      }
-    },
-    {
-      "entry_number": 53,
-      "pokemon_species": {
-        "name": "combee",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/415/"
-      }
-    },
-    {
-      "entry_number": 54,
-      "pokemon_species": {
-        "name": "vespiquen",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/416/"
-      }
-    },
-    {
-      "entry_number": 55,
-      "pokemon_species": {
-        "name": "pachirisu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/417/"
-      }
-    },
-    {
-      "entry_number": 56,
-      "pokemon_species": {
-        "name": "buizel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/418/"
-      }
-    },
-    {
-      "entry_number": 57,
-      "pokemon_species": {
-        "name": "floatzel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/419/"
-      }
-    },
-    {
-      "entry_number": 58,
-      "pokemon_species": {
-        "name": "cherubi",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/420/"
-      }
-    },
-    {
-      "entry_number": 59,
-      "pokemon_species": {
-        "name": "cherrim",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/421/"
-      }
-    },
-    {
-      "entry_number": 60,
-      "pokemon_species": {
-        "name": "shellos",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/422/"
-      }
-    },
-    {
-      "entry_number": 61,
-      "pokemon_species": {
-        "name": "gastrodon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/423/"
-      }
-    },
-    {
-      "entry_number": 62,
-      "pokemon_species": {
-        "name": "heracross",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/214/"
-      }
-    },
-    {
-      "entry_number": 63,
-      "pokemon_species": {
-        "name": "aipom",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/190/"
-      }
-    },
-    {
-      "entry_number": 64,
-      "pokemon_species": {
-        "name": "ambipom",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/424/"
-      }
-    },
-    {
-      "entry_number": 65,
-      "pokemon_species": {
-        "name": "drifloon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/425/"
-      }
-    },
-    {
-      "entry_number": 66,
-      "pokemon_species": {
-        "name": "drifblim",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/426/"
-      }
-    },
-    {
-      "entry_number": 67,
-      "pokemon_species": {
-        "name": "buneary",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/427/"
-      }
-    },
-    {
-      "entry_number": 68,
-      "pokemon_species": {
-        "name": "lopunny",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/428/"
-      }
-    },
-    {
-      "entry_number": 69,
-      "pokemon_species": {
-        "name": "gastly",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/92/"
-      }
-    },
-    {
-      "entry_number": 70,
-      "pokemon_species": {
-        "name": "haunter",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/93/"
-      }
-    },
-    {
-      "entry_number": 71,
-      "pokemon_species": {
-        "name": "gengar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/94/"
-      }
-    },
-    {
-      "entry_number": 72,
-      "pokemon_species": {
-        "name": "misdreavus",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/200/"
-      }
-    },
-    {
-      "entry_number": 73,
-      "pokemon_species": {
-        "name": "mismagius",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/429/"
-      }
-    },
-    {
-      "entry_number": 74,
-      "pokemon_species": {
-        "name": "murkrow",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/198/"
-      }
-    },
-    {
-      "entry_number": 75,
-      "pokemon_species": {
-        "name": "honchkrow",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/430/"
-      }
-    },
-    {
-      "entry_number": 76,
-      "pokemon_species": {
-        "name": "glameow",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/431/"
-      }
-    },
-    {
-      "entry_number": 77,
-      "pokemon_species": {
-        "name": "purugly",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/432/"
-      }
-    },
-    {
-      "entry_number": 78,
-      "pokemon_species": {
-        "name": "goldeen",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/118/"
-      }
-    },
-    {
-      "entry_number": 79,
-      "pokemon_species": {
-        "name": "seaking",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/119/"
-      }
-    },
-    {
-      "entry_number": 80,
-      "pokemon_species": {
-        "name": "barboach",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/339/"
-      }
-    },
-    {
-      "entry_number": 81,
-      "pokemon_species": {
-        "name": "whiscash",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/340/"
-      }
-    },
-    {
-      "entry_number": 82,
-      "pokemon_species": {
-        "name": "chingling",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/433/"
-      }
-    },
-    {
-      "entry_number": 83,
-      "pokemon_species": {
-        "name": "chimecho",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/358/"
-      }
-    },
-    {
-      "entry_number": 84,
-      "pokemon_species": {
-        "name": "stunky",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/434/"
-      }
-    },
-    {
-      "entry_number": 85,
-      "pokemon_species": {
-        "name": "skuntank",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/435/"
-      }
-    },
-    {
-      "entry_number": 86,
-      "pokemon_species": {
-        "name": "meditite",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/307/"
-      }
-    },
-    {
-      "entry_number": 87,
-      "pokemon_species": {
-        "name": "medicham",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/308/"
-      }
-    },
-    {
-      "entry_number": 88,
-      "pokemon_species": {
-        "name": "bronzor",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/436/"
-      }
-    },
-    {
-      "entry_number": 89,
-      "pokemon_species": {
-        "name": "bronzong",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/437/"
-      }
-    },
-    {
-      "entry_number": 90,
-      "pokemon_species": {
-        "name": "ponyta",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/77/"
-      }
-    },
-    {
-      "entry_number": 91,
-      "pokemon_species": {
-        "name": "rapidash",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/78/"
-      }
-    },
-    {
-      "entry_number": 92,
-      "pokemon_species": {
-        "name": "bonsly",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/438/"
-      }
-    },
-    {
-      "entry_number": 93,
-      "pokemon_species": {
-        "name": "sudowoodo",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/185/"
-      }
-    },
-    {
-      "entry_number": 94,
-      "pokemon_species": {
-        "name": "mime-jr",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/439/"
-      }
-    },
-    {
-      "entry_number": 95,
-      "pokemon_species": {
-        "name": "mr-mime",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/122/"
-      }
-    },
-    {
-      "entry_number": 96,
-      "pokemon_species": {
-        "name": "happiny",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/440/"
-      }
-    },
-    {
-      "entry_number": 97,
-      "pokemon_species": {
-        "name": "chansey",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/113/"
-      }
-    },
-    {
-      "entry_number": 98,
-      "pokemon_species": {
-        "name": "blissey",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/242/"
-      }
-    },
-    {
-      "entry_number": 99,
-      "pokemon_species": {
-        "name": "cleffa",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/173/"
-      }
-    },
-    {
-      "entry_number": 100,
-      "pokemon_species": {
-        "name": "clefairy",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/35/"
-      }
-    },
-    {
-      "entry_number": 101,
-      "pokemon_species": {
-        "name": "clefable",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/36/"
-      }
-    },
-    {
-      "entry_number": 102,
-      "pokemon_species": {
-        "name": "chatot",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/441/"
-      }
-    },
-    {
-      "entry_number": 103,
-      "pokemon_species": {
-        "name": "pichu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/172/"
-      }
-    },
-    {
-      "entry_number": 104,
-      "pokemon_species": {
-        "name": "pikachu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/25/"
-      }
-    },
-    {
-      "entry_number": 105,
-      "pokemon_species": {
-        "name": "raichu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/26/"
-      }
-    },
-    {
-      "entry_number": 106,
-      "pokemon_species": {
-        "name": "hoothoot",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/163/"
-      }
-    },
-    {
-      "entry_number": 107,
-      "pokemon_species": {
-        "name": "noctowl",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/164/"
-      }
-    },
-    {
-      "entry_number": 108,
-      "pokemon_species": {
-        "name": "spiritomb",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/442/"
-      }
-    },
-    {
-      "entry_number": 109,
-      "pokemon_species": {
-        "name": "gible",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/443/"
-      }
-    },
-    {
-      "entry_number": 110,
-      "pokemon_species": {
-        "name": "gabite",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/444/"
-      }
-    },
-    {
-      "entry_number": 111,
-      "pokemon_species": {
-        "name": "garchomp",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/445/"
-      }
-    },
-    {
-      "entry_number": 112,
-      "pokemon_species": {
-        "name": "munchlax",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/446/"
-      }
-    },
-    {
-      "entry_number": 113,
-      "pokemon_species": {
-        "name": "snorlax",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/143/"
-      }
-    },
-    {
-      "entry_number": 114,
-      "pokemon_species": {
-        "name": "unown",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/201/"
-      }
-    },
-    {
-      "entry_number": 115,
-      "pokemon_species": {
-        "name": "riolu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/447/"
-      }
-    },
-    {
-      "entry_number": 116,
-      "pokemon_species": {
-        "name": "lucario",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/448/"
-      }
-    },
-    {
-      "entry_number": 117,
-      "pokemon_species": {
-        "name": "wooper",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/194/"
-      }
-    },
-    {
-      "entry_number": 118,
-      "pokemon_species": {
-        "name": "quagsire",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/195/"
-      }
-    },
-    {
-      "entry_number": 119,
-      "pokemon_species": {
-        "name": "wingull",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/278/"
-      }
-    },
-    {
-      "entry_number": 120,
-      "pokemon_species": {
-        "name": "pelipper",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/279/"
-      }
-    },
-    {
-      "entry_number": 121,
-      "pokemon_species": {
-        "name": "girafarig",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/203/"
-      }
-    },
-    {
-      "entry_number": 122,
-      "pokemon_species": {
-        "name": "hippopotas",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/449/"
-      }
-    },
-    {
-      "entry_number": 123,
-      "pokemon_species": {
-        "name": "hippowdon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/450/"
-      }
-    },
-    {
-      "entry_number": 124,
-      "pokemon_species": {
-        "name": "azurill",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/298/"
-      }
-    },
-    {
-      "entry_number": 125,
-      "pokemon_species": {
-        "name": "marill",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/183/"
-      }
-    },
-    {
-      "entry_number": 126,
-      "pokemon_species": {
-        "name": "azumarill",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/184/"
-      }
-    },
-    {
-      "entry_number": 127,
-      "pokemon_species": {
-        "name": "skorupi",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/451/"
-      }
-    },
-    {
-      "entry_number": 128,
-      "pokemon_species": {
-        "name": "drapion",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/452/"
-      }
-    },
-    {
-      "entry_number": 129,
-      "pokemon_species": {
-        "name": "croagunk",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/453/"
-      }
-    },
-    {
-      "entry_number": 130,
-      "pokemon_species": {
-        "name": "toxicroak",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/454/"
-      }
-    },
-    {
-      "entry_number": 131,
-      "pokemon_species": {
-        "name": "carnivine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/455/"
-      }
-    },
-    {
-      "entry_number": 132,
-      "pokemon_species": {
-        "name": "remoraid",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/223/"
-      }
-    },
-    {
-      "entry_number": 133,
-      "pokemon_species": {
-        "name": "octillery",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/224/"
-      }
-    },
-    {
-      "entry_number": 134,
-      "pokemon_species": {
-        "name": "finneon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/456/"
-      }
-    },
-    {
-      "entry_number": 135,
-      "pokemon_species": {
-        "name": "lumineon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/457/"
-      }
-    },
-    {
-      "entry_number": 136,
-      "pokemon_species": {
-        "name": "tentacool",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/72/"
-      }
-    },
-    {
-      "entry_number": 137,
-      "pokemon_species": {
-        "name": "tentacruel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/73/"
-      }
-    },
-    {
-      "entry_number": 138,
-      "pokemon_species": {
-        "name": "feebas",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/349/"
-      }
-    },
-    {
-      "entry_number": 139,
-      "pokemon_species": {
-        "name": "milotic",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/350/"
-      }
-    },
-    {
-      "entry_number": 140,
-      "pokemon_species": {
-        "name": "mantyke",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/458/"
-      }
-    },
-    {
-      "entry_number": 141,
-      "pokemon_species": {
-        "name": "mantine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/226/"
-      }
-    },
-    {
-      "entry_number": 142,
-      "pokemon_species": {
-        "name": "snover",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/459/"
-      }
-    },
-    {
-      "entry_number": 143,
-      "pokemon_species": {
-        "name": "abomasnow",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/460/"
-      }
-    },
-    {
-      "entry_number": 144,
-      "pokemon_species": {
-        "name": "sneasel",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/215/"
-      }
-    },
-    {
-      "entry_number": 145,
-      "pokemon_species": {
-        "name": "weavile",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/461/"
-      }
-    },
-    {
-      "entry_number": 146,
-      "pokemon_species": {
-        "name": "uxie",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/480/"
-      }
-    },
-    {
-      "entry_number": 147,
-      "pokemon_species": {
-        "name": "mesprit",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/481/"
-      }
-    },
-    {
-      "entry_number": 148,
-      "pokemon_species": {
-        "name": "azelf",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/482/"
-      }
-    },
-    {
-      "entry_number": 149,
-      "pokemon_species": {
-        "name": "dialga",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/483/"
-      }
-    },
-    {
-      "entry_number": 150,
-      "pokemon_species": {
-        "name": "palkia",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/484/"
-      }
-    },
-    {
-      "entry_number": 151,
-      "pokemon_species": {
-        "name": "manaphy",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/490/"
-      }
-    },
-    {
-      "entry_number": 152,
-      "pokemon_species": {
-        "name": "rotom",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/479/"
-      }
-    },
-    {
-      "entry_number": 153,
-      "pokemon_species": {
-        "name": "gligar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/207/"
-      }
-    },
-    {
-      "entry_number": 154,
-      "pokemon_species": {
-        "name": "gliscor",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/472/"
-      }
-    },
-    {
-      "entry_number": 155,
-      "pokemon_species": {
-        "name": "nosepass",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/299/"
-      }
-    },
-    {
-      "entry_number": 156,
-      "pokemon_species": {
-        "name": "probopass",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/476/"
-      }
-    },
-    {
-      "entry_number": 157,
-      "pokemon_species": {
-        "name": "ralts",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/280/"
-      }
-    },
-    {
-      "entry_number": 158,
-      "pokemon_species": {
-        "name": "kirlia",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/281/"
-      }
-    },
-    {
-      "entry_number": 159,
-      "pokemon_species": {
-        "name": "gardevoir",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/282/"
-      }
-    },
-    {
-      "entry_number": 160,
-      "pokemon_species": {
-        "name": "gallade",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/475/"
-      }
-    },
-    {
-      "entry_number": 161,
-      "pokemon_species": {
-        "name": "lickitung",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/108/"
-      }
-    },
-    {
-      "entry_number": 162,
-      "pokemon_species": {
-        "name": "lickilicky",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/463/"
-      }
-    },
-    {
-      "entry_number": 163,
-      "pokemon_species": {
-        "name": "eevee",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/133/"
-      }
-    },
-    {
-      "entry_number": 164,
-      "pokemon_species": {
-        "name": "vaporeon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/134/"
-      }
-    },
-    {
-      "entry_number": 165,
-      "pokemon_species": {
-        "name": "jolteon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/135/"
-      }
-    },
-    {
-      "entry_number": 166,
-      "pokemon_species": {
-        "name": "flareon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/136/"
-      }
-    },
-    {
-      "entry_number": 167,
-      "pokemon_species": {
-        "name": "espeon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/196/"
-      }
-    },
-    {
-      "entry_number": 168,
-      "pokemon_species": {
-        "name": "umbreon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/197/"
-      }
-    },
-    {
-      "entry_number": 169,
-      "pokemon_species": {
-        "name": "leafeon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/470/"
-      }
-    },
-    {
-      "entry_number": 170,
-      "pokemon_species": {
-        "name": "glaceon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/471/"
-      }
-    },
-    {
-      "entry_number": 171,
-      "pokemon_species": {
-        "name": "swablu",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/333/"
-      }
-    },
-    {
-      "entry_number": 172,
-      "pokemon_species": {
-        "name": "altaria",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/334/"
-      }
-    },
-    {
-      "entry_number": 173,
-      "pokemon_species": {
-        "name": "togepi",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/175/"
-      }
-    },
-    {
-      "entry_number": 174,
-      "pokemon_species": {
-        "name": "togetic",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/176/"
-      }
-    },
-    {
-      "entry_number": 175,
-      "pokemon_species": {
-        "name": "togekiss",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/468/"
-      }
-    },
-    {
-      "entry_number": 176,
-      "pokemon_species": {
-        "name": "houndour",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/228/"
-      }
-    },
-    {
-      "entry_number": 177,
-      "pokemon_species": {
-        "name": "houndoom",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/229/"
-      }
-    },
-    {
-      "entry_number": 178,
-      "pokemon_species": {
-        "name": "magnemite",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/81/"
-      }
-    },
-    {
-      "entry_number": 179,
-      "pokemon_species": {
-        "name": "magneton",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/82/"
-      }
-    },
-    {
-      "entry_number": 180,
-      "pokemon_species": {
-        "name": "magnezone",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/462/"
-      }
-    },
-    {
-      "entry_number": 181,
-      "pokemon_species": {
-        "name": "tangela",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/114/"
-      }
-    },
-    {
-      "entry_number": 182,
-      "pokemon_species": {
-        "name": "tangrowth",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/465/"
-      }
-    },
-    {
-      "entry_number": 183,
-      "pokemon_species": {
-        "name": "yanma",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/193/"
-      }
-    },
-    {
-      "entry_number": 184,
-      "pokemon_species": {
-        "name": "yanmega",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/469/"
-      }
-    },
-    {
-      "entry_number": 185,
-      "pokemon_species": {
-        "name": "tropius",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/357/"
-      }
-    },
-    {
-      "entry_number": 186,
-      "pokemon_species": {
-        "name": "rhyhorn",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/111/"
-      }
-    },
-    {
-      "entry_number": 187,
-      "pokemon_species": {
-        "name": "rhydon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/112/"
-      }
-    },
-    {
-      "entry_number": 188,
-      "pokemon_species": {
-        "name": "rhyperior",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/464/"
-      }
-    },
-    {
-      "entry_number": 189,
-      "pokemon_species": {
-        "name": "duskull",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/355/"
-      }
-    },
-    {
-      "entry_number": 190,
-      "pokemon_species": {
-        "name": "dusclops",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/356/"
-      }
-    },
-    {
-      "entry_number": 191,
-      "pokemon_species": {
-        "name": "dusknoir",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/477/"
-      }
-    },
-    {
-      "entry_number": 192,
-      "pokemon_species": {
-        "name": "porygon",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/137/"
-      }
-    },
-    {
-      "entry_number": 193,
-      "pokemon_species": {
-        "name": "porygon2",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/233/"
-      }
-    },
-    {
-      "entry_number": 194,
-      "pokemon_species": {
-        "name": "porygon-z",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/474/"
-      }
-    },
-    {
-      "entry_number": 195,
-      "pokemon_species": {
-        "name": "scyther",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/123/"
-      }
-    },
-    {
-      "entry_number": 196,
-      "pokemon_species": {
-        "name": "scizor",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/212/"
-      }
-    },
-    {
-      "entry_number": 197,
-      "pokemon_species": {
-        "name": "elekid",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/239/"
-      }
-    },
-    {
-      "entry_number": 198,
-      "pokemon_species": {
-        "name": "electabuzz",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/125/"
-      }
-    },
-    {
-      "entry_number": 199,
-      "pokemon_species": {
-        "name": "electivire",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/466/"
-      }
-    },
-    {
-      "entry_number": 200,
-      "pokemon_species": {
-        "name": "magby",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/240/"
-      }
-    },
-    {
-      "entry_number": 201,
-      "pokemon_species": {
-        "name": "magmar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/126/"
-      }
-    },
-    {
-      "entry_number": 202,
-      "pokemon_species": {
-        "name": "magmortar",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/467/"
-      }
-    },
-    {
-      "entry_number": 203,
-      "pokemon_species": {
-        "name": "swinub",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/220/"
-      }
-    },
-    {
-      "entry_number": 204,
-      "pokemon_species": {
-        "name": "piloswine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/221/"
-      }
-    },
-    {
-      "entry_number": 205,
-      "pokemon_species": {
-        "name": "mamoswine",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/473/"
-      }
-    },
-    {
-      "entry_number": 206,
-      "pokemon_species": {
-        "name": "snorunt",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/361/"
-      }
-    },
-    {
-      "entry_number": 207,
-      "pokemon_species": {
-        "name": "glalie",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/362/"
-      }
-    },
-    {
-      "entry_number": 208,
-      "pokemon_species": {
-        "name": "froslass",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/478/"
-      }
-    },
-    {
-      "entry_number": 209,
-      "pokemon_species": {
-        "name": "absol",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/359/"
-      }
-    },
-    {
-      "entry_number": 210,
-      "pokemon_species": {
-        "name": "giratina",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/487/"
-      }
-    }
-];
+  {
+    "entry_number": 1,
+    "name": "turtwig",
+    "national_dex_id": 387,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/387.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 2,
+    "name": "grotle",
+    "national_dex_id": 388,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/388.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 3,
+    "name": "torterra",
+    "national_dex_id": 389,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/389.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 4,
+    "name": "chimchar",
+    "national_dex_id": 390,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/390.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 5,
+    "name": "monferno",
+    "national_dex_id": 391,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/391.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 6,
+    "name": "infernape",
+    "national_dex_id": 392,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/392.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 7,
+    "name": "piplup",
+    "national_dex_id": 393,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/393.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 8,
+    "name": "prinplup",
+    "national_dex_id": 394,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/394.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 9,
+    "name": "empoleon",
+    "national_dex_id": 395,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/395.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 10,
+    "name": "starly",
+    "national_dex_id": 396,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/396.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 11,
+    "name": "staravia",
+    "national_dex_id": 397,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/397.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 12,
+    "name": "staraptor",
+    "national_dex_id": 398,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/398.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 13,
+    "name": "bidoof",
+    "national_dex_id": 399,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/399.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 14,
+    "name": "bibarel",
+    "national_dex_id": 400,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/400.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 15,
+    "name": "kricketot",
+    "national_dex_id": 401,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/401.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 16,
+    "name": "kricketune",
+    "national_dex_id": 402,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/402.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 17,
+    "name": "shinx",
+    "national_dex_id": 403,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/403.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 18,
+    "name": "luxio",
+    "national_dex_id": 404,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/404.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 19,
+    "name": "luxray",
+    "national_dex_id": 405,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/405.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 20,
+    "name": "abra",
+    "national_dex_id": 63,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/63.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 21,
+    "name": "kadabra",
+    "national_dex_id": 64,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/64.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 22,
+    "name": "alakazam",
+    "national_dex_id": 65,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/65.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 23,
+    "name": "magikarp",
+    "national_dex_id": 129,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/129.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 24,
+    "name": "gyarados",
+    "national_dex_id": 130,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/130.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 25,
+    "name": "budew",
+    "national_dex_id": 406,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/406.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 26,
+    "name": "roselia",
+    "national_dex_id": 315,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/315.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 27,
+    "name": "roserade",
+    "national_dex_id": 407,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/407.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 28,
+    "name": "zubat",
+    "national_dex_id": 41,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/41.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 29,
+    "name": "golbat",
+    "national_dex_id": 42,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/42.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 30,
+    "name": "crobat",
+    "national_dex_id": 169,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/169.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 31,
+    "name": "geodude",
+    "national_dex_id": 74,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/74.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 32,
+    "name": "graveler",
+    "national_dex_id": 75,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/75.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 33,
+    "name": "golem",
+    "national_dex_id": 76,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/76.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 34,
+    "name": "onix",
+    "national_dex_id": 95,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/95.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 35,
+    "name": "steelix",
+    "national_dex_id": 208,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/208.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 36,
+    "name": "cranidos",
+    "national_dex_id": 408,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/408.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 37,
+    "name": "rampardos",
+    "national_dex_id": 409,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/409.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 38,
+    "name": "shieldon",
+    "national_dex_id": 410,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/410.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 39,
+    "name": "bastiodon",
+    "national_dex_id": 411,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/411.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 40,
+    "name": "machop",
+    "national_dex_id": 66,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/66.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 41,
+    "name": "machoke",
+    "national_dex_id": 67,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/67.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 42,
+    "name": "machamp",
+    "national_dex_id": 68,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/68.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 43,
+    "name": "psyduck",
+    "national_dex_id": 54,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/54.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 44,
+    "name": "golduck",
+    "national_dex_id": 55,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/55.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 45,
+    "name": "burmy",
+    "national_dex_id": 412,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/412.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 46,
+    "name": "wormadam-plant",
+    "national_dex_id": 413,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/413.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 47,
+    "name": "mothim",
+    "national_dex_id": 414,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/414.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 48,
+    "name": "wurmple",
+    "national_dex_id": 265,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/265.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 49,
+    "name": "silcoon",
+    "national_dex_id": 266,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/266.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 50,
+    "name": "beautifly",
+    "national_dex_id": 267,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/267.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 51,
+    "name": "cascoon",
+    "national_dex_id": 268,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/268.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 52,
+    "name": "dustox",
+    "national_dex_id": 269,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/269.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 53,
+    "name": "combee",
+    "national_dex_id": 415,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/415.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 54,
+    "name": "vespiquen",
+    "national_dex_id": 416,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/416.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 55,
+    "name": "pachirisu",
+    "national_dex_id": 417,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/417.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 56,
+    "name": "buizel",
+    "national_dex_id": 418,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/418.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 57,
+    "name": "floatzel",
+    "national_dex_id": 419,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/419.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 58,
+    "name": "cherubi",
+    "national_dex_id": 420,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/420.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 59,
+    "name": "cherrim",
+    "national_dex_id": 421,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/421.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 60,
+    "name": "shellos",
+    "national_dex_id": 422,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/422.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 61,
+    "name": "gastrodon",
+    "national_dex_id": 423,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/423.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 62,
+    "name": "heracross",
+    "national_dex_id": 214,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/214.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 63,
+    "name": "aipom",
+    "national_dex_id": 190,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/190.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 64,
+    "name": "ambipom",
+    "national_dex_id": 424,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/424.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 65,
+    "name": "drifloon",
+    "national_dex_id": 425,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/425.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 66,
+    "name": "drifblim",
+    "national_dex_id": 426,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/426.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 67,
+    "name": "buneary",
+    "national_dex_id": 427,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/427.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 68,
+    "name": "lopunny",
+    "national_dex_id": 428,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/428.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 69,
+    "name": "gastly",
+    "national_dex_id": 92,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/92.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 70,
+    "name": "haunter",
+    "national_dex_id": 93,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/93.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 71,
+    "name": "gengar",
+    "national_dex_id": 94,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/94.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 72,
+    "name": "misdreavus",
+    "national_dex_id": 200,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/200.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 73,
+    "name": "mismagius",
+    "national_dex_id": 429,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/429.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 74,
+    "name": "murkrow",
+    "national_dex_id": 198,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/198.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 75,
+    "name": "honchkrow",
+    "national_dex_id": 430,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/430.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 76,
+    "name": "glameow",
+    "national_dex_id": 431,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/431.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 77,
+    "name": "purugly",
+    "national_dex_id": 432,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/432.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 78,
+    "name": "goldeen",
+    "national_dex_id": 118,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/118.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 79,
+    "name": "seaking",
+    "national_dex_id": 119,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/119.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 80,
+    "name": "barboach",
+    "national_dex_id": 339,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/339.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 81,
+    "name": "whiscash",
+    "national_dex_id": 340,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/340.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 82,
+    "name": "chingling",
+    "national_dex_id": 433,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/433.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 83,
+    "name": "chimecho",
+    "national_dex_id": 358,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/358.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 84,
+    "name": "stunky",
+    "national_dex_id": 434,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/434.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 85,
+    "name": "skuntank",
+    "national_dex_id": 435,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/435.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 86,
+    "name": "meditite",
+    "national_dex_id": 307,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/307.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 87,
+    "name": "medicham",
+    "national_dex_id": 308,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/308.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 88,
+    "name": "bronzor",
+    "national_dex_id": 436,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/436.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 89,
+    "name": "bronzong",
+    "national_dex_id": 437,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/437.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 90,
+    "name": "ponyta",
+    "national_dex_id": 77,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/77.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 91,
+    "name": "rapidash",
+    "national_dex_id": 78,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/78.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 92,
+    "name": "bonsly",
+    "national_dex_id": 438,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/438.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 93,
+    "name": "sudowoodo",
+    "national_dex_id": 185,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/185.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 94,
+    "name": "mime-jr",
+    "national_dex_id": 439,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/439.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 95,
+    "name": "mr-mime",
+    "national_dex_id": 122,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/122.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 96,
+    "name": "happiny",
+    "national_dex_id": 440,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/440.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 97,
+    "name": "chansey",
+    "national_dex_id": 113,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/113.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 98,
+    "name": "blissey",
+    "national_dex_id": 242,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/242.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 99,
+    "name": "cleffa",
+    "national_dex_id": 173,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/173.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 100,
+    "name": "clefairy",
+    "national_dex_id": 35,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/35.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 101,
+    "name": "clefable",
+    "national_dex_id": 36,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/36.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 102,
+    "name": "chatot",
+    "national_dex_id": 441,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/441.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 103,
+    "name": "pichu",
+    "national_dex_id": 172,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/172.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 104,
+    "name": "pikachu",
+    "national_dex_id": 25,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/25.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 105,
+    "name": "raichu",
+    "national_dex_id": 26,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/26.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 106,
+    "name": "hoothoot",
+    "national_dex_id": 163,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/163.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 107,
+    "name": "noctowl",
+    "national_dex_id": 164,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/164.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 108,
+    "name": "spiritomb",
+    "national_dex_id": 442,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/442.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 109,
+    "name": "gible",
+    "national_dex_id": 443,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/443.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 110,
+    "name": "gabite",
+    "national_dex_id": 444,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/444.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 111,
+    "name": "garchomp",
+    "national_dex_id": 445,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/445.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 112,
+    "name": "munchlax",
+    "national_dex_id": 446,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/446.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 113,
+    "name": "snorlax",
+    "national_dex_id": 143,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/143.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 114,
+    "name": "unown",
+    "national_dex_id": 201,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/201.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 115,
+    "name": "riolu",
+    "national_dex_id": 447,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/447.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 116,
+    "name": "lucario",
+    "national_dex_id": 448,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/448.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 117,
+    "name": "wooper",
+    "national_dex_id": 194,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/194.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 118,
+    "name": "quagsire",
+    "national_dex_id": 195,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/195.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 119,
+    "name": "wingull",
+    "national_dex_id": 278,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/278.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 120,
+    "name": "pelipper",
+    "national_dex_id": 279,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/279.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 121,
+    "name": "girafarig",
+    "national_dex_id": 203,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/203.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 122,
+    "name": "hippopotas",
+    "national_dex_id": 449,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/449.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 123,
+    "name": "hippowdon",
+    "national_dex_id": 450,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/450.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 124,
+    "name": "azurill",
+    "national_dex_id": 298,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/298.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 125,
+    "name": "marill",
+    "national_dex_id": 183,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/183.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 126,
+    "name": "azumarill",
+    "national_dex_id": 184,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/184.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 127,
+    "name": "skorupi",
+    "national_dex_id": 451,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/451.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 128,
+    "name": "drapion",
+    "national_dex_id": 452,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/452.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 129,
+    "name": "croagunk",
+    "national_dex_id": 453,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/453.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 130,
+    "name": "toxicroak",
+    "national_dex_id": 454,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/454.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 131,
+    "name": "carnivine",
+    "national_dex_id": 455,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/455.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 132,
+    "name": "remoraid",
+    "national_dex_id": 223,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/223.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 133,
+    "name": "octillery",
+    "national_dex_id": 224,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/224.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 134,
+    "name": "finneon",
+    "national_dex_id": 456,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/456.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 135,
+    "name": "lumineon",
+    "national_dex_id": 457,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/457.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 136,
+    "name": "tentacool",
+    "national_dex_id": 72,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/72.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 137,
+    "name": "tentacruel",
+    "national_dex_id": 73,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/73.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 138,
+    "name": "feebas",
+    "national_dex_id": 349,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/349.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 139,
+    "name": "milotic",
+    "national_dex_id": 350,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/350.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 140,
+    "name": "mantyke",
+    "national_dex_id": 458,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/458.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 141,
+    "name": "mantine",
+    "national_dex_id": 226,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/226.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 142,
+    "name": "snover",
+    "national_dex_id": 459,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/459.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 143,
+    "name": "abomasnow",
+    "national_dex_id": 460,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/460.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 144,
+    "name": "sneasel",
+    "national_dex_id": 215,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/215.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 145,
+    "name": "weavile",
+    "national_dex_id": 461,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/461.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 146,
+    "name": "uxie",
+    "national_dex_id": 480,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/480.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 147,
+    "name": "mesprit",
+    "national_dex_id": 481,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/481.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 148,
+    "name": "azelf",
+    "national_dex_id": 482,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/482.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 149,
+    "name": "dialga",
+    "national_dex_id": 483,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/483.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 150,
+    "name": "palkia",
+    "national_dex_id": 484,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/484.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 151,
+    "name": "manaphy",
+    "national_dex_id": 490,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/490.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 152,
+    "name": "rotom",
+    "national_dex_id": 479,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/479.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 153,
+    "name": "gligar",
+    "national_dex_id": 207,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/207.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 154,
+    "name": "gliscor",
+    "national_dex_id": 472,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/472.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 155,
+    "name": "nosepass",
+    "national_dex_id": 299,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/299.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 156,
+    "name": "probopass",
+    "national_dex_id": 476,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/476.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 157,
+    "name": "ralts",
+    "national_dex_id": 280,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/280.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 158,
+    "name": "kirlia",
+    "national_dex_id": 281,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/281.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 159,
+    "name": "gardevoir",
+    "national_dex_id": 282,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/282.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 160,
+    "name": "gallade",
+    "national_dex_id": 475,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fighting",
+          "url": "https://pokeapi.co/api/v2/type/2/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/475.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 161,
+    "name": "lickitung",
+    "national_dex_id": 108,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/108.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 162,
+    "name": "lickilicky",
+    "national_dex_id": 463,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/463.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 163,
+    "name": "eevee",
+    "national_dex_id": 133,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/133.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 164,
+    "name": "vaporeon",
+    "national_dex_id": 134,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "water",
+          "url": "https://pokeapi.co/api/v2/type/11/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/134.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": true
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 165,
+    "name": "jolteon",
+    "national_dex_id": 135,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/135.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 166,
+    "name": "flareon",
+    "national_dex_id": 136,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/136.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 167,
+    "name": "espeon",
+    "national_dex_id": 196,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "psychic",
+          "url": "https://pokeapi.co/api/v2/type/14/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/196.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 168,
+    "name": "umbreon",
+    "national_dex_id": 197,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/197.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 169,
+    "name": "leafeon",
+    "national_dex_id": 470,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/470.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 170,
+    "name": "glaceon",
+    "national_dex_id": 471,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/471.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 171,
+    "name": "swablu",
+    "national_dex_id": 333,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/333.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 172,
+    "name": "altaria",
+    "national_dex_id": 334,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/334.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 173,
+    "name": "togepi",
+    "national_dex_id": 175,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/175.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 174,
+    "name": "togetic",
+    "national_dex_id": 176,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/176.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 175,
+    "name": "togekiss",
+    "national_dex_id": 468,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fairy",
+          "url": "https://pokeapi.co/api/v2/type/18/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/468.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 176,
+    "name": "houndour",
+    "national_dex_id": 228,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/228.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 177,
+    "name": "houndoom",
+    "national_dex_id": 229,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/229.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 178,
+    "name": "magnemite",
+    "national_dex_id": 81,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/81.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 179,
+    "name": "magneton",
+    "national_dex_id": 82,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/82.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 180,
+    "name": "magnezone",
+    "national_dex_id": 462,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/462.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 181,
+    "name": "tangela",
+    "national_dex_id": 114,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/114.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 182,
+    "name": "tangrowth",
+    "national_dex_id": 465,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/465.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 183,
+    "name": "yanma",
+    "national_dex_id": 193,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/193.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 184,
+    "name": "yanmega",
+    "national_dex_id": 469,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/469.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 185,
+    "name": "tropius",
+    "national_dex_id": 357,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/357.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 186,
+    "name": "rhyhorn",
+    "national_dex_id": 111,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/111.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 187,
+    "name": "rhydon",
+    "national_dex_id": 112,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/112.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 188,
+    "name": "rhyperior",
+    "national_dex_id": 464,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "rock",
+          "url": "https://pokeapi.co/api/v2/type/6/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/464.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": true
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 189,
+    "name": "duskull",
+    "national_dex_id": 355,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/355.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 190,
+    "name": "dusclops",
+    "national_dex_id": 356,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/356.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 191,
+    "name": "dusknoir",
+    "national_dex_id": 477,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/477.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 192,
+    "name": "porygon",
+    "national_dex_id": 137,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/137.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 193,
+    "name": "porygon2",
+    "national_dex_id": 233,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/233.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 194,
+    "name": "porygon-z",
+    "national_dex_id": 474,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/474.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 195,
+    "name": "scyther",
+    "national_dex_id": 123,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "flying",
+          "url": "https://pokeapi.co/api/v2/type/3/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/123.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 196,
+    "name": "scizor",
+    "national_dex_id": 212,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "bug",
+          "url": "https://pokeapi.co/api/v2/type/7/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "steel",
+          "url": "https://pokeapi.co/api/v2/type/9/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/212.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 197,
+    "name": "elekid",
+    "national_dex_id": 239,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/239.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 198,
+    "name": "electabuzz",
+    "national_dex_id": 125,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/125.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 199,
+    "name": "electivire",
+    "national_dex_id": 466,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "electric",
+          "url": "https://pokeapi.co/api/v2/type/13/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/466.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 200,
+    "name": "magby",
+    "national_dex_id": 240,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/240.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 201,
+    "name": "magmar",
+    "national_dex_id": 126,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/126.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 202,
+    "name": "magmortar",
+    "national_dex_id": 467,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "fire",
+          "url": "https://pokeapi.co/api/v2/type/10/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/467.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 203,
+    "name": "swinub",
+    "national_dex_id": 220,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/220.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 204,
+    "name": "piloswine",
+    "national_dex_id": 221,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/221.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 205,
+    "name": "mamoswine",
+    "national_dex_id": 473,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ground",
+          "url": "https://pokeapi.co/api/v2/type/5/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/473.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  },
+  {
+    "entry_number": 206,
+    "name": "snorunt",
+    "national_dex_id": 361,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/361.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 207,
+    "name": "glalie",
+    "national_dex_id": 362,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/362.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 208,
+    "name": "froslass",
+    "national_dex_id": 478,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ice",
+          "url": "https://pokeapi.co/api/v2/type/15/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/478.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": false
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": false
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": false
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 209,
+    "name": "absol",
+    "national_dex_id": 359,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "dark",
+          "url": "https://pokeapi.co/api/v2/type/17/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/359.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": false
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": false
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": false
+      }
+    ]
+  },
+  {
+    "entry_number": 210,
+    "name": "giratina-altered",
+    "national_dex_id": 487,
+    "types": [
+      {
+        "slot": 1,
+        "type": {
+          "name": "ghost",
+          "url": "https://pokeapi.co/api/v2/type/8/"
+        }
+      },
+      {
+        "slot": 2,
+        "type": {
+          "name": "dragon",
+          "url": "https://pokeapi.co/api/v2/type/16/"
+        }
+      }
+    ],
+    "sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/487.png",
+    "hms": [
+      {
+        "name": "cut",
+        "can_learn": true
+      },
+      {
+        "name": "fly",
+        "can_learn": true
+      },
+      {
+        "name": "surf",
+        "can_learn": false
+      },
+      {
+        "name": "strength",
+        "can_learn": true
+      },
+      {
+        "name": "defog",
+        "can_learn": true
+      },
+      {
+        "name": "rock-smash",
+        "can_learn": true
+      },
+      {
+        "name": "waterfall",
+        "can_learn": false
+      },
+      {
+        "name": "rock-climb",
+        "can_learn": true
+      }
+    ]
+  }
+]

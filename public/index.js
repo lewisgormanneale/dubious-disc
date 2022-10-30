@@ -221,7 +221,6 @@ async function updateGeneration(gen) {
             gen === 4;
             data = await import('../data/pokedexes/gen-4-dp.js');
             selectedGeneration = data.gen4dpDex;
-            console.log(selectedGeneration)
             genXOnlyButton.textContent = "Gen 4 Only";
             genXOnlyButton.setAttribute('data-id', `4`);
             break;
@@ -383,7 +382,7 @@ function genXOnly() {
 
 //run on load
 
-updateGeneration(1)
+updateGeneration(4.1)
 
 darkModeToggle()
 
