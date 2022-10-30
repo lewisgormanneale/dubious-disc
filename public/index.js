@@ -17,6 +17,7 @@ const hms = document.querySelector('#hms');
 // function setup, global variables
 let darkMode = false;
 
+let generationNumber = 5;
 let selectedGeneration = 'data.gen1rbyDex';
 let data = []
 
@@ -187,6 +188,7 @@ async function displayAvailablePokemon() {
 // generation switching
 
 async function updateGeneration(gen) {
+    generationNumber = gen;
     genXOnlyButton.classList.remove('invisible')
     switch(gen) {
         case 1:
@@ -310,7 +312,12 @@ function filterHM() {
 //team update functionality
 
 function addToTeam() {
-    let arrayPos = (this.getAttribute('data-id') - 1)
+    let arrayPos = 0;
+    if (Math.floor(generationNumber) === 5) {
+        arrayPos = (this.getAttribute('data-id'))
+    } else {
+        arrayPos = (this.getAttribute('data-id') - 1)
+    }
     let selectedPokemon = selectedGeneration[arrayPos]
     for (let i = 0; i < 6; i++) {
         if (teamMembers[i].entry_number === 0) {
@@ -382,7 +389,7 @@ function genXOnly() {
 
 //run on load
 
-updateGeneration(4.1)
+updateGeneration(generationNumber)
 
 darkModeToggle()
 
