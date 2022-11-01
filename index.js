@@ -4,17 +4,16 @@ let body = document.querySelector('body');
 let darkModeButton = document.querySelector('#dark-mode-button');
 
 let teamAndOptions = document.querySelector('#team-and-options');
-let team = document.querySelector('#team');
+const team = document.querySelector('#team');
 
-let genXOnlyButton = document.querySelector('#gen-x-only-button');
-let pokedex = document.querySelector('#pokedex');
-let pokedexEntries = document.querySelectorAll('.pokedex-entry');
+const genXOnlyButton = document.querySelector('#gen-x-only-button');
+const pokedex = document.querySelector('#pokedex');
+const pokedexEntries = document.querySelectorAll('.pokedex-entry');
 
 const hms = document.querySelector('#hms');
 
 // function setup, global variables
 let darkMode = false;
-
 let generationNumber = 5.5;
 let selectedGeneration = '';
 let data = []
@@ -45,38 +44,57 @@ function darkModeToggle() {
 
 async function displayAvailablePokemon() {
     for (let i = 0; i < selectedGeneration.length; i++) {
-        let pokedexEntry = document.createElement('div');
+        const pokedexEntry = document.createElement('div');
         pokedexEntry.classList.add('pokemon')
         pokedexEntry.classList.add('pokedex-entry')
         pokedexEntry.setAttribute('data-id', `${selectedGeneration[i].entry_number}`)
         pokedexEntry.style.backgroundColor = `var(--${selectedGeneration[i].types[0].type.name})`;
 
-        let pokedexImage = document.createElement('img');
-        pokedexImage.classList.add('pokedex-image')
-        pokedexImage.src = selectedGeneration[i].sprite
-        pokedexImage.alt = selectedGeneration[i].name
-        pokedexImage.ondragstart = function () { return false; };
+        const pokemonNameAndID = document.createElement('div');
+        pokemonNameAndID.classList.add('pokemon-name-and-id')
 
-        let pokedexName = document.createElement('p');
-        pokedexName.classList.add('pokedex-name')
-        pokedexName.textContent = selectedGeneration[i].name.charAt(0).toUpperCase() + selectedGeneration[i].name.slice(1);
+        const pokemonID = document.createElement('p');
+        pokemonID.classList.add('pokemon-id');
+        pokemonID.textContent = `#${selectedGeneration[i].entry_number}`;
 
-        let pokedexID = document.createElement('p');
-        pokedexID.classList.add('pokedex-id');
-        pokedexID.textContent = `#${selectedGeneration[i].entry_number}`;
+        const pokemonName = document.createElement('p');
+        pokemonName.classList.add('pokemon-name')
+        pokemonName.textContent = selectedGeneration[i].name.charAt(0).toUpperCase() + selectedGeneration[i].name.slice(1);
 
-        let learnableHMs = selectedGeneration[i].hms;
+        const pokemonImage = document.createElement('img');
+        pokemonImage.classList.add('pokemon-image')
+        pokemonImage.src = selectedGeneration[i].sprite
+        pokemonImage.alt = selectedGeneration[i].name
+        pokemonImage.ondragstart = function () { return false; };
+
+        const pokemonType1 = document.createElement('img')
+        pokemonType1.classList.add('type')
+        pokemonType1.classList.add('primary-type')
+        pokemonType1.src = `./images/type-icons/${selectedGeneration[i].types[0].type.name}.svg`;
+        pokemonType1.alt = selectedGeneration[i].types[0].type.name;
+
+        if (selectedGeneration[i].types[1]) {
+            const pokemonType2 = document.createElement('img')
+            pokemonType2.classList.add('type')
+            pokemonType2.classList.add('secondary-type')
+            pokemonType2.src = `./images/type-icons/${selectedGeneration[i].types[1].type.name}.svg`;
+            pokemonType2.alt = selectedGeneration[i].types[1].type.name;
+        }
+
+        const learnableHMs = selectedGeneration[i].hms;
         for (let j = 0; j < learnableHMs.length; j++) {
             if (learnableHMs[j].can_learn === true) {
                 pokedexEntry.classList.add(`${learnableHMs[j].name}`)
             };
         };
-        pokedex.appendChild(pokedexEntry);
+
+        
         pokedexEntry.addEventListener('click', addToTeam)
-        pokedexEntry.appendChild(pokedexImage);
-        pokedexEntry.appendChild(pokedexName);
-        pokedexEntry.appendChild(pokedexID);
-        pokedexEntries = document.querySelectorAll('.pokedex-entry');
+        pokedexEntry.appendChild(pokemonNameAndID)
+        pokemonNameAndID.appendChild(pokemonID);
+        pokemonNameAndID.appendChild(pokemonName);
+        pokedexEntry.appendChild(pokemonImage);
+        pokedex.appendChild(pokedexEntry);
     };
 };
 
@@ -208,6 +226,7 @@ function filterHM() {
 
 function addToTeam() {
     const teamMembers = document.querySelectorAll('.team-member')
+    console.log(teamMembers)
     let arrayPos = 0;
     if (Math.floor(generationNumber) === 5) {
         arrayPos = (this.getAttribute('data-id'))
@@ -217,7 +236,7 @@ function addToTeam() {
     let selectedPokemon = selectedGeneration[arrayPos]
     for (let i = 0; i < teamMembers.length; i++) {
         if (teamMembers[i].className.includes('empty')) {
-            updateTeam(selectedPokemon, i+1);
+            updateTeam(selectedPokemon, teamMembers[i]);
             break
         } else if (i === 5) {
             console.log('Team full')
@@ -225,30 +244,33 @@ function addToTeam() {
     };
 };
 
-function updateTeam(selectedPokemon, position) {
-    const teamMemberCard = document.querySelector(`.team-member:nth-of-type(${position})`)
+function updateTeam(selectedPokemon, teamMemberCard) {
     teamMemberCard.classList.remove('empty')
     teamMemberCard.style.backgroundColor = `var(--${selectedPokemon.types[0].type.name})`;
 
-    const teamMemberID = teamMemberCard.querySelector('.team-member-id-and-hms > .pokedex-id')
+    const teamMemberID = teamMemberCard.querySelector('.pokemon-id')
     teamMemberID.textContent = `#${selectedPokemon.entry_number}`
 
-    const teamMemberImage = teamMemberCard.querySelector('.team-member-image')
+    const teamMemberImage = teamMemberCard.querySelector('.pokemon-image')
     teamMemberImage.src = selectedPokemon.sprite;
     teamMemberImage.alt = selectedPokemon.name;
     
-    const teamMemberName = teamMemberCard.querySelector('.pokemon-types-and-name > .team-member-name')
+    const teamMemberName = teamMemberCard.querySelector('.pokemon-name')
     teamMemberName.textContent = selectedPokemon.name;
     teamMemberName.textContent = selectedPokemon.name.charAt(0).toUpperCase() + teamMemberName.textContent.slice(1)
 
-    const teamMemberType1 = teamMemberCard.querySelector('.pokemon-types-and-name > .primary-type')
+    const teamMemberType1 = teamMemberCard.querySelector('.primary-type')
     teamMemberType1.src = `./images/type-icons/${selectedPokemon.types[0].type.name}.svg`;
     teamMemberType1.alt = selectedPokemon.types[0].type.name;
 
     if (selectedPokemon.types[1]) {
-        const teamMemberType2 = teamMemberCard.querySelector('.pokemon-types-and-name > .secondary-type')
+        const teamMemberType2 = teamMemberCard.querySelector('.secondary-type')
+        teamMemberType2.classList.remove('invisible')
         teamMemberType2.src = `./images/type-icons/${selectedPokemon.types[1].type.name}.svg`;
         teamMemberType2.alt = selectedPokemon.types[1].type.name;
+    } else {
+        const teamMemberType2 = teamMemberCard.querySelector('.secondary-type')
+        teamMemberType2.classList.add('invisible')
     }
 };
 
