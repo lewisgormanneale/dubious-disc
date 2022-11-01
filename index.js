@@ -16,95 +16,8 @@ const hms = document.querySelector('#hms');
 let darkMode = false;
 
 let generationNumber = 5.5;
-let selectedGeneration = 'data.gen1rbyDex';
+let selectedGeneration = '';
 let data = []
-
-let teamMembers = [
-    {
-        "entry_number": -1,
-        "name": "",
-        "types": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/12/"
-                }
-            }
-        ],
-        "sprite": "../images/sprites/pokemon/0.png",
-    },
-    {
-        "entry_number": -1,
-        "name": "",
-        "types": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/12/"
-                }
-            }
-        ],
-        "sprite": "../images/sprites/pokemon/0.png",
-    },
-    {
-        "entry_number": -1,
-        "name": "",
-        "types": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/12/"
-                }
-            }
-        ],
-        "sprite": "../images/sprites/pokemon/0.png",
-    },
-    {
-        "entry_number": -1,
-        "name": "",
-        "types": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/12/"
-                }
-            }
-        ],
-        "sprite": "../images/sprites/pokemon/0.png",
-    },
-    {
-        "entry_number": -1,
-        "name": "",
-        "types": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/12/"
-                }
-            }
-        ],
-        "sprite": "../images/sprites/pokemon/0.png",
-    },
-    {
-        "entry_number": -1,
-        "name": "",
-        "types": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/12/"
-                }
-            }
-        ],
-        "sprite": "../images/sprites/pokemon/0.png",
-    }
-];
 
 //navbar
 
@@ -294,6 +207,7 @@ function filterHM() {
 //team update functionality
 
 function addToTeam() {
+    const teamMembers = document.querySelectorAll('.team-member')
     let arrayPos = 0;
     if (Math.floor(generationNumber) === 5) {
         arrayPos = (this.getAttribute('data-id'))
@@ -301,55 +215,40 @@ function addToTeam() {
         arrayPos = (this.getAttribute('data-id') - 1)
     }
     let selectedPokemon = selectedGeneration[arrayPos]
-    for (let i = 0; i < 6; i++) {
-        if (teamMembers[i].entry_number === -1) {
-            teamMembers[i] = selectedPokemon;
-            let position = i;
-            updateTeam(position);
+    for (let i = 0; i < teamMembers.length; i++) {
+        if (teamMembers[i].className.includes('empty')) {
+            updateTeam(selectedPokemon, i+1);
             break
-        } else if (i === 5 && teamMembers[i].name != "") {
-            console.log('team full, remove one first')
-        };
+        } else if (i === 5) {
+            console.log('Team full')
+        }
     };
 };
 
-function updateTeam(position) {
-    const teamMember = teamMembers[position];
-    const teamMemberCard = document.createElement('div');
-    teamMemberCard.classList.add('pokemon');
-    teamMemberCard.classList.add('team-member');
-    teamMemberCard.style.backgroundColor = `var(--${teamMember.types[0].type.name})`;
+function updateTeam(selectedPokemon, position) {
+    const teamMemberCard = document.querySelector(`.team-member:nth-of-type(${position})`)
+    teamMemberCard.classList.remove('empty')
+    teamMemberCard.style.backgroundColor = `var(--${selectedPokemon.types[0].type.name})`;
 
-    const teamMemberImage = document.createElement('img');
-    teamMemberImage.classList.add('team-member-image')
-    teamMemberImage.src = teamMember.sprite;
-    teamMemberImage.alt = teamMember.name;
+    const teamMemberID = teamMemberCard.querySelector('.team-member-id-and-hms > .pokedex-id')
+    teamMemberID.textContent = `#${selectedPokemon.entry_number}`
+
+    const teamMemberImage = teamMemberCard.querySelector('.team-member-image')
+    teamMemberImage.src = selectedPokemon.sprite;
+    teamMemberImage.alt = selectedPokemon.name;
     
-    const teamMemberName = document.createElement('p');
-    teamMemberName.textContent = teamMember.name;
-    teamMemberName.textContent = teamMember.name.charAt(0).toUpperCase() + teamMemberName.textContent.slice(1)
-    teamMemberName.classList.add('team-member-name');
+    const teamMemberName = teamMemberCard.querySelector('.pokemon-types-and-name > .team-member-name')
+    teamMemberName.textContent = selectedPokemon.name;
+    teamMemberName.textContent = selectedPokemon.name.charAt(0).toUpperCase() + teamMemberName.textContent.slice(1)
 
-    const teamMemberTypes = document.createElement('div');
-    teamMemberTypes.classList.add('types')
+    const teamMemberType1 = teamMemberCard.querySelector('.pokemon-types-and-name > .primary-type')
+    teamMemberType1.src = `./images/type-icons/${selectedPokemon.types[0].type.name}.svg`;
+    teamMemberType1.alt = selectedPokemon.types[0].type.name;
 
-    const teamMemberType1 = document.createElement('img');
-    teamMemberType1.src = `./images/type-icons/${teamMember.types[0].type.name}.svg`;
-    teamMemberType1.alt = teamMember.types[0].type.name;
-    teamMemberType1.classList.add('type')
-    
-    team.appendChild(teamMemberCard);
-    teamMemberCard.appendChild(teamMemberImage)
-    teamMemberCard.appendChild(teamMemberName)
-    teamMemberCard.appendChild(teamMemberTypes)
-    teamMemberTypes.appendChild(teamMemberType1)
-
-    if (teamMember.types[1]) {
-        const teamMemberType2 = document.createElement('img');
-        teamMemberType2.src = `./images/type-icons/${teamMember.types[1].type.name}.svg`;
-        teamMemberType2.alt = teamMember.types[1].type.name;
-        teamMemberType2.classList.add('type')
-        teamMemberTypes.appendChild(teamMemberType2)
+    if (selectedPokemon.types[1]) {
+        const teamMemberType2 = teamMemberCard.querySelector('.pokemon-types-and-name > .secondary-type')
+        teamMemberType2.src = `./images/type-icons/${selectedPokemon.types[1].type.name}.svg`;
+        teamMemberType2.alt = selectedPokemon.types[1].type.name;
     }
 };
 
