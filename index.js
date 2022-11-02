@@ -8,7 +8,6 @@ const team = document.querySelector('#team');
 
 const genXOnlyButton = document.querySelector('#gen-x-only-button');
 const pokedex = document.querySelector('#pokedex');
-const pokedexEntries = document.querySelectorAll('.pokedex-entry');
 
 const hms = document.querySelector('#hms');
 
@@ -18,7 +17,7 @@ let generationNumber = 5.5;
 let selectedGeneration = '';
 let data = []
 let typeOverlap = false;
-
+let generationFilterNumber = 0
 //navbar
 
 function openNav() {
@@ -49,6 +48,7 @@ async function displayAvailablePokemon() {
         pokedexEntry.classList.add('pokemon')
         pokedexEntry.classList.add('pokedex-entry')
         pokedexEntry.setAttribute('data-id', `${selectedGeneration[i].entry_number}`)
+        pokedexEntry.setAttribute('data-nat-id', `${selectedGeneration[i].national_dex_id}`)
         pokedexEntry.style.backgroundColor = `var(--${selectedGeneration[i].types[0].type.name})`;
 
         const pokemonNameAndID = document.createElement('div');
@@ -112,69 +112,63 @@ async function updateGeneration(gen) {
     removeFromTeam(4)
     removeFromTeam(5)
     genXOnlyButton.classList.remove('invisible')
+    genXOnlyButton.removeEventListener('click', genXOnly)
     switch(gen) {
         case 1:
-            gen === 1;
             data = await import('./data/pokedexes/gen-1-rby.js');
             selectedGeneration = data.gen1rbyDex;
-            genXOnlyButton.setAttribute('data-id', `1`);
             genXOnlyButton.classList.add('invisible')
             break;
         case 2:
-            gen === 2;
             data = await import('./data/pokedexes/gen-2-gsc.js');
             selectedGeneration = data.gen2gscDex;
+            generationFilterNumber = 2;
             genXOnlyButton.textContent = "Gen 2 Only";
-            genXOnlyButton.setAttribute('data-id', `2`);
+            genXOnlyButton.addEventListener('click', () => genXOnly(2))
             break;
         case 3:
-            gen === 3;
             data = await import('./data/pokedexes/gen-3-rse.js');
             selectedGeneration = data.gen3rseDex;
+            generationFilterNumber = 3;
             genXOnlyButton.textContent = "Gen 3 Only";
-            genXOnlyButton.setAttribute('data-id', `3`);
+            genXOnlyButton.addEventListener('click', () => genXOnly(3))
             break;
         case 3.5:
-            gen === 3.5;
             data = await import('./data/pokedexes/gen-3-frlg.js');
             selectedGeneration = data.gen3frlgDex;
-            genXOnlyButton.setAttribute('data-id', `1`);
             genXOnlyButton.classList.add('invisible')
             break;
         case 4:
-            gen === 4;
             data = await import('./data/pokedexes/gen-4-dp.js');
             selectedGeneration = data.gen4dpDex;
+            generationFilterNumber = 4;
             genXOnlyButton.textContent = "Gen 4 Only";
-            genXOnlyButton.setAttribute('data-id', `4`);
+            genXOnlyButton.addEventListener('click',() => genXOnly(4))
             break;
         case 4.1:
-            gen === 4.1;
             data = await import('./data/pokedexes/gen-4-pt.js');
             selectedGeneration = data.gen4ptDex;
+            generationFilterNumber = 4;
             genXOnlyButton.textContent = "Gen 4 Only";
-            genXOnlyButton.setAttribute('data-id', `4`);
             break;
         case 4.5:
-            gen === 4.5;
             data = await import('./data/pokedexes/gen-4-hgss.js');
             selectedGeneration = data.gen4hgssDex;
+            generationFilterNumber = 4;
             genXOnlyButton.textContent = "Gen 2 Only";
-            genXOnlyButton.setAttribute('data-id', `2`);
+            genXOnlyButton.addEventListener('click', () => genXOnly(2))
             break;
         case 5:
-            gen === 5;
             data = await import('./data/pokedexes/gen-5-bw.js');
             selectedGeneration = data.gen5bwDex;
-            genXOnlyButton.setAttribute('data-id', `5`);
             genXOnlyButton.classList.add('invisible')
             break;
         case 5.5:
-            gen === 5.5;
             data = await import('./data/pokedexes/gen-5-bw2.js');
             selectedGeneration = data.gen5bw2Dex;
+            generationFilterNumber = 5;
             genXOnlyButton.textContent = "Gen 5 Only";
-            genXOnlyButton.setAttribute('data-id', `5`);
+            genXOnlyButton.addEventListener('click', () => genXOnly(5))
             break;
     }
     while (pokedex.hasChildNodes()) {
@@ -333,9 +327,59 @@ function typeOverlapChecker() {
     console.log('hello')
 }
 
-function genXOnly() {
-    
-}
+function genXOnly(num) {
+    const pokedexEntries = document.querySelectorAll('.pokedex-entry');
+    genXOnlyButton.removeEventListener('click', genXOnly)
+    switch(num) {
+        case 0:
+            for (let i = 0; i < pokedexEntries.length; i++) {
+                pokedexEntries[i].classList.remove('invisible')
+            }
+            genXOnlyButton.style.backgroundColor = 'var(--primary-color)'
+            genXOnlyButton.addEventListener('click', () => genXOnly(generationFilterNumber))
+            break;
+        case 2:
+            for (let i = 0; i < pokedexEntries.length; i++) {
+                let natID = pokedexEntries[i].getAttribute('data-nat-id')
+                if (natID < 152 || natID > 251)  {
+                    pokedexEntries[i].classList.add('invisible')
+                }
+            }
+            genXOnlyButton.style.backgroundColor = 'orange'
+            genXOnlyButton.addEventListener('click', () => genXOnly(0))
+            break;
+        case 3:
+            for (let i = 0; i < pokedexEntries.length; i++) {
+                let natID = pokedexEntries[i].getAttribute('data-nat-id')
+                if (natID < 252 || natID > 386)  {
+                    pokedexEntries[i].classList.add('invisible')
+                }
+            }
+            genXOnlyButton.style.backgroundColor = 'orange'
+            genXOnlyButton.addEventListener('click', () => genXOnly(0))
+            break;
+        case 4:
+            for (let i = 0; i < pokedexEntries.length; i++) {
+                let natID = pokedexEntries[i].getAttribute('data-nat-id')
+                if (natID < 387 || natID > 493)  {
+                    pokedexEntries[i].classList.add('invisible')
+                }
+            }
+            genXOnlyButton.style.backgroundColor = 'orange'
+            genXOnlyButton.addEventListener('click', () => genXOnly(0))
+            break;
+        case 5:
+            for (let i = 0; i < pokedexEntries.length; i++) {
+                let natID = pokedexEntries[i].getAttribute('data-nat-id')
+                if (natID < 494 || natID > 649)  {
+                    pokedexEntries[i].classList.add('invisible')
+                }
+            }
+            genXOnlyButton.style.backgroundColor = 'orange'
+            genXOnlyButton.addEventListener('click', () => genXOnly(0))
+            break;
+    }
+};
 
 //run on load
 
