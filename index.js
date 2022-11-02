@@ -102,6 +102,12 @@ async function displayAvailablePokemon() {
 
 async function updateGeneration(gen) {
     generationNumber = gen;
+    removeFromTeam(0)
+    removeFromTeam(1)
+    removeFromTeam(2)
+    removeFromTeam(3)
+    removeFromTeam(4)
+    removeFromTeam(5)
     genXOnlyButton.classList.remove('invisible')
     switch(gen) {
         case 1:
