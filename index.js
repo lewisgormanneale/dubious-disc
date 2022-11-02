@@ -6,7 +6,7 @@ let darkModeButton = document.querySelector('#dark-mode-button');
 let teamAndOptions = document.querySelector('#team-and-options');
 const team = document.querySelector('#team');
 
-const genXOnlyButton = document.querySelector('#gen-x-only-button');
+let genXOnlyButton = document.querySelector('#gen-x-only-button');
 const pokedex = document.querySelector('#pokedex');
 
 const hms = document.querySelector('#hms');
@@ -154,7 +154,7 @@ async function updateGeneration(gen) {
         case 4.5:
             data = await import('./data/pokedexes/gen-4-hgss.js');
             selectedGeneration = data.gen4hgssDex;
-            generationFilterNumber = 4;
+            generationFilterNumber = 2;
             genXOnlyButton.textContent = "Gen 2 Only";
             genXOnlyButton.addEventListener('click', () => genXOnly(2))
             break;
@@ -329,7 +329,11 @@ function typeOverlapChecker() {
 
 function genXOnly(num) {
     const pokedexEntries = document.querySelectorAll('.pokedex-entry');
-    genXOnlyButton.removeEventListener('click', genXOnly)
+
+    //removes all event listeners on button by cloning it, then reassigns variable to the button
+    genXOnlyButton.replaceWith(genXOnlyButton.cloneNode(true));
+    genXOnlyButton = document.querySelector('#gen-x-only-button');
+
     switch(num) {
         case 0:
             for (let i = 0; i < pokedexEntries.length; i++) {
