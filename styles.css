@@ -250,7 +250,7 @@ main {
 
 .pokemon-image {
     position: absolute;
-    top: 33px;
+    top: 30px;
     height: 90px;
     width: auto;
 }
@@ -265,6 +265,7 @@ main {
     margin-right: 1px;
     border: 1px solid black;
     border-radius: 50%;
+    z-index: 1;
 }
 
 .primary-type {
@@ -306,7 +307,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: var(--primary-background-color);
     color: var(--primary-color);
@@ -328,8 +329,13 @@ main {
     justify-content: flex-end;
 }
 
-#options > button {
-    padding: 10px;
+#options > div > button {
+    padding: 6px;
+    margin: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--primary-background-color);
+    border: 3px solid darkred;
+    border-radius: 30px;
 }
 
 #hms {

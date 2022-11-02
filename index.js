@@ -17,6 +17,7 @@ let darkMode = false;
 let generationNumber = 5.5;
 let selectedGeneration = '';
 let data = []
+let typeOverlap = false;
 
 //navbar
 
@@ -79,6 +80,7 @@ async function displayAvailablePokemon() {
             pokemonType2.classList.add('secondary-type')
             pokemonType2.src = `./images/type-icons/${selectedGeneration[i].types[1].type.name}.svg`;
             pokemonType2.alt = selectedGeneration[i].types[1].type.name;
+            pokedexEntry.appendChild(pokemonType2);
         }
 
         const learnableHMs = selectedGeneration[i].hms;
@@ -94,6 +96,7 @@ async function displayAvailablePokemon() {
         pokemonNameAndID.appendChild(pokemonID);
         pokemonNameAndID.appendChild(pokemonName);
         pokedexEntry.appendChild(pokemonImage);
+        pokedexEntry.appendChild(pokemonType1);
         pokedex.appendChild(pokedexEntry);
     };
 };
@@ -317,7 +320,17 @@ function removeFromTeam(pos) {
 //option functions
 
 function preventTypeOverlap() {
+    typeOverlap = !typeOverlap;
+    if (typeOverlap === true) {
+        typeOverlapChecker()
+    } else {
+        displayAvailablePokemon()
+    }
+    
+}
 
+function typeOverlapChecker() {
+    console.log('hello')
 }
 
 function genXOnly() {
