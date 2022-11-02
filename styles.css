@@ -289,11 +289,16 @@ main {
 .team-member-option {
     width: 30px;
     height: 20px;
-    background-color: #EA4C89;
+    background-color: white;
     border-radius: 8px;
     border-style: none;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.remove-option {
+    background-color: rgb(180, 0, 0);
+    color: black;
 }
 
 #options {

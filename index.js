@@ -226,7 +226,6 @@ function filterHM() {
 
 function addToTeam() {
     const teamMemberContainer = document.querySelectorAll('.team-member-container')
-    console.log(teamMemberContainer)
     let arrayPos = 0;
     if (Math.floor(generationNumber) === 5) {
         arrayPos = (this.getAttribute('data-id'))
@@ -282,6 +281,32 @@ function updateTeam(selectedPokemon, teamMemberContainer) {
     const teamMemberOptions = teamMemberContainer.querySelector('.team-member-options')
     teamMemberOptions.classList.remove('invisible')
 };
+
+function removeFromTeam(pos) {
+    const allTeamMembers = document.querySelectorAll('.team-member-container')
+    const teamMemberContainer = allTeamMembers[pos]
+
+    teamMemberContainer.classList.add('empty')
+
+    const teamMember = teamMemberContainer.querySelector('.team-member')
+    teamMember.style.backgroundColor = `var(--normal)`;
+
+    const teamMemberNameAndID = teamMember.querySelector('.pokemon-name-and-id')
+    teamMemberNameAndID.classList.add('invisible')
+
+    const teamMemberImage = teamMember.querySelector('.pokemon-image')
+    teamMemberImage.src = './images/sprites/pokemon/missing.png'
+    teamMemberImage.alt = 'placeholder'
+
+    const teamMemberType1 = teamMember.querySelector('.primary-type')
+    teamMemberType1.classList.add('invisible')
+
+    const teamMemberType2 = teamMember.querySelector('.secondary-type')
+    teamMemberType2.classList.add('invisible')
+
+    const teamMemberOptions = teamMemberContainer.querySelector('.team-member-options')
+    teamMemberOptions.classList.add('invisible')
+}
 
 //option functions
 
