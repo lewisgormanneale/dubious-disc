@@ -98,7 +98,6 @@ async function displayAvailablePokemon() {
                 pokedexEntry.classList.add(`${learnableHMs[j].name}`)
             };
         };
-
         
         pokedexEntry.addEventListener('click', addToTeam)
         pokedexEntry.appendChild(pokemonNameAndID)
@@ -227,7 +226,6 @@ function filterHM() {
     hmCheckboxes.forEach((hm) => {
         if (!(hm.checked)) {
             let hmShow = document.querySelectorAll(`.${hm.value}`)
-            console.log(hmShow)
             for (let i = 0; i < hmShow.length; i++) {
                 if (!(hmShow[i].classList.contains('type-filtered')) && !(hmShow[i].classList.contains('gen-filtered'))) {
                     hmShow[i].classList.remove('invisible');
@@ -301,7 +299,7 @@ function updateTeam(selectedPokemon, teamMemberContainer) {
     } else {
         const teamMemberType2 = teamMember.querySelector('.secondary-type')
         teamMemberType2.src = "";
-        teamMemberType2.alt = "";
+        teamMemberType2.alt = "none";
         teamMemberType2.classList.add('invisible')
     }
 
@@ -332,15 +330,19 @@ function removeFromTeam(pos) {
     const teamMemberType1 = teamMember.querySelector('.primary-type')
     teamMemberType1.classList.add('invisible')
     teamMemberType1.src = "";
-    teamMemberType1.alt = "";
+    teamMemberType1.alt = "none";
 
     const teamMemberType2 = teamMember.querySelector('.secondary-type')
     teamMemberType2.classList.add('invisible')
     teamMemberType2.src = "";
-    teamMemberType2.alt = "";
+    teamMemberType2.alt = "none";
 
     const teamMemberOptions = teamMemberContainer.querySelector('.team-member-options')
     teamMemberOptions.classList.add('invisible')
+
+    if (typeOverlap === true) {
+        typeOverlapChecker()
+    }
 }
 
 //option functions
@@ -364,18 +366,26 @@ function preventTypeOverlap() {
 function typeOverlapChecker() {
     const pokedexEntries = document.querySelectorAll('.pokedex-entry');
     const teamMembers = document.querySelectorAll('.team-member')
-        for (let i = 0; i < pokedexEntries.length; i++) {
-            for (let j = 0; j < teamMembers.length; j++) {
-                if (pokedexEntries[i].querySelector('.primary-type').alt === teamMembers[j].querySelector('.primary-type').alt || pokedexEntries[i].querySelector('.primary-type').alt === teamMembers[j].querySelector('.secondary-type').alt )
-                pokedexEntries[i].classList.add('invisible')
-                pokedexEntries[i].classList.add('type-filtered')
-                if (pokedexEntries[i].querySelector('.secondary-type').alt) {
-                    if (pokedexEntries[i].querySelector('.secondary-type').alt === teamMembers[j].querySelector('.primary-type').alt || pokedexEntries[i].querySelector('.secondary-type').alt === teamMembers[j].querySelector('.secondary-type').alt )
-                    pokedexEntries[i].classList.add('invisible')
-                    pokedexEntries[i].classList.add('type-filtered')
-                }
-            }
+    let filteredTypes = []
+
+    for (let i = 0; i < teamMembers.length; i++) {
+        if (teamMembers[i].querySelector('.primary-type').alt != "none") {
+            filteredTypes.push(teamMembers[i].querySelector('.primary-type').alt)
         }
+        if (teamMembers[i].querySelector('.secondary-type').alt != "none") {
+            filteredTypes.push(teamMembers[i].querySelector('.secondary-type').alt)
+        }
+    }
+
+    for (let i = 0; i < pokedexEntries.length; i++) {
+        if (filteredTypes.includes(pokedexEntries[i].querySelector('.primary-type').alt) || filteredTypes.includes(pokedexEntries[i].querySelector('.secondary-type').alt)) {
+            pokedexEntries[i].classList.add('invisible')
+            pokedexEntries[i].classList.add('type-filtered')
+        } else if (!(pokedexEntries[i].classList.contains('gen-filtered')) && !(pokedexEntries[i].classList.contains('hm-filtered'))) {
+            pokedexEntries[i].classList.remove('invisible')
+            pokedexEntries[i].classList.remove('type-filtered')
+        }
+    }
 }
 
 function genXOnly(num) {
