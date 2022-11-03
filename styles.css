@@ -294,13 +294,30 @@ main {
     background-color: white;
     border-radius: 8px;
     border-style: none;
-    color: #FFFFFF;
+    color: white;
     cursor: pointer;
+}
+
+.gender-option {
+    background-color: rgb(0, 138, 183);
+    color: black;
+}
+
+.gender-option > span {
+    font-size: 18px;
 }
 
 .remove-option {
     background-color: rgb(180, 0, 0);
     color: black;
+}
+
+.shiny-option {
+    background-color: rgb(246, 246, 72);
+    color: black;
+}
+.shiny-option > span {
+    font-size: 18px;
 }
 
 #options {

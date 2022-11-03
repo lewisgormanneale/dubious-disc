@@ -12,25 +12,23 @@ const pokedex = document.querySelector('#pokedex');
 
 const hms = document.querySelector('#hms');
 
-// function setup, global variables
+// Function Setup, Global Variables
 let darkMode = false;
 let generationNumber = 5.5;
 let selectedGeneration = '';
 let data = []
 let typeOverlap = false;
 let generationFilterNumber = 0
-//navbar
 
+//Navbar
 function openNav() {
     document.getElementById("navbar").style.width = "33%";
 }
-
 function closeNav() {
     document.getElementById("navbar").style.width = "0";
 }
 
-//dark mode
-
+//Dark Mode
 function darkModeToggle() {
     if (darkMode === false) {
         body.classList.add('dark-mode');
@@ -41,8 +39,7 @@ function darkModeToggle() {
     };
 };
 
-// pokemon/pokedex load in
-
+// Pokemon/Pokedex Load In
 async function displayAvailablePokemon() {
     for (let i = 0; i < selectedGeneration.length; i++) {
         const pokedexEntry = document.createElement('div');
@@ -109,8 +106,7 @@ async function displayAvailablePokemon() {
     };
 };
 
-// generation switching
-
+// Generation Switching
 async function updateGeneration(gen) {
     generationNumber = gen;
     removeFromTeam(0)
@@ -120,9 +116,11 @@ async function updateGeneration(gen) {
     removeFromTeam(4)
     removeFromTeam(5)
     genXOnly(0)
+
     genXOnlyButton.classList.remove('invisible')
     genXOnlyButton.replaceWith(genXOnlyButton.cloneNode(true));
     genXOnlyButton = document.querySelector('#gen-x-only-button');
+
     switch(gen) {
         case 1:
             data = await import('./data/pokedexes/gen-1-rby.js');
@@ -191,7 +189,6 @@ async function updateGeneration(gen) {
 
 
 // HM Checkboxes
-
 function populateHMs() {
     // Remove existing HM checkboxes on generation switch
     while (hms.hasChildNodes()) {
@@ -245,8 +242,7 @@ function filterHM() {
     })
 }
 
-//team update functionality
-
+// Team Update Functionality
 function addToTeam() {
     const teamMemberContainer = document.querySelectorAll('.team-member-container')
     let arrayPos = 0;
@@ -345,8 +341,7 @@ function removeFromTeam(pos) {
     }
 }
 
-//option functions
-
+// Option Functions
 function preventTypeOverlap() {
     typeOverlap = !typeOverlap;
     if (typeOverlap === true) {
@@ -452,10 +447,7 @@ function genXOnly(num) {
     }
 };
 
-//run on load
-
+// Run On Load
 updateGeneration(generationNumber)
-
 darkModeToggle()
-
 closeNav()
