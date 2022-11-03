@@ -82,6 +82,14 @@ async function displayAvailablePokemon() {
             pokemonType2.src = `./images/type-icons/${selectedGeneration[i].types[1].type.name}.svg`;
             pokemonType2.alt = selectedGeneration[i].types[1].type.name;
             pokedexEntry.appendChild(pokemonType2);
+        } else {
+            const pokemonType2 = document.createElement('img')
+            pokemonType2.classList.add('type')
+            pokemonType2.classList.add('secondary-type')
+            pokemonType2.src = "";
+            pokemonType2.alt = "";
+            pokemonType2.classList.add('invisible')
+            pokedexEntry.appendChild(pokemonType2); 
         }
 
         const learnableHMs = selectedGeneration[i].hms;
@@ -220,8 +228,10 @@ function filterHM() {
         if (!(hm.checked)) {
             let hmShow = document.querySelectorAll(`.${hm.value}`)
             for (let i = 0; i < hmShow.length; i++) {
-                hmShow[i].classList.remove('invisible');
-                hmShow[i].classList.remove('hm-filtered')
+                if (!(hmShow[i].classList.contains('type-filtered')) && !(hmShow[i].classList.contains('gen-filtered'))) {
+                    hmShow[i].classList.remove('invisible');
+                    hmShow[i].classList.remove('hm-filtered')
+                }
             }
         }
     })
@@ -289,11 +299,17 @@ function updateTeam(selectedPokemon, teamMemberContainer) {
         teamMemberType2.alt = selectedPokemon.types[1].type.name;
     } else {
         const teamMemberType2 = teamMember.querySelector('.secondary-type')
+        teamMemberType2.src = "";
+        teamMemberType2.alt = "";
         teamMemberType2.classList.add('invisible')
     }
 
     const teamMemberOptions = teamMemberContainer.querySelector('.team-member-options')
     teamMemberOptions.classList.remove('invisible')
+
+    if (typeOverlap === true) {
+        typeOverlapChecker()
+    }
 };
 
 function removeFromTeam(pos) {
@@ -314,9 +330,13 @@ function removeFromTeam(pos) {
 
     const teamMemberType1 = teamMember.querySelector('.primary-type')
     teamMemberType1.classList.add('invisible')
+    teamMemberType1.src = "";
+    teamMemberType1.alt = "";
 
     const teamMemberType2 = teamMember.querySelector('.secondary-type')
     teamMemberType2.classList.add('invisible')
+    teamMemberType2.src = "";
+    teamMemberType2.alt = "";
 
     const teamMemberOptions = teamMemberContainer.querySelector('.team-member-options')
     teamMemberOptions.classList.add('invisible')
@@ -335,12 +355,25 @@ function preventTypeOverlap() {
         for (let i = 0; i < pokedexEntries.length; i++) {
             if (!(pokedexEntries[i].classList.contains('gen-filtered')) && !(pokedexEntries[i].classList.contains('hm-filtered')))
                 pokedexEntries[i].classList.remove('invisible')
-    }
+        }
     }
 }
 
 function typeOverlapChecker() {
-    console.log('hello')
+    const pokedexEntries = document.querySelectorAll('.pokedex-entry');
+    const teamMembers = document.querySelectorAll('.team-member')
+        for (let i = 0; i < pokedexEntries.length; i++) {
+            for (let j = 0; j < teamMembers.length; j++) {
+                if (pokedexEntries[i].querySelector('.primary-type').alt === teamMembers[j].querySelector('.primary-type').alt || pokedexEntries[i].querySelector('.primary-type').alt === teamMembers[j].querySelector('.secondary-type').alt )
+                pokedexEntries[i].classList.add('invisible')
+                pokedexEntries[i].classList.add('type-filtered')
+                if (pokedexEntries[i].querySelector('.secondary-type').alt) {
+                    if (pokedexEntries[i].querySelector('.secondary-type').alt === teamMembers[j].querySelector('.primary-type').alt || pokedexEntries[i].querySelector('.secondary-type').alt === teamMembers[j].querySelector('.secondary-type').alt )
+                    pokedexEntries[i].classList.add('invisible')
+                    pokedexEntries[i].classList.add('type-filtered')
+                }
+            }
+        }
 }
 
 function genXOnly(num) {
