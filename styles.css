@@ -504,6 +504,10 @@ main {
     #options > div {
         width: 50%;
     }
+    #options > div:nth-of-type(2){
+        width: 50%;
+        justify-content: flex-end;
+    }
     #options > div:nth-of-type(3){
         width: 100%;
         justify-content: center;

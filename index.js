@@ -7,6 +7,7 @@ let teamAndOptions = document.querySelector('#team-and-options');
 const team = document.querySelector('#team');
 
 let genXOnlyButton = document.querySelector('#gen-x-only-button');
+let typeOverlapButton = document.querySelector('#type-overlap-button');
 const pokedex = document.querySelector('#pokedex');
 
 const hms = document.querySelector('#hms');
@@ -220,6 +221,7 @@ function filterHM() {
             let hmShow = document.querySelectorAll(`.${hm.value}`)
             for (let i = 0; i < hmShow.length; i++) {
                 hmShow[i].classList.remove('invisible');
+                hmShow[i].classList.remove('hm-filtered')
             }
         }
     })
@@ -228,6 +230,7 @@ function filterHM() {
             let hmHide = document.querySelectorAll(`div:not(.${hm.value}).pokedex-entry`)
             for (let i = 0; i < hmHide.length; i++) {
                 hmHide[i].classList.add('invisible');
+                hmHide[i].classList.add('hm-filtered')
             }
         }
     })
@@ -324,11 +327,16 @@ function removeFromTeam(pos) {
 function preventTypeOverlap() {
     typeOverlap = !typeOverlap;
     if (typeOverlap === true) {
+        typeOverlapButton.style.backgroundColor = 'orange'
         typeOverlapChecker()
     } else {
-        displayAvailablePokemon()
+        typeOverlapButton.style.backgroundColor = 'white'
+        const pokedexEntries = document.querySelectorAll('.pokedex-entry');
+        for (let i = 0; i < pokedexEntries.length; i++) {
+            if (!(pokedexEntries[i].classList.contains('gen-filtered')) && !(pokedexEntries[i].classList.contains('hm-filtered')))
+                pokedexEntries[i].classList.remove('invisible')
     }
-    
+    }
 }
 
 function typeOverlapChecker() {
@@ -345,8 +353,9 @@ function genXOnly(num) {
     switch(num) {
         case 0:
             for (let i = 0; i < pokedexEntries.length; i++) {
+                if (!(pokedexEntries[i].classList.contains('hm-filtered')) && !(pokedexEntries[i].classList.contains('type-filtered')))
                 pokedexEntries[i].classList.remove('invisible')
-            }
+                }
             genXOnlyButton.style.backgroundColor = 'white'
             genXOnlyButton.addEventListener('click', () => genXOnly(generationFilterNumber))
             break;
@@ -355,6 +364,7 @@ function genXOnly(num) {
                 let natID = pokedexEntries[i].getAttribute('data-nat-id')
                 if (natID < 152 || natID > 251)  {
                     pokedexEntries[i].classList.add('invisible')
+                    pokedexEntries[i].classList.add('gen-filtered')
                 }
             }
             genXOnlyButton.style.backgroundColor = 'orange'
@@ -365,6 +375,7 @@ function genXOnly(num) {
                 let natID = pokedexEntries[i].getAttribute('data-nat-id')
                 if (natID < 252 || natID > 386)  {
                     pokedexEntries[i].classList.add('invisible')
+                    pokedexEntries[i].classList.add('gen-filtered')
                 }
             }
             genXOnlyButton.style.backgroundColor = 'orange'
@@ -375,6 +386,7 @@ function genXOnly(num) {
                 let natID = pokedexEntries[i].getAttribute('data-nat-id')
                 if (natID < 387 || natID > 493)  {
                     pokedexEntries[i].classList.add('invisible')
+                    pokedexEntries[i].classList.add('gen-filtered')
                 }
             }
             genXOnlyButton.style.backgroundColor = 'orange'
@@ -385,6 +397,7 @@ function genXOnly(num) {
                 let natID = pokedexEntries[i].getAttribute('data-nat-id')
                 if (natID < 494 || natID > 649)  {
                     pokedexEntries[i].classList.add('invisible')
+                    pokedexEntries[i].classList.add('gen-filtered')
                 }
             }
             genXOnlyButton.style.backgroundColor = 'orange'
