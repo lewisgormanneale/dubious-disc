@@ -227,6 +227,7 @@ function filterHM() {
     hmCheckboxes.forEach((hm) => {
         if (!(hm.checked)) {
             let hmShow = document.querySelectorAll(`.${hm.value}`)
+            console.log(hmShow)
             for (let i = 0; i < hmShow.length; i++) {
                 if (!(hmShow[i].classList.contains('type-filtered')) && !(hmShow[i].classList.contains('gen-filtered'))) {
                     hmShow[i].classList.remove('invisible');
@@ -355,6 +356,7 @@ function preventTypeOverlap() {
         for (let i = 0; i < pokedexEntries.length; i++) {
             if (!(pokedexEntries[i].classList.contains('gen-filtered')) && !(pokedexEntries[i].classList.contains('hm-filtered')))
                 pokedexEntries[i].classList.remove('invisible')
+                pokedexEntries[i].classList.remove('type-filtered')
         }
     }
 }
@@ -388,6 +390,7 @@ function genXOnly(num) {
             for (let i = 0; i < pokedexEntries.length; i++) {
                 if (!(pokedexEntries[i].classList.contains('hm-filtered')) && !(pokedexEntries[i].classList.contains('type-filtered')))
                 pokedexEntries[i].classList.remove('invisible')
+                pokedexEntries[i].classList.remove('gen-filtered')
                 }
             genXOnlyButton.style.backgroundColor = 'white'
             genXOnlyButton.addEventListener('click', () => genXOnly(generationFilterNumber))
