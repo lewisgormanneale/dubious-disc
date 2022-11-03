@@ -191,6 +191,7 @@ function populateHMs() {
     }
     // Populate HMs based on values found in selected generation Pokemon object
     for (let i = 0; i < selectedGeneration[0].hms.length; i++) {
+
         let hmInput = document.createElement('input');
         hmInput.type = 'checkbox';
         hmInput.name = selectedGeneration[0].hms[i].name.charAt(0).toUpperCase() + selectedGeneration[0].hms[i].name.slice(1);
@@ -199,11 +200,16 @@ function populateHMs() {
         hmInput.classList.add('check')
 
         let hmLabel = document.createElement('label');
+        hmLabel.classList.add('hm')
         hmLabel.for = hmInput.name;
         hmLabel.textContent = hmInput.name;
 
-        hms.appendChild(hmInput)
+        let hmSpan = document.createElement('span')
+        hmSpan.classList.add('checkmark')
+
         hms.appendChild(hmLabel)
+        hmLabel.appendChild(hmInput)
+        hmLabel.appendChild(hmSpan)
     }
 }
 
@@ -341,7 +347,7 @@ function genXOnly(num) {
             for (let i = 0; i < pokedexEntries.length; i++) {
                 pokedexEntries[i].classList.remove('invisible')
             }
-            genXOnlyButton.style.backgroundColor = 'var(--primary-color)'
+            genXOnlyButton.style.backgroundColor = 'white'
             genXOnlyButton.addEventListener('click', () => genXOnly(generationFilterNumber))
             break;
         case 2:
