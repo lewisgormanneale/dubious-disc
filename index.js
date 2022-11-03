@@ -111,8 +111,10 @@ async function updateGeneration(gen) {
     removeFromTeam(3)
     removeFromTeam(4)
     removeFromTeam(5)
+    genXOnly(0)
     genXOnlyButton.classList.remove('invisible')
-    genXOnlyButton.removeEventListener('click', genXOnly)
+    genXOnlyButton.replaceWith(genXOnlyButton.cloneNode(true));
+    genXOnlyButton = document.querySelector('#gen-x-only-button');
     switch(gen) {
         case 1:
             data = await import('./data/pokedexes/gen-1-rby.js');

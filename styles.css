@@ -151,10 +151,13 @@ main {
 #team-and-options {
     display: flex;
     top: 50px;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     flex-direction: column;
     width: 100%;
     min-height: 200px;
+    background-color: darkred;
     z-index: 2;
 }
 
@@ -174,6 +177,7 @@ main {
     background-color: black;
     display: flex;
     flex-direction: column;
+    margin: auto;
     justify-content: flex-start;
 }
 
@@ -304,6 +308,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0 20px;
     height: 60px;
     width: 100%;
@@ -329,7 +334,9 @@ main {
 
 #options > div > button {
     padding: 6px;
-    margin: 10px 20px;
+    height: 40px;
+    width: auto;
+    margin: 10px;
     background-color: var(--primary-color);
     color: var(--primary-background-color);
     border: 3px solid darkred;
@@ -388,11 +395,15 @@ main {
     font-size: 0.6em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     #team {
-        height: 275px;
-        min-width: 375px;
+        max-width: 490px;
         flex-wrap: wrap;
+        height: 320px;
+        min-width: 375px;
+    }
+    .team-member-container {
+        height: 155px;
     }
     .team-member {
         margin-right: auto;
@@ -403,15 +414,17 @@ main {
         width: 100px;
         height: 100px;
     }
-    #navbar {
-        width: 100%
+    #options {
+        height: 120px;
     }
-    #game-select-container {
-        width: 100%
+    #options > div {
+        width: 50%;
     }
-  }
-
-@media screen and (max-height: 450px) {
-    #navbar {padding-top: 15px;}
-    #navbar a {font-size: 18px;}
+    #options > div:nth-of-type(3){
+        width: 100%;
+        justify-content: center;
+    }
+    #options > div > button {
+        font-size: 0.5em;
+    }
   }
