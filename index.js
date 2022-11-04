@@ -6,6 +6,11 @@ let darkModeButton = document.querySelector('#dark-mode-button');
 let teamAndOptions = document.querySelector('#team-and-options');
 const team = document.querySelector('#team');
 
+let shinyButtons = document.querySelectorAll('.shiny-option')
+for (let i = 0; i < shinyButtons.length; i++) {
+    shinyButtons[i].addEventListener('click', shinyToggle)
+}
+
 let genXOnlyButton = document.querySelector('#gen-x-only-button');
 let typeOverlapButton = document.querySelector('#type-overlap-button');
 const pokedex = document.querySelector('#pokedex');
@@ -341,7 +346,23 @@ function removeFromTeam(pos) {
     }
 }
 
-// Option Functions
+// Other Team Option Functions
+function shinyToggle() {
+    let pokemon = this.parentNode.parentNode;
+    let pokemonImage = pokemon.querySelector('.pokemon-image');
+    let pokemonID = (pokemon.querySelector('.pokemon-id').textContent).substring(1);
+    let arrayPos = 0;
+    if (Math.floor(generationNumber) === 5) {
+        arrayPos = (pokemonID)
+    } else {
+        arrayPos = (pokemonID - 1)
+    }
+    let selectedPokemon = selectedGeneration[arrayPos]
+    console.log(selectedPokemon)
+}
+
+
+// Pokedex Option Functions
 function preventTypeOverlap() {
     typeOverlap = !typeOverlap;
     if (typeOverlap === true) {

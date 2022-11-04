@@ -82,5 +82,22 @@ async function updateTypes() {
     console.log(types)
 }
 
+async function addShinySprite() {
+    for (let i = 0; i < dex.length; i++) {
+        let pokemonName = dex[i].pokemon_species.name
+        let apiString = `https://pokeapi.co/api/v2/pokemon-species/${pokemonName}/`
+        let data = await fetch(apiString);
+        let jsonData = await data.json();
+        dex[i].shiny_sprite = `../images/sprites/pokemon/versions/generation-v/black-white/shiny/${dex[i].national_dex_id}.png`
+        dex[i].gender_rate = jsonData.gender_rate;
+        dex[i].has_gender_differences = jsonData.has_gender_differences;
+        if (dex[i].has_gender_differences === true) {
+            dex[i].female_sprite = `../images/sprites/pokemon/versions/generation-v/black-white/female/${dex[i].national_dex_id}.png`
+            dex[i].shiny_female_sprite = `../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/${dex[i].national_dex_id}.png`
+        };
+    };
+    console.log(dex)
+}
+
 //copy dex I'm working on updating here
 let dex = [];

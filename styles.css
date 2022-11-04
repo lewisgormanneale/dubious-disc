@@ -108,7 +108,7 @@ body {
     margin-left: 50px;
 }
 
-#game-select-hm {
+#game-select-container {
     width: 25%;
     display: flex;
     justify-content: flex-start;
@@ -116,7 +116,7 @@ body {
 
 #title {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     width: 50%;
