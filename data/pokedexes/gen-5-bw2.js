@@ -45,7 +45,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "victini",
+          "url": "https://pokeapi.co/api/v2/pokemon/494/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/494.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 1,
@@ -86,7 +98,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "snivy",
+          "url": "https://pokeapi.co/api/v2/pokemon/495/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/495.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 2,
@@ -127,7 +151,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "servine",
+          "url": "https://pokeapi.co/api/v2/pokemon/496/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/496.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 3,
@@ -168,7 +204,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "serperior",
+          "url": "https://pokeapi.co/api/v2/pokemon/497/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/497.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 4,
@@ -209,7 +257,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "tepig",
+          "url": "https://pokeapi.co/api/v2/pokemon/498/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/498.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 5,
@@ -257,7 +317,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "pignite",
+          "url": "https://pokeapi.co/api/v2/pokemon/499/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/499.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 6,
@@ -305,7 +377,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "emboar",
+          "url": "https://pokeapi.co/api/v2/pokemon/500/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/500.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 7,
@@ -346,7 +430,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "oshawott",
+          "url": "https://pokeapi.co/api/v2/pokemon/501/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/501.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 8,
@@ -387,7 +483,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "dewott",
+          "url": "https://pokeapi.co/api/v2/pokemon/502/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/502.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 9,
@@ -428,7 +536,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "samurott",
+          "url": "https://pokeapi.co/api/v2/pokemon/503/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "samurott-hisui",
+          "url": "https://pokeapi.co/api/v2/pokemon/10236/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/503.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 10,
@@ -469,7 +596,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "patrat",
+          "url": "https://pokeapi.co/api/v2/pokemon/504/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/504.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 11,
@@ -510,7 +649,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "watchog",
+          "url": "https://pokeapi.co/api/v2/pokemon/505/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/505.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 12,
@@ -551,7 +702,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "purrloin",
+          "url": "https://pokeapi.co/api/v2/pokemon/509/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/509.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 13,
@@ -592,7 +755,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "liepard",
+          "url": "https://pokeapi.co/api/v2/pokemon/510/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/510.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 14,
@@ -640,7 +815,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "pidove",
+          "url": "https://pokeapi.co/api/v2/pokemon/519/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/519.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 15,
@@ -688,7 +875,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "tranquill",
+          "url": "https://pokeapi.co/api/v2/pokemon/520/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/520.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 16,
@@ -736,7 +935,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "unfezant",
+          "url": "https://pokeapi.co/api/v2/pokemon/521/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/521.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/521.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/521.png"
   },
   {
     "entry_number": 17,
@@ -784,7 +997,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sewaddle",
+          "url": "https://pokeapi.co/api/v2/pokemon/540/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/540.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 18,
@@ -832,7 +1057,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "swadloon",
+          "url": "https://pokeapi.co/api/v2/pokemon/541/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/541.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 19,
@@ -880,7 +1117,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "leavanny",
+          "url": "https://pokeapi.co/api/v2/pokemon/542/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/542.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 20,
@@ -921,7 +1170,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sunkern",
+          "url": "https://pokeapi.co/api/v2/pokemon/191/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/191.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 21,
@@ -962,7 +1223,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sunflora",
+          "url": "https://pokeapi.co/api/v2/pokemon/192/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/192.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 22,
@@ -1003,7 +1276,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "lillipup",
+          "url": "https://pokeapi.co/api/v2/pokemon/506/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/506.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 23,
@@ -1044,7 +1329,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "herdier",
+          "url": "https://pokeapi.co/api/v2/pokemon/507/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/507.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 24,
@@ -1085,7 +1382,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "stoutland",
+          "url": "https://pokeapi.co/api/v2/pokemon/508/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/508.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 25,
@@ -1126,7 +1435,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "mareep",
+          "url": "https://pokeapi.co/api/v2/pokemon/179/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/179.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 26,
@@ -1167,7 +1488,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "flaaffy",
+          "url": "https://pokeapi.co/api/v2/pokemon/180/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/180.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 27,
@@ -1208,7 +1541,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "ampharos",
+          "url": "https://pokeapi.co/api/v2/pokemon/181/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "ampharos-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10045/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/181.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 28,
@@ -1249,7 +1601,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "psyduck",
+          "url": "https://pokeapi.co/api/v2/pokemon/54/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/54.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 29,
@@ -1290,7 +1654,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "golduck",
+          "url": "https://pokeapi.co/api/v2/pokemon/55/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/55.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 30,
@@ -1338,7 +1714,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "azurill",
+          "url": "https://pokeapi.co/api/v2/pokemon/298/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/298.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 31,
@@ -1386,7 +1774,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "marill",
+          "url": "https://pokeapi.co/api/v2/pokemon/183/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/183.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 32,
@@ -1434,7 +1834,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "azumarill",
+          "url": "https://pokeapi.co/api/v2/pokemon/184/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/184.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 33,
@@ -1475,7 +1887,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "riolu",
+          "url": "https://pokeapi.co/api/v2/pokemon/447/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/447.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 34,
@@ -1523,7 +1947,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "lucario",
+          "url": "https://pokeapi.co/api/v2/pokemon/448/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "lucario-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10059/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/448.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 35,
@@ -1564,7 +2007,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "dunsparce",
+          "url": "https://pokeapi.co/api/v2/pokemon/206/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/206.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 36,
@@ -1605,7 +2060,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "audino",
+          "url": "https://pokeapi.co/api/v2/pokemon/531/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "audino-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10069/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/531.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 37,
@@ -1646,7 +2120,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "pansage",
+          "url": "https://pokeapi.co/api/v2/pokemon/511/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/511.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 38,
@@ -1687,7 +2173,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "simisage",
+          "url": "https://pokeapi.co/api/v2/pokemon/512/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/512.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 39,
@@ -1728,7 +2226,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "pansear",
+          "url": "https://pokeapi.co/api/v2/pokemon/513/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/513.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 40,
@@ -1769,7 +2279,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "simisear",
+          "url": "https://pokeapi.co/api/v2/pokemon/514/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/514.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 41,
@@ -1810,7 +2332,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "panpour",
+          "url": "https://pokeapi.co/api/v2/pokemon/515/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/515.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 42,
@@ -1851,7 +2385,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "simipour",
+          "url": "https://pokeapi.co/api/v2/pokemon/516/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/516.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 43,
@@ -1899,7 +2445,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "venipede",
+          "url": "https://pokeapi.co/api/v2/pokemon/543/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/543.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 44,
@@ -1947,7 +2505,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "whirlipede",
+          "url": "https://pokeapi.co/api/v2/pokemon/544/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/544.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 45,
@@ -1995,7 +2565,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "scolipede",
+          "url": "https://pokeapi.co/api/v2/pokemon/545/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/545.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 46,
@@ -2036,7 +2618,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "koffing",
+          "url": "https://pokeapi.co/api/v2/pokemon/109/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/109.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 47,
@@ -2077,7 +2671,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "weezing",
+          "url": "https://pokeapi.co/api/v2/pokemon/110/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "weezing-galar",
+          "url": "https://pokeapi.co/api/v2/pokemon/10167/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/110.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 48,
@@ -2125,7 +2738,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "magnemite",
+          "url": "https://pokeapi.co/api/v2/pokemon/81/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/81.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 49,
@@ -2173,7 +2798,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "magneton",
+          "url": "https://pokeapi.co/api/v2/pokemon/82/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/82.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 50,
@@ -2221,7 +2858,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "magnezone",
+          "url": "https://pokeapi.co/api/v2/pokemon/462/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/462.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 51,
@@ -2262,7 +2911,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "growlithe",
+          "url": "https://pokeapi.co/api/v2/pokemon/58/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "growlithe-hisui",
+          "url": "https://pokeapi.co/api/v2/pokemon/10229/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/58.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 52,
@@ -2303,7 +2971,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "arcanine",
+          "url": "https://pokeapi.co/api/v2/pokemon/59/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "arcanine-hisui",
+          "url": "https://pokeapi.co/api/v2/pokemon/10230/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/59.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 53,
@@ -2344,7 +3031,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "magby",
+          "url": "https://pokeapi.co/api/v2/pokemon/240/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/240.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 54,
@@ -2385,7 +3084,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "magmar",
+          "url": "https://pokeapi.co/api/v2/pokemon/126/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/126.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 55,
@@ -2426,7 +3137,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "magmortar",
+          "url": "https://pokeapi.co/api/v2/pokemon/467/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/467.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 56,
@@ -2467,7 +3190,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "elekid",
+          "url": "https://pokeapi.co/api/v2/pokemon/239/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/239.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 57,
@@ -2508,7 +3243,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "electabuzz",
+          "url": "https://pokeapi.co/api/v2/pokemon/125/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/125.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 58,
@@ -2549,7 +3296,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "electivire",
+          "url": "https://pokeapi.co/api/v2/pokemon/466/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/466.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 59,
@@ -2590,7 +3349,28 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "rattata",
+          "url": "https://pokeapi.co/api/v2/pokemon/19/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "rattata-alola",
+          "url": "https://pokeapi.co/api/v2/pokemon/10091/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/19.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/19.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/19.png"
   },
   {
     "entry_number": 60,
@@ -2631,7 +3411,35 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "raticate",
+          "url": "https://pokeapi.co/api/v2/pokemon/20/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "raticate-alola",
+          "url": "https://pokeapi.co/api/v2/pokemon/10092/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "raticate-totem-alola",
+          "url": "https://pokeapi.co/api/v2/pokemon/10093/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/20.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/20.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/20.png"
   },
   {
     "entry_number": 61,
@@ -2679,7 +3487,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "zubat",
+          "url": "https://pokeapi.co/api/v2/pokemon/41/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/41.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/41.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/41.png"
   },
   {
     "entry_number": 62,
@@ -2727,7 +3549,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "golbat",
+          "url": "https://pokeapi.co/api/v2/pokemon/42/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/42.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/42.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/42.png"
   },
   {
     "entry_number": 63,
@@ -2775,7 +3611,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "crobat",
+          "url": "https://pokeapi.co/api/v2/pokemon/169/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/169.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 64,
@@ -2816,7 +3664,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "grimer",
+          "url": "https://pokeapi.co/api/v2/pokemon/88/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "grimer-alola",
+          "url": "https://pokeapi.co/api/v2/pokemon/10112/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/88.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 65,
@@ -2857,7 +3724,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "muk",
+          "url": "https://pokeapi.co/api/v2/pokemon/89/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "muk-alola",
+          "url": "https://pokeapi.co/api/v2/pokemon/10113/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/89.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 66,
@@ -2905,7 +3791,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "woobat",
+          "url": "https://pokeapi.co/api/v2/pokemon/527/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/527.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 67,
@@ -2953,7 +3851,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "swoobat",
+          "url": "https://pokeapi.co/api/v2/pokemon/528/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/528.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 68,
@@ -2994,7 +3904,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "roggenrola",
+          "url": "https://pokeapi.co/api/v2/pokemon/524/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/524.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 69,
@@ -3035,7 +3957,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "boldore",
+          "url": "https://pokeapi.co/api/v2/pokemon/525/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/525.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 70,
@@ -3076,7 +4010,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "gigalith",
+          "url": "https://pokeapi.co/api/v2/pokemon/526/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/526.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 71,
@@ -3124,7 +4070,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "onix",
+          "url": "https://pokeapi.co/api/v2/pokemon/95/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/95.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 72,
@@ -3172,7 +4130,28 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "steelix",
+          "url": "https://pokeapi.co/api/v2/pokemon/208/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "steelix-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10072/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/208.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/208.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/208.png"
   },
   {
     "entry_number": 73,
@@ -3213,7 +4192,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "timburr",
+          "url": "https://pokeapi.co/api/v2/pokemon/532/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/532.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 74,
@@ -3254,7 +4245,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "gurdurr",
+          "url": "https://pokeapi.co/api/v2/pokemon/533/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/533.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 75,
@@ -3295,7 +4298,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "conkeldurr",
+          "url": "https://pokeapi.co/api/v2/pokemon/534/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/534.png",
+    "gender_rate": 2,
+    "has_gender_differences": false
   },
   {
     "entry_number": 76,
@@ -3336,7 +4351,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "drilbur",
+          "url": "https://pokeapi.co/api/v2/pokemon/529/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/529.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 77,
@@ -3384,7 +4411,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "excadrill",
+          "url": "https://pokeapi.co/api/v2/pokemon/530/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/530.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 78,
@@ -3425,7 +4464,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "skitty",
+          "url": "https://pokeapi.co/api/v2/pokemon/300/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/300.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 79,
@@ -3466,7 +4517,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "delcatty",
+          "url": "https://pokeapi.co/api/v2/pokemon/301/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/301.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 80,
@@ -3507,7 +4570,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "buneary",
+          "url": "https://pokeapi.co/api/v2/pokemon/427/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/427.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 81,
@@ -3548,7 +4623,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "lopunny",
+          "url": "https://pokeapi.co/api/v2/pokemon/428/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "lopunny-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10088/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/428.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 82,
@@ -3596,7 +4690,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "cottonee",
+          "url": "https://pokeapi.co/api/v2/pokemon/546/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/546.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 83,
@@ -3644,7 +4750,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "whimsicott",
+          "url": "https://pokeapi.co/api/v2/pokemon/547/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/547.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 84,
@@ -3685,7 +4803,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "petilil",
+          "url": "https://pokeapi.co/api/v2/pokemon/548/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/548.png",
+    "gender_rate": 8,
+    "has_gender_differences": false
   },
   {
     "entry_number": 85,
@@ -3726,7 +4856,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "lilligant",
+          "url": "https://pokeapi.co/api/v2/pokemon/549/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "lilligant-hisui",
+          "url": "https://pokeapi.co/api/v2/pokemon/10237/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/549.png",
+    "gender_rate": 8,
+    "has_gender_differences": false
   },
   {
     "entry_number": 86,
@@ -3767,7 +4916,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "munna",
+          "url": "https://pokeapi.co/api/v2/pokemon/517/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/517.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 87,
@@ -3808,7 +4969,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "musharna",
+          "url": "https://pokeapi.co/api/v2/pokemon/518/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/518.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 88,
@@ -3849,7 +5022,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "cleffa",
+          "url": "https://pokeapi.co/api/v2/pokemon/173/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/173.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 89,
@@ -3890,7 +5075,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "clefairy",
+          "url": "https://pokeapi.co/api/v2/pokemon/35/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/35.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 90,
@@ -3931,7 +5128,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "clefable",
+          "url": "https://pokeapi.co/api/v2/pokemon/36/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/36.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 91,
@@ -3972,7 +5181,33 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "eevee",
+          "url": "https://pokeapi.co/api/v2/pokemon/133/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "eevee-starter",
+          "url": "https://pokeapi.co/api/v2/pokemon/10159/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "eevee-gmax",
+          "url": "https://pokeapi.co/api/v2/pokemon/10205/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/133.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 92,
@@ -4013,7 +5248,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "vaporeon",
+          "url": "https://pokeapi.co/api/v2/pokemon/134/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/134.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 93,
@@ -4054,7 +5301,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "jolteon",
+          "url": "https://pokeapi.co/api/v2/pokemon/135/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/135.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 94,
@@ -4095,7 +5354,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "flareon",
+          "url": "https://pokeapi.co/api/v2/pokemon/136/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/136.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 95,
@@ -4136,7 +5407,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "espeon",
+          "url": "https://pokeapi.co/api/v2/pokemon/196/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/196.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 96,
@@ -4177,7 +5460,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "umbreon",
+          "url": "https://pokeapi.co/api/v2/pokemon/197/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/197.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 97,
@@ -4218,7 +5513,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "leafeon",
+          "url": "https://pokeapi.co/api/v2/pokemon/470/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/470.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 98,
@@ -4259,7 +5566,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "glaceon",
+          "url": "https://pokeapi.co/api/v2/pokemon/471/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/471.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 99,
@@ -4307,7 +5626,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sandile",
+          "url": "https://pokeapi.co/api/v2/pokemon/551/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/551.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 100,
@@ -4355,7 +5686,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "krokorok",
+          "url": "https://pokeapi.co/api/v2/pokemon/552/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/552.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 101,
@@ -4403,7 +5746,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "krookodile",
+          "url": "https://pokeapi.co/api/v2/pokemon/553/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/553.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 102,
@@ -4444,11 +5799,30 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "darumaka",
+          "url": "https://pokeapi.co/api/v2/pokemon/554/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "darumaka-galar",
+          "url": "https://pokeapi.co/api/v2/pokemon/10176/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/554.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 103,
-    "name": "darmanitan-standard",
+    "name": "darmanitan",
     "national_dex_id": 555,
     "types": [
       {
@@ -4485,11 +5859,44 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "darmanitan-standard",
+          "url": "https://pokeapi.co/api/v2/pokemon/555/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "darmanitan-zen",
+          "url": "https://pokeapi.co/api/v2/pokemon/10017/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "darmanitan-galar-standard",
+          "url": "https://pokeapi.co/api/v2/pokemon/10177/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "darmanitan-galar-zen",
+          "url": "https://pokeapi.co/api/v2/pokemon/10178/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/555.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 104,
-    "name": "basculin-red-striped",
+    "name": "basculin",
     "national_dex_id": 550,
     "types": [
       {
@@ -4526,7 +5933,33 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "basculin-red-striped",
+          "url": "https://pokeapi.co/api/v2/pokemon/550/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "basculin-blue-striped",
+          "url": "https://pokeapi.co/api/v2/pokemon/10016/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "basculin-white-striped",
+          "url": "https://pokeapi.co/api/v2/pokemon/10247/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/550.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 105,
@@ -4567,7 +6000,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "trubbish",
+          "url": "https://pokeapi.co/api/v2/pokemon/568/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/568.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 106,
@@ -4608,7 +6053,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "garbodor",
+          "url": "https://pokeapi.co/api/v2/pokemon/569/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "garbodor-gmax",
+          "url": "https://pokeapi.co/api/v2/pokemon/10207/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/569.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 107,
@@ -4649,7 +6113,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "minccino",
+          "url": "https://pokeapi.co/api/v2/pokemon/572/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/572.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 108,
@@ -4690,7 +6166,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "cinccino",
+          "url": "https://pokeapi.co/api/v2/pokemon/573/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/573.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 109,
@@ -4738,7 +6226,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "rufflet",
+          "url": "https://pokeapi.co/api/v2/pokemon/627/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/627.png",
+    "gender_rate": 0,
+    "has_gender_differences": false
   },
   {
     "entry_number": 110,
@@ -4786,7 +6286,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "braviary",
+          "url": "https://pokeapi.co/api/v2/pokemon/628/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "braviary-hisui",
+          "url": "https://pokeapi.co/api/v2/pokemon/10240/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/628.png",
+    "gender_rate": 0,
+    "has_gender_differences": false
   },
   {
     "entry_number": 111,
@@ -4834,7 +6353,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "vullaby",
+          "url": "https://pokeapi.co/api/v2/pokemon/629/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/629.png",
+    "gender_rate": 8,
+    "has_gender_differences": false
   },
   {
     "entry_number": 112,
@@ -4882,7 +6413,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "mandibuzz",
+          "url": "https://pokeapi.co/api/v2/pokemon/630/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/630.png",
+    "gender_rate": 8,
+    "has_gender_differences": false
   },
   {
     "entry_number": 113,
@@ -4923,7 +6466,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sandshrew",
+          "url": "https://pokeapi.co/api/v2/pokemon/27/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "sandshrew-alola",
+          "url": "https://pokeapi.co/api/v2/pokemon/10101/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/27.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 114,
@@ -4964,7 +6526,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sandslash",
+          "url": "https://pokeapi.co/api/v2/pokemon/28/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "sandslash-alola",
+          "url": "https://pokeapi.co/api/v2/pokemon/10102/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/28.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 115,
@@ -5012,7 +6593,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "dwebble",
+          "url": "https://pokeapi.co/api/v2/pokemon/557/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/557.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 116,
@@ -5060,7 +6653,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "crustle",
+          "url": "https://pokeapi.co/api/v2/pokemon/558/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/558.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 117,
@@ -5108,7 +6713,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "scraggy",
+          "url": "https://pokeapi.co/api/v2/pokemon/559/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/559.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 118,
@@ -5156,7 +6773,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "scrafty",
+          "url": "https://pokeapi.co/api/v2/pokemon/560/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/560.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 119,
@@ -5197,7 +6826,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "maractus",
+          "url": "https://pokeapi.co/api/v2/pokemon/556/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/556.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 120,
@@ -5245,7 +6886,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sigilyph",
+          "url": "https://pokeapi.co/api/v2/pokemon/561/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/561.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 121,
@@ -5286,7 +6939,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "trapinch",
+          "url": "https://pokeapi.co/api/v2/pokemon/328/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/328.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 122,
@@ -5334,7 +6999,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "vibrava",
+          "url": "https://pokeapi.co/api/v2/pokemon/329/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/329.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 123,
@@ -5382,7 +7059,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "flygon",
+          "url": "https://pokeapi.co/api/v2/pokemon/330/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/330.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 124,
@@ -5423,7 +7112,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "yamask",
+          "url": "https://pokeapi.co/api/v2/pokemon/562/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "yamask-galar",
+          "url": "https://pokeapi.co/api/v2/pokemon/10179/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/562.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 125,
@@ -5464,7 +7172,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "cofagrigus",
+          "url": "https://pokeapi.co/api/v2/pokemon/563/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/563.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 126,
@@ -5512,7 +7232,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "tirtouga",
+          "url": "https://pokeapi.co/api/v2/pokemon/564/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/564.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 127,
@@ -5560,7 +7292,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "carracosta",
+          "url": "https://pokeapi.co/api/v2/pokemon/565/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/565.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 128,
@@ -5608,7 +7352,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "archen",
+          "url": "https://pokeapi.co/api/v2/pokemon/566/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/566.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 129,
@@ -5656,7 +7412,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "archeops",
+          "url": "https://pokeapi.co/api/v2/pokemon/567/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/567.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 130,
@@ -5697,7 +7465,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "klink",
+          "url": "https://pokeapi.co/api/v2/pokemon/599/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/599.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 131,
@@ -5738,7 +7518,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "klang",
+          "url": "https://pokeapi.co/api/v2/pokemon/600/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/600.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 132,
@@ -5779,7 +7571,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "klinklang",
+          "url": "https://pokeapi.co/api/v2/pokemon/601/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/601.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 133,
@@ -5827,7 +7631,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "budew",
+          "url": "https://pokeapi.co/api/v2/pokemon/406/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/406.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 134,
@@ -5875,7 +7691,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "roselia",
+          "url": "https://pokeapi.co/api/v2/pokemon/315/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/315.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/315.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/315.png"
   },
   {
     "entry_number": 135,
@@ -5923,7 +7753,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "roserade",
+          "url": "https://pokeapi.co/api/v2/pokemon/407/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/407.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/407.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/407.png"
   },
   {
     "entry_number": 136,
@@ -5964,7 +7808,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "gothita",
+          "url": "https://pokeapi.co/api/v2/pokemon/574/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/574.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 137,
@@ -6005,7 +7861,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "gothorita",
+          "url": "https://pokeapi.co/api/v2/pokemon/575/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/575.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 138,
@@ -6046,7 +7914,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "gothitelle",
+          "url": "https://pokeapi.co/api/v2/pokemon/576/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/576.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 139,
@@ -6087,7 +7967,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "solosis",
+          "url": "https://pokeapi.co/api/v2/pokemon/577/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/577.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 140,
@@ -6128,7 +8020,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "duosion",
+          "url": "https://pokeapi.co/api/v2/pokemon/578/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/578.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 141,
@@ -6169,7 +8073,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "reuniclus",
+          "url": "https://pokeapi.co/api/v2/pokemon/579/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/579.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 142,
@@ -6217,7 +8133,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "combee",
+          "url": "https://pokeapi.co/api/v2/pokemon/415/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/415.png",
+    "gender_rate": 1,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/415.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/415.png"
   },
   {
     "entry_number": 143,
@@ -6265,7 +8195,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "vespiquen",
+          "url": "https://pokeapi.co/api/v2/pokemon/416/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/416.png",
+    "gender_rate": 8,
+    "has_gender_differences": false
   },
   {
     "entry_number": 144,
@@ -6313,7 +8255,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "emolga",
+          "url": "https://pokeapi.co/api/v2/pokemon/587/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/587.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 145,
@@ -6361,7 +8315,28 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "heracross",
+          "url": "https://pokeapi.co/api/v2/pokemon/214/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "heracross-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10047/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/214.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/214.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/214.png"
   },
   {
     "entry_number": 146,
@@ -6402,7 +8377,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "pinsir",
+          "url": "https://pokeapi.co/api/v2/pokemon/127/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "pinsir-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10040/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/127.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 147,
@@ -6443,7 +8437,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "blitzle",
+          "url": "https://pokeapi.co/api/v2/pokemon/522/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/522.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 148,
@@ -6484,7 +8490,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "zebstrika",
+          "url": "https://pokeapi.co/api/v2/pokemon/523/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/523.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 149,
@@ -6525,7 +8543,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "buizel",
+          "url": "https://pokeapi.co/api/v2/pokemon/418/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/418.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/418.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/418.png"
   },
   {
     "entry_number": 150,
@@ -6566,7 +8598,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "floatzel",
+          "url": "https://pokeapi.co/api/v2/pokemon/419/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/419.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/419.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/419.png"
   },
   {
     "entry_number": 151,
@@ -6607,7 +8653,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "zorua",
+          "url": "https://pokeapi.co/api/v2/pokemon/570/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "zorua-hisui",
+          "url": "https://pokeapi.co/api/v2/pokemon/10238/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/570.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 152,
@@ -6648,7 +8713,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "zoroark",
+          "url": "https://pokeapi.co/api/v2/pokemon/571/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "zoroark-hisui",
+          "url": "https://pokeapi.co/api/v2/pokemon/10239/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/571.png",
+    "gender_rate": 1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 153,
@@ -6696,7 +8780,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "ducklett",
+          "url": "https://pokeapi.co/api/v2/pokemon/580/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/580.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 154,
@@ -6744,7 +8840,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "swanna",
+          "url": "https://pokeapi.co/api/v2/pokemon/581/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/581.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 155,
@@ -6785,7 +8893,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "karrablast",
+          "url": "https://pokeapi.co/api/v2/pokemon/588/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/588.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 156,
@@ -6833,7 +8953,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "escavalier",
+          "url": "https://pokeapi.co/api/v2/pokemon/589/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/589.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 157,
@@ -6874,7 +9006,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "shelmet",
+          "url": "https://pokeapi.co/api/v2/pokemon/616/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/616.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 158,
@@ -6915,7 +9059,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "accelgor",
+          "url": "https://pokeapi.co/api/v2/pokemon/617/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/617.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 159,
@@ -6963,7 +9119,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "deerling",
+          "url": "https://pokeapi.co/api/v2/pokemon/585/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/585.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 160,
@@ -7011,7 +9179,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sawsbuck",
+          "url": "https://pokeapi.co/api/v2/pokemon/586/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/586.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 161,
@@ -7059,7 +9239,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "foongus",
+          "url": "https://pokeapi.co/api/v2/pokemon/590/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/590.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 162,
@@ -7107,7 +9299,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "amoonguss",
+          "url": "https://pokeapi.co/api/v2/pokemon/591/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/591.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 163,
@@ -7148,7 +9352,40 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "castform",
+          "url": "https://pokeapi.co/api/v2/pokemon/351/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "castform-sunny",
+          "url": "https://pokeapi.co/api/v2/pokemon/10013/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "castform-rainy",
+          "url": "https://pokeapi.co/api/v2/pokemon/10014/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "castform-snowy",
+          "url": "https://pokeapi.co/api/v2/pokemon/10015/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/351.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 164,
@@ -7189,7 +9426,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "nosepass",
+          "url": "https://pokeapi.co/api/v2/pokemon/299/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/299.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 165,
@@ -7237,7 +9486,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "probopass",
+          "url": "https://pokeapi.co/api/v2/pokemon/476/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/476.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 166,
@@ -7285,7 +9546,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "aron",
+          "url": "https://pokeapi.co/api/v2/pokemon/304/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/304.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 167,
@@ -7333,7 +9606,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "lairon",
+          "url": "https://pokeapi.co/api/v2/pokemon/305/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/305.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 168,
@@ -7381,7 +9666,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "aggron",
+          "url": "https://pokeapi.co/api/v2/pokemon/306/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "aggron-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10053/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/306.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 169,
@@ -7429,7 +9733,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "baltoy",
+          "url": "https://pokeapi.co/api/v2/pokemon/343/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/343.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 170,
@@ -7477,7 +9793,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "claydol",
+          "url": "https://pokeapi.co/api/v2/pokemon/344/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/344.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 171,
@@ -7525,7 +9853,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "larvesta",
+          "url": "https://pokeapi.co/api/v2/pokemon/636/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/636.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 172,
@@ -7573,7 +9913,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "volcarona",
+          "url": "https://pokeapi.co/api/v2/pokemon/637/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/637.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 173,
@@ -7621,7 +9973,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "joltik",
+          "url": "https://pokeapi.co/api/v2/pokemon/595/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/595.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 174,
@@ -7669,7 +10033,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "galvantula",
+          "url": "https://pokeapi.co/api/v2/pokemon/596/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/596.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 175,
@@ -7717,7 +10093,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "ferroseed",
+          "url": "https://pokeapi.co/api/v2/pokemon/597/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/597.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 176,
@@ -7765,7 +10153,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "ferrothorn",
+          "url": "https://pokeapi.co/api/v2/pokemon/598/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/598.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 177,
@@ -7806,7 +10206,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "tynamo",
+          "url": "https://pokeapi.co/api/v2/pokemon/602/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/602.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 178,
@@ -7847,7 +10259,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "eelektrik",
+          "url": "https://pokeapi.co/api/v2/pokemon/603/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/603.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 179,
@@ -7888,7 +10312,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "eelektross",
+          "url": "https://pokeapi.co/api/v2/pokemon/604/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/604.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 180,
@@ -7936,7 +10372,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "frillish",
+          "url": "https://pokeapi.co/api/v2/pokemon/592/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/592.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/592.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/592.png"
   },
   {
     "entry_number": 181,
@@ -7984,7 +10434,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "jellicent",
+          "url": "https://pokeapi.co/api/v2/pokemon/593/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/593.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/593.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/593.png"
   },
   {
     "entry_number": 182,
@@ -8025,7 +10489,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "alomomola",
+          "url": "https://pokeapi.co/api/v2/pokemon/594/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/594.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 183,
@@ -8066,7 +10542,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "axew",
+          "url": "https://pokeapi.co/api/v2/pokemon/610/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/610.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 184,
@@ -8107,7 +10595,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "fraxure",
+          "url": "https://pokeapi.co/api/v2/pokemon/611/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/611.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 185,
@@ -8148,7 +10648,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "haxorus",
+          "url": "https://pokeapi.co/api/v2/pokemon/612/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/612.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 186,
@@ -8189,7 +10701,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "zangoose",
+          "url": "https://pokeapi.co/api/v2/pokemon/335/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/335.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 187,
@@ -8230,7 +10754,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "seviper",
+          "url": "https://pokeapi.co/api/v2/pokemon/336/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/336.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 188,
@@ -8271,7 +10807,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "elgyem",
+          "url": "https://pokeapi.co/api/v2/pokemon/605/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/605.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 189,
@@ -8312,7 +10860,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "beheeyem",
+          "url": "https://pokeapi.co/api/v2/pokemon/606/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/606.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 190,
@@ -8360,7 +10920,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "litwick",
+          "url": "https://pokeapi.co/api/v2/pokemon/607/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/607.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 191,
@@ -8408,7 +10980,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "lampent",
+          "url": "https://pokeapi.co/api/v2/pokemon/608/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/608.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 192,
@@ -8456,7 +11040,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "chandelure",
+          "url": "https://pokeapi.co/api/v2/pokemon/609/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/609.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 193,
@@ -8497,7 +11093,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "heatmor",
+          "url": "https://pokeapi.co/api/v2/pokemon/631/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/631.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 194,
@@ -8545,7 +11153,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "durant",
+          "url": "https://pokeapi.co/api/v2/pokemon/632/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/632.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 195,
@@ -8586,7 +11206,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "cubchoo",
+          "url": "https://pokeapi.co/api/v2/pokemon/613/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/613.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 196,
@@ -8627,7 +11259,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "beartic",
+          "url": "https://pokeapi.co/api/v2/pokemon/614/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/614.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 197,
@@ -8668,11 +11312,23 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "cryogonal",
+          "url": "https://pokeapi.co/api/v2/pokemon/615/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/615.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 198,
-    "name": "tornadus-incarnate",
+    "name": "tornadus",
     "national_dex_id": 641,
     "types": [
       {
@@ -8709,11 +11365,30 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "tornadus-incarnate",
+          "url": "https://pokeapi.co/api/v2/pokemon/641/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "tornadus-therian",
+          "url": "https://pokeapi.co/api/v2/pokemon/10019/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/641.png",
+    "gender_rate": 0,
+    "has_gender_differences": false
   },
   {
     "entry_number": 199,
-    "name": "thundurus-incarnate",
+    "name": "thundurus",
     "national_dex_id": 642,
     "types": [
       {
@@ -8757,11 +11432,30 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "thundurus-incarnate",
+          "url": "https://pokeapi.co/api/v2/pokemon/642/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "thundurus-therian",
+          "url": "https://pokeapi.co/api/v2/pokemon/10020/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/642.png",
+    "gender_rate": 0,
+    "has_gender_differences": false
   },
   {
     "entry_number": 200,
-    "name": "landorus-incarnate",
+    "name": "landorus",
     "national_dex_id": 645,
     "types": [
       {
@@ -8805,7 +11499,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "landorus-incarnate",
+          "url": "https://pokeapi.co/api/v2/pokemon/645/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "landorus-therian",
+          "url": "https://pokeapi.co/api/v2/pokemon/10021/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/645.png",
+    "gender_rate": 0,
+    "has_gender_differences": false
   },
   {
     "entry_number": 201,
@@ -8853,7 +11566,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "skorupi",
+          "url": "https://pokeapi.co/api/v2/pokemon/451/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/451.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 202,
@@ -8901,7 +11626,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "drapion",
+          "url": "https://pokeapi.co/api/v2/pokemon/452/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/452.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 203,
@@ -8949,7 +11686,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "skarmory",
+          "url": "https://pokeapi.co/api/v2/pokemon/227/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/227.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 204,
@@ -8997,7 +11746,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "numel",
+          "url": "https://pokeapi.co/api/v2/pokemon/322/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/322.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/322.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/322.png"
   },
   {
     "entry_number": 205,
@@ -9045,7 +11808,28 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "camerupt",
+          "url": "https://pokeapi.co/api/v2/pokemon/323/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "camerupt-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10087/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/323.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/323.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/323.png"
   },
   {
     "entry_number": 206,
@@ -9086,7 +11870,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "spoink",
+          "url": "https://pokeapi.co/api/v2/pokemon/325/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/325.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 207,
@@ -9127,7 +11923,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "grumpig",
+          "url": "https://pokeapi.co/api/v2/pokemon/326/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/326.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 208,
@@ -9175,7 +11983,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "drifloon",
+          "url": "https://pokeapi.co/api/v2/pokemon/425/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/425.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 209,
@@ -9223,7 +12043,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "drifblim",
+          "url": "https://pokeapi.co/api/v2/pokemon/426/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/426.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 210,
@@ -9264,7 +12096,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "shuppet",
+          "url": "https://pokeapi.co/api/v2/pokemon/353/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/353.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 211,
@@ -9305,7 +12149,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "banette",
+          "url": "https://pokeapi.co/api/v2/pokemon/354/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "banette-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10056/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/354.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 212,
@@ -9353,7 +12216,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "wingull",
+          "url": "https://pokeapi.co/api/v2/pokemon/278/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/278.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 213,
@@ -9401,7 +12276,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "pelipper",
+          "url": "https://pokeapi.co/api/v2/pokemon/279/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/279.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 214,
@@ -9449,7 +12336,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "lunatone",
+          "url": "https://pokeapi.co/api/v2/pokemon/337/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/337.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 215,
@@ -9497,7 +12396,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "solrock",
+          "url": "https://pokeapi.co/api/v2/pokemon/338/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/338.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 216,
@@ -9538,7 +12449,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "absol",
+          "url": "https://pokeapi.co/api/v2/pokemon/359/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "absol-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10057/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/359.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 217,
@@ -9579,7 +12509,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "tangela",
+          "url": "https://pokeapi.co/api/v2/pokemon/114/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/114.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 218,
@@ -9620,7 +12562,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "tangrowth",
+          "url": "https://pokeapi.co/api/v2/pokemon/465/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/465.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/465.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/465.png"
   },
   {
     "entry_number": 219,
@@ -9661,7 +12617,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "mienfoo",
+          "url": "https://pokeapi.co/api/v2/pokemon/619/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/619.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 220,
@@ -9702,7 +12670,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "mienshao",
+          "url": "https://pokeapi.co/api/v2/pokemon/620/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/620.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 221,
@@ -9750,7 +12730,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "gligar",
+          "url": "https://pokeapi.co/api/v2/pokemon/207/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/207.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/207.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/207.png"
   },
   {
     "entry_number": 222,
@@ -9798,7 +12792,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "gliscor",
+          "url": "https://pokeapi.co/api/v2/pokemon/472/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/472.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 223,
@@ -9846,7 +12852,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "pawniard",
+          "url": "https://pokeapi.co/api/v2/pokemon/624/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/624.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 224,
@@ -9894,7 +12912,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "bisharp",
+          "url": "https://pokeapi.co/api/v2/pokemon/625/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/625.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 225,
@@ -9942,7 +12972,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "cobalion",
+          "url": "https://pokeapi.co/api/v2/pokemon/638/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/638.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 226,
@@ -9990,7 +13032,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "terrakion",
+          "url": "https://pokeapi.co/api/v2/pokemon/639/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/639.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 227,
@@ -10038,7 +13092,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "virizion",
+          "url": "https://pokeapi.co/api/v2/pokemon/640/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/640.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 228,
@@ -10079,7 +13145,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "tympole",
+          "url": "https://pokeapi.co/api/v2/pokemon/535/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/535.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 229,
@@ -10127,7 +13205,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "palpitoad",
+          "url": "https://pokeapi.co/api/v2/pokemon/536/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/536.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 230,
@@ -10175,7 +13265,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "seismitoad",
+          "url": "https://pokeapi.co/api/v2/pokemon/537/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/537.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 231,
@@ -10223,7 +13325,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "stunfisk",
+          "url": "https://pokeapi.co/api/v2/pokemon/618/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "stunfisk-galar",
+          "url": "https://pokeapi.co/api/v2/pokemon/10180/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/618.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 232,
@@ -10271,7 +13392,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "shuckle",
+          "url": "https://pokeapi.co/api/v2/pokemon/213/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/213.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 233,
@@ -10319,7 +13452,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "mantyke",
+          "url": "https://pokeapi.co/api/v2/pokemon/458/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/458.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 234,
@@ -10367,7 +13512,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "mantine",
+          "url": "https://pokeapi.co/api/v2/pokemon/226/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/226.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 235,
@@ -10408,7 +13565,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "remoraid",
+          "url": "https://pokeapi.co/api/v2/pokemon/223/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/223.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 236,
@@ -10449,7 +13618,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "octillery",
+          "url": "https://pokeapi.co/api/v2/pokemon/224/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/224.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/224.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/224.png"
   },
   {
     "entry_number": 237,
@@ -10497,7 +13680,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "corsola",
+          "url": "https://pokeapi.co/api/v2/pokemon/222/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "corsola-galar",
+          "url": "https://pokeapi.co/api/v2/pokemon/10173/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/222.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 238,
@@ -10538,7 +13740,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "staryu",
+          "url": "https://pokeapi.co/api/v2/pokemon/120/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/120.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 239,
@@ -10586,7 +13800,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "starmie",
+          "url": "https://pokeapi.co/api/v2/pokemon/121/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/121.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 240,
@@ -10627,7 +13853,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "wailmer",
+          "url": "https://pokeapi.co/api/v2/pokemon/320/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/320.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 241,
@@ -10668,7 +13906,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "wailord",
+          "url": "https://pokeapi.co/api/v2/pokemon/321/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/321.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 242,
@@ -10716,7 +13966,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "lapras",
+          "url": "https://pokeapi.co/api/v2/pokemon/131/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "lapras-gmax",
+          "url": "https://pokeapi.co/api/v2/pokemon/10204/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/131.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 243,
@@ -10764,7 +14033,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "spheal",
+          "url": "https://pokeapi.co/api/v2/pokemon/363/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/363.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 244,
@@ -10812,7 +14093,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sealeo",
+          "url": "https://pokeapi.co/api/v2/pokemon/364/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/364.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 245,
@@ -10860,7 +14153,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "walrein",
+          "url": "https://pokeapi.co/api/v2/pokemon/365/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/365.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 246,
@@ -10908,7 +14213,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "swablu",
+          "url": "https://pokeapi.co/api/v2/pokemon/333/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/333.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 247,
@@ -10956,7 +14273,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "altaria",
+          "url": "https://pokeapi.co/api/v2/pokemon/334/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "altaria-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10067/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/334.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 248,
@@ -10997,7 +14333,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "vulpix",
+          "url": "https://pokeapi.co/api/v2/pokemon/37/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "vulpix-alola",
+          "url": "https://pokeapi.co/api/v2/pokemon/10103/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/37.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 249,
@@ -11038,7 +14393,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "ninetales",
+          "url": "https://pokeapi.co/api/v2/pokemon/38/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "ninetales-alola",
+          "url": "https://pokeapi.co/api/v2/pokemon/10104/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/38.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 250,
@@ -11086,7 +14460,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "bronzor",
+          "url": "https://pokeapi.co/api/v2/pokemon/436/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/436.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 251,
@@ -11134,7 +14520,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "bronzong",
+          "url": "https://pokeapi.co/api/v2/pokemon/437/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/437.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 252,
@@ -11182,7 +14580,28 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sneasel",
+          "url": "https://pokeapi.co/api/v2/pokemon/215/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "sneasel-hisui",
+          "url": "https://pokeapi.co/api/v2/pokemon/10235/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/215.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/215.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/215.png"
   },
   {
     "entry_number": 253,
@@ -11230,7 +14649,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "weavile",
+          "url": "https://pokeapi.co/api/v2/pokemon/461/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/461.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/461.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/461.png"
   },
   {
     "entry_number": 254,
@@ -11278,7 +14711,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "delibird",
+          "url": "https://pokeapi.co/api/v2/pokemon/225/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/225.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 255,
@@ -11319,7 +14764,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "vanillite",
+          "url": "https://pokeapi.co/api/v2/pokemon/582/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/582.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 256,
@@ -11360,7 +14817,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "vanillish",
+          "url": "https://pokeapi.co/api/v2/pokemon/583/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/583.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 257,
@@ -11401,7 +14870,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "vanilluxe",
+          "url": "https://pokeapi.co/api/v2/pokemon/584/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/584.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 258,
@@ -11449,7 +14930,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "swinub",
+          "url": "https://pokeapi.co/api/v2/pokemon/220/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/220.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 259,
@@ -11497,7 +14990,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "piloswine",
+          "url": "https://pokeapi.co/api/v2/pokemon/221/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/221.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/221.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/221.png"
   },
   {
     "entry_number": 260,
@@ -11545,7 +15052,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "mamoswine",
+          "url": "https://pokeapi.co/api/v2/pokemon/473/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/473.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/473.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/473.png"
   },
   {
     "entry_number": 261,
@@ -11586,7 +15107,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "ditto",
+          "url": "https://pokeapi.co/api/v2/pokemon/132/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/132.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 262,
@@ -11634,7 +15167,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "beldum",
+          "url": "https://pokeapi.co/api/v2/pokemon/374/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/374.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 263,
@@ -11682,7 +15227,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "metang",
+          "url": "https://pokeapi.co/api/v2/pokemon/375/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/375.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 264,
@@ -11730,7 +15287,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "metagross",
+          "url": "https://pokeapi.co/api/v2/pokemon/376/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "metagross-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10076/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/376.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 265,
@@ -11771,7 +15347,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "seel",
+          "url": "https://pokeapi.co/api/v2/pokemon/86/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/86.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 266,
@@ -11819,7 +15407,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "dewgong",
+          "url": "https://pokeapi.co/api/v2/pokemon/87/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/87.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 267,
@@ -11860,7 +15460,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "throh",
+          "url": "https://pokeapi.co/api/v2/pokemon/538/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/538.png",
+    "gender_rate": 0,
+    "has_gender_differences": false
   },
   {
     "entry_number": 268,
@@ -11901,7 +15513,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "sawk",
+          "url": "https://pokeapi.co/api/v2/pokemon/539/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/539.png",
+    "gender_rate": 0,
+    "has_gender_differences": false
   },
   {
     "entry_number": 269,
@@ -11942,7 +15566,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "bouffalant",
+          "url": "https://pokeapi.co/api/v2/pokemon/626/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/626.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 270,
@@ -11983,7 +15619,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "druddigon",
+          "url": "https://pokeapi.co/api/v2/pokemon/621/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/621.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 271,
@@ -12031,7 +15679,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "golett",
+          "url": "https://pokeapi.co/api/v2/pokemon/622/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/622.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 272,
@@ -12079,7 +15739,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "golurk",
+          "url": "https://pokeapi.co/api/v2/pokemon/623/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/623.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 273,
@@ -12127,7 +15799,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "deino",
+          "url": "https://pokeapi.co/api/v2/pokemon/633/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/633.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 274,
@@ -12175,7 +15859,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "zweilous",
+          "url": "https://pokeapi.co/api/v2/pokemon/634/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/634.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 275,
@@ -12223,7 +15919,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "hydreigon",
+          "url": "https://pokeapi.co/api/v2/pokemon/635/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/635.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 276,
@@ -12264,7 +15972,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "slakoth",
+          "url": "https://pokeapi.co/api/v2/pokemon/287/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/287.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 277,
@@ -12305,7 +16025,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "vigoroth",
+          "url": "https://pokeapi.co/api/v2/pokemon/288/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/288.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 278,
@@ -12346,7 +16078,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "slaking",
+          "url": "https://pokeapi.co/api/v2/pokemon/289/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/289.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 279,
@@ -12387,7 +16131,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "corphish",
+          "url": "https://pokeapi.co/api/v2/pokemon/341/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/341.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 280,
@@ -12435,7 +16191,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": true
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "crawdaunt",
+          "url": "https://pokeapi.co/api/v2/pokemon/342/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/342.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 281,
@@ -12483,7 +16251,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "igglybuff",
+          "url": "https://pokeapi.co/api/v2/pokemon/174/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/174.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 282,
@@ -12531,7 +16311,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "jigglypuff",
+          "url": "https://pokeapi.co/api/v2/pokemon/39/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/39.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 283,
@@ -12579,7 +16371,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "wigglytuff",
+          "url": "https://pokeapi.co/api/v2/pokemon/40/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/40.png",
+    "gender_rate": 6,
+    "has_gender_differences": false
   },
   {
     "entry_number": 284,
@@ -12620,7 +16424,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "lickitung",
+          "url": "https://pokeapi.co/api/v2/pokemon/108/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/108.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 285,
@@ -12661,7 +16477,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "lickilicky",
+          "url": "https://pokeapi.co/api/v2/pokemon/463/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/463.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 286,
@@ -12709,7 +16537,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "yanma",
+          "url": "https://pokeapi.co/api/v2/pokemon/193/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/193.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 287,
@@ -12757,7 +16597,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "yanmega",
+          "url": "https://pokeapi.co/api/v2/pokemon/469/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/469.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 288,
@@ -12805,7 +16657,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "tropius",
+          "url": "https://pokeapi.co/api/v2/pokemon/357/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/357.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 289,
@@ -12846,7 +16710,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "carnivine",
+          "url": "https://pokeapi.co/api/v2/pokemon/455/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/455.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 290,
@@ -12894,7 +16770,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "croagunk",
+          "url": "https://pokeapi.co/api/v2/pokemon/453/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/453.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/453.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/453.png"
   },
   {
     "entry_number": 291,
@@ -12942,7 +16832,21 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "toxicroak",
+          "url": "https://pokeapi.co/api/v2/pokemon/454/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/454.png",
+    "gender_rate": 4,
+    "has_gender_differences": true,
+    "female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/female/454.png",
+    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/female/454.png"
   },
   {
     "entry_number": 292,
@@ -12990,7 +16894,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "larvitar",
+          "url": "https://pokeapi.co/api/v2/pokemon/246/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/246.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 293,
@@ -13038,7 +16954,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "pupitar",
+          "url": "https://pokeapi.co/api/v2/pokemon/247/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/247.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 294,
@@ -13086,7 +17014,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "tyranitar",
+          "url": "https://pokeapi.co/api/v2/pokemon/248/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "tyranitar-mega",
+          "url": "https://pokeapi.co/api/v2/pokemon/10049/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/248.png",
+    "gender_rate": 4,
+    "has_gender_differences": false
   },
   {
     "entry_number": 295,
@@ -13134,7 +17081,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "reshiram",
+          "url": "https://pokeapi.co/api/v2/pokemon/643/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/643.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 296,
@@ -13182,7 +17141,19 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "zekrom",
+          "url": "https://pokeapi.co/api/v2/pokemon/644/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/644.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 297,
@@ -13230,11 +17201,37 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "kyurem",
+          "url": "https://pokeapi.co/api/v2/pokemon/646/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "kyurem-black",
+          "url": "https://pokeapi.co/api/v2/pokemon/10022/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "kyurem-white",
+          "url": "https://pokeapi.co/api/v2/pokemon/10023/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/646.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 298,
-    "name": "keldeo-ordinary",
+    "name": "keldeo",
     "national_dex_id": 647,
     "types": [
       {
@@ -13278,11 +17275,30 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "keldeo-ordinary",
+          "url": "https://pokeapi.co/api/v2/pokemon/647/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "keldeo-resolute",
+          "url": "https://pokeapi.co/api/v2/pokemon/10024/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/647.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 299,
-    "name": "meloetta-aria",
+    "name": "meloetta",
     "national_dex_id": 648,
     "types": [
       {
@@ -13326,7 +17342,26 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "meloetta-aria",
+          "url": "https://pokeapi.co/api/v2/pokemon/648/"
+        }
+      },
+      {
+        "is_default": false,
+        "pokemon": {
+          "name": "meloetta-pirouette",
+          "url": "https://pokeapi.co/api/v2/pokemon/10018/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/648.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   },
   {
     "entry_number": 300,
@@ -13374,6 +17409,18 @@ export const gen5bw2Dex = [
         "name": "dive",
         "can_learn": false
       }
-    ]
+    ],
+    "varieties": [
+      {
+        "is_default": true,
+        "pokemon": {
+          "name": "genesect",
+          "url": "https://pokeapi.co/api/v2/pokemon/649/"
+        }
+      }
+    ],
+    "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/649.png",
+    "gender_rate": -1,
+    "has_gender_differences": false
   }
 ]

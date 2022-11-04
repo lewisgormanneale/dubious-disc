@@ -307,6 +307,14 @@ function updateTeam(selectedPokemon, teamMemberContainer) {
     const teamMemberOptions = teamMemberContainer.querySelector('.team-member-options')
     teamMemberOptions.classList.remove('invisible')
 
+    const genderOption = teamMemberOptions.querySelector('.gender-option')
+    const genderIcon = teamMemberOptions.querySelector('.gender-symbol')
+    let genderRate = selectedPokemon.gender_rate
+    if (genderRate === -1) {
+        genderOption.style.backgroundColor = "green"
+        genderIcon.textContent = 'agender'
+    }
+
     if (typeOverlap === true) {
         typeOverlapChecker()
     }
