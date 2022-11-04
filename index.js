@@ -361,7 +361,16 @@ function removeFromTeam(pos) {
 
 // Other Team Option Functions
 function genderToggle() {
-
+    const button = this;
+    const genderSymbol = button.querySelector('.gender-symbol')
+    if (genderSymbol.textContent === 'male') {
+        genderSymbol.textContent = 'female'
+        button.style.backgroundColor = 'pink'
+    } else {
+        genderSymbol.textContent = 'male'
+        button.style.backgroundColor = 'lightskyblue'
+    }
+   
 }
 
 function shinyToggle() {
