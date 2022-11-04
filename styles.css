@@ -299,7 +299,7 @@ main {
 }
 
 .gender-option {
-    background-color: rgb(0, 138, 183);
+    background-color: lightskyblue;
     color: black;
 }
 
@@ -313,7 +313,7 @@ main {
 }
 
 .shiny-option {
-    background-color: rgb(246, 246, 72);
+    background-color: yellow;
     color: black;
 }
 .shiny-option > span {
@@ -416,6 +416,7 @@ main {
     height: 15px;
     width: 15px;
     background-color: #eee;
+    border: 1px solid black;
   }
   
   /* On mouse-over, add a grey background color */
@@ -442,8 +443,8 @@ main {
   
   /* Style the checkmark/indicator */
   .hm .checkmark:after {
-    left: 6px;
-    top: 2px;
+    left: 5px;
+    top: 1px;
     width: 2px;
     height: 7px;
     border: solid white;

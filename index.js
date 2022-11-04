@@ -311,8 +311,13 @@ function updateTeam(selectedPokemon, teamMemberContainer) {
     const genderIcon = teamMemberOptions.querySelector('.gender-symbol')
     let genderRate = selectedPokemon.gender_rate
     if (genderRate === -1) {
-        genderOption.style.backgroundColor = "green"
+        genderOption.style.backgroundColor = "lightgreen"
         genderIcon.textContent = 'agender'
+    } else if (genderRate === 8) {
+        genderOption.style.backgroundColor = "pink"
+        genderIcon.textContent = 'female'
+    } else {
+        genderOption.addEventListener('click', genderToggle);
     }
 
     if (typeOverlap === true) {
@@ -355,18 +360,32 @@ function removeFromTeam(pos) {
 }
 
 // Other Team Option Functions
+function genderToggle() {
+
+}
+
 function shinyToggle() {
-    let pokemon = this.parentNode.parentNode;
-    let pokemonImage = pokemon.querySelector('.pokemon-image');
-    let pokemonID = (pokemon.querySelector('.pokemon-id').textContent).substring(1);
+    const pokemon = this.parentNode.parentNode;
+    const pokemonImage = pokemon.querySelector('.pokemon-image');
+    const pokemonID = (pokemon.querySelector('.pokemon-id').textContent).substring(1);
+    const shinyOption = pokemon.querySelector('.shiny-option');
+
     let arrayPos = 0;
     if (Math.floor(generationNumber) === 5) {
         arrayPos = (pokemonID)
     } else {
         arrayPos = (pokemonID - 1)
     }
+
     let selectedPokemon = selectedGeneration[arrayPos]
-    console.log(selectedPokemon)
+
+    if (pokemonImage.src.includes('shiny')) {
+        shinyOption.style.backgroundColor = 'yellow'
+        pokemonImage.src = selectedPokemon.sprite
+    } else {
+        shinyOption.style.backgroundColor = 'orange'
+        pokemonImage.src = selectedPokemon.shiny_sprite
+    }
 }
 
 
