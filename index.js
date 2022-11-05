@@ -205,7 +205,7 @@ function populateHMs() {
         let hmInput = document.createElement('input');
         hmInput.type = 'checkbox';
         hmInput.name = selectedGeneration[0].hms[i].name.charAt(0).toUpperCase() + selectedGeneration[0].hms[i].name.slice(1);
-        hmInput.value = selectedGeneration[0].hms[i].name;
+        hmInput.value = selectedGeneration[0].hms[i].name.toLowerCase();
         hmInput.addEventListener('click', filterHM);
         hmInput.classList.add('check')
 

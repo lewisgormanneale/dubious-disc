@@ -35,7 +35,7 @@ export const gen4hgssDex = [
         "can_learn": false
       },
       {
-        "name": "rock-smash",
+        "name": "rock-Smash",
         "can_learn": false
       },
       {
@@ -43,7 +43,7 @@ export const gen4hgssDex = [
         "can_learn": false
       },
       {
-        "name": "rock-climb",
+        "name": "rock-Climb",
         "can_learn": false
       }
     ],

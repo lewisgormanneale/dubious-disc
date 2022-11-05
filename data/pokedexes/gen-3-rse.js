@@ -35,7 +35,7 @@ export const gen3rseDex = [
         "can_learn": true
       },
       {
-        "name": "rock-smash",
+        "name": "rock-Smash",
         "can_learn": true
       },
       {
