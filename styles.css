@@ -476,11 +476,25 @@ main {
 #faq {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     margin-top: 20px;
     row-gap: 20px;
     font-size: 0.8em;
     margin-bottom: 20px;
+}
+
+#faq > h3 {
+    margin-top: 20px;
+}
+
+#faq > h3:first-of-type {
+    margin-top: 10px;
+}
+
+.icon-reference {
+    display: flex;
 }
 
 #footer {
@@ -536,4 +550,7 @@ main {
     #options > div > button {
         font-size: 0.5em;
     }
-  }
+    #faq {
+        width: 80%;
+    }
+}
