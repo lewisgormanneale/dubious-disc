@@ -5948,13 +5948,6 @@ export const gen5bw2Dex = [
           "name": "basculin-blue-striped",
           "url": "https://pokeapi.co/api/v2/pokemon/10016/"
         }
-      },
-      {
-        "is_default": false,
-        "pokemon": {
-          "name": "basculin-white-striped",
-          "url": "https://pokeapi.co/api/v2/pokemon/10247/"
-        }
       }
     ],
     "shiny_sprite": "../images/sprites/pokemon/versions/generation-v/black-white/shiny/550.png",
