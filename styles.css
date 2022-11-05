@@ -485,6 +485,13 @@ main {
     margin-bottom: 20px;
 }
 
+#faq-title {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
 #faq > h3 {
     margin-top: 20px;
 }
