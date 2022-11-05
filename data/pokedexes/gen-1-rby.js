@@ -1128,7 +1128,7 @@ export const gen1rbyDex = [
     },
     {
       "entry_number": 29,
-      "name": "nidoran-f",
+      "name": "nidoran-F",
       "types": [
         {
           "slot": 1,
@@ -1246,7 +1246,7 @@ export const gen1rbyDex = [
     },
     {
       "entry_number": 32,
-      "name": "nidoran-m",
+      "name": "nidoran-M",
       "types": [
         {
           "slot": 1,
@@ -4821,20 +4821,13 @@ export const gen1rbyDex = [
     },
     {
       "entry_number": 122,
-      "name": "mr-mime",
+      "name": "mr-Mime",
       "types": [
         {
           "slot": 1,
           "type": {
             "name": "psychic",
             "url": "https://pokeapi.co/api/v2/type/14/"
-          }
-        },
-        {
-          "slot": 2,
-          "type": {
-            "name": "fairy",
-            "url": "https://pokeapi.co/api/v2/type/18/"
           }
         }
       ],

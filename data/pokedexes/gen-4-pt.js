@@ -6169,7 +6169,7 @@ export const gen4ptDex = [
   },
   {
     "entry_number": 94,
-    "name": "mime-jr",
+    "name": "mime-Jr.",
     "national_dex_id": 439,
     "types": [
       {
@@ -6177,13 +6177,6 @@ export const gen4ptDex = [
         "type": {
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -6237,7 +6230,7 @@ export const gen4ptDex = [
   },
   {
     "entry_number": 95,
-    "name": "mr-mime",
+    "name": "mr-Mime",
     "national_dex_id": 122,
     "types": [
       {
@@ -6245,13 +6238,6 @@ export const gen4ptDex = [
         "type": {
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -6501,8 +6487,8 @@ export const gen4ptDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -6562,8 +6548,8 @@ export const gen4ptDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -6623,8 +6609,8 @@ export const gen4ptDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -8280,13 +8266,6 @@ export const gen4ptDex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/298.png",
@@ -8348,13 +8327,6 @@ export const gen4ptDex = [
           "name": "water",
           "url": "https://pokeapi.co/api/v2/type/11/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/183.png",
@@ -8415,13 +8387,6 @@ export const gen4ptDex = [
         "type": {
           "name": "water",
           "url": "https://pokeapi.co/api/v2/type/11/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -10525,13 +10490,6 @@ export const gen4ptDex = [
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/280.png",
@@ -10593,13 +10551,6 @@ export const gen4ptDex = [
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/281.png",
@@ -10660,13 +10611,6 @@ export const gen4ptDex = [
         "type": {
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -11575,8 +11519,8 @@ export const gen4ptDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -11636,8 +11580,8 @@ export const gen4ptDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       },
       {
@@ -11704,8 +11648,8 @@ export const gen4ptDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       },
       {

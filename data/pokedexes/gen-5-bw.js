@@ -2901,13 +2901,6 @@ export const gen5bwDex = [
           "name": "grass",
           "url": "https://pokeapi.co/api/v2/type/12/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/546.png",
@@ -2960,13 +2953,6 @@ export const gen5bwDex = [
         "type": {
           "name": "grass",
           "url": "https://pokeapi.co/api/v2/type/12/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],

@@ -2742,8 +2742,8 @@ export const gen4hgssDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -2803,8 +2803,8 @@ export const gen4hgssDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -2864,8 +2864,8 @@ export const gen4hgssDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -2928,13 +2928,6 @@ export const gen4hgssDex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/174.png",
@@ -2995,13 +2988,6 @@ export const gen4hgssDex = [
         "type": {
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -3064,13 +3050,6 @@ export const gen4hgssDex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/40.png",
@@ -3129,8 +3108,8 @@ export const gen4hgssDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -3190,8 +3169,8 @@ export const gen4hgssDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       },
       {
@@ -8401,8 +8380,8 @@ export const gen4hgssDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -8462,8 +8441,8 @@ export const gen4hgssDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -8859,13 +8838,6 @@ export const gen4hgssDex = [
           "name": "water",
           "url": "https://pokeapi.co/api/v2/type/11/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/183.png",
@@ -8926,13 +8898,6 @@ export const gen4hgssDex = [
         "type": {
           "name": "water",
           "url": "https://pokeapi.co/api/v2/type/11/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -10522,7 +10487,7 @@ export const gen4hgssDex = [
   },
   {
     "entry_number": 158,
-    "name": "mr-mime",
+    "name": "mr-Mime",
     "national_dex_id": 122,
     "types": [
       {
@@ -10530,13 +10495,6 @@ export const gen4hgssDex = [
         "type": {
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],

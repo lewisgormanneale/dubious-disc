@@ -1884,7 +1884,7 @@ export const gen3frlgDex = [
   },
   {
     "entry_number": 29,
-    "name": "nidoran-f",
+    "name": "nidoran-F",
     "national_dex_id": 29,
     "types": [
       {
@@ -2059,7 +2059,7 @@ export const gen3frlgDex = [
   },
   {
     "entry_number": 32,
-    "name": "nidoran-m",
+    "name": "nidoran-M",
     "national_dex_id": 32,
     "types": [
       {
@@ -2240,8 +2240,8 @@ export const gen3frlgDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -2296,8 +2296,8 @@ export const gen3frlgDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -2481,13 +2481,6 @@ export const gen3frlgDex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iii/firered-leafgreen/39.png",
@@ -2543,13 +2536,6 @@ export const gen3frlgDex = [
         "type": {
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -7603,7 +7589,7 @@ export const gen3frlgDex = [
   },
   {
     "entry_number": 122,
-    "name": "mr-mime",
+    "name": "mr-Mime",
     "national_dex_id": 122,
     "types": [
       {
@@ -7611,13 +7597,6 @@ export const gen3frlgDex = [
         "type": {
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],

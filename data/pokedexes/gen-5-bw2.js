@@ -1679,13 +1679,6 @@ export const gen5bw2Dex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/298.png",
@@ -1739,13 +1732,6 @@ export const gen5bw2Dex = [
           "name": "water",
           "url": "https://pokeapi.co/api/v2/type/11/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/183.png",
@@ -1798,13 +1784,6 @@ export const gen5bw2Dex = [
         "type": {
           "name": "water",
           "url": "https://pokeapi.co/api/v2/type/11/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -4655,13 +4634,6 @@ export const gen5bw2Dex = [
           "name": "grass",
           "url": "https://pokeapi.co/api/v2/type/12/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/546.png",
@@ -4714,13 +4686,6 @@ export const gen5bw2Dex = [
         "type": {
           "name": "grass",
           "url": "https://pokeapi.co/api/v2/type/12/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -4991,8 +4956,8 @@ export const gen5bw2Dex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -5044,8 +5009,8 @@ export const gen5bw2Dex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -5097,8 +5062,8 @@ export const gen5bw2Dex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -16209,13 +16174,6 @@ export const gen5bw2Dex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/174.png",
@@ -16269,13 +16227,6 @@ export const gen5bw2Dex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-v/black-white/39.png",
@@ -16328,13 +16279,6 @@ export const gen5bw2Dex = [
         "type": {
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],

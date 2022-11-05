@@ -1986,8 +1986,8 @@ export const gen2gscDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -2033,8 +2033,8 @@ export const gen2gscDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -2080,8 +2080,8 @@ export const gen2gscDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -2130,13 +2130,6 @@ export const gen2gscDex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/174.png",
@@ -2183,13 +2176,6 @@ export const gen2gscDex = [
         "type": {
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -2238,13 +2224,6 @@ export const gen2gscDex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/40.png",
@@ -2289,8 +2268,8 @@ export const gen2gscDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -2336,8 +2315,8 @@ export const gen2gscDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       },
       {
@@ -4762,7 +4741,7 @@ export const gen2gscDex = [
   },
   {
     "entry_number": 95,
-    "name": "nidoran-f",
+    "name": "nidoran-F",
     "types": [
       {
         "slot": 1,
@@ -4910,7 +4889,7 @@ export const gen2gscDex = [
   },
   {
     "entry_number": 98,
-    "name": "nidoran-m",
+    "name": "nidoran-M",
     "types": [
       {
         "slot": 1,
@@ -6167,8 +6146,8 @@ export const gen2gscDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -6214,8 +6193,8 @@ export const gen2gscDex = [
       {
         "slot": 1,
         "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
+          "name": "normal",
+          "url": "https://pokeapi.co/api/v2/type/1/"
         }
       }
     ],
@@ -6499,13 +6478,6 @@ export const gen2gscDex = [
           "name": "water",
           "url": "https://pokeapi.co/api/v2/type/11/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/183.png",
@@ -6552,13 +6524,6 @@ export const gen2gscDex = [
         "type": {
           "name": "water",
           "url": "https://pokeapi.co/api/v2/type/11/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -7748,20 +7713,13 @@ export const gen2gscDex = [
   },
   {
     "entry_number": 156,
-    "name": "mr-mime",
+    "name": "mr-Mime",
     "types": [
       {
         "slot": 1,
         "type": {
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],

@@ -1830,13 +1830,6 @@ export const gen3rseDex = [
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/280.png",
@@ -1897,13 +1890,6 @@ export const gen3rseDex = [
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/281.png",
@@ -1963,13 +1949,6 @@ export const gen3rseDex = [
         "type": {
           "name": "psychic",
           "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -3421,13 +3400,6 @@ export const gen3rseDex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/298.png",
@@ -3488,13 +3460,6 @@ export const gen3rseDex = [
           "name": "water",
           "url": "https://pokeapi.co/api/v2/type/11/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/183.png",
@@ -3554,13 +3519,6 @@ export const gen3rseDex = [
         "type": {
           "name": "water",
           "url": "https://pokeapi.co/api/v2/type/11/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -4432,13 +4390,6 @@ export const gen3rseDex = [
         "type": {
           "name": "steel",
           "url": "https://pokeapi.co/api/v2/type/9/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
@@ -8870,13 +8821,6 @@ export const gen3rseDex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/174.png",
@@ -8937,13 +8881,6 @@ export const gen3rseDex = [
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
         }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
       }
     ],
     "sprite": "./images/sprites/pokemon/versions/generation-iii/emerald/39.png",
@@ -9003,13 +8940,6 @@ export const gen3rseDex = [
         "type": {
           "name": "normal",
           "url": "https://pokeapi.co/api/v2/type/1/"
-        }
-      },
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
         }
       }
     ],
