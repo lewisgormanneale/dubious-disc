@@ -511,6 +511,9 @@ main {
         width: 125px;
         height: 125px;
     }
+    .pokemon-image {
+        height: 80px;
+    }
     .pokedex-entry {
         width: 100px;
         height: 100px;

@@ -1,9 +1,9 @@
 // DOM Setup
-let body = document.querySelector('body');
+const body = document.querySelector('body');
 
-let darkModeButton = document.querySelector('#dark-mode-button');
+const darkModeButton = document.querySelector('#dark-mode-button');
 
-let teamAndOptions = document.querySelector('#team-and-options');
+const teamAndOptions = document.querySelector('#team-and-options');
 const team = document.querySelector('#team');
 
 let shinyButtons = document.querySelectorAll('.shiny-option')
@@ -126,11 +126,14 @@ async function updateGeneration(gen) {
     genXOnlyButton.replaceWith(genXOnlyButton.cloneNode(true));
     genXOnlyButton = document.querySelector('#gen-x-only-button');
 
+    const title = document.querySelector('#title');
+
     switch(gen) {
         case 1:
             data = await import('./data/pokedexes/gen-1-rby.js');
             selectedGeneration = data.gen1rbyDex;
             genXOnlyButton.classList.add('invisible')
+            title.textContent = 'Pokémon RBY Team Planner'
             break;
         case 2:
             data = await import('./data/pokedexes/gen-2-gsc.js');
@@ -138,6 +141,7 @@ async function updateGeneration(gen) {
             generationFilterNumber = 2;
             genXOnlyButton.textContent = "Gen 2 Only";
             genXOnlyButton.addEventListener('click', () => genXOnly(2))
+            title.textContent = 'Pokémon GSC Team Planner'
             break;
         case 3:
             data = await import('./data/pokedexes/gen-3-rse.js');
@@ -145,11 +149,13 @@ async function updateGeneration(gen) {
             generationFilterNumber = 3;
             genXOnlyButton.textContent = "Gen 3 Only";
             genXOnlyButton.addEventListener('click', () => genXOnly(3))
+            title.textContent = 'Pokémon RSE Team Planner'
             break;
         case 3.5:
             data = await import('./data/pokedexes/gen-3-frlg.js');
             selectedGeneration = data.gen3frlgDex;
             genXOnlyButton.classList.add('invisible')
+            title.textContent = 'Pokémon FRLG Team Planner'
             break;
         case 4:
             data = await import('./data/pokedexes/gen-4-dp.js');
@@ -157,12 +163,14 @@ async function updateGeneration(gen) {
             generationFilterNumber = 4;
             genXOnlyButton.textContent = "Gen 4 Only";
             genXOnlyButton.addEventListener('click',() => genXOnly(4))
+            title.textContent = 'Pokémon DP Team Planner'
             break;
         case 4.1:
             data = await import('./data/pokedexes/gen-4-pt.js');
             selectedGeneration = data.gen4ptDex;
             generationFilterNumber = 4;
             genXOnlyButton.textContent = "Gen 4 Only";
+            title.textContent = 'Pokémon Pt Team Planner'
             break;
         case 4.5:
             data = await import('./data/pokedexes/gen-4-hgss.js');
@@ -170,11 +178,13 @@ async function updateGeneration(gen) {
             generationFilterNumber = 2;
             genXOnlyButton.textContent = "Gen 2 Only";
             genXOnlyButton.addEventListener('click', () => genXOnly(2))
+            title.textContent = 'Pokémon HGSS Team Planner'
             break;
         case 5:
             data = await import('./data/pokedexes/gen-5-bw.js');
             selectedGeneration = data.gen5bwDex;
             genXOnlyButton.classList.add('invisible')
+            title.textContent = 'Pokémon BW Team Planner'
             break;
         case 5.5:
             data = await import('./data/pokedexes/gen-5-bw2.js');
@@ -182,6 +192,7 @@ async function updateGeneration(gen) {
             generationFilterNumber = 5;
             genXOnlyButton.textContent = "Gen 5 Only";
             genXOnlyButton.addEventListener('click', () => genXOnly(5))
+            title.textContent = 'Pokémon BW2 Team Planner'
             break;
     }
     while (pokedex.hasChildNodes()) {
