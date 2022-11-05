@@ -368,6 +368,11 @@ function removeFromTeam(pos) {
     const teamMemberOptions = teamMemberContainer.querySelector('.team-member-options')
     teamMemberOptions.classList.add('invisible')
 
+    const shinyOption = teamMemberOptions.querySelector('.shiny-option')
+    if (shinyOption.style.backgroundColor === 'orange') {
+        shinyOption.style.backgroundColor = 'yellow'
+    }
+
     if (typeOverlap === true) {
         typeOverlapChecker()
     }
