@@ -584,6 +584,9 @@ main {
         width: 100px;
         height: 100px;
     }
+    .pokedex-entry > .pokemon-name-and-id > .pokemon-name {
+        font-size: 10px;
+    }
     #options {
         height: 90px;
         flex-wrap: wrap;
