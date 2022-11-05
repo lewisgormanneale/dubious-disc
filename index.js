@@ -307,21 +307,32 @@ function updateTeam(selectedPokemon, teamMemberContainer) {
     const teamMemberOptions = teamMemberContainer.querySelector('.team-member-options')
     teamMemberOptions.classList.remove('invisible')
 
+    const shinyOption = teamMemberOptions.querySelector('.shiny-option')
+
     const genderOption = teamMemberOptions.querySelector('.gender-option')
     const genderIcon = teamMemberOptions.querySelector('.gender-symbol')
-    let genderRate = selectedPokemon.gender_rate
-    if (genderRate === -1) {
-        genderOption.style.backgroundColor = "lightgreen"
-        genderIcon.textContent = 'agender'
-    } else if (genderRate === 8) {
-        genderOption.style.backgroundColor = "pink"
-        genderIcon.textContent = 'female'
-    } else if (genderRate === 0) {
-        genderOption.style.backgroundColor = "lightskyblue"
-        genderIcon.textContent = 'male'
+
+    if (generationNumber != 1) {
+        genderOption.classList.remove('invisible')
+        shinyOption.classList.remove('invisible')
+        let genderRate = selectedPokemon.gender_rate
+        if (genderRate === -1) {
+            genderOption.style.backgroundColor = "lightgreen"
+            genderIcon.textContent = 'agender'
+        } else if (genderRate === 8) {
+            genderOption.style.backgroundColor = "pink"
+            genderIcon.textContent = 'female'
+        } else if (genderRate === 0) {
+            genderOption.style.backgroundColor = "lightskyblue"
+            genderIcon.textContent = 'male'
+        } else {
+            genderOption.addEventListener('click', genderToggle);
+        }
     } else {
-        genderOption.addEventListener('click', genderToggle);
+        genderOption.classList.add('invisible')
+        shinyOption.classList.add('invisible')
     }
+    
 
     if (typeOverlap === true) {
         typeOverlapChecker()
