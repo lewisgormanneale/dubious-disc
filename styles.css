@@ -515,6 +515,16 @@ main {
 
 .icon-reference {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon-reference > p {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    height: 30px;
+    
 }
 
 #footer {
