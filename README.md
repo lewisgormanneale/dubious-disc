@@ -1,43 +1,39 @@
 # pokemon-team-planner
 
-## [Live Version](https://lewisgormanneale.github.io/pokemon-team-planner/) (Work In Progress)
+## [Live Version](https://lewisgormanneale.github.io/pokemon-team-planner/)
 
 ## Description
 
 A Pokémon Team Planner built for players of the popular RPG series, which see you travelling around various regions and locations with a team of up to six Pokémon at once, completing objectives and collecting Pokémon. 
 
-The Team Planner is designed to help players who prefer to plan their Pokémon teams out in advance to decide on a team they want to use for a specified game in the series while:
+The Pokémon Team Planner is designed to help players who prefer to plan their Pokémon teams out in advance to decide on a team they want to use for a specified game in the series while:
 - **Filtering HMs**: Checking if their chosen team can learn all of the HMs (Hidden Moves) available in their specified game, which are moves used in the game overworld that are often required for progression, but that only certain Pokémon can use.
 - **Avoiding Type Overlap**: Optionally choosing to filter any Pokémon out of the selectable list if they are of the same type as a Pokémon already selected for their team.
-- **Evaluating Team Matchups**: Checking weaknesses and strengths of their team based on type matchups.
+- **Filtering By Generation**: If they only want to use Pokémon introduced in that generation.
 
-## Development Status / Notes
-
-All Pokémon data (moves/types etc.) was gathered from [PokéAPI](https://pokeapi.co/) calls during development and is stored locally in the repo to improve page load times and due to the variety and quantity of data required. Pokémon sprites are also saved in the repo for the same reason - these sprites were obtained from [PokeAPI's sprites repo on GitHub](https://github.com/PokeAPI/sprites).
-
-For those unfamiliar with the games, a lot of information relevant to a Pokémon can change between each game/generation in the series. Pokémon types, learnable moves, sprites, location data and more all change with each game, so building a single callable list of Pokémon that contained the specific information unique to each game inside it did not seem to be an efficient solution.
-
-Instead I built functions to match up data in a variety of PokéAPI calls into a single array for each game's Pokédex that contains all the information necessary to display Pokémon from that generation - some of these functions should still be visible in the pokedexes.js file. The creation of these functions enables the relatively easy addition of future Pokémon generations. In the future I plan to do more research into the implications of multiple large arrays/objects on page load times, and see if better solutions exist (which I'm sure they do). But load times seem fine for now according to tools like Lighthouse.
-
-This project is a work in progress and I'm planning for a 'V1' to have:
-- Support for all mainline games up to Pokémon Black 2/White 2, with a seperate Pokédex for each game where the regional Pokédex changes. 
-- Support for options to filter Pokédex by type overlap, HMs of any combination, and by generation (e.g. option to only show Gen 2 Pokémon if playing Pokémon Silver, to choose from only new Pokémon)
-- Evaluate Team Matchup option
-- Responsive design/support for mobile screen sizes
+Currently it supports all main series Pokémon games up to Black 2/White 2. Other features include:
+- Toggle shiny status/gender of team members
+- View which HMs team members can learn
 - Dark Mode/Light Mode
-
-## Potential Future Additions
-
-- Add more recent game support
-- Add National Pokédex mode
-- Icons for learnable HMs for easy visibility
-- Indicators for when a Pokémon is version exclusive (e.g. in Red but not Blue)
-- Indiciators for when a Pokémon requires a trade to evolve.
-- Add National Pokédex mode
-- 'Timeline View' showing Pokémon available in the game based on how early they become available to the player
-- More information on selected Pokémon e.g. abilities, or at least links to them in something like PokémonDB.
-- Support for other field moves e.g. Secret Power
 
 ## Screenshots
 
-(To Be Added Once V1 Complete)
+## Development Status / Notes
+
+All Pokémon data (moves/types etc.) was gathered from [PokéAPI](https://pokeapi.co/) calls during development and is stored locally in the repo to prevent the need to send countless API calls to PokéAPI. Pokémon sprites were also saved in the repo for the same reason - these sprites were obtained from [PokeAPI's sprites repo on GitHub](https://github.com/PokeAPI/sprites).
+
+For those unfamiliar with the games, a lot of information relevant to a Pokémon can change between each game/generation in the series. Pokémon types, learnable moves, sprites, location data and more all change with each game, so building a single callable list of Pokémon that contained the specific information unique to each game inside it did not seem to be an efficient solution.
+
+Instead I built functions to match up data in a variety of PokéAPI calls into a single array for each game's Pokédex that contained all the information necessary to display Pokémon from that generation - at time of writing some of these functions should still be visible in the ./data/data-update-functions.js file. The creation of these functions enabled the relatively easy addition of additional Pokémon generations. In the future I plan to do more research into the implications of multiple large arrays/objects on page load times, and see if better solutions exist (which I'm sure they do).
+
+## Potential Future Additions
+
+- Add more recent main series game support (X/Y up to Scarlet/Violet)
+- Add National Pokédex mode with all Pokémon available at once
+- Indicators for when a Pokémon is version exclusive (e.g. in Red but not Blue)
+- Indiciators for when a Pokémon requires a trade to evolve
+- 'Timeline View' showing Pokémon available in the game based on how early they become available to the player (using location data etc.)
+- Team Analysis option, to view in-depth the weaknesses/strengths of your chosen team
+- More information on selected Pokémon e.g. abilities, or at least links to them in something like PokémonDB
+- Support for other field moves e.g. Secret Power
+- Export functionality - some way to save your chosen team either as an image or custom URL.
