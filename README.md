@@ -17,6 +17,11 @@ Currently it supports all main series Pokémon games up to Black 2/White 2. Othe
 - Dark Mode/Light Mode
 
 ## Screenshots
+<p align="center">
+  <img height="400" src="https://user-images.githubusercontent.com/107112881/200135158-5e880fe7-eb92-4fbc-b304-5adbaec4b2bc.png">
+  <img height="400" src="https://user-images.githubusercontent.com/107112881/200135249-b41a795e-6da9-44bf-93d0-10d0b19a7174.png">
+  <img height="400" src="https://user-images.githubusercontent.com/107112881/200135180-7c2de265-c5c4-4bc0-ab91-ea750b9de1d0.png">
+</p>
 
 ## Development Status / Notes
 
