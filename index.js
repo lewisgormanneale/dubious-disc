@@ -265,6 +265,8 @@ function filterHM() {
 }
 
 // Team Update Functionality
+
+// Finds empty team slot to add selected pokemon, passes info to updateTeam function
 function addToTeam() {
     const teamMemberContainer = document.querySelectorAll('.team-member-container')
     let arrayPos = 0;
@@ -283,6 +285,7 @@ function addToTeam() {
         }
     };
 };
+
 
 function updateTeam(selectedPokemon, teamMemberContainer) {
     teamMemberContainer.classList.remove('empty')
@@ -319,6 +322,63 @@ function updateTeam(selectedPokemon, teamMemberContainer) {
         teamMemberType2.src = "";
         teamMemberType2.alt = "none";
         teamMemberType2.classList.add('invisible')
+    }
+
+    const learnableHMs = teamMember.querySelector('.learnable-hms')
+
+    for (let i = 0; i < selectedPokemon.hms.length; i++) {
+        if (selectedPokemon.hms[i].can_learn === true) {
+            let hmIcon = document.createElement('span')
+            hmIcon.classList.add('material-icons-outlined')
+            let hmName = selectedPokemon.hms[i].name.toLowerCase()
+            switch(hmName) {
+                case 'cut':
+                    hmIcon.textContent = 'park';
+                    learnableHMs.appendChild(hmIcon)
+                    break;
+                case 'fly':
+                    hmIcon.textContent = 'flight';
+                    learnableHMs.appendChild(hmIcon);
+                    break;
+                case 'surf':
+                    hmIcon.textContent = 'surfing';
+                    learnableHMs.appendChild(hmIcon)
+                    break;
+                case 'strength':
+                    hmIcon.textContent = 'fitness_center';
+                    learnableHMs.appendChild(hmIcon)
+                    break;
+                case 'flash':
+                    hmIcon.textContent = 'flash_on';
+                    learnableHMs.appendChild(hmIcon)
+                    break;
+                case 'whirlpool':
+                    hmIcon.textContent = 'tornado';
+                    learnableHMs.appendChild(hmIcon)
+                    break;
+                case 'waterfall':
+                    hmIcon.textContent = 'vertical_shades_closed';
+                    learnableHMs.appendChild(hmIcon)
+                    break;
+                case 'rock-smash':
+                    hmIcon.textContent = 'volcano';
+                    learnableHMs.appendChild(hmIcon)
+                    break;
+                case 'dive':
+                    hmIcon.textContent = 'scuba_diving';
+                    learnableHMs.appendChild(hmIcon)
+                    break;
+                case 'defog':
+                    hmIcon.textContent = 'cloud_off';
+                    learnableHMs.appendChild(hmIcon)
+                    break;
+                case 'rock-climb':
+                    hmIcon.textContent = 'landslide';
+                    learnableHMs.appendChild(hmIcon)
+                    break;
+                    
+            }
+        }
     }
 
     const teamMemberOptions = teamMemberContainer.querySelector('.team-member-options')
@@ -381,6 +441,11 @@ function removeFromTeam(pos) {
     teamMemberType2.classList.add('invisible')
     teamMemberType2.src = "";
     teamMemberType2.alt = "none";
+
+    const learnableHMs = teamMember.querySelector('.learnable-hms')
+    while (learnableHMs.hasChildNodes()) {
+        learnableHMs.removeChild(learnableHMs.firstChild);
+    }
 
     const teamMemberOptions = teamMemberContainer.querySelector('.team-member-options')
     teamMemberOptions.classList.add('invisible')
