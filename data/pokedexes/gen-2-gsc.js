@@ -42,7 +42,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 152
+    "national_dex_id": 152,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/152.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 2,
@@ -87,7 +89,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 153
+    "national_dex_id": 153,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/153.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 3,
@@ -132,7 +136,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 154
+    "national_dex_id": 154,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/154.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 4,
@@ -177,7 +183,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 155
+    "national_dex_id": 155,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/155.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 5,
@@ -222,7 +230,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 156
+    "national_dex_id": 156,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/156.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 6,
@@ -267,7 +277,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 157
+    "national_dex_id": 157,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/157.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 7,
@@ -312,7 +324,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 158
+    "national_dex_id": 158,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/158.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 8,
@@ -357,7 +371,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 159
+    "national_dex_id": 159,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/159.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 9,
@@ -402,7 +418,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 160
+    "national_dex_id": 160,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/160.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 10,
@@ -454,7 +472,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 16
+    "national_dex_id": 16,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/16.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 11,
@@ -506,7 +526,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 17
+    "national_dex_id": 17,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/17.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 12,
@@ -558,7 +580,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 18
+    "national_dex_id": 18,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/18.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 13,
@@ -610,7 +634,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 21
+    "national_dex_id": 21,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/21.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 14,
@@ -662,7 +688,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 22
+    "national_dex_id": 22,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/22.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 15,
@@ -714,7 +742,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 163
+    "national_dex_id": 163,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/163.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 16,
@@ -766,7 +796,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 164
+    "national_dex_id": 164,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/164.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 17,
@@ -811,7 +843,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 19
+    "national_dex_id": 19,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/19.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 18,
@@ -856,7 +890,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 20
+    "national_dex_id": 20,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/20.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 19,
@@ -901,7 +937,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 161
+    "national_dex_id": 161,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/161.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 20,
@@ -946,7 +984,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 162
+    "national_dex_id": 162,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/162.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 21,
@@ -991,7 +1031,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 172
+    "national_dex_id": 172,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/172.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 22,
@@ -1036,7 +1078,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 25
+    "national_dex_id": 25,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/25.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 23,
@@ -1081,7 +1125,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 26
+    "national_dex_id": 26,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/26.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 24,
@@ -1126,7 +1172,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 10
+    "national_dex_id": 10,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/10.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 25,
@@ -1171,7 +1219,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 11
+    "national_dex_id": 11,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/11.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 26,
@@ -1223,7 +1273,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 12
+    "national_dex_id": 12,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/12.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 27,
@@ -1275,7 +1327,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 13
+    "national_dex_id": 13,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/13.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 28,
@@ -1327,7 +1381,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 14
+    "national_dex_id": 14,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/14.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 29,
@@ -1379,7 +1435,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 15
+    "national_dex_id": 15,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/15.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 30,
@@ -1431,7 +1489,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 165
+    "national_dex_id": 165,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/165.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 31,
@@ -1483,7 +1543,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 166
+    "national_dex_id": 166,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/166.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 32,
@@ -1535,7 +1597,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 167
+    "national_dex_id": 167,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/167.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 33,
@@ -1587,7 +1651,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 168
+    "national_dex_id": 168,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/168.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 34,
@@ -1639,7 +1705,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 74
+    "national_dex_id": 74,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/74.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 35,
@@ -1691,7 +1759,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 75
+    "national_dex_id": 75,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/75.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 36,
@@ -1743,7 +1813,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 76
+    "national_dex_id": 76,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/76.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 37,
@@ -1795,7 +1867,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 41
+    "national_dex_id": 41,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/41.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 38,
@@ -1847,7 +1921,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 42
+    "national_dex_id": 42,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/42.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 39,
@@ -1899,7 +1975,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 169
+    "national_dex_id": 169,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/169.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 40,
@@ -1944,7 +2022,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 173
+    "national_dex_id": 173,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/173.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 41,
@@ -1989,7 +2069,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 35
+    "national_dex_id": 35,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/35.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 42,
@@ -2034,7 +2116,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 36
+    "national_dex_id": 36,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/36.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 43,
@@ -2086,7 +2170,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 174
+    "national_dex_id": 174,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/174.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 44,
@@ -2138,7 +2224,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 39
+    "national_dex_id": 39,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/39.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 45,
@@ -2190,7 +2278,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 40
+    "national_dex_id": 40,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/40.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 46,
@@ -2235,7 +2325,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 175
+    "national_dex_id": 175,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/175.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 47,
@@ -2287,7 +2379,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 176
+    "national_dex_id": 176,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/176.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 48,
@@ -2332,7 +2426,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 27
+    "national_dex_id": 27,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/27.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 49,
@@ -2377,7 +2473,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 28
+    "national_dex_id": 28,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/28.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 50,
@@ -2422,7 +2520,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 23
+    "national_dex_id": 23,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/23.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 51,
@@ -2467,7 +2567,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 24
+    "national_dex_id": 24,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/24.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 52,
@@ -2512,7 +2614,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 206
+    "national_dex_id": 206,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/206.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 53,
@@ -2557,7 +2661,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 179
+    "national_dex_id": 179,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/179.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 54,
@@ -2602,7 +2708,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 180
+    "national_dex_id": 180,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/180.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 55,
@@ -2647,7 +2755,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 181
+    "national_dex_id": 181,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/181.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 56,
@@ -2699,7 +2809,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 194
+    "national_dex_id": 194,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/194.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 57,
@@ -2751,7 +2863,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 195
+    "national_dex_id": 195,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/195.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 58,
@@ -2803,7 +2917,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 92
+    "national_dex_id": 92,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/92.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 59,
@@ -2855,7 +2971,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 93
+    "national_dex_id": 93,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/93.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 60,
@@ -2907,7 +3025,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 94
+    "national_dex_id": 94,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/94.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 61,
@@ -2952,7 +3072,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 201
+    "national_dex_id": 201,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/201.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 62,
@@ -3004,7 +3126,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 95
+    "national_dex_id": 95,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/95.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 63,
@@ -3056,7 +3180,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 208
+    "national_dex_id": 208,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/208.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 64,
@@ -3108,7 +3234,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 69
+    "national_dex_id": 69,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/69.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 65,
@@ -3160,7 +3288,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 70
+    "national_dex_id": 70,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/70.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 66,
@@ -3212,7 +3342,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 71
+    "national_dex_id": 71,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/71.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 67,
@@ -3264,7 +3396,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 187
+    "national_dex_id": 187,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/187.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 68,
@@ -3316,7 +3450,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 188
+    "national_dex_id": 188,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/188.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 69,
@@ -3368,7 +3504,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 189
+    "national_dex_id": 189,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/189.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 70,
@@ -3420,7 +3558,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 46
+    "national_dex_id": 46,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/46.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 71,
@@ -3472,7 +3612,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 47
+    "national_dex_id": 47,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/47.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 72,
@@ -3517,7 +3659,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 60
+    "national_dex_id": 60,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/60.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 73,
@@ -3562,7 +3706,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 61
+    "national_dex_id": 61,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/61.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 74,
@@ -3614,7 +3760,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 62
+    "national_dex_id": 62,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/62.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 75,
@@ -3659,7 +3807,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 186
+    "national_dex_id": 186,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/186.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 76,
@@ -3704,7 +3854,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 129
+    "national_dex_id": 129,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/129.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 77,
@@ -3756,7 +3908,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 130
+    "national_dex_id": 130,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/130.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 78,
@@ -3801,7 +3955,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 118
+    "national_dex_id": 118,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/118.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 79,
@@ -3846,7 +4002,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 119
+    "national_dex_id": 119,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/119.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 80,
@@ -3898,7 +4056,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 79
+    "national_dex_id": 79,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/79.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 81,
@@ -3950,7 +4110,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 80
+    "national_dex_id": 80,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/80.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 82,
@@ -4002,7 +4164,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 199
+    "national_dex_id": 199,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/199.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 83,
@@ -4054,7 +4218,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 43
+    "national_dex_id": 43,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/43.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 84,
@@ -4106,7 +4272,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 44
+    "national_dex_id": 44,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/44.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 85,
@@ -4158,7 +4326,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 45
+    "national_dex_id": 45,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/45.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 86,
@@ -4203,7 +4373,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 182
+    "national_dex_id": 182,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/182.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 87,
@@ -4248,7 +4420,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 96
+    "national_dex_id": 96,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/96.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 88,
@@ -4293,7 +4467,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 97
+    "national_dex_id": 97,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/97.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 89,
@@ -4338,7 +4514,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 63
+    "national_dex_id": 63,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/63.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 90,
@@ -4383,7 +4561,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 64
+    "national_dex_id": 64,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/64.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 91,
@@ -4428,7 +4608,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 65
+    "national_dex_id": 65,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/65.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 92,
@@ -4473,7 +4655,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 132
+    "national_dex_id": 132,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/132.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 93,
@@ -4518,7 +4702,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 204
+    "national_dex_id": 204,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/204.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 94,
@@ -4570,7 +4756,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 205
+    "national_dex_id": 205,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/205.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 95,
@@ -4615,7 +4803,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 29
+    "national_dex_id": 29,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/29.png",
+    "gender_rate": 8
   },
   {
     "entry_number": 96,
@@ -4660,7 +4850,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 30
+    "national_dex_id": 30,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/30.png",
+    "gender_rate": 8
   },
   {
     "entry_number": 97,
@@ -4712,7 +4904,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 31
+    "national_dex_id": 31,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/31.png",
+    "gender_rate": 8
   },
   {
     "entry_number": 98,
@@ -4757,7 +4951,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 32
+    "national_dex_id": 32,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/32.png",
+    "gender_rate": 0
   },
   {
     "entry_number": 99,
@@ -4802,7 +4998,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 33
+    "national_dex_id": 33,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/33.png",
+    "gender_rate": 0
   },
   {
     "entry_number": 100,
@@ -4854,7 +5052,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 34
+    "national_dex_id": 34,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/34.png",
+    "gender_rate": 0
   },
   {
     "entry_number": 101,
@@ -4906,7 +5106,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 193
+    "national_dex_id": 193,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/193.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 102,
@@ -4951,7 +5153,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 191
+    "national_dex_id": 191,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/191.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 103,
@@ -4996,7 +5200,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 192
+    "national_dex_id": 192,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/192.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 104,
@@ -5048,7 +5254,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 102
+    "national_dex_id": 102,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/102.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 105,
@@ -5100,7 +5308,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 103
+    "national_dex_id": 103,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/103.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 106,
@@ -5145,7 +5355,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 185
+    "national_dex_id": 185,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/185.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 107,
@@ -5190,7 +5402,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 202
+    "national_dex_id": 202,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/202.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 108,
@@ -5242,7 +5456,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 48
+    "national_dex_id": 48,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/48.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 109,
@@ -5294,7 +5510,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 49
+    "national_dex_id": 49,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/49.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 110,
@@ -5346,7 +5564,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 123
+    "national_dex_id": 123,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/123.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 111,
@@ -5398,7 +5618,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 212
+    "national_dex_id": 212,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/212.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 112,
@@ -5443,7 +5665,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 127
+    "national_dex_id": 127,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/127.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 113,
@@ -5495,7 +5719,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 214
+    "national_dex_id": 214,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/214.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 114,
@@ -5540,7 +5766,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 109
+    "national_dex_id": 109,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/109.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 115,
@@ -5585,7 +5813,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 110
+    "national_dex_id": 110,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/110.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 116,
@@ -5630,7 +5860,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 88
+    "national_dex_id": 88,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/88.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 117,
@@ -5675,7 +5907,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 89
+    "national_dex_id": 89,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/89.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 118,
@@ -5727,7 +5961,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 81
+    "national_dex_id": 81,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/81.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 119,
@@ -5779,7 +6015,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 82
+    "national_dex_id": 82,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/82.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 120,
@@ -5824,7 +6062,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 100
+    "national_dex_id": 100,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/100.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 121,
@@ -5869,7 +6109,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 101
+    "national_dex_id": 101,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/101.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 122,
@@ -5914,7 +6156,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 190
+    "national_dex_id": 190,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/190.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 123,
@@ -5959,7 +6203,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 209
+    "national_dex_id": 209,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/209.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 124,
@@ -6004,7 +6250,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 210
+    "national_dex_id": 210,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/210.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 125,
@@ -6049,7 +6297,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 37
+    "national_dex_id": 37,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/37.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 126,
@@ -6094,7 +6344,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 38
+    "national_dex_id": 38,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/38.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 127,
@@ -6139,7 +6391,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 58
+    "national_dex_id": 58,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/58.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 128,
@@ -6184,7 +6438,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 59
+    "national_dex_id": 59,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/59.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 129,
@@ -6229,7 +6485,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 234
+    "national_dex_id": 234,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/234.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 130,
@@ -6281,7 +6539,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 183
+    "national_dex_id": 183,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/183.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 131,
@@ -6333,7 +6593,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 184
+    "national_dex_id": 184,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/184.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 132,
@@ -6378,7 +6640,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 50
+    "national_dex_id": 50,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/50.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 133,
@@ -6423,7 +6687,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 51
+    "national_dex_id": 51,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/51.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 134,
@@ -6468,7 +6734,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 56
+    "national_dex_id": 56,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/56.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 135,
@@ -6513,7 +6781,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 57
+    "national_dex_id": 57,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/57.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 136,
@@ -6558,7 +6828,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 52
+    "national_dex_id": 52,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/52.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 137,
@@ -6603,7 +6875,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 53
+    "national_dex_id": 53,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/53.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 138,
@@ -6648,7 +6922,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 54
+    "national_dex_id": 54,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/54.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 139,
@@ -6693,7 +6969,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 55
+    "national_dex_id": 55,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/55.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 140,
@@ -6738,7 +7016,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 66
+    "national_dex_id": 66,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/66.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 141,
@@ -6783,7 +7063,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 67
+    "national_dex_id": 67,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/67.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 142,
@@ -6828,7 +7110,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 68
+    "national_dex_id": 68,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/68.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 143,
@@ -6873,7 +7157,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 236
+    "national_dex_id": 236,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/236.png",
+    "gender_rate": 0
   },
   {
     "entry_number": 144,
@@ -6918,7 +7204,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 106
+    "national_dex_id": 106,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/106.png",
+    "gender_rate": 0
   },
   {
     "entry_number": 145,
@@ -6963,7 +7251,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 107
+    "national_dex_id": 107,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/107.png",
+    "gender_rate": 0
   },
   {
     "entry_number": 146,
@@ -7008,7 +7298,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 237
+    "national_dex_id": 237,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/237.png",
+    "gender_rate": 0
   },
   {
     "entry_number": 147,
@@ -7060,7 +7352,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 203
+    "national_dex_id": 203,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/203.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 148,
@@ -7105,7 +7399,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 128
+    "national_dex_id": 128,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/128.png",
+    "gender_rate": 0
   },
   {
     "entry_number": 149,
@@ -7150,7 +7446,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 241
+    "national_dex_id": 241,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/241.png",
+    "gender_rate": 8
   },
   {
     "entry_number": 150,
@@ -7195,7 +7493,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 240
+    "national_dex_id": 240,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/240.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 151,
@@ -7240,7 +7540,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 126
+    "national_dex_id": 126,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/126.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 152,
@@ -7292,7 +7594,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 238
+    "national_dex_id": 238,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/238.png",
+    "gender_rate": 8
   },
   {
     "entry_number": 153,
@@ -7344,7 +7648,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 124
+    "national_dex_id": 124,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/124.png",
+    "gender_rate": 8
   },
   {
     "entry_number": 154,
@@ -7389,7 +7695,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 239
+    "national_dex_id": 239,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/239.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 155,
@@ -7434,7 +7742,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 125
+    "national_dex_id": 125,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/125.png",
+    "gender_rate": 2
   },
   {
     "entry_number": 156,
@@ -7486,7 +7796,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 122
+    "national_dex_id": 122,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/122.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 157,
@@ -7531,7 +7843,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 235
+    "national_dex_id": 235,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/235.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 158,
@@ -7583,7 +7897,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 83
+    "national_dex_id": 83,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/83.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 159,
@@ -7635,7 +7951,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 177
+    "national_dex_id": 177,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/177.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 160,
@@ -7687,7 +8005,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 178
+    "national_dex_id": 178,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/178.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 161,
@@ -7739,7 +8059,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 211
+    "national_dex_id": 211,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/211.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 162,
@@ -7791,7 +8113,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 72
+    "national_dex_id": 72,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/72.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 163,
@@ -7843,7 +8167,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 73
+    "national_dex_id": 73,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/73.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 164,
@@ -7888,7 +8214,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 98
+    "national_dex_id": 98,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/98.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 165,
@@ -7933,7 +8261,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 99
+    "national_dex_id": 99,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/99.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 166,
@@ -7985,7 +8315,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 213
+    "national_dex_id": 213,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/213.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 167,
@@ -8030,7 +8362,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 120
+    "national_dex_id": 120,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/120.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 168,
@@ -8082,7 +8416,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 121
+    "national_dex_id": 121,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/121.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 169,
@@ -8127,7 +8463,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 90
+    "national_dex_id": 90,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/90.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 170,
@@ -8179,7 +8517,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 91
+    "national_dex_id": 91,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/91.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 171,
@@ -8231,7 +8571,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 222
+    "national_dex_id": 222,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/222.png",
+    "gender_rate": 6
   },
   {
     "entry_number": 172,
@@ -8276,7 +8618,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 223
+    "national_dex_id": 223,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/223.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 173,
@@ -8321,7 +8665,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 224
+    "national_dex_id": 224,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/224.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 174,
@@ -8373,7 +8719,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 170
+    "national_dex_id": 170,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/170.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 175,
@@ -8425,7 +8773,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 171
+    "national_dex_id": 171,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/171.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 176,
@@ -8470,7 +8820,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 86
+    "national_dex_id": 86,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/86.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 177,
@@ -8522,7 +8874,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 87
+    "national_dex_id": 87,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/87.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 178,
@@ -8567,7 +8921,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 108
+    "national_dex_id": 108,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/108.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 179,
@@ -8612,7 +8968,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 114
+    "national_dex_id": 114,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/114.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 180,
@@ -8657,7 +9015,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 133
+    "national_dex_id": 133,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/133.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 181,
@@ -8702,7 +9062,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 134
+    "national_dex_id": 134,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/134.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 182,
@@ -8747,7 +9109,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 135
+    "national_dex_id": 135,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/135.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 183,
@@ -8792,7 +9156,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 136
+    "national_dex_id": 136,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/136.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 184,
@@ -8837,7 +9203,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 196
+    "national_dex_id": 196,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/196.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 185,
@@ -8882,7 +9250,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 197
+    "national_dex_id": 197,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/197.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 186,
@@ -8927,7 +9297,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 116
+    "national_dex_id": 116,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/116.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 187,
@@ -8972,7 +9344,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 117
+    "national_dex_id": 117,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/117.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 188,
@@ -9024,7 +9398,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 230
+    "national_dex_id": 230,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/230.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 189,
@@ -9076,7 +9452,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 207
+    "national_dex_id": 207,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/207.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 190,
@@ -9128,7 +9506,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 225
+    "national_dex_id": 225,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/225.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 191,
@@ -9180,7 +9560,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 220
+    "national_dex_id": 220,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/220.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 192,
@@ -9232,7 +9614,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 221
+    "national_dex_id": 221,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/221.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 193,
@@ -9277,7 +9661,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 216
+    "national_dex_id": 216,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/216.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 194,
@@ -9322,7 +9708,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 217
+    "national_dex_id": 217,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/217.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 195,
@@ -9367,7 +9755,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 231
+    "national_dex_id": 231,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/231.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 196,
@@ -9412,7 +9802,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 232
+    "national_dex_id": 232,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/232.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 197,
@@ -9464,7 +9856,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 226
+    "national_dex_id": 226,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/226.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 198,
@@ -9516,7 +9910,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 227
+    "national_dex_id": 227,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/227.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 199,
@@ -9568,7 +9964,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 84
+    "national_dex_id": 84,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/84.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 200,
@@ -9620,7 +10018,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 85
+    "national_dex_id": 85,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/85.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 201,
@@ -9665,7 +10065,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 77
+    "national_dex_id": 77,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/77.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 202,
@@ -9710,7 +10112,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 78
+    "national_dex_id": 78,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/78.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 203,
@@ -9755,7 +10159,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 104
+    "national_dex_id": 104,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/104.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 204,
@@ -9800,7 +10206,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 105
+    "national_dex_id": 105,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/105.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 205,
@@ -9845,7 +10253,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 115
+    "national_dex_id": 115,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/115.png",
+    "gender_rate": 8
   },
   {
     "entry_number": 206,
@@ -9897,7 +10307,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 111
+    "national_dex_id": 111,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/111.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 207,
@@ -9949,7 +10361,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 112
+    "national_dex_id": 112,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/112.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 208,
@@ -10001,7 +10415,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 198
+    "national_dex_id": 198,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/198.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 209,
@@ -10053,7 +10469,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 228
+    "national_dex_id": 228,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/228.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 210,
@@ -10105,7 +10523,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 229
+    "national_dex_id": 229,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/229.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 211,
@@ -10150,7 +10570,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 218
+    "national_dex_id": 218,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/218.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 212,
@@ -10202,7 +10624,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 219
+    "national_dex_id": 219,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/219.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 213,
@@ -10254,7 +10678,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 215
+    "national_dex_id": 215,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/215.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 214,
@@ -10299,7 +10725,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 200
+    "national_dex_id": 200,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/200.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 215,
@@ -10344,7 +10772,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 137
+    "national_dex_id": 137,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/137.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 216,
@@ -10389,7 +10819,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 233
+    "national_dex_id": 233,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/233.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 217,
@@ -10434,7 +10866,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 113
+    "national_dex_id": 113,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/113.png",
+    "gender_rate": 8
   },
   {
     "entry_number": 218,
@@ -10479,7 +10913,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 242
+    "national_dex_id": 242,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/242.png",
+    "gender_rate": 8
   },
   {
     "entry_number": 219,
@@ -10531,7 +10967,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 131
+    "national_dex_id": 131,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/131.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 220,
@@ -10583,7 +11021,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 138
+    "national_dex_id": 138,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/138.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 221,
@@ -10635,7 +11075,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 139
+    "national_dex_id": 139,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/139.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 222,
@@ -10687,7 +11129,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 140
+    "national_dex_id": 140,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/140.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 223,
@@ -10739,7 +11183,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 141
+    "national_dex_id": 141,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/141.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 224,
@@ -10791,7 +11237,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 142
+    "national_dex_id": 142,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/142.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 225,
@@ -10836,7 +11284,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 143
+    "national_dex_id": 143,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/143.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 226,
@@ -10888,7 +11338,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 1
+    "national_dex_id": 1,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/1.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 227,
@@ -10940,7 +11392,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 2
+    "national_dex_id": 2,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/2.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 228,
@@ -10992,7 +11446,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 3
+    "national_dex_id": 3,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/3.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 229,
@@ -11037,7 +11493,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 4
+    "national_dex_id": 4,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/4.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 230,
@@ -11082,7 +11540,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 5
+    "national_dex_id": 5,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/5.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 231,
@@ -11134,7 +11594,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 6
+    "national_dex_id": 6,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/6.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 232,
@@ -11179,7 +11641,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 7
+    "national_dex_id": 7,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/7.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 233,
@@ -11224,7 +11688,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 8
+    "national_dex_id": 8,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/8.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 234,
@@ -11269,7 +11735,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 9
+    "national_dex_id": 9,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/9.png",
+    "gender_rate": 1
   },
   {
     "entry_number": 235,
@@ -11321,7 +11789,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 144
+    "national_dex_id": 144,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/144.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 236,
@@ -11373,7 +11843,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 145
+    "national_dex_id": 145,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/145.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 237,
@@ -11425,7 +11897,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 146
+    "national_dex_id": 146,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/146.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 238,
@@ -11470,7 +11944,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 243
+    "national_dex_id": 243,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/243.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 239,
@@ -11515,7 +11991,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 244
+    "national_dex_id": 244,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/244.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 240,
@@ -11560,7 +12038,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 245
+    "national_dex_id": 245,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/245.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 241,
@@ -11605,7 +12085,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 147
+    "national_dex_id": 147,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/147.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 242,
@@ -11650,7 +12132,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 148
+    "national_dex_id": 148,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/148.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 243,
@@ -11702,7 +12186,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 149
+    "national_dex_id": 149,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/149.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 244,
@@ -11754,7 +12240,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 246
+    "national_dex_id": 246,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/246.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 245,
@@ -11806,7 +12294,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 247
+    "national_dex_id": 247,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/247.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 246,
@@ -11858,7 +12348,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 248
+    "national_dex_id": 248,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/248.png",
+    "gender_rate": 4
   },
   {
     "entry_number": 247,
@@ -11910,7 +12402,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 249
+    "national_dex_id": 249,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/249.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 248,
@@ -11962,7 +12456,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 250
+    "national_dex_id": 250,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/250.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 249,
@@ -12007,7 +12503,9 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 150
+    "national_dex_id": 150,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/150.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 250,
@@ -12052,7 +12550,9 @@ export const gen2gscDex = [
         "can_learn": true
       }
     ],
-    "national_dex_id": 151
+    "national_dex_id": 151,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/151.png",
+    "gender_rate": -1
   },
   {
     "entry_number": 251,
@@ -12104,6 +12604,8 @@ export const gen2gscDex = [
         "can_learn": false
       }
     ],
-    "national_dex_id": 251
+    "national_dex_id": 251,
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/251.png",
+    "gender_rate": -1
   }
-];
+]
