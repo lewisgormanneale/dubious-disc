@@ -514,9 +514,9 @@ main {
 }
 
 .icon-reference {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    gap: 10px 20px;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .icon-reference > p {
@@ -524,7 +524,15 @@ main {
     align-items: center;
     margin-right: 10px;
     height: 30px;
-    
+}
+
+#type-icon-reference > p {
+    margin-right: 30px;
+}
+
+#type-icon-reference > p > img {
+    margin-left: 5px;
+    width: 30px;
 }
 
 #footer {
@@ -534,10 +542,15 @@ main {
     background-color: darkred;
     color: white;
     width: 100%;
-    height: 3vh;    
+    min-height: 30px;    
     margin-top: 20px;
     padding: 5px 20px;
     font-size: 0.6em;
+    text-align: center;
+}
+
+#footer > p > a {
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 900px) {
