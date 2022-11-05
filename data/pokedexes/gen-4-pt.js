@@ -56,7 +56,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/387.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/387.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -117,7 +117,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/388.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/388.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -185,7 +185,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/389.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/389.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -246,7 +246,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/390.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/390.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -314,7 +314,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/391.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/391.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -382,7 +382,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/392.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/392.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -443,7 +443,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/393.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/393.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -504,7 +504,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/394.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/394.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -572,7 +572,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/395.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/395.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -640,11 +640,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/396.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/396.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/396.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/396.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/396.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/396.png"
   },
   {
     "entry_number": 11,
@@ -710,11 +710,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/397.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/397.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/397.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/397.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/397.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/397.png"
   },
   {
     "entry_number": 12,
@@ -780,11 +780,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/398.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/398.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/398.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/398.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/398.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/398.png"
   },
   {
     "entry_number": 13,
@@ -843,11 +843,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/399.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/399.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/399.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/399.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/399.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/399.png"
   },
   {
     "entry_number": 14,
@@ -913,11 +913,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/400.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/400.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/400.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/400.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/400.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/400.png"
   },
   {
     "entry_number": 15,
@@ -976,11 +976,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/401.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/401.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/401.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/401.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/401.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/401.png"
   },
   {
     "entry_number": 16,
@@ -1039,11 +1039,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/402.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/402.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/402.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/402.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/402.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/402.png"
   },
   {
     "entry_number": 17,
@@ -1102,11 +1102,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/403.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/403.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/403.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/403.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/403.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/403.png"
   },
   {
     "entry_number": 18,
@@ -1165,11 +1165,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/404.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/404.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/404.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/404.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/404.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/404.png"
   },
   {
     "entry_number": 19,
@@ -1228,11 +1228,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/405.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/405.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/405.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/405.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/405.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/405.png"
   },
   {
     "entry_number": 20,
@@ -1291,7 +1291,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/63.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/63.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -1352,11 +1352,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/64.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/64.png",
     "gender_rate": 2,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/64.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/64.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/64.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/64.png"
   },
   {
     "entry_number": 22,
@@ -1422,11 +1422,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/65.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/65.png",
     "gender_rate": 2,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/65.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/65.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/65.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/65.png"
   },
   {
     "entry_number": 23,
@@ -1485,11 +1485,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/129.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/129.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/129.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/129.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/129.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/129.png"
   },
   {
     "entry_number": 24,
@@ -1562,11 +1562,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/130.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/130.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/130.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/130.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/130.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/130.png"
   },
   {
     "entry_number": 25,
@@ -1632,7 +1632,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/406.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/406.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -1700,11 +1700,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/315.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/315.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/315.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/315.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/315.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/315.png"
   },
   {
     "entry_number": 27,
@@ -1770,11 +1770,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/407.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/407.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/407.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/407.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/407.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/407.png"
   },
   {
     "entry_number": 28,
@@ -1840,11 +1840,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/41.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/41.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/41.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/41.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/41.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/41.png"
   },
   {
     "entry_number": 29,
@@ -1910,11 +1910,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/42.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/42.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/42.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/42.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/42.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/42.png"
   },
   {
     "entry_number": 30,
@@ -1980,7 +1980,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/169.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/169.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2055,7 +2055,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/74.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/74.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2130,7 +2130,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/75.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/75.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2205,7 +2205,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/76.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/76.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2273,7 +2273,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/95.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/95.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2348,11 +2348,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/208.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/208.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/208.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/208.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/208.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/208.png"
   },
   {
     "entry_number": 36,
@@ -2411,7 +2411,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/408.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/408.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -2472,7 +2472,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/409.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/409.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -2540,7 +2540,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/410.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/410.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -2608,7 +2608,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/411.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/411.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -2669,7 +2669,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/66.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/66.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -2730,7 +2730,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/67.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/67.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -2798,7 +2798,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/68.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/68.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -2859,7 +2859,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/54.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/54.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2920,7 +2920,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/55.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/55.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2981,7 +2981,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/412.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/412.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3063,7 +3063,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/413.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/413.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -3131,7 +3131,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/414.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/414.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -3192,7 +3192,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/265.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/265.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3253,7 +3253,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/266.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/266.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3321,11 +3321,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/267.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/267.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/267.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/267.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/267.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/267.png"
   },
   {
     "entry_number": 51,
@@ -3384,7 +3384,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/268.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/268.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3452,11 +3452,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/269.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/269.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/269.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/269.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/269.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/269.png"
   },
   {
     "entry_number": 53,
@@ -3522,11 +3522,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/415.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/415.png",
     "gender_rate": 1,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/415.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/415.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/415.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/415.png"
   },
   {
     "entry_number": 54,
@@ -3592,7 +3592,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/416.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/416.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -3653,11 +3653,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/417.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/417.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/417.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/417.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/417.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/417.png"
   },
   {
     "entry_number": 56,
@@ -3716,11 +3716,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/418.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/418.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/418.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/418.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/418.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/418.png"
   },
   {
     "entry_number": 57,
@@ -3779,11 +3779,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/419.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/419.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/419.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/419.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/419.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/419.png"
   },
   {
     "entry_number": 58,
@@ -3842,7 +3842,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/420.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/420.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3903,7 +3903,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/421.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/421.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3964,7 +3964,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/422.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/422.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4032,7 +4032,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/423.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/423.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4107,11 +4107,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/214.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/214.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/214.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/214.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/214.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/214.png"
   },
   {
     "entry_number": 63,
@@ -4170,11 +4170,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/190.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/190.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/190.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/190.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/190.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/190.png"
   },
   {
     "entry_number": 64,
@@ -4233,11 +4233,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/424.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/424.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/424.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/424.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/424.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/424.png"
   },
   {
     "entry_number": 65,
@@ -4303,7 +4303,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/425.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/425.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4371,7 +4371,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/426.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/426.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4432,7 +4432,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/427.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/427.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4500,7 +4500,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/428.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/428.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4568,7 +4568,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/92.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/92.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4636,7 +4636,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/93.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/93.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4718,7 +4718,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/94.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/94.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4779,7 +4779,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/200.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/200.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4840,7 +4840,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/429.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/429.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4908,11 +4908,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/198.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/198.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/198.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/198.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/198.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/198.png"
   },
   {
     "entry_number": 75,
@@ -4978,7 +4978,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/430.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/430.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5039,7 +5039,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/431.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/431.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -5100,7 +5100,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/432.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/432.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -5161,11 +5161,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/118.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/118.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/118.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/118.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/118.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/118.png"
   },
   {
     "entry_number": 79,
@@ -5224,11 +5224,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/119.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/119.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/119.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/119.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/119.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/119.png"
   },
   {
     "entry_number": 80,
@@ -5294,7 +5294,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/339.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/339.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5362,7 +5362,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/340.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/340.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5423,7 +5423,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/433.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/433.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5484,7 +5484,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/358.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/358.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5552,7 +5552,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/434.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/434.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5620,7 +5620,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/435.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/435.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5688,11 +5688,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/307.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/307.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/307.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/307.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/307.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/307.png"
   },
   {
     "entry_number": 87,
@@ -5765,11 +5765,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/308.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/308.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/308.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/308.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/308.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/308.png"
   },
   {
     "entry_number": 88,
@@ -5835,7 +5835,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/436.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/436.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -5903,7 +5903,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/437.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/437.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -5971,7 +5971,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/77.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/77.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6039,7 +6039,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/78.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/78.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6100,7 +6100,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/438.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/438.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6161,11 +6161,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/185.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/185.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/185.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/185.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/185.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/185.png"
   },
   {
     "entry_number": 94,
@@ -6231,7 +6231,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/439.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/439.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6306,7 +6306,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/122.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/122.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6367,7 +6367,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/440.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/440.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -6428,7 +6428,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/113.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/113.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -6489,7 +6489,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/242.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/242.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -6550,7 +6550,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/173.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/173.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -6611,7 +6611,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/35.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/35.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -6672,7 +6672,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/36.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/36.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -6740,7 +6740,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/441.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/441.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6801,7 +6801,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/172.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/172.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6974,11 +6974,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/25.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/25.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/25.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/25.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/25.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/25.png"
   },
   {
     "entry_number": 105,
@@ -7044,11 +7044,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/26.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/26.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/26.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/26.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/26.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/26.png"
   },
   {
     "entry_number": 106,
@@ -7114,7 +7114,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/163.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/163.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7182,7 +7182,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/164.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/164.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7250,7 +7250,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/442.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/442.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7318,11 +7318,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/443.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/443.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/443.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/443.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/443.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/443.png"
   },
   {
     "entry_number": 110,
@@ -7388,11 +7388,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/444.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/444.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/444.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/444.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/444.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/444.png"
   },
   {
     "entry_number": 111,
@@ -7465,11 +7465,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/445.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/445.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/445.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/445.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/445.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/445.png"
   },
   {
     "entry_number": 112,
@@ -7528,7 +7528,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/446.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/446.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -7596,7 +7596,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/143.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/143.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -7657,7 +7657,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/201.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/201.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -7718,7 +7718,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/447.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/447.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -7793,7 +7793,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/448.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/448.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -7861,11 +7861,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/194.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/194.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/194.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/194.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/194.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/194.png"
   },
   {
     "entry_number": 118,
@@ -7931,11 +7931,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/195.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/195.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/195.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/195.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/195.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/195.png"
   },
   {
     "entry_number": 119,
@@ -8001,7 +8001,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/278.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/278.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8069,7 +8069,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/279.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/279.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8137,11 +8137,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/203.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/203.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/203.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/203.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/203.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/203.png"
   },
   {
     "entry_number": 122,
@@ -8200,11 +8200,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/449.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/449.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/449.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/449.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/449.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/449.png"
   },
   {
     "entry_number": 123,
@@ -8263,11 +8263,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/450.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/450.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/450.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/450.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/450.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/450.png"
   },
   {
     "entry_number": 124,
@@ -8333,7 +8333,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/298.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/298.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -8401,7 +8401,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/183.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/183.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8469,7 +8469,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/184.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/184.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8537,7 +8537,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/451.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/451.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8605,7 +8605,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/452.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/452.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8673,11 +8673,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/453.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/453.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/453.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/453.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/453.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/453.png"
   },
   {
     "entry_number": 130,
@@ -8743,11 +8743,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/454.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/454.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/454.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/454.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/454.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/454.png"
   },
   {
     "entry_number": 131,
@@ -8806,7 +8806,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/455.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/455.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8867,7 +8867,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/223.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/223.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8928,11 +8928,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/224.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/224.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/224.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/224.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/224.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/224.png"
   },
   {
     "entry_number": 134,
@@ -8991,11 +8991,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/456.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/456.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/456.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/456.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/456.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/456.png"
   },
   {
     "entry_number": 135,
@@ -9054,11 +9054,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/457.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/457.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/457.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/457.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/457.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/457.png"
   },
   {
     "entry_number": 136,
@@ -9124,7 +9124,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/72.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/72.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9192,7 +9192,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/73.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/73.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9253,7 +9253,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/349.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/349.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9314,11 +9314,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/350.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/350.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/350.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/350.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/350.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/350.png"
   },
   {
     "entry_number": 140,
@@ -9384,7 +9384,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/458.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/458.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9452,7 +9452,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/226.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/226.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9520,11 +9520,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/459.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/459.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/459.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/459.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/459.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/459.png"
   },
   {
     "entry_number": 143,
@@ -9597,11 +9597,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/460.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/460.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/460.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/460.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/460.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/460.png"
   },
   {
     "entry_number": 144,
@@ -9674,11 +9674,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/215.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/215.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/215.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/215.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/215.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/215.png"
   },
   {
     "entry_number": 145,
@@ -9744,11 +9744,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/461.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/461.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/461.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/461.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/461.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/461.png"
   },
   {
     "entry_number": 146,
@@ -9807,7 +9807,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/480.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/480.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -9868,7 +9868,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/481.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/481.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -9929,7 +9929,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/482.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/482.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -10004,7 +10004,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/483.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/483.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -10079,7 +10079,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/484.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/484.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -10140,7 +10140,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/490.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/490.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -10243,7 +10243,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/479.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/479.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -10311,11 +10311,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/207.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/207.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/207.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/207.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/207.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/207.png"
   },
   {
     "entry_number": 154,
@@ -10381,7 +10381,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/472.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/472.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10442,7 +10442,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/299.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/299.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10510,7 +10510,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/476.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/476.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10578,7 +10578,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/280.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/280.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10646,7 +10646,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/281.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/281.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10721,7 +10721,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/282.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/282.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10796,7 +10796,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/475.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/475.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -10857,7 +10857,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/108.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/108.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10918,7 +10918,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/463.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/463.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10993,7 +10993,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/133.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/133.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11054,7 +11054,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/134.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/134.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11115,7 +11115,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/135.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/135.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11176,7 +11176,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/136.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/136.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11237,7 +11237,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/196.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/196.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11298,7 +11298,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/197.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/197.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11359,7 +11359,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/470.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/470.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11420,7 +11420,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/471.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/471.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11488,7 +11488,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/333.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/333.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11563,7 +11563,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/334.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/334.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11624,7 +11624,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/175.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/175.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11692,7 +11692,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/176.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/176.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11760,7 +11760,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/468.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/468.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -11828,7 +11828,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/228.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/228.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11903,11 +11903,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/229.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/229.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/229.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/229.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/229.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/229.png"
   },
   {
     "entry_number": 178,
@@ -11973,7 +11973,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/81.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/81.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -12041,7 +12041,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/82.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/82.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -12109,7 +12109,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/462.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/462.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -12170,7 +12170,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/114.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/114.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12231,11 +12231,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/465.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/465.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/465.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/465.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/465.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/465.png"
   },
   {
     "entry_number": 183,
@@ -12301,7 +12301,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/193.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/193.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12369,7 +12369,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/469.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/469.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12437,7 +12437,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/357.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/357.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12505,11 +12505,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/111.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/111.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/111.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/111.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/111.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/111.png"
   },
   {
     "entry_number": 187,
@@ -12575,11 +12575,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/112.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/112.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/112.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/112.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/112.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/112.png"
   },
   {
     "entry_number": 188,
@@ -12645,11 +12645,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/464.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/464.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/464.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/464.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/464.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/464.png"
   },
   {
     "entry_number": 189,
@@ -12708,7 +12708,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/355.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/355.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12769,7 +12769,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/356.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/356.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12830,7 +12830,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/477.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/477.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12891,7 +12891,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/137.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/137.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -12952,7 +12952,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/233.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/233.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -13013,7 +13013,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/474.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/474.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -13081,11 +13081,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/123.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/123.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/123.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/123.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/123.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/123.png"
   },
   {
     "entry_number": 196,
@@ -13158,11 +13158,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/212.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/212.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/212.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/212.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/212.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/212.png"
   },
   {
     "entry_number": 197,
@@ -13221,7 +13221,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/239.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/239.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -13282,7 +13282,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/125.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/125.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -13343,7 +13343,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/466.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/466.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -13404,7 +13404,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/240.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/240.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -13465,7 +13465,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/126.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/126.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -13526,7 +13526,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/467.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/467.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -13594,7 +13594,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/220.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/220.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13662,11 +13662,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/221.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/221.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/221.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/221.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/221.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/221.png"
   },
   {
     "entry_number": 205,
@@ -13732,11 +13732,11 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/473.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/473.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/female/473.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/473.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/female/473.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/female/473.png"
   },
   {
     "entry_number": 206,
@@ -13795,7 +13795,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/361.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/361.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13863,7 +13863,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/362.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/362.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13931,7 +13931,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/478.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/478.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -13999,7 +13999,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/359.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/359.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -14074,7 +14074,7 @@ export const gen4ptDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/platinum/shiny/487.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/platinum/shiny/487.png",
     "gender_rate": -1,
     "has_gender_differences": false
   }

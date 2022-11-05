@@ -56,7 +56,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/152.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/152.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -117,7 +117,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/153.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/153.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -178,11 +178,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/154.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/154.png",
     "gender_rate": 1,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/154.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/154.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/154.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/154.png"
   },
   {
     "entry_number": 4,
@@ -241,7 +241,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/155.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/155.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -302,7 +302,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/156.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/156.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -370,7 +370,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/157.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/157.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -431,7 +431,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/158.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/158.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -492,7 +492,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/159.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/159.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -553,7 +553,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/160.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/160.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -621,7 +621,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/16.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/16.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -689,7 +689,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/17.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/17.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -764,7 +764,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/18.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/18.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -832,7 +832,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/21.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/21.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -900,7 +900,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/22.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/22.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -968,7 +968,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/163.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/163.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -1036,7 +1036,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/164.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/164.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -1104,11 +1104,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/19.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/19.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/19.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/19.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/19.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/19.png"
   },
   {
     "entry_number": 18,
@@ -1181,11 +1181,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/20.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/20.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/20.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/20.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/20.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/20.png"
   },
   {
     "entry_number": 19,
@@ -1244,7 +1244,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/161.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/161.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -1305,7 +1305,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/162.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/162.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -1366,7 +1366,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/172.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/172.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -1539,11 +1539,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/25.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/25.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/25.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/25.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/25.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/25.png"
   },
   {
     "entry_number": 23,
@@ -1609,11 +1609,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/26.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/26.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/26.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/26.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/26.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/26.png"
   },
   {
     "entry_number": 24,
@@ -1672,7 +1672,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/10.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/10.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -1733,7 +1733,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/11.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/11.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -1808,11 +1808,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/12.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/12.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/12.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/12.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/12.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/12.png"
   },
   {
     "entry_number": 27,
@@ -1878,7 +1878,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/13.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/13.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -1946,7 +1946,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/14.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/14.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2021,7 +2021,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/15.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/15.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2089,11 +2089,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/165.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/165.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/165.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/165.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/165.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/165.png"
   },
   {
     "entry_number": 31,
@@ -2159,11 +2159,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/166.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/166.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/166.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/166.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/166.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/166.png"
   },
   {
     "entry_number": 32,
@@ -2229,7 +2229,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/167.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/167.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2297,7 +2297,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/168.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/168.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2372,7 +2372,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/74.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/74.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2447,7 +2447,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/75.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/75.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2522,7 +2522,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/76.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/76.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2590,11 +2590,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/41.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/41.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/41.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/41.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/41.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/41.png"
   },
   {
     "entry_number": 38,
@@ -2660,11 +2660,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/42.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/42.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/42.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/42.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/42.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/42.png"
   },
   {
     "entry_number": 39,
@@ -2730,7 +2730,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/169.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/169.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2791,7 +2791,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/173.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/173.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -2852,7 +2852,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/35.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/35.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -2913,7 +2913,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/36.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/36.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -2981,7 +2981,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/174.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/174.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -3049,7 +3049,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/39.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/39.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -3117,7 +3117,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/40.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/40.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -3178,7 +3178,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/175.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/175.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -3246,7 +3246,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/176.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/176.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -3314,7 +3314,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/27.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/27.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3382,7 +3382,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/28.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/28.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3443,7 +3443,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/23.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/23.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3504,7 +3504,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/24.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/24.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3565,7 +3565,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/206.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/206.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3626,7 +3626,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/179.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/179.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3687,7 +3687,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/180.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/180.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3755,7 +3755,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/181.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/181.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3823,11 +3823,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/194.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/194.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/194.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/194.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/194.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/194.png"
   },
   {
     "entry_number": 57,
@@ -3893,11 +3893,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/195.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/195.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/195.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/195.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/195.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/195.png"
   },
   {
     "entry_number": 58,
@@ -3963,7 +3963,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/92.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/92.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4031,7 +4031,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/93.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/93.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4113,7 +4113,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/94.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/94.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4174,7 +4174,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/201.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/201.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -4242,7 +4242,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/95.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/95.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4317,11 +4317,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/208.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/208.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/208.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/208.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/208.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/208.png"
   },
   {
     "entry_number": 64,
@@ -4387,7 +4387,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/69.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/69.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4455,7 +4455,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/70.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/70.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4523,7 +4523,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/71.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/71.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4591,7 +4591,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/187.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/187.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4659,7 +4659,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/188.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/188.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4727,7 +4727,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/189.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/189.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4795,7 +4795,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/46.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/46.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4863,7 +4863,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/47.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/47.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4924,7 +4924,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/60.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/60.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4985,7 +4985,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/61.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/61.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5053,7 +5053,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/62.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/62.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5114,11 +5114,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/186.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/186.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/186.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/186.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/186.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/186.png"
   },
   {
     "entry_number": 76,
@@ -5177,11 +5177,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/129.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/129.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/129.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/129.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/129.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/129.png"
   },
   {
     "entry_number": 77,
@@ -5254,11 +5254,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/130.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/130.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/130.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/130.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/130.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/130.png"
   },
   {
     "entry_number": 78,
@@ -5317,11 +5317,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/118.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/118.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/118.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/118.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/118.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/118.png"
   },
   {
     "entry_number": 79,
@@ -5380,11 +5380,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/119.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/119.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/119.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/119.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/119.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/119.png"
   },
   {
     "entry_number": 80,
@@ -5457,7 +5457,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/79.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/79.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5539,7 +5539,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/80.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/80.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5614,7 +5614,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/199.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/199.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5682,7 +5682,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/43.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/43.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5750,11 +5750,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/44.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/44.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/44.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/44.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/44.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/44.png"
   },
   {
     "entry_number": 85,
@@ -5820,11 +5820,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/45.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/45.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/45.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/45.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/45.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/45.png"
   },
   {
     "entry_number": 86,
@@ -5883,7 +5883,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/182.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/182.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5944,7 +5944,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/96.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/96.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6005,11 +6005,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/97.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/97.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/97.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/97.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/97.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/97.png"
   },
   {
     "entry_number": 89,
@@ -6068,7 +6068,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/63.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/63.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -6129,11 +6129,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/64.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/64.png",
     "gender_rate": 2,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/64.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/64.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/64.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/64.png"
   },
   {
     "entry_number": 91,
@@ -6199,11 +6199,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/65.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/65.png",
     "gender_rate": 2,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/65.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/65.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/65.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/65.png"
   },
   {
     "entry_number": 92,
@@ -6262,7 +6262,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/132.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/132.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -6323,7 +6323,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/204.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/204.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6391,7 +6391,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/205.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/205.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6452,7 +6452,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/29.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/29.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -6513,7 +6513,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/30.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/30.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -6581,7 +6581,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/31.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/31.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -6642,7 +6642,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/32.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/32.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -6703,7 +6703,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/33.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/33.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -6771,7 +6771,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/34.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/34.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -6839,7 +6839,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/193.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/193.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6907,7 +6907,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/469.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/469.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6968,7 +6968,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/191.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/191.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7029,7 +7029,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/192.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/192.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7097,7 +7097,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/102.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/102.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7172,7 +7172,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/103.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/103.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7233,11 +7233,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/185.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/185.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/185.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/185.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/185.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/185.png"
   },
   {
     "entry_number": 108,
@@ -7296,11 +7296,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/202.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/202.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/202.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/202.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/202.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/202.png"
   },
   {
     "entry_number": 109,
@@ -7366,7 +7366,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/48.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/48.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7434,7 +7434,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/49.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/49.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7502,11 +7502,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/123.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/123.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/123.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/123.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/123.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/123.png"
   },
   {
     "entry_number": 112,
@@ -7579,11 +7579,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/212.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/212.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/212.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/212.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/212.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/212.png"
   },
   {
     "entry_number": 113,
@@ -7649,7 +7649,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/127.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/127.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7724,11 +7724,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/214.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/214.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/214.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/214.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/214.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/214.png"
   },
   {
     "entry_number": 115,
@@ -7787,7 +7787,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/109.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/109.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7855,7 +7855,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/110.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/110.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7923,7 +7923,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/88.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/88.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7991,7 +7991,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/89.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/89.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8059,7 +8059,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/81.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/81.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -8127,7 +8127,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/82.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/82.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -8195,7 +8195,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/100.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/100.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -8263,7 +8263,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/101.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/101.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -8324,11 +8324,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/190.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/190.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/190.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/190.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/190.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/190.png"
   },
   {
     "entry_number": 124,
@@ -8387,11 +8387,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/424.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/424.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/424.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/424.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/424.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/424.png"
   },
   {
     "entry_number": 125,
@@ -8450,7 +8450,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/209.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/209.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -8511,7 +8511,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/210.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/210.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -8579,7 +8579,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/37.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/37.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -8647,7 +8647,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/38.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/38.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -8715,7 +8715,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/58.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/58.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -8783,7 +8783,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/59.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/59.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -8844,7 +8844,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/234.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/234.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8912,7 +8912,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/183.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/183.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8980,7 +8980,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/184.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/184.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9048,7 +9048,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/50.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/50.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9116,7 +9116,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/51.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/51.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9177,7 +9177,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/56.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/56.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9238,7 +9238,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/57.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/57.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9320,7 +9320,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/52.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/52.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9388,7 +9388,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/53.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/53.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9449,7 +9449,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/54.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/54.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9510,7 +9510,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/55.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/55.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9571,7 +9571,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/66.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/66.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -9632,7 +9632,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/67.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/67.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -9700,7 +9700,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/68.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/68.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -9761,7 +9761,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/236.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/236.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -9822,7 +9822,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/106.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/106.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -9883,7 +9883,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/107.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/107.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -9944,7 +9944,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/237.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/237.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -10012,11 +10012,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/203.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/203.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/203.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/203.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/203.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/203.png"
   },
   {
     "entry_number": 150,
@@ -10075,7 +10075,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/128.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/128.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -10136,7 +10136,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/241.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/241.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -10197,7 +10197,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/240.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/240.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -10258,7 +10258,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/126.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/126.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -10326,7 +10326,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/238.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/238.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -10394,7 +10394,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/124.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/124.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -10455,7 +10455,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/239.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/239.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -10516,7 +10516,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/125.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/125.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -10591,7 +10591,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/122.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/122.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10652,7 +10652,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/235.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/235.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10727,7 +10727,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/83.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/83.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10795,7 +10795,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/177.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/177.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -10863,11 +10863,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/178.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/178.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/178.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/178.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/178.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/178.png"
   },
   {
     "entry_number": 163,
@@ -10940,7 +10940,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/211.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/211.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11008,7 +11008,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/72.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/72.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11076,7 +11076,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/73.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/73.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11137,7 +11137,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/98.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/98.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11205,7 +11205,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/99.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/99.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11273,7 +11273,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/213.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/213.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11334,7 +11334,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/120.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/120.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -11402,7 +11402,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/121.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/121.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -11463,7 +11463,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/90.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/90.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11531,7 +11531,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/91.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/91.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11606,7 +11606,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/222.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/222.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -11667,7 +11667,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/223.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/223.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11728,11 +11728,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/224.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/224.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/224.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/224.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/224.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/224.png"
   },
   {
     "entry_number": 176,
@@ -11798,7 +11798,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/170.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/170.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11866,7 +11866,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/171.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/171.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11927,7 +11927,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/86.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/86.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -11995,7 +11995,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/87.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/87.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12056,7 +12056,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/108.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/108.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12117,7 +12117,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/463.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/463.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12178,7 +12178,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/114.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/114.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12239,11 +12239,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/465.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/465.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/465.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/465.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/465.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/465.png"
   },
   {
     "entry_number": 184,
@@ -12316,7 +12316,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/133.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/133.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -12377,7 +12377,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/134.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/134.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -12438,7 +12438,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/135.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/135.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -12499,7 +12499,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/136.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/136.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -12560,7 +12560,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/196.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/196.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -12621,7 +12621,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/197.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/197.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -12682,7 +12682,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/116.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/116.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12743,7 +12743,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/117.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/117.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12811,7 +12811,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/230.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/230.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -12879,11 +12879,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/207.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/207.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/207.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/207.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/207.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/207.png"
   },
   {
     "entry_number": 194,
@@ -12949,7 +12949,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/225.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/225.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13017,7 +13017,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/220.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/220.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13085,11 +13085,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/221.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/221.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/221.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/221.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/221.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/221.png"
   },
   {
     "entry_number": 197,
@@ -13155,11 +13155,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/473.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/473.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/473.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/473.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/473.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/473.png"
   },
   {
     "entry_number": 198,
@@ -13218,7 +13218,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/216.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/216.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13279,11 +13279,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/217.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/217.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/217.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/217.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/217.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/217.png"
   },
   {
     "entry_number": 200,
@@ -13342,7 +13342,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/231.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/231.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13403,11 +13403,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/232.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/232.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/232.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/232.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/232.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/232.png"
   },
   {
     "entry_number": 202,
@@ -13473,7 +13473,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/226.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/226.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13541,7 +13541,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/227.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/227.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13609,11 +13609,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/84.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/84.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/84.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/84.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/84.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/84.png"
   },
   {
     "entry_number": 205,
@@ -13679,11 +13679,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/85.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/85.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/85.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/85.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/85.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/85.png"
   },
   {
     "entry_number": 206,
@@ -13749,7 +13749,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/77.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/77.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13817,7 +13817,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/78.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/78.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13878,7 +13878,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/104.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/104.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -13953,7 +13953,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/105.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/105.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -14021,7 +14021,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/115.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/115.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -14089,11 +14089,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/111.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/111.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/111.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/111.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/111.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/111.png"
   },
   {
     "entry_number": 212,
@@ -14159,11 +14159,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/112.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/112.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/112.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/112.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/112.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/112.png"
   },
   {
     "entry_number": 213,
@@ -14229,11 +14229,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/198.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/198.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/198.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/198.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/198.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/198.png"
   },
   {
     "entry_number": 214,
@@ -14299,7 +14299,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/228.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/228.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -14374,11 +14374,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/229.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/229.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/229.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/229.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/229.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/229.png"
   },
   {
     "entry_number": 216,
@@ -14437,7 +14437,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/218.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/218.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -14505,7 +14505,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/219.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/219.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -14580,11 +14580,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/215.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/215.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/215.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/215.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/215.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/215.png"
   },
   {
     "entry_number": 219,
@@ -14643,7 +14643,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/200.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/200.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -14704,7 +14704,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/137.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/137.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -14765,7 +14765,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/233.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/233.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -14826,7 +14826,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/113.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/113.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -14887,7 +14887,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/242.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/242.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -14962,7 +14962,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/131.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/131.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -15030,7 +15030,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/138.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/138.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15098,7 +15098,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/139.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/139.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15166,7 +15166,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/140.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/140.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15234,7 +15234,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/141.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/141.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15309,7 +15309,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/142.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/142.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15377,7 +15377,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/143.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/143.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15445,7 +15445,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/1.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/1.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15513,7 +15513,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/2.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/2.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15595,11 +15595,11 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/3.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/3.png",
     "gender_rate": 1,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/3.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/3.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/3.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/3.png"
   },
   {
     "entry_number": 234,
@@ -15658,7 +15658,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/4.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/4.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15719,7 +15719,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/5.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/5.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15808,7 +15808,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/6.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/6.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15869,7 +15869,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/7.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/7.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -15930,7 +15930,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/8.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/8.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -16005,7 +16005,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/9.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/9.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -16080,7 +16080,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/144.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/144.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -16155,7 +16155,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/145.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/145.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -16230,7 +16230,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/146.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/146.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -16291,7 +16291,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/243.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/243.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -16352,7 +16352,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/244.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/244.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -16413,7 +16413,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/245.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/245.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -16474,7 +16474,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/147.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/147.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -16535,7 +16535,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/148.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/148.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -16603,7 +16603,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/149.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/149.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -16671,7 +16671,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/246.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/246.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -16739,7 +16739,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/247.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/247.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -16814,7 +16814,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/248.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/248.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -16882,7 +16882,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/249.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/249.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -16950,7 +16950,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/250.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/250.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -17025,7 +17025,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/150.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/150.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -17086,7 +17086,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/151.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/151.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -17154,7 +17154,7 @@ export const gen4hgssDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/251.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/251.png",
     "gender_rate": -1,
     "has_gender_differences": false
   }

@@ -56,7 +56,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/387.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/387.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -117,7 +117,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/388.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/388.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -185,7 +185,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/389.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/389.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -246,7 +246,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/390.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/390.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -314,7 +314,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/391.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/391.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -382,7 +382,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/392.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/392.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -443,7 +443,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/393.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/393.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -504,7 +504,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/394.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/394.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -572,7 +572,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/395.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/395.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -640,11 +640,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/396.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/396.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/396.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/396.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/396.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/396.png"
   },
   {
     "entry_number": 11,
@@ -710,11 +710,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/397.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/397.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/397.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/397.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/397.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/397.png"
   },
   {
     "entry_number": 12,
@@ -780,11 +780,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/398.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/398.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/398.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/398.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/398.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/398.png"
   },
   {
     "entry_number": 13,
@@ -843,11 +843,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/399.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/399.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/399.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/399.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/399.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/399.png"
   },
   {
     "entry_number": 14,
@@ -913,11 +913,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/400.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/400.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/400.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/400.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/400.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/400.png"
   },
   {
     "entry_number": 15,
@@ -976,11 +976,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/401.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/401.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/401.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/401.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/401.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/401.png"
   },
   {
     "entry_number": 16,
@@ -1039,11 +1039,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/402.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/402.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/402.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/402.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/402.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/402.png"
   },
   {
     "entry_number": 17,
@@ -1102,11 +1102,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/403.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/403.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/403.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/403.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/403.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/403.png"
   },
   {
     "entry_number": 18,
@@ -1165,11 +1165,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/404.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/404.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/404.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/404.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/404.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/404.png"
   },
   {
     "entry_number": 19,
@@ -1228,11 +1228,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/405.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/405.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/405.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/405.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/405.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/405.png"
   },
   {
     "entry_number": 20,
@@ -1291,7 +1291,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/63.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/63.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -1352,11 +1352,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/64.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/64.png",
     "gender_rate": 2,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/64.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/64.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/64.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/64.png"
   },
   {
     "entry_number": 22,
@@ -1422,11 +1422,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/65.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/65.png",
     "gender_rate": 2,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/65.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/65.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/65.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/65.png"
   },
   {
     "entry_number": 23,
@@ -1485,11 +1485,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/129.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/129.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/129.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/129.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/129.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/129.png"
   },
   {
     "entry_number": 24,
@@ -1562,11 +1562,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/130.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/130.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/130.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/130.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/130.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/130.png"
   },
   {
     "entry_number": 25,
@@ -1632,7 +1632,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/406.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/406.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -1700,11 +1700,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/315.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/315.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/315.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/315.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/315.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/315.png"
   },
   {
     "entry_number": 27,
@@ -1770,11 +1770,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/407.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/407.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/407.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/407.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/407.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/407.png"
   },
   {
     "entry_number": 28,
@@ -1840,11 +1840,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/41.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/41.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/41.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/41.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/41.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/41.png"
   },
   {
     "entry_number": 29,
@@ -1910,11 +1910,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/42.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/42.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/42.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/42.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/42.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/42.png"
   },
   {
     "entry_number": 30,
@@ -1980,7 +1980,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/169.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/169.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2055,7 +2055,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/74.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/74.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2130,7 +2130,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/75.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/75.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2205,7 +2205,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/76.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/76.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2273,7 +2273,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/95.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/95.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2348,11 +2348,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/208.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/208.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/208.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/208.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/208.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/208.png"
   },
   {
     "entry_number": 36,
@@ -2411,7 +2411,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/408.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/408.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -2472,7 +2472,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/409.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/409.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -2540,7 +2540,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/410.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/410.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -2608,7 +2608,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/411.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/411.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -2669,7 +2669,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/66.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/66.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -2730,7 +2730,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/67.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/67.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -2798,7 +2798,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/68.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/68.png",
     "gender_rate": 2,
     "has_gender_differences": false
   },
@@ -2859,7 +2859,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/54.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/54.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2920,7 +2920,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/55.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/55.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -2981,7 +2981,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/412.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/412.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3063,7 +3063,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/413.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/413.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -3131,7 +3131,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/414.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/414.png",
     "gender_rate": 0,
     "has_gender_differences": false
   },
@@ -3192,7 +3192,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/265.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/265.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3253,7 +3253,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/266.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/266.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3321,11 +3321,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/267.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/267.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/267.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/267.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/267.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/267.png"
   },
   {
     "entry_number": 51,
@@ -3384,7 +3384,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/268.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/268.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3452,11 +3452,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/269.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/269.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/269.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/269.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/269.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/269.png"
   },
   {
     "entry_number": 53,
@@ -3522,11 +3522,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/415.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/415.png",
     "gender_rate": 1,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/415.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/415.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/415.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/415.png"
   },
   {
     "entry_number": 54,
@@ -3592,7 +3592,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/416.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/416.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -3653,11 +3653,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/417.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/417.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/417.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/417.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/417.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/417.png"
   },
   {
     "entry_number": 56,
@@ -3716,11 +3716,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/418.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/418.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/418.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/418.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/418.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/418.png"
   },
   {
     "entry_number": 57,
@@ -3779,11 +3779,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/419.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/419.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/419.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/419.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/419.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/419.png"
   },
   {
     "entry_number": 58,
@@ -3842,7 +3842,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/420.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/420.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3903,7 +3903,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/421.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/421.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -3964,7 +3964,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/422.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/422.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4032,7 +4032,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/423.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/423.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4107,11 +4107,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/214.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/214.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/214.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/214.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/214.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/214.png"
   },
   {
     "entry_number": 63,
@@ -4170,11 +4170,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/190.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/190.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/190.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/190.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/190.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/190.png"
   },
   {
     "entry_number": 64,
@@ -4233,11 +4233,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/424.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/424.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/424.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/424.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/424.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/424.png"
   },
   {
     "entry_number": 65,
@@ -4303,7 +4303,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/425.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/425.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4371,7 +4371,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/426.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/426.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4432,7 +4432,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/427.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/427.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4500,7 +4500,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/428.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/428.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4568,7 +4568,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/92.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/92.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4636,7 +4636,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/93.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/93.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4718,7 +4718,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/94.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/94.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4779,7 +4779,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/200.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/200.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4840,7 +4840,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/429.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/429.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -4908,11 +4908,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/198.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/198.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/198.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/198.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/198.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/198.png"
   },
   {
     "entry_number": 75,
@@ -4978,7 +4978,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/430.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/430.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5039,7 +5039,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/431.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/431.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -5100,7 +5100,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/432.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/432.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -5161,11 +5161,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/118.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/118.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/118.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/118.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/118.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/118.png"
   },
   {
     "entry_number": 79,
@@ -5224,11 +5224,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/119.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/119.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/119.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/119.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/119.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/119.png"
   },
   {
     "entry_number": 80,
@@ -5294,7 +5294,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/339.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/339.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5362,7 +5362,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/340.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/340.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5423,7 +5423,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/433.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/433.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5484,7 +5484,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/358.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/358.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5552,7 +5552,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/434.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/434.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5620,7 +5620,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/435.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/435.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -5688,11 +5688,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/307.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/307.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/307.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/307.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/307.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/307.png"
   },
   {
     "entry_number": 87,
@@ -5765,11 +5765,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/308.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/308.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/308.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/308.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/308.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/308.png"
   },
   {
     "entry_number": 88,
@@ -5835,7 +5835,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/436.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/436.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -5903,7 +5903,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/437.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/437.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -5971,7 +5971,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/77.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/77.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6039,7 +6039,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/78.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/78.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6100,7 +6100,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/438.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/438.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6161,11 +6161,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/185.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/185.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/185.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/185.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/185.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/185.png"
   },
   {
     "entry_number": 94,
@@ -6231,7 +6231,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/439.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/439.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6306,7 +6306,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/122.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/122.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6367,7 +6367,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/440.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/440.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -6428,7 +6428,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/113.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/113.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -6489,7 +6489,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/242.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/242.png",
     "gender_rate": 8,
     "has_gender_differences": false
   },
@@ -6550,7 +6550,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/173.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/173.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -6611,7 +6611,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/35.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/35.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -6672,7 +6672,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/36.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/36.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -6740,7 +6740,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/441.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/441.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6801,7 +6801,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/172.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/172.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -6974,11 +6974,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/25.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/25.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/25.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/25.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/25.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/25.png"
   },
   {
     "entry_number": 105,
@@ -7044,11 +7044,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/26.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/26.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/26.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/26.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/26.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/26.png"
   },
   {
     "entry_number": 106,
@@ -7114,7 +7114,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/163.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/163.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7182,7 +7182,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/164.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/164.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7250,7 +7250,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/442.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/442.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -7318,11 +7318,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/443.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/443.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/443.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/443.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/443.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/443.png"
   },
   {
     "entry_number": 110,
@@ -7388,11 +7388,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/444.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/444.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/444.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/444.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/444.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/444.png"
   },
   {
     "entry_number": 111,
@@ -7465,11 +7465,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/445.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/445.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/445.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/445.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/445.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/445.png"
   },
   {
     "entry_number": 112,
@@ -7528,7 +7528,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/446.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/446.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -7596,7 +7596,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/143.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/143.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -7657,7 +7657,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/201.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/201.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -7718,7 +7718,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/447.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/447.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -7793,7 +7793,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/448.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/448.png",
     "gender_rate": 1,
     "has_gender_differences": false
   },
@@ -7861,11 +7861,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/194.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/194.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/194.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/194.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/194.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/194.png"
   },
   {
     "entry_number": 118,
@@ -7931,11 +7931,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/195.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/195.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/195.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/195.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/195.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/195.png"
   },
   {
     "entry_number": 119,
@@ -8001,7 +8001,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/278.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/278.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8069,7 +8069,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/279.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/279.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8137,11 +8137,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/203.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/203.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/203.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/203.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/203.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/203.png"
   },
   {
     "entry_number": 122,
@@ -8200,11 +8200,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/449.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/449.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/449.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/449.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/449.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/449.png"
   },
   {
     "entry_number": 123,
@@ -8263,11 +8263,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/450.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/450.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/450.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/450.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/450.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/450.png"
   },
   {
     "entry_number": 124,
@@ -8333,7 +8333,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/298.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/298.png",
     "gender_rate": 6,
     "has_gender_differences": false
   },
@@ -8401,7 +8401,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/183.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/183.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8469,7 +8469,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/184.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/184.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8537,7 +8537,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/451.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/451.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8605,7 +8605,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/452.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/452.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8673,11 +8673,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/453.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/453.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/453.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/453.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/453.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/453.png"
   },
   {
     "entry_number": 130,
@@ -8743,11 +8743,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/454.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/454.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/454.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/454.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/454.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/454.png"
   },
   {
     "entry_number": 131,
@@ -8806,7 +8806,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/455.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/455.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8867,7 +8867,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/223.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/223.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -8928,11 +8928,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/224.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/224.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/224.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/224.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/224.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/224.png"
   },
   {
     "entry_number": 134,
@@ -8991,11 +8991,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/456.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/456.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/456.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/456.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/456.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/456.png"
   },
   {
     "entry_number": 135,
@@ -9054,11 +9054,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/457.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/457.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/457.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/457.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/457.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/457.png"
   },
   {
     "entry_number": 136,
@@ -9124,7 +9124,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/72.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/72.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9192,7 +9192,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/73.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/73.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9253,7 +9253,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/349.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/349.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9314,11 +9314,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/350.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/350.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/350.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/350.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/350.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/350.png"
   },
   {
     "entry_number": 140,
@@ -9384,7 +9384,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/458.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/458.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9452,7 +9452,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/226.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/226.png",
     "gender_rate": 4,
     "has_gender_differences": false
   },
@@ -9520,11 +9520,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/459.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/459.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/459.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/459.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/459.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/459.png"
   },
   {
     "entry_number": 143,
@@ -9597,11 +9597,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/460.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/460.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/460.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/460.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/460.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/460.png"
   },
   {
     "entry_number": 144,
@@ -9674,11 +9674,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/215.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/215.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/215.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/215.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/215.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/215.png"
   },
   {
     "entry_number": 145,
@@ -9744,11 +9744,11 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/461.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/461.png",
     "gender_rate": 4,
     "has_gender_differences": true,
-    "female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/461.png",
-    "shiny_female_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/461.png"
+    "female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/female/461.png",
+    "shiny_female_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/461.png"
   },
   {
     "entry_number": 146,
@@ -9807,7 +9807,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/480.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/480.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -9868,7 +9868,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/481.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/481.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -9929,7 +9929,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/482.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/482.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -10004,7 +10004,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/483.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/483.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -10079,7 +10079,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/484.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/484.png",
     "gender_rate": -1,
     "has_gender_differences": false
   },
@@ -10140,7 +10140,7 @@ export const gen4dpDex = [
         }
       }
     ],
-    "shiny_sprite": "../images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/490.png",
+    "shiny_sprite": "./images/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/490.png",
     "gender_rate": -1,
     "has_gender_differences": false
   }
