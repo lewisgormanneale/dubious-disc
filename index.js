@@ -27,7 +27,12 @@ let generationFilterNumber = 0
 
 //Navbar
 function openNav() {
-    document.getElementById("navbar").style.width = "33%";
+    let mediaQuery = window.matchMedia("(max-width: 700px")
+    if(mediaQuery.matches) {
+        document.getElementById("navbar").style.width = "100%";
+    } else {
+        document.getElementById("navbar").style.width = "33%";
+    }
 }
 function closeNav() {
     document.getElementById("navbar").style.width = "0";
