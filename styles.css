@@ -594,6 +594,10 @@ main {
         width: 50%;
         height: 35px;
     }
+    #options > div:nth-of-type(1) {
+        width: 100%;
+        justify-content: space-between;
+    }
     #options > div:nth-of-type(2){
         width: 50%;
         justify-content: flex-end;
