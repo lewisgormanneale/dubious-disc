@@ -576,7 +576,7 @@ main {
         height: 125px;
     }
     .pokemon-image {
-        height: 70px;
+        height: 65px;
     }
     .pokedex-entry {
         width: 100px;
@@ -590,8 +590,9 @@ main {
         flex-wrap: wrap;
     }
     #options > div {
+        margin: 5px;
         width: 50%;
-        height: 40px;
+        height: 35px;
     }
     #options > div:nth-of-type(2){
         width: 50%;
@@ -607,6 +608,8 @@ main {
     }
     #options > div > button {
         font-size: 8px;
+        margin: 2px;
+        height: 35px;
     }
     .hm {
         font-size: 8px;
