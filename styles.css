@@ -302,22 +302,23 @@ main {
 }
 
 .team-member-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30px;
     height: 20px;
-    background-color: white;
     border-radius: 8px;
     border-style: none;
-    color: white;
     cursor: pointer;
+}
+
+.team-member-option > span {
+    font-size: 16px;
 }
 
 .gender-option {
     background-color: lightskyblue;
     color: black;
-}
-
-.gender-option > span {
-    font-size: 18px;
 }
 
 .remove-option {
@@ -328,9 +329,6 @@ main {
 .shiny-option {
     background-color: yellow;
     color: black;
-}
-.shiny-option > span {
-    font-size: 18px;
 }
 
 #options {
