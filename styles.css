@@ -519,7 +519,7 @@ main {
 .icon-reference {
     display: grid;
     gap: 10px 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .icon-reference > p {
@@ -608,7 +608,10 @@ main {
     }
     .hm {
         font-size: 8px;
-      }
+    }
+    .icon-reference {
+        grid-template-columns: repeat(2, 1fr);
+    }
     #faq {
         width: 80%;
     }
