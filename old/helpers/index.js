@@ -1,8 +1,6 @@
 // DOM Setup
 const body = document.querySelector('body');
 
-const darkModeButton = document.querySelector('#dark-mode-button');
-
 const teamAndOptions = document.querySelector('#team-and-options');
 const team = document.querySelector('#team');
 
@@ -18,7 +16,6 @@ const pokedex = document.querySelector('#pokedex');
 const hms = document.querySelector('#hms');
 
 // Function Setup, Global Variables
-let darkMode = false;
 let generationNumber = 5.5;
 let selectedGeneration = '';
 let data = []
@@ -26,28 +23,6 @@ let typeOverlap = false;
 let generationFilterNumber = 0
 
 //Navbar
-function openNav() {
-    let mediaQuery = window.matchMedia("(max-width: 700px")
-    if(mediaQuery.matches) {
-        document.getElementById("navbar").style.width = "100%";
-    } else {
-        document.getElementById("navbar").style.width = "33%";
-    }
-}
-function closeNav() {
-    document.getElementById("navbar").style.width = "0";
-}
-
-//Dark Mode
-function darkModeToggle() {
-    if (darkMode === false) {
-        body.classList.add('dark-mode');
-        darkMode = true;
-    } else if (darkMode === true) {
-        body.classList.remove('dark-mode')
-        darkMode = false;
-    };
-};
 
 // Pokemon/Pokedex Load In
 async function displayAvailablePokemon() {

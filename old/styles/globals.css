@@ -1,0 +1,738 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-glow: conic-gradient(
+    from 180deg at 50% 50%,
+    #16abff33 0deg,
+    #0885ff33 55deg,
+    #54d6ff33 120deg,
+    #0071ff33 160deg,
+    transparent 360deg
+  );
+  --secondary-glow: radial-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+
+  --tile-start-rgb: 239, 245, 249;
+  --tile-end-rgb: 228, 232, 233;
+  --tile-border: conic-gradient(
+    #00000080,
+    #00000040,
+    #00000030,
+    #00000020,
+    #00000010,
+    #00000010,
+    #00000080
+  );
+
+  --callout-rgb: 238, 240, 241;
+  --callout-border-rgb: 172, 175, 176;
+  --card-rgb: 180, 185, 188;
+  --card-border-rgb: 131, 134, 135;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+
+    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    --secondary-glow: linear-gradient(
+      to bottom right,
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0.3)
+    );
+
+    --tile-start-rgb: 2, 13, 46;
+    --tile-end-rgb: 2, 5, 19;
+    --tile-border: conic-gradient(
+      #ffffff80,
+      #ffffff40,
+      #ffffff30,
+      #ffffff20,
+      #ffffff10,
+      #ffffff10,
+      #ffffff80
+    );
+
+    --callout-rgb: 20, 20, 20;
+    --callout-border-rgb: 108, 108, 108;
+    --card-rgb: 100, 100, 100;
+    --card-border-rgb: 200, 200, 200;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+:root {
+  /* general global variables */
+  --primary-background-color: white;
+  --primary-color: black;
+  /* type colours */
+  --normal: #aaaa99;
+  --fighting: #bb5544;
+  --flying: #8899ff;
+  --poison: #aa5599;
+  --ground: #ddbb55;
+  --rock: #bbaa66;
+  --bug: #aabb22;
+  --ghost: #6666bb;
+  --steel: #aaaabb;
+  --fire: #ff4422;
+  --water: #3399ff;
+  --grass: #77cc55;
+  --electric: #ffcc33;
+  --psychic: #ff5599;
+  --ice: #66ccff;
+  --dragon: #8c7df1;
+  --dark: #775544;
+  --fairy: #ee99ee;
+  --unknown: grey;
+  --shadow: black;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dark-mode {
+  --primary-background-color: black;
+  --primary-color: white;
+}
+
+.invisible {
+  display: none !important;
+}
+
+button {
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+  background-clip: padding-box;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  z-index: 4;
+  height: 50px;
+  font-size: 1em;
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+  height: 100%;
+  padding-top: 50px;
+  position: fixed;
+  overflow: auto;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+#navbar a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+}
+
+#navbar a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#navbar #close-button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 28px;
+  height: 50px;
+  margin-left: 50px;
+}
+
+#game-select-container {
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 50%;
+  font-family: "Teko", sans-serif;
+  font-size: 2em;
+  white-space: nowrap;
+}
+
+#dark-mode-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+.header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+#team-and-options {
+  display: flex;
+  top: 50px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  flex-direction: column;
+  width: 100%;
+  min-height: 200px;
+  background-color: darkred;
+  z-index: 2;
+}
+
+#team {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  min-height: 190px;
+  background-color: darkred;
+}
+
+.team-member-container {
+  height: 180px;
+  border-radius: 10%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: flex-start;
+}
+
+.pokemon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  border-radius: 10%;
+  color: black;
+  cursor: pointer;
+}
+
+.team-member {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 4px;
+}
+
+.pokemon-name-and-id {
+  position: absolute;
+  top: 3px;
+  height: 30px;
+  width: 95%;
+  border-radius: 30px;
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+}
+
+.pokemon-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  border-radius: 30px;
+  background-color: var(--primary-color);
+  color: var(--primary-background-color);
+  height: 30px;
+  width: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.pokemon-name {
+  position: absolute;
+  left: 34px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  z-index: 1;
+}
+
+.pokedex-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+  height: 30px;
+  width: 30px;
+  font-size: 10px;
+  position: absolute;
+  top: 3px;
+  left: 1px;
+  z-index: 2;
+}
+
+.pokemon-image {
+  position: absolute;
+  top: 30px;
+  height: 90px;
+  width: auto;
+}
+
+.type {
+  display: inline-block;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 3px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.primary-type {
+  left: 1px;
+  bottom: 2px;
+}
+
+.secondary-type {
+  right: 1px;
+  bottom: 2px;
+}
+
+.learnable-hms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70px;
+  height: 32px;
+}
+
+.learnable-hms > span {
+  font-size: 16px;
+}
+
+.team-member-options {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.team-member-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 20px;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.team-member-option > span {
+  font-size: 16px;
+}
+
+.gender-option {
+  background-color: lightskyblue;
+  color: black;
+}
+
+.remove-option {
+  background-color: rgb(180, 0, 0);
+  color: black;
+}
+
+.shiny-option {
+  background-color: yellow;
+  color: black;
+}
+
+#options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0 20px;
+  height: 60px;
+  width: 100%;
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+}
+
+#options > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  min-width: 100px;
+}
+
+#options > div:first-of-type {
+  justify-content: flex-start;
+}
+
+#options > div:nth-of-type(3) {
+  justify-content: flex-start;
+}
+
+#options > div > button {
+  padding: 6px;
+  height: 40px;
+  width: auto;
+  margin: 10px;
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  border: 3px solid darkred;
+  border-radius: 30px;
+}
+
+#hm-filters {
+  display: flex;
+  padding: 6px;
+  height: 40px;
+  width: auto;
+  margin: 10px;
+  background-color: white;
+  color: black;
+  border: 3px solid darkred;
+  border-radius: 30px;
+  padding-left: 16px;
+  font-weight: bolder;
+}
+
+#hm-filters > p {
+  padding-right: 8px;
+}
+
+#hms {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* Customize the label (the hm) */
+.hm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 18px;
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.hm input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  background-color: #eee;
+  border: 1px solid black;
+}
+
+/* On mouse-over, add a grey background color */
+.hm:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.hm input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.hm input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.hm .checkmark:after {
+  left: 2px;
+  top: 0px;
+  width: 2px;
+  height: 5px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
+  z-index: 1;
+}
+
+.pokedex-entry {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  width: 125px;
+  height: 125px;
+}
+
+#faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 20px;
+  row-gap: 20px;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+
+#faq-title {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+}
+
+#faq > h3 {
+  margin-top: 20px;
+}
+
+#faq > h3:first-of-type {
+  margin-top: 10px;
+}
+
+.icon-reference {
+  display: grid;
+  gap: 10px 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.icon-reference > p {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  height: 30px;
+}
+
+#type-icon-reference > p {
+  margin-right: 30px;
+}
+
+#type-icon-reference > p > img {
+  margin-left: 5px;
+  width: 30px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkred;
+  color: white;
+  width: 100%;
+  min-height: 30px;
+  margin-top: 20px;
+  padding: 5px 20px;
+  font-size: 0.6em;
+  text-align: center;
+}
+
+#footer > p > a {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 900px) {
+  #title {
+    font-size: 24px;
+  }
+  #team {
+    max-width: 490px;
+    flex-wrap: wrap;
+    height: 320px;
+    min-width: 375px;
+  }
+  main {
+    margin-top: 465px;
+  }
+  .team-member-container {
+    height: 155px;
+  }
+  .team-member {
+    margin-right: auto;
+    width: 125px;
+    height: 125px;
+  }
+  .pokemon-image {
+    height: 65px;
+  }
+  .pokedex-entry {
+    width: 100px;
+    height: 100px;
+  }
+  .pokedex-entry > .pokemon-name-and-id > .pokemon-name {
+    font-size: 10px;
+  }
+  #options {
+    height: 90px;
+    flex-wrap: wrap;
+  }
+  #options > div {
+    margin: 5px;
+    width: 50%;
+    height: 35px;
+  }
+  #options > div:nth-of-type(1) {
+    width: 100%;
+    justify-content: space-between;
+  }
+  #options > div:nth-of-type(2) {
+    width: 50%;
+    justify-content: flex-end;
+  }
+  .learnable-hms {
+    width: 60px;
+    height: 32px;
+  }
+  #options > div:nth-of-type(3) {
+    width: 100%;
+    justify-content: center;
+  }
+  #options > div > button {
+    font-size: 8px;
+    margin: 2px;
+    height: 35px;
+  }
+  .hm {
+    font-size: 8px;
+  }
+  .icon-reference {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #faq {
+    width: 80%;
+  }
+}
