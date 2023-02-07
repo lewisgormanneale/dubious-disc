@@ -1,25 +1,11 @@
 import Image from "next/image";
-import notchedEarPichu from "../public/notched-ear-pichu.png";
-import shinyPichu from "../public/shiny-pichu.png";
 import TypeIcon from "./TypeIcon";
 
 export default function FAQ() {
   return (
     <section className="flex flex-col gap-10">
       <div className="flex justify-center items-center">
-        <Image
-          src={notchedEarPichu}
-          alt="A pichu sprite with a notched ear"
-          width={90}
-          height={90}
-        />
         <h2>FAQ</h2>
-        <Image
-          src={shinyPichu}
-          alt="A shiny pichu sprite"
-          width={100}
-          height={100}
-        />
       </div>
       <h3>What Is This Tool For?</h3>
       <p>
