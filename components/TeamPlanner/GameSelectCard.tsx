@@ -1,24 +1,17 @@
 "use client";
 
-import { type Item } from "../../lib/pages";
+import { type Game } from "../../lib/teamplannergames";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 import clsx from "clsx";
 
-export function GlobalNavItem({
-  item,
-  close,
-}: {
-  item: Item;
-  close: () => false | void;
-}) {
+export function GameSelectCard({ game }: { game: Game }) {
   const segment = useSelectedLayoutSegment();
-  const isActive = item.slug === segment;
+  const isActive = game.slug === segment;
 
   return (
     <Link
-      onClick={close}
-      href={`/${item.slug}`}
+      href={`/teamplanner/${game.slug}`}
       className={clsx(
         "block rounded-md px-3 py-2 text-sm font-medium hover:text-rose-400",
         {
@@ -27,7 +20,7 @@ export function GlobalNavItem({
         }
       )}
     >
-      {item.name}
+      {game.name}
     </Link>
   );
 }
