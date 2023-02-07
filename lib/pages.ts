@@ -115,7 +115,7 @@ export const pages: { name: string; pages: Item[] }[] = [
     pages: [
       {
         name: "Pokémon GO",
-        slug: "xd",
+        slug: "go",
         description: "",
       },
       {

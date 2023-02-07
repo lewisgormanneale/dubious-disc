@@ -6,7 +6,7 @@ async function getData() {
   return data;
 }
 
-export default async function Planner() {
+export default async function TeamPlanner() {
   const data = await getData();
 
   return (

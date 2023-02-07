@@ -1,10 +1,10 @@
 "use client";
 
-import { pages, type Item } from "../lib/pages";
+import { pages } from "../../lib/pages";
 import Image from "next/image";
-import ShayminLand from "../public/shaymin-land.png";
+import { GlobalNavItem } from "./GlobalNavItem";
+import ShayminLand from "../../public/shaymin-land.png";
 import Link from "next/link";
-import { useSelectedLayoutSegment } from "next/navigation";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import clsx from "clsx";
 import { useState } from "react";
@@ -21,7 +21,7 @@ export function GlobalNav() {
           className="group flex w-full items-center gap-x-2.5"
           onClick={close}
         >
-          <Image src={ShayminLand} alt="shaymin" />
+          <Image src={ShayminLand} alt="shaymin" height={50} width={50} />
           <h3 className="font-semibold tracking-wide text-gray-400 group-hover:text-gray-50">
             gracidea.com
           </h3>
@@ -67,32 +67,5 @@ export function GlobalNav() {
         </nav>
       </div>
     </div>
-  );
-}
-
-function GlobalNavItem({
-  item,
-  close,
-}: {
-  item: Game;
-  close: () => false | void;
-}) {
-  const segment = useSelectedLayoutSegment();
-  const isActive = item.slug === segment;
-
-  return (
-    <Link
-      onClick={close}
-      href={`/${item.slug}`}
-      className={clsx(
-        "block rounded-md px-3 py-2 text-sm font-medium hover:text-gray-300",
-        {
-          "text-gray-400 hover:bg-gray-800": !isActive,
-          "text-white": isActive,
-        }
-      )}
-    >
-      {item.name}
-    </Link>
   );
 }
