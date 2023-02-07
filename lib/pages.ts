@@ -13,6 +13,11 @@ export const pages: { name: string; pages: Item[] }[] = [
         slug: "teamplanner",
         description: "",
       },
+      {
+        name: "Shiny Rate Calculator",
+        slug: "shinyratecalculator",
+        description: "",
+      },
     ],
   },
   {
@@ -20,92 +25,92 @@ export const pages: { name: string; pages: Item[] }[] = [
     pages: [
       {
         name: "Pokémon Scarlet & Violet",
-        slug: "sv",
+        slug: "games/sv",
         description: "",
       },
       {
         name: "Pokémon Legends: Arceus",
-        slug: "pla",
+        slug: "games/pla",
         description: "",
       },
       {
         name: "Pokémon Sword & Shield",
-        slug: "swsh",
+        slug: "games/swsh",
         description: "",
       },
       {
         name: "Pokémon Lets Go, Pikachu! & Lets Go, Eevee!",
-        slug: "lgpe",
+        slug: "games/lgpe",
         description: "",
       },
       {
         name: "Pokémon Ultra Sun & Ultra Moon",
-        slug: "usum",
+        slug: "games/usum",
         description: "",
       },
       {
         name: "Pokémon Sun & Moon",
-        slug: "sm",
+        slug: "games/sm",
         description: "",
       },
       {
         name: "Pokémon X & Y",
-        slug: "xy",
+        slug: "games/xy",
         description: "",
       },
       {
         name: "Pokémon Black 2 & White 2",
-        slug: "b2w2",
+        slug: "games/b2w2",
         description: "",
       },
       {
         name: "Pokémon Black & White",
-        slug: "bw",
+        slug: "games/bw",
         description: "",
       },
       {
         name: "Pokémon HeartGold & SoulSilver",
-        slug: "hgss",
+        slug: "games/hgss",
         description: "",
       },
       {
         name: "Pokémon Platinum",
-        slug: "platinum",
+        slug: "games/platinum",
         description: "",
       },
       {
         name: "Pokémon Diamond & Pearl",
-        slug: "dp",
+        slug: "games/dp",
         description: "",
       },
       {
         name: "Pokémon Emerald",
-        slug: "emerald",
+        slug: "games/emerald",
         description: "",
       },
       {
         name: "Pokémon Ruby & Sapphire",
-        slug: "rs",
+        slug: "games/rs",
         description: "",
       },
       {
         name: "Pokémon Crystal",
-        slug: "crystal",
+        slug: "games/crystal",
         description: "",
       },
       {
         name: "Pokémon Gold & Silver",
-        slug: "gs",
+        slug: "games/gs",
         description: "",
       },
       {
         name: "Pokémon Yellow",
-        slug: "yellow",
+        slug: "games/yellow",
         description: "",
       },
       {
         name: "Pokémon Red & Blue",
-        slug: "rb",
+        slug: "games/rb",
         description: "",
       },
     ],
@@ -115,17 +120,17 @@ export const pages: { name: string; pages: Item[] }[] = [
     pages: [
       {
         name: "Pokémon GO",
-        slug: "go",
+        slug: "games/go",
         description: "",
       },
       {
         name: "Pokémon XD: Gale Of Darkness",
-        slug: "xd",
+        slug: "games/xd",
         description: "",
       },
       {
         name: "Pokémon Colosseum",
-        slug: "colosseum",
+        slug: "games/colosseum",
         description: "",
       },
     ],

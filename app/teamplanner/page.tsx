@@ -10,16 +10,9 @@ export default async function TeamPlanner() {
   const data = await getData();
 
   return (
-    <main className="flex flex-col justify-center items-center h-screen">
-      <h1>Pokémon Team Planner</h1>
+    <section className="flex flex-col justify-center items-center h-screen bg-white">
+      <h1>Welcome to the Pokémon Team Planner</h1>
       <p>Select a game to get started</p>
-      {/* game select component */}
-      {/* faq component */}
-      <div className="flex flex-wrap flex-shrink">
-        {data.results.map((pokedexEntry: any) => (
-          <PokedexEntry key={pokedexEntry.id} />
-        ))}
-      </div>
-    </main>
+    </section>
   );
 }

@@ -14,7 +14,7 @@ export function GlobalNav() {
   const close = () => setIsOpen(false);
 
   return (
-    <div className="fixed top-0 z-10 flex w-full flex-col border-b border-gray-800 bg-black lg:bottom-0 lg:z-auto lg:w-72 lg:border-r lg:border-gray-800">
+    <div className="fixed top-0 z-10 flex w-full flex-col border-b border-gray-800 bg-green-800 lg:bottom-0 lg:z-auto lg:w-72 lg:border-r lg:border-gray-800">
       <div className="flex h-14 items-center py-4 px-4 lg:h-auto">
         <Link
           href="/"
@@ -22,7 +22,7 @@ export function GlobalNav() {
           onClick={close}
         >
           <Image src={ShayminLand} alt="shaymin" height={50} width={50} />
-          <h3 className="font-semibold tracking-wide text-gray-400 group-hover:text-gray-50">
+          <h3 className="font-semibold tracking-wide text-slate-50 group-hover:text-gray-50">
             gracidea.com
           </h3>
         </Link>
@@ -52,7 +52,7 @@ export function GlobalNav() {
           {pages.map((section) => {
             return (
               <div key={section.name}>
-                <div className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-gray-400/80">
+                <div className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-white">
                   <div>{section.name}</div>
                 </div>
 
