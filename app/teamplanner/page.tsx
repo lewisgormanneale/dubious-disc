@@ -11,14 +11,14 @@ export default async function TeamPlanner() {
   const data = await getData();
 
   return (
-    <section className="flex flex-col justify-center items-center h-screen">
-      <h1>Welcome to the Pokémon Team Planner</h1>
+    <section className="flex flex-col justify-center items-center h-screen text-white">
+      <h1>Welcome to the Pokémon Team Planner!</h1>
       <p>Select a game to get started</p>
       <div>
         {teamplannergames.map((section) => {
           return (
             <div key={section.name}>
-              <div className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-white">
+              <div className="mb-2 px-3 mt-5 text-xs font-semibold uppercase tracking-wider text-green-300">
                 <div>{section.name}</div>
               </div>
               <div className="flex flex-wrap">

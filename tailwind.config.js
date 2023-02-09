@@ -6,7 +6,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        cobalt_coastlands: "url('../public/cobalt-coastlands.png')",
+      },
+    },
   },
   plugins: [],
 };

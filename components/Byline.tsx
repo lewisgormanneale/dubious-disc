@@ -5,13 +5,14 @@ export default function Byline() {
         <div className="text-sm text-rose-200">Built with 🌸</div>
       </div>
       <div className="text-sm text-rose-200">
+        Powered by{" "}
         <a
           className="underline decoration-dotted underline-offset-4 hover:text-rose-400"
-          href="https://github.com/vercel/app-playground"
+          href="https://pokeapi.co/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          View code
+          PokéAPI
         </a>
       </div>
     </div>
