@@ -1,7 +1,7 @@
 import { teamplannergames } from "../../lib/teamplannergames";
 import { GameSelectCard } from "@/components/TeamPlanner/GameSelectCard";
 
-export default async function TeamPlanner() {
+export default async function Page() {
   return (
     <section className="flex flex-col justify-center items-center h-screen text-white">
       <h1>Welcome to the Pokémon Team Planner!</h1>

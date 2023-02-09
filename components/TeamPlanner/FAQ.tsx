@@ -3,7 +3,7 @@ import TypeIcon from "../TypeIcon";
 
 export default function FAQ() {
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10 text-white">
       <div className="flex justify-center items-center">
         <h2>FAQ</h2>
       </div>
