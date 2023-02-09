@@ -1,15 +1,7 @@
 import { teamplannergames } from "../../lib/teamplannergames";
 import { GameSelectCard } from "@/components/TeamPlanner/GameSelectCard";
 
-async function getData() {
-  const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=10");
-  const data = response.json();
-  return data;
-}
-
 export default async function TeamPlanner() {
-  const data = await getData();
-
   return (
     <section className="flex flex-col justify-center items-center h-screen text-white">
       <h1>Welcome to the Pokémon Team Planner!</h1>
