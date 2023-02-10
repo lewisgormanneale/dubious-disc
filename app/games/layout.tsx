@@ -12,9 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="space-y-9">
       <div className="flex justify-between">
         <div className="flex items-center space-x-4 bg-white">
-          <Link onClick={close} href={`/teamplanner/${slug}`}>
-            Team Planner
-          </Link>
+          <Link href={`/teamplanner/${slug}`}>Team Planner</Link>
         </div>
       </div>
 

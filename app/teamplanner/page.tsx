@@ -3,7 +3,7 @@ import { GameSelectCard } from "@/components/TeamPlanner/GameSelectCard";
 
 export default async function Page() {
   return (
-    <section className="flex flex-col justify-center items-center h-screen text-white">
+    <section className="flex flex-col items-center text-white">
       <h1>Welcome to the Pokémon Team Planner!</h1>
       <p>Select a game to get started</p>
       <div>

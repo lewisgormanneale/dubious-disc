@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         cobalt_coastlands: "url('../public/cobalt-coastlands.png')",
       },
+      fontSize: {
+        xxs: "0.6rem",
+      },
     },
   },
   plugins: [],
