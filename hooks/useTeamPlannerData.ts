@@ -7,7 +7,9 @@ function isPokedexVersionGroup(obj: any): obj is { pokedex_id: number | null } {
 export async function useTeamPlannerData(slug: string) {
   const { data: versionGroupData, error: versionGroupError } = await supabase
     .from("version_groups")
-    .select("id, name, pokedex_version_groups(pokedex_id)")
+    .select(
+      "id, name, identifier, generation_id, pokedex_version_groups(pokedex_id)"
+    )
     .eq("identifier", slug);
   if (versionGroupError) {
     console.log(versionGroupError);
@@ -27,14 +29,15 @@ export async function useTeamPlannerData(slug: string) {
     if (pokemonDexError) {
       console.log(pokemonDexError);
     } else {
-      const sortedPokemonDexData = pokemonDexData.sort((a, b) => {
+      const version = versionGroupData[0];
+      const teamPlannerDex = pokemonDexData.sort((a, b) => {
         if (a.pokedex_number && b.pokedex_number) {
           return a.pokedex_number - b.pokedex_number;
         } else {
           return 1;
         }
       });
-      return [sortedPokemonDexData, versionGroupData[0]];
+      return { teamPlannerDex, version };
     }
   }
 }
