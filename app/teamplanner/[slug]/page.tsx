@@ -16,7 +16,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
       ) : (
         <></>
       )}
-      <div className="mb-5">
+      <div className="mb-8">
         {/* <p className="text-white">Team data goes here</p> */}
       </div>
       <div className="flex flex-wrap flex-shrink gap-3 justify-center">
