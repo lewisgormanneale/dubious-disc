@@ -1,7 +1,5 @@
-"use client";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
-import React from "react";
-import { useContext } from "react";
+import React, { useContext } from "react";
 
 export default function TeamPlannerLogo() {
   const { version }: any = useContext(TeamPlannerContext);

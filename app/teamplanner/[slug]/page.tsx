@@ -15,6 +15,7 @@ export default function TeamPlannerPage({
 }) {
   const [teamPlannerDex, setTeamPlannerDex] = useState<any>([]);
   const [version, setVersion] = useState<any>({});
+  const [teamMembers, setTeamMembers] = useState<any>([]);
   useEffect(() => {
     async function FetchData() {
       const { teamPlannerDexData, versionData }: any = await useTeamPlannerData(
@@ -27,7 +28,12 @@ export default function TeamPlannerPage({
   }, [params.slug]);
   return (
     <TeamPlannerContext.Provider
-      value={{ teamPlannerDex: teamPlannerDex, version: version }}
+      value={{
+        teamPlannerDex: teamPlannerDex,
+        version: version,
+        teamMembers: teamMembers,
+        setTeamMembers: setTeamMembers,
+      }}
     >
       <TeamPlannerPageContents />
     </TeamPlannerContext.Provider>
