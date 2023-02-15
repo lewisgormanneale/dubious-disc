@@ -1,4 +1,4 @@
-import { teamplannergames } from "../../lib/teamplannergames";
+import { teamPlannerGames } from "../../lib/teamPlannerGames";
 import { GameSelectCard } from "@/components/TeamPlanner/GameSelectCard";
 
 export default async function Page() {
@@ -9,7 +9,7 @@ export default async function Page() {
       </h1>
       <p className="text-l font-semibold">Select a game to get started:</p>
       <div>
-        {teamplannergames.map((section) => {
+        {teamPlannerGames.map((section) => {
           return (
             <div key={section.name} className="pt-5">
               <div className="flex item-center justify-center mb-2 px-3 mt-5 pb-5 text-xs font-semibold uppercase tracking-wider text-green-300">

@@ -4,7 +4,7 @@ export type Game = {
   description?: string;
 };
 
-export const teamplannergames: { name: string; games: Game[] }[] = [
+export const teamPlannerGames: { name: string; games: Game[] }[] = [
   {
     name: "Mainline Games",
     games: [
