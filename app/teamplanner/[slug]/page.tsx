@@ -13,8 +13,10 @@ export default async function Page({ params }: { params: { slug: string } }) {
   return (
     <main className="flex flex-col justify-center items-center rounded">
       <TeamPlannerLogo version={version} />
-      <TeamMembers />
-      <Filters />
+      <div className="flex flex-col w-full sticky top-14 lg:top-0 bg-zinc-900">
+        <TeamMembers />
+        <Filters />
+      </div>
       <TeamPlannerDex teamPlannerDex={teamPlannerDex} version={version} />
     </main>
   );
