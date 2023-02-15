@@ -6,26 +6,21 @@ export type Item = {
 
 export const pages: { name: string; pages: Item[] }[] = [
   {
+    name: "",
+    pages: [
+      {
+        name: "Home",
+        slug: "",
+        description: "",
+      },
+    ],
+  },
+  {
     name: "General Tools & Resources",
     pages: [
       {
-        name: "Pokédex",
-        slug: "pokedex",
-        description: "",
-      },
-      {
         name: "Team Planner",
         slug: "teamplanner",
-        description: "",
-      },
-      {
-        name: "Shiny Rate Calculator",
-        slug: "shinyratecalculator",
-        description: "",
-      },
-      {
-        name: "Catch Rate Calculator",
-        slug: "catchratecalculator",
         description: "",
       },
     ],

@@ -2,7 +2,7 @@
 
 import { type Item } from "../../lib/pages";
 import Link from "next/link";
-import { useSelectedLayoutSegment } from "next/navigation";
+import { usePathname, useSelectedLayoutSegment } from "next/navigation";
 import clsx from "clsx";
 
 export function GlobalNavItem({
@@ -12,8 +12,8 @@ export function GlobalNavItem({
   item: Item;
   close: () => false | void;
 }) {
-  const segment = useSelectedLayoutSegment();
-  const isActive = item.slug === segment;
+  const pathname = usePathname();
+  const isActive = `/${item.slug}` === pathname;
 
   return (
     <Link
