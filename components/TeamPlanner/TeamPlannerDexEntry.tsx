@@ -12,8 +12,10 @@ export default function TeamPlannerDexEntry({ pokemon }: Props) {
   const { teamMembers, setTeamMembers }: any = useContext(TeamPlannerContext);
 
   function AddToTeam() {
-    setTeamMembers((prev: any) => [...prev, pokemon]);
-    console.log(teamMembers);
+    if (teamMembers.length < 6) {
+      setTeamMembers((prev: any) => [...prev, pokemon]);
+      console.log(teamMembers);
+    }
   }
 
   const primaryTypeInfo = typeInfo[pokemon.pokemon.type_id_slot_1];
