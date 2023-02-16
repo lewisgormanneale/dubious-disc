@@ -14,7 +14,6 @@ export default function TeamPlannerDexEntry({ pokemon }: Props) {
   function AddToTeam() {
     if (teamMembers.length < 6) {
       setTeamMembers((prev: any) => [...prev, pokemon]);
-      console.log(teamMembers);
     }
   }
 
