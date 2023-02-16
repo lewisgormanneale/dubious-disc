@@ -1,8 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import Image from "next/image";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
-import TeamPlannerDexEntry from "./TeamPlannerDexEntry";
 import TeamMember from "./TeamMember";
 
 export default function TeamMembers() {

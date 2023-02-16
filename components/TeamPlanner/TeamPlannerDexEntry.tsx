@@ -25,17 +25,17 @@ export default function TeamPlannerDexEntry({ pokemon }: Props) {
 
   return (
     <div
-      className="flex flex-col justify-start items-center flex-none cursor-pointer w-32 rounded-md bg-[#232323] border border-zinc-700 text-black text-m font-medium hover:bg-emerald-800"
+      className="flex flex-col justify-start items-center flex-none cursor-pointer rounded bg-[#232323] border border-zinc-700 text-black text-m font-medium hover:bg-emerald-800"
       onClick={AddToTeam}
     >
       <div className="flex justify-start items-center w-full flex-none box-border bg-black rounded border-b border-zinc-700">
-        <div className="flex justify-center items-center bg-white rounded px-2 py-1 h-full border-zinc-700 border">
+        <div className="flex justify-center items-center bg-white rounded-tl px-1 py-1 h-full border-zinc-700 border">
           <p className="text-xxs font-medium text-black">
             #{pokemon.pokedex_number}
           </p>
         </div>
-        <div className="flex justify-start items-center bg-black h-full rounded-xl ml-1 mr-2">
-          <p className="text-white text-xxs font-semibold">
+        <div className="flex flex-wrap justify-start items-center bg-black h-full w-12 rounded-xl ml-1">
+          <p className="text-white text-xxs font-semibold w-12">
             {pokemon.pokemon_species.name}
           </p>
         </div>
@@ -47,9 +47,9 @@ export default function TeamPlannerDexEntry({ pokemon }: Props) {
         height={100}
         quality={100}
         alt={pokemon.pokemon_species.name}
-        className={`rounded border-zinc-700 border ${type_color} my-2`}
+        className={`${type_color}`}
       />
-      <div className="flex justify-evenly w-full mb-2">
+      <div className="flex justify-evenly w-full my-2">
         <TypeBox
           key={pokemon.pokemon.type_id_slot_1}
           type_id={pokemon.pokemon.type_id_slot_1}
