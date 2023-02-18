@@ -21,7 +21,11 @@ export default function TeamMember({ pokemon, showAdditionalInfo }: any) {
   }
 
   return (
-    <div className="flex flex-col h-[180px] w-[90px] justify-start items-center flex-none rounded bg-[#232323] border border-zinc-700 text-black text-m font-medium overflow-hidden">
+    <div
+      className={`flex flex-col w-[90px] justify-start items-center flex-none rounded bg-[#232323] border border-zinc-700 text-black text-m font-medium overflow-hidden ${
+        showAdditionalInfo ? "h-[180px]" : "h-auto"
+      }`}
+    >
       {showAdditionalInfo ? (
         <div className="flex justify-center items-center w-full flex-none box-border bg-[#232323] rounded border-b border-zinc-700 py-2">
           <p className="text-white text-xs font-semibold">
@@ -41,8 +45,9 @@ export default function TeamMember({ pokemon, showAdditionalInfo }: any) {
         />
       </div>
       <div
-        className={`transition-height duration-500 ease-in-out flex flex-col w-full`}
-        style={{ height: showAdditionalInfo ? "auto" : "0" }}
+        className={`transition-height duration-500 ease-in-out flex flex-col w-full ${
+          showAdditionalInfo ? "h-auto" : "h-0"
+        }`}
       >
         <div className="flex justify-evenly w-full my-2">
           <TypeBox
