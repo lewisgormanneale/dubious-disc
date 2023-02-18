@@ -21,7 +21,7 @@ export function GlobalNav() {
           className="group flex w-full items-center gap-x-2.5"
           onClick={close}
         >
-          <h3 className="font-semibold tracking-wide text-green-300 px-2 group-hover:text-rose-400">
+          <h3 className="font-semibold text-xl tracking-wide text-green-300 px-2 group-hover:text-rose-400">
             GRACIDEA.COM
           </h3>
           <Image src={ShayminLand} alt="shaymin" height={60} width={60} />
