@@ -53,6 +53,26 @@ export default function TeamMembers() {
     );
   }
 
+  const teamMemberDivs = [];
+  for (let i = 0; i < teamMembers.length; i += 3) {
+    const teamMemberSet = teamMembers.slice(i, i + 3);
+    const teamMemberElements = teamMemberSet.map((pokemon: any) => (
+      <TeamMember
+        key={uuidv4()}
+        uuid={uuidv4()}
+        pokemon={pokemon}
+        toggleShiny={() => toggleShiny(pokemon.uuid)}
+        removeFromTeam={() => removeFromTeam(pokemon.uuid)}
+        showAdditionalInfo={showAdditionalInfo}
+      />
+    ));
+    teamMemberDivs.push(
+      <div key={uuidv4()} className="flex gap-3 justify-center items-center">
+        {teamMemberElements}
+      </div>
+    );
+  }
+
   return (
     <div>
       <div
@@ -61,17 +81,8 @@ export default function TeamMembers() {
         }}`}
       >
         <div className="flex flex-wrap w-full min-w-[355px] gap-3 justify-center items-center py-2">
-          {teamMembers.length > 0 ? (
-            teamMembers.map((pokemon: any) => (
-              <TeamMember
-                key={uuidv4()}
-                uuid={uuidv4()}
-                pokemon={pokemon}
-                toggleShiny={() => toggleShiny(pokemon.uuid)}
-                removeFromTeam={() => removeFromTeam(pokemon.uuid)}
-                showAdditionalInfo={showAdditionalInfo}
-              />
-            ))
+          {teamMemberDivs.length > 0 ? (
+            teamMemberDivs
           ) : (
             <p className="flex justify-center items-center text-center text-white p-9">
               Select a Pokémon to start adding to your team!
