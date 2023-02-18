@@ -3,6 +3,9 @@ import Image from "next/image";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
 import { typeInfo } from "@/lib/typeInfo";
 import TypeBox from "../TypeBox";
+import { ImCross } from "react-icons/im";
+import { IoSparkles } from "react-icons/io5";
+import { IoMdFemale, IoMdMale } from "react-icons/io";
 
 export default function TeamMember({ pokemon, showAdditionalInfo }: any) {
   const { setTeamMembers }: any = useContext(TeamPlannerContext);
@@ -10,95 +13,65 @@ export default function TeamMember({ pokemon, showAdditionalInfo }: any) {
   const { type_color } = primaryTypeInfo ?? {
     type_color: "",
   };
+  function removeFromTeam() {
+    console.log(pokemon);
+    setTeamMembers((prev: any) =>
+      prev.filter((p: any) => p.pokemon_id !== pokemon.pokemon_id)
+    );
+  }
+
   return (
-    <div className="flex flex-col justify-start items-center flex-none cursor-pointer rounded bg-[#232323] border border-zinc-700 text-black text-m font-medium hover:bg-emerald-800">
-      <div className="flex justify-start items-center w-full flex-none box-border bg-black rounded border-b border-zinc-700">
-        <div className="flex justify-center items-center bg-white rounded-tl px-1 py-1 h-full border-zinc-700 border">
-          <p className="text-xxs font-medium text-black">
-            #{pokemon.pokedex_number}
-          </p>
-        </div>
-        <div className="flex flex-wrap justify-start items-center bg-black h-full w-12 rounded-xl ml-1">
-          <p className="text-white text-xxs font-semibold w-12">
+    <div className="flex flex-col h-[180px] w-[90px] justify-start items-center flex-none rounded bg-[#232323] border border-zinc-700 text-black text-m font-medium overflow-hidden">
+      {showAdditionalInfo ? (
+        <div className="flex justify-center items-center w-full flex-none box-border bg-[#232323] rounded border-b border-zinc-700 py-2">
+          <p className="text-white text-xs font-semibold">
             {pokemon.pokemon_species.name}
           </p>
         </div>
-      </div>
-      <Image
-        src={`/sprites/pokemon/${pokemon.pokemon.id}.png`}
-        key={pokemon.pokemon.id}
-        width={100}
-        height={100}
-        quality={100}
-        alt={pokemon.pokemon_species.name}
-        className={`${type_color}`}
-      />
-      <div className="flex justify-evenly w-full my-2">
-        <TypeBox
-          key={pokemon.pokemon.type_id_slot_1}
-          type_id={pokemon.pokemon.type_id_slot_1}
+      ) : null}
+      <div className="relative w-full h-full">
+        <Image
+          src={`/sprites/pokemon/${pokemon.pokemon.id}.png`}
+          key={pokemon.pokemon.id}
+          quality={100}
+          width={200}
+          height={200}
+          alt={pokemon.pokemon_species.name}
+          className={`${type_color} object-cover`}
         />
-        {pokemon.pokemon.type_id_slot_2 ? (
+      </div>
+      <div
+        className={`transition-height duration-500 ease-in-out flex flex-col w-full`}
+        style={{ height: showAdditionalInfo ? "auto" : "0" }}
+      >
+        <div className="flex justify-evenly w-full my-2">
           <TypeBox
-            key={pokemon.pokemon.type_id_slot_2}
-            type_id={pokemon.pokemon.type_id_slot_2}
+            key={pokemon.pokemon.type_id_slot_1}
+            type_id={pokemon.pokemon.type_id_slot_1}
           />
-        ) : null}
+          {pokemon.pokemon.type_id_slot_2 ? (
+            <TypeBox
+              key={pokemon.pokemon.type_id_slot_2}
+              type_id={pokemon.pokemon.type_id_slot_2}
+            />
+          ) : null}
+        </div>
+        <div className="flex justify-evenly w-full border-t border-zinc-700 rounded-b">
+          <div
+            onClick={removeFromTeam}
+            className="flex justify-center items-center w-1/3 h-7 text-xs border-r border-zinc-700 rounded-bl cursor-pointer bg-red-500"
+          >
+            <ImCross />
+          </div>
+
+          <div className="flex justify-center items-center w-1/3 h-7 text-xs  cursor-pointer bg-orange-500">
+            <IoSparkles />
+          </div>
+          <div className="flex justify-center items-center w-1/3 h-7 text-xs border-l border-zinc-700 rounded-br cursor-pointer bg-pink-300">
+            <IoMdFemale />
+          </div>
+        </div>
       </div>
     </div>
-    //   <div>
-    //     <Image
-    //       src={`/sprites/pokemon/${pokemon.pokemon.id}.png`}
-    //       key={pokemon.pokemon.id}
-    //       width={100}
-    //       height={100}
-    //       quality={100}
-    //       alt={pokemon.pokemon_species.name}
-    //     />
-    //     {showAdditionalInfo && <p>{pokemon.pokemon_species.name}</p>}
-    //   </div>
-    //   <div
-    //   className="flex flex-col justify-start items-center flex-none cursor-pointer w-32 rounded-md bg-[#232323] border border-zinc-700 text-black text-m font-medium hover:bg-emerald-800"
-    //   onClick={AddToTeam}
-    // >
-    // <div className="flex flex-col justify-start items-center flex-none cursor-pointer w-32 rounded-md bg-[#232323] border border-zinc-700 text-black text-m font-medium hover:bg-emerald-800">
-    //   {showAdditionalInfo && (
-    //     <div className="flex justify-start items-center w-full flex-none box-border bg-black rounded border-b border-zinc-700">
-    //       <div className="flex justify-center items-center bg-white rounded px-2 py-1 h-full border-zinc-700 border">
-    //         <p className="text-xxs font-medium text-black">
-    //           #{pokemon.pokedex_number}
-    //         </p>
-    //       </div>
-    //       <div className="flex justify-start items-center bg-black h-full rounded-xl ml-1 mr-2">
-    //         <p className="text-white text-xxs font-semibold">
-    //           {pokemon.pokemon_species.name}
-    //         </p>
-    //       </div>
-    //     </div>
-    //   )}
-    //   <Image
-    //     src={`/sprites/pokemon/${pokemon.pokemon.id}.png`}
-    //     key={pokemon.pokemon.id}
-    //     width={100}
-    //     height={100}
-    //     quality={100}
-    //     alt={pokemon.pokemon_species.name}
-    //     className={`rounded border-zinc-700 border ${type_color} my-2`}
-    //   />
-    //   {showAdditionalInfo && (
-    //     <div className="flex justify-evenly w-full mb-2">
-    //       <TypeBox
-    //         key={pokemon.pokemon.type_id_slot_1}
-    //         type_id={pokemon.pokemon.type_id_slot_1}
-    //       />
-    //       {pokemon.pokemon.type_id_slot_2 ? (
-    //         <TypeBox
-    //           key={pokemon.pokemon.type_id_slot_2}
-    //           type_id={pokemon.pokemon.type_id_slot_2}
-    //         />
-    //       ) : null}
-    //     </div>
-    //   )}
-    // </div>
   );
 }

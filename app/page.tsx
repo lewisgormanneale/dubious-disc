@@ -8,7 +8,9 @@ export default async function Home() {
         <p>Your source for Pokémon Tools, Resources and News</p>
       </section>
       <section className=" flex flex-col w-full h-96">
-        <h2 className="text-xl font-bold text-green-300 ml-4">News</h2>
+        {/* <h2 className="text-xl font-bold text-center text-green-300 ml-4">
+          News
+        </h2> */}
       </section>
     </div>
   );

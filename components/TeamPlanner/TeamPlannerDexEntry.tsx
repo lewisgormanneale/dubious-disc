@@ -18,8 +18,8 @@ export default function TeamPlannerDexEntry({ pokemon }: Props) {
   }
 
   const primaryTypeInfo = typeInfo[pokemon.pokemon.type_id_slot_1];
-  const { type_color } = primaryTypeInfo ?? {
-    type_color: "",
+  const { darker_type_color } = primaryTypeInfo ?? {
+    darker_type_color: "",
   };
 
   return (
@@ -46,7 +46,7 @@ export default function TeamPlannerDexEntry({ pokemon }: Props) {
         height={100}
         quality={100}
         alt={pokemon.pokemon_species.name}
-        className={`${type_color}`}
+        className={`${darker_type_color}`}
       />
       <div className="flex justify-evenly w-full my-2">
         <TypeBox
