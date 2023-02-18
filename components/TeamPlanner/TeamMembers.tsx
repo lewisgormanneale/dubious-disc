@@ -42,6 +42,7 @@ export default function TeamMembers() {
             teamMembers.map((pokemon: any) => (
               <TeamMember
                 key={uuidv4()}
+                uuid={uuidv4()}
                 pokemon={pokemon}
                 showAdditionalInfo={showAdditionalInfo}
               />

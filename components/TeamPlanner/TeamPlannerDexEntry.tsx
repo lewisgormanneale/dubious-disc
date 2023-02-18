@@ -2,6 +2,7 @@ import Image from "next/image";
 import TypeBox from "../TypeBox";
 import { typeInfo } from "@/lib/typeInfo";
 import { useContext } from "react";
+import { v4 as uuidv4 } from "uuid";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
 
 interface Props {
@@ -13,7 +14,7 @@ export default function TeamPlannerDexEntry({ pokemon }: Props) {
 
   function AddToTeam() {
     if (teamMembers.length < 6) {
-      setTeamMembers((prev: any) => [...prev, pokemon]);
+      setTeamMembers((prev: any) => [...prev, { ...pokemon, uuid: uuidv4() }]);
     }
   }
 

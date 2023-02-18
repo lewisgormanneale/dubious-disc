@@ -16,7 +16,7 @@ export default function TeamMember({ pokemon, showAdditionalInfo }: any) {
   function removeFromTeam() {
     console.log(pokemon);
     setTeamMembers((prev: any) =>
-      prev.filter((p: any) => p.pokemon_id !== pokemon.pokemon_id)
+      prev.filter((p: any) => p.uuid !== pokemon.uuid)
     );
   }
 
