@@ -47,6 +47,43 @@ export default function TeamMembers() {
     );
   }
 
+  function toggleGender(uuid: string) {
+    setTeamMembers((prevTeamMembers: any) =>
+      prevTeamMembers.map((pokemon: any) => {
+        if (pokemon.uuid === uuid) {
+          if (pokemon.gender === "male") {
+            pokemon.gender = "female";
+          } else if (pokemon.gender === "female") {
+            pokemon.gender = "male";
+          }
+          console.log(pokemon.gender);
+          let newSprite = pokemon.sprite;
+          if (pokemon.pokemon_species.has_gender_differences === true) {
+            switch (pokemon.sprite) {
+              case pokemon.sprite.includes("female" && "shiny"):
+                newSprite = `/sprites/pokemon/shiny/${pokemon.pokemon.id}.png`;
+                break;
+              case pokemon.sprite.includes("female"):
+                newSprite = `/sprites/pokemon/${pokemon.pokemon.id}.png`;
+                break;
+              case pokemon.sprite.includes("shiny"):
+                newSprite = `/sprites/pokemon/shiny/female/${pokemon.pokemon.id}.png`;
+                break;
+              default:
+                newSprite = `/sprites/pokemon/female/${pokemon.pokemon.id}.png`;
+                break;
+            }
+          }
+          return {
+            ...pokemon,
+            sprite: newSprite,
+          };
+        }
+        return pokemon;
+      })
+    );
+  }
+
   function removeFromTeam(uuid: string) {
     setTeamMembers((prevTeamMembers: any) =>
       prevTeamMembers.filter((pokemon: any) => pokemon.uuid !== uuid)
@@ -62,6 +99,7 @@ export default function TeamMembers() {
         uuid={uuidv4()}
         pokemon={pokemon}
         toggleShiny={() => toggleShiny(pokemon.uuid)}
+        toggleGender={() => toggleGender(pokemon.uuid)}
         removeFromTeam={() => removeFromTeam(pokemon.uuid)}
         showAdditionalInfo={showAdditionalInfo}
       />

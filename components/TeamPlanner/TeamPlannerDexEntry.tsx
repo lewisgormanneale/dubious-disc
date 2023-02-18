@@ -4,6 +4,7 @@ import { typeInfo } from "@/lib/typeInfo";
 import { useContext } from "react";
 import { v4 as uuidv4 } from "uuid";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
+import calculateGender from "@/helpers/calculateGender";
 
 interface Props {
   pokemon: any;
@@ -14,6 +15,7 @@ export default function TeamPlannerDexEntry({ pokemon }: Props) {
 
   function AddToTeam() {
     if (teamMembers.length < 6) {
+      pokemon.gender = calculateGender(pokemon.pokemon_species.gender_rate);
       setTeamMembers((prev: any) => [
         ...prev,
         {

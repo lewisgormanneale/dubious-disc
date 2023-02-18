@@ -1,16 +1,17 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
-import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
 import { typeInfo } from "@/lib/typeInfo";
 import TypeBox from "../TypeBox";
 import { ImCross } from "react-icons/im";
 import { IoSparkles } from "react-icons/io5";
 import { IoMdFemale, IoMdMale } from "react-icons/io";
+import { TbGenderNeutrois } from "react-icons/tb";
 
 export default function TeamMember({
   pokemon,
   showAdditionalInfo,
   toggleShiny,
+  toggleGender,
   removeFromTeam,
 }: any) {
   const primaryTypeInfo = typeInfo[pokemon.pokemon.type_id_slot_1];
@@ -73,8 +74,25 @@ export default function TeamMember({
           >
             <IoSparkles />
           </div>
-          <div className="flex justify-center items-center w-1/3 h-7 text-xs border-l border-zinc-700 rounded-br cursor-pointer bg-pink-300">
-            <IoMdFemale />
+          <div
+            onClick={toggleGender}
+            className={`flex justify-center items-center w-1/3 h-7 text-xs border-l border-zinc-700 rounded-br cursor-pointer ${
+              pokemon.gender === "male" || pokemon.gender === "always-male"
+                ? "bg-blue-300"
+                : pokemon.gender === "female" ||
+                  pokemon.gender === "always-female"
+                ? "bg-pink-300"
+                : "bg-green-300"
+            }`}
+          >
+            {pokemon.gender === "male" || pokemon.gender === "always-male" ? (
+              <IoMdMale />
+            ) : pokemon.gender === "female" ||
+              pokemon.gender === "always-female" ? (
+              <IoMdFemale />
+            ) : (
+              <TbGenderNeutrois />
+            )}
           </div>
         </div>
       </div>
