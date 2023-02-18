@@ -14,7 +14,14 @@ export default function TeamPlannerDexEntry({ pokemon }: Props) {
 
   function AddToTeam() {
     if (teamMembers.length < 6) {
-      setTeamMembers((prev: any) => [...prev, { ...pokemon, uuid: uuidv4() }]);
+      setTeamMembers((prev: any) => [
+        ...prev,
+        {
+          ...pokemon,
+          uuid: uuidv4(),
+          sprite: `/sprites/pokemon/${pokemon.pokemon.id}.png`,
+        },
+      ]);
     }
   }
 

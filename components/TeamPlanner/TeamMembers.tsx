@@ -30,6 +30,29 @@ export default function TeamMembers() {
     setShowFAQ(!showFAQ);
   }
 
+  function toggleShiny(uuid: string) {
+    setTeamMembers((prevTeamMembers: any) =>
+      prevTeamMembers.map((pokemon: any) => {
+        if (pokemon.uuid === uuid) {
+          const newSprite = pokemon.sprite.includes("shiny")
+            ? `/sprites/pokemon/${pokemon.pokemon.id}.png`
+            : `/sprites/pokemon/shiny/${pokemon.pokemon.id}.png`;
+          return {
+            ...pokemon,
+            sprite: newSprite,
+          };
+        }
+        return pokemon;
+      })
+    );
+  }
+
+  function removeFromTeam(uuid: string) {
+    setTeamMembers((prevTeamMembers: any) =>
+      prevTeamMembers.filter((pokemon: any) => pokemon.uuid !== uuid)
+    );
+  }
+
   return (
     <div>
       <div
@@ -44,6 +67,8 @@ export default function TeamMembers() {
                 key={uuidv4()}
                 uuid={uuidv4()}
                 pokemon={pokemon}
+                toggleShiny={() => toggleShiny(pokemon.uuid)}
+                removeFromTeam={() => removeFromTeam(pokemon.uuid)}
                 showAdditionalInfo={showAdditionalInfo}
               />
             ))

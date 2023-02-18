@@ -7,34 +7,16 @@ import { ImCross } from "react-icons/im";
 import { IoSparkles } from "react-icons/io5";
 import { IoMdFemale, IoMdMale } from "react-icons/io";
 
-export default function TeamMember({ pokemon, showAdditionalInfo }: any) {
-  const { setTeamMembers }: any = useContext(TeamPlannerContext);
-
-  const [sprite, setSprite] = useState(
-    `/sprites/pokemon/${pokemon.pokemon.id}.png`
-  );
-
+export default function TeamMember({
+  pokemon,
+  showAdditionalInfo,
+  toggleShiny,
+  removeFromTeam,
+}: any) {
   const primaryTypeInfo = typeInfo[pokemon.pokemon.type_id_slot_1];
   const { type_color } = primaryTypeInfo ?? {
     type_color: "",
   };
-
-  function toggleShiny() {
-    setSprite((prevSprite) => {
-      if (prevSprite.includes("shiny")) {
-        return `/sprites/pokemon/${pokemon.pokemon.id}.png`;
-      } else {
-        return `/sprites/pokemon/shiny/${pokemon.pokemon.id}.png`;
-      }
-    });
-  }
-
-  function removeFromTeam() {
-    console.log(pokemon);
-    setTeamMembers((prev: any) =>
-      prev.filter((p: any) => p.uuid !== pokemon.uuid)
-    );
-  }
 
   return (
     <div
@@ -51,7 +33,7 @@ export default function TeamMember({ pokemon, showAdditionalInfo }: any) {
       ) : null}
       <div className="relative w-full h-full">
         <Image
-          src={sprite}
+          src={pokemon.sprite}
           key={pokemon.pokemon.id}
           quality={100}
           width={200}
