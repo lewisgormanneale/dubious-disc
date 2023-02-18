@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import Image from "next/image";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
 import { typeInfo } from "@/lib/typeInfo";
@@ -9,10 +9,26 @@ import { IoMdFemale, IoMdMale } from "react-icons/io";
 
 export default function TeamMember({ pokemon, showAdditionalInfo }: any) {
   const { setTeamMembers }: any = useContext(TeamPlannerContext);
+
+  const [sprite, setSprite] = useState(
+    `/sprites/pokemon/${pokemon.pokemon.id}.png`
+  );
+
   const primaryTypeInfo = typeInfo[pokemon.pokemon.type_id_slot_1];
   const { type_color } = primaryTypeInfo ?? {
     type_color: "",
   };
+
+  function toggleShiny() {
+    setSprite((prevSprite) => {
+      if (prevSprite.includes("shiny")) {
+        return `/sprites/pokemon/${pokemon.pokemon.id}.png`;
+      } else {
+        return `/sprites/pokemon/shiny/${pokemon.pokemon.id}.png`;
+      }
+    });
+  }
+
   function removeFromTeam() {
     console.log(pokemon);
     setTeamMembers((prev: any) =>
@@ -35,7 +51,7 @@ export default function TeamMember({ pokemon, showAdditionalInfo }: any) {
       ) : null}
       <div className="relative w-full h-full">
         <Image
-          src={`/sprites/pokemon/${pokemon.pokemon.id}.png`}
+          src={sprite}
           key={pokemon.pokemon.id}
           quality={100}
           width={200}
@@ -69,7 +85,10 @@ export default function TeamMember({ pokemon, showAdditionalInfo }: any) {
             <ImCross />
           </div>
 
-          <div className="flex justify-center items-center w-1/3 h-7 text-xs  cursor-pointer bg-orange-500">
+          <div
+            onClick={toggleShiny}
+            className="flex justify-center items-center w-1/3 h-7 text-xs  cursor-pointer bg-orange-500"
+          >
             <IoSparkles />
           </div>
           <div className="flex justify-center items-center w-1/3 h-7 text-xs border-l border-zinc-700 rounded-br cursor-pointer bg-pink-300">
