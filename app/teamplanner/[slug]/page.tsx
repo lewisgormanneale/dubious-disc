@@ -53,7 +53,7 @@ function TeamPlannerPageContents() {
       <>
         <div className="flex flex-col justify-center items-center rounded">
           <TeamPlannerLogo />
-          <div className="flex flex-col w-full sticky top-14 lg:top-0 min-w-[355px] bg-zinc-900">
+          <div className="flex flex-col w-full sticky top-14 lg:top-0 min-w-[355px] bg-zinc-900 z-10">
             <TeamMembers />
             <Filters />
           </div>
