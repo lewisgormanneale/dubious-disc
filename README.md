@@ -1,4 +1,4 @@
-# pokemon-team-planner
+# Gracidea
 
 ## [Live Version](https://lewisgormanneale.github.io/pokemon-team-planner/)
 
