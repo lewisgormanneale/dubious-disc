@@ -5,7 +5,7 @@ import TeamPlannerLogo from "@/components/TeamPlanner/TeamPlannerLogo";
 import TeamMembers from "@/components/TeamPlanner/TeamMembers";
 import TeamPlannerDex from "@/components/TeamPlanner/TeamPlannerDex";
 import { useTeamPlannerData } from "@/hooks/useTeamPlannerData";
-import Filters from "@/components/TeamPlanner/Filters";
+import Filters from "@/components/TeamPlanner/Filters/Filters";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
 
 export default function TeamPlannerPage({
@@ -14,6 +14,7 @@ export default function TeamPlannerPage({
   params: { slug: string };
 }) {
   const [teamPlannerDex, setTeamPlannerDex] = useState<any>([]);
+  const [initialTeamPlannerDex, setInitialTeamPlannerDex] = useState<any>([]);
   const [version, setVersion] = useState<any>({});
   const [teamMembers, setTeamMembers] = useState<any>([]);
   useEffect(() => {
@@ -22,6 +23,7 @@ export default function TeamPlannerPage({
         params.slug
       );
       setTeamPlannerDex(teamPlannerDexData);
+      setInitialTeamPlannerDex(teamPlannerDexData);
       setVersion(versionData);
     }
     FetchData();
@@ -30,6 +32,7 @@ export default function TeamPlannerPage({
     <TeamPlannerContext.Provider
       value={{
         teamPlannerDex: teamPlannerDex,
+        initialTeamPlannerDex: initialTeamPlannerDex,
         setTeamPlannerDex: setTeamPlannerDex,
         version: version,
         teamMembers: teamMembers,

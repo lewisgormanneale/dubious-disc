@@ -5,6 +5,7 @@ import { PokemonData, VersionData } from "@/types/types";
 
 type TeamPlannerContextType = {
   teamPlannerDex: PokemonData[]; // this is the list of all pokemon in the dex
+  initialTeamPlannerDex: PokemonData[];
   setTeamPlannerDex: Function;
   version: VersionData;
   teamMembers: PokemonData[]; // this is the list of pokemon in the team
@@ -13,6 +14,7 @@ type TeamPlannerContextType = {
 
 const initialData = {
   teamPlannerDex: [],
+  initialTeamPlannerDex: [],
   setTeamPlannerDex: () => {},
   version: {
     id: 0,
