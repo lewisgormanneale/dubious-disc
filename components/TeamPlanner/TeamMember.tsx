@@ -18,7 +18,6 @@ export default function TeamMember({
   const { type_color } = primaryTypeInfo ?? {
     type_color: "",
   };
-
   return (
     <div
       className={`flex flex-col w-[90px] justify-start items-center flex-none rounded bg-[#232323] border border-zinc-700 text-black text-m font-medium overflow-hidden ${

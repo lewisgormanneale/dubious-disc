@@ -2,12 +2,12 @@ import React, { useContext, useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
 import TeamMember from "./TeamMember";
+import FAQ from "./FAQ";
 import {
   MagnifyingGlassCircleIcon,
   QuestionMarkCircleIcon,
   ArrowUpCircleIcon,
 } from "@heroicons/react/24/solid";
-import FAQ from "./FAQ";
 
 export default function TeamMembers() {
   const { teamMembers, setTeamMembers }: any = useContext(TeamPlannerContext);
@@ -34,13 +34,11 @@ export default function TeamMembers() {
     setTeamMembers((prevTeamMembers: any) =>
       prevTeamMembers.map((pokemon: any) => {
         if (pokemon.uuid === uuid) {
-          const newSprite = pokemon.sprite.includes("shiny")
-            ? `/sprites/pokemon/${pokemon.pokemon.id}.png`
-            : `/sprites/pokemon/shiny/${pokemon.pokemon.id}.png`;
-          return {
+          const updatedPokemon = {
             ...pokemon,
-            sprite: newSprite,
+            sprite: getNewShinySprite(pokemon.sprite, pokemon.pokemon.id),
           };
+          return updatedPokemon;
         }
         return pokemon;
       })
@@ -51,33 +49,14 @@ export default function TeamMembers() {
     setTeamMembers((prevTeamMembers: any) =>
       prevTeamMembers.map((pokemon: any) => {
         if (pokemon.uuid === uuid) {
-          if (pokemon.gender === "male") {
-            pokemon.gender = "female";
-          } else if (pokemon.gender === "female") {
-            pokemon.gender = "male";
-          }
-          console.log(pokemon.gender);
-          let newSprite = pokemon.sprite;
-          if (pokemon.pokemon_species.has_gender_differences === true) {
-            switch (pokemon.sprite) {
-              case pokemon.sprite.includes("female" && "shiny"):
-                newSprite = `/sprites/pokemon/shiny/${pokemon.pokemon.id}.png`;
-                break;
-              case pokemon.sprite.includes("female"):
-                newSprite = `/sprites/pokemon/${pokemon.pokemon.id}.png`;
-                break;
-              case pokemon.sprite.includes("shiny"):
-                newSprite = `/sprites/pokemon/shiny/female/${pokemon.pokemon.id}.png`;
-                break;
-              default:
-                newSprite = `/sprites/pokemon/female/${pokemon.pokemon.id}.png`;
-                break;
-            }
-          }
-          return {
+          const updatedPokemon = {
             ...pokemon,
-            sprite: newSprite,
+            gender: pokemon.gender === "male" ? "female" : "male",
+            sprite: pokemon.pokemon_species.has_gender_differences
+              ? getNewGenderSprite(pokemon.sprite, pokemon.pokemon.id)
+              : pokemon.sprite,
           };
+          return updatedPokemon;
         }
         return pokemon;
       })
@@ -152,4 +131,28 @@ export default function TeamMembers() {
       <FAQ showFAQ={showFAQ} />
     </div>
   );
+}
+
+function getNewGenderSprite(sprite: string, id: number) {
+  if (sprite.includes("female") && sprite.includes("shiny")) {
+    return `/sprites/pokemon/shiny/${id}.png`;
+  } else if (sprite.includes("female")) {
+    return `/sprites/pokemon/${id}.png`;
+  } else if (sprite.includes("shiny")) {
+    return `/sprites/pokemon/shiny/female/${id}.png`;
+  } else {
+    return `/sprites/pokemon/female/${id}.png`;
+  }
+}
+
+function getNewShinySprite(sprite: string, id: number) {
+  if (sprite.includes("female") && sprite.includes("shiny")) {
+    return `/sprites/pokemon/female/${id}.png`;
+  } else if (sprite.includes("female")) {
+    return `/sprites/pokemon/shiny/female/${id}.png`;
+  } else if (sprite.includes("shiny")) {
+    return `/sprites/pokemon/${id}.png`;
+  } else {
+    return `/sprites/pokemon/shiny/${id}.png`;
+  }
 }
