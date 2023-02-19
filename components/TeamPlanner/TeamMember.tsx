@@ -69,7 +69,11 @@ export default function TeamMember({
 
           <div
             onClick={toggleShiny}
-            className="flex justify-center items-center w-1/3 h-7 text-xs  cursor-pointer bg-orange-500"
+            className={`flex justify-center items-center w-1/3 h-7 text-xs  cursor-pointer ${
+              pokemon.sprite.includes("shiny")
+                ? "bg-orange-400"
+                : "bg-yellow-300"
+            }`}
           >
             <IoSparkles />
           </div>

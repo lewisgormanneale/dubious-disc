@@ -51,7 +51,7 @@ export default function TeamMembers() {
         if (pokemon.uuid === uuid) {
           const updatedPokemon = {
             ...pokemon,
-            gender: pokemon.gender === "male" ? "female" : "male",
+            gender: updateGender(pokemon.gender),
             sprite: pokemon.pokemon_species.has_gender_differences
               ? getNewGenderSprite(pokemon.sprite, pokemon.pokemon.id)
               : pokemon.sprite,
@@ -131,6 +131,16 @@ export default function TeamMembers() {
       <FAQ showFAQ={showFAQ} />
     </div>
   );
+}
+
+function updateGender(gender: string) {
+  if (gender === "male") {
+    return "female";
+  } else if (gender === "female") {
+    return "male";
+  } else {
+    return gender;
+  }
 }
 
 function getNewGenderSprite(sprite: string, id: number) {
