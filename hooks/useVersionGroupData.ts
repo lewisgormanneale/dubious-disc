@@ -8,7 +8,7 @@ async function useVersionGroupData(slug: string) {
   const { data: versionGroupData, error: versionGroupError } = await supabase
     .from("version_groups")
     .select(
-      "id, name, identifier, generation_id, pokedex_version_groups(pokedex_id)"
+      "id, name, identifier, generation_id, region_id, pokedex_version_groups(pokedex_id)"
     )
     .eq("identifier", slug);
   if (versionGroupError) {

@@ -19,6 +19,7 @@ export interface PokemonData {
     id: number;
     identifier: string;
     generation_id: number;
+    region_id: number;
     evolves_from_species_id: number | null;
     evolution_chain_id: number;
     color_id: number;
@@ -54,6 +55,7 @@ export interface VersionData {
   name: string;
   identifier: string;
   generation_id: number;
+  region_id: number;
   pokedex_version_groups: {
     pokedex_id: number;
   }[];

@@ -42,7 +42,7 @@ export default function TeamPlannerDexEntry({
 
   return (
     <div
-      className="flex flex-col justify-start items-center flex-none cursor-pointer rounded bg-[#232323] border border-zinc-700 text-black text-m font-medium hover:bg-emerald-800"
+      className="flex flex-col justify-start items-center flex-none cursor-pointer rounded bg-[#232323] border border-zinc-700 text-black text-m font-medium transform hover:scale-110 transition duration-300"
       onClick={AddToTeam}
     >
       <div className="flex justify-start items-center w-full flex-none box-border bg-black rounded border-b border-zinc-700">

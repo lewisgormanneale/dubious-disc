@@ -13,7 +13,6 @@ interface TeamPlannerContextProps {
 export default function PreventTypeOverlapFilter() {
   let {
     teamMembers,
-    teamPlannerDex,
     initialTeamPlannerDex,
     setTeamPlannerDex,
   }: TeamPlannerContextProps = useContext(TeamPlannerContext);
@@ -29,7 +28,7 @@ export default function PreventTypeOverlapFilter() {
       const types2 = teamMembers
         .map((member) => member.pokemon.type_id_slot_2)
         .filter(Boolean);
-      const filteredDex = teamPlannerDex.filter((pokemon) => {
+      const filteredDex = initialTeamPlannerDex.filter((pokemon) => {
         const pokemonType1 = pokemon.pokemon.type_id_slot_1;
         const pokemonType2 = pokemon.pokemon.type_id_slot_2;
         return (
@@ -41,7 +40,6 @@ export default function PreventTypeOverlapFilter() {
       });
       setTeamPlannerDex([...filteredDex]);
     } else {
-      console.log("initialTeamPlannerDex", initialTeamPlannerDex);
       setTeamPlannerDex([...initialTeamPlannerDex]);
     }
   }
@@ -57,8 +55,8 @@ export default function PreventTypeOverlapFilter() {
   return (
     <div
       onClick={togglePreventTypeOverlap}
-      className={`text-center text-sm rounded px-2 py-1 cursor-pointer border border-zinc-700 hover:bg-emerald-800 ${
-        isPreventTypeOverlapEnabled ? "bg-emerald-800" : "bg-[#232323]"
+      className={`text-center text-sm rounded px-2 py-1 cursor-pointer border border-zinc-700 hover:bg-green-500 ${
+        isPreventTypeOverlapEnabled ? "bg-green-700" : "bg-[#232323]"
       }`}
     >
       Prevent Type Overlap
