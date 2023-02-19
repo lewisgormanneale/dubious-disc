@@ -30,6 +30,7 @@ export default function TeamPlannerPage({
     <TeamPlannerContext.Provider
       value={{
         teamPlannerDex: teamPlannerDex,
+        setTeamPlannerDex: setTeamPlannerDex,
         version: version,
         teamMembers: teamMembers,
         setTeamMembers: setTeamMembers,

@@ -4,14 +4,22 @@ import { typeInfo } from "@/lib/typeInfo";
 import { useContext } from "react";
 import { v4 as uuidv4 } from "uuid";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
-import calculateGender from "@/helpers/calculateGender";
+import { PokemonData } from "@/types/types";
 
-interface Props {
-  pokemon: any;
+interface TeamPlannerDexEntryProps {
+  pokemon: PokemonData;
 }
 
-export default function TeamPlannerDexEntry({ pokemon }: Props) {
-  const { teamMembers, setTeamMembers }: any = useContext(TeamPlannerContext);
+interface TeamPlannerContextProps {
+  teamMembers: PokemonData[];
+  setTeamMembers: Function;
+}
+
+export default function TeamPlannerDexEntry({
+  pokemon,
+}: TeamPlannerDexEntryProps) {
+  const { teamMembers, setTeamMembers }: TeamPlannerContextProps =
+    useContext(TeamPlannerContext);
 
   function AddToTeam() {
     if (teamMembers.length < 6) {
@@ -72,4 +80,16 @@ export default function TeamPlannerDexEntry({ pokemon }: Props) {
       </div>
     </div>
   );
+}
+
+function calculateGender(genderRate: number) {
+  if (genderRate === 8) {
+    return "always-female";
+  } else if (genderRate === 0) {
+    return "always-male";
+  } else if (genderRate === -1) {
+    return "gender-unknown";
+  } else {
+    return "male";
+  }
 }

@@ -8,9 +8,16 @@ import {
   QuestionMarkCircleIcon,
   ArrowUpCircleIcon,
 } from "@heroicons/react/24/solid";
+import { PokemonData } from "@/types/types";
+
+interface TeamMemberContextProps {
+  teamMembers: PokemonData[];
+  setTeamMembers: Function;
+}
 
 export default function TeamMembers() {
-  const { teamMembers, setTeamMembers }: any = useContext(TeamPlannerContext);
+  const { teamMembers, setTeamMembers }: TeamMemberContextProps =
+    useContext(TeamPlannerContext);
   const [showAdditionalInfo, setShowAdditionalInfo] = useState<boolean>(true);
   const [showFAQ, setShowFAQ] = useState<boolean>(false);
 
@@ -49,6 +56,7 @@ export default function TeamMembers() {
     setTeamMembers((prevTeamMembers: any) =>
       prevTeamMembers.map((pokemon: any) => {
         if (pokemon.uuid === uuid) {
+          console.log(pokemon);
           const updatedPokemon = {
             ...pokemon,
             gender: updateGender(pokemon.gender),
