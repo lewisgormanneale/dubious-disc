@@ -1,6 +1,6 @@
 import Image from "next/image";
 import TypeBox from "../TypeBox";
-import { typeInfo } from "@/lib/typeInfo";
+import { typeInfo } from "@/lib/typeinfo";
 import { useContext } from "react";
 import { v4 as uuidv4 } from "uuid";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";

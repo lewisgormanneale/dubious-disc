@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
-import { typeInfo } from "@/lib/typeInfo";
+import { typeInfo } from "@/lib/typeinfo";
 import TypeBox from "../TypeBox";
 import { ImCross } from "react-icons/im";
 import { IoSparkles } from "react-icons/io5";

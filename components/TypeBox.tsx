@@ -1,5 +1,5 @@
 import React from "react";
-import { typeInfo } from "@/lib/typeInfo";
+import { typeInfo } from "@/lib/typeinfo";
 
 interface TypeBoxProps {
   type_id: number;

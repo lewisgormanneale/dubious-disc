@@ -1,4 +1,4 @@
-import { type Game } from "../../lib/teamPlannerGames";
+import { type Game } from "../../lib/teamplannergames";
 import Link from "next/link";
 
 export function GameSelectCard({ game }: { game: Game }) {

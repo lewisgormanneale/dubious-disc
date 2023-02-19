@@ -21,6 +21,7 @@ const initialData = {
     name: "",
     identifier: "",
     generation_id: 0,
+    region_id: 0,
     pokedex_version_groups: [],
   },
   teamMembers: [],
