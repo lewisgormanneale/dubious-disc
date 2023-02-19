@@ -95,3 +95,5 @@ export const typeInfo: Record<
     darker_type_color: "bg-shadowdarker",
   },
 };
+
+export {};
