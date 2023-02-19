@@ -2,6 +2,12 @@ import React, { useContext, useEffect, useState } from "react";
 import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
 import { PokemonData, VersionData } from "@/types/types";
 
+interface PreventTypeOverlapFilterProps {
+  isPreventTypeOverlapEnabled: boolean;
+  setIsPreventTypeOverlapEnabled: Function;
+  isNativeRegionOnlyEnabled: boolean;
+}
+
 interface TeamPlannerContextProps {
   teamMembers: PokemonData[];
   teamPlannerDex: PokemonData[];
@@ -10,15 +16,18 @@ interface TeamPlannerContextProps {
   version: VersionData;
 }
 
-export default function PreventTypeOverlapFilter() {
+export default function PreventTypeOverlapFilter({
+  isPreventTypeOverlapEnabled,
+  setIsPreventTypeOverlapEnabled,
+  isNativeRegionOnlyEnabled,
+}: PreventTypeOverlapFilterProps) {
   let {
     teamMembers,
+    teamPlannerDex,
     initialTeamPlannerDex,
     setTeamPlannerDex,
+    version,
   }: TeamPlannerContextProps = useContext(TeamPlannerContext);
-
-  const [isPreventTypeOverlapEnabled, setIsPreventTypeOverlapEnabled] =
-    useState(false);
 
   function preventTypeOverlap(isPreventTypeOverlapEnabled: boolean) {
     if (isPreventTypeOverlapEnabled) {
@@ -28,25 +37,42 @@ export default function PreventTypeOverlapFilter() {
       const types2 = teamMembers
         .map((member) => member.pokemon.type_id_slot_2)
         .filter(Boolean);
-      const filteredDex = initialTeamPlannerDex.filter((pokemon) => {
-        const pokemonType1 = pokemon.pokemon.type_id_slot_1;
-        const pokemonType2 = pokemon.pokemon.type_id_slot_2;
-        return (
-          (!pokemonType1 || !types1.includes(pokemonType1)) &&
-          (!pokemonType2 || !types1.includes(pokemonType2)) &&
-          (!pokemonType1 || !types2.includes(pokemonType1)) &&
-          (!pokemonType2 || !types2.includes(pokemonType2))
-        );
-      });
-      setTeamPlannerDex([...filteredDex]);
+      let filteredDex;
+      if (isNativeRegionOnlyEnabled) {
+        filteredDex = teamPlannerDex.filter((pokemon) => {
+          const pokemonType1 = pokemon.pokemon.type_id_slot_1;
+          const pokemonType2 = pokemon.pokemon.type_id_slot_2;
+          return (
+            types1.indexOf(pokemonType1) === -1 &&
+            types2.indexOf(pokemonType1) === -1 &&
+            types1.indexOf(pokemonType2) === -1 &&
+            types2.indexOf(pokemonType2) === -1 &&
+            version.region_id === pokemon.pokemon_species.region_id
+          );
+        });
+      } else {
+        filteredDex = initialTeamPlannerDex.filter((pokemon) => {
+          const pokemonType1 = pokemon.pokemon.type_id_slot_1;
+          const pokemonType2 = pokemon.pokemon.type_id_slot_2;
+          return (
+            types1.indexOf(pokemonType1) === -1 &&
+            types2.indexOf(pokemonType1) === -1 &&
+            types1.indexOf(pokemonType2) === -1 &&
+            types2.indexOf(pokemonType2) === -1
+          );
+        });
+      }
+      setTeamPlannerDex(filteredDex);
     } else {
-      setTeamPlannerDex([...initialTeamPlannerDex]);
+      if (!isNativeRegionOnlyEnabled) {
+        setTeamPlannerDex(initialTeamPlannerDex);
+      }
     }
   }
 
   useEffect(() => {
     preventTypeOverlap(isPreventTypeOverlapEnabled);
-  }, [teamMembers, isPreventTypeOverlapEnabled]);
+  }, [teamMembers, isPreventTypeOverlapEnabled, isNativeRegionOnlyEnabled]);
 
   function togglePreventTypeOverlap() {
     setIsPreventTypeOverlapEnabled(!isPreventTypeOverlapEnabled);
@@ -55,7 +81,7 @@ export default function PreventTypeOverlapFilter() {
   return (
     <div
       onClick={togglePreventTypeOverlap}
-      className={`text-center text-sm rounded px-2 py-1 cursor-pointer border border-zinc-700 hover:bg-green-500 ${
+      className={`text-center text-sm rounded px-2 py-1 cursor-pointer border border-zinc-700 hover:border-green-500 ${
         isPreventTypeOverlapEnabled ? "bg-green-700" : "bg-[#232323]"
       }`}
     >
