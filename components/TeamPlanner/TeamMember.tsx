@@ -34,6 +34,7 @@ export default function TeamMember({
       <div className="relative w-full h-full">
         <Image
           src={pokemon.sprite}
+          unoptimized
           key={pokemon.pokemon.id}
           quality={100}
           width={200}

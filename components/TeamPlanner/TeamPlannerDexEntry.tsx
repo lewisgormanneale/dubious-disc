@@ -60,6 +60,7 @@ export default function TeamPlannerDexEntry({
       </div>
       <Image
         src={`/sprites/pokemon/${pokemon.pokemon.id}.png`}
+        unoptimized
         key={pokemon.pokemon.id}
         width={100}
         height={100}
