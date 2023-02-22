@@ -115,19 +115,19 @@ export const teamPlannerGames: { name: string; games: Game[] }[] = [
       },
     ],
   },
-  {
-    name: "Spin-Off Games",
-    games: [
-      {
-        name: "Pokémon XD: Gale Of Darkness",
-        slug: "xd",
-        description: "",
-      },
-      {
-        name: "Pokémon Colosseum",
-        slug: "colosseum",
-        description: "",
-      },
-    ],
-  },
+  // {
+  //   name: "Spin-Off Games",
+  //   games: [
+  //     {
+  //       name: "Pokémon XD: Gale Of Darkness",
+  //       slug: "xd",
+  //       description: "",
+  //     },
+  //     {
+  //       name: "Pokémon Colosseum",
+  //       slug: "colosseum",
+  //       description: "",
+  //     },
+  //   ],
+  // },
 ];
