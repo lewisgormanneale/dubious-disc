@@ -1,4 +1,4 @@
-import { teamPlannerGames } from "../../lib/teamplannergames";
+import { teamPlannerGames } from "../../../lib/teamplannergames";
 import { GameSelectCard } from "@/components/TeamPlanner/GameSelectCard";
 
 export default async function Page() {

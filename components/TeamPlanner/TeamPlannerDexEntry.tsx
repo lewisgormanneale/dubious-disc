@@ -4,7 +4,7 @@ import TypeBox from "../TypeBox";
 import { typeInfo } from "@/lib/typeinfo";
 import { useContext } from "react";
 import { v4 as uuidv4 } from "uuid";
-import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
+import TeamPlannerContext from "@/app/(user)/teamplanner/[slug]/TeamPlannerContext";
 import { PokemonData } from "@/types/types";
 
 interface TeamPlannerDexEntryProps {

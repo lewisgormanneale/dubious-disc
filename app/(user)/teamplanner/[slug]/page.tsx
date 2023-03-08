@@ -6,7 +6,7 @@ import TeamMembers from "@/components/TeamPlanner/TeamMembers";
 import TeamPlannerDex from "@/components/TeamPlanner/TeamPlannerDex";
 import { useTeamPlannerData } from "@/hooks/useTeamPlannerData";
 import Filters from "@/components/TeamPlanner/Filters/Filters";
-import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
+import TeamPlannerContext from "@/app/(user)/teamplanner/[slug]/TeamPlannerContext";
 import { VersionData } from "@/types/types";
 
 export default function TeamPlannerPage({

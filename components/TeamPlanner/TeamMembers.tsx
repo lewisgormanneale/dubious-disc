@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
+import TeamPlannerContext from "@/app/(user)/teamplanner/[slug]/TeamPlannerContext";
 import TeamMember from "./TeamMember";
 import FAQ from "./FAQ";
 import {
