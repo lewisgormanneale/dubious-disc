@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="overflow-y-scroll bg-neutral-900">
+      <body className="overflow-y-scroll bg-cobalt_coastlands  bg-center bg-no-repeat bg-cover bg-fixed">
         <GlobalNav />
         <div className="lg:pl-72">
           <div className="mx-auto max-w-6xl space-y-8 px-2 pt-20 lg:py-8 lg:px-8">
