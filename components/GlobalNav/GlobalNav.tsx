@@ -24,7 +24,7 @@ export function GlobalNav() {
           <h3 className="font-semibold text-xl tracking-wide text-green-300 px-2 group-hover:text-rose-400">
             GRACIDEA.COM
           </h3>
-          <Image src={ShayminLand} alt="shaymin" height={60} width={60} />
+          <Image src={ShayminLand} alt="shaymin" height={40} width={40} />
         </Link>
       </div>
       <button

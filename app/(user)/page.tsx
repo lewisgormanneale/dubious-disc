@@ -1,27 +1,44 @@
-import { schemaTypes } from "@/schemas";
-import { fetchPosts } from "@/utils/fetchPosts";
-import Post from "@/components/Post/Post";
+import { fetchPosts, query } from "@/utils/fetchPosts";
+import type { Post, Settings } from "lib/sanity.queries";
+import IndexPage from "@/components/Sanity/IndexPage";
+import PreviewSuspense from "@/components/Sanity/PreviewSuspense";
+import { fetchSettings } from "@/utils/fetchSettings";
+import { usePreview } from "lib/sanity.preview";
+import PreviewIndexPage from "@/components/Sanity/PreviewIndexPage";
+import { previewData } from "next/headers";
+import { client } from "lib/sanity.client";
+import { cache } from "react";
+
+// interface PreviewData {
+//   token?: string;
+// }
+
+const clientFetch = cache(client.fetch.bind(client));
 
 export default async function Home() {
-  const posts: any[] = await fetchPosts();
-  return (
-    <div className="flex flex-col justify-start items-center">
-      <section className="flex flex-col justify-start items-center text-white my-5">
-        <h1 className="text-green-300 text-2xl text-center font-bold">
-          Welcome to Gracidea.com
-        </h1>
-        <p>Your source for Pokémon Tools, Resources and News</p>
-      </section>
-      <section className=" flex flex-col w-full h-96 items-center">
-        <h2 className="text-xl font-bold text-center text-green-300 mb-2">
-          News
-        </h2>
-        <div className="flex flex-col w-11/12 items-center justify-start">
-          {posts.map((post, i) => (
-            <Post key={i} post={post} />
-          ))}
-        </div>
-      </section>
-    </div>
-  );
+  const posts: Post[] = await fetchPosts();
+  const settings: Settings = await fetchSettings();
+
+  // let previewInfo = previewData();
+  // console.log(previewInfo);
+  // const preview = false;
+  // const previewX = {
+  //   token: "123",
+  // };
+  // let token = previewX?.token;
+  let token = "x";
+
+  // if (previewData()) {
+  //   return (
+  //     <PreviewSuspense
+  //       fallback={
+  //         <IndexPage loading preview posts={posts} settings={settings} />
+  //       }
+  //     >
+  //       <PreviewIndexPage token={token} />
+  //     </PreviewSuspense>
+  //   );
+  // }
+
+  return <IndexPage posts={posts} settings={settings} />;
 }

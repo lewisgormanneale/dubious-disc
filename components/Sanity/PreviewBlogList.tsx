@@ -8,7 +8,6 @@ type Props = {
 
 export default function PreviewBlogList({ query }: Props) {
   const posts: any[] = usePreview(null, query);
-  console.log("LOADING posts...", posts);
   return (
     <div>
       {posts.map((post, i) => (
