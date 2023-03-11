@@ -2,7 +2,6 @@ import Container from "./BlogContainer";
 import BlogHeader from "./BlogHeader";
 import Layout from "./BlogLayout";
 import HeroPost from "./HeroPost";
-import IndexPageHead from "./IndexPageHead";
 import MoreStories from "./MoreStories";
 import * as demo from "lib/demo.data";
 import type { Post, Settings } from "lib/sanity.queries";
@@ -19,11 +18,8 @@ export default function IndexPage(props: IndexPageProps) {
   const [heroPost, ...morePosts] = posts || [];
   const { title = "Gracidea", description = demo.description } = settings || {};
 
-  console.log(preview);
   return (
     <>
-      {/* <IndexPageHead settings={settings} /> */}
-
       <Layout preview={preview} loading={loading}>
         <Container>
           <BlogHeader title={title} description={description} level={1} />

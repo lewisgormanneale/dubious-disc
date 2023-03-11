@@ -4,9 +4,7 @@ import { GlobalNav } from "@/components/GlobalNav/GlobalNav";
 import Byline from "@/components/Byline";
 
 export const metadata = {
-  title: {
-    default: "Home",
-  },
+  title: "Home",
   description: "Your source for Pokémon Tools, Resources and News",
 };
 

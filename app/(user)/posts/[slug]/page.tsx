@@ -29,6 +29,8 @@ interface PreviewData {
   token?: string;
 }
 
+// to do = generate meta data from sanity to replace removed indexpagehead component
+
 export default function ProjectSlugRoute(props: PageProps) {
   // const { settings, post, morePosts, preview, token } = props;
 

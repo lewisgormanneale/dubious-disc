@@ -1,7 +1,8 @@
 import "@/styles/globals.css";
 import { PropsWithChildren } from "react";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: {
     default: "Gracidea",
     template: "%s | Gracidea",

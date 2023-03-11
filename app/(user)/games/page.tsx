@@ -1,7 +1,11 @@
 import { GameSelectCard } from "@/components/TeamPlanner/GameSelectCard";
 import { teamPlannerGames } from "@/lib/teamplannergames";
 
-export default async function Page() {
+export const metadata = {
+  title: "Games",
+};
+
+export default async function Games() {
   return (
     <div className="flex flex-col justify-center items-center">
       <p className="text-l font-semibold text-white mt-5">Select a game:</p>

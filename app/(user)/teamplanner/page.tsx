@@ -1,6 +1,11 @@
 import { teamPlannerGames } from "../../../lib/teamplannergames";
 import { GameSelectCard } from "@/components/TeamPlanner/GameSelectCard";
 
+export const metadata = {
+  title: "Team Planner",
+  description: "Plan your Pokémon teams",
+};
+
 export default async function Page() {
   return (
     <section className="flex flex-col items-center text-white my-5">
