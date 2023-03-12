@@ -1,4 +1,3 @@
-import AuthorAvatar from "@/components/Sanity/AuthorAvatar";
 import CoverImage from "@/components/Sanity/CoverImage";
 import Date from "@/components/Sanity/PostDate";
 import type { Post } from "lib/sanity.queries";
@@ -14,7 +13,9 @@ export default function HeroPost(
 
   return (
     <section className="flex flex-col bg-zinc-800 text-white rounded-lg mb-8">
-      <CoverImage slug={slug} title={title} image={coverImage} priority />
+      {title && (
+        <CoverImage slug={slug} title={title} image={coverImage} priority />
+      )}
       <div className="flex flex-col m-4 gap-2">
         {date && (
           <div className="text-lg">

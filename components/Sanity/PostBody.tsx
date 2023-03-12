@@ -11,7 +11,7 @@ import { PortableText } from "@portabletext/react";
 
 import styles from "./PostBody.module.css";
 
-export default function PostBody({ content }) {
+export default function PostBody({ content }: any) {
   return (
     <div className={`mx-auto max-w-2xl text-white ${styles.portableText}`}>
       <PortableText value={content} />

@@ -4,7 +4,7 @@ import type { NextRequest, NextResponse } from "next/server";
 import type { PageConfig } from "next/types";
 import { createClient } from "next-sanity";
 
-export const config: PageConfig = { runtime: "experimental-edge" };
+export const config: PageConfig = { runtime: "edge" };
 
 import {
   height,
@@ -29,7 +29,9 @@ export default async function og(req: NextRequest, res: NextResponse) {
       useCdn: false,
     });
     const settings = (await client.fetch<Settings>(settingsQuery)) || {};
-    title = settings?.ogImage?.title;
+    if (settings?.ogImage?.title) {
+      title = settings.ogImage.title;
+    }
   }
 
   return new ImageResponse(

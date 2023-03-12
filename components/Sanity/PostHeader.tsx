@@ -11,16 +11,20 @@ export default function PostHeader(
   return (
     <>
       <PostTitle>{title}</PostTitle>
-      <div className="mb-8 sm:mx-0 md:mb-16">
-        <CoverImage title={title} image={coverImage} priority slug={slug} />
-      </div>
+      {title && (
+        <div className="mb-8 sm:mx-0 md:mb-16">
+          <CoverImage title={title} image={coverImage} priority slug={slug} />
+        </div>
+      )}
       <div className="flex justify-between items-center mx-auto max-w-2xl">
         <div className="mb-6 block text-white">
           {author && <Avatar name={author.name} picture={author.picture} />}
         </div>
-        <div className="mb-6 text-lg text-white">
-          <Date dateString={date} />
-        </div>
+        {date && (
+          <div className="mb-6 text-lg text-white">
+            <Date dateString={date} />
+          </div>
+        )}
       </div>
     </>
   );

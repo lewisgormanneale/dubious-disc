@@ -49,7 +49,7 @@ export async function getPostBySlug(slug: string): Promise<Post> {
 export async function getPostAndMoreStories(
   slug: string,
   token?: string | null
-): Promise<{ post: Post; morePosts: Post[] }> {
+): Promise<{ post: any; morePosts: Post[] }> {
   if (projectId) {
     const client = createClient({
       projectId,

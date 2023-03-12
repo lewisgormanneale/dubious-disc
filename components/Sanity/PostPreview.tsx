@@ -14,12 +14,14 @@ export default function PostPreview({
 }: Omit<Post, "_id">) {
   return (
     <div className="flex flex-col bg-zinc-800 text-white rounded-lg">
-      <CoverImage
-        slug={slug}
-        title={title}
-        image={coverImage}
-        priority={false}
-      />
+      {title && (
+        <CoverImage
+          slug={slug}
+          title={title}
+          image={coverImage}
+          priority={false}
+        />
+      )}
       <div className="flex flex-col m-2 gap-1">
         {date && <Date dateString={date} />}
         <h3 className="mb-1 text-3xl leading-snug text-green-300">
