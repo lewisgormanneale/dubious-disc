@@ -5,7 +5,7 @@ import Link from "next/link";
 
 interface CoverImageProps {
   title: string;
-  slug?: { current: string };
+  slug?: string;
   image: any;
   priority?: boolean;
 }
@@ -19,7 +19,7 @@ export default function CoverImage(props: CoverImageProps) {
       })}
     >
       <Image
-        className="h-auto w-full"
+        className="h-auto w-full bg-cover"
         width={2000}
         height={1000}
         alt={`Cover Image for ${title}`}
@@ -35,7 +35,7 @@ export default function CoverImage(props: CoverImageProps) {
   return (
     <div className="sm:mx-0">
       {slug ? (
-        <Link href={`/posts/${slug.current}`} aria-label={title}>
+        <Link href={`/posts/${slug}`} aria-label={title}>
           {image}
         </Link>
       ) : (

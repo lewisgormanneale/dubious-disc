@@ -12,7 +12,7 @@ export async function generateMetadata({
 
 export default async function Page({ params }: { params: { slug: string } }) {
   return (
-    <div className="flex flex-col w-full h-screen gap-5">
+    <div className="flex flex-col w-full gap-5">
       <p className="text-2xl font-bold text-center text-green-300 mt-5">
         {params.slug}
       </p>

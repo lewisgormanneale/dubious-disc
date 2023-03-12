@@ -1,23 +1,17 @@
-import { fetchPosts, query } from "@/utils/fetchPosts";
-import type { Post, Settings } from "lib/sanity.queries";
+import { PreviewSuspense } from "@sanity/preview-kit";
 import IndexPage from "@/components/Sanity/IndexPage";
-import PreviewSuspense from "@/components/Sanity/PreviewSuspense";
-import { fetchSettings } from "@/utils/fetchSettings";
-import { usePreview } from "lib/sanity.preview";
-import PreviewIndexPage from "@/components/Sanity/PreviewIndexPage";
-import { previewData } from "next/headers";
-import { client } from "lib/sanity.client";
-import { cache } from "react";
+import { getAllPosts, getSettings } from "lib/sanity.client";
+import { Post, Settings } from "lib/sanity.queries";
 
 // interface PreviewData {
 //   token?: string;
 // }
 
-const clientFetch = cache(client.fetch.bind(client));
-
 export default async function Home() {
-  const posts: Post[] = await fetchPosts();
-  const settings: Settings = await fetchSettings();
+  const settings: Settings = await getSettings();
+  const posts: Post[] = await getAllPosts();
+  const preview = false;
+  const previewToken = null;
 
   // let previewInfo = previewData();
   // console.log(previewInfo);
@@ -26,7 +20,6 @@ export default async function Home() {
   //   token: "123",
   // };
   // let token = previewX?.token;
-  let token = "x";
 
   // if (previewData()) {
   //   return (

@@ -1,7 +1,8 @@
+import type { Metadata } from "next";
 import { teamPlannerGames } from "../../../lib/teamplannergames";
 import { GameSelectCard } from "@/components/TeamPlanner/GameSelectCard";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Team Planner",
   description: "Plan your Pokémon teams",
 };

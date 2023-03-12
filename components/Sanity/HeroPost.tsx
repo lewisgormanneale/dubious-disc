@@ -7,30 +7,26 @@ import Link from "next/link";
 export default function HeroPost(
   props: Pick<
     Post,
-    "title" | "mainImage" | "publishedAt" | "excerpt" | "author" | "slug"
+    "title" | "coverImage" | "date" | "excerpt" | "author" | "slug"
   >
 ) {
-  const { title, mainImage, publishedAt, excerpt, author, slug } = props;
+  const { title, coverImage, date, excerpt, author, slug } = props;
 
   return (
     <section>
-      {slug && title && mainImage && (
-        <div className="mb-8 md:mb-16">
-          <CoverImage slug={slug} title={title} image={mainImage} priority />
-        </div>
-      )}
+      <div className="mb-8 md:mb-16">
+        <CoverImage slug={slug} title={title} image={coverImage} priority />
+      </div>
       <div className="mb-20 md:mb-28 md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8">
         <div>
           <h3 className="mb-4 text-4xl leading-tight lg:text-6xl">
-            {/* <Link href={`/posts/${slug}`} className="hover:underline">
+            <Link href={`/posts/${slug}`} className="hover:underline">
               {title || "Untitled"}
-            </Link> */}
+            </Link>
           </h3>
-          {publishedAt && (
-            <div className="mb-4 text-lg md:mb-0">
-              <Date dateString={publishedAt} />
-            </div>
-          )}
+          <div className="mb-4 text-lg md:mb-0">
+            <Date dateString={date} />
+          </div>
         </div>
         <div>
           {excerpt && <p className="mb-4 text-lg leading-relaxed">{excerpt}</p>}
