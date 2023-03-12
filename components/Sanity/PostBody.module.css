@@ -2,9 +2,18 @@
   @apply text-lg leading-relaxed;
 }
 
-.portableText p,
-.portableText ul,
-.portableText ol,
+.portableText p {
+  @apply my-4;
+}
+
+.portableText ul {
+  @apply list-disc mx-4;
+}
+
+.portableText ol {
+  @apply list-decimal;
+}
+
 .portableText blockquote {
   @apply my-6;
 }
