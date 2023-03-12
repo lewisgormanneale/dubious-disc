@@ -24,7 +24,7 @@ export default function IndexPage(props: IndexPageProps) {
         <Container>
           <BlogHeader title={title} description={description} level={1} />
           <h2 className="mt-8 mb-4 text-2xl font-bold leading-tight tracking-tight md:text-4xl md:tracking-tighter text-green-300">
-            Latest Updates
+            Latest Update
           </h2>
           {heroPost && (
             <HeroPost
