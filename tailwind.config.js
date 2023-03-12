@@ -103,5 +103,7 @@ module.exports = {
     "bg-shadow",
     "bg-shadowdarker",
   ],
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 };

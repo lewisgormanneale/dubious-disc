@@ -14,7 +14,7 @@ export function GlobalNav() {
   const close = () => setIsOpen(false);
 
   return (
-    <div className="fixed top-0 z-10 flex w-full flex-col border-b border-rose-400 bg-zinc-900 lg:bottom-0 lg:z-auto lg:w-72 lg:border-r lg:border-b-0">
+    <div className="fixed top-0 z-10 flex w-full flex-col border-b border-rose-400 bg-zinc-900 lg:bottom-0 lg:z-auto lg:w-72 lg:border-r lg:border-b-0 ">
       <div className="flex h-14 items-center py-4 px-4 lg:h-auto">
         <Link
           href="/"
@@ -24,7 +24,7 @@ export function GlobalNav() {
           <h3 className="font-semibold text-xl tracking-wide text-green-300 px-2 group-hover:text-rose-400">
             GRACIDEA.COM
           </h3>
-          <Image src={ShayminLand} alt="shaymin" height={60} width={60} />
+          <Image src={ShayminLand} alt="shaymin" height={40} width={40} />
         </Link>
       </div>
       <button
@@ -43,10 +43,13 @@ export function GlobalNav() {
       </button>
 
       <div
-        className={clsx("overflow-y-auto lg:static lg:block", {
-          "fixed inset-x-0 bottom-0 top-14 mt-px bg-zinc-900": isOpen,
-          hidden: !isOpen,
-        })}
+        className={clsx(
+          "overflow-y-auto lg:static lg:block scrollbar scrollbar-track-zinc-900 scrollbar-thumb-neutral-500",
+          {
+            "fixed inset-x-0 bottom-0 top-14 mt-px bg-zinc-900": isOpen,
+            hidden: !isOpen,
+          }
+        )}
       >
         <nav className="space-y-6 px-2 py-5">
           {pages.map((section) => {

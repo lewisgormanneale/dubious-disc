@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { v4 as uuidv4 } from "uuid";
-import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
+import TeamPlannerContext from "@/app/(user)/teamplanner/[slug]/TeamPlannerContext";
 import TeamPlannerDexEntry from "./TeamPlannerDexEntry";
 
 export default function TeamPlannerDex() {

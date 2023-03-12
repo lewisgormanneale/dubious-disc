@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import TeamPlannerContext from "@/app/teamplanner/[slug]/TeamPlannerContext";
+import TeamPlannerContext from "@/app/(user)/teamplanner/[slug]/TeamPlannerContext";
 import { PokemonData, VersionData } from "@/types/types";
 
 interface NativeRegionOnlyFilterProps {
