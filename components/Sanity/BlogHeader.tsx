@@ -28,7 +28,7 @@ export default function BlogHeader({
     case 2:
       return (
         <header>
-          <h2 className="mt-8 mb-20 text-2xl font-bold leading-tight tracking-tight md:text-4xl md:tracking-tighter">
+          <h2 className="mt-8 mb-4 text-2xl text-green-300 font-bold leading-tight tracking-tight md:text-4xl md:tracking-tighter">
             <Link href="/" className="hover:underline">
               {title}
             </Link>

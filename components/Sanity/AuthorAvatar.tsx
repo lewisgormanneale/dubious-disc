@@ -20,7 +20,7 @@ export default function AuthorAvatar(props: Author) {
           alt=""
         />
       </div>
-      <div className="text-xl">{name}</div>
+      <div className="text-xl text-white">{name}</div>
     </div>
   );
 }
