@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function IndexLayout({ children }: PropsWithChildren) {
   return (
-    <div className="overflow-y-scroll scrollbar-thin scrollbar-thumb-green-400 scrollbar-track-zinc-900 bg-zinc-800 bg-cobalt_coastlands bg-center bg-no-repeat bg-cover bg-blend-multiply bg-fixed">
+    <div className="overflow-y-scroll scrollbar-thin scrollbar-thumb-green-400 scrollbar-track-zinc-800 bg-zinc-800">
       <GlobalNav />
       <div className="lg:pl-72 mb-2">
         <div className="mx-auto max-w-6xl space-y-8 pl-2 pr-4 pt-20 lg:py-8 lg:px-8 min-h-screen">

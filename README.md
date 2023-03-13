@@ -1,44 +1,57 @@
 # Gracidea
 
-## [Live Version](https://lewisgormanneale.github.io/pokemon-team-planner/)
+Gracidea ([it's a flower](https://bulbapedia.bulbagarden.net/wiki/Gracidea)) is a Pokémon-themed website, meant to serve as a hub for resources, news, and tools related to the Pokémon games that I create.
 
-## Description
+I started the website for a few reasons:
 
-A Pokémon Team Planner built for players of the popular RPG series, which see you travelling around various regions and locations with a team of up to six Pokémon at once, completing objectives and collecting Pokémon. 
+- To practice building a project using the new [Next.js App Router](https://beta.nextjs.org/docs/app-directory-roadmap).
+- I had a few scattered ideas of some tools that I wanted to create related to the Pokémon games (such as a Team Planner), and wanted a central place to collate and host them.
+- To practice integrating a website with a headless CMS - in this case, [Sanity](https://www.sanity.io/).
+- To learn more about SEO, and how it relates to things like dynamic URLs, headless CMS systems, the experimental Next App Router and more. This is why I bought a domain for this project.
 
-The Pokémon Team Planner is designed to help players who prefer to plan their Pokémon teams out in advance to decide on a team they want to use for a specified game in the series while:
-- **Filtering HMs**: Checking if their chosen team can learn all of the HMs (Hidden Moves) available in their specified game, which are moves used in the game overworld that are often required for progression, but that only certain Pokémon can use.
-- **Avoiding Type Overlap**: Optionally choosing to filter any Pokémon out of the selectable list if they are of the same type as a Pokémon already selected for their team.
-- **Filtering By Generation**: If they only want to use Pokémon introduced in that generation.
+Why the Pokémon theme? As a new developer looking for things to build to improve my coding ability, the amount of data in the Pokémon series is a great resource. Being RPGs, the amount of data related to the games is huge ([see PokéAPI](https://pokeapi.co/docs/v2)) - through resources such as PokéAPI I am now working with a Supabase database that holds over 100 tables and hundred of thousands of rows of data. This has enabled me to start working on tools such as the Team Planner that are far more interesting, challenging and complex than if I was working with a simpler dataset or API.
 
-Currently it supports all main series Pokémon games up to Black 2/White 2. Other features include:
-- Toggle shiny status/gender of team members
-- View which HMs team members can learn
-- Dark Mode/Light Mode
+## Features
+
+- Fully responsive for all screen sizes
+- Sanity implementation, with a news feed for updates to the site and general news.
+- Sanity Studio directly hosted as part of the project, instead of through a seperate instance.
+- Pokémon Team Planner Features:
+  - Support for all mainline games. Selectable Pokémon are based on the Regional Pokédex from that game.
+  - Build team of six, toggling sprites based on gender and shiny state.
+  - Limit available options based on native region, and prevent type overlap based on the types of team members already selected.
+
+## Roadmap
+
+- Create Category schema in Sanity, to enable custom suggested posts based on the game page the user is looking at.
+- Get Live Preview working for Sanity posts that are being drafted in Studio.
+- Dynamic sitemap based on Sanity content
+- Share options for posts.
+- Additional Team Planner Features:
+  - Filter by learnable HMs/ensure team HM coverage
+  - Toggle display of version exclusive Pokémon based on selected version.
+  - Display type matchups for team, evaluate common weaknesses or strengths based on overall typings selected.
+  - Save/load team functionality
+  - Share team functionality
+  - 'Timeline View' showing Pokémon available in the game based on how early they become available to the player (using location data etc.)
+  - Indicators for when a Pokémon requires a trade to evolve
+
+Other Tools/Resources I Want To Build:
+
+- Shiny Rate Calculator
+- Catch Rate Calculator
+- Pokédex
 
 ## Screenshots
-<p align="center">
-  <img height="400" src="https://user-images.githubusercontent.com/107112881/200135158-5e880fe7-eb92-4fbc-b304-5adbaec4b2bc.png">
-  <img height="400" src="https://user-images.githubusercontent.com/107112881/200135249-b41a795e-6da9-44bf-93d0-10d0b19a7174.png">
-  <img height="400" src="https://user-images.githubusercontent.com/107112881/200135180-7c2de265-c5c4-4bc0-ab91-ea750b9de1d0.png">
-</p>
 
-## Development Status / Notes
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-All Pokémon data (moves/types etc.) was gathered from [PokéAPI](https://pokeapi.co/) calls during development and is stored locally in the repo to prevent the need to send countless API calls to PokéAPI. Pokémon sprites were also saved in the repo for the same reason - these sprites were obtained from [PokeAPI's sprites repo on GitHub](https://github.com/PokeAPI/sprites).
+## Acknowledgements
 
-For those unfamiliar with the games, a lot of information relevant to a Pokémon can change between each game/generation in the series. Pokémon types, learnable moves, sprites, location data and more all change with each game, so building a single callable list of Pokémon that contained the specific information unique to each game inside it did not seem to be an efficient solution.
+- [PokéAPI](https://pokeapi.co/docs/v2) - Note that this project is not directly querying the API. I copied the data into my own Supabase instance, as I needed to edit and link some data together to enable more advanced/speedier queries.
+- [This Example Next.js Blog by Sanity](https://github.com/sanity-io/nextjs-blog-cms-sanity-v3) - the foundation for the structure of my posts, and a lot of the Sanity-specific components.
+- [Another Example Next.js Sanity Project by Marc Kruiss](https://github.com/Marc-Kruiss/next_js_13_sanity_v3_setup) - this one used the App Router, and was really helpful in providing insight in how some of the Sanity functionality had to be updated for the new App Directory and in how to directly integrate Sanity Studio into the project.
 
-Instead I built functions to match up data in a variety of PokéAPI calls into a single array for each game's Pokédex that contained all the information necessary to display Pokémon from that generation - at time of writing some of these functions should still be visible in the ./data/data-update-functions.js file. The creation of these functions enabled the relatively easy addition of additional Pokémon generations. In the future I plan to do more research into the implications of multiple large arrays/objects on page load times, and see if better solutions exist (which I'm sure they do).
+## Tech Stack
 
-## Potential Future Additions
-
-- Add more recent main series game support (X/Y up to Scarlet/Violet)
-- Add National Pokédex mode with all Pokémon available at once
-- Indicators for when a Pokémon is version exclusive (e.g. in Red but not Blue)
-- Indiciators for when a Pokémon requires a trade to evolve
-- 'Timeline View' showing Pokémon available in the game based on how early they become available to the player (using location data etc.)
-- Team Analysis option, to view in-depth the weaknesses/strengths of your chosen team
-- More information on selected Pokémon e.g. abilities, or at least links to them in something like PokémonDB
-- Support for other field moves e.g. Secret Power
-- Export functionality - some way to save your chosen team either as an image or custom URL.
+JavaScript, TypeScript, React, Next.js 13, Sanity, TailwindCSS, Supabase, Vercel
