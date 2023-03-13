@@ -14,11 +14,11 @@ export function GlobalNav() {
   const close = () => setIsOpen(false);
 
   return (
-    <div className="fixed top-0 z-10 flex w-full flex-col border-b border-rose-400 bg-zinc-900 lg:bottom-0 lg:z-auto lg:w-72 lg:border-r lg:border-b-0 ">
+    <div className="fixed top-0 z-20 flex w-full flex-col border-b border-rose-400 bg-zinc-900 lg:bottom-0 lg:z-auto lg:w-72 lg:border-r lg:border-b-0 ">
       <div className="flex h-14 items-center py-4 px-4 lg:h-auto bg-green-400">
         <Link
           href="/"
-          className="group flex w-full items-center gap-x-1"
+          className="group flex items-center gap-x-1"
           onClick={close}
         >
           <h3 className="font-bold text-3xl leading-tight tracking-tight text-black pl-2 group-hover:text-rose-400">
@@ -32,11 +32,13 @@ export function GlobalNav() {
         className="group absolute right-0 top-0 flex h-14 items-center gap-x-2 px-4 lg:hidden"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <div className="font-medium text-black">Menu</div>
+        <div className="font-semibold text-black group-hover:text-rose-400">
+          Menu
+        </div>
         {isOpen ? (
-          <XMarkIcon className="block w-6 text-black" />
+          <XMarkIcon className="block w-6 text-black group-hover:text-rose-400" />
         ) : (
-          <Bars3Icon className="block w-6 text-black" />
+          <Bars3Icon className="block w-6 text-black group-hover:text-rose-400" />
         )}
       </button>
 

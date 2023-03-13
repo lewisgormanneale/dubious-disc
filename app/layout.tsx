@@ -8,6 +8,11 @@ export const metadata: Metadata = {
     template: "%s | Gracidea",
   },
   description: "Your source for Pokémon Tools, Resources and News",
+  icons: {
+    icon: "/icon-192.png",
+    shortcut: "/favicon/favicon.ico",
+    apple: "/favicon/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
