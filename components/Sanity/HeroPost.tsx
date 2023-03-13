@@ -22,7 +22,7 @@ export default function HeroPost(
             <Date dateString={date} />
           </div>
         )}
-        <h3 className="mb-4 text-4xl text-green-300 leading-tight lg:text-6xl">
+        <h3 className="mb-4 text-4xl font-semibold text-green-400 leading-tight lg:text-6xl">
           <Link href={`/posts/${slug}`} className="hover:underline">
             {title || "Untitled"}
           </Link>

@@ -13,7 +13,7 @@ export default async function Games() {
         {teamPlannerGames.map((section) => {
           return (
             <div key={section.name} className="pt-5">
-              <div className="flex item-center justify-center mb-2 px-3 mt-5 pb-5 text-xs font-semibold uppercase tracking-wider text-green-300">
+              <div className="flex item-center justify-center mb-2 px-3 mt-5 pb-5 text-xs font-semibold uppercase tracking-wider text-green-400">
                 <div>{section.name}</div>
               </div>
               <div className="flex flex-wrap gap-5 justify-center">

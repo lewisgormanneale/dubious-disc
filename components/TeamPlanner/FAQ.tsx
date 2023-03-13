@@ -12,8 +12,8 @@ export default function FAQ({ showFAQ }: FAQProps) {
         showFAQ ? "h-full display" : "hidden"
       }`}
     >
-      <h2 className="text-green-300 text-xl text-center font-bold mb-4">FAQ</h2>
-      <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-green-300">
+      <h2 className="text-green-400 text-xl text-center font-bold mb-4">FAQ</h2>
+      <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-green-400">
         What Is This Tool For?
       </h3>
       <p>

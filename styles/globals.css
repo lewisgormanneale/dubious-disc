@@ -6,3 +6,22 @@
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+
+body {
+  background-color: #18181b;
+  overflow: overlay;
+}
+
+body::-webkit-scrollbar {
+  display: block;
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #ffffff00;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4ade80;
+  outline: 1px solid #4ade80;
+}

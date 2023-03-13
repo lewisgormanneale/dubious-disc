@@ -24,7 +24,7 @@ export default function PostPreview({
       )}
       <div className="flex flex-col m-2 gap-1">
         {date && <Date dateString={date} />}
-        <h3 className="mb-1 text-3xl leading-snug text-green-300">
+        <h3 className="mb-1 text-3xl leading-snug font-semibold text-green-400">
           <Link href={`/posts/${slug}`} className="hover:underline">
             {title}
           </Link>

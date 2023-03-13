@@ -14,11 +14,11 @@ export default function BlogHeader({
     case 1:
       return (
         <header className="hidden lg:flex lg:flex-row lg:justify-between items-center lg:mb-12 mt-2 mb-10  flex-col ">
-          <h1 className="text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-8xl text-green-300">
+          <h1 className="text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-8xl text-green-400">
             {title}
           </h1>
           <h4
-            className={`mt-5 text-center text-lg md:pl-8 md:text-left text-white`}
+            className={`mt-5 text-right text-lg md:pl-8 md:text-right text-white`}
           >
             <PortableText value={description} />
           </h4>
@@ -28,7 +28,7 @@ export default function BlogHeader({
     case 2:
       return (
         <header>
-          <h2 className="mt-8 mb-4 text-2xl text-green-300 font-bold leading-tight tracking-tight md:text-4xl md:tracking-tighter">
+          <h2 className="mt-8 mb-4 text-2xl text-4reen-300 font-bold leading-tight tracking-tight md:text-4xl md:tracking-tighter">
             <Link href="/" className="hover:underline">
               {title}
             </Link>

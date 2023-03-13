@@ -59,6 +59,11 @@ module.exports = {
       transitionProperty: {
         height: "height",
       },
+      scrollbar: {
+        width: "thin",
+        track: "bg-zinc-900",
+        thumb: "bg-green-400",
+      },
     },
   },
   safelist: [
@@ -103,7 +108,5 @@ module.exports = {
     "bg-shadow",
     "bg-shadowdarker",
   ],
-  plugins: [
-    require('tailwind-scrollbar'),
-  ],
+  plugins: [require("tailwind-scrollbar")],
 };
