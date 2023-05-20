@@ -1,0 +1,11 @@
+<div class="progress bg-primary">
+  <div
+    class="progress-bar"
+    role="progressbar"
+    [ngClass]="getProgressBarClass(rate)"
+    [ngStyle]="getProgressBarStyle(rate)"
+    aria-valuemin="0"
+    aria-valuemax="8"
+    [attr.aria-valuenow]="rate"
+  ></div>
+</div>

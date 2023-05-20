@@ -1,0 +1,104 @@
+import { Component, OnInit } from '@angular/core';
+import { PokedexService } from 'src/app/core/services/pokedex.service';
+import {
+  Pokedex,
+  PokemonSpecies,
+  PokemonDetails,
+  PokemonSpeciesDetails,
+  PokemonEntry,
+} from 'src/app/core/models/index';
+import { ActivatedRoute, Router } from '@angular/router';
+
+@Component({
+  selector: 'app-pokedex',
+  templateUrl: './pokedex.component.html',
+  styleUrls: ['./pokedex.component.scss'],
+})
+export class PokedexComponent implements OnInit {
+  constructor(
+    private pokedexService: PokedexService,
+    private router: Router,
+    private route: ActivatedRoute
+  ) {}
+
+  pokedex: Pokedex = {
+    descriptions: [],
+    id: 0,
+    is_main_series: false,
+    name: '',
+    names: [],
+    pokemon_entries: [],
+    region: {},
+    version_groups: [],
+  };
+
+  pokedexNumber: number = 1;
+  pageNumber: number = 1;
+  totalPages: number = 0;
+  offset: number = 50;
+
+  getPokedex(pageNumber: number, pokedexNumber: number): void {
+    this.router.navigate([], { queryParams: { page: pageNumber } });
+
+    const startIndex = (pageNumber - 1) * this.offset;
+    const endIndex = startIndex + this.offset;
+
+    this.pokedexService
+      .getPokedex(pokedexNumber)
+      .subscribe((pokedex: Pokedex) => {
+        this.totalPages = Math.ceil(
+          pokedex.pokemon_entries.length / this.offset
+        );
+        this.pokedex.pokemon_entries = pokedex.pokemon_entries.slice(
+          startIndex,
+          endIndex
+        );
+        this.pokedex.pokemon_entries.forEach((pokemon: PokemonEntry) => {
+          let pokemonID = pokemon.pokemon_species.url
+            .split('/')
+            .slice(-2, -1)[0];
+          this.getPokemonSpeciesDetails(pokemonID, pokemon.pokemon_species);
+          this.getPokemonDetails(pokemonID, pokemon.pokemon_species);
+        });
+      });
+  }
+
+  getPokemonSpeciesDetails(
+    pokemonID: string,
+    pokemonSpecies: PokemonSpecies
+  ): void {
+    this.pokedexService
+      .getPokemonSpeciesDetails(pokemonID)
+      .subscribe((pokemonSpeciesDetails: PokemonSpeciesDetails) => {
+        pokemonSpecies.species_details = pokemonSpeciesDetails;
+      });
+  }
+
+  getPokemonDetails(pokemonID: string, pokemonSpecies: PokemonSpecies): void {
+    this.pokedexService
+      .getPokemonDetails(pokemonID)
+      .subscribe((details: PokemonDetails) => {
+        pokemonSpecies.details = details;
+      });
+  }
+
+  //Dynamically generate an array that can is used to generate the pagination buttons with *ngFor
+  getPagesArray(): number[] {
+    return Array.from({ length: this.totalPages }, (_, i) => i + 1);
+  }
+
+  isPageNumberNearby(page: number, threshold: number): boolean {
+    const distance = Math.abs(this.pageNumber - page);
+    return distance < threshold;
+  }
+
+  ngOnInit(): void {
+    this.route.paramMap.subscribe((params) => {
+      this.pokedexNumber = Number(params.get('id')) || 1;
+      this.route.queryParamMap.subscribe((params) => {
+        this.pageNumber = Number(params.get('page')) || 1;
+        this.getPokedex(this.pageNumber, this.pokedexNumber);
+      });
+    });
+  }
+}

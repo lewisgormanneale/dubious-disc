@@ -1,0 +1,76 @@
+<div class="d-flex flex-column bg-secondary w-100">
+  <div
+    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck min-vh-100"
+  >
+    <div
+      *ngFor="let pokemon of pokedex.pokemon_entries"
+      class="card pokedex-list-item rounded border border-dark"
+    >
+      <a
+        class="text-dark rounded"
+        routerLink="/pokemon/{{ pokemon.pokemon_species.details?.id }}"
+        [style.background]="
+          pokemon.pokemon_species.details?.types ?? [] | typeBackgroundGenerator
+        "
+      >
+        <img
+          class="card-img-top"
+          src="{{
+            pokemon.pokemon_species.details?.sprites?.front_default
+              ? pokemon.pokemon_species.details?.sprites?.front_default
+              : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
+          }}"
+          alt="Pokemon Preview Image"
+        />
+        <div class="pokedex-id-container rounded px-1 py-0">
+          <p class="pokedex-id fw-bold white-outlined">
+            #{{ pokemon.entry_number }}
+          </p>
+        </div>
+        <div class="card-body rounded-bottom px-0 py-auto">
+          <p class="card-title text-center text-nowrap fw-bold white-outlined">
+            {{ pokemon.pokemon_species.species_details?.names?.[7]?.name }}
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <nav
+    aria-label="Pokédex Navigation"
+    class="pokedex-navigation fixed-bottom d-flex justify-content-center align-items-center bg-primary"
+  >
+    <ul
+      class="pagination justify-content-center rounded m-0 border border-dark"
+    >
+      <li class="page-item" [class.disabled]="pageNumber === 1">
+        <a
+          class="page-link text-dark"
+          (click)="getPokedex(pageNumber - 1, pokedexNumber)"
+          >Previous</a
+        >
+      </li>
+      <li
+        *ngFor="let page of getPagesArray()"
+        class="page-item"
+        [class.d-none]="!isPageNumberNearby(page, 1)"
+        [class.d-sm-block]="isPageNumberNearby(page, 3)"
+        [class.d-md-block]="isPageNumberNearby(page, 6)"
+        [class.d-lg-block]="isPageNumberNearby(page, 10)"
+      >
+        <a
+          class="page-link text-dark"
+          (click)="getPokedex(page, pokedexNumber)"
+          [class.active]="pageNumber === page"
+          >{{ page }}</a
+        >
+      </li>
+      <li class="page-item" [class.disabled]="pageNumber === totalPages">
+        <a
+          class="page-link text-dark"
+          (click)="getPokedex(pageNumber + 1, pokedexNumber)"
+          >Next</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>

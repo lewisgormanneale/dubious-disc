@@ -1,0 +1,16 @@
+@import "./variables.scss";
+@import "bootstrap/scss/bootstrap";
+
+html {
+  background-color: $folly;
+}
+
+body {
+  background-color: $folly;
+}
+
+.white-outlined {
+  color: white !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
