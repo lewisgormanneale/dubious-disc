@@ -1,6 +1,68 @@
-<div class="d-flex flex-column bg-secondary w-100">
+<div class="d-flex flex-column bg-dark w-100">
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-secondary border-bottom border-dark"
+  >
+    <div class="container-fluid">
+      <div
+        class="collapse navbar-collapse justify-content-between align-items-center"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item" ngbDropdown>
+            <a
+              class="nav-link text-light"
+              tabindex="0"
+              ngbDropdownToggle
+              id="navbarDropdown"
+              role="button"
+            >
+              Select Pokédex Version
+            </a>
+            <div
+              ngbDropdownMenu
+              aria-labelledby="navbarDropdown"
+              class="dropdown-menu dropdown-menu-end"
+            >
+              <a ngbDropdownItem href="pokedex/1">National</a>
+              <a ngbDropdownItem href="pokedex/30">Legends: Arceus</a>
+              <a ngbDropdownItem href="pokedex/9">Black 2/White 2</a>
+              <a ngbDropdownItem href="pokedex/8">Black/White</a>
+              <a ngbDropdownItem href="pokedex/7">HeartGold/SoulSilver</a>
+              <a ngbDropdownItem href="pokedex/6">Platinum</a>
+              <a ngbDropdownItem href="pokedex/5">Diamond/Pearl</a>
+              <a ngbDropdownItem href="pokedex/4">Ruby/Sapphire/Emerald</a>
+              <a ngbDropdownItem href="pokedex/3">Gold/Silver/Crystal</a>
+              <a ngbDropdownItem href="pokedex/2">Red/Blue/Yellow</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline d-flex gap-2" (ngSubmit)="onSubmit()">
+          <div class="col">
+            <input
+              id="pokemon-name"
+              type="text"
+              name="pokemon-name"
+              class="form-control"
+              [(ngModel)]="model"
+              [ngbTypeahead]="search"
+              [inputFormatter]="formatter"
+              [resultFormatter]="formatter"
+              [editable]="false"
+              placeholder="Find A Pokémon..."
+            />
+          </div>
+          <button
+            class="btn btn-light btn-outline-success"
+            type="submit"
+            [disabled]="!model || model.entry_number === 0"
+          >
+            Go
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
   <div
-    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck min-vh-100"
+    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck h-100"
   >
     <div
       *ngFor="let pokemon of pokedex.pokemon_entries"

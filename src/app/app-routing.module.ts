@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PokedexComponent } from './modules/pokedex/pages/pokedex/pokedex.component';
-import { PokemonComponent } from './modules/pokemon/pages/pokemon/pokemon.component';
+
+import { HomeComponent } from './features/home/pages/home.component';
+import { PokedexComponent } from './features/pokedex/pages/pokedex/pokedex.component';
+import { PokemonComponent } from './features/pokemon/pages/pokemon/pokemon.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'pokedex/:id', component: PokedexComponent },
   { path: 'pokemon/:id', component: PokemonComponent },
-  { path: '', redirectTo: '/pokedex/1', pathMatch: 'full' },
-  { path: '**', redirectTo: '/pokedex/1', pathMatch: 'full' },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({
