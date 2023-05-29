@@ -1,7 +1,4 @@
-<nav
-  class="navbar sticky-top navbar-expand-lg navbar-light bg-primary"
-  style="min-height: 8vh"
->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
   <div class="container-fluid">
     <a
       class="navbar-brand d-flex justify-content-between align-items-center"
@@ -25,30 +22,62 @@
       [ngbCollapse]="isMenuCollapsed"
       class="collapse navbar-collapse justify-content-between"
     >
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pokedex/1">Pokédex</a>
-        </li>
-        <li class="nav-item dropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item" ngbDropdown>
           <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
+            class="nav-link"
+            tabindex="0"
+            ngbDropdownToggle
+            id="navbarDropdownData"
             role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
+          >
+            Data
+          </a>
+          <div
+            ngbDropdownMenu
+            aria-labelledby="navbarDropdownData"
+            class="dropdown-menu dropdown-menu-end"
+          >
+            <a ngbDropdownItem href="pokedex/1">Pokédex</a>
+          </div>
+        </li>
+
+        <li class="nav-item" ngbDropdown>
+          <a
+            class="nav-link"
+            tabindex="0"
+            ngbDropdownToggle
+            id="navbarDropdownTools"
+            role="button"
+          >
+            Tools
+          </a>
+          <div
+            ngbDropdownMenu
+            aria-labelledby="navbarDropdownTools"
+            class="dropdown-menu dropdown-menu-end"
+          >
+            <a ngbDropdownItem href="pokedex/1">Pokémon Team Planner</a>
+          </div>
+        </li>
+        <li class="nav-item" ngbDropdown>
+          <a
+            class="nav-link"
+            tabindex="0"
+            ngbDropdownToggle
+            id="navbarDropdownGames"
+            role="button"
           >
             Games
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Scarlet & Violet</a>
-            <a class="dropdown-item" href="#">Legends Arceus</a>
-            <div class="dropdown-divider">Spin-Off Games</div>
-            <a class="dropdown-item" href="#">GO</a>
+          <div
+            ngbDropdownMenu
+            aria-labelledby="navbarDropdownGames"
+            class="dropdown-menu dropdown-menu-end"
+          >
+            <a ngbDropdownItem href="#">Scarlet & Violet</a>
+            <a ngbDropdownItem href="#">Legends: Arceus</a>
+            <a ngbDropdownItem href="#">Brilliant Diamond & Shining Pearl</a>
           </div>
         </li>
       </ul>

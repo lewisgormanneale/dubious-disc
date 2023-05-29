@@ -30,6 +30,7 @@ export class PokedexComponent implements OnInit {
     private route: ActivatedRoute
   ) {}
 
+  isMenuCollapsed = true;
   pokemonEntries: PokemonEntry[] = {} as PokemonEntry[];
   model: PokemonEntry = {
     entry_number: 0,

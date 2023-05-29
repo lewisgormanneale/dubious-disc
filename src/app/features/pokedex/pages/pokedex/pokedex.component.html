@@ -3,8 +3,16 @@
     class="navbar navbar-expand-lg navbar-light bg-secondary border-bottom border-dark"
   >
     <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        (click)="isMenuCollapsed = !isMenuCollapsed"
+      >
+        &#9776;
+      </button>
       <div
-        class="collapse navbar-collapse justify-content-between align-items-center"
+        [ngbCollapse]="isMenuCollapsed"
+        class="collapse navbar-collapse justify-content-between"
       >
         <ul class="navbar-nav">
           <li class="nav-item" ngbDropdown>
