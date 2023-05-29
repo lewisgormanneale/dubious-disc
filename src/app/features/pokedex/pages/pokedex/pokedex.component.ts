@@ -71,7 +71,7 @@ export class PokedexComponent implements OnInit {
   pokedexNumber: number = 1;
   pageNumber: number = 1;
   totalPages: number = 0;
-  offset: number = 50;
+  offset: number = 100;
   titleCasePipe = new TitleCasePipe();
 
   getAllPokemon(): void {
@@ -90,17 +90,12 @@ export class PokedexComponent implements OnInit {
   }
 
   getPokedex(pageNumber: number, pokedexNumber: number): void {
-    this.router.navigate([], { queryParams: { page: pageNumber } });
-
+    // this.router.navigate([], { queryParams: { page: pageNumber } });
     const startIndex = (pageNumber - 1) * this.offset;
     const endIndex = startIndex + this.offset;
-
     this.pokedexService
       .getPokedex(pokedexNumber)
       .subscribe((pokedex: Pokedex) => {
-        this.totalPages = Math.ceil(
-          pokedex.pokemon_entries.length / this.offset
-        );
         this.pokedex.pokemon_entries = pokedex.pokemon_entries.slice(
           startIndex,
           endIndex
@@ -134,16 +129,6 @@ export class PokedexComponent implements OnInit {
       });
   }
 
-  //Dynamically generate an array that can is used to generate the pagination buttons with *ngFor
-  getPagesArray(): number[] {
-    return Array.from({ length: this.totalPages }, (_, i) => i + 1);
-  }
-
-  isPageNumberNearby(page: number, threshold: number): boolean {
-    const distance = Math.abs(this.pageNumber - page);
-    return distance < threshold;
-  }
-
   onSubmit(): void {
     let pokemonID = this.model.pokemon_species.url.split('/').slice(-2, -1)[0];
     this.router.navigate(['/pokemon/', pokemonID]);
@@ -158,5 +143,9 @@ export class PokedexComponent implements OnInit {
         this.getPokedex(this.pageNumber, this.pokedexNumber);
       });
     });
+  }
+
+  onScroll(): void {
+    this.getPokedex(++this.pageNumber, this.pokedexNumber);
   }
 }

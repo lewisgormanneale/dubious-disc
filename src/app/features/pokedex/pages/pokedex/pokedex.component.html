@@ -1,7 +1,5 @@
 <div class="d-flex flex-column bg-dark w-100">
-  <nav
-    class="navbar navbar-expand-lg navbar-light bg-secondary border-bottom border-dark"
-  >
+  <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-dark">
     <div class="container-fluid">
       <button
         class="navbar-toggler"
@@ -71,6 +69,10 @@
   </nav>
   <div
     class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck h-100"
+    infinite-scroll
+    [infiniteScrollDistance]="2"
+    [infiniteScrollThrottle]="1000"
+    (scrolled)="onScroll()"
   >
     <div
       *ngFor="let pokemon of pokedex.pokemon_entries"
@@ -105,42 +107,4 @@
       </a>
     </div>
   </div>
-  <nav
-    aria-label="Pokédex Navigation"
-    class="pokedex-navigation fixed-bottom d-flex justify-content-center align-items-center bg-primary"
-  >
-    <ul
-      class="pagination justify-content-center rounded m-0 border border-dark"
-    >
-      <li class="page-item" [class.disabled]="pageNumber === 1">
-        <a
-          class="page-link text-dark"
-          (click)="getPokedex(pageNumber - 1, pokedexNumber)"
-          >Previous</a
-        >
-      </li>
-      <li
-        *ngFor="let page of getPagesArray()"
-        class="page-item"
-        [class.d-none]="!isPageNumberNearby(page, 1)"
-        [class.d-sm-block]="isPageNumberNearby(page, 3)"
-        [class.d-md-block]="isPageNumberNearby(page, 6)"
-        [class.d-lg-block]="isPageNumberNearby(page, 10)"
-      >
-        <a
-          class="page-link text-dark"
-          (click)="getPokedex(page, pokedexNumber)"
-          [class.active]="pageNumber === page"
-          >{{ page }}</a
-        >
-      </li>
-      <li class="page-item" [class.disabled]="pageNumber === totalPages">
-        <a
-          class="page-link text-dark"
-          (click)="getPokedex(pageNumber + 1, pokedexNumber)"
-          >Next</a
-        >
-      </li>
-    </ul>
-  </nav>
 </div>

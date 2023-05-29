@@ -19,6 +19,12 @@ export class PokedexService {
     return this.http.get<Pokedex>(`${this.pokedexUrl}${pokedex_number}`);
   }
 
+  getPokedexEntries(pokedex_number: number, page: number): Observable<Pokedex> {
+    return this.http.get<Pokedex>(
+      `${this.pokedexUrl}${pokedex_number}?page=${page}&limit=50`
+    );
+  }
+
   getPokemonDetails(id: string): Observable<PokemonDetails> {
     return this.http.get<PokemonDetails>(`${this.pokemonUrl}${id}`);
   }
