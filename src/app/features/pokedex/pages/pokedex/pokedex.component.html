@@ -68,14 +68,15 @@
     </div>
   </nav>
   <div
-    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck h-100"
+    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck"
+    style="height: 100vh; overflow-y: scroll"
     infinite-scroll
     [infiniteScrollDistance]="2"
     [infiniteScrollThrottle]="1000"
     (scrolled)="onScroll()"
   >
     <div
-      *ngFor="let pokemon of pokedex.pokemon_entries"
+      *ngFor="let pokemon of loadedPokemonEntries"
       class="card pokedex-list-item rounded border border-dark"
     >
       <a
