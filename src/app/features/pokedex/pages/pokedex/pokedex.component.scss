@@ -8,6 +8,12 @@
   min-width: 355px;
   overflow-y: scroll;
   padding: 10px;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.pokedex-list::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .pokedex-list-item {
@@ -64,9 +70,6 @@
 }
 
 .pokedex-navigation {
-  min-height: 6vh;
-  width: 100%;
-
   .pagination {
     .page-link {
       cursor: pointer;

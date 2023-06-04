@@ -1,12 +1,22 @@
 @import "./variables.scss";
 @import "bootstrap/scss/bootstrap";
 
+html,
+body {
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 html {
-  background-color: $folly;
+  background-color: $primary;
 }
 
 body {
-  background-color: $folly;
+  background-color: $dark;
 }
 
 .white-outlined {

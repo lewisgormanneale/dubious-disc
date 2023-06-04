@@ -38,7 +38,7 @@ export class PokedexComponent implements OnInit {
   pokedexNumber: number = 1;
   pageNumber: number = 1;
   totalPages: number = 0;
-  offset: number = 50;
+  offset: number = 100;
 
   pokedexEntrySearch: PokemonEntry[] = {} as PokemonEntry[];
   model: PokemonEntry = {} as PokemonEntry;
@@ -68,13 +68,14 @@ export class PokedexComponent implements OnInit {
       this.pokedexNumber = Number(params.get('id')) || 1;
       this.route.queryParamMap.subscribe((params) => {
         this.pageNumber = Number(params.get('page')) || 1;
-        this.getPokedex(this.pageNumber, this.pokedexNumber);
+        this.getPokedex();
       });
     });
   }
 
   onScroll(): void {
-    this.getPokedex(++this.pageNumber, this.pokedexNumber);
+    this.pageNumber++;
+    this.getPokedex();
   }
 
   getAllPokemon(): void {
@@ -92,12 +93,11 @@ export class PokedexComponent implements OnInit {
     });
   }
 
-  getPokedex(pageNumber: number, pokedexNumber: number): void {
-    // this.router.navigate([], { queryParams: { page: pageNumber } });
-    const startIndex = (pageNumber - 1) * this.offset;
+  getPokedex(): void {
+    const startIndex = (this.pageNumber - 1) * this.offset;
     const endIndex = startIndex + this.offset;
     this.pokedexService
-      .getPokedex(pokedexNumber)
+      .getPokedex(this.pokedexNumber)
       .subscribe((pokedex: Pokedex) => {
         pokedex.pokemon_entries
           .slice(startIndex, endIndex)
