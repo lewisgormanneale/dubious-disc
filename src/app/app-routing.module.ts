@@ -6,7 +6,11 @@ import { PokedexComponent } from './features/pokedex/pages/pokedex/pokedex.compo
 import { PokemonComponent } from './features/pokemon/pages/pokemon/pokemon.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  {
+    path: '',
+    redirectTo: 'pokedex/1',
+    pathMatch: 'full',
+  },
   { path: 'pokedex/:id', component: PokedexComponent },
   { path: 'pokemon/:id', component: PokemonComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' },
