@@ -1,0 +1,31 @@
+@import "./variables.scss";
+@import "bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "BebasNeueRegular";
+  src: url("../assets/fonts/BebasNeue-Regular.ttf");
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  background-color: $primary;
+}
+
+body {
+  background-color: $dark;
+}
+
+.white-outlined {
+  color: white !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}

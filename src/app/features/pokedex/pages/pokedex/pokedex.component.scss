@@ -1,0 +1,30 @@
+@import "src/styles/variables.scss";
+
+.pokedex-list {
+  gap: 10px;
+  margin-bottom: 6vh;
+  height: 100%;
+  width: 100%;
+  min-width: 355px;
+  overflow-y: scroll;
+  padding: 10px;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.pokedex-list::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.pokedex-navigation {
+  .pagination {
+    .page-link {
+      cursor: pointer;
+    }
+
+    .active {
+      background-color: $aero;
+      border-color: $aero;
+    }
+  }
+}

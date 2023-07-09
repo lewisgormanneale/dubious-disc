@@ -1,0 +1,54 @@
+@import "src/styles/variables.scss";
+
+.pokedex-list-item {
+  cursor: pointer;
+  width: 100px;
+  height: 130px;
+  font-size: 12px;
+  line-height: 0px;
+
+  a {
+    text-decoration: none;
+
+    img {
+      width: 100%;
+      height: 100px;
+    }
+
+    .pokedex-id-container {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      vertical-align: bottom;
+      border-radius: 50%;
+      height: 20px;
+      background-color: $folly;
+      border: 1px solid $rich-black;
+
+      .pokedex-id {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        line-height: 16px;
+      }
+    }
+
+    .card-body {
+      background-color: $folly;
+      border-top: 1px solid $rich-black;
+      border-bottom: 1px solid $rich-black;
+      height: 30px;
+      width: 100%;
+    }
+  }
+}
+
+.pokedex-list-item:hover {
+  z-index: 3;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}

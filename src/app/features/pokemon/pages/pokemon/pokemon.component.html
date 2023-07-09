@@ -1,0 +1,94 @@
+<div *ngIf="pokemon; else elseBlock">
+  <div
+    class="d-flex flex-column justify-content-start align-items-center w-100 h-100 min-vh-100"
+    [style.background]="pokemon.details?.types ?? [] | typeBackgroundGenerator"
+  >
+    <div class="w-100 p-2">
+      <button
+        type="button"
+        class="btn-close bg-primary p-2 border border-dark opacity-100 color-white"
+        aria-label="Close"
+        (click)="goBack()"
+      ></button>
+    </div>
+    <div
+      class="d-flex flex-column justify-content-start align-items-center mx-4"
+      style="max-width: 900px"
+    >
+      <section
+        class="d-flex flex-column flex-md-row justify-content-start align-items-center align-items-md-start gap-3 w-100"
+      >
+        <div
+          class="card text-center border border-dark w-100"
+          style="max-width: 420px"
+        >
+          <img
+            src="{{
+            pokemon.details?.sprites?.other?.['official-artwork']?.front_default
+              ? pokemon.details?.sprites?.other?.['official-artwork']?.front_default
+              : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
+          }}"
+            alt="Pokemon Preview Image"
+            class="card-img-top"
+          />
+          <div class="card-body bg-primary">
+            <h2 class="card-title fw-bold">
+              <span class="pokemon-id text-white">#{{ pokemon.id }}</span
+              ><span class="pokemon-name white-outlined">
+                {{ pokemon.species_details?.names?.[7]?.name ?? "Unknown" }}</span
+              >
+            </h2>
+          </div>
+          <div
+            class="card-footer bg-dark d-flex align-items-center"
+            [ngClass]="getTypeBoxLayout(pokemon.details?.types ?? [])"
+            style="height: 50px"
+          >
+            <app-type-box
+              *ngFor="let type of pokemon.details?.types ?? []"
+              [type]="type"
+            ></app-type-box>
+          </div>
+        </div>
+        <div class="d-flex flex-column justify-content-between w-100 gap-3">
+          <div class="card border border-dark w-100">
+            <div class="card-header fw-bold bg-primary white-outlined">
+              Pokédex Data
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item pokemon-detail">
+                <span class="fw-bold">Classification:</span>
+                {{
+                pokemon.species_details?.genera?.[7]?.genus ?? "Unknown"
+                }}
+              </li>
+              <li class="list-group-item pokemon-detail">
+                <span class="fw-bold">Height:</span>
+                {{ pokemon.details?.height | decimetersToFeetAndInches }}
+              </li>
+              <li class="list-group-item pokemon-detail">
+                <span class="fw-bold">Weight:</span>
+                {{ pokemon.details?.weight | decimetersToPounds }}
+              </li>
+              <li class="list-group-item">
+                <p class="fw-bold mb-1">Gender Ratio:</p>
+                <app-gender-ratio
+                  [rate]="pokemon.species_details?.gender_rate ?? 0"
+                ></app-gender-ratio>
+              </li>
+            </ul>
+          </div>
+          <app-stats [stats]="pokemon.details?.stats ?? []"></app-stats>
+        </div>
+      </section>
+      <section
+        class="d-flex flex-column flex-md-row justify-content-center align-items-start gap-3 my-3"
+      >
+        <app-descriptions
+          [descriptions]="pokemon.species_details?.flavor_text_entries ?? []"
+        ></app-descriptions>
+      </section>
+    </div>
+  </div>
+</div>
+<ng-template #elseBlock></ng-template>
