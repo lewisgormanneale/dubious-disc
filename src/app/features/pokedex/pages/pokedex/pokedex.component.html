@@ -24,15 +24,22 @@
               id="navbarDropdown"
               role="button"
             >
-              Select Pokédex Version
+              Pokédex Version: {{ pokedexVersions[pokedexNumber] }}
             </a>
             <div
               ngbDropdownMenu
               aria-labelledby="navbarDropdown"
               class="dropdown-menu dropdown-menu-end"
             >
-              <a ngbDropdownItem href="pokedex/1">National</a>
-              <a ngbDropdownItem href="pokedex/30">Legends: Arceus</a>
+              <a
+                *ngFor="let version of pokedexVersions | keyvalue"
+                [routerLink]="'../' + version.key"
+                ngbDropdownItem
+              >
+                {{ version.value }}
+              </a>
+              <!-- <a ngbDropdownItem href="pokedex/1">{{ pokedexVersions[1] }}</a>
+              <a ngbDropdownItem href="pokedex/30">{{ pokedexVersions[30] }}</a>
               <a ngbDropdownItem href="pokedex/9">Black 2/White 2</a>
               <a ngbDropdownItem href="pokedex/8">Black/White</a>
               <a ngbDropdownItem href="pokedex/7">HeartGold/SoulSilver</a>
@@ -40,7 +47,7 @@
               <a ngbDropdownItem href="pokedex/5">Diamond/Pearl</a>
               <a ngbDropdownItem href="pokedex/4">Ruby/Sapphire/Emerald</a>
               <a ngbDropdownItem href="pokedex/3">Gold/Silver/Crystal</a>
-              <a ngbDropdownItem href="pokedex/2">Red/Blue/Yellow</a>
+              <a ngbDropdownItem href="pokedex/2">Red/Blue/Yellow</a> -->
             </div>
           </li>
         </ul>
@@ -78,37 +85,9 @@
     [infiniteScrollThrottle]="500"
     (scrolled)="onScroll()"
   >
-    <div
+    <app-pokedex-list-item
       *ngFor="let pokemon of loadedPokemonEntries"
-      class="card pokedex-list-item rounded border border-dark"
-    >
-      <a
-        class="text-dark rounded"
-        routerLink="/pokemon/{{ pokemon.pokemon_species.details?.id }}"
-        [style.background]="
-          pokemon.pokemon_species.details?.types ?? [] | typeBackgroundGenerator
-        "
-      >
-        <img
-          class="card-img-top"
-          src="{{
-            pokemon.pokemon_species.details?.sprites?.front_default
-              ? pokemon.pokemon_species.details?.sprites?.front_default
-              : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
-          }}"
-          alt="Pokemon Preview Image"
-        />
-        <div class="pokedex-id-container rounded px-1 py-0">
-          <p class="pokedex-id fw-bold white-outlined">
-            #{{ pokemon.entry_number }}
-          </p>
-        </div>
-        <div class="card-body rounded-bottom px-0 py-auto">
-          <p class="card-title text-center text-nowrap fw-bold white-outlined">
-            {{ pokemon.pokemon_species.species_details?.names?.[7]?.name }}
-          </p>
-        </div>
-      </a>
-    </div>
+      [pokemon]="pokemon ?? {}"
+    ></app-pokedex-list-item>
   </div>
 </div>

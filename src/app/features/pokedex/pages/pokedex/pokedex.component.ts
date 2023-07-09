@@ -7,7 +7,7 @@ import {
   PokemonSpeciesDetails,
   PokemonEntry,
 } from 'src/app/core/models/index';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import {
   Observable,
   OperatorFunction,
@@ -15,6 +15,8 @@ import {
   distinctUntilChanged,
   map,
   filter,
+  takeUntil,
+  Subject,
 } from 'rxjs';
 import { TitleCasePipe } from '@angular/common';
 
@@ -30,11 +32,23 @@ export class PokedexComponent implements OnInit {
     private route: ActivatedRoute
   ) {}
 
+  pokedexVersions: { [key: number]: string } = {
+    1: 'National',
+    30: 'Legends: Arceus',
+    9: 'Black 2/White 2',
+    8: 'Black/White',
+    7: 'HeartGold/SoulSilver',
+    6: 'Platinum',
+    5: 'Diamond/Pearl',
+    4: 'Ruby/Sapphire/Emerald',
+    3: 'Gold/Silver/Crystal',
+    2: 'Red/Blue/Yellow',
+  };
+
   isMenuCollapsed = true;
 
   pokedex: Pokedex = {} as Pokedex;
   loadedPokemonEntries: PokemonEntry[] = [] as PokemonEntry[];
-
   pokedexNumber: number = 1;
   pageNumber: number = 1;
   totalPages: number = 0;
@@ -66,6 +80,7 @@ export class PokedexComponent implements OnInit {
     this.getAllPokemon();
     this.route.paramMap.subscribe((params) => {
       this.pokedexNumber = Number(params.get('id')) || 1;
+      this.resetPagination();
       this.route.queryParamMap.subscribe((params) => {
         this.pageNumber = Number(params.get('page')) || 1;
         this.getPokedex();
@@ -91,6 +106,15 @@ export class PokedexComponent implements OnInit {
         };
       });
     });
+    this.router.events
+      .pipe(
+        filter((event) => event instanceof NavigationEnd),
+        takeUntil(this.ngUnsubscribe)
+      )
+      .subscribe(() => {
+        this.loadedPokemonEntries = [];
+        this.resetPagination();
+      });
   }
 
   getPokedex(): void {
@@ -123,5 +147,17 @@ export class PokedexComponent implements OnInit {
   onSubmit(): void {
     let pokemonID = this.model.pokemon_species.url.split('/').slice(-2, -1)[0];
     this.router.navigate(['/pokemon/', pokemonID]);
+  }
+
+  private ngUnsubscribe = new Subject<void>();
+
+  private resetPagination(): void {
+    this.pageNumber = 1;
+    this.totalPages = 0;
+  }
+
+  ngOnDestroy(): void {
+    this.ngUnsubscribe.next();
+    this.ngUnsubscribe.complete();
   }
 }
