@@ -1,6 +1,11 @@
 @import "./variables.scss";
 @import "bootstrap/scss/bootstrap";
 
+@font-face {
+  font-family: "BebasNeueRegular";
+  src: url("../assets/fonts/BebasNeue-Regular.ttf");
+}
+
 html,
 body {
   min-height: 100vh;
