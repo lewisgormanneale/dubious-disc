@@ -24,30 +24,21 @@
               id="navbarDropdown"
               role="button"
             >
-              Pokédex Version: {{ pokedexVersions[pokedexNumber] }}
+              {{ getPokedexTitle() }}
             </a>
             <div
               ngbDropdownMenu
               aria-labelledby="navbarDropdown"
-              class="dropdown-menu dropdown-menu-end"
+              class="dropdown-menu"
+              style="max-height: 300px; overflow-y: auto"
             >
               <a
-                *ngFor="let version of pokedexVersions | keyvalue"
+                *ngFor="let version of pokedexVersions"
                 [routerLink]="'../' + version.key"
                 ngbDropdownItem
               >
                 {{ version.value }}
               </a>
-              <!-- <a ngbDropdownItem href="pokedex/1">{{ pokedexVersions[1] }}</a>
-              <a ngbDropdownItem href="pokedex/30">{{ pokedexVersions[30] }}</a>
-              <a ngbDropdownItem href="pokedex/9">Black 2/White 2</a>
-              <a ngbDropdownItem href="pokedex/8">Black/White</a>
-              <a ngbDropdownItem href="pokedex/7">HeartGold/SoulSilver</a>
-              <a ngbDropdownItem href="pokedex/6">Platinum</a>
-              <a ngbDropdownItem href="pokedex/5">Diamond/Pearl</a>
-              <a ngbDropdownItem href="pokedex/4">Ruby/Sapphire/Emerald</a>
-              <a ngbDropdownItem href="pokedex/3">Gold/Silver/Crystal</a>
-              <a ngbDropdownItem href="pokedex/2">Red/Blue/Yellow</a> -->
             </div>
           </li>
         </ul>

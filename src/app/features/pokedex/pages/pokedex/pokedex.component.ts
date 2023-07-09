@@ -32,24 +32,39 @@ export class PokedexComponent implements OnInit {
     private route: ActivatedRoute
   ) {}
 
-  pokedexVersions: { [key: number]: string } = {
-    1: 'National',
-    30: 'Legends: Arceus',
-    9: 'Black 2/White 2',
-    8: 'Black/White',
-    7: 'HeartGold/SoulSilver',
-    6: 'Platinum',
-    5: 'Diamond/Pearl',
-    4: 'Ruby/Sapphire/Emerald',
-    3: 'Gold/Silver/Crystal',
-    2: 'Red/Blue/Yellow',
-  };
+  pokedexVersions: { key: number; value: string }[] = [
+    { key: 1, value: 'National' },
+    { key: 31, value: 'Scarlet/Violet' },
+    { key: 30, value: 'Legends: Arceus' },
+    { key: 29, value: 'Sword/Shield (Crown Tundra)' },
+    { key: 28, value: 'Sword/Shield (Isle of Armor)' },
+    { key: 27, value: 'Sword/Shield (Base)' },
+    { key: 26, value: "Let's Go Pikachu/Eevee" },
+    { key: 21, value: 'Ultra Sun/Ultra Moon' },
+    { key: 16, value: 'Sun/Moon' },
+    { key: 15, value: 'Omega Ruby/Alpha Sapphire' },
+    { key: 14, value: 'X/Y (Mountain)' },
+    { key: 13, value: 'X/Y (Coastal)' },
+    { key: 12, value: 'X/Y (Central)' },
+    { key: 9, value: 'Black 2/White 2' },
+    { key: 8, value: 'Black/White' },
+    { key: 7, value: 'HeartGold/SoulSilver' },
+    { key: 6, value: 'Platinum' },
+    { key: 5, value: 'Diamond/Pearl' },
+    { key: 4, value: 'Ruby/Sapphire/Emerald' },
+    { key: 3, value: 'Gold/Silver/Crystal' },
+    { key: 2, value: 'Red/Blue/Yellow' },
+  ];
 
   isMenuCollapsed = true;
 
   pokedex: Pokedex = {} as Pokedex;
   loadedPokemonEntries: PokemonEntry[] = [] as PokemonEntry[];
   pokedexNumber: number = 1;
+  selectedVersion: { key: number; value: string } = {
+    key: 1,
+    value: 'National',
+  };
   pageNumber: number = 1;
   totalPages: number = 0;
   offset: number = 100;
@@ -142,6 +157,13 @@ export class PokedexComponent implements OnInit {
             this.loadedPokemonEntries.push(pokemon);
           });
       });
+  }
+
+  getPokedexTitle(): string {
+    const selectedVersion = this.pokedexVersions.find(
+      (version) => version.key === this.pokedexNumber
+    );
+    return selectedVersion ? selectedVersion.value : '';
   }
 
   onSubmit(): void {
