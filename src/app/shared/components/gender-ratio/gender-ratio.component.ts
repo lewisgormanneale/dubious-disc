@@ -10,11 +10,11 @@ export class GenderRatioComponent {
 
   getProgressBarClass(rate: number) {
     if (rate === -1) {
-      return 'bg-success';
+      return 'genderless';
     } else if (rate === 8) {
-      return 'bg-primary';
+      return 'female';
     } else {
-      return 'bg-info';
+      return 'male';
     }
   }
 
