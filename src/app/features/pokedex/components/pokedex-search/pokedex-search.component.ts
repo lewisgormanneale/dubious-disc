@@ -22,7 +22,8 @@ export class PokedexSearchComponent {
 
   model: PokemonEntry = {} as PokemonEntry;
 
-  formatter = (pokemon: PokemonEntry) => pokemon.pokemon_species.name;
+  formatter = (pokemon: PokemonEntry) => pokemon.pokemon_species?.name;
+
   search: OperatorFunction<
     string,
     readonly { entry_number: number; pokemon_species: PokemonSpecies }[]
