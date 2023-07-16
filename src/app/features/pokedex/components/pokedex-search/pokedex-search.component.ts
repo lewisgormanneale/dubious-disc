@@ -16,7 +16,7 @@ import { PokemonEntry, PokemonSpecies } from 'src/app/core/models';
   styleUrls: ['./pokedex-search.component.scss'],
 })
 export class PokedexSearchComponent {
-  @Input() pokedexEntries: PokemonEntry[] = {} as PokemonEntry[];
+  @Input() pokemonEntries: PokemonEntry[] = {} as PokemonEntry[];
 
   constructor(private router: Router) {}
 
@@ -33,7 +33,7 @@ export class PokedexSearchComponent {
       distinctUntilChanged(),
       filter((term) => term.length >= 2),
       map((term) =>
-        this.pokedexEntries
+        this.pokemonEntries
           .filter((pokemon) =>
             new RegExp(term, 'mi').test(pokemon.pokemon_species.name)
           )

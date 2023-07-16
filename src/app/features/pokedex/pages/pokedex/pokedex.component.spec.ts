@@ -24,7 +24,7 @@ describe('PokedexComponent', () => {
   });
 
   it('should initialize pokedexEntrySearch on component initialization', () => {
-    expect(component.pokedexEntries).toBeDefined();
+    expect(component.pokemonEntries).toBeDefined();
   });
 
   it('should set isMenuCollapsed to true by default', () => {

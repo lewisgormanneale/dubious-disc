@@ -2,22 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { PokedexService } from 'src/app/core/services/pokedex.service';
 import {
   Pokedex,
-  PokemonSpecies,
   PokemonDetails,
   PokemonSpeciesDetails,
   PokemonEntry,
 } from 'src/app/core/models/index';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
-import {
-  Observable,
-  OperatorFunction,
-  debounceTime,
-  distinctUntilChanged,
-  map,
-  filter,
-  takeUntil,
-  Subject,
-} from 'rxjs';
+import { filter, takeUntil, Subject } from 'rxjs';
 import { TitleCasePipe } from '@angular/common';
 
 @Component({
@@ -59,9 +49,9 @@ export class PokedexComponent implements OnInit {
   isMenuCollapsed = true;
 
   pokedex: Pokedex = {} as Pokedex;
-  pokedexEntries: PokemonEntry[] = {} as PokemonEntry[];
+  pokemonEntries: PokemonEntry[] = [] as PokemonEntry[];
   loadedPokemonEntries: PokemonEntry[] = [] as PokemonEntry[];
-  pokedexNumber: number = 1;
+  pokedexID: number = 1;
   selectedVersion: { key: number; value: string } = {
     key: 1,
     value: 'National',
@@ -72,35 +62,34 @@ export class PokedexComponent implements OnInit {
   titleCasePipe = new TitleCasePipe();
 
   ngOnInit(): void {
-    this.getAllPokemon();
     this.route.paramMap.subscribe((params) => {
-      this.pokedexNumber = Number(params.get('id')) || 1;
+      this.pokedexID = Number(params.get('id')) || 1;
+      this.pageNumber = Number(params.get('page')) || 1;
       this.resetPagination();
-      this.route.queryParamMap.subscribe((params) => {
-        this.pageNumber = Number(params.get('page')) || 1;
-        this.getPokedex();
-      });
+      this.getAllPokemon();
     });
   }
 
   onScroll(): void {
     this.pageNumber++;
-    this.getPokedex();
+    this.loadPokemonEntries();
   }
 
   getAllPokemon(): void {
-    this.pokedexService.getPokedex(1).subscribe((pokedex: Pokedex) => {
-      this.pokedexEntries = pokedex.pokemon_entries.map((entry) => {
-        // Capitalize the first letter of each word in a Pokemon's name
-        return {
-          entry_number: entry.entry_number,
-          pokemon_species: {
-            name: this.titleCasePipe.transform(entry.pokemon_species.name),
-            url: entry.pokemon_species.url,
-          },
-        };
+    this.pokedexService
+      .getPokedex(this.pokedexID)
+      .subscribe((pokedex: Pokedex) => {
+        this.pokemonEntries = pokedex.pokemon_entries.map((entry) => {
+          return {
+            entry_number: entry.entry_number,
+            pokemon_species: {
+              name: this.titleCasePipe.transform(entry.pokemon_species.name),
+              url: entry.pokemon_species.url,
+            },
+          };
+        });
+        this.loadPokemonEntries();
       });
-    });
     this.router.events
       .pipe(
         filter((event) => event instanceof NavigationEnd),
@@ -112,36 +101,29 @@ export class PokedexComponent implements OnInit {
       });
   }
 
-  getPokedex(): void {
+  loadPokemonEntries(): void {
     const startIndex = (this.pageNumber - 1) * this.offset;
     const endIndex = startIndex + this.offset;
-    this.pokedexService
-      .getPokedex(this.pokedexNumber)
-      .subscribe((pokedex: Pokedex) => {
-        pokedex.pokemon_entries
-          .slice(startIndex, endIndex)
-          .forEach((pokemon: PokemonEntry) => {
-            let pokemonID = pokemon.pokemon_species.url
-              .split('/')
-              .slice(-2, -1)[0];
-            this.pokedexService
-              .getPokemonSpeciesDetails(pokemonID)
-              .subscribe((pokemonSpeciesDetails: PokemonSpeciesDetails) => {
-                pokemon.pokemon_species.species_details = pokemonSpeciesDetails;
-              });
-            this.pokedexService
-              .getPokemonDetails(pokemonID)
-              .subscribe((details: PokemonDetails) => {
-                pokemon.pokemon_species.details = details;
-              });
-            this.loadedPokemonEntries.push(pokemon);
-          });
-      });
+    console.log(this.pokemonEntries);
+    this.pokemonEntries.slice(startIndex, endIndex).forEach((pokemon) => {
+      let pokemonID = pokemon.pokemon_species.url.split('/').slice(-2, -1)[0];
+      this.pokedexService
+        .getPokemonSpeciesDetails(pokemonID)
+        .subscribe((pokemonSpeciesDetails: PokemonSpeciesDetails) => {
+          pokemon.pokemon_species.species_details = pokemonSpeciesDetails;
+        });
+      this.pokedexService
+        .getPokemonDetails(pokemonID)
+        .subscribe((details: PokemonDetails) => {
+          pokemon.pokemon_species.details = details;
+        });
+      this.loadedPokemonEntries.push(pokemon);
+    });
   }
 
   getPokedexTitle(): string {
     const selectedVersion = this.pokedexVersions.find(
-      (version) => version.key === this.pokedexNumber
+      (version) => version.key === this.pokedexID
     );
     return selectedVersion ? selectedVersion.value : '';
   }
