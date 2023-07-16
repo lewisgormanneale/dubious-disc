@@ -5,7 +5,10 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { CoreModule } from 'src/app/core/core.module';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { PokedexComponent } from './pages/pokedex/pokedex.component';
-import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import {
+  NgbCollapseModule,
+  NgbDropdownModule,
+} from '@ng-bootstrap/ng-bootstrap';
 import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex-list-item.component';
 
 @NgModule({
@@ -16,6 +19,7 @@ import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex
     SharedModule,
     AppRoutingModule,
     NgbCollapseModule,
+    NgbDropdownModule,
     InfiniteScrollModule,
   ],
 })
