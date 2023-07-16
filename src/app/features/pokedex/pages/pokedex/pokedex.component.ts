@@ -104,7 +104,6 @@ export class PokedexComponent implements OnInit {
   loadPokemonEntries(): void {
     const startIndex = (this.pageNumber - 1) * this.offset;
     const endIndex = startIndex + this.offset;
-    console.log(this.pokemonEntries);
     this.pokemonEntries.slice(startIndex, endIndex).forEach((pokemon) => {
       let pokemonID = pokemon.pokemon_species.url.split('/').slice(-2, -1)[0];
       this.pokedexService
