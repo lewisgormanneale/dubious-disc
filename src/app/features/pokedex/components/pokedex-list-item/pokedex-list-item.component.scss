@@ -6,6 +6,7 @@
   height: 130px;
   font-size: 12px;
   line-height: 0px;
+  background-color: transparent;
 
   a {
     text-decoration: none;
@@ -24,7 +25,6 @@
       justify-content: center;
       align-items: flex-end;
       vertical-align: bottom;
-      border-radius: 50%;
       height: 20px;
       background-color: $folly;
       border: 1px solid $rich-black;
