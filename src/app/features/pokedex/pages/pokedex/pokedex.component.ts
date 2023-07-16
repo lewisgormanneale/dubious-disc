@@ -59,6 +59,7 @@ export class PokedexComponent implements OnInit {
   isMenuCollapsed = true;
 
   pokedex: Pokedex = {} as Pokedex;
+  pokedexEntries: PokemonEntry[] = {} as PokemonEntry[];
   loadedPokemonEntries: PokemonEntry[] = [] as PokemonEntry[];
   pokedexNumber: number = 1;
   selectedVersion: { key: number; value: string } = {
@@ -68,28 +69,7 @@ export class PokedexComponent implements OnInit {
   pageNumber: number = 1;
   totalPages: number = 0;
   offset: number = 100;
-
-  pokedexEntrySearch: PokemonEntry[] = {} as PokemonEntry[];
-  model: PokemonEntry = {} as PokemonEntry;
   titleCasePipe = new TitleCasePipe();
-
-  formatter = (pokemon: PokemonEntry) => pokemon.pokemon_species.name;
-  search: OperatorFunction<
-    string,
-    readonly { entry_number: number; pokemon_species: PokemonSpecies }[]
-  > = (text$: Observable<string>) =>
-    text$.pipe(
-      debounceTime(200),
-      distinctUntilChanged(),
-      filter((term) => term.length >= 2),
-      map((term) =>
-        this.pokedexEntrySearch
-          .filter((pokemon) =>
-            new RegExp(term, 'mi').test(pokemon.pokemon_species.name)
-          )
-          .slice(0, 10)
-      )
-    );
 
   ngOnInit(): void {
     this.getAllPokemon();
@@ -110,7 +90,7 @@ export class PokedexComponent implements OnInit {
 
   getAllPokemon(): void {
     this.pokedexService.getPokedex(1).subscribe((pokedex: Pokedex) => {
-      this.pokedexEntrySearch = pokedex.pokemon_entries.map((entry) => {
+      this.pokedexEntries = pokedex.pokemon_entries.map((entry) => {
         // Capitalize the first letter of each word in a Pokemon's name
         return {
           entry_number: entry.entry_number,
@@ -164,11 +144,6 @@ export class PokedexComponent implements OnInit {
       (version) => version.key === this.pokedexNumber
     );
     return selectedVersion ? selectedVersion.value : '';
-  }
-
-  onSubmit(): void {
-    let pokemonID = this.model.pokemon_species.url.split('/').slice(-2, -1)[0];
-    this.router.navigate(['/pokemon/', pokemonID]);
   }
 
   private ngUnsubscribe = new Subject<void>();

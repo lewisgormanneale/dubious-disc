@@ -12,11 +12,16 @@ import {
   NgbDropdownModule,
   NgbTypeaheadModule,
 } from '@ng-bootstrap/ng-bootstrap';
-import { PokedexListItemComponent } from './pages/components/pokedex-list-item/pokedex-list-item.component';
+import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex-list-item.component';
 import { FormsModule } from '@angular/forms';
+import { PokedexSearchComponent } from './components/pokedex-search/pokedex-search.component';
 
 @NgModule({
-  declarations: [PokedexComponent, PokedexListItemComponent],
+  declarations: [
+    PokedexComponent,
+    PokedexListItemComponent,
+    PokedexSearchComponent,
+  ],
   imports: [
     CommonModule,
     CoreModule,
