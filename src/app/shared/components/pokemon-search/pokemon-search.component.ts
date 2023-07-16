@@ -11,11 +11,11 @@ import {
 import { PokemonEntry, PokemonSpecies } from 'src/app/core/models';
 
 @Component({
-  selector: 'app-pokedex-search',
-  templateUrl: './pokedex-search.component.html',
-  styleUrls: ['./pokedex-search.component.scss'],
+  selector: 'app-pokemon-search',
+  templateUrl: './pokemon-search.component.html',
+  styleUrls: ['./pokemon-search.component.scss'],
 })
-export class PokedexSearchComponent {
+export class PokemonSearchComponent {
   @Input() pokedexEntries: PokemonEntry[] = {} as PokemonEntry[];
 
   constructor(private router: Router) {}
