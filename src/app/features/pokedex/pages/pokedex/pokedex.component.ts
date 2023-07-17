@@ -42,6 +42,7 @@ export class PokedexComponent implements OnInit {
   ];
 
   isMenuCollapsed = true;
+  isLoading: boolean = true;
   teamPlannerMode: boolean = false;
 
   pokedex: Pokedex = {} as Pokedex;
@@ -100,7 +101,8 @@ export class PokedexComponent implements OnInit {
   loadPokemonEntries(): void {
     const startIndex = (this.pageNumber - 1) * this.offset;
     const endIndex = startIndex + this.offset;
-
+    let hasMoreResults = false;
+    this.isLoading = true;
     const observables = this.pokemonEntries
       .slice(startIndex, endIndex)
       .map((pokemon) => {
@@ -117,11 +119,24 @@ export class PokedexComponent implements OnInit {
         );
       });
 
-    forkJoin(observables).subscribe(() => {
-      this.loadedPokemonEntries.push(
-        ...this.pokemonEntries.slice(startIndex, endIndex)
-      );
-    });
+    forkJoin(observables).subscribe(
+      () => {
+        const loadedPokemon = this.pokemonEntries.slice(startIndex, endIndex);
+        if (loadedPokemon.length > 0) {
+          this.loadedPokemonEntries.push(...loadedPokemon);
+          hasMoreResults = true; // There are more results to load
+        }
+      },
+      () => {
+        // Handle error case if necessary
+      },
+      () => {
+        // Completion callback
+        if (!hasMoreResults) {
+          this.isLoading = false; // No more results to load
+        }
+      }
+    );
   }
 
   getPokedexTitle(): string {

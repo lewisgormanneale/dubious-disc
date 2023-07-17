@@ -10,9 +10,14 @@ import {
   NgbDropdownModule,
 } from '@ng-bootstrap/ng-bootstrap';
 import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex-list-item.component';
+import { TeamPlannerComponent } from './components/team-planner/team-planner.component';
 
 @NgModule({
-  declarations: [PokedexComponent, PokedexListItemComponent],
+  declarations: [
+    PokedexComponent,
+    PokedexListItemComponent,
+    TeamPlannerComponent,
+  ],
   imports: [
     CommonModule,
     CoreModule,

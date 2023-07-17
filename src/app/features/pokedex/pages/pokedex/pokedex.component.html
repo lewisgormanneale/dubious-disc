@@ -33,6 +33,7 @@
               id="navbarDropdown"
               role="button"
             >
+              <i class="bi-journals"></i>
               {{ getPokedexTitle() }}
             </a>
             <div
@@ -77,5 +78,14 @@
       *ngFor="let pokemon of loadedPokemonEntries"
       [pokemon]="pokemon"
     ></app-pokedex-list-item>
+
+    <div
+      class="d-flex justify-content-center align-items-center w-100 mt-5"
+      *ngIf="isLoading === true"
+    >
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only"></span>
+      </div>
+    </div>
   </div>
 </div>
