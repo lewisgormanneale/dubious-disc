@@ -24,7 +24,7 @@
         [ngbCollapse]="isMenuCollapsed"
         class="collapse navbar-collapse justify-content-between"
       >
-        <ul class="navbar-nav">
+        <ul class="navbar-nav my-2" style="gap: 10px">
           <li class="nav-item" ngbDropdown>
             <a
               class="nav-link text-light"
@@ -49,6 +49,17 @@
                 {{ version.value }}
               </a>
             </div>
+          </li>
+          <li class="nav-item">
+            <button
+              class="btn btn-outline-primary active"
+              (click)="toggleTeamPlannerMode()"
+              [ngClass]="{
+                active: teamPlannerMode === true
+              }"
+            >
+              Team Planner Mode
+            </button>
           </li>
         </ul>
       </div>

@@ -42,6 +42,7 @@ export class PokedexComponent implements OnInit {
   ];
 
   isMenuCollapsed = true;
+  teamPlannerMode: boolean = false;
 
   pokedex: Pokedex = {} as Pokedex;
   pokemonEntries: PokemonEntry[] = [] as PokemonEntry[];
@@ -128,6 +129,10 @@ export class PokedexComponent implements OnInit {
       (version) => version.key === this.pokedexID
     );
     return selectedVersion ? selectedVersion.value : '';
+  }
+
+  toggleTeamPlannerMode(): void {
+    this.teamPlannerMode = !this.teamPlannerMode;
   }
 
   private ngUnsubscribe = new Subject<void>();
