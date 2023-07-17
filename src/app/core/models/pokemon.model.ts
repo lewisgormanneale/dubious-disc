@@ -56,7 +56,7 @@ export interface PokemonSpeciesDetails {
   is_legendary?: boolean;
   is_mythical?: boolean;
   name?: string;
-  names?: Array<any>;
+  names?: Array<PokemonName>;
   order?: number;
   pal_park_encounters?: Array<any>;
   pokedex_numbers?: Array<any>;

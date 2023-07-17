@@ -7,7 +7,7 @@ import {
   PokemonEntry,
 } from 'src/app/core/models/index';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
-import { filter, takeUntil, Subject } from 'rxjs';
+import { filter, takeUntil, Subject, forkJoin, tap } from 'rxjs';
 import { TitleCasePipe } from '@angular/common';
 
 @Component({
@@ -104,19 +104,27 @@ export class PokedexComponent implements OnInit {
   loadPokemonEntries(): void {
     const startIndex = (this.pageNumber - 1) * this.offset;
     const endIndex = startIndex + this.offset;
-    this.pokemonEntries.slice(startIndex, endIndex).forEach((pokemon) => {
-      let pokemonID = pokemon.pokemon_species.url.split('/').slice(-2, -1)[0];
-      this.pokedexService
-        .getPokemonSpeciesDetails(pokemonID)
-        .subscribe((pokemonSpeciesDetails: PokemonSpeciesDetails) => {
-          pokemon.pokemon_species.species_details = pokemonSpeciesDetails;
-        });
-      this.pokedexService
-        .getPokemonDetails(pokemonID)
-        .subscribe((details: PokemonDetails) => {
-          pokemon.pokemon_species.details = details;
-        });
-      this.loadedPokemonEntries.push(pokemon);
+
+    const observables = this.pokemonEntries
+      .slice(startIndex, endIndex)
+      .map((pokemon) => {
+        let pokemonID = pokemon.pokemon_species.url.split('/').slice(-2, -1)[0];
+        const speciesDetails$ =
+          this.pokedexService.getPokemonSpeciesDetails(pokemonID);
+        const details$ = this.pokedexService.getPokemonDetails(pokemonID);
+
+        return forkJoin([speciesDetails$, details$]).pipe(
+          tap(([speciesDetails, details]) => {
+            pokemon.pokemon_species.species_details = speciesDetails;
+            pokemon.pokemon_species.details = details;
+          })
+        );
+      });
+
+    forkJoin(observables).subscribe(() => {
+      this.loadedPokemonEntries.push(
+        ...this.pokemonEntries.slice(startIndex, endIndex)
+      );
     });
   }
 
