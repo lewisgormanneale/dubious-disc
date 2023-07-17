@@ -17,6 +17,11 @@
       font-size: 0;
     }
 
+    img:hover {
+      transform: scale(1.15);
+      transition: transform 0.2s ease-in-out;
+    }
+
     .pokedex-id-container {
       position: absolute;
       top: 3px;
@@ -46,10 +51,4 @@
       width: 100%;
     }
   }
-}
-
-.pokedex-list-item:hover {
-  z-index: 3;
-  transform: scale(1.2);
-  transition: transform 0.2s ease-in-out;
 }

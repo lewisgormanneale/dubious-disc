@@ -16,15 +16,8 @@
   display: none; /* Safari and Chrome */
 }
 
-.pokedex-navigation {
-  .pagination {
-    .page-link {
-      cursor: pointer;
-    }
-
-    .active {
-      background-color: $aero;
-      border-color: $aero;
-    }
-  }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  box-shadow: none;
 }

@@ -1,11 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PokedexService } from 'src/app/core/services/pokedex.service';
-import {
-  Pokedex,
-  PokemonDetails,
-  PokemonSpeciesDetails,
-  PokemonEntry,
-} from 'src/app/core/models/index';
+import { Pokedex, PokemonEntry } from 'src/app/core/models/index';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { filter, takeUntil, Subject, forkJoin, tap } from 'rxjs';
 import { TitleCasePipe } from '@angular/common';

@@ -1,15 +1,24 @@
 <div class="d-flex flex-column bg-dark w-100">
   <nav
-    class="navbar navbar-expand-lg position-fixed navbar-dark border-bottom border-dark bg-dark w-100"
-    style="z-index: 5"
+    class="navbar navbar-expand-lg position-fixed navbar-dark bg-dark w-100"
+    style="z-index: 5; border-bottom: 2px solid #343a40"
+    [ngStyle]="{ height: isMenuCollapsed === true ? '56px' : 'auto' }"
   >
     <div class="container-fluid">
       <button
-        class="navbar-toggler"
+        class="navbar-toggler border-0"
         type="button"
         (click)="isMenuCollapsed = !isMenuCollapsed"
+        [ngStyle]="{
+          outline: isMenuCollapsed === true ? 'none' : '1px solid #30c767'
+        }"
+        data-toggle="collapse"
+        data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        &#9776;
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div
         [ngbCollapse]="isMenuCollapsed"
@@ -46,7 +55,7 @@
     </div>
   </nav>
   <div
-    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck w-100 mt-5 p-2"
+    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck w-100 mt-5 py-4"
     infinite-scroll
     [infiniteScrollDistance]="2"
     [immediateCheck]="true"
