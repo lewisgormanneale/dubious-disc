@@ -1,6 +1,6 @@
 <div class="d-flex flex-column bg-dark w-100">
   <nav
-    class="navbar navbar-expand-lg position-fixed navbar-dark bg-dark w-100"
+    class="navbar navbar-expand-sm position-fixed navbar-dark bg-dark w-100"
     style="z-index: 5; border-bottom: 2px solid #343a40"
     [ngStyle]="{ height: isMenuCollapsed === true ? '56px' : 'auto' }"
   >
@@ -20,11 +20,11 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div
-        [ngbCollapse]="isMenuCollapsed"
-        class="collapse navbar-collapse justify-content-between"
-      >
-        <ul class="navbar-nav my-2" style="gap: 10px">
+      <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+        <ul
+          class="navbar-nav justify-content-between w-100 my-1"
+          style="gap: 6px"
+        >
           <li class="nav-item" ngbDropdown>
             <a
               class="nav-link text-light"
