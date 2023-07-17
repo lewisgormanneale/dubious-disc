@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 
-import { Pokedex, PokemonDetails } from '../models/index';
+import { Pokedex, PokemonDetails, PokemonName } from '../models/index';
 
 @Injectable({
   providedIn: 'root',
@@ -31,5 +31,12 @@ export class PokedexService {
 
   getPokemonSpeciesDetails(id: string): Observable<PokemonDetails> {
     return this.http.get<PokemonDetails>(`${this.speciesUrl}${id}`);
+  }
+
+  getPokemonNameByLanguage(names: PokemonName[], language: string) {
+    const name = names.find(
+      (name: PokemonName) => name.language.name === language
+    )?.name!;
+    return name ? name : '';
   }
 }

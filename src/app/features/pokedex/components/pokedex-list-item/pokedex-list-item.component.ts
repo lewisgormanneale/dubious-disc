@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { PokemonEntry, PokemonName } from 'src/app/core/models';
+import { PokemonEntry } from 'src/app/core/models';
+import { PokedexService } from 'src/app/core/services/pokedex.service';
 
 @Component({
   selector: 'app-pokedex-list-item',
@@ -9,20 +10,14 @@ import { PokemonEntry, PokemonName } from 'src/app/core/models';
 export class PokedexListItemComponent implements OnInit {
   @Input() pokemon: PokemonEntry = {} as PokemonEntry;
   localisedPokemonName: string = '';
-  constructor() {}
+  constructor(private pokedexService: PokedexService) {}
 
   ngOnInit(): void {
     if (this.pokemon.pokemon_species.species_details?.names) {
-      this.getPokemonNameByLanguage(
+      this.localisedPokemonName = this.pokedexService.getPokemonNameByLanguage(
         this.pokemon.pokemon_species.species_details.names,
         'en'
       );
     }
-  }
-
-  getPokemonNameByLanguage(names: PokemonName[], language: string) {
-    this.localisedPokemonName = names.find(
-      (name: PokemonName) => name.language.name === language
-    )?.name!;
   }
 }
