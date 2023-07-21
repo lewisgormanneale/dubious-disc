@@ -1,6 +1,18 @@
-<div class="d-flex w-100 bg-dark z-5 fixed-bottom" style="height: 200px">
-  <app-pokedex-list-item
-    *ngFor="let pokemon of pokemonTeam"
-    [pokemon]="pokemon"
-  ></app-pokedex-list-item>
+<div
+  class="d-flex justify-content-center align-items-center flex-wrap w-100 bg-dark z-5 fixed-bottom"
+  style="height: 270px"
+>
+  <div class="team-row">
+    <app-team-planner-item
+      *ngFor="let pokemon of getFirstRow(); let index = index"
+      [pokemon]="pokemon"
+    ></app-team-planner-item>
+  </div>
+
+  <div class="team-row">
+    <app-team-planner-item
+      *ngFor="let pokemon of getSecondRow(); let index = index"
+      [pokemon]="pokemon"
+    ></app-team-planner-item>
+  </div>
 </div>

@@ -11,12 +11,14 @@ import {
 } from '@ng-bootstrap/ng-bootstrap';
 import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex-list-item.component';
 import { TeamPlannerComponent } from './components/team-planner/team-planner.component';
+import { TeamPlannerItemComponent } from './components/team-planner-item/team-planner-item.component';
 
 @NgModule({
   declarations: [
     PokedexComponent,
     PokedexListItemComponent,
     TeamPlannerComponent,
+    TeamPlannerItemComponent,
   ],
   imports: [
     CommonModule,

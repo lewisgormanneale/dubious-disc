@@ -11,4 +11,12 @@ export class TeamPlannerComponent {
   constructor() {}
 
   ngOnInit(): void {}
+
+  getFirstRow(): PokemonEntry[] {
+    return this.pokemonTeam.slice(0, 3);
+  }
+
+  getSecondRow(): PokemonEntry[] {
+    return this.pokemonTeam.slice(3, 6);
+  }
 }
