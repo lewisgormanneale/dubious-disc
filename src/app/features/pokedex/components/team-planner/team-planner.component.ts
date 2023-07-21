@@ -7,7 +7,7 @@ import { PokemonEntry } from 'src/app/core/models';
   styleUrls: ['./team-planner.component.scss'],
 })
 export class TeamPlannerComponent {
-  @Input() pokemon: PokemonEntry = {} as PokemonEntry;
+  @Input() pokemonTeam: Array<PokemonEntry> = [] as Array<PokemonEntry>;
   constructor() {}
 
   ngOnInit(): void {}

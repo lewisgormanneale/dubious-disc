@@ -1,8 +1,8 @@
-<div class="d-flex flex-column bg-dark w-100">
+<div class="d-flex flex-column bg-dark w-100 h-100 position-relative">
   <nav
     class="navbar navbar-expand-sm position-fixed navbar-dark bg-dark w-100"
     style="z-index: 5; border-bottom: 2px solid #343a40"
-    [ngStyle]="{ height: isMenuCollapsed === true ? '56px' : 'auto' }"
+    [ngStyle]="{ height: isMenuCollapsed ? '56px' : 'auto' }"
   >
     <div class="container-fluid">
       <button
@@ -10,7 +10,7 @@
         type="button"
         (click)="isMenuCollapsed = !isMenuCollapsed"
         [ngStyle]="{
-          outline: isMenuCollapsed === true ? 'none' : '1px solid #30c767'
+          outline: isMenuCollapsed ? 'none' : '1px solid #30c767'
         }"
         data-toggle="collapse"
         data-target="#navbarToggleExternalContent"
@@ -81,12 +81,16 @@
 
     <div
       class="d-flex justify-content-center align-items-center w-100 mt-5"
-      *ngIf="isLoading === true"
+      *ngIf="isLoading"
     >
       <div class="spinner-border text-primary" role="status">
         <span class="sr-only"></span>
       </div>
     </div>
-    <app-team-planner *ngIf="teamPlannerMode === true"></app-team-planner>
   </div>
+  <app-team-planner
+    class="position-fixed"
+    style="height: 200px"
+    *ngIf="teamPlannerMode"
+  ></app-team-planner>
 </div>
