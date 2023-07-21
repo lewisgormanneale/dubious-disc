@@ -10,14 +10,14 @@ import { PokedexService } from 'src/app/core/services/pokedex.service';
 export class PokedexListItemComponent implements OnInit {
   @Input() pokemon: PokemonEntry = {} as PokemonEntry;
   localisedPokemonName: string = '';
+  pokemonID: string = '';
+  imageURL: string = '';
   constructor(private pokedexService: PokedexService) {}
 
   ngOnInit(): void {
-    if (this.pokemon.pokemon_species.species_details?.names) {
-      this.localisedPokemonName = this.pokedexService.getPokemonNameByLanguage(
-        this.pokemon.pokemon_species.species_details.names,
-        'en'
-      );
-    }
+    this.pokemonID = this.pokemon.pokemon_species.url
+      .split('/')
+      .slice(-2, -1)[0];
+    this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${this.pokemonID}.png`;
   }
 }
