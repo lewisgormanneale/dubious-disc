@@ -43,11 +43,12 @@ export class PokedexComponent implements OnInit {
 
   isMenuCollapsed = true;
   isLoading: boolean = true;
-  teamPlannerMode: boolean = false;
 
   pokedex: Pokedex = {} as Pokedex;
   pokemonEntries: PokemonEntry[] = [] as PokemonEntry[];
   loadedPokemonEntries: PokemonEntry[] = [] as PokemonEntry[];
+  pokemonTeam: PokemonEntry[] = [] as PokemonEntry[];
+  teamPlannerMode: boolean = false;
   pokedexID: number = 1;
   selectedVersion: { key: number; value: string } = {
     key: 1,
@@ -124,7 +125,7 @@ export class PokedexComponent implements OnInit {
         const loadedPokemon = this.pokemonEntries.slice(startIndex, endIndex);
         if (loadedPokemon.length > 0) {
           this.loadedPokemonEntries.push(...loadedPokemon);
-          hasMoreResults = true; // There are more results to load
+          hasMoreResults = true;
         }
       },
       () => {
@@ -133,7 +134,7 @@ export class PokedexComponent implements OnInit {
       () => {
         // Completion callback
         if (!hasMoreResults) {
-          this.isLoading = false; // No more results to load
+          this.isLoading = false;
         }
       }
     );
@@ -150,9 +151,24 @@ export class PokedexComponent implements OnInit {
     this.teamPlannerMode = !this.teamPlannerMode;
   }
 
-  private ngUnsubscribe = new Subject<void>();
+  onPokemonClick(pokemon: PokemonEntry) {
+    if (this.teamPlannerMode) {
+      this.addToTeamPlanner(pokemon);
+    } else {
+      this.router.navigate(['/pokemon/', pokemon.pokemon_species.details?.id]);
+    }
+  }
 
-  private resetPagination(): void {
+  addToTeamPlanner(pokemon: PokemonEntry) {
+    // Check if the Pokemon is not already in the team planner
+    if (this.pokemonTeam.length < 6) {
+      this.pokemonTeam.push(pokemon);
+    } else {
+      // If the Pokemon is already in the team planner, you could show some error message or handle it as per your requirements.
+    }
+  }
+
+  resetPagination(): void {
     this.pageNumber = 1;
     this.totalPages = 0;
   }
@@ -161,4 +177,6 @@ export class PokedexComponent implements OnInit {
     this.ngUnsubscribe.next();
     this.ngUnsubscribe.complete();
   }
+
+  private ngUnsubscribe = new Subject<void>();
 }

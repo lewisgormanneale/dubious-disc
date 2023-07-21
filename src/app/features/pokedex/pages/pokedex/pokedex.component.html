@@ -77,6 +77,7 @@
     <app-pokedex-list-item
       *ngFor="let pokemon of loadedPokemonEntries"
       [pokemon]="pokemon"
+      (click)="onPokemonClick(pokemon)"
     ></app-pokedex-list-item>
 
     <div
@@ -92,5 +93,6 @@
     class="position-fixed"
     style="height: 200px"
     *ngIf="teamPlannerMode"
+    [pokemonTeam]="pokemonTeam"
   ></app-team-planner>
 </div>
