@@ -6,17 +6,20 @@
   width: 64px;
   height: 80px;
 
-  .pokedex-list-item-picture {
-    width: 62px;
-    height: 62px;
-    margin: 0 auto;
-    display: block;
-    color: transparent;
-  }
+  .pokedex-list-item-picture-container {
+    background-color: #f8f9fa;
+    .pokedex-list-item-picture {
+      width: 62px;
+      height: 62px;
+      margin: 0 auto;
+      display: block;
+      color: transparent;
+    }
 
-  .pokedex-list-item-picture:hover {
-    transform: scale(1.15);
-    transition: transform 0.2s ease-in-out;
+    .pokedex-list-item-picture:hover {
+      transform: scale(1.15);
+      transition: transform 0.2s ease-in-out;
+    }
   }
 
   .pokedex-list-item-name {

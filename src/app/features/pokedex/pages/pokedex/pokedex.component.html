@@ -1,4 +1,4 @@
-<div class="d-flex flex-column bg-dark w-100 h-100 position-relative">
+<div class="d-flex flex-column bg-dark w-100 h-100 position-relative bg-dark">
   <nav
     class="navbar navbar-expand-sm position-fixed navbar-dark bg-dark w-100"
     style="z-index: 5; border-bottom: 2px solid #343a40"
@@ -67,27 +67,13 @@
     </div>
   </nav>
   <div
-    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck w-100 mt-5 py-4"
-    infinite-scroll
-    [infiniteScrollDistance]="2"
-    [immediateCheck]="true"
-    [infiniteScrollThrottle]="500"
-    (scrolled)="onScroll()"
+    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck w-100 mt-5 pt-4"
   >
     <app-pokedex-list-item
-      *ngFor="let pokemon of loadedPokemonEntries"
+      *ngFor="let pokemon of pokemonEntries"
       [pokemon]="pokemon"
       (click)="onPokemonClick(pokemon)"
     ></app-pokedex-list-item>
-
-    <div
-      class="d-flex justify-content-center align-items-center w-100 mt-5"
-      *ngIf="isLoading"
-    >
-      <div class="spinner-border text-primary" role="status">
-        <span class="sr-only"></span>
-      </div>
-    </div>
   </div>
   <app-team-planner
     class="position-fixed"
