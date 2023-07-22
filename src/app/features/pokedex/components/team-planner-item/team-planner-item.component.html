@@ -13,15 +13,19 @@
       alt="Pokemon Preview Image"
     />
   </div>
-  <div class="team-planner-item-name rounded-bottom white-outlined">
-    {{ localisedPokemonName }}
-  </div>
-  <div>
+  <div class="team-planner-item-options">
     <button
-      class="btn btn-danger btn-sm"
+      class="team-planner-item-option btn btn-danger btn-sm"
       (click)="this.removePokemonFromTeam.emit(pokemon)"
     >
-      X
+      <i class="bi bi-trash-fill"></i>
+    </button>
+    <button class="team-planner-item-option btn btn-warning btn-sm">
+      <i class="bi bi-stars"></i>
+    </button>
+
+    <button class="team-planner-item-option btn btn-secondary btn-sm">
+      <i class="bi bi-gender-ambiguous"></i>
     </button>
   </div>
 </div>
