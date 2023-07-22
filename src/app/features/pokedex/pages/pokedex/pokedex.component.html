@@ -25,31 +25,13 @@
           class="navbar-nav justify-content-between w-100 my-1"
           style="gap: 6px"
         >
-          <li class="nav-item" ngbDropdown>
-            <a
-              class="nav-link text-light"
-              tabindex="0"
-              ngbDropdownToggle
-              id="navbarDropdown"
-              role="button"
+          <li class="nav-item">
+            <button
+              class="btn btn-outline-primary"
+              (click)="navigateToVersionSelect()"
             >
-              <i class="bi-journals"></i>
-              {{ getPokedexTitle() }}
-            </a>
-            <div
-              ngbDropdownMenu
-              aria-labelledby="navbarDropdown"
-              class="dropdown-menu"
-              style="max-height: 300px; overflow-y: auto"
-            >
-              <a
-                *ngFor="let version of pokedexVersions"
-                [routerLink]="'../' + version.key"
-                ngbDropdownItem
-              >
-                {{ version.value }}
-              </a>
-            </div>
+              Select Game
+            </button>
           </li>
           <li class="nav-item">
             <button
@@ -66,8 +48,11 @@
       </div>
     </div>
   </nav>
+  <h2 class="pokedex-title mt-5 pt-4 mx-3 text-light">
+    {{ this.selectedVersion.name }} Pokédex
+  </h2>
   <div
-    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck w-100 mt-5 pt-4"
+    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck w-100"
   >
     <app-pokedex-list-item
       *ngFor="let pokemon of pokemonEntries"

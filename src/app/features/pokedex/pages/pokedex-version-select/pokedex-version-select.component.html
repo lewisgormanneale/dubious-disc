@@ -1,0 +1,10 @@
+<div class="">
+  <div>
+    <h2 class="text-light">Select Pokédex Version</h2>
+    <app-pokedex-version-select-item
+      *ngFor="let pokedexVersion of pokedexVersions"
+      [pokedexVersion]="pokedexVersion"
+    >
+    </app-pokedex-version-select-item>
+  </div>
+</div>

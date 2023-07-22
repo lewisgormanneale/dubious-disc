@@ -12,11 +12,15 @@ import {
 import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex-list-item.component';
 import { TeamPlannerComponent } from './components/team-planner/team-planner.component';
 import { TeamPlannerItemComponent } from './components/team-planner-item/team-planner-item.component';
+import { PokedexVersionSelectComponent } from './pages/pokedex-version-select/pokedex-version-select.component';
+import { PokedexVersionSelectItemComponent } from './components/pokedex-version-select-item/pokedex-version-select-item.component';
 
 @NgModule({
   declarations: [
     PokedexComponent,
     PokedexListItemComponent,
+    PokedexVersionSelectComponent,
+    PokedexVersionSelectItemComponent,
     TeamPlannerComponent,
     TeamPlannerItemComponent,
   ],

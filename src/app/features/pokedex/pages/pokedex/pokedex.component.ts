@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { PokedexService } from 'src/app/core/services/pokedex.service';
 import {
   Pokedex,
-  pokedexVersions,
+  PokedexVersion,
+  PokedexVersions,
   PokemonEntry,
 } from 'src/app/core/models/index';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -15,16 +16,13 @@ import { Subject } from 'rxjs';
 })
 export class PokedexComponent implements OnInit {
   private ngUnsubscribe = new Subject<void>();
-  public pokedexVersions = pokedexVersions;
+  public pokedexVersions = PokedexVersions;
   public isMenuCollapsed: boolean = true;
 
   public pokedex: Pokedex = {} as Pokedex;
   public pokedexID: number = 1;
-  public selectedVersion: { key: number; value: string } = {
-    key: 1,
-    value: 'National',
-  };
-  public pokemonEntries: PokemonEntry[] = [] as PokemonEntry[];
+  public selectedVersion: PokedexVersion = {} as PokedexVersion;
+  public pokemonEntries: PokemonEntry[];
 
   public teamPlannerMode: boolean = false;
   public pokemonTeam: PokemonEntry[] = [] as PokemonEntry[];
@@ -33,11 +31,22 @@ export class PokedexComponent implements OnInit {
     private pokedexService: PokedexService,
     private router: Router,
     private route: ActivatedRoute
-  ) {}
+  ) {
+    this.pokemonEntries = [];
+  }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
-      this.pokedexID = Number(params.get('id')) || 1;
+      const urlValue = params.get('id') || 'national';
+      const version = this.pokedexVersions.find(
+        (version) => version.slug === urlValue
+      );
+      if (version) {
+        this.selectedVersion = version;
+      }
+      this.pokedexID = this.selectedVersion
+        ? this.selectedVersion.pokedexID
+        : 1;
       this.getAllPokemon();
     });
   }
@@ -58,11 +67,8 @@ export class PokedexComponent implements OnInit {
       });
   }
 
-  getPokedexTitle(): string {
-    const selectedVersion = this.pokedexVersions.find(
-      (version) => version.key === this.pokedexID
-    );
-    return selectedVersion ? selectedVersion.value : '';
+  navigateToVersionSelect() {
+    this.router.navigate(['/pokedex']);
   }
 
   toggleTeamPlannerMode(): void {

@@ -1,5 +1,12 @@
 @import "src/styles/variables.scss";
 
+.pokedex-title {
+  font-family: "BebasNeueRegular", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 .pokedex-list {
   gap: 10px;
   margin-bottom: 10px;
