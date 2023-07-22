@@ -1,54 +1,42 @@
 @import "src/styles/variables.scss";
 
-.pokedex-list-item {
+.team-planner-item {
+  background-color: $primary;
   cursor: pointer;
-  width: 100px;
-  height: 130px;
-  font-size: 12px;
-  line-height: 0px;
-  background-color: transparent;
+  width: 80px;
+  height: 105px;
 
-  div {
-    text-decoration: none;
+  .team-planner-item-picture-container {
+    background-color: #00000059;
 
-    img {
-      width: 100%;
-      height: 100px;
-      font-size: 0;
+    .team-planner-item-picture {
+      width: 78px;
+      height: 78px;
+      margin: 0 auto;
+      display: block;
+      color: transparent;
     }
 
-    img:hover {
+    .team-planner-item-picture:hover {
       transform: scale(1.15);
       transition: transform 0.2s ease-in-out;
     }
+  }
 
-    .pokedex-id-container {
-      position: absolute;
-      top: 3px;
-      right: 3px;
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-      vertical-align: bottom;
-      height: 20px;
-      background-color: $folly;
-      border: 1px solid $rich-black;
+  .team-planner-item-picture-container:hover {
+    background-color: #ffffff00;
+  }
 
-      .pokedex-id {
-        font-size: 12px;
-        font-weight: bold;
-        padding: 0;
-        margin: 0;
-        line-height: 16px;
-      }
-    }
-
-    .card-body {
-      background-color: $folly;
-      border-top: 1px solid $rich-black;
-      border-bottom: 1px solid $rich-black;
-      height: 30px;
-      width: 100%;
-    }
+  .team-planner-item-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    word-wrap: break-word;
+    background-color: $primary;
+    overflow: hidden;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: center;
   }
 }

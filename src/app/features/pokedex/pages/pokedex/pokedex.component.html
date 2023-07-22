@@ -1,7 +1,8 @@
-<div class="d-flex flex-column bg-dark w-100 h-100 position-relative bg-dark">
+<div
+  class="pokedex d-flex flex-column bg-dark w-100 h-100 position-relative bg-dark"
+>
   <nav
-    class="navbar navbar-expand-sm position-fixed navbar-dark bg-dark w-100"
-    style="z-index: 5; border-bottom: 2px solid #343a40"
+    class="pokedex-navbar navbar navbar-expand-sm position-fixed navbar-dark bg-dark w-100"
     [ngStyle]="{ height: isMenuCollapsed ? '56px' : 'auto' }"
   >
     <div class="container-fluid">
@@ -61,8 +62,6 @@
     ></app-pokedex-list-item>
   </div>
   <app-team-planner
-    class="position-fixed"
-    style="height: 200px"
     *ngIf="teamPlannerMode"
     [pokemonTeam]="pokemonTeam"
   ></app-team-planner>

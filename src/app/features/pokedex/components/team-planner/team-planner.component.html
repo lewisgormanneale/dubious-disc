@@ -1,18 +1,19 @@
-<div
-  class="d-flex justify-content-center align-items-center flex-wrap w-100 bg-dark z-5 fixed-bottom"
-  style="height: 270px"
->
-  <div class="team-row">
-    <app-team-planner-item
-      *ngFor="let pokemon of getFirstRow(); let index = index"
-      [pokemon]="pokemon"
-    ></app-team-planner-item>
+<div class="team-planner flex-wrap w-100 bg-dark z-5">
+  <div class="team">
+    <div class="team-row">
+      <app-team-planner-item
+        *ngFor="let pokemon of getFirstRow(); let index = index"
+        [pokemon]="pokemon"
+        (removePokemonFromTeam)="removePokemonFromTeam(index)"
+      ></app-team-planner-item>
+    </div>
+    <div class="team-row">
+      <app-team-planner-item
+        *ngFor="let pokemon of getSecondRow(); let index = index"
+        [pokemon]="pokemon"
+        (removePokemonFromTeam)="removePokemonFromTeam(index)"
+      ></app-team-planner-item>
+    </div>
   </div>
-
-  <div class="team-row">
-    <app-team-planner-item
-      *ngFor="let pokemon of getSecondRow(); let index = index"
-      [pokemon]="pokemon"
-    ></app-team-planner-item>
-  </div>
+  <div class="team-options"></div>
 </div>

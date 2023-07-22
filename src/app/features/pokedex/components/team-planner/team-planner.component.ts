@@ -19,4 +19,8 @@ export class TeamPlannerComponent {
   getSecondRow(): PokemonEntry[] {
     return this.pokemonTeam.slice(3, 6);
   }
+
+  removePokemonFromTeam(index: number): void {
+    this.pokemonTeam.splice(index, 1);
+  }
 }

@@ -1,5 +1,14 @@
 @import "src/styles/variables.scss";
 
+.pokedex {
+  margin-bottom: 150px;
+
+  .pokedex-navbar {
+    border-bottom: 1px solid #343a40;
+    z-index: 5;
+  }
+}
+
 .pokedex-title {
   font-family: "BebasNeueRegular", sans-serif;
   font-size: 2rem;
@@ -10,7 +19,7 @@
 .pokedex-list {
   gap: 10px;
   margin-bottom: 10px;
-  min-width: 355px;
+  min-width: 360px;
   overflow-y: scroll;
   padding: 5px;
   -ms-overflow-style: none; /* Internet Explorer 10+ */

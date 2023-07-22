@@ -1,28 +1,27 @@
-<div class="card pokedex-list-item rounded border border-dark">
+<div class="card team-planner-item rounded bg-primary">
   <div
-    class="text-dark rounded"
-    [style.background]="
-      pokemon.pokemon_species.details?.types ?? [] | typeBackgroundGenerator
-    "
+    class="team-planner-item-picture-container rounded-top"
+    [style.background]="pokemonDetails.types ?? [] | typeBackgroundGenerator"
   >
     <img
-      class="card-img-top"
+      class="team-planner-item-picture rounded-top"
       src="{{
-        pokemon.pokemon_species.details?.sprites?.front_default
-          ? pokemon.pokemon_species.details?.sprites?.front_default
+        imageURL
+          ? imageURL
           : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
       }}"
       alt="Pokemon Preview Image"
     />
-    <div class="pokedex-id-container rounded px-1 py-0">
-      <p class="pokedex-id fw-bold white-outlined">
-        #{{ pokemon.entry_number }}
-      </p>
-    </div>
-    <div class="card-body rounded-bottom px-0 py-auto">
-      <p class="card-title text-center text-nowrap fw-bold white-outlined">
-        {{ localisedPokemonName }}
-      </p>
-    </div>
+  </div>
+  <div class="team-planner-item-name rounded-bottom white-outlined">
+    {{ localisedPokemonName }}
+  </div>
+  <div>
+    <button
+      class="btn btn-danger btn-sm"
+      (click)="this.removePokemonFromTeam.emit(pokemon)"
+    >
+      X
+    </button>
   </div>
 </div>

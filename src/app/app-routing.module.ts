@@ -9,7 +9,7 @@ import { PokemonComponent } from './features/pokemon/pages/pokemon/pokemon.compo
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'pokedex/national',
+    redirectTo: 'pokedex',
     pathMatch: 'full',
   },
   { path: 'pokedex', component: PokedexVersionSelectComponent },
