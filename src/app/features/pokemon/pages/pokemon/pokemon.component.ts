@@ -8,6 +8,7 @@ import {
   PokemonSpeciesDetails,
 } from 'src/app/core/models/index';
 import { Type } from 'src/app/core/models/types.model';
+import { forkJoin, Observable, tap } from 'rxjs';
 
 @Component({
   selector: 'app-pokemon',
@@ -20,7 +21,7 @@ export class PokemonComponent implements OnInit {
     url: '',
     id: '',
   };
-
+  localisedPokemonName: string = '';
   canGoBack: boolean;
 
   constructor(
@@ -41,27 +42,40 @@ export class PokemonComponent implements OnInit {
   }
 
   getPokemon(id: string): void {
-    this.getPokemonDetails(id, this.pokemon);
-    this.getPokemonSpeciesDetails(id, this.pokemon);
+    forkJoin([
+      this.getPokemonDetails(id, this.pokemon),
+      this.getPokemonSpeciesDetails(id, this.pokemon),
+    ]).subscribe(() => {
+      if (this.pokemon.species_details?.names) {
+        this.localisedPokemonName =
+          this.pokedexService.getPokemonNameByLanguage(
+            this.pokemon.species_details.names,
+            'en'
+          );
+      }
+    });
+  }
+
+  getPokemonDetails(
+    pokemonID: string,
+    pokemonSpecies: PokemonSpecies
+  ): Observable<PokemonDetails> {
+    return this.pokedexService.getPokemonDetails(pokemonID).pipe(
+      tap((details: PokemonDetails) => {
+        pokemonSpecies.details = details;
+      })
+    );
   }
 
   getPokemonSpeciesDetails(
     pokemonID: string,
     pokemonSpecies: PokemonSpecies
-  ): void {
-    this.pokedexService
-      .getPokemonSpeciesDetails(pokemonID)
-      .subscribe((pokemonSpeciesDetails: PokemonSpeciesDetails) => {
+  ): Observable<PokemonSpeciesDetails> {
+    return this.pokedexService.getPokemonSpeciesDetails(pokemonID).pipe(
+      tap((pokemonSpeciesDetails: PokemonSpeciesDetails) => {
         pokemonSpecies.species_details = pokemonSpeciesDetails;
-      });
-  }
-
-  getPokemonDetails(pokemonID: string, pokemonSpecies: PokemonSpecies): void {
-    this.pokedexService
-      .getPokemonDetails(pokemonID)
-      .subscribe((details: PokemonDetails) => {
-        pokemonSpecies.details = details;
-      });
+      })
+    );
   }
 
   getTypeBoxLayout(types: Type[]) {
@@ -74,7 +88,6 @@ export class PokemonComponent implements OnInit {
     if (this.canGoBack) {
       this.location.back();
     } else {
-      // There's no previous navigation.
       this.router.navigate(['pokedex/1']);
     }
   }

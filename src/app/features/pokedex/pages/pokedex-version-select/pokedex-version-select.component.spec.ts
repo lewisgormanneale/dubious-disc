@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { PokedexModule } from '../../pokedex.module';
 
-import { PokedexComponent } from './pokedex.component';
+import { PokedexComponent } from './pokedex-version-select.component';
 
 describe('PokedexComponent', () => {
   let component: PokedexComponent;

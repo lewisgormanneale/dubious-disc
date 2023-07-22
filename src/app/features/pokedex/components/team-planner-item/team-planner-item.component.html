@@ -1,0 +1,31 @@
+<div class="card team-planner-item rounded bg-primary">
+  <div
+    class="team-planner-item-picture-container rounded-top"
+    [style.background]="pokemonDetails.types ?? [] | typeBackgroundGenerator"
+  >
+    <img
+      class="team-planner-item-picture rounded-top"
+      src="{{
+        imageURL
+          ? imageURL
+          : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
+      }}"
+      alt="Pokemon Preview Image"
+    />
+  </div>
+  <div class="team-planner-item-options">
+    <button
+      class="team-planner-item-option btn btn-danger btn-sm"
+      (click)="this.removePokemonFromTeam.emit(pokemon)"
+    >
+      <i class="bi bi-trash-fill"></i>
+    </button>
+    <button class="team-planner-item-option btn btn-warning btn-sm">
+      <i class="bi bi-stars"></i>
+    </button>
+
+    <button class="team-planner-item-option btn btn-secondary btn-sm">
+      <i class="bi bi-gender-ambiguous"></i>
+    </button>
+  </div>
+</div>

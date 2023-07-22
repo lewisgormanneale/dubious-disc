@@ -1,0 +1,40 @@
+@import "src/styles/variables.scss";
+
+.team-planner-item {
+  background-color: $primary;
+  cursor: pointer;
+  width: 90px;
+  height: 120px;
+
+  .team-planner-item-picture-container {
+    background-color: #00000059;
+
+    .team-planner-item-picture {
+      width: 88px;
+      height: 88px;
+      margin: 0 auto;
+      display: block;
+      color: transparent;
+    }
+  }
+
+  .team-planner-item-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .team-planner-item-option {
+      height: 29px;
+      width: 29px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button {
+      height: 29px;
+      width: 29px;
+    }
+  }
+}

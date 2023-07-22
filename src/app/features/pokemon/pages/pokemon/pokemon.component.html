@@ -3,16 +3,19 @@
     class="d-flex flex-column justify-content-start align-items-center w-100 h-100 min-vh-100"
     [style.background]="pokemon.details?.types ?? [] | typeBackgroundGenerator"
   >
-    <div class="w-100 p-2">
+    <nav
+      class="navbar navbar-expand-sm position-fixed w-100"
+      style="z-index: 5"
+    >
       <button
         type="button"
-        class="btn-close bg-primary p-2 border border-dark opacity-100 color-white"
+        class="btn-close bg-primary p-2 border border-dark opacity-100 color-white mx-2"
         aria-label="Close"
         (click)="goBack()"
       ></button>
-    </div>
+    </nav>
     <div
-      class="d-flex flex-column justify-content-start align-items-center mx-4"
+      class="d-flex flex-column justify-content-start align-items-center mx-4 my-2"
       style="max-width: 900px"
     >
       <section
@@ -35,7 +38,7 @@
             <h2 class="card-title fw-bold">
               <span class="pokemon-id text-white">#{{ pokemon.id }}</span
               ><span class="pokemon-name white-outlined">
-                {{ pokemon.species_details?.names?.[7]?.name ?? "Unknown" }}</span
+                {{ localisedPokemonName }}</span
               >
             </h2>
           </div>

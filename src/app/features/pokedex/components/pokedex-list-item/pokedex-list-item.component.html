@@ -1,0 +1,16 @@
+<div class="card pokedex-list-item rounded bg-primary">
+  <div class="pokedex-list-item-picture-container rounded-top">
+    <img
+      class="pokedex-list-item-picture rounded-top"
+      src="{{
+        imageURL
+          ? imageURL
+          : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
+      }}"
+      alt="Pokemon Preview Image"
+    />
+  </div>
+  <div class="pokedex-list-item-name rounded-bottom white-outlined">
+    {{ pokemon.pokemon_species.name | uppercase }}
+  </div>
+</div>

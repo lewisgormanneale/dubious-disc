@@ -1,0 +1,23 @@
+<form class="form-inline d-flex gap-2" (ngSubmit)="onSubmit()">
+  <div class="col">
+    <input
+      id="pokemon-name"
+      type="text"
+      name="pokemon-name"
+      class="form-control"
+      [(ngModel)]="model"
+      [ngbTypeahead]="search"
+      [inputFormatter]="formatter"
+      [resultFormatter]="formatter"
+      [editable]="false"
+      placeholder="Find A Pokémon..."
+    />
+  </div>
+  <button
+    class="btn btn-light btn-outline-success"
+    type="submit"
+    [disabled]="!model || model.entry_number === 0"
+  >
+    Go
+  </button>
+</form>
