@@ -53,9 +53,23 @@ export class TeamPlannerItemComponent implements OnInit {
   toggleShiny(): string {
     this.shiny = !this.shiny;
     if (this.shiny) {
-      this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${this.pokemonID}.png`;
+      if (
+        this.gender === 'female' &&
+        this.pokemonSpeciesDetails.has_gender_differences
+      ) {
+        this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/${this.pokemonID}.png`;
+      } else {
+        this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${this.pokemonID}.png`;
+      }
     } else {
-      this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${this.pokemonID}.png`;
+      if (
+        this.gender === 'female' &&
+        this.pokemonSpeciesDetails.has_gender_differences
+      ) {
+        this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/${this.pokemonID}.png`;
+      } else {
+        this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${this.pokemonID}.png`;
+      }
     }
     return this.imageURL;
   }
@@ -85,10 +99,24 @@ export class TeamPlannerItemComponent implements OnInit {
       this.gender = 'female';
       this.genderIcon = 'bi-gender-female';
       this.genderColor = '#f15d69';
+      if (this.pokemonSpeciesDetails.has_gender_differences) {
+        if (this.shiny) {
+          this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/${this.pokemonID}.png`;
+        } else {
+          this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/${this.pokemonID}.png`;
+        }
+      }
     } else if (this.gender === 'female') {
       this.gender = 'male';
       this.genderIcon = 'bi-gender-male';
       this.genderColor = '#6890cb';
+      if (this.pokemonSpeciesDetails.has_gender_differences) {
+        if (this.shiny) {
+          this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${this.pokemonID}.png`;
+        } else {
+          this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${this.pokemonID}.png`;
+        }
+      }
     }
   }
 }
