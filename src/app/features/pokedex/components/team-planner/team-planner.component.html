@@ -11,7 +11,7 @@
       <app-team-planner-item
         *ngFor="let pokemon of getSecondRow(); let index = index"
         [pokemon]="pokemon"
-        (removePokemonFromTeam)="removePokemonFromTeam(index)"
+        (removePokemonFromTeam)="removePokemonFromTeam(index + 3)"
       ></app-team-planner-item>
     </div>
   </div>
