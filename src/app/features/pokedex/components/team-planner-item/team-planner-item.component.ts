@@ -19,6 +19,7 @@ export class TeamPlannerItemComponent implements OnInit {
   localisedPokemonName: string = '';
   pokemonID: string = '';
   imageURL: string = '';
+  shiny: boolean = false;
   constructor(private pokedexService: PokedexService) {}
 
   ngOnInit(): void {
@@ -43,5 +44,15 @@ export class TeamPlannerItemComponent implements OnInit {
           this.pokemonDetails = pokemonDetails;
         });
     }
+  }
+
+  toggleShiny(): string {
+    this.shiny = !this.shiny;
+    if (this.shiny) {
+      this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${this.pokemonID}.png`;
+    } else {
+      this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${this.pokemonID}.png`;
+    }
+    return this.imageURL;
   }
 }
