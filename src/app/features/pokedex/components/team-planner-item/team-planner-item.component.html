@@ -27,8 +27,12 @@
       <i class="bi bi-stars"></i>
     </button>
 
-    <button class="team-planner-item-option btn btn-secondary btn-sm">
-      <i class="bi bi-gender-ambiguous"></i>
+    <button
+      class="team-planner-item-option btn btn-sm"
+      (click)="toggleGender()"
+      [ngStyle]="{ 'background-color': genderColor }"
+    >
+      <i class="bi {{ genderIcon }}"></i>
     </button>
   </div>
 </div>

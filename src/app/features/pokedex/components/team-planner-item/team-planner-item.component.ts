@@ -20,6 +20,9 @@ export class TeamPlannerItemComponent implements OnInit {
   pokemonID: string = '';
   imageURL: string = '';
   shiny: boolean = false;
+  gender: string = '';
+  genderIcon: string = '';
+  genderColor: string = '#6890cb';
   constructor(private pokedexService: PokedexService) {}
 
   ngOnInit(): void {
@@ -32,6 +35,7 @@ export class TeamPlannerItemComponent implements OnInit {
         .getPokemonSpeciesDetails(this.pokemon.pokemon_species.name)
         .subscribe((pokemonSpeciesDetails) => {
           this.pokemonSpeciesDetails = pokemonSpeciesDetails;
+          this.gender = this.getInitialGenderByRate();
           this.localisedPokemonName =
             this.pokedexService.getPokemonNameByLanguage(
               this.pokemonSpeciesDetails.names!,
@@ -54,5 +58,37 @@ export class TeamPlannerItemComponent implements OnInit {
       this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${this.pokemonID}.png`;
     }
     return this.imageURL;
+  }
+
+  getInitialGenderByRate(): string {
+    if (this.pokemonSpeciesDetails.gender_rate === -1) {
+      this.genderIcon = 'bi-gender-ambiguous';
+      this.genderColor = '#4fc337';
+      return 'genderless';
+    } else if (this.pokemonSpeciesDetails.gender_rate === 8) {
+      this.genderIcon = 'bi-gender-female';
+      this.genderColor = '#f15d69';
+      return 'always-female';
+    } else if (this.pokemonSpeciesDetails.gender_rate === 0) {
+      this.genderIcon = 'bi-gender-male';
+      this.genderColor = '#6890cb';
+      return 'always-male';
+    } else {
+      this.genderIcon = 'bi-gender-male';
+      this.genderColor = '#6890cb';
+      return 'male';
+    }
+  }
+
+  toggleGender(): void {
+    if (this.gender === 'male') {
+      this.gender = 'female';
+      this.genderIcon = 'bi-gender-female';
+      this.genderColor = '#f15d69';
+    } else if (this.gender === 'female') {
+      this.gender = 'male';
+      this.genderIcon = 'bi-gender-male';
+      this.genderColor = '#6890cb';
+    }
   }
 }
