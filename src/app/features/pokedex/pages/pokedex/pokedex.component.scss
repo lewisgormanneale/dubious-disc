@@ -1,11 +1,31 @@
 @import "src/styles/variables.scss";
 
 .pokedex {
-  margin-bottom: 255px;
-
+  position: relative;
   .pokedex-navbar {
+    position: fixed;
     border-bottom: 1px solid #343a40;
-    z-index: 5;
+    z-index: 10;
+  }
+}
+
+.pokedex-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 56px;
+  height: calc(100vh - 56px);
+  overflow-y: scroll;
+  z-index: 1;
+
+  .app-team-planner {
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0px;
+    z-index: 8;
+    width: 100%;
   }
 }
 

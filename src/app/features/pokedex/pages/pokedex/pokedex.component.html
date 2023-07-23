@@ -49,20 +49,25 @@
       </div>
     </div>
   </nav>
-  <h2 class="pokedex-title mt-5 pt-4 mx-3 text-light">
-    {{ this.selectedVersion.name }} Pokédex
-  </h2>
-  <div
-    class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck w-100"
-  >
-    <app-pokedex-list-item
-      *ngFor="let pokemon of pokemonEntries"
-      [pokemon]="pokemon"
-      (click)="onPokemonClick(pokemon)"
-    ></app-pokedex-list-item>
+  <div class="pokedex-container">
+    <app-team-planner
+      class="app-team-planner"
+      *ngIf="teamPlannerMode"
+      [pokemonTeam]="pokemonTeam"
+    ></app-team-planner>
+    <div class="pokedex-list-container pt-3">
+      <h2 class="pokedex-title mx-3 text-light">
+        {{ this.selectedVersion.name }} Pokédex
+      </h2>
+      <div
+        class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck w-100"
+      >
+        <app-pokedex-list-item
+          *ngFor="let pokemon of pokemonEntries"
+          [pokemon]="pokemon"
+          (click)="onPokemonClick(pokemon)"
+        ></app-pokedex-list-item>
+      </div>
+    </div>
   </div>
-  <app-team-planner
-    *ngIf="teamPlannerMode"
-    [pokemonTeam]="pokemonTeam"
-  ></app-team-planner>
 </div>
