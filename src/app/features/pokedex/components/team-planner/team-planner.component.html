@@ -1,4 +1,4 @@
-<div class="team-planner bg-dark z-5">
+<div class="team-planner z-5">
   <div class="team">
     <div class="team-row">
       <app-team-planner-item
@@ -11,11 +11,11 @@
       <app-team-planner-item
         *ngFor="let pokemon of getSecondRow(); let index = index"
         [pokemon]="pokemon"
-        (removePokemonFromTeam)="removePokemonFromTeam(index)"
+        (removePokemonFromTeam)="removePokemonFromTeam(index + 3)"
       ></app-team-planner-item>
     </div>
   </div>
-  <div class="team-options text-light">
+  <!-- <div class="team-options text-light">
     <button class="btn btn-outline-primary text-light">
       <i class="bi bi-graph-up"></i>
     </button>
@@ -25,5 +25,5 @@
     <button class="btn btn-outline-primary text-light">
       <i class="bi bi-trash-fill"></i>
     </button>
-  </div>
+  </div> -->
 </div>

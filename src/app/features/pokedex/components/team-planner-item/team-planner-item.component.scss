@@ -3,15 +3,15 @@
 .team-planner-item {
   background-color: $primary;
   cursor: pointer;
-  width: 90px;
-  height: 120px;
+  width: 120px;
+  height: 160px;
 
   .team-planner-item-picture-container {
     background-color: #00000059;
 
     .team-planner-item-picture {
-      width: 88px;
-      height: 88px;
+      width: 120px;
+      height: 120px;
       margin: 0 auto;
       display: block;
       color: transparent;
@@ -25,16 +25,16 @@
     height: 100%;
 
     .team-planner-item-option {
-      height: 29px;
-      width: 29px;
+      height: 39px;
+      width: 39px;
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     button {
-      height: 29px;
-      width: 29px;
+      height: 40px;
+      width: 40px;
     }
   }
 }
