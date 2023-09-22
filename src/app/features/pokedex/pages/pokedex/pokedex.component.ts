@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
 import {
+  APIPreview,
   Pokedex,
   PokedexVersion,
   PokedexVersions,
   PokemonEntry,
+  VersionGroup,
 } from 'src/app/core/models/index';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subject } from 'rxjs';
+import { forkJoin, Observable, Subject, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-pokedex',
@@ -20,9 +22,9 @@ export class PokedexComponent implements OnInit {
   public isMenuCollapsed: boolean = true;
 
   public pokedex: Pokedex = {} as Pokedex;
+  public pokedexes: any;
   public pokedexID: number = 1;
   public selectedVersion: PokedexVersion = {} as PokedexVersion;
-  public pokemonEntries: PokemonEntry[];
 
   public teamPlannerMode: boolean = false;
   public pokemonTeam: PokemonEntry[] = [] as PokemonEntry[];
@@ -31,40 +33,30 @@ export class PokedexComponent implements OnInit {
     private pokeAPIService: PokeAPIService,
     private router: Router,
     private route: ActivatedRoute
-  ) {
-    this.pokemonEntries = [];
-  }
+  ) {}
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
       const urlValue = params.get('id') || 'national';
-      const version = this.pokedexVersions.find(
-        (version) => version.slug === urlValue
-      );
-      if (version) {
-        this.selectedVersion = version;
-      }
-      this.pokedexID = this.selectedVersion
-        ? this.selectedVersion.pokedexID
-        : 1;
-      this.getAllPokemon();
+      this.pokeAPIService
+        .getVersionGroupByName(urlValue)
+        .pipe(
+          switchMap((versionGroup: VersionGroup) => {
+            return this.getAllPokedexes(versionGroup.pokedexes);
+          })
+        )
+        .subscribe((pokedexes: Pokedex[]) => {
+          this.pokedexes = pokedexes;
+        });
     });
   }
 
-  getAllPokemon(): void {
-    this.pokeAPIService
-      .getPokedexById(this.pokedexID)
-      .subscribe((pokedex: Pokedex) => {
-        this.pokemonEntries = pokedex.pokemon_entries.map((entry) => {
-          return {
-            entry_number: entry.entry_number,
-            pokemon_species: {
-              name: entry.pokemon_species.name,
-              url: entry.pokemon_species.url,
-            },
-          };
-        });
-      });
+  getAllPokedexes(pokedexes: APIPreview[]): Observable<Pokedex[]> {
+    const requests = pokedexes.map((pokedex: APIPreview) => {
+      return this.pokeAPIService.getPokedexByName(pokedex.name);
+    });
+
+    return forkJoin(requests);
   }
 
   navigateToVersionSelect() {

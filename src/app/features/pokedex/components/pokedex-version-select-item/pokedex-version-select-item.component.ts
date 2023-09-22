@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { PokedexVersion, VersionGroup } from 'src/app/core/models';
+import { VersionGroup } from 'src/app/core/models';
 
 @Component({
   selector: 'app-pokedex-version-select-item',

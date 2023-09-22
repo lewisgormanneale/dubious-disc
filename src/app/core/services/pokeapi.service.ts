@@ -10,6 +10,7 @@ import {
   PokedexVersionGroup,
   PokemonDetails,
   PokemonName,
+  VersionGroup,
 } from '../models/index';
 
 @Injectable({
@@ -24,18 +25,20 @@ export class PokeAPIService {
   constructor(private http: HttpClient) {}
 
   getPokedexById(pokedex_id: number): Observable<Pokedex> {
-    return this.http.get<Pokedex>(`${this.pokedexUrl}${pokedex_id}`);
+    return this.http.get<Pokedex>(`${this.pokedexUrl}/${pokedex_id}`);
   }
 
-  getVersionGroupByName(
-    version_group_name: string
-  ): Observable<PokedexVersionGroup> {
-    return this.http.get<PokedexVersionGroup>(
+  getPokedexByName(pokedex_name: string): Observable<Pokedex> {
+    return this.http.get<Pokedex>(`${this.pokedexUrl}/${pokedex_name}`);
+  }
+
+  getVersionGroupByName(version_group_name: string): Observable<VersionGroup> {
+    return this.http.get<VersionGroup>(
       `${this.versionGroupUrl}/${version_group_name}`
     );
   }
 
-  getAllVersionGroups(): Observable<PokedexVersionGroup[]> {
+  getAllVersionGroups(): Observable<VersionGroup[]> {
     return this.http
       .get<APIResultsPreview>(`${this.versionGroupUrl}?limit=50`)
       .pipe(
