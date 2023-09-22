@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { PokedexVersion } from 'src/app/core/models';
+import { PokedexVersion, VersionGroup } from 'src/app/core/models';
 
 @Component({
   selector: 'app-pokedex-version-select-item',
@@ -7,6 +7,6 @@ import { PokedexVersion } from 'src/app/core/models';
   styleUrls: ['./pokedex-version-select-item.component.scss'],
 })
 export class PokedexVersionSelectItemComponent {
-  @Input() pokedexVersion: PokedexVersion = {} as PokedexVersion;
+  @Input() versionGroup: VersionGroup = {} as VersionGroup;
   constructor() {}
 }

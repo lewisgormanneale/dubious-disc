@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { PokemonEntry } from 'src/app/core/models';
-import { PokedexService } from 'src/app/core/services/pokedex.service';
 
 @Component({
   selector: 'app-pokedex-list-item',
@@ -12,7 +11,7 @@ export class PokedexListItemComponent implements OnInit {
   localisedPokemonName: string = '';
   pokemonID: string = '';
   imageURL: string = '';
-  constructor(private pokedexService: PokedexService) {}
+  constructor() {}
 
   ngOnInit(): void {
     this.pokemonID = this.pokemon.pokemon_species.url

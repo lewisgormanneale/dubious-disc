@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PokedexService } from 'src/app/core/services/pokedex.service';
+import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
 import {
   Pokedex,
   PokedexVersion,
@@ -28,7 +28,7 @@ export class PokedexComponent implements OnInit {
   public pokemonTeam: PokemonEntry[] = [] as PokemonEntry[];
 
   constructor(
-    private pokedexService: PokedexService,
+    private pokeAPIService: PokeAPIService,
     private router: Router,
     private route: ActivatedRoute
   ) {
@@ -52,8 +52,8 @@ export class PokedexComponent implements OnInit {
   }
 
   getAllPokemon(): void {
-    this.pokedexService
-      .getPokedex(this.pokedexID)
+    this.pokeAPIService
+      .getPokedexById(this.pokedexID)
       .subscribe((pokedex: Pokedex) => {
         this.pokemonEntries = pokedex.pokemon_entries.map((entry) => {
           return {

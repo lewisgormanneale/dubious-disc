@@ -4,7 +4,7 @@ import {
   PokemonEntry,
   PokemonSpeciesDetails,
 } from 'src/app/core/models';
-import { PokedexService } from 'src/app/core/services/pokedex.service';
+import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
 
 @Component({
   selector: 'app-team-planner-item',
@@ -23,7 +23,7 @@ export class TeamPlannerItemComponent implements OnInit {
   gender: string = '';
   genderIcon: string = '';
   genderColor: string = '#6890cb';
-  constructor(private pokedexService: PokedexService) {}
+  constructor(private pokeAPIService: PokeAPIService) {}
 
   ngOnInit(): void {
     if (this.pokemon.pokemon_species) {
@@ -31,18 +31,18 @@ export class TeamPlannerItemComponent implements OnInit {
         .split('/')
         .slice(-2, -1)[0];
       this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${this.pokemonID}.png`;
-      this.pokedexService
+      this.pokeAPIService
         .getPokemonSpeciesDetails(this.pokemon.pokemon_species.name)
         .subscribe((pokemonSpeciesDetails) => {
           this.pokemonSpeciesDetails = pokemonSpeciesDetails;
           this.gender = this.getInitialGenderByRate();
           this.localisedPokemonName =
-            this.pokedexService.getPokemonNameByLanguage(
+            this.pokeAPIService.getPokemonNameByLanguage(
               this.pokemonSpeciesDetails.names!,
               'en'
             );
         });
-      this.pokedexService
+      this.pokeAPIService
         .getPokemonDetails(this.pokemon.pokemon_species.name)
         .subscribe((pokemonDetails) => {
           this.pokemonDetails = pokemonDetails;

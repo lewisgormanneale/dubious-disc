@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { PokedexService } from 'src/app/core/services/pokedex.service';
+import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
 import { Location } from '@angular/common';
 import {
   PokemonSpecies,
@@ -27,7 +27,7 @@ export class PokemonComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private pokedexService: PokedexService,
+    private pokeAPIService: PokeAPIService,
     private location: Location
   ) {
     this.canGoBack = !!this.router.getCurrentNavigation()?.previousNavigation;
@@ -48,7 +48,7 @@ export class PokemonComponent implements OnInit {
     ]).subscribe(() => {
       if (this.pokemon.species_details?.names) {
         this.localisedPokemonName =
-          this.pokedexService.getPokemonNameByLanguage(
+          this.pokeAPIService.getPokemonNameByLanguage(
             this.pokemon.species_details.names,
             'en'
           );
@@ -60,7 +60,7 @@ export class PokemonComponent implements OnInit {
     pokemonID: string,
     pokemonSpecies: PokemonSpecies
   ): Observable<PokemonDetails> {
-    return this.pokedexService.getPokemonDetails(pokemonID).pipe(
+    return this.pokeAPIService.getPokemonDetails(pokemonID).pipe(
       tap((details: PokemonDetails) => {
         pokemonSpecies.details = details;
       })
@@ -71,7 +71,7 @@ export class PokemonComponent implements OnInit {
     pokemonID: string,
     pokemonSpecies: PokemonSpecies
   ): Observable<PokemonSpeciesDetails> {
-    return this.pokedexService.getPokemonSpeciesDetails(pokemonID).pipe(
+    return this.pokeAPIService.getPokemonSpeciesDetails(pokemonID).pipe(
       tap((pokemonSpeciesDetails: PokemonSpeciesDetails) => {
         pokemonSpecies.species_details = pokemonSpeciesDetails;
       })

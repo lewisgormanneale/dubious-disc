@@ -6,8 +6,8 @@
     class="pokedex-version-select-list d-flex justify-content-center flex-wrap mb-4"
   >
     <app-pokedex-version-select-item
-      *ngFor="let pokedexVersion of pokedexVersions"
-      [pokedexVersion]="pokedexVersion"
+      *ngFor="let versionGroup of versionGroups"
+      [versionGroup]="versionGroup"
     >
     </app-pokedex-version-select-item>
   </div>
