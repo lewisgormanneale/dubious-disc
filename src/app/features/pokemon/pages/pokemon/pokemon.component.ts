@@ -2,13 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
 import { Location } from '@angular/common';
-import {
-  PokemonSpecies,
-  PokemonDetails,
-  PokemonSpeciesDetails,
-} from 'src/app/core/models/index';
-import { Type } from 'src/app/core/models/types.model';
 import { forkJoin, Observable, tap } from 'rxjs';
+import { Pokemon, PokemonSpecies, PokemonType } from 'src/app/core/models';
 
 @Component({
   selector: 'app-pokemon',
@@ -16,10 +11,12 @@ import { forkJoin, Observable, tap } from 'rxjs';
   styleUrls: ['./pokemon.component.scss'],
 })
 export class PokemonComponent implements OnInit {
-  pokemon: PokemonSpecies = {
+  pokemon: any = {
     name: '',
     url: '',
     id: '',
+    details: {},
+    species_details: {},
   };
   localisedPokemonName: string = '';
   canGoBack: boolean;
@@ -37,14 +34,14 @@ export class PokemonComponent implements OnInit {
     this.route.params.subscribe((params) => {
       let id = params['id'];
       this.pokemon.id = id;
-      this.getPokemon(id);
+      this.getAllPokemonDetails(id);
     });
   }
 
-  getPokemon(id: string): void {
+  getAllPokemonDetails(id: string): void {
     forkJoin([
-      this.getPokemonDetails(id, this.pokemon),
-      this.getPokemonSpeciesDetails(id, this.pokemon),
+      this.getPokemon(id, this.pokemon),
+      this.getPokemonSpecies(id, this.pokemon),
     ]).subscribe(() => {
       if (this.pokemon.species_details?.names) {
         this.localisedPokemonName =
@@ -56,29 +53,26 @@ export class PokemonComponent implements OnInit {
     });
   }
 
-  getPokemonDetails(
-    pokemonID: string,
-    pokemonSpecies: PokemonSpecies
-  ): Observable<PokemonDetails> {
-    return this.pokeAPIService.getPokemonDetails(pokemonID).pipe(
-      tap((details: PokemonDetails) => {
+  getPokemon(pokemonID: string, pokemonSpecies: any): Observable<Pokemon> {
+    return this.pokeAPIService.getPokemonById(pokemonID).pipe(
+      tap((details: Pokemon) => {
         pokemonSpecies.details = details;
       })
     );
   }
 
-  getPokemonSpeciesDetails(
+  getPokemonSpecies(
     pokemonID: string,
-    pokemonSpecies: PokemonSpecies
-  ): Observable<PokemonSpeciesDetails> {
-    return this.pokeAPIService.getPokemonSpeciesDetails(pokemonID).pipe(
-      tap((pokemonSpeciesDetails: PokemonSpeciesDetails) => {
+    pokemonSpecies: any
+  ): Observable<PokemonSpecies> {
+    return this.pokeAPIService.getPokemonSpeciesById(pokemonID).pipe(
+      tap((pokemonSpeciesDetails: PokemonSpecies) => {
         pokemonSpecies.species_details = pokemonSpeciesDetails;
       })
     );
   }
 
-  getTypeBoxLayout(types: Type[]) {
+  getTypeBoxLayout(types: PokemonType[]) {
     return types.length > 1
       ? 'justify-content-between'
       : 'justify-content-center';

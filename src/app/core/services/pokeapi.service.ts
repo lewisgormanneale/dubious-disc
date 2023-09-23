@@ -5,11 +5,12 @@ import { environment } from 'src/environments/environment';
 
 import {
   NamedAPIResource,
-  APIResultsPreview,
+  NamedAPIResourceList,
   Pokedex,
-  PokemonDetails,
-  PokemonName,
   VersionGroup,
+  Name,
+  PokemonSpecies,
+  Pokemon,
 } from '../models/index';
 
 @Injectable({
@@ -39,9 +40,9 @@ export class PokeAPIService {
 
   getAllVersionGroups(): Observable<VersionGroup[]> {
     return this.http
-      .get<APIResultsPreview>(`${this.versionGroupUrl}?limit=50`)
+      .get<NamedAPIResourceList>(`${this.versionGroupUrl}?limit=50`)
       .pipe(
-        switchMap((response: APIResultsPreview) => {
+        switchMap((response: NamedAPIResourceList) => {
           const versionGroups = response.results;
           const requests = versionGroups.map((group: NamedAPIResource) =>
             this.getVersionGroupByName(group.name)
@@ -57,18 +58,25 @@ export class PokeAPIService {
     );
   }
 
-  getPokemonDetails(id: string): Observable<PokemonDetails> {
-    return this.http.get<PokemonDetails>(`${this.pokemonUrl}/${id}`);
+  getPokemonById(id: string): Observable<Pokemon> {
+    return this.http.get<Pokemon>(`${this.pokemonUrl}/${id}`);
   }
 
-  getPokemonSpeciesDetails(id: string): Observable<PokemonDetails> {
-    return this.http.get<PokemonDetails>(`${this.speciesUrl}/${id}`);
+  getPokemonByName(name: string): Observable<Pokemon> {
+    return this.http.get<Pokemon>(`${this.pokemonUrl}/${name}`);
   }
 
-  getPokemonNameByLanguage(names: PokemonName[], language: string) {
-    const name = names.find(
-      (name: PokemonName) => name.language.name === language
-    )?.name!;
+  getPokemonSpeciesById(id: string): Observable<PokemonSpecies> {
+    return this.http.get<PokemonSpecies>(`${this.speciesUrl}/${id}`);
+  }
+
+  getPokemonSpeciesByName(name: string): Observable<PokemonSpecies> {
+    return this.http.get<PokemonSpecies>(`${this.speciesUrl}/${name}`);
+  }
+
+  getPokemonNameByLanguage(names: Name[], language: string) {
+    const name = names.find((name: Name) => name.language.name === language)
+      ?.name!;
     return name ? name : '';
   }
 }

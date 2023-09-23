@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './features/home/pages/home.component';
-import { PokedexVersionSelectComponent } from './features/pokedex/pages/pokedex-version-select/pokedex-version-select.component';
+import { PokedexVersionGroupSelectComponent } from './features/pokedex/pages/pokedex-version-group-select/pokedex-version-group-select.component';
 import { PokedexComponent } from './features/pokedex/pages/pokedex/pokedex.component';
 import { PokemonComponent } from './features/pokemon/pages/pokemon/pokemon.component';
 
@@ -12,7 +12,7 @@ const routes: Routes = [
     redirectTo: 'pokedex',
     pathMatch: 'full',
   },
-  { path: 'pokedex', component: PokedexVersionSelectComponent },
+  { path: 'pokedex', component: PokedexVersionGroupSelectComponent },
   { path: 'pokedex/:id', component: PokedexComponent },
   { path: 'pokemon/:id', component: PokemonComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' },

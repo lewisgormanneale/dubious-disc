@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { PokedexVersions, VersionGroup } from 'src/app/core/models/index';
+import { VersionGroup } from 'src/app/core/models/index';
 import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
 
 @Component({
-  selector: 'app-pokedex-version-select',
-  templateUrl: './pokedex-version-select.component.html',
-  styleUrls: ['./pokedex-version-select.component.scss'],
+  selector: 'app-pokedex-version-group-select',
+  templateUrl: './pokedex-version-group-select.component.html',
+  styleUrls: ['./pokedex-version-group-select.component.scss'],
 })
-export class PokedexVersionSelectComponent implements OnInit {
-  public pokedexVersions = PokedexVersions;
+export class PokedexVersionGroupSelectComponent implements OnInit {
   public versionGroups: any;
 
   constructor(private pokeAPIService: PokeAPIService) {}
@@ -18,7 +17,6 @@ export class PokedexVersionSelectComponent implements OnInit {
       .getAllVersionGroups()
       .subscribe((versionGroups: any) => {
         this.versionGroups = versionGroups;
-        console.log(this.versionGroups);
       });
   }
 

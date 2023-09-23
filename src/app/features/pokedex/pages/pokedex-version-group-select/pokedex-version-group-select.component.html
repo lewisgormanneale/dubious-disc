@@ -1,11 +1,11 @@
 <div *ngIf="versionGroups" class="">
-  <h2 class="pokedex-version-select-title mt-5 pt-4 mx-3 text-light">
+  <h2 class="pokedex-version-group-select-title mt-5 pt-4 mx-3 text-light">
     Select Pokédex Version
   </h2>
   <ng-container *ngFor="let generation of generateGenerationNames()">
     <h3 class="generation-title text-light">{{ generation }}</h3>
     <div
-      class="pokedex-version-select-list d-flex justify-content-center flex-wrap mb-4"
+      class="pokedex-version-group-select-list d-flex justify-content-center flex-wrap mb-4"
     >
       <app-pokedex-version-select-item
         *ngFor="let versionGroup of getVersionGroupsByGeneration(generation)"
