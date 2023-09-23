@@ -18,13 +18,6 @@ export interface PokedexVersion {
   pokedexID: number;
 }
 
-export interface PokedexVersionGroup {
-  key: number;
-  name: string;
-  slug: string;
-  pokedexID: number;
-}
-
 export const PokedexVersions: PokedexVersion[] = [
   { key: 1, name: 'National', slug: 'national', pokedexID: 1 },
   { key: 2, name: 'Red/Blue/Yellow', slug: 'red-blue-yellow', pokedexID: 2 },

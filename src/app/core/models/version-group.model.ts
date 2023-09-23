@@ -1,12 +1,23 @@
-import { APIPreview } from './pokeapi.model';
+import { NamedAPIResource } from './pokeapi.model';
 
 export interface VersionGroup {
-  generation: APIPreview;
+  generation: NamedAPIResource;
   id: number;
-  move_learn_methods: APIPreview[];
+  move_learn_methods: NamedAPIResource[];
   name: string;
   order: number;
-  pokedexes: APIPreview[];
-  regions: APIPreview[];
-  versions: APIPreview[];
+  pokedexes: NamedAPIResource[];
+  regions: NamedAPIResource[];
+  versions: NamedAPIResource[];
+}
+
+export interface LocalVersionGroup {
+  generation: NamedAPIResource;
+  id: number;
+  move_learn_methods: NamedAPIResource[];
+  name: string;
+  order: number;
+  pokedexes: NamedAPIResource[];
+  regions: NamedAPIResource[];
+  versions: NamedAPIResource[];
 }

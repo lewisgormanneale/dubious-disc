@@ -4,10 +4,9 @@ import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 
 import {
-  APIPreview,
+  NamedAPIResource,
   APIResultsPreview,
   Pokedex,
-  PokedexVersionGroup,
   PokemonDetails,
   PokemonName,
   VersionGroup,
@@ -44,7 +43,7 @@ export class PokeAPIService {
       .pipe(
         switchMap((response: APIResultsPreview) => {
           const versionGroups = response.results;
-          const requests = versionGroups.map((group: APIPreview) =>
+          const requests = versionGroups.map((group: NamedAPIResource) =>
             this.getVersionGroupByName(group.name)
           );
           return forkJoin(requests);

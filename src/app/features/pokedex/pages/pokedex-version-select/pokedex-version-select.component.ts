@@ -18,6 +18,7 @@ export class PokedexVersionSelectComponent implements OnInit {
       .getAllVersionGroups()
       .subscribe((versionGroups: any) => {
         this.versionGroups = versionGroups;
+        console.log(this.versionGroups);
       });
   }
 

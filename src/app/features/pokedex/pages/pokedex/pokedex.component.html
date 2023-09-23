@@ -34,17 +34,6 @@
               Select Game
             </button>
           </li>
-          <li class="nav-item">
-            <button
-              class="btn btn-outline-primary active"
-              (click)="toggleTeamPlannerMode()"
-              [ngClass]="{
-                active: teamPlannerMode === true
-              }"
-            >
-              Team Planner Mode
-            </button>
-          </li>
         </ul>
       </div>
     </div>
@@ -52,7 +41,7 @@
   <div class="pokedex-container">
     <div class="pokedex-list-container pt-3">
       <h2 class="pokedex-title mx-3 text-light uppercase">
-        {{ this.selectedVersion.name }} Pokédex
+        {{ this.selectedVersionGroupName }} Pokédex
       </h2>
       <ng-container *ngFor="let pokedex of pokedexes">
         <h3 class="text-light">{{ pokedex.name }}</h3>

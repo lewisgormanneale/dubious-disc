@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
 import {
-  APIPreview,
+  NamedAPIResource,
   Pokedex,
-  PokedexVersion,
-  PokedexVersions,
   PokemonEntry,
   VersionGroup,
 } from 'src/app/core/models/index';
@@ -18,16 +16,10 @@ import { forkJoin, Observable, Subject, switchMap } from 'rxjs';
 })
 export class PokedexComponent implements OnInit {
   private ngUnsubscribe = new Subject<void>();
-  public pokedexVersions = PokedexVersions;
   public isMenuCollapsed: boolean = true;
 
-  public pokedex: Pokedex = {} as Pokedex;
   public pokedexes: any;
-  public pokedexID: number = 1;
-  public selectedVersion: PokedexVersion = {} as PokedexVersion;
-
-  public teamPlannerMode: boolean = false;
-  public pokemonTeam: PokemonEntry[] = [] as PokemonEntry[];
+  public selectedVersionGroupName: string = '';
 
   constructor(
     private pokeAPIService: PokeAPIService,
@@ -37,7 +29,7 @@ export class PokedexComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
-      const urlValue = params.get('id') || 'national';
+      const urlValue = params.get('id') || 'red-blue';
       this.pokeAPIService
         .getVersionGroupByName(urlValue)
         .pipe(
@@ -47,12 +39,13 @@ export class PokedexComponent implements OnInit {
         )
         .subscribe((pokedexes: Pokedex[]) => {
           this.pokedexes = pokedexes;
+          this.selectedVersionGroupName = urlValue;
         });
     });
   }
 
-  getAllPokedexes(pokedexes: APIPreview[]): Observable<Pokedex[]> {
-    const requests = pokedexes.map((pokedex: APIPreview) => {
+  getAllPokedexes(pokedexes: NamedAPIResource[]): Observable<Pokedex[]> {
+    const requests = pokedexes.map((pokedex: NamedAPIResource) => {
       return this.pokeAPIService.getPokedexByName(pokedex.name);
     });
 
@@ -63,26 +56,9 @@ export class PokedexComponent implements OnInit {
     this.router.navigate(['/pokedex']);
   }
 
-  toggleTeamPlannerMode(): void {
-    this.teamPlannerMode = !this.teamPlannerMode;
-  }
-
   onPokemonClick(pokemon: PokemonEntry) {
-    if (this.teamPlannerMode) {
-      this.addToTeamPlanner(pokemon);
-    } else {
-      let pokemonID = pokemon.pokemon_species.url.split('/').slice(-2, -1)[0];
-      this.router.navigate(['/pokemon/', pokemonID]);
-    }
-  }
-
-  addToTeamPlanner(pokemon: PokemonEntry) {
-    // Check if the Pokemon is not already in the team planner
-    if (this.pokemonTeam.length < 6) {
-      this.pokemonTeam.push(pokemon);
-    } else {
-      // If the Pokemon is already in the team planner, you could show some error message or handle it as per your requirements.
-    }
+    let pokemonID = pokemon.pokemon_species.url.split('/').slice(-2, -1)[0];
+    this.router.navigate(['/pokemon/', pokemonID]);
   }
 
   ngOnDestroy(): void {
