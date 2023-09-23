@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { VersionGroup } from 'src/app/core/models/index';
 import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
+import { getFormattedGenerationName } from 'src/app/shared/generations';
 
 @Component({
   selector: 'app-pokedex-version-group-select',
@@ -20,8 +21,11 @@ export class PokedexVersionGroupSelectComponent implements OnInit {
       });
   }
 
+  getFormattedGenerationName(generation: string): string {
+    return getFormattedGenerationName(generation);
+  }
+
   generateGenerationNames(): string[] {
-    // Assuming you have a property versionGroups with the data
     const generationNumbers = this.versionGroups.map(
       (group: VersionGroup) => group.generation.name
     );

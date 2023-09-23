@@ -68,3 +68,4 @@
 //   { key: 30, name: 'Legends: Arceus', slug: 'legends-arceus', pokedexID: 30 },
 //   { key: 31, name: 'Scarlet/Violet', slug: 'scarlet-violet', pokedexID: 31 },
 // ];
+

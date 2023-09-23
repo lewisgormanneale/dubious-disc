@@ -3,7 +3,9 @@
     Select Pokédex Version
   </h2>
   <ng-container *ngFor="let generation of generateGenerationNames()">
-    <h3 class="generation-title text-light">{{ generation }}</h3>
+    <h3 class="generation-title text-light">
+      {{ getFormattedGenerationName(generation) }}
+    </h3>
     <div
       class="pokedex-version-group-select-list d-flex justify-content-center flex-wrap mb-4"
     >

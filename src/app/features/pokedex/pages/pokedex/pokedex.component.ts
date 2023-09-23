@@ -8,6 +8,7 @@ import {
 } from 'src/app/core/models/index';
 import { ActivatedRoute, Router } from '@angular/router';
 import { forkJoin, Observable, Subject, switchMap } from 'rxjs';
+import { getFormattedGenerationName } from 'src/app/shared/generations';
 
 @Component({
   selector: 'app-pokedex',
@@ -39,7 +40,7 @@ export class PokedexComponent implements OnInit {
         )
         .subscribe((pokedexes: Pokedex[]) => {
           this.pokedexes = pokedexes;
-          this.selectedVersionGroupName = urlValue;
+          this.selectedVersionGroupName = getFormattedGenerationName(urlValue);
         });
     });
   }
