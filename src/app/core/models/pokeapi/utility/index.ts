@@ -1,2 +1,1 @@
-export * from './common.model';
-export * from './languages.model';
+export * from './utility.model';
