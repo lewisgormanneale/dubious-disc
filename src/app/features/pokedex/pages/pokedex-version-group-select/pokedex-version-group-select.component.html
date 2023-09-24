@@ -1,9 +1,9 @@
 <div *ngIf="versionGroups" class="px-3">
-  <h2 class="mt-5 mb-10 font-righteous font-bold text-3xl uppercase">
+  <h2 class="pt-5 mb-10 font-sans-bold font-bold text-3xl">
     Select Pokédex Version
   </h2>
   <ng-container *ngFor="let generation of generateGenerationNames()">
-    <h3 class="font-righteous text-2xl font-bold mb-5 text-center">
+    <h3 class="font-sans-semi-bold text-2xl font-bold mb-5 text-center">
       {{ getFormattedGenerationName(generation) }}
     </h3>
     <div class="flex justify-center items-center flex-wrap gap-5 mb-12">

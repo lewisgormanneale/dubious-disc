@@ -12,6 +12,11 @@ module.exports = {
       },
     },
     fontFamily: {
+      sans: ["Noto Sans", "sans-serif"],
+      "sans-light": ["Noto Sans Light", "sans-serif"],
+      "sans-semi-bold": ["Noto Sans Semi-Bold", "sans-serif"],
+      "sans-bold": ["Noto Sans Bold", "sans-serif"],
+      serif: ["serif"],
       righteous: ["Righteous", "sans-serif"],
     },
   },
