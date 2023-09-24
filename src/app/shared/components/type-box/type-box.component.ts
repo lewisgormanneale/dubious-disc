@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { PokemonType } from 'src/app/core/models';
-import { AllPokemonTypeValues } from '../../types';
+import { AllPokemonTypeValues } from '../../utils/types.utils';
 
 @Component({
   selector: 'app-type-box',

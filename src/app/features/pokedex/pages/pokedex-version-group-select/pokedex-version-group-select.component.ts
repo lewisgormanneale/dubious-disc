@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { VersionGroup } from 'src/app/core/models/index';
 import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
-import { getFormattedGenerationName } from 'src/app/shared/generations';
+import { getFormattedGenerationName } from 'src/app/shared/utils/generations.utils';
 
 @Component({
   selector: 'app-pokedex-version-group-select',
@@ -9,7 +9,7 @@ import { getFormattedGenerationName } from 'src/app/shared/generations';
   styleUrls: ['./pokedex-version-group-select.component.scss'],
 })
 export class PokedexVersionGroupSelectComponent implements OnInit {
-  public versionGroups: any;
+  public versionGroups: VersionGroup[] = [];
 
   constructor(private pokeAPIService: PokeAPIService) {}
 

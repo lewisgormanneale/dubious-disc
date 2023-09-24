@@ -11,14 +11,14 @@ import {
 } from '@ng-bootstrap/ng-bootstrap';
 import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex-list-item.component';
 import { PokedexVersionGroupSelectComponent } from './pages/pokedex-version-group-select/pokedex-version-group-select.component';
-import { PokedexVersionSelectItemComponent } from './components/pokedex-version-select-item/pokedex-version-select-item.component';
+import { PokedexVersionGroupSelectItemComponent } from './components/pokedex-version-group-select-item/pokedex-version-group-select-item.component';
 
 @NgModule({
   declarations: [
     PokedexComponent,
     PokedexListItemComponent,
     PokedexVersionGroupSelectComponent,
-    PokedexVersionSelectItemComponent,
+    PokedexVersionGroupSelectItemComponent,
   ],
   imports: [
     CommonModule,

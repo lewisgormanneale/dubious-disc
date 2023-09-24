@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { PokemonType } from 'src/app/core/models';
-import { AllPokemonTypeValues } from 'src/app/shared/types';
+import { AllPokemonTypeValues } from 'src/app/shared/utils/types.utils';
 
 @Pipe({
   name: 'typeBackgroundGenerator',

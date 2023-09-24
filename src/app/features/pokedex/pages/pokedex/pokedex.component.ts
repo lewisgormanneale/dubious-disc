@@ -8,7 +8,7 @@ import {
 } from 'src/app/core/models/index';
 import { ActivatedRoute, Router } from '@angular/router';
 import { forkJoin, Observable, Subject, switchMap } from 'rxjs';
-import { getFormattedGenerationName } from 'src/app/shared/generations';
+import { getFormattedGenerationName } from 'src/app/shared/utils/generations.utils';
 
 @Component({
   selector: 'app-pokedex',
