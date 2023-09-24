@@ -1,22 +1,24 @@
-<div class="card border border-dark">
-  <div class="card-header fw-bold bg-shaymin white-outlined">
+<div class="flex flex-col rounded bg-zinc-100 w-full">
+  <div class="font-sans-bold bg-shaymin text-zinc-800 p-2 rounded-t">
     Pokédex Descriptions
   </div>
-  <div class="card-body text-center">
-    <ul class="list-group list-group-flush">
+  <div class="flex flex-col text-center">
+    <ul class="w-full flex flex-col">
       <li
         *ngFor="let description of englishDescriptions"
-        class="list-group-item text-start"
+        class="text-start text-zinc-800 border-y-zinc-200 border-b p-2"
       >
         {{ description }}
       </li>
     </ul>
-    <a
-      class="btn btn-primary white-outlined"
-      *ngIf="uniqueDescriptions.length > 3"
-      (click)="toggleShowMore()"
-    >
-      {{ showMore ? "Show Less" : "Show More" }}
-    </a>
+    <div class="flex justify-center items-center my-2">
+      <a
+        class="cursor-pointer bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
+        *ngIf="uniqueDescriptions.length > 3"
+        (click)="toggleShowMore()"
+      >
+        {{ showMore ? "Show Less" : "Show More" }}
+      </a>
+    </div>
   </div>
 </div>
