@@ -41,11 +41,11 @@
   <div class="pokedex-container">
     <div class="pokedex-list-container pt-3">
       <h2 class="pokedex-title mx-3 text-light uppercase">
-        {{ this.selectedVersionGroupName }} Pokédex
+        {{ this.formattedVersionGroupName }} Pokédex
       </h2>
       <ng-container *ngFor="let pokedex of pokedexes">
-        <h3 *ngIf="pokedexes.length > 1" class="text-light">
-          {{ pokedex.name }}
+        <h3 *ngIf="pokedexes.length > 1" class="text-light mx-3">
+          {{ getFormattedPokedexName(pokedex.name) }}
         </h3>
         <div
           class="pokedex-list d-flex flex-wrap justify-content-center align-items-start align-content-start card-deck w-100"

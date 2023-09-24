@@ -8,7 +8,8 @@ import {
 } from 'src/app/core/models/index';
 import { ActivatedRoute, Router } from '@angular/router';
 import { forkJoin, Observable, Subject, switchMap } from 'rxjs';
-import { getFormattedGenerationName } from 'src/app/shared/utils/generations.utils';
+import { getFormattedVersionGroupName } from 'src/app/shared/utils/games.utils';
+import { getFormattedPokedexName } from 'src/app/shared/utils/pokedexes.utils';
 
 @Component({
   selector: 'app-pokedex',
@@ -19,8 +20,8 @@ export class PokedexComponent implements OnInit {
   private ngUnsubscribe = new Subject<void>();
   public isMenuCollapsed: boolean = true;
 
-  public pokedexes: any;
-  public selectedVersionGroupName: string = '';
+  public pokedexes: Pokedex[] = [] as Pokedex[];
+  public formattedVersionGroupName: string = '';
 
   constructor(
     private pokeAPIService: PokeAPIService,
@@ -30,7 +31,8 @@ export class PokedexComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
-      const urlValue = params.get('id') || 'red-blue';
+      const urlValue = params.get('id') || '';
+      this.formattedVersionGroupName = getFormattedVersionGroupName(urlValue);
       this.pokeAPIService
         .getVersionGroupByName(urlValue)
         .pipe(
@@ -40,9 +42,12 @@ export class PokedexComponent implements OnInit {
         )
         .subscribe((pokedexes: Pokedex[]) => {
           this.pokedexes = pokedexes;
-          this.selectedVersionGroupName = getFormattedGenerationName(urlValue);
         });
     });
+  }
+
+  getFormattedPokedexName(pokedexName: string): string {
+    return getFormattedPokedexName(pokedexName);
   }
 
   getAllPokedexes(pokedexes: NamedAPIResource[]): Observable<Pokedex[]> {

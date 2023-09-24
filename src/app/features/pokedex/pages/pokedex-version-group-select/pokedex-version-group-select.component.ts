@@ -1,3 +1,4 @@
+import { group } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { VersionGroup } from 'src/app/core/models/index';
 import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
@@ -17,7 +18,9 @@ export class PokedexVersionGroupSelectComponent implements OnInit {
     this.pokeAPIService
       .getAllVersionGroups()
       .subscribe((versionGroups: any) => {
-        this.versionGroups = versionGroups;
+        this.versionGroups = versionGroups.filter(
+          (versionGroup: VersionGroup) => versionGroup.pokedexes.length > 0
+        );
       });
   }
 
