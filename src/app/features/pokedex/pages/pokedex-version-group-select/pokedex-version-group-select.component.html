@@ -3,10 +3,10 @@
     Select Pokédex Version
   </h2>
   <ng-container *ngFor="let generation of generateGenerationNames()">
-    <h3 class="font-righteous text-2xl font-bold mb-8 text-center">
+    <h3 class="font-righteous text-2xl font-bold mb-5 text-center">
       {{ getFormattedGenerationName(generation) }}
     </h3>
-    <div class="flex justify-center items-center flex-wrap gap-5 mb-5">
+    <div class="flex justify-center items-center flex-wrap gap-5 mb-12">
       <app-pokedex-version-group-select-item
         *ngFor="let versionGroup of getVersionGroupsByGeneration(generation)"
         [versionGroup]="versionGroup"

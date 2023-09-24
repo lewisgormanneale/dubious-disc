@@ -9,7 +9,7 @@
 
 html,
 body {
-  background-color: #18181b /* zinc-900 */;
+  background-color: #09090b /* zinc-950 */;
   color: #f7fafc /* gray-100 */;
   min-height: 100vh;
   height: auto;
@@ -26,17 +26,9 @@ body {
 }
 
 /* //Overwrite Bootstrap variables
-$primary: #30c767;
-$secondary: #ff5c74;
 $info: #1baaca;
 $dark: #27272a;
 
-//Custom values
-$male: #6890cb;
-$female: #f15d69;
-$genderless: #4fc337;
-
-$rich-black: #000512;
 $folly: #ff5260;
 $oxford-blue: #00223d;
 $lavender-blush: #fef0ee;
