@@ -8,7 +8,7 @@ export interface CombinedPokemonEntry {
   url: '';
   entry_number: number;
   id: '';
-  details: Pokemon;
+  pokemon_details: Pokemon;
   pokemon_species: NamedAPIResource;
   pokemon_species_details: PokemonSpecies;
 }

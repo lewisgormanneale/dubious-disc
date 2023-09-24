@@ -31,7 +31,7 @@ describe('GenderRatioComponent', () => {
 
   it('should return the correct class when rate is 8', () => {
     const result = component.getProgressBarClass(8);
-    expect(result).toEqual('bg-primary');
+    expect(result).toEqual('bg-shaymin');
   });
 
   it('should return the correct class when rate is not -1 or 8', () => {
@@ -63,7 +63,7 @@ describe('GenderRatioComponent', () => {
     component.rate = 8;
     fixture.detectChanges();
     const progressBar = fixture.nativeElement.querySelector('.progress-bar');
-    expect(progressBar.classList.contains('bg-primary')).toBe(true);
+    expect(progressBar.classList.contains('bg-shaymin')).toBe(true);
   });
 
   it('should render the progress bar with the correct style', () => {

@@ -1,11 +1,11 @@
 <div class="card border border-dark w-100">
-  <div class="card-header fw-bold bg-primary white-outlined">
+  <div class="card-header fw-bold bg-shaymin white-outlined">
     Pokémon Base Stats
   </div>
   <div class="card-body text-center p-1">
     <ul class="list-group list-group-flush">
       <li *ngFor="let stat of stats" class="list-group-item text-start p-1">
-        <div class="col-12 d-flex flex-row align-items-center">
+        <div class="col-12 flex items-center">
           <p class="d-inline pe-3 mb-0 col-5">
             {{ getFormattedStatName(stat) }}
           </p>
