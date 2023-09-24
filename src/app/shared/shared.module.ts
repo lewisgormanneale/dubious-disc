@@ -7,12 +7,6 @@ import { TypeBackgroundGeneratorPipe } from './pipes/type-background-generator/t
 import { DescriptionsComponent } from './components/descriptions/descriptions.component';
 import { TypeBoxComponent } from './components/type-box/type-box.component';
 import { StatsComponent } from './components/stats/stats.component';
-import {
-  NgbCollapseModule,
-  NgbDropdownModule,
-  NgbTypeaheadModule,
-} from '@ng-bootstrap/ng-bootstrap';
-import { PokemonSearchComponent } from './components/pokemon-search/pokemon-search.component';
 import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
@@ -23,15 +17,8 @@ import { FormsModule } from '@angular/forms';
     DescriptionsComponent,
     TypeBoxComponent,
     StatsComponent,
-    PokemonSearchComponent,
   ],
-  imports: [
-    CommonModule,
-    NgbCollapseModule,
-    NgbDropdownModule,
-    NgbTypeaheadModule,
-    FormsModule,
-  ],
+  imports: [CommonModule, FormsModule],
   exports: [
     DecimetersToFeetAndInchesPipe,
     DecimetersToPoundsPipe,

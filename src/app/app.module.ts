@@ -8,7 +8,6 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { PokedexModule } from './features/pokedex/pokedex.module';
 import { PokemonModule } from './features/pokemon/pokemon.module';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [AppComponent],
@@ -20,7 +19,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     PokedexModule,
     PokemonModule,
     AppRoutingModule,
-    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

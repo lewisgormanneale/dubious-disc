@@ -1,4 +1,42 @@
-//Overwrite Bootstrap variables
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BebasNeueRegular";
+  src: url("../assets/fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Righteous";
+  src: url("../assets/fonts/Righteous-Regular.ttf");
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/* 
+html {
+  background-color: $dark;
+}
+
+body {
+  background-color: $dark;
+} */
+
+.white-outlined {
+  color: white !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* //Overwrite Bootstrap variables
 $primary: #30c767;
 $secondary: #ff5c74;
 $info: #1baaca;
@@ -72,4 +110,4 @@ $aero: #20c0e4;
 //   "oxford-blue": #00223d,
 //   "lavender-blush": #fef0ee,
 //   "aero": #20c0e4,
-// );
+// ); */

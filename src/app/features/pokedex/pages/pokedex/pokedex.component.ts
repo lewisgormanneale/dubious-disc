@@ -14,7 +14,7 @@ import { getFormattedPokedexName } from 'src/app/shared/utils/pokedexes.utils';
 @Component({
   selector: 'app-pokedex',
   templateUrl: './pokedex.component.html',
-  styleUrls: ['./pokedex.component.scss'],
+  styleUrls: ['./pokedex.component.css'],
 })
 export class PokedexComponent implements OnInit {
   private ngUnsubscribe = new Subject<void>();

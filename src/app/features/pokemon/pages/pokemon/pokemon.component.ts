@@ -8,7 +8,7 @@ import { Pokemon, PokemonSpecies, PokemonType } from 'src/app/core/models';
 @Component({
   selector: 'app-pokemon',
   templateUrl: './pokemon.component.html',
-  styleUrls: ['./pokemon.component.scss'],
+  styleUrls: ['./pokemon.component.css'],
 })
 export class PokemonComponent implements OnInit {
   pokemon: any = {
