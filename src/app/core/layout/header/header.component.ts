@@ -4,13 +4,9 @@ import { CoreModule } from 'src/app/core/core.module';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-header',
   templateUrl: './header.component.html',
   standalone: true,
-  providers: [],
   imports: [CoreModule, CommonModule, RouterLink],
-  styleUrls: ['./header.component.css'],
 })
-export class HeaderComponent {
-  isMenuCollapsed = true;
-}
+export class HeaderComponent {}

@@ -1,89 +1,13 @@
-<nav
-  class="navbar fixed-top navbar-expand-lg navbar-light bg-primary"
+<header
+  class="flex justify-start items-center px-2 w-screen bg-shaymin"
   style="height: 64px"
 >
-  <div class="container-fluid">
-    <a
-      class="navbar-brand d-flex justify-content-center align-items-center"
-      [routerLink]="'.'"
-      ><img
-        class="poryphone-logo"
-        src="../../assets/images/gracidea.png"
-        alt=""
-        width="30"
-        height="30"
-      /><span class="header-title">GRACIDEA</span></a
-    >
-    <!-- <button
-      class="navbar-toggler"
-      type="button"
-      (click)="isMenuCollapsed = !isMenuCollapsed"
-    >
-      &#9776;
-    </button> -->
-    <!-- <div
-      [ngbCollapse]="isMenuCollapsed"
-      class="collapse navbar-collapse justify-content-between"
-    >
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item" ngbDropdown>
-          <a
-            class="nav-link"
-            tabindex="0"
-            ngbDropdownToggle
-            id="navbarDropdownData"
-            role="button"
-          >
-            Data
-          </a>
-          <div
-            ngbDropdownMenu
-            aria-labelledby="navbarDropdownData"
-            class="dropdown-menu dropdown-menu-end"
-          >
-            <a ngbDropdownItem href="pokedex/1">Pokédex</a>
-          </div>
-        </li>
-
-        <!-- <li class="nav-item" ngbDropdown>
-          <a
-            class="nav-link"
-            tabindex="0"
-            ngbDropdownToggle
-            id="navbarDropdownTools"
-            role="button"
-          >
-            Tools
-          </a>
-          <div
-            ngbDropdownMenu
-            aria-labelledby="navbarDropdownTools"
-            class="dropdown-menu dropdown-menu-end"
-          >
-            <a ngbDropdownItem href="pokedex/1">Pokémon Team Planner</a>
-          </div>
-        </li>
-        <li class="nav-item" ngbDropdown>
-          <a
-            class="nav-link"
-            tabindex="0"
-            ngbDropdownToggle
-            id="navbarDropdownGames"
-            role="button"
-          >
-            Games
-          </a>
-          <div
-            ngbDropdownMenu
-            aria-labelledby="navbarDropdownGames"
-            class="dropdown-menu dropdown-menu-end"
-          >
-            <a ngbDropdownItem href="#">Scarlet & Violet</a>
-            <a ngbDropdownItem href="#">Legends: Arceus</a>
-            <a ngbDropdownItem href="#">Brilliant Diamond & Shining Pearl</a>
-          </div>
-        </li> -->
-    <!-- </ul>
-    </div>  -->
-  </div>
-</nav>
+  <a class="flex gap-1 justify-center items-center" [routerLink]="'.'"
+    ><img
+      src="../../assets/images/gracidea.png"
+      alt="gracidea logo"
+      width="30"
+      height="30"
+    /><span class="font-righteous text-3xl text-zinc-800">GRACIDEA</span></a
+  >
+</header>

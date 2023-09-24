@@ -3,17 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "BebasNeueRegular";
-  src: url("../assets/fonts/BebasNeue-Regular.ttf");
-}
-
-@font-face {
   font-family: "Righteous";
   src: url("../assets/fonts/Righteous-Regular.ttf");
 }
 
 html,
 body {
+  background-color: #18181b /* zinc-900 */;
+  color: #f7fafc /* gray-100 */;
   min-height: 100vh;
   height: auto;
   width: 100%;
@@ -21,14 +18,6 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-/* 
-html {
-  background-color: $dark;
-}
-
-body {
-  background-color: $dark;
-} */
 
 .white-outlined {
   color: white !important;
