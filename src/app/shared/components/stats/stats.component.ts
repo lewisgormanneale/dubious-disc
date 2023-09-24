@@ -12,29 +12,30 @@ export class StatsComponent {
   constructor() {}
 
   getFormattedStatName(stat: PokemonStat) {
+    let formattedName = '';
     switch (stat.stat.name) {
       case 'hp':
-        stat.formatted_name = 'HP';
+        formattedName = 'HP';
         break;
       case 'attack':
-        stat.formatted_name = 'Attack';
+        formattedName = 'Attack';
         break;
       case 'defense':
-        stat.formatted_name = 'Defense';
+        formattedName = 'Defense';
         break;
       case 'special-attack':
-        stat.formatted_name = 'Special Attack';
+        formattedName = 'Special Attack';
         break;
       case 'special-defense':
-        stat.formatted_name = 'Special Defense';
+        formattedName = 'Special Defense';
         break;
       case 'speed':
-        stat.formatted_name = 'Speed';
+        formattedName = 'Speed';
         break;
       default:
         break;
     }
-    return stat.formatted_name;
+    return formattedName;
   }
 
   getProgressBarStyle(base_stat: number) {

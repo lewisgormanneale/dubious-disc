@@ -8,7 +8,7 @@ import {
   Observable,
   OperatorFunction,
 } from 'rxjs';
-import { PokemonEntry, PokemonSpecies } from 'src/app/core/models';
+import { CombinedPokemonEntry, PokemonSpecies } from 'src/app/core/models';
 
 @Component({
   selector: 'app-pokemon-search',
@@ -16,17 +16,19 @@ import { PokemonEntry, PokemonSpecies } from 'src/app/core/models';
   styleUrls: ['./pokemon-search.component.scss'],
 })
 export class PokemonSearchComponent {
-  @Input() pokedexEntries: PokemonEntry[] = {} as PokemonEntry[];
+  @Input() pokedexEntries: CombinedPokemonEntry[] =
+    {} as CombinedPokemonEntry[];
 
   constructor(private router: Router) {}
 
-  model: PokemonEntry = {} as PokemonEntry;
+  model: CombinedPokemonEntry = {} as CombinedPokemonEntry;
 
-  formatter = (pokemon: PokemonEntry) => pokemon.pokemon_species?.name;
+  formatter = (pokemon: CombinedPokemonEntry) =>
+    pokemon.pokemon_species_details?.name;
 
   search: OperatorFunction<
     string,
-    readonly { entry_number: number; pokemon_species: PokemonSpecies }[]
+    readonly { entry_number: number; pokemon_species_details: PokemonSpecies }[]
   > = (text$: Observable<string>) =>
     text$.pipe(
       debounceTime(200),
@@ -35,7 +37,7 @@ export class PokemonSearchComponent {
       map((term) =>
         this.pokedexEntries
           .filter((pokemon) =>
-            new RegExp(term, 'mi').test(pokemon.pokemon_species.name)
+            new RegExp(term, 'mi').test(pokemon.pokemon_species_details.name)
           )
           .slice(0, 10)
       )

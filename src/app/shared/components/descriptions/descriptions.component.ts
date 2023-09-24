@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { PokemonFlavorText } from 'src/app/core/models';
+import { FlavorText } from 'src/app/core/models';
 
 @Component({
   selector: 'app-descriptions',
@@ -7,7 +7,7 @@ import { PokemonFlavorText } from 'src/app/core/models';
   styleUrls: ['./descriptions.component.scss'],
 })
 export class DescriptionsComponent {
-  @Input() descriptions?: PokemonFlavorText[];
+  @Input() descriptions?: FlavorText[];
   uniqueDescriptions: string[];
   visibleDescriptions: string[];
   showMore = false;
@@ -17,7 +17,7 @@ export class DescriptionsComponent {
     this.visibleDescriptions = [];
   }
 
-  getUniqueEnglishDescriptions(descriptions: PokemonFlavorText[]) {
+  getUniqueEnglishDescriptions(descriptions: FlavorText[]) {
     // Filter out descriptions that are not in English, then create a new Set from the remaining descriptions, then map the Set back to an array of descriptions.
     const uniqueDescriptions = Array.from(
       new Set(

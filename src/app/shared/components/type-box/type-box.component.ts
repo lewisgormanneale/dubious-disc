@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { Type, TYPE_INFO } from 'src/app/core/models/types.model';
+import { PokemonType } from 'src/app/core/models';
+import { AllPokemonTypeValues } from '../../utils/types.utils';
 
 @Component({
   selector: 'app-type-box',
@@ -7,18 +8,18 @@ import { Type, TYPE_INFO } from 'src/app/core/models/types.model';
   styleUrls: ['./type-box.component.scss'],
 })
 export class TypeBoxComponent {
-  @Input() type: Type = {
+  @Input() type: PokemonType = {
     slot: 0,
     type: { name: '', url: '' },
   };
 
-  getTypeName(type: Type): string {
+  getTypeName(type: PokemonType): string {
     const typeID = +type.type.url.split('/').slice(-2, -1)[0];
-    return TYPE_INFO[typeID].name;
+    return AllPokemonTypeValues[typeID].name;
   }
 
-  getTypeBackground(type: Type): string {
+  getTypeBackground(type: PokemonType): string {
     const typeID = +type.type.url.split('/').slice(-2, -1)[0];
-    return TYPE_INFO[typeID].type_color;
+    return AllPokemonTypeValues[typeID].type_color;
   }
 }
