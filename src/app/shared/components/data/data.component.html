@@ -1,20 +1,22 @@
 <div *ngIf="pokemon" class="flex flex-col rounded w-full bg-zinc-100">
-  <div class="text-zinc-800 bg-shaymin">Pokédex Data</div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item pokemon-detail">
-      <span class="fw-bold">Classification:</span>
+  <div class="font-sans-semi-bold text-zinc-800 bg-shaymin p-2 rounded-t">
+    Pokédex Data
+  </div>
+  <ul class="w-full flex flex-col text-zinc-800 rounded-b">
+    <li class="border-y-zinc-300 border-b p-2">
+      <span class="font-sans-semi-bold">Classification:</span>
       {{ pokemon.pokemon_species_details.genera[7].genus }}
     </li>
-    <li class="list-group-item pokemon-detail">
-      <span class="fw-bold">Height:</span>
+    <li class="border-y-zinc-300 border-b p-2">
+      <span class="font-sans-semi-bold">Height:</span>
       {{ pokemon.pokemon_details.height | decimetersToFeetAndInches }}
     </li>
-    <li class="list-group-item pokemon-detail">
-      <span class="fw-bold">Weight:</span>
+    <li class="border-y-zinc-300 border-b p-2">
+      <span class="font-sans-semi-bold">Weight:</span>
       {{ pokemon.pokemon_details.weight | decimetersToPounds }}
     </li>
-    <li class="list-group-item">
-      <p class="fw-bold mb-1">Gender Ratio:</p>
+    <li class="p-2">
+      <p class="font-sans-semi-bold mb-1">Gender Ratio:</p>
       <app-gender-ratio
         [rate]="pokemon.pokemon_species_details.gender_rate"
       ></app-gender-ratio>
