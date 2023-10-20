@@ -1,29 +1,26 @@
-<div class="card border border-dark w-100">
-  <div class="card-header fw-bold bg-primary white-outlined">
+<div class="flex flex-col rounded w-full bg-zinc-100">
+  <div class="font-sans-semi-bold text-zinc-800 bg-shaymin p-2 rounded-t">
     Pokémon Base Stats
   </div>
-  <div class="card-body text-center p-1">
-    <ul class="list-group list-group-flush">
-      <li *ngFor="let stat of stats" class="list-group-item text-start p-1">
-        <div class="col-12 d-flex flex-row align-items-center">
-          <p class="d-inline pe-3 mb-0 col-5">
-            {{ getFormattedStatName(stat) }}
-          </p>
-          <div class="progress col-7">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              [ngClass]="stat.stat.name"
-              [ngStyle]="getProgressBarStyle(stat.base_stat)"
-              aria-valuemin="0"
-              aria-valuemax="255"
-              [attr.aria-valuenow]="stat.base_stat"
-            >
-              <span class="white-outlined"> {{ stat.base_stat }}</span>
-            </div>
+  <ul class="w-full flex flex-col text-zinc-800 rounded-b text-sm">
+    <li *ngFor="let stat of stats" class="border-y-zinc-300 border-b p-2">
+      <div class="grid grid-cols-5 items-center">
+        <p class="inline pr-2 col-span-2 font-sans-semi-bold">
+          {{ getFormattedStatName(stat) }}:
+        </p>
+        <div class="w-full h-5 col-span-3 rounded bg-zinc-300">
+          <div
+            class="text-center rounded-l"
+            [ngClass]="getProgressBarClass(stat.stat.name)"
+            [ngStyle]="getProgressBarStyle(stat.base_stat)"
+            aria-valuemin="0"
+            aria-valuemax="255"
+            [attr.aria-valuenow]="stat.base_stat"
+          >
+            <span class="white-outlined px-2"> {{ stat.base_stat }}</span>
           </div>
         </div>
-      </li>
-    </ul>
-  </div>
+      </div>
+    </li>
+  </ul>
 </div>

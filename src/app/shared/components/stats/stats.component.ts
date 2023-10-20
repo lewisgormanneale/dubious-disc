@@ -4,7 +4,6 @@ import { PokemonStat } from 'src/app/core/models';
 @Component({
   selector: 'app-stats',
   templateUrl: './stats.component.html',
-  styleUrls: ['./stats.component.scss'],
 })
 export class StatsComponent {
   @Input() stats?: PokemonStat[];
@@ -36,6 +35,32 @@ export class StatsComponent {
         break;
     }
     return formattedName;
+  }
+
+  getProgressBarClass(statName: string) {
+    switch (statName) {
+      case 'hp':
+        return 'bg-hp';
+        break;
+      case 'attack':
+        return 'bg-attack';
+        break;
+      case 'defense':
+        return 'bg-defense';
+        break;
+      case 'special-attack':
+        return 'bg-special-attack';
+        break;
+      case 'special-defense':
+        return 'bg-special-defense';
+        break;
+      case 'speed':
+        return 'bg-speed';
+        break;
+      default:
+        return 'bg-zinc-300';
+        break;
+    }
   }
 
   getProgressBarStyle(base_stat: number) {

@@ -5,7 +5,7 @@ import { AllPokemonTypeValues } from '../../utils/types.utils';
 @Component({
   selector: 'app-type-box',
   templateUrl: './type-box.component.html',
-  styleUrls: ['./type-box.component.scss'],
+  styleUrls: ['./type-box.component.css'],
 })
 export class TypeBoxComponent {
   @Input() type: PokemonType = {

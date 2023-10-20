@@ -7,7 +7,6 @@ import { getFormattedGenerationName } from 'src/app/shared/utils/generations.uti
 @Component({
   selector: 'app-pokedex-version-group-select',
   templateUrl: './pokedex-version-group-select.component.html',
-  styleUrls: ['./pokedex-version-group-select.component.scss'],
 })
 export class PokedexVersionGroupSelectComponent implements OnInit {
   public versionGroups: VersionGroup[] = [];

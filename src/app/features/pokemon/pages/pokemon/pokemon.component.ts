@@ -3,21 +3,19 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
 import { Location } from '@angular/common';
 import { forkJoin, Observable, tap } from 'rxjs';
-import { Pokemon, PokemonSpecies, PokemonType } from 'src/app/core/models';
+import {
+  CombinedPokemonEntry,
+  Pokemon,
+  PokemonSpecies,
+  PokemonType,
+} from 'src/app/core/models';
 
 @Component({
   selector: 'app-pokemon',
   templateUrl: './pokemon.component.html',
-  styleUrls: ['./pokemon.component.scss'],
 })
 export class PokemonComponent implements OnInit {
-  pokemon: any = {
-    name: '',
-    url: '',
-    id: '',
-    details: {},
-    species_details: {},
-  };
+  pokemon: CombinedPokemonEntry = {} as CombinedPokemonEntry;
   localisedPokemonName: string = '';
   canGoBack: boolean;
 
@@ -43,10 +41,10 @@ export class PokemonComponent implements OnInit {
       this.getPokemon(id, this.pokemon),
       this.getPokemonSpecies(id, this.pokemon),
     ]).subscribe(() => {
-      if (this.pokemon.species_details?.names) {
+      if (this.pokemon.pokemon_species_details?.names) {
         this.localisedPokemonName =
           this.pokeAPIService.getPokemonNameByLanguage(
-            this.pokemon.species_details.names,
+            this.pokemon.pokemon_species_details.names,
             'en'
           );
       }
@@ -56,7 +54,7 @@ export class PokemonComponent implements OnInit {
   getPokemon(pokemonID: string, pokemonSpecies: any): Observable<Pokemon> {
     return this.pokeAPIService.getPokemonById(pokemonID).pipe(
       tap((details: Pokemon) => {
-        pokemonSpecies.details = details;
+        pokemonSpecies.pokemon_details = details;
       })
     );
   }
@@ -67,7 +65,7 @@ export class PokemonComponent implements OnInit {
   ): Observable<PokemonSpecies> {
     return this.pokeAPIService.getPokemonSpeciesById(pokemonID).pipe(
       tap((pokemonSpeciesDetails: PokemonSpecies) => {
-        pokemonSpecies.species_details = pokemonSpeciesDetails;
+        pokemonSpecies.pokemon_species_details = pokemonSpeciesDetails;
       })
     );
   }

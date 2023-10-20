@@ -4,7 +4,6 @@ import { FlavorText } from 'src/app/core/models';
 @Component({
   selector: 'app-descriptions',
   templateUrl: './descriptions.component.html',
-  styleUrls: ['./descriptions.component.scss'],
 })
 export class DescriptionsComponent {
   @Input() descriptions?: FlavorText[];

@@ -1,15 +1,53 @@
-//Overwrite Bootstrap variables
-$primary: #30c767;
-$secondary: #ff5c74;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Righteous";
+  src: url("../assets/fonts/righteous/Righteous-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../assets/fonts/noto-sans/NotoSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans Light";
+  src: url("../assets/fonts/noto-sans/NotoSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans Semi-Bold";
+  src: url("../assets/fonts/noto-sans/NotoSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans Bold";
+  src: url("../assets/fonts/noto-sans/NotoSans-Bold.ttf");
+}
+html,
+body {
+  background-color: #09090b /* zinc-950 */;
+  color: #f4f4f5 /* zinc-100 */;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.white-outlined {
+  color: white !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* //Overwrite Bootstrap variables
 $info: #1baaca;
 $dark: #27272a;
 
-//Custom values
-$male: #6890cb;
-$female: #f15d69;
-$genderless: #4fc337;
-
-$rich-black: #000512;
 $folly: #ff5260;
 $oxford-blue: #00223d;
 $lavender-blush: #fef0ee;
@@ -72,4 +110,4 @@ $aero: #20c0e4;
 //   "oxford-blue": #00223d,
 //   "lavender-blush": #fef0ee,
 //   "aero": #20c0e4,
-// );
+// ); */

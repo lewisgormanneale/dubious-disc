@@ -4,9 +4,9 @@ import { CoreModule } from 'src/app/core/core.module';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
   standalone: true,
   imports: [CoreModule, CommonModule, RouterLink],
 })
-export class HeaderComponent {}
+export class FooterComponent {}
