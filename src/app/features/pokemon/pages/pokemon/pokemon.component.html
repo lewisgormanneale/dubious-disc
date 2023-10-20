@@ -1,9 +1,9 @@
 <div *ngIf="pokemon; else elseBlock">
   <div
-    class="flex flex-col items-center min-h-screen"
+    class="flex flex-col items-center min-h-screen p-2"
     [style.background]="pokemon.pokemon_details.types | typeBackgroundGenerator"
   >
-    <div class="absolute w-screen z-40 px-6 top-20">
+    <div class="absolute w-full z-40 px-6 top-20">
       <button
         class="bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
         aria-label="Close"
@@ -30,7 +30,7 @@
         class="flex flex-col md:flex-row items-center md:items-start gap-3 w-full"
       >
         <div
-          class="text-center border border-zinc-800 w-100 rounded"
+          class="text-center border border-zinc-800 w-full rounded"
           style="max-width: 420px"
         >
           <img
@@ -61,32 +61,8 @@
             ></app-type-box>
           </div>
         </div>
-        <div class="flex flex-col justify-content-between w-100 gap-3">
-          <div class="card border border-dark w-100">
-            <div class="card-header fw-bold bg-shaymin white-outlined">
-              Pokédex Data
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item pokemon-detail">
-                <span class="fw-bold">Classification:</span>
-                {{ pokemon.pokemon_species_details.genera[7].genus }}
-              </li>
-              <li class="list-group-item pokemon-detail">
-                <span class="fw-bold">Height:</span>
-                {{ pokemon.pokemon_details.height | decimetersToFeetAndInches }}
-              </li>
-              <li class="list-group-item pokemon-detail">
-                <span class="fw-bold">Weight:</span>
-                {{ pokemon.pokemon_details.weight | decimetersToPounds }}
-              </li>
-              <li class="list-group-item">
-                <p class="fw-bold mb-1">Gender Ratio:</p>
-                <app-gender-ratio
-                  [rate]="pokemon.pokemon_species_details.gender_rate"
-                ></app-gender-ratio>
-              </li>
-            </ul>
-          </div>
+        <div class="flex flex-col justify-content-between w-full gap-3">
+          <app-data [pokemon]="pokemon"></app-data>
           <app-stats [stats]="pokemon.pokemon_details.stats"></app-stats>
         </div>
       </section>

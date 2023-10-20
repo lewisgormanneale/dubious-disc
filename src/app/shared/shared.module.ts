@@ -8,6 +8,7 @@ import { DescriptionsComponent } from './components/descriptions/descriptions.co
 import { TypeBoxComponent } from './components/type-box/type-box.component';
 import { StatsComponent } from './components/stats/stats.component';
 import { FormsModule } from '@angular/forms';
+import { DataComponent } from './components/data/data.component';
 @NgModule({
   declarations: [
     DecimetersToFeetAndInchesPipe,
@@ -17,6 +18,7 @@ import { FormsModule } from '@angular/forms';
     DescriptionsComponent,
     TypeBoxComponent,
     StatsComponent,
+    DataComponent,
   ],
   imports: [CommonModule, FormsModule],
   exports: [
@@ -27,6 +29,7 @@ import { FormsModule } from '@angular/forms';
     TypeBackgroundGeneratorPipe,
     TypeBoxComponent,
     StatsComponent,
+    DataComponent,
   ],
 })
 export class SharedModule {}

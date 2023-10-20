@@ -9,11 +9,6 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
 
 @NgModule({
   declarations: [PokemonComponent],
-  imports: [
-    CommonModule,
-    CoreModule,
-    SharedModule,
-    AppRoutingModule,
-  ],
+  imports: [CommonModule, CoreModule, SharedModule, AppRoutingModule],
 })
 export class PokemonModule {}

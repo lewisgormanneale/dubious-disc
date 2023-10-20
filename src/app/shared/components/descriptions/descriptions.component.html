@@ -6,12 +6,12 @@
     <ul class="w-full flex flex-col">
       <li
         *ngFor="let description of englishDescriptions"
-        class="text-start text-zinc-800 border-y-zinc-200 border-b p-2"
+        class="text-start text-zinc-800 border-y-zinc-300 border-b px-2 py-3"
       >
         {{ description }}
       </li>
     </ul>
-    <div class="flex justify-center items-center my-2">
+    <div class="flex justify-center items-center my-3">
       <a
         class="cursor-pointer bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
         *ngIf="uniqueDescriptions.length > 3"
