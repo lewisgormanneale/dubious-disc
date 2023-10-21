@@ -15,14 +15,14 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-builders/jest:run",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/gracidea",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": ["css"],
+            "inlineStyleLanguage": "css",
             "assets": ["src/favicon.ico", "src/assets", "src/_redirects"],
             "styles": ["src/styles/styles.css"],
             "scripts": []
@@ -87,24 +87,6 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles/styles.css"],
             "scripts": []
-          }
-        },
-        "cypress-run": {
-          "builder": "@cypress/schematic:cypress",
-          "options": {
-            "devServerTarget": "gracidea:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "gracidea:serve:production"
-            }
-          }
-        },
-        "cypress-open": {
-          "builder": "@cypress/schematic:cypress",
-          "options": {
-            "watch": true,
-            "headless": false
           }
         },
         "e2e": {
