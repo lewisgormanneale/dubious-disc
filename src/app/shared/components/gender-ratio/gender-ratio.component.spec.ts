@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { GenderRatioComponent } from './gender-ratio.component';
 
 describe('GenderRatioComponent', () => {
@@ -26,17 +25,17 @@ describe('GenderRatioComponent', () => {
 
   it('should return the correct class when rate is -1', () => {
     const result = component.getProgressBarClass(-1);
-    expect(result).toEqual('bg-success');
+    expect(result).toEqual('bg-genderless rounded-r');
   });
 
   it('should return the correct class when rate is 8', () => {
     const result = component.getProgressBarClass(8);
-    expect(result).toEqual('bg-shaymin');
+    expect(result).toEqual('bg-female rounded-r');
   });
 
   it('should return the correct class when rate is not -1 or 8', () => {
     const result = component.getProgressBarClass(5);
-    expect(result).toEqual('bg-info');
+    expect(result).toEqual('bg-male');
   });
 
   it('should return the correct style when rate is -1', () => {
