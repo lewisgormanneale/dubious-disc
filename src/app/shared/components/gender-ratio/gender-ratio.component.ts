@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 export class GenderRatioComponent {
   @Input() rate: number = 0;
 
-  getProgressBarClass(rate: number) {
+  getGenderRatioBarClass(rate: number) {
     if (rate === -1) {
       return 'bg-genderless rounded-r';
     } else if (rate === 8) {
@@ -19,7 +19,7 @@ export class GenderRatioComponent {
     }
   }
 
-  getProgressBarStyle(rate: number) {
+  getGenderRatioBarStyle(rate: number) {
     if (rate === -1) {
       return { width: '100%' };
     } else if (rate === 0) {

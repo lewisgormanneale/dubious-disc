@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { StatsComponent } from './stats.component';
-import { PokemonStat } from 'src/app/core/models/pokemon.model';
+import { PokemonStat } from 'src/app/core/models/index';
 
 describe('StatsComponent', () => {
   let component: StatsComponent;
@@ -26,13 +26,11 @@ describe('StatsComponent', () => {
       stat: { name: 'hp', url: '' },
       base_stat: 80,
       effort: 0,
-      formatted_name: '',
     };
     const specialAttackStat: PokemonStat = {
       stat: { name: 'special-attack', url: '' },
       base_stat: 100,
       effort: 0,
-      formatted_name: '',
     };
 
     expect(component.getFormattedStatName(hpStat)).toEqual('HP');
@@ -46,7 +44,6 @@ describe('StatsComponent', () => {
       stat: { name: 'hp', url: '' },
       base_stat: 80,
       effort: 0,
-      formatted_name: '',
     };
     const progressBarWidth = component.getProgressBarStyle(
       stat.base_stat

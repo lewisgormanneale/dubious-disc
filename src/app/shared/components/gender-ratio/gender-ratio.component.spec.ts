@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { GenderRatioComponent } from './gender-ratio.component';
+import { getByTestId } from '@testing-library/dom';
 
 describe('GenderRatioComponent', () => {
   let component: GenderRatioComponent;
@@ -9,66 +10,85 @@ describe('GenderRatioComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [GenderRatioComponent],
     }).compileComponents();
-
     fixture = TestBed.createComponent(GenderRatioComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
+  describe('When the rate is is not -1, 0, or 8', () => {
+    let genderRatioBar: HTMLElement;
+    beforeEach(() => {
+      component.rate = 5;
+      fixture.detectChanges();
+      genderRatioBar = getByTestId(fixture.nativeElement, 'gender-ratio-bar');
+    });
+
+    it('Then the gender ratio bar should render with the correct classes', () => {
+      expect(genderRatioBar.classList.contains('bg-male')).toBe(true);
+    });
+
+    it('Then the gender ratio bar should render with the correct width', () => {
+      expect(genderRatioBar.style.width).toBe('37.5%');
+    });
   });
 
-  it('should initialize rate to 0', () => {
-    expect(component.rate).toEqual(0);
+  describe('When the rate is 0 (always male)', () => {
+    let genderRatioBar: HTMLElement;
+    beforeEach(() => {
+      component.rate = 0;
+      fixture.detectChanges();
+      genderRatioBar = getByTestId(fixture.nativeElement, 'gender-ratio-bar');
+    });
+
+    it('Then the gender ratio bar should render with the correct classes', () => {
+      expect(
+        genderRatioBar.classList.contains('bg-male') &&
+          genderRatioBar.classList.contains('rounded-r')
+      ).toBe(true);
+    });
+
+    it('Then the gender ratio bar should render with the correct width', () => {
+      expect(genderRatioBar.style.width).toBe('100%');
+    });
   });
 
-  it('should return the correct class when rate is -1', () => {
-    const result = component.getProgressBarClass(-1);
-    expect(result).toEqual('bg-genderless rounded-r');
+  describe('When the rate is 8 (always female)', () => {
+    let genderRatioBar: HTMLElement;
+    beforeEach(() => {
+      component.rate = 8;
+      fixture.detectChanges();
+      genderRatioBar = getByTestId(fixture.nativeElement, 'gender-ratio-bar');
+    });
+
+    it('Then the gender ratio bar should render with the correct classes', () => {
+      expect(
+        genderRatioBar.classList.contains('bg-female') &&
+          genderRatioBar.classList.contains('rounded-r')
+      ).toBe(true);
+    });
+
+    it('Then the gender ratio bar should render with the correct width', () => {
+      expect(genderRatioBar.style.width).toBe('100%');
+    });
   });
 
-  it('should return the correct class when rate is 8', () => {
-    const result = component.getProgressBarClass(8);
-    expect(result).toEqual('bg-female rounded-r');
-  });
+  describe('When the rate is -1 (genderless)', () => {
+    let genderRatioBar: HTMLElement;
+    beforeEach(() => {
+      component.rate = -1;
+      fixture.detectChanges();
+      genderRatioBar = getByTestId(fixture.nativeElement, 'gender-ratio-bar');
+    });
 
-  it('should return the correct class when rate is not -1 or 8', () => {
-    const result = component.getProgressBarClass(5);
-    expect(result).toEqual('bg-male');
-  });
+    it('Then the gender ratio bar should render with the correct classes', () => {
+      expect(
+        genderRatioBar.classList.contains('bg-genderless') &&
+          genderRatioBar.classList.contains('rounded-r')
+      ).toBe(true);
+    });
 
-  it('should return the correct style when rate is -1', () => {
-    const result = component.getProgressBarStyle(-1);
-    expect(result).toEqual({ width: '100%' });
-  });
-
-  it('should return the correct style when rate is 0', () => {
-    const result = component.getProgressBarStyle(0);
-    expect(result).toEqual({ width: '100%' });
-  });
-
-  it('should return the correct style when rate is 8', () => {
-    const result = component.getProgressBarStyle(8);
-    expect(result).toEqual({ width: '100%' });
-  });
-
-  it('should return the correct style when rate is not -1, 0, or 8', () => {
-    const result = component.getProgressBarStyle(5);
-    expect(result).toEqual({ width: '37.5%' }); // 100 - (5 * 12.5) = 37.5
-  });
-
-  it('should render the progress bar with the correct class', () => {
-    component.rate = 8;
-    fixture.detectChanges();
-    const progressBar = fixture.nativeElement.querySelector('.progress-bar');
-    expect(progressBar.classList.contains('bg-shaymin')).toBe(true);
-  });
-
-  it('should render the progress bar with the correct style', () => {
-    component.rate = 5;
-    fixture.detectChanges();
-    const progressBar = fixture.nativeElement.querySelector('.progress-bar');
-    expect(progressBar.style.width).toBe('37.5%');
+    it('Then the gender ratio bar should render with the correct width', () => {
+      expect(genderRatioBar.style.width).toBe('100%');
+    });
   });
 });
