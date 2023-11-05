@@ -1,8 +1,9 @@
 <div class="flex bg-female w-full rounded h-5">
   <div
     class="rounded-l"
-    [ngClass]="getProgressBarClass(rate)"
-    [ngStyle]="getProgressBarStyle(rate)"
+    data-testid="gender-ratio-bar"
+    [ngClass]="getGenderRatioBarClass(rate)"
+    [ngStyle]="getGenderRatioBarStyle(rate)"
     aria-valuemin="0"
     aria-valuemax="8"
     [attr.aria-valuenow]="rate"

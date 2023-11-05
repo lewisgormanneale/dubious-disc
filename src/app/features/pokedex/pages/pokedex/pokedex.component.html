@@ -21,7 +21,7 @@
         >
           {{ getFormattedPokedexName(pokedex.name) }}
         </h3>
-        <div class="flex flex-wrap gap-2">
+        <div class="flex flex-wrap gap-2 justify-center">
           <app-pokedex-list-item
             *ngFor="let pokemon of pokedex.pokemon_entries"
             [pokemon]="pokemon"

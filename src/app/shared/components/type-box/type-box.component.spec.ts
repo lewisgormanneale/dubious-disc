@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { getByTestId } from '@testing-library/dom';
 
 import { TypeBoxComponent } from './type-box.component';
 
@@ -24,6 +25,16 @@ describe('TypeBoxComponent', () => {
     expect(component).toBeTruthy();
   });
 
+  it('should set the background color', () => {
+    component.type = {
+      slot: 1,
+      type: { name: 'Normal', url: 'https://pokeapi.co/api/v2/type/1/' },
+    };
+    fixture.detectChanges();
+    const typeBox = getByTestId(fixture.nativeElement, 'type-box');
+    expect(typeBox.style.background).toBe('rgb(170, 170, 153)');
+  });
+
   it('should display the type name', () => {
     const typeName = 'Normal';
     component.type = {
@@ -31,18 +42,7 @@ describe('TypeBoxComponent', () => {
       type: { name: 'normal', url: 'https://pokeapi.co/api/v2/type/1/' },
     };
     fixture.detectChanges();
-    const element = fixture.nativeElement.querySelector('.fw-bold');
-    expect(element.textContent).toContain(typeName);
-  });
-
-  it('should set the background color', () => {
-    const typeID = 1;
-    component.type = {
-      slot: typeID,
-      type: { name: 'Normal', url: 'https://pokeapi.co/api/v2/type/1/' },
-    };
-    fixture.detectChanges();
-    const element = fixture.nativeElement.querySelector('.type-box');
-    expect(element.style.background).toBe('rgb(170, 170, 153)');
+    const typeBoxText = getByTestId(fixture.nativeElement, 'type-box-text');
+    expect(typeBoxText.textContent).toContain(typeName);
   });
 });

@@ -1,4 +1,3 @@
-import { group } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { VersionGroup } from 'src/app/core/models/index';
 import { PokeAPIService } from 'src/app/core/services/pokeapi.service';

@@ -1,3 +1,9 @@
-<div class="type-box" [style.background]="getTypeBackground(type)">
-  <p class="fw-bold">{{ getTypeName(type) }}</p>
+<div
+  class="flex justify-center items-center h-8 w-24 rounded"
+  data-testid="type-box"
+  [style.background]="getTypeBackground(type)"
+>
+  <span class="font-sans-bold white-outlined" data-testid="type-box-text">{{
+    getTypeName(type)
+  }}</span>
 </div>

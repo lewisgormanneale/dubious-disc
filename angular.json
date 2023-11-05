@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-pokedex": {
+    "gracidea": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-pokedex",
+            "outputPath": "dist/gracidea",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-pokedex:build:production"
+              "browserTarget": "gracidea:build:production"
             },
             "development": {
-              "browserTarget": "angular-pokedex:build:development"
+              "browserTarget": "gracidea:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,48 +75,30 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-pokedex:build"
+            "browserTarget": "gracidea:build"
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-builders/jest:run",
           "options": {
             "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
-            "inlineStyleLanguage": "css",
+            "inlineStyleLanguage": ["css"],
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles/styles.css"],
             "scripts": []
           }
         },
-        "cypress-run": {
-          "builder": "@cypress/schematic:cypress",
-          "options": {
-            "devServerTarget": "angular-pokedex:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "angular-pokedex:serve:production"
-            }
-          }
-        },
-        "cypress-open": {
-          "builder": "@cypress/schematic:cypress",
-          "options": {
-            "watch": true,
-            "headless": false
-          }
-        },
         "e2e": {
           "builder": "@cypress/schematic:cypress",
           "options": {
-            "devServerTarget": "angular-pokedex:serve",
+            "devServerTarget": "gracidea:serve",
             "watch": true,
             "headless": false
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-pokedex:serve:production"
+              "devServerTarget": "gracidea:serve:production"
             }
           }
         }
