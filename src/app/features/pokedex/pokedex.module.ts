@@ -5,15 +5,15 @@ import { CoreModule } from 'src/app/core/core.module';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { PokedexComponent } from './pages/pokedex/pokedex.component';
 import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex-list-item.component';
-import { PokedexVersionGroupSelectComponent } from './pages/pokedex-version-group-select/pokedex-version-group-select.component';
-import { PokedexVersionGroupSelectItemComponent } from './components/pokedex-version-group-select-item/pokedex-version-group-select-item.component';
+import { PokedexSelectComponent } from './pages/pokedex-select/pokedex-select.component';
+import { PokedexSelectItemComponent } from './components/pokedex-select-item/pokedex-select-item.component';
 
 @NgModule({
   declarations: [
     PokedexComponent,
     PokedexListItemComponent,
-    PokedexVersionGroupSelectComponent,
-    PokedexVersionGroupSelectItemComponent,
+    PokedexSelectComponent,
+    PokedexSelectItemComponent,
   ],
   imports: [CommonModule, CoreModule, SharedModule, AppRoutingModule],
 })

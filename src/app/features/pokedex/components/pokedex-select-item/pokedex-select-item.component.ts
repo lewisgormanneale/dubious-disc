@@ -3,10 +3,10 @@ import { VersionGroup } from 'src/app/core/models';
 import { getFormattedVersionGroupName } from 'src/app/shared/utils/games.utils';
 
 @Component({
-  selector: 'app-pokedex-version-group-select-item',
-  templateUrl: './pokedex-version-group-select-item.component.html',
+  selector: 'app-pokedex-select-item',
+  templateUrl: './pokedex-select-item.component.html',
 })
-export class PokedexVersionGroupSelectItemComponent {
+export class PokedexSelectItemComponent {
   @Input() versionGroup: VersionGroup = {} as VersionGroup;
   versionGroupSlug: string = '';
   versionGroupName: string = '';

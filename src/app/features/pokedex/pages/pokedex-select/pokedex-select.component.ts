@@ -4,10 +4,10 @@ import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
 import { getFormattedGenerationName } from 'src/app/shared/utils/generations.utils';
 
 @Component({
-  selector: 'app-pokedex-version-group-select',
-  templateUrl: './pokedex-version-group-select.component.html',
+  selector: 'app-pokedex-select',
+  templateUrl: './pokedex-select.component.html',
 })
-export class PokedexVersionGroupSelectComponent implements OnInit {
+export class PokedexSelectComponent implements OnInit {
   public versionGroups: VersionGroup[] = [];
 
   constructor(private pokeAPIService: PokeAPIService) {}

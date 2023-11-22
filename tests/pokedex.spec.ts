@@ -6,8 +6,6 @@ test('When the user is on the pokedex page', async ({ page }) => {
   const header = page.getByText('Select Pokédex Version');
   await expect(header).toBeVisible();
   await expect
-    .poll(async () =>
-      page.locator('.pokedex-version-group-select-item').count()
-    )
+    .poll(async () => page.locator('.pokedex-select-item').count())
     .toBeGreaterThanOrEqual(22);
 });
