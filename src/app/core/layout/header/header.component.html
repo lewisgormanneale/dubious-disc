@@ -1,16 +1,73 @@
-<header
-  class="flex justify-start items-center px-2 w-screen bg-shaymin border-b border-zinc-800"
-  style="height: 64px"
->
-  <a class="flex gap-1 justify-center items-center" [routerLink]="'.'">
-    <img
-      src="../../assets/images/gracidea.png"
-      alt="gracidea logo"
-      width="30"
-      height="30"
-    />
-    <span class="font-righteous text-3xl text-zinc-800 uppercase">
-      Gracidea
-    </span>
-  </a>
+<header class="bg-shaymin border-b border-zinc-800">
+  <div
+    class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8"
+  >
+    <a class="flex items-center gap-1" href="/">
+      <img src="../../assets/images/gracidea.png" width="50" height="50" />
+      <span class="font-righteous text-3xl text-zinc-800 uppercase">
+        Gracidea
+      </span>
+    </a>
+
+    <div class="flex flex-1 items-center justify-end md:justify-between">
+      <nav aria-label="Global" class="hidden md:block">
+        <ul class="flex items-center gap-6 text-sm text-zinc-800">
+          <li>
+            <a class="transition hover:text-gray-500/75" href="/"> Tools </a>
+          </li>
+          <li>
+            <a class="transition hover:text-gray-500/75" href="/"> Games </a>
+          </li>
+          <li>
+            <a class="transition hover:text-gray-500/75" href="/"> Videos </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <div class="sm:flex sm:gap-4">
+          <div>
+            <input
+              type="text"
+              placeholder="Search"
+              class="hidden px-4 py-2 border rounded-md text-zinc-800 focus:outline-none focus:border-blue-500 md:block"
+            />
+          </div>
+          <a
+            class="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
+            href="/"
+          >
+            Login
+          </a>
+
+          <a
+            class="hidden rounded-md px-5 py-2.5 text-sm font-medium transition bg-gray-800 text-white hover:text-white/75 sm:block"
+            href="/"
+          >
+            Register
+          </a>
+        </div>
+
+        <button
+          class="block rounded p-2.5 transition bg-gray-800 text-white hover:text-white/75 md:hidden"
+        >
+          <span class="sr-only">Toggle menu</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
 </header>
