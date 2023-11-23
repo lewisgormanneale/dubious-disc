@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         shaymin: "#30c767",
+        shaymin_darker: "#2bae5a",
         male: "#6890cb",
         female: "#f15d69",
         genderless: "#4fc337",
