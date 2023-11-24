@@ -1,4 +1,4 @@
-<li class="group h-full w-full z-50">
+<li class="group h-full w-full z-50 sm:relative">
   <button
     class="flex items-center justify-center transition h-full px-4 font-sans-semi-bold text-sm text-zinc-800 hover:bg-shaymin_darker active:bg-shaymin_darker"
   >
@@ -6,7 +6,7 @@
   </button>
   <div
     *ngIf="navItem.sections && navItem.sections.length > 0"
-    class="absolute hidden left-0 border-zinc-800 w-screen group-hover:block overflow-y-auto max-h-[60vh]"
+    class="absolute invisible right-0 bg-black border-zinc-800 w-screen sm:w-64 group-hover:visible overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform scale-y-0 group-hover:scale-y-100"
   >
     <ng-container *ngFor="let section of navItem.sections">
       <div class="">

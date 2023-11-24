@@ -24,10 +24,6 @@ export const headerNavItems: NavigationItem[] = [
             label: 'Pokédex',
             link: '/pokedex',
           },
-          {
-            label: 'Team Builder',
-            link: '/',
-          },
         ],
       },
       {
