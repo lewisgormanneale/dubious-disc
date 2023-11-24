@@ -1,23 +1,21 @@
 <header class="fixed top-0 z-50 w-screen bg-shaymin border-b border-zinc-800">
   <div
-    class="mx-auto flex flex-wrap sm:flex-nowrap min-h-14 max-w-screen-xl items-center px-4 sm:gap-8 sm:px-6 lg:px-8"
+    class="flex flex-wrap sm:flex-nowrap max-w-screen-xl items-center sm:gap-8"
   >
     <a
-      class="flex justify-center items-center gap-1 h-14 w-full sm:w-auto"
+      class="flex justify-center items-center gap-1 h-12 w-full sm:w-auto sm:pl-4"
       href="/"
     >
-      <img src="../../assets/images/gracidea.png" width="50" height="50" />
+      <img src="../../assets/images/gracidea.png" width="40" height="40" />
       <span class="font-righteous text-3xl text-zinc-800 uppercase">
         Gracidea
       </span>
     </a>
     <nav
       aria-label="Global"
-      class="flex flex-1 justify-start items-center h-14 w-full"
+      class="flex flex-1 justify-center sm:justify-start items-center h-12 w-full"
     >
-      <ul
-        class="flex justify-center sm:justify-start items-center h-full w-full text-sm font-sans text-zinc-800"
-      >
+      <ul class="flex justify-center sm:justify-start items-center h-full">
         <ng-container *ngFor="let navItem of navItems">
           <app-header-dropdown-item
             [navItem]="navItem"
