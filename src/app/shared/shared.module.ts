@@ -9,6 +9,8 @@ import { TypeBoxComponent } from './components/type-box/type-box.component';
 import { StatsComponent } from './components/stats/stats.component';
 import { FormsModule } from '@angular/forms';
 import { DataComponent } from './components/data/data.component';
+import { HeaderDropdownItemComponent } from './components/header-dropdown-item/header-dropdown-item.component';
+
 @NgModule({
   declarations: [
     DecimetersToFeetAndInchesPipe,
@@ -19,6 +21,7 @@ import { DataComponent } from './components/data/data.component';
     TypeBoxComponent,
     StatsComponent,
     DataComponent,
+    HeaderDropdownItemComponent,
   ],
   imports: [CommonModule, FormsModule],
   exports: [
@@ -30,6 +33,7 @@ import { DataComponent } from './components/data/data.component';
     TypeBoxComponent,
     StatsComponent,
     DataComponent,
+    HeaderDropdownItemComponent,
   ],
 })
 export class SharedModule {}

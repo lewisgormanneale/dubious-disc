@@ -1,0 +1,31 @@
+<li class="h-full">
+  <div class="relative group h-full">
+    <button
+      class="flex items-center justify-center transition h-full px-4 hover:bg-shaymin_darker active:bg-shaymin_darker"
+    >
+      {{ navItem.label }}
+    </button>
+    <div
+      *ngIf="navItem.sections && navItem.sections.length > 0"
+      class="absolute left-0 hidden space-y-2 bg-white text-gray-800 border border-gray-200 divide-y divide-gray-100 origin-top-left group-hover:block"
+    >
+      <ng-container *ngFor="let section of navItem.sections">
+        <div class="py-2 px-4">
+          <div class="text-sm font-bold text-gray-700">
+            {{ section.sectionTitle }}
+          </div>
+          <ul class="space-y-1">
+            <li *ngFor="let option of section.options">
+              <a
+                href="{{ option.link }}"
+                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                {{ option.label }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</li>
