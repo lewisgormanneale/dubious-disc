@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-3 gap-4 m-4 max-w-screen-2xl">
+    <div class="grid grid-cols-2 xl:grid-cols-3 gap-4 m-4 max-w-screen-2xl">
       <div class="col-span-2">
         <h2
           class="flex justify-center font-sans-semi-bold bg-shaymin rounded-t text-zinc-800 p-2 border-b border-zinc-800"
@@ -45,12 +45,28 @@
         </div>
         <ng-container> </ng-container>
       </div>
-      <div class="col-span-1 rounded bg-zinc-950">
-        <h3
-          class="flex justify-center font-sans-semi-bold bg-shaymin rounded-t text-zinc-800 p-2 border-b border-zinc-800"
-        >
-          Quick Links
-        </h3>
+      <div class="col-span-1">
+        <div class="bg-zinc-950 rounded">
+          <h3
+            class="flex justify-center font-sans-semi-bold bg-shaymin rounded-t text-zinc-800 p-2 border-b border-zinc-800"
+          >
+            Quick Links
+          </h3>
+          <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 w-full p-4">
+            <app-quick-link
+              [url]="'/pokedex'"
+              [imageUrl]="'assets/images/bdsp-pokedex-icon.png'"
+              [title]="'Pokédex'"
+              [description]="'View Pokémon data from any main series game'"
+            ></app-quick-link>
+            <app-quick-link></app-quick-link>
+            <app-quick-link></app-quick-link>
+            <app-quick-link></app-quick-link>
+            <app-quick-link></app-quick-link>
+            <app-quick-link></app-quick-link>
+          </div>
+          <div class="h-full w-full bg-shaymin"></div>
+        </div>
       </div>
     </div>
   </div>
