@@ -15,8 +15,14 @@ export class SanityService {
     useCdn: true,
   });
 
+  private builder = imageUrlBuilder(this.client);
+
   async getPosts() {
     const query = '*[_type == "post"]';
     return this.client.fetch(query);
+  }
+
+  async urlFor(source: string) {
+    return this.builder.image(source);
   }
 }
