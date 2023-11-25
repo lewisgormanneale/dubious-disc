@@ -1,7 +1,45 @@
-<div class="flex flex-col justify-start items-center">
-  <div class="max-w-screen-2xl">
-    <ng-container *ngIf="posts && posts.length > 0">
-      <app-post-card *ngFor="let post of posts" [post]="post"></app-post-card>
-    </ng-container>
+<div class="flex flex-col justify-start items-center h-full w-screen">
+  <div class="flex flex-col justify-start items-center h-full w-full">
+    <div
+      class="h-72 flex items-end w-screen"
+      style="
+        background-image: url('assets/images/gracidea-field-close.png');
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <div class="w-full pr-4 pb-4">
+        <div class="flex flex-col items-end max-w-screen-2xl">
+          <div
+            class="bg-shaymin_darker max-w-fit p-1 flex flex-col items-end mb-1 rounded border-zinc-800 border-2 cursor-default"
+          >
+            <span class="white-outlined text-right">Welcome to</span>
+            <h2 class="text-4xl font-righteous uppercase white-outlined">
+              Gracidea
+            </h2>
+          </div>
+          <span
+            class="bg-zinc-950 p-1 max-w-[50%] text-sm rounded cursor-default"
+            >Pokémon-related Tools, Resources, News and More</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-3 gap-4 my-4 max-w-screen-2xl">
+      <div class="col-span-2 border-pink-400 border-2 rounded-xl">
+        <h2 class="flex justify-center text-2xl font-sans-bold">
+          News & Updates
+        </h2>
+        <ng-container *ngIf="posts && posts.length > 0">
+          <app-post-card
+            *ngFor="let post of posts"
+            [post]="post"
+          ></app-post-card>
+        </ng-container>
+      </div>
+      <div class="col-span-1 border-pink-400 border-2 rounded-xl">
+        <h3 class="flex justify-center text-2xl font-sans-bold">Quick Links</h3>
+      </div>
+    </div>
   </div>
 </div>
