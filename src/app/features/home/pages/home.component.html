@@ -27,20 +27,30 @@
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-3 gap-4 my-4 max-w-screen-2xl">
-      <div class="col-span-2 border-pink-400 border-2 rounded-xl">
-        <h2 class="flex justify-center text-2xl font-sans-bold">
+    <div class="grid grid-cols-3 gap-4 m-4 max-w-screen-2xl">
+      <div class="col-span-2">
+        <h2
+          class="flex justify-center font-sans-semi-bold bg-shaymin rounded-t text-zinc-800 p-2 border-b border-zinc-800"
+        >
           News & Updates
         </h2>
-        <ng-container *ngIf="posts && posts.length > 0">
+        <div
+          *ngIf="posts && posts.length > 0"
+          class="flex flex-col gap-3 items-center p-4 bg-zinc-950"
+        >
           <app-post-card
             *ngFor="let post of posts"
             [post]="post"
           ></app-post-card>
-        </ng-container>
+        </div>
+        <ng-container> </ng-container>
       </div>
-      <div class="col-span-1 border-pink-400 border-2 rounded-xl">
-        <h3 class="flex justify-center text-2xl font-sans-bold">Quick Links</h3>
+      <div class="col-span-1 rounded bg-zinc-950">
+        <h3
+          class="flex justify-center font-sans-semi-bold bg-shaymin rounded-t text-zinc-800 p-2 border-b border-zinc-800"
+        >
+          Quick Links
+        </h3>
       </div>
     </div>
   </div>
