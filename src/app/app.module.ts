@@ -9,6 +9,7 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { PokedexModule } from './features/pokedex/pokedex.module';
 import { PokemonModule } from './features/pokemon/pokemon.module';
+import { HomeModule } from './features/home/home.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,6 +19,7 @@ import { PokemonModule } from './features/pokemon/pokemon.module';
     SharedModule,
     HeaderComponent,
     FooterComponent,
+    HomeModule,
     PokedexModule,
     PokemonModule,
     AppRoutingModule,

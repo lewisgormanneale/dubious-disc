@@ -1,0 +1,40 @@
+<li class="group h-full w-full z-50 sm:relative">
+  <button
+    (click)="toggleDropdown()"
+    [ngClass]="{
+      'bg-shaymin_darker': isOpen,
+      'bg-shaymin': !isOpen,
+    }"
+    class="flex items-center justify-center rounded-t sm:rounded-none transition h-full px-4 font-sans-semi-bold text-sm hover:bg-shaymin_darker text-zinc-800"
+  >
+    {{ navItem.label }}
+  </button>
+  <div
+    *ngIf="navItem.sections && navItem.sections.length > 0"
+    [ngClass]="{
+      'visible, scale-y-100': isOpen,
+      'invisible, scale-y-0': !isOpen,
+    }"
+    class="absolute right-0 bg-zinc-950 sm:rounded-b border-shaymin border-[1px] mr-[1px] border-t-0 w-screen sm:w-80 overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform"
+  >
+    <ng-container *ngFor="let section of navItem.sections">
+      <div class="">
+        <div
+          class="text-sm font-sans-semi-bold px-2 py-1 bg-shaymin_darker text-zinc-800"
+        >
+          {{ section.sectionTitle }}
+        </div>
+        <ul class="space-y-1">
+          <li *ngFor="let option of section.options">
+            <a
+              href="{{ option.link }}"
+              class="block px-4 py-2 font-sans text-sm hover:bg-zinc-800"
+            >
+              {{ option.label }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </ng-container>
+  </div>
+</li>
