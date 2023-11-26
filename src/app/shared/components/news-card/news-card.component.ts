@@ -2,8 +2,8 @@ import { Component, Input, OnInit } from '@angular/core';
 import { SanityService } from 'src/app/core/services/sanity.service';
 
 @Component({
-  selector: 'app-post-card',
-  templateUrl: './post-card.component.html',
+  selector: 'app-news-card',
+  templateUrl: './news-card.component.html',
 })
 export class PostCardComponent implements OnInit {
   @Input() post: any = {} as any;

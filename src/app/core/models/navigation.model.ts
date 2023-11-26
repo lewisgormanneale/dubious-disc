@@ -22,7 +22,7 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokédex',
-            link: '/pokedex',
+            link: 'pokedex',
           },
         ],
       },
@@ -31,7 +31,7 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Team Builder',
-            link: '/team-builder',
+            link: 'team-builder',
           },
         ],
       },
@@ -45,7 +45,7 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokémon Scarlet & Violet',
-            link: '/scarlet-violet',
+            link: 'games/scarlet-violet',
           },
         ],
       },
@@ -54,15 +54,15 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokémon Sword & Shield',
-            link: '/sword-shield',
+            link: 'games/sword-shield',
           },
           {
             label: 'Pokémon Brilliant Diamond & Shining Pearl',
-            link: '/brilliant-diamond-shining-pearl',
+            link: 'games/brilliant-diamond-shining-pearl',
           },
           {
             label: 'Pokémon Legends Arceus',
-            link: '/legends-arceus',
+            link: 'games/legends-arceus',
           },
         ],
       },
@@ -71,15 +71,15 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokémon Sun & Moon',
-            link: '/sun-moon',
+            link: 'games/sun-moon',
           },
           {
             label: 'Pokémon Ultra Sun & Ultra Moon',
-            link: '/ultra-sun-ultra-moon',
+            link: 'games/ultra-sun-ultra-moon',
           },
           {
             label: "Pokémon Let's Go Pikachu & Eevee",
-            link: '/lets-go',
+            link: 'games/lets-go',
           },
         ],
       },
@@ -88,11 +88,11 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokémon X & Y',
-            link: '/x-y',
+            link: 'games/x-y',
           },
           {
             label: 'Pokémon Omega Ruby & Alpha Sapphire',
-            link: '/omega-ruby-alpha-sapphire',
+            link: 'games/omega-ruby-alpha-sapphire',
           },
         ],
       },
@@ -101,11 +101,11 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokémon Black & White',
-            link: '/black-white',
+            link: 'games/black-white',
           },
           {
             label: 'Pokémon Black 2 & White 2',
-            link: '/black-2-white-2',
+            link: 'games/black-2-white-2',
           },
         ],
       },
@@ -114,15 +114,15 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokémon Diamond & Pearl',
-            link: '/diamond-pearl',
+            link: 'games/diamond-pearl',
           },
           {
             label: 'Pokémon Platinum',
-            link: '/platinum',
+            link: 'games/platinum',
           },
           {
             label: 'Pokémon HeartGold & SoulSilver',
-            link: '/heartgold-soulsilver',
+            link: 'games/heartgold-soulsilver',
           },
         ],
       },
@@ -131,15 +131,15 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokémon Ruby & Sapphire',
-            link: '/ruby-sapphire',
+            link: 'games/ruby-sapphire',
           },
           {
             label: 'Pokémon FireRed & LeafGreen',
-            link: '/firered-leafgreen',
+            link: 'games/firered-leafgreen',
           },
           {
             label: 'Pokémon Emerald',
-            link: '/emerald',
+            link: 'games/emerald',
           },
         ],
       },
@@ -148,11 +148,11 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokémon Gold & Silver',
-            link: '/gold-silver',
+            link: 'games/gold-silver',
           },
           {
             label: 'Pokémon Crystal',
-            link: '/crystal',
+            link: 'games/crystal',
           },
         ],
       },
@@ -161,11 +161,11 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokémon Red & Blue',
-            link: '/red-blue',
+            link: 'games/red-blue',
           },
           {
             label: 'Pokémon Yellow',
-            link: '/yellow',
+            link: 'games/yellow',
           },
         ],
       },
@@ -188,11 +188,11 @@ export const headerNavItems: NavigationItem[] = [
   //       options: [
   //         {
   //           label: 'Paldean Winds',
-  //           link: '/paldean-winds',
+  //           link: 'videos/paldean-winds',
   //         },
   //         {
   //           label: 'Twilight Wings',
-  //           link: '/twilight-wings',
+  //           link: 'videos/twilight-wings',
   //         },
   //       ],
   //     },
@@ -206,7 +206,7 @@ export const headerNavItems: NavigationItem[] = [
   //       options: [
   //         {
   //           label: 'About/Contact Us',
-  //           link: '/about',
+  //           link: 'about',
   //         },
   //       ],
   //     },

@@ -12,7 +12,8 @@ const routes: Routes = [
   { path: 'pokedex', component: PokedexSelectComponent },
   { path: 'pokedex/:id', component: PokedexComponent },
   { path: 'pokemon/:id', component: PokemonComponent },
-  { path: 'games/:id', component: TeamBuilderComponent },
+  { path: 'games/:slug', component: TeamBuilderComponent },
+  { path: 'news/:slug', component: TeamBuilderComponent },
   { path: 'team-builder', component: TeamBuilderComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
