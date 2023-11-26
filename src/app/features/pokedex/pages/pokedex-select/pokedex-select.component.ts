@@ -16,9 +16,11 @@ export class PokedexSelectComponent implements OnInit {
     this.pokeAPIService
       .getAllVersionGroups()
       .subscribe((versionGroups: any) => {
-        this.versionGroups = versionGroups.filter(
-          (versionGroup: VersionGroup) => versionGroup.pokedexes.length > 0
-        );
+        this.versionGroups = versionGroups
+          .reverse()
+          .filter(
+            (versionGroup: VersionGroup) => versionGroup.pokedexes.length > 0
+          );
       });
   }
 
