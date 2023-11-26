@@ -2,11 +2,7 @@
   *ngIf="pokemon"
   class="flex flex-col rounded w-full bg-zinc-100 border border-zinc-800"
 >
-  <div
-    class="font-sans-semi-bold text-zinc-800 bg-shaymin p-2 rounded-t border-b border-zinc-800"
-  >
-    Pokédex Data
-  </div>
+  <app-container-header [title]="'Pokédex Data'"></app-container-header>
   <ul class="w-full flex flex-col text-zinc-800 rounded-b">
     <li class="border-y-zinc-300 border-b p-2">
       <span class="font-sans-semi-bold">Classification:</span>

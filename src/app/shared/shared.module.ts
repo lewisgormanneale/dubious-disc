@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { DataComponent } from './components/data/data.component';
 import { HeaderDropdownItemComponent } from './components/header-dropdown-item/header-dropdown-item.component';
 import { PostCardComponent } from './components/post-card/post-card.component';
+import { ContainerHeaderComponent } from './components/container-header/container-header.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { PostCardComponent } from './components/post-card/post-card.component';
     DataComponent,
     PostCardComponent,
     HeaderDropdownItemComponent,
+    ContainerHeaderComponent,
   ],
   imports: [CommonModule, FormsModule],
   exports: [
@@ -37,6 +39,7 @@ import { PostCardComponent } from './components/post-card/post-card.component';
     DataComponent,
     HeaderDropdownItemComponent,
     PostCardComponent,
+    ContainerHeaderComponent,
   ],
 })
 export class SharedModule {}

@@ -1,9 +1,5 @@
 <div class="flex flex-col rounded w-full bg-zinc-100 border border-zinc-800">
-  <div
-    class="font-sans-semi-bold text-zinc-800 bg-shaymin p-2 rounded-t border-b border-zinc-800"
-  >
-    Pokémon Base Stats
-  </div>
+  <app-container-header [title]="'Pokémon Base Stats'"></app-container-header>
   <ul class="w-full flex flex-col text-zinc-800 rounded-b text-sm">
     <li
       *ngFor="let stat of stats"

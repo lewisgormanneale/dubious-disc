@@ -31,11 +31,7 @@
       class="grid grid-cols-2 xl:grid-cols-3 gap-4 m-4 mx-8 max-w-screen-2xl"
     >
       <div class="col-span-2">
-        <h2
-          class="flex justify-center font-sans-semi-bold bg-shaymin rounded-t text-zinc-800 p-2 border-b border-zinc-800"
-        >
-          News & Updates
-        </h2>
+        <app-container-header [title]="'News & Updates'"></app-container-header>
         <div
           *ngIf="posts && posts.length > 0"
           class="flex flex-col gap-3 items-center p-4 bg-zinc-950"
@@ -49,11 +45,7 @@
       </div>
       <div class="col-span-2 lg:col-span-1">
         <div class="bg-zinc-950 rounded">
-          <h3
-            class="flex justify-center font-sans-semi-bold bg-shaymin rounded-t text-zinc-800 p-2 border-b border-zinc-800"
-          >
-            Quick Links
-          </h3>
+          <app-container-header [title]="'Quick Links'"></app-container-header>
           <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 w-full p-4">
             <app-quick-link
               [url]="'/pokedex'"
