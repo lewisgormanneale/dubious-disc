@@ -12,6 +12,7 @@ import { PokemonModule } from './features/pokemon/pokemon.module';
 import { HomeModule } from './features/home/home.module';
 import { TeamBuilderModule } from './features/team-builder/team-builder.module';
 import { NewsModule } from './features/news/news.module';
+import { GamesModule } from './features/games/games.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -27,6 +28,7 @@ import { NewsModule } from './features/news/news.module';
     AppRoutingModule,
     TeamBuilderModule,
     NewsModule,
+    GamesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
