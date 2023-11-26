@@ -171,45 +171,45 @@ export const headerNavItems: NavigationItem[] = [
       },
     ],
   },
-  {
-    label: 'Videos',
-    sections: [
-      {
-        sectionTitle: 'Watch Online',
-        options: [
-          {
-            label: 'Video Hub',
-            link: '/videos',
-          },
-        ],
-      },
-      {
-        sectionTitle: 'Series',
-        options: [
-          {
-            label: 'Paldean Winds',
-            link: '/paldean-winds',
-          },
-          {
-            label: 'Twilight Wings',
-            link: '/twilight-wings',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    label: 'Other',
-    sections: [
-      {
-        sectionTitle: 'Community',
-        options: [
-          {
-            label: 'About/Contact Us',
-            link: '/about',
-          },
-        ],
-      },
-    ],
-  },
+  // {
+  //   label: 'Videos',
+  //   sections: [
+  //     {
+  //       sectionTitle: 'Watch Online',
+  //       options: [
+  //         {
+  //           label: 'Video Hub',
+  //           link: '/videos',
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       sectionTitle: 'Series',
+  //       options: [
+  //         {
+  //           label: 'Paldean Winds',
+  //           link: '/paldean-winds',
+  //         },
+  //         {
+  //           label: 'Twilight Wings',
+  //           link: '/twilight-wings',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   label: 'Other',
+  //   sections: [
+  //     {
+  //       sectionTitle: 'Community',
+  //       options: [
+  //         {
+  //           label: 'About/Contact Us',
+  //           link: '/about',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
