@@ -1,6 +1,6 @@
 module.exports = {
   preset: "jest-preset-angular",
-  modulePathIgnorePatterns: ["<rootDir>/tests", "<rootDir>/tests-examples"],
+  modulePathIgnorePatterns: ["<rootDir>/playwright"],
   moduleNameMapper: {
     "^src/(.*)$": "<rootDir>/src/$1",
   },

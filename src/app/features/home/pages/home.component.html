@@ -1,7 +1,7 @@
-<div class="flex flex-col justify-start items-center h-full w-screen">
+<div class="flex flex-col justify-start items-center h-full w-full">
   <div class="flex flex-col justify-start items-center h-full w-full">
     <div
-      class="h-72 flex items-end w-screen"
+      class="h-72 flex items-end w-full"
       style="
         background-image: url('assets/images/gracidea-field-close.png');
         background-size: cover;
@@ -30,44 +30,40 @@
     <div
       class="grid grid-cols-2 xl:grid-cols-3 gap-4 m-4 mx-8 max-w-screen-2xl"
     >
-      <div class="col-span-2">
-        <h2
-          class="flex justify-center font-sans-semi-bold bg-shaymin rounded-t text-zinc-800 p-2 border-b border-zinc-800"
-        >
-          News & Updates
-        </h2>
+      <div class="col-span-2 bg-zinc-950 rounded">
+        <app-container-header [title]="'News & Updates'"></app-container-header>
         <div
           *ngIf="posts && posts.length > 0"
-          class="flex flex-col gap-3 items-center p-4 bg-zinc-950"
+          class="flex flex-col gap-3 items-center p-4"
         >
-          <app-post-card
+          <app-news-card
             *ngFor="let post of posts"
             [post]="post"
-          ></app-post-card>
+          ></app-news-card>
         </div>
         <ng-container> </ng-container>
       </div>
       <div class="col-span-2 lg:col-span-1">
         <div class="bg-zinc-950 rounded">
-          <h3
-            class="flex justify-center font-sans-semi-bold bg-shaymin rounded-t text-zinc-800 p-2 border-b border-zinc-800"
-          >
-            Quick Links
-          </h3>
+          <app-container-header [title]="'Quick Links'"></app-container-header>
           <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 w-full p-4">
             <app-quick-link
               [url]="'/pokedex'"
               [imageUrl]="'assets/images/bdsp-pokedex-icon.png'"
               [title]="'Pokédex'"
-              [description]="'View Pokémon data from any main series game'"
+              [description]="'View data from any main series game'"
+            ></app-quick-link>
+            <app-quick-link
+              [url]="'/team-builder'"
+              [imageUrl]="'assets/images/shaymin-land.png'"
+              [title]="'Team Builder'"
+              [description]="'Plan a team for a playthrough'"
             ></app-quick-link>
             <app-quick-link></app-quick-link>
             <app-quick-link></app-quick-link>
             <app-quick-link></app-quick-link>
             <app-quick-link></app-quick-link>
-            <app-quick-link></app-quick-link>
           </div>
-          <div class="h-full w-full bg-shaymin"></div>
         </div>
       </div>
     </div>

@@ -1,72 +1,32 @@
-<footer class="bg-zinc-950">
-  <div
-    class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24"
-  >
-    <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
-      <a
-        class="inline-block rounded-full bg-shaymin p-2 text-white shadow transition hover:bg-shaymin_darker sm:p-3 lg:p-4"
-        (click)="scrollToTop()"
-      >
-        <span class="sr-only">Back to top</span>
-
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </a>
-    </div>
-
-    <div class="lg:flex lg:items-end lg:justify-between">
-      <div>
-        <div class="flex justify-center lg:justify-start">
-          <a
-            class="flex justify-center items-center gap-1 h-12 w-full"
-            href="/"
-          >
-            <img
-              src="../../assets/images/gracidea.png"
-              width="40"
-              height="40"
-            />
-            <span class="font-righteous text-xl uppercase text-zinc-500">
-              Gracidea
-            </span>
-          </a>
-        </div>
-
-        <p
-          class="text-sm mx-auto mt-4 max-w-md text-center leading-relaxed text-zinc-500 lg:text-left"
-        >
-          Made with 🌸 for fun and coding practice. You can report bugs and
-          suggest features for Gracidea on the
-          <a
-            href="https://github.com/lewisgormanneale/gracidea"
-            rel="noreferrer"
-            target="_blank"
-            class="underline text-shaymin_darker transition hover:text-shaymin"
-            >GitHub repository</a
-          >. Check out my
-          <a
-            href="https://lewisgormanneale.com/"
-            rel="noreferrer"
-            target="_blank"
-            class="underline text-shaymin_darker transition hover:text-shaymin"
-            >website</a
-          >
-          for more of my projects.
-        </p>
-      </div>
-    </div>
-    <p class="mt-4 text-center text-sm text-zinc-500 lg:text-right">
-      Pokémon images & names © 1995-2023 Nintendo/Game Freak.
-    </p>
-  </div>
+<footer class="flex flex-col justify-center items-center bg-zinc-950 p-4 gap-4">
+  <p class="text-sm max-w-md text-center leading-relaxed text-zinc-500">
+    Made with 🌸 for fun and coding practice. You can report bugs and suggest
+    features for Gracidea on the
+    <a
+      href="https://github.com/lewisgormanneale/gracidea"
+      rel="noreferrer"
+      target="_blank"
+      class="underline text-shaymin_darker transition hover:text-shaymin"
+      >GitHub repository</a
+    >. Check out my
+    <a
+      href="https://lewisgormanneale.com/"
+      rel="noreferrer"
+      target="_blank"
+      class="underline text-shaymin_darker transition hover:text-shaymin"
+      >website</a
+    >
+    for more of my projects.
+  </p>
+  <p class="text-center text-sm text-zinc-600 h-20 sm:h-6">
+    Pokémon images & names © 1995-2023 Nintendo/Game Freak. Pokémon data thanks
+    to
+    <a
+      href="https://pokeapi.co/"
+      rel="noreferrer"
+      target="_blank"
+      class="underline text-shaymin_darker transition hover:text-shaymin"
+      >PokéAPI</a
+    >.
+  </p>
 </footer>

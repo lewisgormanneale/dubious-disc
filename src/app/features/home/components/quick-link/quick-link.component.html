@@ -1,11 +1,11 @@
 <a
-  class="flex flex-col justify-center items-center rounded-xl h-full border bg-zinc-800 border-zinc-700 p-4 hover:border-zinc-400 hover:ring-1 hover:ring-zinc-400 focus:outline-none focus:ring"
-  href="{{ url }}"
+  class="flex flex-col justify-center items-center rounded-xl cursor-pointer h-full border bg-zinc-800 border-zinc-700 p-4 hover:border-zinc-400 hover:ring-1 hover:ring-zinc-400 focus:outline-none focus:ring"
+  routerLink="{{ url }}"
 >
   <img *ngIf="imageUrl" src="{{ imageUrl }}" height="50" width="50" />
   <h2 class="mt-2 font-bold w-full">{{ title }}</h2>
 
-  <p class="hidden sm:mt-1 sm:block sm:text-xs">
+  <p class="hidden sm:mt-1 sm:block sm:text-xs w-full">
     {{ description }}
   </p>
 </a>

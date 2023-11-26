@@ -13,7 +13,6 @@ export class HomeComponent {
   ngOnInit(): void {
     this.sanityService.getPosts().then((posts) => {
       this.posts = posts;
-      console.log(this.posts);
     });
   }
 }

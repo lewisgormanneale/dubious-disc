@@ -10,7 +10,9 @@ import { StatsComponent } from './components/stats/stats.component';
 import { FormsModule } from '@angular/forms';
 import { DataComponent } from './components/data/data.component';
 import { HeaderDropdownItemComponent } from './components/header-dropdown-item/header-dropdown-item.component';
-import { PostCardComponent } from './components/post-card/post-card.component';
+import { PostCardComponent } from './components/news-card/news-card.component';
+import { ContainerHeaderComponent } from './components/container-header/container-header.component';
+import { Router, RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -24,8 +26,9 @@ import { PostCardComponent } from './components/post-card/post-card.component';
     DataComponent,
     PostCardComponent,
     HeaderDropdownItemComponent,
+    ContainerHeaderComponent,
   ],
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterModule],
   exports: [
     DecimetersToFeetAndInchesPipe,
     DecimetersToPoundsPipe,
@@ -37,6 +40,7 @@ import { PostCardComponent } from './components/post-card/post-card.component';
     DataComponent,
     HeaderDropdownItemComponent,
     PostCardComponent,
+    ContainerHeaderComponent,
   ],
 })
 export class SharedModule {}

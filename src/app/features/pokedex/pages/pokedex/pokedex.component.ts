@@ -16,11 +16,12 @@ import { getFormattedPokedexName } from 'src/app/shared/utils/pokedexes.utils';
   templateUrl: './pokedex.component.html',
 })
 export class PokedexComponent implements OnInit {
-  private ngUnsubscribe = new Subject<void>();
   public isMenuCollapsed: boolean = true;
 
   public pokedexes: Pokedex[] = [] as Pokedex[];
+  public urlValue: string = '';
   public formattedVersionGroupName: string = '';
+  private ngUnsubscribe = new Subject<void>();
 
   constructor(
     private pokeAPIService: PokeAPIService,
@@ -30,10 +31,12 @@ export class PokedexComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
-      const urlValue = params.get('id') || '';
-      this.formattedVersionGroupName = getFormattedVersionGroupName(urlValue);
+      this.urlValue = params.get('id') || '';
+      this.formattedVersionGroupName = getFormattedVersionGroupName(
+        this.urlValue
+      );
       this.pokeAPIService
-        .getVersionGroupByName(urlValue)
+        .getVersionGroupByName(this.urlValue)
         .pipe(
           switchMap((versionGroup: VersionGroup) => {
             return this.getAllPokedexes(versionGroup.pokedexes);

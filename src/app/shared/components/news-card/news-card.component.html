@@ -20,7 +20,7 @@
 
   <div class="flex flex-1 flex-col justify-between">
     <div class="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
-      <a href="#">
+      <a [routerLink]="['/', 'news', post.slug.current]">
         <h3 class="font-bold uppercase">{{ post.title }}</h3>
       </a>
 
@@ -31,7 +31,7 @@
 
     <div class="sm:flex sm:items-end sm:justify-end">
       <a
-        href="#"
+        [routerLink]="['/', 'news', post.slug.current]"
         class="block bg-shaymin px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-shaymin_darker rounded-br"
       >
         View Full Post

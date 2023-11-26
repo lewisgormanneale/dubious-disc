@@ -30,7 +30,7 @@ export class PokedexSelectComponent implements OnInit {
     const generationNumbers = this.versionGroups.map(
       (group: VersionGroup) => group.generation.name
     );
-    return Array.from(new Set(generationNumbers));
+    return Array.from(new Set(generationNumbers)).reverse();
   }
 
   getVersionGroupsByGeneration(generation: string): VersionGroup[] {

@@ -1,34 +1,68 @@
-<div class="flex flex-col bg-dark">
+<div class="flex flex-col justify-start items-center w-full h-full">
   <div
-    class="flex items-center h-16 w-full px-4 mb-4 gap-4 border-b-[1px] border-zinc-800 bg-black"
+    class="grid grid-cols-2 xl:grid-cols-3 gap-2 m-4 max-w-screen-2xl h-full"
   >
-    <button
-      class="bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
-      (click)="navigateToVersionSelect()"
+    <div
+      class="col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 sticky top-0 z-30 xl:relative bg-zinc-900 py-2 xl:py-0"
     >
-      Select Game
-    </button>
-  </div>
-  <div class="flex flex-col">
-    <h2 class="font-sans-bold text-3xl mb-3 mx-4">
-      {{ this.formattedVersionGroupName }} Pokédex
-    </h2>
-    <ng-container *ngFor="let pokedex of pokedexes">
-      <div class="flex flex-col rounded mx-4 py-5 px-2 bg-zinc-950 mb-5">
-        <h3
-          *ngIf="pokedexes.length > 1"
-          class="text-2xl mb-3 mx-3 text-center font-sans-semi-bold"
-        >
-          {{ getFormattedPokedexName(pokedex.name) }}
-        </h3>
-        <div class="flex flex-wrap gap-2 justify-center">
-          <app-pokedex-list-item
-            *ngFor="let pokemon of pokedex.pokemon_entries"
-            [pokemon]="pokemon"
-            (click)="onPokemonClick(pokemon)"
-          ></app-pokedex-list-item>
+      <div class="bg-zinc-950 rounded w-full hidden sm:block">
+        <app-container-header [title]="'Quick Links'"></app-container-header>
+        <div class="p-4 flex gap-2 justify-between">
+          <a
+            class="flex justify-center items-center text-center text-xs bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
+            routerLink="/pokedex"
+          >
+            Version Select
+          </a>
+          <a
+            class="flex justify-center items-center text-center text-xs bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
+            [routerLink]="['/', 'games', this.urlValue]"
+          >
+            Game Page
+          </a>
+          <a
+            class="flex justify-center items-center text-center text-xs bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
+            routerLink="/team-builder"
+          >
+            Team Builder
+          </a>
         </div>
       </div>
-    </ng-container>
+      <div class="bg-zinc-950 rounded w-full sticky top-2">
+        <app-container-header
+          [title]="'Filters & Options'"
+        ></app-container-header>
+        <div class="p-4 flex gap-2">
+          <button
+            class="flex justify-center items-center text-center text-xs bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
+          >
+            List View
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-span-2 bg-zinc-950 rounded h-full">
+      <app-container-header
+        class="mb-2"
+        [title]="formattedVersionGroupName + ' Pokédex'"
+      ></app-container-header>
+      <ng-container *ngFor="let pokedex of pokedexes">
+        <div class="flex flex-col rounded py-4 mb-5">
+          <h3
+            *ngIf="pokedexes.length > 1"
+            class="text-2xl mb-3 mx-3 text-center font-sans-semi-bold"
+          >
+            {{ getFormattedPokedexName(pokedex.name) }}
+          </h3>
+          <div class="flex flex-wrap gap-2 justify-center">
+            <app-pokedex-list-item
+              *ngFor="let pokemon of pokedex.pokemon_entries"
+              [pokemon]="pokemon"
+              (click)="onPokemonClick(pokemon)"
+            ></app-pokedex-list-item>
+          </div>
+        </div>
+      </ng-container>
+    </div>
   </div>
 </div>

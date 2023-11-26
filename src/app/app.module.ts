@@ -10,6 +10,9 @@ import { SharedModule } from './shared/shared.module';
 import { PokedexModule } from './features/pokedex/pokedex.module';
 import { PokemonModule } from './features/pokemon/pokemon.module';
 import { HomeModule } from './features/home/home.module';
+import { TeamBuilderModule } from './features/team-builder/team-builder.module';
+import { NewsModule } from './features/news/news.module';
+import { GamesModule } from './features/games/games.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -23,6 +26,9 @@ import { HomeModule } from './features/home/home.module';
     PokedexModule,
     PokemonModule,
     AppRoutingModule,
+    TeamBuilderModule,
+    NewsModule,
+    GamesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
