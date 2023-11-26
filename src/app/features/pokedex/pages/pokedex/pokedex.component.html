@@ -1,24 +1,13 @@
-<div class="flex flex-col justify-start items-center h-full w-screen">
-  <div class="grid grid-cols-2 xl:grid-cols-3 gap-4 m-4 max-w-screen-2xl">
+<div class="flex flex-col justify-start items-center w-full h-full">
+  <div
+    class="grid grid-cols-2 xl:grid-cols-3 gap-4 m-4 max-w-screen-2xl h-full"
+  >
     <div
-      class="col-span-2 xl:col-span-1 sticky top-12 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 transition"
+      class="col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 transition"
     >
-      <div class="bg-zinc-950 rounded w-full">
-        <app-container-header
-          [title]="'Filters & Options'"
-        ></app-container-header>
-        <div class="p-4 flex gap-2">
-          <button
-            class="bg-zinc-800 hover:bg-green-800 text-sm outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
-            (click)="navigateToVersionSelect()"
-          >
-            List View
-          </button>
-        </div>
-      </div>
       <div class="bg-zinc-950 rounded w-full hidden sm:block">
         <app-container-header [title]="'Quick Links'"></app-container-header>
-        <div class="p-4 flex gap-2 justify-around">
+        <div class="p-4 flex gap-2 justify-between">
           <button
             class="bg-zinc-800 hover:bg-green-800 text-sm outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
             (click)="navigateToVersionSelect()"
@@ -39,8 +28,21 @@
           </button>
         </div>
       </div>
+      <div class="bg-zinc-950 rounded w-full sticky top-18 sm:top-2">
+        <app-container-header
+          [title]="'Filters & Options'"
+        ></app-container-header>
+        <div class="p-4 flex gap-2">
+          <button
+            class="bg-zinc-800 hover:bg-green-800 text-sm outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
+            (click)="navigateToVersionSelect()"
+          >
+            List View
+          </button>
+        </div>
+      </div>
     </div>
-    <div class="col-span-2 bg-zinc-950 rounded">
+    <div class="col-span-2 bg-zinc-950 rounded h-full">
       <app-container-header
         class="mb-2"
         [title]="formattedVersionGroupName + ' Pokédex'"

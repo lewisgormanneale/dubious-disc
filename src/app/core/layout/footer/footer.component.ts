@@ -10,11 +10,7 @@ import { CommonModule, DOCUMENT } from '@angular/common';
   imports: [CoreModule, CommonModule, RouterLink],
 })
 export class FooterComponent {
-  constructor(@Inject(DOCUMENT) private document: Document) {}
+  constructor() {}
 
   ngOnInit(): void {}
-  scrollToTop() {
-    const options: ScrollIntoViewOptions = { behavior: 'smooth' };
-    this.document.body.scrollIntoView(options);
-  }
 }
