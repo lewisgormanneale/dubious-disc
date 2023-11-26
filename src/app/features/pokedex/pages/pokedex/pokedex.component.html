@@ -1,9 +1,9 @@
 <div class="flex flex-col justify-start items-center w-full h-full">
   <div
-    class="grid grid-cols-2 xl:grid-cols-3 gap-4 m-4 max-w-screen-2xl h-full"
+    class="grid grid-cols-2 xl:grid-cols-3 gap-2 m-4 max-w-screen-2xl h-full"
   >
     <div
-      class="col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 transition"
+      class="col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 sticky top-0 xl:relative bg-zinc-900 py-2 xl:py-0"
     >
       <div class="bg-zinc-950 rounded w-full hidden sm:block">
         <app-container-header [title]="'Quick Links'"></app-container-header>
@@ -28,7 +28,7 @@
           </button>
         </div>
       </div>
-      <div class="bg-zinc-950 rounded w-full sticky top-18 sm:top-2">
+      <div class="bg-zinc-950 rounded w-full sticky top-2 z-50">
         <app-container-header
           [title]="'Filters & Options'"
         ></app-container-header>
