@@ -8,24 +8,24 @@
       <div class="bg-zinc-950 rounded w-full hidden sm:block">
         <app-container-header [title]="'Quick Links'"></app-container-header>
         <div class="p-4 flex gap-2 justify-between">
-          <button
+          <a
             class="bg-zinc-800 hover:bg-green-800 text-sm outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
-            (click)="navigateToVersionSelect()"
+            routerLink="/pokedex"
           >
             < Version Select
-          </button>
-          <button
+          </a>
+          <a
             class="bg-zinc-800 hover:bg-green-800 text-sm outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
-            (click)="navigateToVersionSelect()"
+            [routerLink]="['/', 'games', this.urlValue]"
           >
             Game Page
-          </button>
-          <button
+          </a>
+          <a
             class="bg-zinc-800 hover:bg-green-800 text-sm outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
-            (click)="navigateToVersionSelect()"
+            routerLink="/team-builder"
           >
             Team Builder
-          </button>
+          </a>
         </div>
       </div>
       <div class="bg-zinc-950 rounded w-full sticky top-2 z-50">
@@ -35,7 +35,6 @@
         <div class="p-4 flex gap-2">
           <button
             class="bg-zinc-800 hover:bg-green-800 text-sm outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
-            (click)="navigateToVersionSelect()"
           >
             List View
           </button>

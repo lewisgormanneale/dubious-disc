@@ -31,7 +31,7 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Team Builder',
-            link: '/',
+            link: '/team-builder',
           },
         ],
       },
