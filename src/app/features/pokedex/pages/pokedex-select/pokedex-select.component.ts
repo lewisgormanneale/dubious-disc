@@ -16,11 +16,9 @@ export class PokedexSelectComponent implements OnInit {
     this.pokeAPIService
       .getAllVersionGroups()
       .subscribe((versionGroups: any) => {
-        this.versionGroups = versionGroups
-          .reverse()
-          .filter(
-            (versionGroup: VersionGroup) => versionGroup.pokedexes.length > 0
-          );
+        this.versionGroups = versionGroups.filter(
+          (versionGroup: VersionGroup) => versionGroup.pokedexes.length > 0
+        );
       });
   }
 
@@ -32,7 +30,7 @@ export class PokedexSelectComponent implements OnInit {
     const generationNumbers = this.versionGroups.map(
       (group: VersionGroup) => group.generation.name
     );
-    return Array.from(new Set(generationNumbers));
+    return Array.from(new Set(generationNumbers)).reverse();
   }
 
   getVersionGroupsByGeneration(generation: string): VersionGroup[] {
