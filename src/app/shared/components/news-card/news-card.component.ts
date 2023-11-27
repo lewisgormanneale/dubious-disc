@@ -21,7 +21,6 @@ export class PostCardComponent implements OnInit {
     this.publishedYear = date.getUTCFullYear();
     this.publishedMonth = date.toLocaleString('default', { month: 'short' });
     this.publishedDay = date.getUTCDate();
-    console.log(this.publishedYear, this.publishedMonth, this.publishedDay);
 
     this.sanityService.urlFor(this.post.mainImage).then((url) => {
       this.post.mainImage = url;

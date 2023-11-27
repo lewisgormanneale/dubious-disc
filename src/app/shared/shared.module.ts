@@ -13,6 +13,7 @@ import { HeaderDropdownItemComponent } from './components/header-dropdown-item/h
 import { PostCardComponent } from './components/news-card/news-card.component';
 import { ContainerHeaderComponent } from './components/container-header/container-header.component';
 import { Router, RouterModule } from '@angular/router';
+import { NewsContainerComponent } from './components/news-container/news-container.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { Router, RouterModule } from '@angular/router';
     PostCardComponent,
     HeaderDropdownItemComponent,
     ContainerHeaderComponent,
+    NewsContainerComponent,
   ],
   imports: [CommonModule, FormsModule, RouterModule],
   exports: [
@@ -41,6 +43,7 @@ import { Router, RouterModule } from '@angular/router';
     HeaderDropdownItemComponent,
     PostCardComponent,
     ContainerHeaderComponent,
+    NewsContainerComponent,
   ],
 })
 export class SharedModule {}

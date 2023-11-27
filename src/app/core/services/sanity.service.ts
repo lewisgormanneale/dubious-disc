@@ -22,6 +22,11 @@ export class SanityService {
     return this.client.fetch(query);
   }
 
+  async getPostsByCategory(category: string) {
+    const query = `*[_type == "post" && "${category}" match categories[]->slug.current]`;
+    return this.client.fetch(query);
+  }
+
   async urlFor(source: string) {
     return this.builder.image(source);
   }
