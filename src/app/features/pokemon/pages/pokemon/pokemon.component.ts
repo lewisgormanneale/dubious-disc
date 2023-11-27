@@ -75,12 +75,4 @@ export class PokemonComponent implements OnInit {
       ? 'justify-content-between'
       : 'justify-content-center';
   }
-
-  goBack(): void {
-    if (this.canGoBack) {
-      this.location.back();
-    } else {
-      this.router.navigate(['pokedex/1']);
-    }
-  }
 }
