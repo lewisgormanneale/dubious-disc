@@ -12,7 +12,7 @@ export class HomeComponent {
 
   ngOnInit(): void {
     this.sanityService.getPosts().then((posts) => {
-      this.posts = posts;
+      this.posts = posts.reverse();
     });
   }
 }
