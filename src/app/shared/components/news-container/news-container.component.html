@@ -1,0 +1,13 @@
+<div class="bg-zinc-950 rounded w-full">
+  <app-container-header
+    [title]="'News & Updates'"
+    class="text-sm"
+  ></app-container-header>
+  <div
+    *ngIf="posts && posts.length > 0"
+    class="flex flex-col gap-3 items-center p-4"
+  >
+    <app-news-card *ngFor="let post of posts" [post]="post"></app-news-card>
+  </div>
+  <ng-container> </ng-container>
+</div>

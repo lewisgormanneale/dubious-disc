@@ -1,79 +1,57 @@
-<div *ngIf="pokemon; else elseBlock">
-  <div
-    class="flex flex-col items-center min-h-screen p-2"
-    [style.background]="pokemon.pokemon_details.types | typeBackgroundGenerator"
-  >
-    <div class="absolute w-full z-40 px-6 top-20">
-      <button
-        class="bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
-        aria-label="Close"
-        (click)="goBack()"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="w-6 h-6"
+<div class="flex flex-col items-center p-4">
+  <div class="max-w-screen-xl bg-zinc-950 rounded p-4">
+    <div class="flex flex-col items-center">
+      <div class="flex flex-col items-center" style="max-width: 900px">
+        <section
+          class="flex flex-col md:flex-row items-center md:items-start gap-3 w-full"
         >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
-          />
-        </svg>
-      </button>
-    </div>
-    <div class="flex flex-col items-center mx-4 my-2" style="max-width: 900px">
-      <section
-        class="flex flex-col md:flex-row items-center md:items-start gap-3 w-full"
-      >
-        <div
-          class="text-center border border-zinc-800 w-full rounded"
-          style="max-width: 420px"
-        >
-          <img
-            src="{{
-            pokemon.pokemon_details.sprites.other?.['official-artwork']?.front_default
-              ? pokemon.pokemon_details.sprites.other?.['official-artwork']?.front_default
-              : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
-          }}"
-            alt="Pokemon Preview Image"
-            class="bg-zinc-200 rounded-t"
-          />
-          <div class="bg-shaymin border-t border-zinc-800">
-            <h2 class="p-2">
-              <span class="white-outlined text-xl">#{{ pokemon.id }}</span
-              ><span class="text-zinc-800 font-sans-bold text-xl">
-                {{ localisedPokemonName }}</span
-              >
-            </h2>
-          </div>
           <div
-            class="flex justify-between items-center px-2 bg-zinc-800"
-            [ngClass]="getTypeBoxLayout(pokemon.pokemon_details.types)"
-            style="height: 50px"
+            class="text-center border border-zinc-800 w-full rounded"
+            style="max-width: 420px"
+            [style.background]="
+              pokemon.pokemon_details.types | typeBackgroundGenerator
+            "
           >
-            <app-type-box
-              *ngFor="let type of pokemon.pokemon_details.types"
-              [type]="type"
-            ></app-type-box>
+            <img
+              src="{{
+                  pokemon.pokemon_details.sprites.other?.['official-artwork']?.front_default
+                    ? pokemon.pokemon_details.sprites.other?.['official-artwork']?.front_default
+                    : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
+                }}"
+              alt="Pokemon Preview Image"
+            />
+            <div class="bg-shaymin border-t border-zinc-800">
+              <h2 class="p-2">
+                <span class="white-outlined text-xl">#{{ pokemon.id }}</span
+                ><span class="text-zinc-800 font-sans-bold text-xl">
+                  {{ localisedPokemonName }}</span
+                >
+              </h2>
+            </div>
+            <div
+              class="flex justify-between items-center px-2 bg-zinc-800"
+              [ngClass]="getTypeBoxLayout(pokemon.pokemon_details.types)"
+              style="height: 50px"
+            >
+              <app-type-box
+                *ngFor="let type of pokemon.pokemon_details.types"
+                [type]="type"
+              ></app-type-box>
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-content-between w-full gap-3">
-          <app-data [pokemon]="pokemon"></app-data>
-          <app-stats [stats]="pokemon.pokemon_details.stats"></app-stats>
-        </div>
-      </section>
-      <section
-        class="flex flex-col md:flex-row flex-md-row justify-content-center align-items-start gap-3 my-3"
-      >
-        <app-descriptions
-          [descriptions]="pokemon.pokemon_species_details.flavor_text_entries"
-        ></app-descriptions>
-      </section>
+          <div class="flex flex-col justify-content-between w-full gap-3">
+            <app-data [pokemon]="pokemon"></app-data>
+            <app-stats [stats]="pokemon.pokemon_details.stats"></app-stats>
+          </div>
+        </section>
+        <section
+          class="flex flex-col md:flex-row flex-md-row justify-content-center align-items-start gap-3 my-3"
+        >
+          <app-descriptions
+            [descriptions]="pokemon.pokemon_species_details.flavor_text_entries"
+          ></app-descriptions>
+        </section>
+      </div>
     </div>
   </div>
 </div>
-<ng-template #elseBlock></ng-template>

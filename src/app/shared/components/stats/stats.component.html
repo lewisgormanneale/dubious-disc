@@ -1,24 +1,29 @@
 <div class="flex flex-col rounded w-full bg-zinc-200 border border-zinc-800">
-  <app-container-header [title]="'Pokémon Base Stats'"></app-container-header>
+  <app-container-header
+    [title]="'Pokémon Base Stats'"
+    class="text-sm"
+  ></app-container-header>
   <ul class="w-full flex flex-col text-zinc-800 rounded-b text-sm">
     <li
       *ngFor="let stat of stats"
       class="border-y-zinc-300 border-b p-2 rounded-b"
     >
       <div class="grid grid-cols-5 items-center">
-        <p class="inline pr-2 col-span-2 font-sans-semi-bold">
+        <p class="inline pr-2 col-span-2 font-sans-semi-bold text-sm">
           {{ getFormattedStatName(stat) }}:
         </p>
-        <div class="w-full h-5 col-span-3 rounded bg-zinc-300">
+        <div
+          class="w-full h-[20px] col-span-3 rounded bg-zinc-300 border-zinc-800 box-border border-[1px]"
+        >
           <div
-            class="text-center rounded-l"
+            class="rounded-l h-full flex justify-center items-center"
             [ngClass]="getProgressBarClass(stat.stat.name)"
             [ngStyle]="getProgressBarStyle(stat.base_stat)"
             aria-valuemin="0"
             aria-valuemax="255"
             [attr.aria-valuenow]="stat.base_stat"
           >
-            <span class="white-outlined px-2"> {{ stat.base_stat }}</span>
+            <span class="white-outlined text-sm"> {{ stat.base_stat }}</span>
           </div>
         </div>
       </div>

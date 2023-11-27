@@ -1,10 +1,13 @@
 <div class="flex flex-col rounded bg-zinc-200 w-full border border-zinc-800">
-  <app-container-header [title]="'Pokédex Descriptions'"></app-container-header>
+  <app-container-header
+    [title]="'Pokédex Descriptions'"
+    class="text-sm"
+  ></app-container-header>
   <div class="flex flex-col text-center rounded-b">
     <ul class="w-full flex flex-col">
       <li
         *ngFor="let description of englishDescriptions"
-        class="text-start text-zinc-800 border-y-zinc-300 border-b px-2 py-3"
+        class="text-start text-sm text-zinc-800 border-y-zinc-300 border-b px-2 py-3"
       >
         {{ description }}
       </li>
