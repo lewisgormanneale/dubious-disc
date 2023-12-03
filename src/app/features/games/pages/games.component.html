@@ -3,7 +3,11 @@
     <div class="flex flex-col gap-3 pb-4 w-full">
       <app-container-header
         class="mb-2"
-        [title]="'Games'"
+        [title]="
+          formattedVersionGroupName
+            ? 'Pokémon ' + formattedVersionGroupName
+            : ''
+        "
       ></app-container-header>
       <app-news-container [category]="urlValue"></app-news-container>
     </div>
