@@ -27,7 +27,17 @@ export class SanityService {
     return this.client.fetch(query);
   }
 
+  async getPostBySlug(slug: string) {
+    const query = `*[_type == "post" && slug.current == "${slug}"][0]`;
+    return this.client.fetch(query);
+  }
+
   async urlFor(source: string) {
     return this.builder.image(source);
+  }
+
+  async getAuthorByRefence(author: string) {
+    const query = `*[_type == "author" && _id == "${author}"][0]`;
+    return this.client.fetch(query);
   }
 }

@@ -1,13 +1,36 @@
 <div class="flex flex-col items-center p-4">
-  <div class="max-w-screen-xl bg-zinc-950 rounded w-full">
-    <div class="flex flex-col gap-3 pb-4 w-full">
-      <app-container-header
-        class="mb-2"
-        [title]="'News & Updates'"
-      ></app-container-header>
-      <div class="h-96 text-center">
-        <p>Coming soon!</p>
+  <div class="max-w-screen-md bg-zinc-950 rounded w-full">
+    <div *ngIf="post" class="flex flex-col gap-3 pb-4 w-full rounded">
+      <img src="{{ post.mainImage }}" height="50" class="rounded-t" />
+      <h2 class="font-sans-semi-bold text-4xl font-bold mx-4">
+        {{ post.title }}
+      </h2>
+      <div class="bg-zinc-700 h-[1px] w-full rounded"></div>
+      <div class="flex flex-row justify-between items-center p-2 px-4 w-full">
+        <div
+          class="flex flex-row items-center gap-2"
+          *ngIf="
+            post.author &&
+            post.author.image &&
+            post.author.name &&
+            post.author.image.asset
+          "
+        >
+          <img
+            src="{{ post.author.image.asset }}"
+            height="30"
+            width="30"
+            class="rounded-full"
+          />
+          <span class="font-sans-semi-bold">
+            {{ post.author.name }}
+          </span>
+        </div>
+        <span class="font-sans-semi-bold">
+          {{ formatDate(post.publishedAt) }}
+        </span>
       </div>
+      <div class="bg-zinc-700 h-[1px] w-full rounded"></div>
     </div>
   </div>
 </div>
