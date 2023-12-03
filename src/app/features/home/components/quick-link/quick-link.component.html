@@ -1,11 +1,15 @@
 <a
-  class="flex flex-col justify-center items-center rounded-xl cursor-pointer h-full border bg-zinc-800 border-zinc-700 p-4 hover:border-zinc-400 hover:ring-1 hover:ring-zinc-400 focus:outline-none focus:ring"
+  class="flex flex-col justify-center items-center rounded-xl cursor-pointer h-[150px] sm:h-[200px] border bg-zinc-800 border-zinc-700 p-4 hover:border-zinc-400 hover:ring-1 hover:ring-zinc-400 focus:outline-none focus:ring"
   routerLink="{{ url }}"
 >
-  <img *ngIf="imageUrl" src="{{ imageUrl }}" height="50" width="50" />
-  <h2 class="mt-2 font-bold w-full">{{ title }}</h2>
+  <div class="h-[50%] flex justify-center items-center p-2">
+    <img *ngIf="imageUrl" src="{{ imageUrl }}" height="60" width="60" />
+  </div>
+  <div class="h-[50%] flex flex-col justify-center items-center">
+    <h2 class="font-bold w-full">{{ title }}</h2>
 
-  <p class="hidden sm:mt-1 sm:block sm:text-xs w-full">
-    {{ description }}
-  </p>
+    <p class="hidden sm:mt-1 sm:block sm:text-xs w-full">
+      {{ description }}
+    </p>
+  </div>
 </a>

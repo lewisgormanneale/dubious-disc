@@ -24,14 +24,16 @@
             ></app-quick-link>
             <app-quick-link
               [url]="'/team-builder'"
-              [imageUrl]="'assets/images/shaymin-land.png'"
+              [imageUrl]="'assets/images/poryphone.png'"
               [title]="'Team Builder'"
               [description]="'Plan a team for a playthrough'"
             ></app-quick-link>
-            <app-quick-link></app-quick-link>
-            <app-quick-link></app-quick-link>
-            <app-quick-link></app-quick-link>
-            <app-quick-link></app-quick-link>
+            <app-quick-link
+              [url]="'/pokemon/' + pokemonID"
+              [imageUrl]="'assets/images/question-icon.png'"
+              [title]="'Random Pokémon'"
+              [description]="'View a random Pokémon\'s information'"
+            ></app-quick-link>
           </div>
         </div>
       </div>
