@@ -14,6 +14,7 @@ import { PostCardComponent } from './components/news-card/news-card.component';
 import { ContainerHeaderComponent } from './components/container-header/container-header.component';
 import { Router, RouterModule } from '@angular/router';
 import { NewsContainerComponent } from './components/news-container/news-container.component';
+import { SpinnerComponent } from './components/spinner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { NewsContainerComponent } from './components/news-container/news-contain
     HeaderDropdownItemComponent,
     ContainerHeaderComponent,
     NewsContainerComponent,
+    SpinnerComponent,
   ],
   imports: [CommonModule, FormsModule, RouterModule],
   exports: [
@@ -44,6 +46,7 @@ import { NewsContainerComponent } from './components/news-container/news-contain
     PostCardComponent,
     ContainerHeaderComponent,
     NewsContainerComponent,
+    SpinnerComponent,
   ],
 })
 export class SharedModule {}

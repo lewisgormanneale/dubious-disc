@@ -16,7 +16,7 @@
           </a>
           <a
             class="flex justify-center items-center text-center text-xs bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
-            [routerLink]="['/', 'games', this.urlValue]"
+            [routerLink]="'/games/' + this.urlValue"
           >
             Game Page
           </a>
@@ -44,25 +44,36 @@
     <div class="col-span-2 bg-zinc-950 rounded h-full">
       <app-container-header
         class="mb-2"
-        [title]="formattedVersionGroupName + ' Pokédex'"
+        [title]="
+          formattedVersionGroupName
+            ? formattedVersionGroupName
+            : '' + ' Pokédex'
+        "
       ></app-container-header>
-      <ng-container *ngFor="let pokedex of pokedexes">
-        <div class="flex flex-col rounded py-4 mb-5">
-          <h3
-            *ngIf="pokedexes.length > 1"
-            class="text-2xl mb-3 mx-3 text-center font-sans-semi-bold"
-          >
-            {{ getFormattedPokedexName(pokedex.name) }}
-          </h3>
-          <div class="flex flex-wrap gap-2 justify-center">
-            <app-pokedex-list-item
-              *ngFor="let pokemon of pokedex.pokemon_entries"
-              [pokemon]="pokemon"
-              (click)="onPokemonClick(pokemon)"
-            ></app-pokedex-list-item>
+      <ng-container *ngIf="pokedexes.length > 0; else elseBlock">
+        <ng-container *ngFor="let pokedex of pokedexes">
+          <div class="flex flex-col rounded py-4 mb-5">
+            <h3
+              *ngIf="pokedexes.length > 1"
+              class="text-2xl mb-3 mx-3 text-center font-sans-semi-bold"
+            >
+              {{ getFormattedPokedexName(pokedex.name) }}
+            </h3>
+            <div class="flex flex-wrap gap-2 justify-center">
+              <app-pokedex-list-item
+                *ngFor="let pokemon of pokedex.pokemon_entries"
+                [pokemon]="pokemon"
+                (click)="onPokemonClick(pokemon)"
+              ></app-pokedex-list-item>
+            </div>
           </div>
-        </div>
+        </ng-container>
       </ng-container>
+      <ng-template #elseBlock>
+        <div class="flex w-full h-64 justify-center items-center">
+          <app-spinner></app-spinner>
+        </div>
+      </ng-template>
     </div>
   </div>
 </div>

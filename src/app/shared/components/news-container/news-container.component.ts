@@ -30,7 +30,6 @@ export class NewsContainerComponent implements OnChanges {
 
   updateNews(): void {
     if (this.category) {
-      console.log(this.category);
       this.sanityService.getPostsByCategory(this.category).then((posts) => {
         this.posts = posts.reverse();
       });
