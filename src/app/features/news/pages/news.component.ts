@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SanityService } from 'src/app/core/services/sanity.service';
+import { toHTML, uriLooksSafe } from '@portabletext/to-html';
+import htm from 'htm';
+import vhtml from 'vhtml';
 
 @Component({
   selector: 'app-news',
@@ -9,6 +12,23 @@ import { SanityService } from 'src/app/core/services/sanity.service';
 export class NewsComponent {
   articleSlug: string = '';
   post: any;
+  imagesLoaded: boolean = false;
+
+  html = htm.bind(vhtml);
+  myPortableTextComponents = {
+    types: {},
+
+    marks: {
+      link: ({ children, value }: any) => {
+        const href = value.href || '';
+        if (uriLooksSafe(href)) {
+          const rel = href.startsWith('/') ? undefined : 'noreferrer noopener';
+          return this.html`<a href="${href}" rel="${rel}">${children}</a>`;
+        }
+        return children;
+      },
+    },
+  };
 
   constructor(
     private sanityService: SanityService,
@@ -28,7 +48,7 @@ export class NewsComponent {
       this.post.author.image.asset = await this.sanityService.urlFor(
         this.post.author.image.asset
       );
-      console.log(this.post);
+      this.imagesLoaded = true;
     });
   }
 
@@ -39,5 +59,9 @@ export class NewsComponent {
     const year = date.getFullYear();
 
     return `${day}/${month}/${year}`;
+  }
+
+  toHTML(text: any) {
+    return toHTML(text, { components: this.myPortableTextComponents });
   }
 }
