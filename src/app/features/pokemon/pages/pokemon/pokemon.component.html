@@ -1,57 +1,75 @@
 <div class="flex flex-col items-center p-4">
   <div class="max-w-screen-xl bg-zinc-950 rounded p-4">
-    <div class="flex flex-col items-center">
-      <div class="flex flex-col items-center" style="max-width: 900px">
-        <section
-          class="flex flex-col md:flex-row items-center md:items-start gap-3 w-full"
-        >
-          <div
-            class="text-center border border-zinc-800 w-full rounded"
-            style="max-width: 420px"
-            [style.background]="
-              pokemon.pokemon_details.types | typeBackgroundGenerator
-            "
+    <ng-container
+      *ngIf="
+        pokemon.pokemon_details && pokemon.pokemon_species_details;
+        else loading
+      "
+    >
+      <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center" style="max-width: 900px">
+          <section
+            class="flex flex-col md:flex-row items-center md:items-start gap-3 w-full"
           >
-            <img
-              src="{{
+            <div
+              class="text-center border border-zinc-800 w-full rounded h-[483px] flex flex-col justify-between"
+              [style.background]="
+                pokemon.pokemon_details.types | typeBackgroundGenerator
+              "
+            >
+              <img
+                src="{{
                   pokemon.pokemon_details.sprites.other?.['official-artwork']?.front_default
                     ? pokemon.pokemon_details.sprites.other?.['official-artwork']?.front_default
                     : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
                 }}"
-              alt="Pokemon Preview Image"
-            />
-            <div class="bg-shaymin border-t border-zinc-800">
-              <h2 class="p-2">
-                <span class="white-outlined text-xl">#{{ pokemon.id }}</span
-                ><span class="text-zinc-800 font-sans-bold text-xl">
-                  {{ localisedPokemonName }}</span
+                class="w-full h-full object-contain min-w-[300px]"
+              />
+              <div>
+                <div
+                  class="bg-shaymin border-t border-zinc-800"
+                  style="height: 50px"
                 >
-              </h2>
+                  <h2 class="p-2">
+                    <span class="white-outlined text-xl">#{{ pokemon.id }}</span
+                    ><span class="text-zinc-800 font-sans-bold text-xl">
+                      {{ localisedPokemonName }}</span
+                    >
+                  </h2>
+                </div>
+                <div
+                  class="flex justify-between items-center px-2 bg-zinc-800"
+                  [ngClass]="getTypeBoxLayout(pokemon.pokemon_details.types)"
+                  style="height: 50px"
+                >
+                  <app-type-box
+                    *ngFor="let type of pokemon.pokemon_details.types"
+                    [type]="type"
+                  ></app-type-box>
+                </div>
+              </div>
             </div>
-            <div
-              class="flex justify-between items-center px-2 bg-zinc-800"
-              [ngClass]="getTypeBoxLayout(pokemon.pokemon_details.types)"
-              style="height: 50px"
-            >
-              <app-type-box
-                *ngFor="let type of pokemon.pokemon_details.types"
-                [type]="type"
-              ></app-type-box>
+            <div class="flex flex-col justify-content-between w-full gap-3">
+              <app-data [pokemon]="pokemon"></app-data>
+              <app-stats [stats]="pokemon.pokemon_details.stats"></app-stats>
             </div>
-          </div>
-          <div class="flex flex-col justify-content-between w-full gap-3">
-            <app-data [pokemon]="pokemon"></app-data>
-            <app-stats [stats]="pokemon.pokemon_details.stats"></app-stats>
-          </div>
-        </section>
-        <section
-          class="flex flex-col md:flex-row flex-md-row justify-content-center align-items-start gap-3 my-3"
-        >
-          <app-descriptions
-            [descriptions]="pokemon.pokemon_species_details.flavor_text_entries"
-          ></app-descriptions>
-        </section>
+          </section>
+          <section
+            class="flex flex-col md:flex-row flex-md-row justify-content-center align-items-start gap-3 my-3"
+          >
+            <app-descriptions
+              [descriptions]="
+                pokemon.pokemon_species_details.flavor_text_entries
+              "
+            ></app-descriptions>
+          </section>
+        </div>
       </div>
-    </div>
+    </ng-container>
+    <ng-template #loading>
+      <div class="w-full">
+        <app-spinner></app-spinner>
+      </div>
+    </ng-template>
   </div>
 </div>

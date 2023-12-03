@@ -9,6 +9,8 @@ import {
   PokemonSpecies,
   PokemonType,
 } from 'src/app/core/models';
+import { TypeBackgroundGeneratorPipe } from 'src/app/shared/pipes/type-background-generator/type-background-generator.pipe';
+import { AllPokemonTypeValues } from 'src/app/shared/utils/types.utils';
 
 @Component({
   selector: 'app-pokemon',
@@ -17,16 +19,11 @@ import {
 export class PokemonComponent implements OnInit {
   pokemon: CombinedPokemonEntry = {} as CombinedPokemonEntry;
   localisedPokemonName: string = '';
-  canGoBack: boolean;
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router,
-    private pokeAPIService: PokeAPIService,
-    private location: Location
-  ) {
-    this.canGoBack = !!this.router.getCurrentNavigation()?.previousNavigation;
-  }
+    private pokeAPIService: PokeAPIService
+  ) {}
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {

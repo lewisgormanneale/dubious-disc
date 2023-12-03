@@ -3,17 +3,17 @@
     [title]="'Pokédex Descriptions'"
     class="text-sm"
   ></app-container-header>
-  <div class="flex flex-col text-center rounded-b">
+  <div class="flex flex-col text-center rounded">
     <ul class="w-full flex flex-col">
       <li
         *ngFor="let description of englishDescriptions"
-        class="text-start text-sm text-zinc-800 border-y-zinc-300 border-b px-2 py-3"
+        class="text-start text-sm text-zinc-800 border-y-zinc-300 border px-2 py-3"
       >
         {{ description }}
       </li>
     </ul>
     <a
-      class="flex justify-center items-center bg-zinc-800 cursor-pointer hover:bg-green-800 font-sans-semi-bold px-4 py-2"
+      class="flex justify-center items-center py-2 px-4 transition rounded-b cursor-pointer border bg-zinc-800 border-zinc-700 hover:border-zinc-400 hover:ring-1 hover:ring-zinc-400 focus:outline-none focus:ring"
       *ngIf="uniqueDescriptions.length > 3"
       (click)="toggleShowMore()"
       >{{ showMore ? "Show Less" : "Show More" }}

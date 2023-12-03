@@ -25,7 +25,8 @@
             "inlineStyleLanguage": "css",
             "assets": ["src/favicon.ico", "src/assets", "src/_redirects"],
             "styles": ["src/styles/styles.css"],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": ["@sanity/image-url"]
           },
           "configurations": {
             "production": {
