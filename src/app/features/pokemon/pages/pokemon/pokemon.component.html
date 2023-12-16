@@ -54,7 +54,10 @@
               </div>
             </div>
             <div class="flex flex-col justify-content-between w-full gap-3">
-              <app-data [pokemon]="pokemon"></app-data>
+              <app-data
+                [pokemon]="pokemon"
+                [pokemon_species]="pokemon_species"
+              ></app-data>
               <app-stats [stats]="pokemon.stats"></app-stats>
             </div>
           </section>

@@ -8,6 +8,7 @@
       <li
         *ngFor="let description of englishDescriptions"
         class="text-start text-sm text-zinc-800 border-y-zinc-300 border px-2 py-3"
+        [ngClass]="uniqueDescriptions.length <= 3 ? 'rounded-b' : ''"
       >
         {{ description }}
       </li>
