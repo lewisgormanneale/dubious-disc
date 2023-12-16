@@ -2,7 +2,7 @@
   <div class="max-w-screen-xl bg-zinc-950 rounded p-4">
     <ng-container
       *ngIf="
-        pokemon.pokemon_details && pokemon.pokemon_species_details;
+        pokemon && pokemon.sprites && pokemon.sprites.other && pokemon_species;
         else loading
       "
     >
@@ -13,14 +13,14 @@
           >
             <div
               class="text-center border border-zinc-800 w-full rounded h-[483px] flex flex-col justify-between"
-              [style.background]="
-                pokemon.pokemon_details.types | typeBackgroundGenerator
-              "
+              [style.background]="pokemon.types | typeBackgroundGenerator"
             >
               <img
                 src="{{
-                  pokemon.pokemon_details.sprites.other?.['official-artwork']?.front_default
-                    ? pokemon.pokemon_details.sprites.other?.['official-artwork']?.front_default
+                  pokemon.sprites &&
+                  pokemon.sprites.other &&
+                  pokemon.sprites.other['official-artwork'].front_default
+                    ? pokemon.sprites.other['official-artwork'].front_default
                     : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
                 }}"
                 class="w-full h-full object-contain min-w-[300px]"
@@ -39,11 +39,15 @@
                 </div>
                 <div
                   class="flex justify-between items-center px-2 bg-zinc-800"
-                  [ngClass]="getTypeBoxLayout(pokemon.pokemon_details.types)"
+                  [ngClass]="
+                    pokemon.types.length > 1
+                      ? 'justify-content-between'
+                      : 'justify-content-center'
+                  "
                   style="height: 50px"
                 >
                   <app-type-box
-                    *ngFor="let type of pokemon.pokemon_details.types"
+                    *ngFor="let type of pokemon.types"
                     [type]="type"
                   ></app-type-box>
                 </div>
@@ -51,14 +55,12 @@
             </div>
             <div class="flex flex-col justify-content-between w-full gap-3">
               <app-data [pokemon]="pokemon"></app-data>
-              <app-stats [stats]="pokemon.pokemon_details.stats"></app-stats>
+              <app-stats [stats]="pokemon.stats"></app-stats>
             </div>
           </section>
           <section class="w-full justify-content-center my-3">
             <app-descriptions
-              [descriptions]="
-                pokemon.pokemon_species_details.flavor_text_entries
-              "
+              [descriptions]="pokemon_species.flavor_text_entries"
             ></app-descriptions>
           </section>
         </div>

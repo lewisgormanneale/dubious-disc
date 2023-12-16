@@ -79,4 +79,6 @@ export class PokeAPIService {
       ?.name!;
     return name ? name : '';
   }
+
+  getCombinedPokemonEntry(name: string) {}
 }
