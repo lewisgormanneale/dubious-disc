@@ -4,11 +4,10 @@
 >
   <img
     class="transition-all duration-300 ease-in-out"
-    src="{{
-      imageURL
-        ? imageURL
-        : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
-    }}"
+    [defaultImage]="
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
+    "
+    [lazyLoad]="imageURL"
     height="100"
     width="100"
   />
