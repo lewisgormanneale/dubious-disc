@@ -10,6 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { forkJoin, Observable, Subject, switchMap } from 'rxjs';
 import { getFormattedVersionGroupName } from 'src/app/shared/utils/games.utils';
 import { getFormattedPokedexName } from 'src/app/shared/utils/pokedexes.utils';
+import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
   selector: 'app-pokedex',
@@ -25,6 +26,7 @@ export class PokedexComponent implements OnInit {
 
   constructor(
     private pokeAPIService: PokeAPIService,
+    private readonly supabase: SupabaseService,
     private router: Router,
     private route: ActivatedRoute
   ) {}
@@ -45,6 +47,10 @@ export class PokedexComponent implements OnInit {
         .subscribe((pokedexes: Pokedex[]) => {
           this.pokedexes = pokedexes;
         });
+    });
+    this.supabase.getPokedexById().subscribe((data) => {
+      // Handle the query result
+      console.log(data);
     });
   }
 
