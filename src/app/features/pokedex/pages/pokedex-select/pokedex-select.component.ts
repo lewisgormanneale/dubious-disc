@@ -1,41 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { VersionGroup } from 'src/app/core/models/index';
-import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
-import { getFormattedGenerationName } from 'src/app/shared/utils/generations.utils';
+import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
   selector: 'app-pokedex-select',
   templateUrl: './pokedex-select.component.html',
 })
 export class PokedexSelectComponent implements OnInit {
-  public versionGroups: VersionGroup[] = [];
-
-  constructor(private pokeAPIService: PokeAPIService) {}
+  public versionGroups: any[] = [];
+  public generations: any[] = [];
+  private supabase: SupabaseService = inject(SupabaseService);
 
   ngOnInit(): void {
-    this.pokeAPIService
-      .getAllVersionGroups()
-      .subscribe((versionGroups: any) => {
-        this.versionGroups = versionGroups.filter(
-          (versionGroup: VersionGroup) => versionGroup.pokedexes.length > 0
-        );
-      });
+    this.supabase.getAllVersionGroups().subscribe((versionGroups) => {
+      this.versionGroups = versionGroups;
+    });
+    this.supabase.getAllGenerations().subscribe((generations) => {
+      this.generations = generations;
+    });
   }
 
-  getFormattedGenerationName(generation: string): string {
-    return getFormattedGenerationName(generation);
-  }
-
-  generateGenerationNames(): string[] {
-    const generationNumbers = this.versionGroups.map(
-      (group: VersionGroup) => group.generation.name
-    );
-    return Array.from(new Set(generationNumbers)).reverse();
-  }
-
-  getVersionGroupsByGeneration(generation: string): VersionGroup[] {
+  getVersionGroupsByGenerationId(id: number): any[] {
     return this.versionGroups.filter(
-      (group: VersionGroup) => group.generation.name === generation
+      (versionGroup) => versionGroup.generation_id === id
     );
   }
 }

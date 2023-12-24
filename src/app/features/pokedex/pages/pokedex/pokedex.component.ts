@@ -48,7 +48,7 @@ export class PokedexComponent implements OnInit {
           this.pokedexes = pokedexes;
         });
     });
-    this.supabase.getPokedexById().subscribe((data) => {
+    this.supabase.getPokemonByDexId(5).subscribe((data) => {
       // Handle the query result
       console.log(data);
     });

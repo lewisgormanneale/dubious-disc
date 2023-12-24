@@ -8,19 +8,18 @@
       <ng-container
         *ngIf="versionGroups && versionGroups.length > 0; else elseBlock"
       >
-        <div
-          class="mx-4 rounded"
-          *ngFor="let generation of generateGenerationNames()"
-        >
+        <div class="mx-4 rounded" *ngFor="let generation of generations">
           <h3 class="font-sans-semi-bold text-xl font-bold mb-3">
-            {{ getFormattedGenerationName(generation) }}
+            {{ generation.name }}
           </h3>
           <div class="bg-zinc-700 h-[1px] w-full rounded"></div>
           <div class="flex items-center flex-wrap gap-2 p-2">
             <app-pokedex-select-item
               class="pokedex-select-item"
               *ngFor="
-                let versionGroup of getVersionGroupsByGeneration(generation)
+                let versionGroup of getVersionGroupsByGenerationId(
+                  generation.id
+                )
               "
               [versionGroup]="versionGroup"
             >

@@ -7,15 +7,12 @@ import { getFormattedVersionGroupName } from 'src/app/shared/utils/games.utils';
   templateUrl: './pokedex-select-item.component.html',
 })
 export class PokedexSelectItemComponent {
-  @Input() versionGroup: VersionGroup = {} as VersionGroup;
+  @Input() versionGroup: any = {};
   versionGroupSlug: string = '';
   versionGroupName: string = '';
-  constructor() {}
 
   ngOnInit(): void {
-    this.versionGroupSlug = this.versionGroup.name;
-    this.versionGroupName = getFormattedVersionGroupName(
-      this.versionGroup.name
-    );
+    this.versionGroupSlug = this.versionGroup.identifier;
+    this.versionGroupName = this.versionGroup.name;
   }
 }
