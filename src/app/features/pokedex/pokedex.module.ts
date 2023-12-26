@@ -7,6 +7,7 @@ import { PokedexComponent } from './pages/pokedex/pokedex.component';
 import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex-list-item.component';
 import { PokedexSelectComponent } from './pages/pokedex-select/pokedex-select.component';
 import { PokedexSelectItemComponent } from './components/pokedex-select-item/pokedex-select-item.component';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,12 @@ import { PokedexSelectItemComponent } from './components/pokedex-select-item/pok
     PokedexSelectComponent,
     PokedexSelectItemComponent,
   ],
-  imports: [CommonModule, CoreModule, SharedModule, AppRoutingModule],
+  imports: [
+    CommonModule,
+    CoreModule,
+    SharedModule,
+    AppRoutingModule,
+    LazyLoadImageModule,
+  ],
 })
 export class PokedexModule {}

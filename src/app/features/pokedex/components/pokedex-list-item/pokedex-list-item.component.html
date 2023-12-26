@@ -4,18 +4,15 @@
 >
   <img
     class="transition-all duration-300 ease-in-out"
-    src="{{
-      imageURL
-        ? imageURL
-        : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
-    }}"
+    [defaultImage]="'assets/images/question-icon.png'"
+    [lazyLoad]="imageURL"
     height="100"
     width="100"
   />
   <div
-    class="flex justify-center items-center text-center text-xs font-sans-light"
+    class="flex justify-center items-center text-center text-xs"
     style="height: 30px; width: 100%"
   >
-    <span>{{ pokemon.pokemon_species.name | uppercase }}</span>
+    <span>{{ pokemon.name }}</span>
   </div>
 </div>

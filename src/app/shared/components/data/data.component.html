@@ -1,5 +1,5 @@
 <div
-  *ngIf="pokemon"
+  *ngIf="pokemon && pokemon_species"
   class="flex flex-col rounded w-full bg-zinc-200 border border-zinc-800"
 >
   <app-container-header
@@ -9,21 +9,19 @@
   <ul class="w-full flex flex-col text-zinc-800 rounded-b text-sm">
     <li class="border-y-zinc-300 border-b p-2">
       <span class="font-sans-semi-bold">Classification:</span>
-      {{ pokemon.pokemon_species_details.genera[7].genus }}
+      {{ pokemon_species.genus }}
     </li>
     <li class="border-y-zinc-300 border-b p-2">
       <span class="font-sans-semi-bold">Height:</span>
-      {{ pokemon.pokemon_details.height | decimetersToFeetAndInches }}
+      {{ pokemon.height | decimetersToFeetAndInches }}
     </li>
     <li class="border-y-zinc-300 border-b p-2">
       <span class="font-sans-semi-bold">Weight:</span>
-      {{ pokemon.pokemon_details.weight | decimetersToPounds }}
+      {{ pokemon.weight | decimetersToPounds }}
     </li>
     <li class="p-2">
       <p class="font-sans-semi-bold mb-1">Gender Ratio:</p>
-      <app-gender-ratio
-        [rate]="pokemon.pokemon_species_details.gender_rate"
-      ></app-gender-ratio>
+      <app-gender-ratio [rate]="pokemon_species.gender_rate"></app-gender-ratio>
     </li>
   </ul>
 </div>

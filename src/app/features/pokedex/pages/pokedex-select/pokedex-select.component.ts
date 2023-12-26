@@ -1,41 +1,49 @@
-import { Component, OnInit } from '@angular/core';
-import { VersionGroup } from 'src/app/core/models/index';
-import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
-import { getFormattedGenerationName } from 'src/app/shared/utils/generations.utils';
+import { Component, inject, OnInit } from '@angular/core';
+import { concatMap, map, tap } from 'rxjs';
+import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
   selector: 'app-pokedex-select',
   templateUrl: './pokedex-select.component.html',
 })
 export class PokedexSelectComponent implements OnInit {
-  public versionGroups: VersionGroup[] = [];
-
-  constructor(private pokeAPIService: PokeAPIService) {}
+  public versionGroups: any[] = [];
+  public versionGroupIds: number[] = [];
+  public generations: any[] = [];
+  public versionGroupsWithPokedexes: any[] = [];
+  private supabase: SupabaseService = inject(SupabaseService);
 
   ngOnInit(): void {
-    this.pokeAPIService
+    this.supabase
       .getAllVersionGroups()
-      .subscribe((versionGroups: any) => {
-        this.versionGroups = versionGroups.filter(
-          (versionGroup: VersionGroup) => versionGroup.pokedexes.length > 0
-        );
+      .pipe(
+        tap((versionGroups) => {
+          this.versionGroups = versionGroups;
+          this.versionGroupIds = versionGroups.map((item: any) => item.id);
+        }),
+        concatMap(() => this.supabase.getAllGenerations()),
+        tap((generations) => {
+          this.generations = generations;
+        }),
+        concatMap(() => this.supabase.getAllPokedexVersionGroups()),
+        map((pokedexVersionGroups) =>
+          pokedexVersionGroups
+            .filter((item: any) =>
+              this.versionGroupIds.includes(item.version_group_id)
+            )
+            .map((item: any) => item.version_group_id)
+        )
+      )
+      .subscribe((versionGroupsWithPokedexes) => {
+        this.versionGroupsWithPokedexes = versionGroupsWithPokedexes;
       });
   }
 
-  getFormattedGenerationName(generation: string): string {
-    return getFormattedGenerationName(generation);
-  }
-
-  generateGenerationNames(): string[] {
-    const generationNumbers = this.versionGroups.map(
-      (group: VersionGroup) => group.generation.name
-    );
-    return Array.from(new Set(generationNumbers)).reverse();
-  }
-
-  getVersionGroupsByGeneration(generation: string): VersionGroup[] {
+  getVersionGroupsByGenerationId(id: number): any[] {
     return this.versionGroups.filter(
-      (group: VersionGroup) => group.generation.name === generation
+      (versionGroup) =>
+        versionGroup.generation_id === id &&
+        this.versionGroupsWithPokedexes.includes(versionGroup.id)
     );
   }
 }

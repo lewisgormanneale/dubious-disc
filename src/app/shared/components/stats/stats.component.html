@@ -10,14 +10,14 @@
     >
       <div class="grid grid-cols-5 items-center">
         <p class="inline pr-2 col-span-2 font-sans-semi-bold text-sm">
-          {{ getFormattedStatName(stat) }}:
+          {{ stat.stat_id.name }}
         </p>
         <div
           class="w-full h-[20px] col-span-3 rounded bg-zinc-300 border-zinc-800 box-border border-[1px]"
         >
           <div
             class="rounded-l h-full flex justify-center items-center"
-            [ngClass]="getProgressBarClass(stat.stat.name)"
+            [ngClass]="getProgressBarClass(stat.stat_id.id)"
             [ngStyle]="getProgressBarStyle(stat.base_stat)"
             aria-valuemin="0"
             aria-valuemax="255"

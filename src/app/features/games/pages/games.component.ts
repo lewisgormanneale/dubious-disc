@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { getFormattedVersionGroupName } from 'src/app/shared/utils/games.utils';
-import { getFormattedPokedexName } from 'src/app/shared/utils/pokedexes.utils';
+import { switchMap } from 'rxjs';
+import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
   selector: 'app-games',
@@ -9,20 +9,21 @@ import { getFormattedPokedexName } from 'src/app/shared/utils/pokedexes.utils';
 })
 export class GamesComponent {
   public urlValue: string = '';
-  public formattedVersionGroupName: string = '';
+  public versionGroup: any;
 
-  constructor(private router: Router, private route: ActivatedRoute) {}
+  private supabase: SupabaseService = inject(SupabaseService);
+  private route = inject(ActivatedRoute);
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe((params) => {
-      this.urlValue = params.get('slug') || '';
-      this.formattedVersionGroupName = getFormattedVersionGroupName(
-        this.urlValue
-      );
-    });
-  }
-
-  getFormattedPokedexName(pokedexName: string): string {
-    return getFormattedPokedexName(pokedexName);
+    this.route.paramMap
+      .pipe(
+        switchMap((params) => {
+          this.urlValue = params.get('slug') || '';
+          return this.supabase.getVersionGroupByIdentifier(this.urlValue);
+        })
+      )
+      .subscribe((data: any) => {
+        this.versionGroup = data;
+      });
   }
 }

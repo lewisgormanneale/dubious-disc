@@ -7,5 +7,5 @@ test('When the user is on the pokedex page', async ({ page }) => {
   await expect(header).toBeVisible();
   await expect
     .poll(async () => page.locator('.pokedex-select-item').count())
-    .toBeGreaterThanOrEqual(22);
+    .toBeGreaterThanOrEqual(21);
 });

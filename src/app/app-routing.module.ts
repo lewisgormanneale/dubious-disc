@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'pokedex', component: PokedexSelectComponent },
   { path: 'pokedex/:id', component: PokedexComponent },
-  { path: 'pokemon/:id', component: PokemonComponent },
+  { path: 'pokemon/:identifier', component: PokemonComponent },
   { path: 'games/:slug', component: GamesComponent },
   { path: 'news/:slug', component: NewsComponent },
   { path: 'team-builder', component: TeamBuilderComponent },

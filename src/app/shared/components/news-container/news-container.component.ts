@@ -1,10 +1,4 @@
-import {
-  Component,
-  Input,
-  OnChanges,
-  OnInit,
-  SimpleChanges,
-} from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { SanityService } from 'src/app/core/services/sanity.service';
 
 @Component({
@@ -31,12 +25,30 @@ export class NewsContainerComponent implements OnChanges {
   updateNews(): void {
     if (this.category) {
       this.sanityService.getPostsByCategory(this.category).then((posts) => {
-        this.posts = posts.reverse();
+        this.posts = this.groupPostsByDate(posts);
       });
     } else {
       this.sanityService.getPosts().then((posts) => {
-        this.posts = posts.reverse();
+        this.posts = this.groupPostsByDate(posts);
       });
     }
+  }
+
+  groupPostsByDate(posts: any) {
+    const groupedPosts = posts.reduce((grouped: any, post: any) => {
+      const date = new Date(post.publishedAt).toLocaleDateString('en-US', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
+      if (!grouped[date]) {
+        grouped[date] = [];
+      }
+      grouped[date].push(post);
+      return grouped;
+    }, {});
+
+    return Object.entries(groupedPosts);
   }
 }
