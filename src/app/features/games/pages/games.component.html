@@ -4,8 +4,8 @@
       <app-container-header
         class="mb-2"
         [title]="
-          formattedVersionGroupName
-            ? 'Pokémon ' + formattedVersionGroupName
+          versionGroup && versionGroup.name
+            ? 'Pokémon ' + versionGroup.name
             : ''
         "
       ></app-container-header>

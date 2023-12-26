@@ -79,7 +79,7 @@ export const headerNavItems: NavigationItem[] = [
           },
           {
             label: "Pokémon Let's Go Pikachu & Eevee",
-            link: 'games/lets-go',
+            link: 'games/lets-go-pikachu-lets-go-eevee',
           },
         ],
       },

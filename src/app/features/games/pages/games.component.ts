@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { switchMap } from 'rxjs';
+import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
   selector: 'app-games',
@@ -7,13 +9,21 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class GamesComponent {
   public urlValue: string = '';
-  public formattedVersionGroupName: string = '';
+  public versionGroup: any;
 
-  constructor(private router: Router, private route: ActivatedRoute) {}
+  private supabase: SupabaseService = inject(SupabaseService);
+  private route = inject(ActivatedRoute);
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe((params) => {
-      this.urlValue = params.get('slug') || '';
-    });
+    this.route.paramMap
+      .pipe(
+        switchMap((params) => {
+          this.urlValue = params.get('slug') || '';
+          return this.supabase.getVersionGroupByIdentifier(this.urlValue);
+        })
+      )
+      .subscribe((data: any) => {
+        this.versionGroup = data;
+      });
   }
 }
