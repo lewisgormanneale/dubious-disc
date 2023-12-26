@@ -137,4 +137,13 @@ export class SupabaseService {
 
     return from(request).pipe(map((response) => response.data || []));
   }
+
+  getPokemonDescriptionsBySpeciesId(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_species_flavor_text')
+      .select('*')
+      .eq('species_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
 }
