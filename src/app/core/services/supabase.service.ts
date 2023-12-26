@@ -6,6 +6,7 @@ import {
 } from '@supabase/supabase-js';
 import { from, map, Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
+import { Database } from '../models/supabase.model';
 
 @Injectable({
   providedIn: 'root',
@@ -15,7 +16,7 @@ export class SupabaseService {
   _session: AuthSession | null = null;
 
   constructor() {
-    this.supabase = createClient(
+    this.supabase = createClient<Database>(
       environment.supabaseUrl,
       environment.supabaseKey
     );

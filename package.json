@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "e2e": "npx playwright test",
-    "e2e-ui": "npx playwright test --ui"
+    "e2e-ui": "npx playwright test --ui",
+    "update-supabase-types": "npx supabase gen types typescript --project-id \"ghqcgxobyvkaqyagxoqg\" > src/app/core/models/supabase.model.ts"
   },
   "private": true,
   "dependencies": {

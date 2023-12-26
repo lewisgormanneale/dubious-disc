@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
 import { forkJoin, tap } from 'rxjs';
 import { Pokemon, PokemonSpecies } from 'src/app/core/models';
+import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
   selector: 'app-pokemon',
@@ -12,6 +13,8 @@ export class PokemonComponent implements OnInit {
   pokemon: Pokemon = {} as Pokemon;
   pokemon_species: PokemonSpecies = {} as PokemonSpecies;
   localisedPokemonName: string = '';
+
+  private supabase: SupabaseService = inject(SupabaseService);
 
   constructor(
     private route: ActivatedRoute,
