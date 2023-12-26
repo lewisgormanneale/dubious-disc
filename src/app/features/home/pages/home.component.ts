@@ -1,15 +1,26 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
 })
 export class HomeComponent {
-  pokemonID = this.getRandomPokemonID();
+  pokemonSpecies: string[] = [];
+  randomPokemonIdentifier: string = '';
 
-  constructor() {}
+  private supabase: SupabaseService = inject(SupabaseService);
 
-  getRandomPokemonID() {
-    return Math.floor(Math.random() * 1010) + 1;
+  ngOnInit(): void {
+    this.supabase.getAllPokemonSpeciesIdentifiers().subscribe((data: any) => {
+      this.pokemonSpecies = data;
+      this.randomPokemonIdentifier = this.getRandomPokemonIdentifier();
+    });
+  }
+
+  getRandomPokemonIdentifier() {
+    return this.pokemonSpecies[
+      Math.floor(Math.random() * this.pokemonSpecies.length)
+    ];
   }
 }

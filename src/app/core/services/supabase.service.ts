@@ -146,4 +146,12 @@ export class SupabaseService {
 
     return from(request).pipe(map((response) => response.data || []));
   }
+
+  getAllPokemonSpeciesIdentifiers(): Observable<any> {
+    const request = this.supabase.from('pokemon_species').select('identifier');
+    return from(request).pipe(
+      map((response) => response.data || []),
+      map((data) => data.map((item: any) => item.identifier))
+    );
+  }
 }
