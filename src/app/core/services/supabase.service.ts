@@ -44,13 +44,13 @@ export class SupabaseService {
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getPokedexByIdentifier(identifier: string): Observable<any> {
-    const request = this.supabase
-      .from('pokedexes')
-      .select('*')
-      .eq('identifier', identifier)
-      .single();
+  getAllPokedexes(): Observable<any> {
+    const request = this.supabase.from('pokedexes').select('*');
+    return from(request).pipe(map((response) => response.data || []));
+  }
 
+  getAllPokedexVersionGroups(): Observable<any> {
+    const request = this.supabase.from('pokedex_version_groups').select('*');
     return from(request).pipe(map((response) => response.data || []));
   }
 

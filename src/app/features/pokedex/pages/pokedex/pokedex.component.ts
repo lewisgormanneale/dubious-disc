@@ -31,6 +31,7 @@ export class PokedexComponent implements OnInit {
           return this.supabase.getVersionGroupByIdentifier(this.urlValue);
         }),
         switchMap((versionGroup) => {
+          this.versionGroup = versionGroup;
           return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);
         })
       )
@@ -39,14 +40,9 @@ export class PokedexComponent implements OnInit {
         this.pokedexes.forEach((pokedex: any) => {
           this.supabase.getPokemonByDexId(pokedex.id).subscribe((data) => {
             pokedex.pokemon_entries = data;
-            console.log(pokedex.pokemon_entries);
           });
         });
       });
-  }
-
-  navigateToVersionSelect() {
-    this.router.navigate(['/pokedex']);
   }
 
   onPokemonClick(pokemon: any) {
