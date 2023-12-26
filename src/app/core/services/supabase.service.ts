@@ -128,4 +128,13 @@ export class SupabaseService {
 
     return from(request).pipe(map((response) => response.data || []));
   }
+
+  getPokemonStatsByPokemonId(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_stats')
+      .select('stat_id (id, identifier, name), base_stat, effort')
+      .eq('pokemon_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
 }

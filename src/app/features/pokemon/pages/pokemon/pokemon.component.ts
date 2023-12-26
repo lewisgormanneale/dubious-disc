@@ -8,9 +8,9 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   templateUrl: './pokemon.component.html',
 })
 export class PokemonComponent implements OnInit {
-  pokemon: any = [] as any;
-  pokemon_species: any = {} as any;
-  pokemon_types: any = [] as any;
+  pokemon: any;
+  pokemon_species: any;
+  pokemon_types: any;
   imageUrl: string = '';
 
   private supabase: SupabaseService = inject(SupabaseService);

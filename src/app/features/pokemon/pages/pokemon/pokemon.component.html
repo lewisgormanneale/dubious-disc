@@ -1,6 +1,6 @@
 <div class="flex flex-col items-center p-4">
   <div class="max-w-screen-xl bg-zinc-950 rounded p-4">
-    <ng-container *ngIf="pokemon_species; else loading">
+    <ng-container *ngIf="pokemon_species && pokemon; else loading">
       <div class="flex flex-col items-center">
         <div class="flex flex-col items-center" style="max-width: 900px">
           <section
@@ -58,7 +58,7 @@
                 [pokemon]="pokemon"
                 [pokemon_species]="pokemon_species"
               ></app-data>
-              <!-- <app-stats [stats]="pokemon.stats"></app-stats> -->
+              <app-stats [pokemon_id]="pokemon.id"></app-stats>
             </div>
           </section>
           <section class="w-full justify-content-center my-3">

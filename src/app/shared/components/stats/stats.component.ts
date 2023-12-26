@@ -1,65 +1,41 @@
-import { Component, Input } from '@angular/core';
+import { Component, inject, Input, OnInit } from '@angular/core';
 import { PokemonStat } from 'src/app/core/models';
+import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
   selector: 'app-stats',
   templateUrl: './stats.component.html',
 })
-export class StatsComponent {
-  @Input() stats?: PokemonStat[];
+export class StatsComponent implements OnInit {
+  @Input() pokemon_id: number = 0;
+  stats: any = [] as any;
 
-  constructor() {}
+  private supabase: SupabaseService = inject(SupabaseService);
 
-  getFormattedStatName(stat: PokemonStat) {
-    let formattedName = '';
-    switch (stat.stat.name) {
-      case 'hp':
-        formattedName = 'HP';
-        break;
-      case 'attack':
-        formattedName = 'Attack';
-        break;
-      case 'defense':
-        formattedName = 'Defense';
-        break;
-      case 'special-attack':
-        formattedName = 'Special Attack';
-        break;
-      case 'special-defense':
-        formattedName = 'Special Defense';
-        break;
-      case 'speed':
-        formattedName = 'Speed';
-        break;
-      default:
-        break;
-    }
-    return formattedName;
+  ngOnInit(): void {
+    this.supabase
+      .getPokemonStatsByPokemonId(this.pokemon_id)
+      .subscribe((data) => {
+        this.stats = data;
+      });
   }
 
-  getProgressBarClass(statName: string) {
-    switch (statName) {
-      case 'hp':
+  getProgressBarClass(id: number) {
+    switch (id) {
+      case 1:
         return 'bg-hp';
-        break;
-      case 'attack':
+      case 2:
         return 'bg-attack';
-        break;
-      case 'defense':
+      case 3:
         return 'bg-defense';
-        break;
-      case 'special-attack':
+      case 4:
         return 'bg-special-attack';
-        break;
-      case 'special-defense':
+      case 5:
         return 'bg-special-defense';
-        break;
-      case 'speed':
+      case 6:
         return 'bg-speed';
-        break;
       default:
         return 'bg-zinc-300';
-        break;
     }
   }
 
