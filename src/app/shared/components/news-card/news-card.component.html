@@ -1,14 +1,4 @@
 <article class="flex bg-zinc-800 transition hover:shadow-xl rounded">
-  <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
-    <div
-      class="flex items-center justify-between gap-4 text-xs font-bold uppercase"
-    >
-      <span>{{ publishedYear }}</span>
-      <span class="w-px flex-1 bg-gray-900/10"></span>
-      <span>{{ publishedMonth }} {{ publishedDay }}</span>
-    </div>
-  </div>
-
   <div class="hidden sm:block sm:basis-56">
     <img
       alt="Guitar"
@@ -23,7 +13,10 @@
         <h3 class="font-bold uppercase">{{ post.title }}</h3>
       </a>
 
-      <p class="mt-2 line-clamp-3 text-sm/relaxed text-zinc-400">
+      <p
+        class="mt-2 line-clamp-3 text-sm/relaxed text-zinc-400"
+        [innerHTML]="toHTML(post.body)"
+      >
         {{ post.body[0]["children"][0]["text"] }}
       </p>
     </div>
