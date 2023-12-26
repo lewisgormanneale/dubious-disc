@@ -1,29 +1,28 @@
 <div class="flex flex-col items-center p-4">
   <div class="max-w-screen-xl bg-zinc-950 rounded p-4">
-    <ng-container
-      *ngIf="
-        pokemon && pokemon.sprites && pokemon.sprites.other && pokemon_species;
-        else loading
-      "
-    >
+    <ng-container *ngIf="pokemon_species; else loading">
       <div class="flex flex-col items-center">
         <div class="flex flex-col items-center" style="max-width: 900px">
           <section
             class="flex flex-col md:flex-row items-center md:items-start gap-3 w-full"
           >
             <div
+              *ngIf="pokemon_types && pokemon_types.length > 0"
               class="text-center border border-zinc-800 w-full rounded h-[483px] flex flex-col justify-between"
-              [style.background]="pokemon.types | typeBackgroundGenerator"
             >
               <img
-                src="{{
-                  pokemon.sprites &&
-                  pokemon.sprites.other &&
-                  pokemon.sprites.other['official-artwork'].front_default
-                    ? pokemon.sprites.other['official-artwork'].front_default
-                    : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'
-                }}"
+                src="{{ this.imageUrl }}"
                 class="w-full h-full object-contain min-w-[300px]"
+                [style.background]="
+                  pokemon_types && pokemon_types.length > 1
+                    ? 'linear-gradient(to bottom right, #' +
+                      pokemon_types[0].type_id.type_color +
+                      ',
+              #' +
+                      pokemon_types[1].type_id.type_color +
+                      ')'
+                    : '#' + pokemon_types[0].type_id.type_color
+                "
               />
               <div>
                 <div
@@ -31,24 +30,25 @@
                   style="height: 50px"
                 >
                   <h2 class="p-2">
-                    <span class="white-outlined text-xl">#{{ pokemon.id }}</span
+                    <span class="white-outlined text-xl"
+                      >#{{ pokemon_species.id }}</span
                     ><span class="text-zinc-800 font-sans-bold text-xl">
-                      {{ localisedPokemonName }}</span
+                      {{ pokemon_species.name }}</span
                     >
                   </h2>
                 </div>
                 <div
                   class="flex justify-between items-center px-2 bg-zinc-800"
                   [ngClass]="
-                    pokemon.types.length > 1
+                    pokemon_types.length > 1
                       ? 'justify-content-between'
                       : 'justify-content-center'
                   "
                   style="height: 50px"
                 >
                   <app-type-box
-                    *ngFor="let type of pokemon.types"
-                    [type]="type"
+                    *ngFor="let type of pokemon_types"
+                    [type]="type.type_id"
                   ></app-type-box>
                 </div>
               </div>
@@ -58,13 +58,13 @@
                 [pokemon]="pokemon"
                 [pokemon_species]="pokemon_species"
               ></app-data>
-              <app-stats [stats]="pokemon.stats"></app-stats>
+              <!-- <app-stats [stats]="pokemon.stats"></app-stats> -->
             </div>
           </section>
           <section class="w-full justify-content-center my-3">
-            <app-descriptions
+            <!-- <app-descriptions
               [descriptions]="pokemon_species.flavor_text_entries"
-            ></app-descriptions>
+            ></app-descriptions> -->
           </section>
         </div>
       </div>

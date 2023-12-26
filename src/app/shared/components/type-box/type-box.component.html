@@ -1,9 +1,9 @@
 <div
   class="flex justify-center items-center h-8 w-24 rounded"
   data-testid="type-box"
-  [style.background]="getTypeBackground(type)"
+  [style.background]="'#' + type.type_color"
 >
   <span class="font-sans-bold white-outlined" data-testid="type-box-text">{{
-    getTypeName(type)
+    type.name
   }}</span>
 </div>

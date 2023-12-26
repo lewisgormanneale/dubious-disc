@@ -22,6 +22,10 @@ export class SupabaseService {
     );
   }
 
+  get storage() {
+    return this.supabase.storage;
+  }
+
   getAllVersionGroups(): Observable<any> {
     const request = this.supabase
       .from('version_groups')
@@ -80,5 +84,48 @@ export class SupabaseService {
       map((response) => response.data || []),
       map((data) => data.map((item) => item.species_id))
     );
+  }
+
+  getPokemonSpeciesByIdentifier(identifier: string): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_species')
+      .select('*')
+      .eq('identifier', identifier)
+      .single();
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  getPokemonSpeciesFlavorTextById(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_species_flavor_text')
+      .select('*')
+      .eq('species_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  getPokemonBySpeciesId(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon')
+      .select('*')
+      .eq('species_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  getPokemonTypesByPokemonId(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_types')
+      .select('type_id (id, identifier, name, type_color), slot')
+      .eq('pokemon_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  getTypeById(id: number): Observable<any> {
+    const request = this.supabase.from('types').select('*').eq('id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
   }
 }

@@ -1,8 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PokeAPIService } from 'src/app/core/services/pokeapi.service';
-import { forkJoin, tap } from 'rxjs';
-import { Pokemon, PokemonSpecies } from 'src/app/core/models';
+import { switchMap, tap } from 'rxjs';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -10,44 +8,39 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   templateUrl: './pokemon.component.html',
 })
 export class PokemonComponent implements OnInit {
-  pokemon: Pokemon = {} as Pokemon;
-  pokemon_species: PokemonSpecies = {} as PokemonSpecies;
-  localisedPokemonName: string = '';
+  pokemon: any = [] as any;
+  pokemon_species: any = {} as any;
+  pokemon_types: any = [] as any;
+  imageUrl: string = '';
 
   private supabase: SupabaseService = inject(SupabaseService);
-
-  constructor(
-    private route: ActivatedRoute,
-    private pokeAPIService: PokeAPIService
-  ) {}
+  private route: ActivatedRoute = inject(ActivatedRoute);
 
   ngOnInit(): void {
-    this.route.params.subscribe((params) => {
-      let id = params['id'];
-      this.getAllPokemonDetails(id);
-    });
-  }
-
-  getAllPokemonDetails(id: string): void {
-    forkJoin([
-      this.pokeAPIService.getPokemonById(id).pipe(
-        tap((details: Pokemon) => {
-          this.pokemon = details;
+    this.route.params
+      .pipe(
+        switchMap((params) => {
+          let identifier = params['identifier'];
+          return this.supabase.getPokemonSpeciesByIdentifier(identifier);
+        }),
+        tap((data) => {
+          this.pokemon_species = data;
+          this.imageUrl = this.supabase.storage
+            .from('pokemon')
+            .getPublicUrl('home/' + data.id + '.png').data.publicUrl;
+        }),
+        switchMap((data) => {
+          return this.supabase.getPokemonBySpeciesId(data.id);
+        }),
+        tap((data) => {
+          this.pokemon = data[0];
+        }),
+        switchMap((data) => {
+          return this.supabase.getPokemonTypesByPokemonId(data[0].id);
         })
-      ),
-      this.pokeAPIService.getPokemonSpeciesById(id).pipe(
-        tap((pokemonSpeciesDetails: PokemonSpecies) => {
-          this.pokemon_species = pokemonSpeciesDetails;
-        })
-      ),
-    ]).subscribe(() => {
-      if (this.pokemon_species?.names) {
-        this.localisedPokemonName =
-          this.pokeAPIService.getPokemonNameByLanguage(
-            this.pokemon_species.names,
-            'en'
-          );
-      }
-    });
+      )
+      .subscribe((data) => {
+        this.pokemon_types = data;
+      });
   }
 }
