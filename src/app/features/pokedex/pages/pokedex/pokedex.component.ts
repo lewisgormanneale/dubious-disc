@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PokemonEntry } from 'src/app/core/models/index';
 import { ActivatedRoute, Router } from '@angular/router';
-import { forkJoin, Observable, Subject, switchMap, tap } from 'rxjs';
+import { Subject, switchMap } from 'rxjs';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({

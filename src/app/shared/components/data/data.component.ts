@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { Pokemon, PokemonSpecies } from 'src/app/core/models';
 
 @Component({
   selector: 'app-data',

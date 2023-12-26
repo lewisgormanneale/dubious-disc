@@ -1,5 +1,4 @@
 import { Component, inject, Input } from '@angular/core';
-import { FlavorText } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -18,7 +17,7 @@ export class DescriptionsComponent {
     this.supabase
       .getPokemonDescriptionsBySpeciesId(this.pokemon_species_id)
       .subscribe((data) => {
-        data.forEach((element: FlavorText) => {
+        data.forEach((element: any) => {
           if (!this.descriptions.includes(element.flavor_text)) {
             this.descriptions.push(element.flavor_text);
           }

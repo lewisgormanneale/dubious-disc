@@ -1,2 +1,2 @@
-export * from './pokeapi';
 export * from './navigation.model';
+export * from './supabase.model';
