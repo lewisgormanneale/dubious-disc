@@ -1,5 +1,4 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { VersionGroup } from 'src/app/core/models/index';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({

@@ -6,16 +6,12 @@ import { PokemonEntry } from 'src/app/core/models';
   templateUrl: './pokedex-list-item.component.html',
 })
 export class PokedexListItemComponent implements OnInit {
-  @Input() pokemon: PokemonEntry = {} as PokemonEntry;
+  @Input() pokemon: any = {} as any;
   localisedPokemonName: string = '';
-  pokemonID: string = '';
   imageURL: string = '';
   constructor() {}
 
   ngOnInit(): void {
-    this.pokemonID = this.pokemon.pokemon_species.url
-      .split('/')
-      .slice(-2, -1)[0];
-    this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${this.pokemonID}.png`;
+    this.imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${this.pokemon.id}.png`;
   }
 }

@@ -1,6 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { VersionGroup } from 'src/app/core/models';
-import { getFormattedVersionGroupName } from 'src/app/shared/utils/games.utils';
 
 @Component({
   selector: 'app-pokedex-select-item',
