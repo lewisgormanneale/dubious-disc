@@ -1,10 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-gender-ratio',
-  templateUrl: './gender-ratio.component.html',
+  selector: 'app-pokemon-gender-ratio',
+  templateUrl: './pokemon-gender-ratio.component.html',
 })
-export class GenderRatioComponent {
+export class PokemonGenderRatioComponent {
   @Input() rate: number = 0;
 
   getGenderRatioBarClass(rate: number) {

@@ -9,6 +9,10 @@ import { PokedexSelectComponent } from './pages/pokedex-select/pokedex-select.co
 import { PokedexSelectItemComponent } from './components/pokedex-select-item/pokedex-select-item.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { PokemonComponent } from './pages/pokemon/pokemon.component';
+import { PokemonDataComponent } from './components/pokemon-data/pokemon-data.component';
+import { PokemonDescriptionsComponent } from './components/pokemon-descriptions/pokemon-descriptions.component';
+import { PokemonGenderRatioComponent } from './components/pokemon-gender-ratio/pokemon-gender-ratio.component';
+import { PokemonStatsComponent } from './components/pokemon-stats/pokemon-stats.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +21,10 @@ import { PokemonComponent } from './pages/pokemon/pokemon.component';
     PokedexSelectComponent,
     PokedexSelectItemComponent,
     PokemonComponent,
+    PokemonDataComponent,
+    PokemonDescriptionsComponent,
+    PokemonGenderRatioComponent,
+    PokemonStatsComponent,
   ],
   imports: [
     CommonModule,
