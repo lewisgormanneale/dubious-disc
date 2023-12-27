@@ -5,6 +5,15 @@
         class="mb-2"
         [title]="'Select Pokédex Version'"
       ></app-container-header>
+      <app-pokedex-select-item
+        class="pokedex-select-item p-2 flex justify-center"
+        [versionGroup]="{
+              id: 10000,
+              name: 'National',
+              identifier: 'national',
+            }"
+      >
+      </app-pokedex-select-item>
       <ng-container
         *ngIf="versionGroups && versionGroups.length > 0; else elseBlock"
       >

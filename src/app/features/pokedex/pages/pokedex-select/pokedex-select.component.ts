@@ -23,7 +23,7 @@ export class PokedexSelectComponent implements OnInit {
         }),
         concatMap(() => this.supabase.getAllGenerations()),
         tap((generations) => {
-          this.generations = generations;
+          this.generations = generations.reverse();
         }),
         concatMap(() => this.supabase.getAllPokedexVersionGroups()),
         map((pokedexVersionGroups) =>
