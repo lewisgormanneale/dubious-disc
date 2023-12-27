@@ -26,7 +26,7 @@ export class PokedexComponent implements OnInit {
     this.route.paramMap
       .pipe(
         switchMap((params) => {
-          this.urlValue = params.get('id') || '';
+          this.urlValue = params.get('generation') || '';
           return this.supabase.getVersionGroupByIdentifier(this.urlValue);
         }),
         switchMap((versionGroup) => {
@@ -46,7 +46,7 @@ export class PokedexComponent implements OnInit {
 
   onPokemonClick(pokemon: any) {
     let pokemonID = pokemon.identifier;
-    this.router.navigate(['/pokemon/', pokemonID]);
+    this.router.navigate(['pokedex', this.urlValue, pokemonID]);
   }
 
   ngOnDestroy(): void {

@@ -8,6 +8,7 @@ import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex
 import { PokedexSelectComponent } from './pages/pokedex-select/pokedex-select.component';
 import { PokedexSelectItemComponent } from './components/pokedex-select-item/pokedex-select-item.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { PokemonComponent } from './pages/pokemon/pokemon.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
     PokedexListItemComponent,
     PokedexSelectComponent,
     PokedexSelectItemComponent,
+    PokemonComponent,
   ],
   imports: [
     CommonModule,

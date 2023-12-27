@@ -20,7 +20,7 @@ export class PokemonComponent implements OnInit {
     this.route.params
       .pipe(
         switchMap((params) => {
-          let identifier = params['identifier'];
+          const identifier = params['pokemon'];
           return this.supabase.getPokemonSpeciesByIdentifier(identifier);
         }),
         tap((data) => {
