@@ -50,5 +50,8 @@ export class PokemonComponent implements OnInit {
 
   handleNewSelectedForm(form: any) {
     this.selectedForm = form;
+    this.imageUrl = this.supabase.storage
+      .from('pokemon')
+      .getPublicUrl('home-previews/' + form.id + '.png').data.publicUrl;
   }
 }

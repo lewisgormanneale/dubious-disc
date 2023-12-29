@@ -4,7 +4,7 @@
   <div
     *ngFor="let pokemonForm of pokemonForms"
     class="flex flex-col items-center cursor-pointer rounded bg-zinc-800 p-2"
-    (click)="selectForm(pokemonForm.id)"
+    (click)="selectForm(pokemonForm)"
   >
     <img
       [src]="getFormImage(pokemonForm.id)"

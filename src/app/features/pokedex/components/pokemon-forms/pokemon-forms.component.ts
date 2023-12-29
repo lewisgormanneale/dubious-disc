@@ -12,17 +12,13 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   selector: 'app-pokemon-forms',
   templateUrl: './pokemon-forms.component.html',
 })
-export class PokemonFormsComponent implements OnInit {
+export class PokemonFormsComponent {
   @Input() pokemonForms: any;
   @Input() selectedForm: any;
 
   @Output() newSelectedForm = new EventEmitter<any>();
 
   private supabase: SupabaseService = inject(SupabaseService);
-
-  ngOnInit(): void {
-    console.log(this.pokemonForms);
-  }
 
   getFormImage(id: any) {
     return this.supabase.storage
