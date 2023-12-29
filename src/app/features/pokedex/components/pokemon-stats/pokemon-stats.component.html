@@ -4,10 +4,7 @@
     class="text-sm"
   ></app-container-header>
   <ul class="w-full flex flex-col bg-zinc-800 rounded-b text-sm">
-    <li
-      *ngFor="let stat of stats"
-      class="border-y-zinc-700 border-b p-2 rounded-b"
-    >
+    <li *ngFor="let stat of stats" class="border-y-zinc-700 border-b p-2">
       <div class="grid grid-cols-5 items-center">
         <p class="inline pr-2 col-span-2 font-sans-semi-bold text-sm">
           {{ stat.stat_id.name }}

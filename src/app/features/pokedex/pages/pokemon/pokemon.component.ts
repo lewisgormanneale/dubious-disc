@@ -9,11 +9,11 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   templateUrl: './pokemon.component.html',
 })
 export class PokemonComponent implements OnInit {
-  pokemon: Database['public']['Tables']['pokemon']['Row'][] = [];
-  selected_form: Database['public']['Tables']['pokemon']['Row'] = {} as any;
-  pokemon_species: Database['public']['Tables']['pokemon_species']['Row'] =
+  pokemonForms: Database['public']['Tables']['pokemon']['Row'][] = [];
+  selectedForm: Database['public']['Tables']['pokemon']['Row'] = {} as any;
+  pokemonSpecies: Database['public']['Tables']['pokemon_species']['Row'] =
     {} as any;
-  pokemon_types: any;
+  pokemonTypes: any;
   imageUrl: string = '';
 
   private supabase: SupabaseService = inject(SupabaseService);
@@ -27,7 +27,7 @@ export class PokemonComponent implements OnInit {
           return this.supabase.getPokemonSpeciesByIdentifier(identifier);
         }),
         tap((data) => {
-          this.pokemon_species = data;
+          this.pokemonSpecies = data;
           this.imageUrl = this.supabase.storage
             .from('pokemon')
             .getPublicUrl('home-previews/' + data.id + '.png').data.publicUrl;
@@ -36,15 +36,19 @@ export class PokemonComponent implements OnInit {
           return this.supabase.getPokemonBySpeciesId(data.id);
         }),
         tap((data) => {
-          this.pokemon = data;
-          this.selected_form = data[0];
+          this.pokemonForms = data;
+          this.selectedForm = data[0];
         }),
         switchMap((data) => {
           return this.supabase.getPokemonTypesByPokemonId(data[0].id);
         })
       )
       .subscribe((data) => {
-        this.pokemon_types = data;
+        this.pokemonTypes = data;
       });
+  }
+
+  handleNewSelectedForm(form: any) {
+    this.selectedForm = form;
   }
 }

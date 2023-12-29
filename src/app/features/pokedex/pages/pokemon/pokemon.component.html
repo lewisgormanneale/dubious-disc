@@ -1,10 +1,10 @@
 <div class="flex flex-col items-center p-4">
   <div class="max-w-screen-xl bg-zinc-950 rounded p-4">
-    <ng-container *ngIf="pokemon_species && pokemon; else loading">
+    <ng-container *ngIf="pokemonSpecies && pokemonForms; else loading">
       <div class="flex flex-col items-center">
         <div class="flex flex-col items-center" style="max-width: 900px">
           <section
-            *ngIf="pokemon_types && pokemon_types.length > 0"
+            *ngIf="pokemonTypes && pokemonTypes.length > 0"
             class="flex flex-col md:flex-row items-center md:items-start gap-3 w-full"
           >
             <div
@@ -14,14 +14,14 @@
                 src="{{ this.imageUrl }}"
                 class="w-full h-full object-contain min-w-[300px] rounded-t"
                 [style.background]="
-                  pokemon_types && pokemon_types.length > 1
+                  pokemonTypes && pokemonTypes.length > 1
                     ? 'linear-gradient(to bottom right, #' +
-                      pokemon_types[0].type_id.type_color +
+                      pokemonTypes[0].type_id.type_color +
                       ',' +
                       '#' +
-                      pokemon_types[1].type_id.type_color +
+                      pokemonTypes[1].type_id.type_color +
                       ')'
-                    : '#' + pokemon_types[0].type_id.type_color
+                    : '#' + pokemonTypes[0].type_id.type_color
                 "
               />
               <div>
@@ -31,23 +31,23 @@
                 >
                   <h2 class="p-2">
                     <span class="white-outlined text-xl"
-                      >#{{ pokemon_species.id }}</span
+                      >#{{ pokemonSpecies.id }}</span
                     ><span class="font-sans-bold text-xl">
-                      {{ pokemon_species.name }}</span
+                      {{ pokemonSpecies.name }}</span
                     >
                   </h2>
                 </div>
                 <div
                   class="flex justify-between items-center px-2 bg-zinc-800"
                   [ngClass]="
-                    pokemon_types.length > 1
+                    pokemonTypes.length > 1
                       ? 'justify-content-between'
                       : 'justify-content-center'
                   "
                   style="height: 50px"
                 >
                   <app-type-box
-                    *ngFor="let type of pokemon_types"
+                    *ngFor="let type of pokemonTypes"
                     [type]="type.type_id"
                   ></app-type-box>
                 </div>
@@ -55,29 +55,33 @@
             </div>
             <div
               class="flex flex-col justify-content-between w-full gap-3 rounded"
-              *ngIf="selected_form.id"
+              *ngIf="selectedForm.id"
             >
               <app-pokemon-data
-                [pokemon]="selected_form"
-                [pokemon_species]="pokemon_species"
+                [pokemon]="selectedForm"
+                [pokemon_species]="pokemonSpecies"
               ></app-pokemon-data>
               <app-pokemon-stats
-                [pokemon_id]="selected_form.id"
+                [pokemon_id]="selectedForm.id"
               ></app-pokemon-stats>
             </div>
           </section>
           <section
             class="w-full justify-content-center my-3"
-            *ngIf="pokemon.length > 1"
+            *ngIf="pokemonForms.length > 1"
           >
-            <app-pokemon-forms [pokemon_forms]="pokemon"></app-pokemon-forms>
+            <app-pokemon-forms
+              (newSelectedForm)="handleNewSelectedForm($event)"
+              [pokemonForms]="pokemonForms"
+              [selectedForm]="selectedForm"
+            ></app-pokemon-forms>
           </section>
           <section
             class="w-full justify-content-center my-3"
-            *ngIf="pokemon_species.id"
+            *ngIf="pokemonSpecies.id"
           >
             <app-pokemon-descriptions
-              [pokemon_species_id]="pokemon_species.id"
+              [pokemon_species_id]="pokemonSpecies.id"
             ></app-pokemon-descriptions>
           </section>
         </div>

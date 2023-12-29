@@ -2,16 +2,16 @@
   class="flex items-center gap-2 rounded-b-sm w-full p-3 border-y border-zinc-700"
 >
   <div
-    *ngFor="let pokemon_form of pokemon_forms"
+    *ngFor="let pokemonForm of pokemonForms"
     class="flex flex-col items-center cursor-pointer rounded bg-zinc-800 p-2"
-    (click)="selectForm(pokemon_form.id)"
+    (click)="selectForm(pokemonForm.id)"
   >
     <img
-      [src]="getFormImage(pokemon_form.id)"
+      [src]="getFormImage(pokemonForm.id)"
       height="100"
       width="100"
       class="object-contain rounded-t"
     />
-    <span class="text-center text-sm py-2">{{ pokemon_form.name }}</span>
+    <span class="text-center text-sm py-2">{{ pokemonForm.name }}</span>
   </div>
 </div>
