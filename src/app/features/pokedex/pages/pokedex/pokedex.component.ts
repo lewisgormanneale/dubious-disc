@@ -8,8 +8,7 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   templateUrl: './pokedex.component.html',
 })
 export class PokedexComponent implements OnInit {
-  public isMenuCollapsed: boolean = true;
-
+  public listView: boolean = false;
   public pokedexes: any[] = [];
   public versionGroup: any = {};
   public urlValue: string = '';
@@ -45,7 +44,7 @@ export class PokedexComponent implements OnInit {
   }
 
   onPokemonClick(pokemon: any) {
-    let pokemonID = pokemon.identifier;
+    let pokemonID = pokemon.species_id.identifier;
     this.router.navigate(['pokedex', this.urlValue, pokemonID]);
   }
 

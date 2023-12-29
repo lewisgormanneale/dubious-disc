@@ -27,7 +27,7 @@ export class PokemonComponent implements OnInit {
           this.pokemon_species = data;
           this.imageUrl = this.supabase.storage
             .from('pokemon')
-            .getPublicUrl('home/' + data.id + '.png').data.publicUrl;
+            .getPublicUrl('home-previews/' + data.id + '.png').data.publicUrl;
         }),
         switchMap((data) => {
           return this.supabase.getPokemonBySpeciesId(data.id);

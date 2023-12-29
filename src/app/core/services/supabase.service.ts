@@ -76,14 +76,11 @@ export class SupabaseService {
   getPokemonByDexId(id: number): Observable<any> {
     const request = this.supabase
       .from('pokemon_dex_numbers')
-      .select('species_id (id, identifier, name), pokedex_number')
+      .select('species_id (id, identifier, name, genus), pokedex_number')
       .eq('pokedex_id', id)
       .order('pokedex_number', { ascending: true });
 
-    return from(request).pipe(
-      map((response) => response.data || []),
-      map((data) => data.map((item) => item.species_id))
-    );
+    return from(request).pipe(map((response) => response.data || []));
   }
 
   getPokemonSpeciesByIdentifier(identifier: string): Observable<any> {
