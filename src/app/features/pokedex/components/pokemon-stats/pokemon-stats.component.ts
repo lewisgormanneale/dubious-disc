@@ -28,9 +28,9 @@ export class PokemonStatsComponent implements OnInit {
       case 3:
         return 'bg-defense';
       case 4:
-        return 'bg-special-attack';
+        return 'bg-special_attack';
       case 5:
-        return 'bg-special-defense';
+        return 'bg-special_defense';
       case 6:
         return 'bg-speed';
       default:
