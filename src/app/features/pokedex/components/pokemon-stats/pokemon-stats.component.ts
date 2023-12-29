@@ -2,10 +2,10 @@ import { Component, inject, Input, OnInit } from '@angular/core';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-stats',
-  templateUrl: './stats.component.html',
+  selector: 'app-pokemon-stats',
+  templateUrl: './pokemon-stats.component.html',
 })
-export class StatsComponent implements OnInit {
+export class PokemonStatsComponent implements OnInit {
   @Input() pokemon_id: number = 0;
   stats: any = [] as any;
 

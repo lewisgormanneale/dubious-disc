@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { GenderRatioComponent } from './gender-ratio.component';
+import { PokemonGenderRatioComponent } from './pokemon-gender-ratio.component';
 import { getByTestId } from '@testing-library/dom';
 
-describe('GenderRatioComponent', () => {
-  let component: GenderRatioComponent;
-  let fixture: ComponentFixture<GenderRatioComponent>;
+describe('PokemonGenderRatioComponent', () => {
+  let component: PokemonGenderRatioComponent;
+  let fixture: ComponentFixture<PokemonGenderRatioComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [GenderRatioComponent],
+      declarations: [PokemonGenderRatioComponent],
     }).compileComponents();
-    fixture = TestBed.createComponent(GenderRatioComponent);
+    fixture = TestBed.createComponent(PokemonGenderRatioComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

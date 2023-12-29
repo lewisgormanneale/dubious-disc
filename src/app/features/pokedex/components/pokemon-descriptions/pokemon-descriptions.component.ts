@@ -2,10 +2,10 @@ import { Component, inject, Input } from '@angular/core';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-descriptions',
-  templateUrl: './descriptions.component.html',
+  selector: 'app-pokemon-descriptions',
+  templateUrl: './pokemon-descriptions.component.html',
 })
-export class DescriptionsComponent {
+export class PokemonDescriptionsComponent {
   @Input() pokemon_species_id: number = 0;
 
   descriptions: any[] = [];

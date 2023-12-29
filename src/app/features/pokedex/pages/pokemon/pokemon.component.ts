@@ -20,14 +20,14 @@ export class PokemonComponent implements OnInit {
     this.route.params
       .pipe(
         switchMap((params) => {
-          let identifier = params['identifier'];
+          const identifier = params['pokemon'];
           return this.supabase.getPokemonSpeciesByIdentifier(identifier);
         }),
         tap((data) => {
           this.pokemon_species = data;
           this.imageUrl = this.supabase.storage
             .from('pokemon')
-            .getPublicUrl('home/' + data.id + '.png').data.publicUrl;
+            .getPublicUrl('home-previews/' + data.id + '.png').data.publicUrl;
         }),
         switchMap((data) => {
           return this.supabase.getPokemonBySpeciesId(data.id);

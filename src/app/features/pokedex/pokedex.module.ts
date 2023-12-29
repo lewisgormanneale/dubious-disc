@@ -4,17 +4,29 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
 import { CoreModule } from 'src/app/core/core.module';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { PokedexComponent } from './pages/pokedex/pokedex.component';
-import { PokedexListItemComponent } from './components/pokedex-list-item/pokedex-list-item.component';
+import { PokedexGridViewItemComponent } from './components/pokedex-grid-view-item/pokedex-grid-view-item.component';
 import { PokedexSelectComponent } from './pages/pokedex-select/pokedex-select.component';
 import { PokedexSelectItemComponent } from './components/pokedex-select-item/pokedex-select-item.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { PokemonComponent } from './pages/pokemon/pokemon.component';
+import { PokemonDataComponent } from './components/pokemon-data/pokemon-data.component';
+import { PokemonDescriptionsComponent } from './components/pokemon-descriptions/pokemon-descriptions.component';
+import { PokemonGenderRatioComponent } from './components/pokemon-gender-ratio/pokemon-gender-ratio.component';
+import { PokemonStatsComponent } from './components/pokemon-stats/pokemon-stats.component';
+import { PokedexListViewItemComponent } from './components/pokedex-list-view-item/pokedex-list-view-item.component';
 
 @NgModule({
   declarations: [
     PokedexComponent,
-    PokedexListItemComponent,
+    PokedexGridViewItemComponent,
+    PokedexListViewItemComponent,
     PokedexSelectComponent,
     PokedexSelectItemComponent,
+    PokemonComponent,
+    PokemonDataComponent,
+    PokemonDescriptionsComponent,
+    PokemonGenderRatioComponent,
+    PokemonStatsComponent,
   ],
   imports: [
     CommonModule,

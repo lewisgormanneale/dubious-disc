@@ -1,9 +1,9 @@
 <div class="flex flex-col justify-start items-center w-full h-full">
   <div
-    class="grid grid-cols-2 xl:grid-cols-3 gap-2 m-4 max-w-screen-2xl h-full"
+    class="grid grid-cols-2 xl:grid-cols-3 gap-2 m-4 max-w-screen-2xl h-full w-full"
   >
     <div
-      class="col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 sticky top-0 z-30 xl:relative bg-zinc-900 py-2 xl:py-0"
+      class="col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 sticky top-0 z-30 xl:relative bg-zinc-900 py-2 xl:py-0 w-full"
     >
       <div class="bg-zinc-950 rounded w-full hidden sm:block">
         <app-container-header [title]="'Quick Links'"></app-container-header>
@@ -34,6 +34,7 @@
         ></app-container-header>
         <div class="p-4 flex gap-2">
           <button
+            (click)="listView = !listView"
             class="flex justify-center items-center text-center text-xs bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded"
           >
             List View
@@ -41,7 +42,7 @@
         </div>
       </div>
     </div>
-    <div class="col-span-2 bg-zinc-950 rounded h-full">
+    <div class="col-span-2 bg-zinc-950 rounded h-full w-full">
       <app-container-header
         class="mb-2"
         [title]="
@@ -52,20 +53,38 @@
       ></app-container-header>
       <ng-container *ngIf="pokedexes.length > 0; else elseBlock">
         <ng-container *ngFor="let pokedex of pokedexes">
-          <div class="flex flex-col rounded py-2">
+          <div class="flex flex-col rounded py-2 w-full">
             <h3
               *ngIf="pokedexes.length > 1"
-              class="text-lg mx-3 text-center font-sans-semi-bold"
+              class="text-lg mx-3 text-center font-sans-semi-bold pb-2"
             >
               {{ pokedex.name + " Pokedex" }}
             </h3>
-            <div class="flex flex-wrap gap-2 justify-center p-2">
-              <app-pokedex-list-item
-                *ngFor="let pokemon of pokedex.pokemon_entries"
-                [pokemon]="pokemon"
-                (click)="onPokemonClick(pokemon)"
-              ></app-pokedex-list-item>
-            </div>
+            <ng-container *ngIf="listView; else gridView">
+              <div class="flex flex-col w-full">
+                <app-pokedex-list-view-item
+                  *ngFor="
+                    let pokemon of pokedex.pokemon_entries;
+                    index as index
+                  "
+                  [pokemon]="pokemon"
+                  (click)="onPokemonClick(pokemon)"
+                  class=""
+                  [ngClass]="{
+                    'border-t border-zinc-700': index === 0
+                  }"
+                ></app-pokedex-list-view-item>
+              </div>
+            </ng-container>
+            <ng-template #gridView>
+              <div class="flex flex-wrap gap-2 justify-center p-2">
+                <app-pokedex-grid-view-item
+                  *ngFor="let pokemon of pokedex.pokemon_entries"
+                  [pokemon]="pokemon"
+                  (click)="onPokemonClick(pokemon)"
+                ></app-pokedex-grid-view-item>
+              </div>
+            </ng-template>
           </div>
         </ng-container>
       </ng-container>

@@ -54,17 +54,17 @@
               </div>
             </div>
             <div class="flex flex-col justify-content-between w-full gap-3">
-              <app-data
+              <app-pokemon-data
                 [pokemon]="pokemon"
                 [pokemon_species]="pokemon_species"
-              ></app-data>
-              <app-stats [pokemon_id]="pokemon.id"></app-stats>
+              ></app-pokemon-data>
+              <app-pokemon-stats [pokemon_id]="pokemon.id"></app-pokemon-stats>
             </div>
           </section>
           <section class="w-full justify-content-center my-3">
-            <app-descriptions
+            <app-pokemon-descriptions
               [pokemon_species_id]="pokemon_species.id"
-            ></app-descriptions>
+            ></app-pokemon-descriptions>
           </section>
         </div>
       </div>
