@@ -42,7 +42,7 @@ export class PostCardComponent implements OnInit {
     this.publishedDay = date.getUTCDate();
 
     this.sanityService.urlFor(this.post.mainImage).then((url) => {
-      this.post.mainImage = url;
+      this.imageUrl = url;
     });
   }
 

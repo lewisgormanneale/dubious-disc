@@ -63,7 +63,10 @@
               <app-pokemon-stats [pokemon_id]="pokemon.id"></app-pokemon-stats>
             </div>
           </section>
-          <section class="w-full justify-content-center my-3">
+          <section
+            class="w-full justify-content-center my-3"
+            *ngIf="pokemon_forms.length > 1"
+          >
             <app-pokemon-forms
               [pokemon_forms]="pokemon_forms"
             ></app-pokemon-forms>
