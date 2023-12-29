@@ -9,6 +9,7 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
 })
 export class PokemonComponent implements OnInit {
   pokemon: any;
+  pokemon_forms: any;
   pokemon_species: any;
   pokemon_types: any;
   imageUrl: string = '';
@@ -34,6 +35,7 @@ export class PokemonComponent implements OnInit {
         }),
         tap((data) => {
           this.pokemon = data[0];
+          this.pokemon_forms = data;
         }),
         switchMap((data) => {
           return this.supabase.getPokemonTypesByPokemonId(data[0].id);

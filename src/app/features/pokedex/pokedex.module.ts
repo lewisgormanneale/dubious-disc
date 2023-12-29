@@ -14,6 +14,7 @@ import { PokemonDescriptionsComponent } from './components/pokemon-descriptions/
 import { PokemonGenderRatioComponent } from './components/pokemon-gender-ratio/pokemon-gender-ratio.component';
 import { PokemonStatsComponent } from './components/pokemon-stats/pokemon-stats.component';
 import { PokedexListViewItemComponent } from './components/pokedex-list-view-item/pokedex-list-view-item.component';
+import { PokemonFormsComponent } from './components/pokemon-forms/pokemon-forms.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { PokedexListViewItemComponent } from './components/pokedex-list-view-ite
     PokedexSelectItemComponent,
     PokemonComponent,
     PokemonDataComponent,
+    PokemonFormsComponent,
     PokemonDescriptionsComponent,
     PokemonGenderRatioComponent,
     PokemonStatsComponent,

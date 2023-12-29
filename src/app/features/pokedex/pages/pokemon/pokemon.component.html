@@ -64,6 +64,11 @@
             </div>
           </section>
           <section class="w-full justify-content-center my-3">
+            <app-pokemon-forms
+              [pokemon_forms]="pokemon_forms"
+            ></app-pokemon-forms>
+          </section>
+          <section class="w-full justify-content-center my-3">
             <app-pokemon-descriptions
               [pokemon_species_id]="pokemon_species.id"
             ></app-pokemon-descriptions>
