@@ -1,6 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { switchMap, tap } from 'rxjs';
+import { Database } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -8,9 +9,10 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   templateUrl: './pokemon.component.html',
 })
 export class PokemonComponent implements OnInit {
-  pokemon: any;
-  pokemon_forms: any;
-  pokemon_species: any;
+  pokemon: Database['public']['Tables']['pokemon']['Row'][] = [];
+  selected_form: Database['public']['Tables']['pokemon']['Row'] = {} as any;
+  pokemon_species: Database['public']['Tables']['pokemon_species']['Row'] =
+    {} as any;
   pokemon_types: any;
   imageUrl: string = '';
 
@@ -34,8 +36,8 @@ export class PokemonComponent implements OnInit {
           return this.supabase.getPokemonBySpeciesId(data.id);
         }),
         tap((data) => {
-          this.pokemon = data[0];
-          this.pokemon_forms = data;
+          this.pokemon = data;
+          this.selected_form = data[0];
         }),
         switchMap((data) => {
           return this.supabase.getPokemonTypesByPokemonId(data[0].id);

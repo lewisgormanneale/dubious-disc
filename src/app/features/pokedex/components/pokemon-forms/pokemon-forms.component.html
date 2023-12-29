@@ -1,27 +1,17 @@
 <div
-  class="flex flex-col rounded bg-byzantium w-full border border-zinc-800"
-  *ngIf="pokemon_forms.length > 1"
+  class="flex items-center gap-2 rounded-b-sm w-full p-3 border-y border-zinc-700"
 >
-  <app-container-header
-    [title]="'Pokémon Forms'"
-    class="text-sm"
-  ></app-container-header>
   <div
-    class="flex flex-wrap items-center justify-evenly gap-2 rounded-b w-full bg-zinc-200 p-2"
+    *ngFor="let pokemon_form of pokemon_forms"
+    class="flex flex-col items-center cursor-pointer rounded bg-zinc-800 p-2"
+    (click)="selectForm(pokemon_form.id)"
   >
-    <div
-      *ngFor="let pokemon_form of pokemon_forms"
-      class="flex flex-col items-center"
-    >
-      <img
-        [src]="getFormImage(pokemon_form.id)"
-        height="100"
-        width="100"
-        class="object-contain rounded-t"
-      />
-      <span class="text-zinc-800 text-center text-sm">{{
-        pokemon_form.name
-      }}</span>
-    </div>
+    <img
+      [src]="getFormImage(pokemon_form.id)"
+      height="100"
+      width="100"
+      class="object-contain rounded-t"
+    />
+    <span class="text-center text-sm py-2">{{ pokemon_form.name }}</span>
   </div>
 </div>

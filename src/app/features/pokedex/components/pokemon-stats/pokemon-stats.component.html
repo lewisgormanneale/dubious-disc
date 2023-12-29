@@ -3,17 +3,17 @@
     [title]="'Pokémon Base Stats'"
     class="text-sm"
   ></app-container-header>
-  <ul class="w-full flex flex-col bg-zinc-200 text-zinc-800 rounded-b text-sm">
+  <ul class="w-full flex flex-col bg-zinc-800 rounded-b text-sm">
     <li
       *ngFor="let stat of stats"
-      class="border-y-zinc-300 border-b p-2 rounded-b"
+      class="border-y-zinc-700 border-b p-2 rounded-b"
     >
       <div class="grid grid-cols-5 items-center">
         <p class="inline pr-2 col-span-2 font-sans-semi-bold text-sm">
           {{ stat.stat_id.name }}
         </p>
         <div
-          class="w-full h-[20px] col-span-3 rounded bg-zinc-300 border-zinc-800 box-border border-[1px]"
+          class="w-full h-[20px] col-span-3 rounded border-zinc-700 box-border border-[1px] bg-zinc-600"
         >
           <div
             class="rounded-l h-full flex justify-center items-center"

@@ -554,7 +554,7 @@ export interface Database {
         }
         Insert: {
           baby_trigger_item_id?: number | null
-          id: number
+          id?: number
         }
         Update: {
           baby_trigger_item_id?: number | null
@@ -1825,32 +1825,66 @@ export interface Database {
       pokemon: {
         Row: {
           base_experience: number | null
+          form_identifier: string | null
+          form_name: string | null
+          form_order: number | null
           height: number | null
           id: number
           identifier: string | null
+          introduced_in_version_group_id: number | null
+          is_battle_only: boolean
           is_default: boolean | null
+          is_gigantamax: boolean | null
+          is_mega: boolean
+          name: string | null
+          order: number | null
           species_id: number | null
           weight: number | null
         }
         Insert: {
           base_experience?: number | null
+          form_identifier?: string | null
+          form_name?: string | null
+          form_order?: number | null
           height?: number | null
           id: number
           identifier?: string | null
+          introduced_in_version_group_id?: number | null
+          is_battle_only?: boolean
           is_default?: boolean | null
+          is_gigantamax?: boolean | null
+          is_mega?: boolean
+          name?: string | null
+          order?: number | null
           species_id?: number | null
           weight?: number | null
         }
         Update: {
           base_experience?: number | null
+          form_identifier?: string | null
+          form_name?: string | null
+          form_order?: number | null
           height?: number | null
           id?: number
           identifier?: string | null
+          introduced_in_version_group_id?: number | null
+          is_battle_only?: boolean
           is_default?: boolean | null
+          is_gigantamax?: boolean | null
+          is_mega?: boolean
+          name?: string | null
+          order?: number | null
           species_id?: number | null
           weight?: number | null
         }
         Relationships: [
+          {
+            foreignKeyName: "pokemon_introduced_in_version_group_id_fkey"
+            columns: ["introduced_in_version_group_id"]
+            isOneToOne: false
+            referencedRelation: "version_groups"
+            referencedColumns: ["id"]
+          },
           {
             foreignKeyName: "pokemon_species_id_fkey"
             columns: ["species_id"]
@@ -2044,7 +2078,7 @@ export interface Database {
           id: number
           known_move_id: number | null
           known_move_type_id: number | null
-          location_id: string | null
+          location_id: number | null
           minimum_affection: number | null
           minimum_beauty: number | null
           minimum_happiness: number | null
@@ -2066,7 +2100,7 @@ export interface Database {
           id: number
           known_move_id?: number | null
           known_move_type_id?: number | null
-          location_id?: string | null
+          location_id?: number | null
           minimum_affection?: number | null
           minimum_beauty?: number | null
           minimum_happiness?: number | null
@@ -2088,7 +2122,7 @@ export interface Database {
           id?: number
           known_move_id?: number | null
           known_move_type_id?: number | null
-          location_id?: string | null
+          location_id?: number | null
           minimum_affection?: number | null
           minimum_beauty?: number | null
           minimum_happiness?: number | null
@@ -2103,6 +2137,13 @@ export interface Database {
           turn_upside_down?: boolean | null
         }
         Relationships: [
+          {
+            foreignKeyName: "pokemon_evolution_evolution_trigger_id_fkey"
+            columns: ["evolution_trigger_id"]
+            isOneToOne: false
+            referencedRelation: "evolution_triggers"
+            referencedColumns: ["id"]
+          },
           {
             foreignKeyName: "pokemon_evolution_evolved_species_id_fkey"
             columns: ["evolved_species_id"]
@@ -2136,6 +2177,13 @@ export interface Database {
             columns: ["known_move_type_id"]
             isOneToOne: false
             referencedRelation: "types"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "pokemon_evolution_location_id_fkey"
+            columns: ["location_id"]
+            isOneToOne: false
+            referencedRelation: "locations"
             referencedColumns: ["id"]
           },
           {
@@ -2212,6 +2260,7 @@ export interface Database {
           minimum_stat: number | null
           pokeathlon_stat_id: number | null
           pokemon_form_id: number | null
+          pokemon_id: number | null
         }
         Insert: {
           base_stat?: number | null
@@ -2220,6 +2269,7 @@ export interface Database {
           minimum_stat?: number | null
           pokeathlon_stat_id?: number | null
           pokemon_form_id?: number | null
+          pokemon_id?: number | null
         }
         Update: {
           base_stat?: number | null
@@ -2228,6 +2278,7 @@ export interface Database {
           minimum_stat?: number | null
           pokeathlon_stat_id?: number | null
           pokemon_form_id?: number | null
+          pokemon_id?: number | null
         }
         Relationships: [
           {
@@ -2242,6 +2293,13 @@ export interface Database {
             columns: ["pokemon_form_id"]
             isOneToOne: false
             referencedRelation: "pokemon_forms"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "pokemon_form_pokeathlon_stats_pokemon_id_fkey"
+            columns: ["pokemon_id"]
+            isOneToOne: false
+            referencedRelation: "pokemon"
             referencedColumns: ["id"]
           }
         ]
@@ -2581,7 +2639,7 @@ export interface Database {
           habitat_id?: number | null
           has_gender_differences?: boolean | null
           hatch_counter?: number | null
-          id: number
+          id?: number
           identifier?: string | null
           is_baby?: boolean | null
           is_legendary?: boolean | null
@@ -2615,6 +2673,20 @@ export interface Database {
         }
         Relationships: [
           {
+            foreignKeyName: "pokemon_species_color_id_fkey"
+            columns: ["color_id"]
+            isOneToOne: false
+            referencedRelation: "pokemon_colors"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "pokemon_species_evolution_chain_id_fkey"
+            columns: ["evolution_chain_id"]
+            isOneToOne: false
+            referencedRelation: "evolution_chains"
+            referencedColumns: ["id"]
+          },
+          {
             foreignKeyName: "pokemon_species_evolves_from_species_id_fkey"
             columns: ["evolves_from_species_id"]
             isOneToOne: false
@@ -2633,6 +2705,13 @@ export interface Database {
             columns: ["growth_rate_id"]
             isOneToOne: false
             referencedRelation: "growth_rates"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "pokemon_species_habitat_id_fkey"
+            columns: ["habitat_id"]
+            isOneToOne: false
+            referencedRelation: "pokemon_habitats"
             referencedColumns: ["id"]
           },
           {
@@ -3001,6 +3080,7 @@ export interface Database {
           id: number
           identifier: string | null
           name: string | null
+          type_color: string | null
         }
         Insert: {
           damage_class_id?: number | null
@@ -3008,6 +3088,7 @@ export interface Database {
           id: number
           identifier?: string | null
           name?: string | null
+          type_color?: string | null
         }
         Update: {
           damage_class_id?: number | null
@@ -3015,6 +3096,7 @@ export interface Database {
           id?: number
           identifier?: string | null
           name?: string | null
+          type_color?: string | null
         }
         Relationships: [
           {

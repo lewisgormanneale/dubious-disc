@@ -26,7 +26,9 @@ export class SupabaseService {
     return this.supabase.storage;
   }
 
-  getAllVersionGroups(): Observable<any> {
+  getAllVersionGroups(): Observable<
+    Database['public']['Tables']['version_groups'][]
+  > {
     const request = this.supabase
       .from('version_groups')
       .select('*')
@@ -102,7 +104,9 @@ export class SupabaseService {
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getPokemonBySpeciesId(id: number): Observable<any> {
+  getPokemonBySpeciesId(
+    id: number
+  ): Observable<Database['public']['Tables']['pokemon']['Row'][]> {
     const request = this.supabase
       .from('pokemon')
       .select('*')

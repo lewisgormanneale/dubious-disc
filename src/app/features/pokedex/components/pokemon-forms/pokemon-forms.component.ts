@@ -1,4 +1,4 @@
-import { Component, inject, Input, OnInit } from '@angular/core';
+import { Component, inject, Input, OnInit, Output } from '@angular/core';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -7,6 +7,9 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
 })
 export class PokemonFormsComponent implements OnInit {
   @Input() pokemon_forms: any;
+  @Input() selected_form: any;
+
+  @Output() selectedForm: any;
 
   private supabase: SupabaseService = inject(SupabaseService);
 
@@ -18,5 +21,9 @@ export class PokemonFormsComponent implements OnInit {
     return this.supabase.storage
       .from('pokemon')
       .getPublicUrl('home-previews/' + id + '.png').data.publicUrl;
+  }
+
+  selectForm(form: any) {
+    this.selected_form = form;
   }
 }
