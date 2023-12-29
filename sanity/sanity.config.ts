@@ -5,7 +5,7 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'gracidea',
+  title: 'dubious-disc',
 
   projectId: '6oeacjo5',
   dataset: 'production',

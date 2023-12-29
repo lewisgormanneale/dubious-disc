@@ -5,7 +5,7 @@
       'bg-shaymin_darker': isOpen,
       'bg-shaymin': !isOpen,
     }"
-    class="flex items-center justify-center rounded-t sm:rounded-none transition h-full px-4 font-sans-semi-bold text-sm hover:bg-shaymin_darker text-zinc-800"
+    class="flex items-center justify-center rounded-t sm:rounded-none transition h-full px-4 font-sans-semi-bold text-sm hover:bg-shaymin_darker"
   >
     {{ navItem.label }}
   </button>
@@ -19,9 +19,7 @@
   >
     <ng-container *ngFor="let section of navItem.sections">
       <div class="">
-        <div
-          class="text-sm font-sans-semi-bold px-2 py-1 bg-shaymin_darker text-zinc-800"
-        >
+        <div class="text-sm font-sans-semi-bold px-2 py-1 bg-shaymin_darker">
           {{ section.sectionTitle }}
         </div>
         <ul class="space-y-1">

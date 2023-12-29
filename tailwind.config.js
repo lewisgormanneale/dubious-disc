@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        shaymin: "#30c767",
-        shaymin_darker: "#2bae5a",
+        shaymin: "#8a3a7a ",
+        shaymin_darker: "#6e2e63",
         male: "#6890cb",
         female: "#f15d69",
         genderless: "#4fc337",
