@@ -16,7 +16,12 @@ import { PokemonStatsComponent } from './components/pokemon-stats/pokemon-stats.
 import { PokedexListViewItemComponent } from './components/pokedex-list-view-item/pokedex-list-view-item.component';
 import { PokemonFormsComponent } from './components/pokemon-forms/pokemon-forms.component';
 import { NgIconsModule } from '@ng-icons/core';
-import { heroChevronLeftSolid } from '@ng-icons/heroicons/solid';
+import {
+  heroChevronLeftSolid,
+  heroChevronRightSolid,
+  heroSwatchSolid,
+} from '@ng-icons/heroicons/solid';
+import { bootstrapDice6Fill } from '@ng-icons/bootstrap-icons';
 
 @NgModule({
   declarations: [
@@ -38,7 +43,12 @@ import { heroChevronLeftSolid } from '@ng-icons/heroicons/solid';
     SharedModule,
     AppRoutingModule,
     LazyLoadImageModule,
-    NgIconsModule.withIcons({ heroChevronLeftSolid }),
+    NgIconsModule.withIcons({
+      heroChevronLeftSolid,
+      heroChevronRightSolid,
+      heroSwatchSolid,
+      bootstrapDice6Fill,
+    }),
   ],
 })
 export class PokedexModule {}

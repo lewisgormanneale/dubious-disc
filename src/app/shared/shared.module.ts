@@ -10,6 +10,9 @@ import { ContainerHeaderComponent } from './components/container-header/containe
 import { RouterModule } from '@angular/router';
 import { NewsContainerComponent } from './components/news-container/news-container.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { DropdownLinkComponent } from './components/dropdown-link/dropdown-link.component';
+import { NgIconsModule } from '@ng-icons/core';
+import { heroChevronDownSolid } from '@ng-icons/heroicons/solid';
 
 @NgModule({
   declarations: [
@@ -17,17 +20,26 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
     DecimetersToPoundsPipe,
     TypeBoxComponent,
     PostCardComponent,
+    DropdownLinkComponent,
     HeaderDropdownItemComponent,
     ContainerHeaderComponent,
     NewsContainerComponent,
     SpinnerComponent,
   ],
-  imports: [CommonModule, FormsModule, RouterModule],
+  imports: [
+    CommonModule,
+    FormsModule,
+    RouterModule,
+    NgIconsModule.withIcons({
+      heroChevronDownSolid,
+    }),
+  ],
   exports: [
     DecimetersToFeetAndInchesPipe,
     DecimetersToPoundsPipe,
     TypeBoxComponent,
     HeaderDropdownItemComponent,
+    DropdownLinkComponent,
     PostCardComponent,
     ContainerHeaderComponent,
     NewsContainerComponent,

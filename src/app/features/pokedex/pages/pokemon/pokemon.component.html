@@ -4,9 +4,11 @@
       <div class="flex flex-col items-center">
         <div class="flex flex-col items-center" style="max-width: 900px">
           <section class="w-full flex justify-between items-center mb-2">
-            <div>
+            <div
+              class="flex flex-col-reverse gap-2 sm:flex-row sm:items-center"
+            >
               <a
-                class="flex justify-evenly items-center h-12 w-20 rounded bg-zinc-700 cursor-pointer"
+                class="flex justify-evenly items-center h-12 w-16 rounded bg-zinc-700 cursor-pointer"
               >
                 <ng-icon [name]="'heroChevronLeftSolid'"></ng-icon>
                 <img
@@ -17,20 +19,40 @@
                   width="20"
                 />
               </a>
+              <a
+                class="flex justify-center items-center w-12 h-12 rounded bg-zinc-700 cursor-pointer"
+                ><ng-icon [name]="'heroSwatchSolid'"></ng-icon
+              ></a>
             </div>
-            <div class="flex gap-2">
-              <!-- <app-dropdown-link
+            <div class="flex flex-col gap-2 sm:flex-row">
+              <app-dropdown-link
                 [placeholder]="'Select Pokédex'"
                 [options]="[]"
               ></app-dropdown-link>
               <app-dropdown-link
                 [placeholder]="'Select Pokémon'"
                 [options]="[]"
-              ></app-dropdown-link> -->
+              ></app-dropdown-link>
             </div>
-            <div>
-              <button>Random PKMN</button>
-              <button>Next PKMN</button>
+            <div
+              class="flex flex-col gap-2 sm:flex-row sm:items-center items-end"
+            >
+              <a
+                class="flex justify-center items-center w-12 h-12 rounded bg-zinc-700 cursor-pointer"
+                ><ng-icon [name]="'bootstrapDice6Fill'"></ng-icon
+              ></a>
+              <a
+                class="flex justify-evenly items-center h-12 w-16 rounded bg-zinc-700 cursor-pointer"
+              >
+                <img
+                  class="transition-all duration-300 ease-in-out"
+                  [defaultImage]="'assets/images/question-icon.png'"
+                  [lazyLoad]="imageUrl"
+                  height="20"
+                  width="20"
+                />
+                <ng-icon [name]="'heroChevronRightSolid'"></ng-icon>
+              </a>
             </div>
           </section>
           <section
