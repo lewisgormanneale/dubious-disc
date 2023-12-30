@@ -58,6 +58,9 @@ export class PokemonComponent implements OnInit {
 
   handleNewSelectedForm(form: any) {
     this.selectedForm = form;
+    this.supabase.getPokemonTypesByPokemonId(form.id).subscribe((data) => {
+      this.pokemonTypes = data;
+    });
     if (this.shiny) {
       this.imageUrl = this.supabase.storage
         .from('pokemon')
