@@ -21,6 +21,8 @@
     "@angular/platform-browser": "^16.2.10",
     "@angular/platform-browser-dynamic": "^16.2.10",
     "@angular/router": "^16.2.10",
+    "@ng-icons/core": "^26.3.0",
+    "@ng-icons/heroicons": "^26.3.0",
     "@popperjs/core": "^2.11.6",
     "@portabletext/to-html": "^2.0.5",
     "@sanity/client": "^6.8.6",

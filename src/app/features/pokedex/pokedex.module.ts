@@ -15,6 +15,8 @@ import { PokemonGenderRatioComponent } from './components/pokemon-gender-ratio/p
 import { PokemonStatsComponent } from './components/pokemon-stats/pokemon-stats.component';
 import { PokedexListViewItemComponent } from './components/pokedex-list-view-item/pokedex-list-view-item.component';
 import { PokemonFormsComponent } from './components/pokemon-forms/pokemon-forms.component';
+import { NgIconsModule } from '@ng-icons/core';
+import { heroChevronLeftSolid } from '@ng-icons/heroicons/solid';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,7 @@ import { PokemonFormsComponent } from './components/pokemon-forms/pokemon-forms.
     SharedModule,
     AppRoutingModule,
     LazyLoadImageModule,
+    NgIconsModule.withIcons({ heroChevronLeftSolid }),
   ],
 })
 export class PokedexModule {}
