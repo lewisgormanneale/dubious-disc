@@ -1,4 +1,4 @@
-<div class="flex flex-col rounded bg-byzantium w-full border border-zinc-800">
+<div class="flex flex-col rounded bg-byzantium w-full">
   <app-container-header
     [title]="'Pokédex Descriptions'"
     class="text-sm"
@@ -11,14 +11,14 @@
             ? descriptions
             : (descriptions | slice : 0 : 3)
         "
-        class="text-start text-sm border-y-zinc-700 border border-zinc-700 px-2 py-3"
+        class="text-start text-sm border-y-zinc-700 border-b border-zinc-700 px-2 py-3"
         [ngClass]="descriptions.length <= 3 ? 'rounded-b' : ''"
       >
         {{ description }}
       </li>
     </ul>
     <a
-      class="flex justify-center text-sm items-center py-2 px-4 transition rounded-b-sm cursor-pointer border border-zinc-700 bg-old_mauve"
+      class="flex justify-center text-sm items-center py-2 px-4 transition rounded-b-sm cursor-pointer bg-old_mauve"
       *ngIf="descriptions.length > 3"
       (click)="toggleShowMore()"
       >{{ showMore ? "Show Less" : "Show More" }}

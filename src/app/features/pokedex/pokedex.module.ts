@@ -20,6 +20,7 @@ import {
   heroChevronLeftSolid,
   heroChevronRightSolid,
   heroSwatchSolid,
+  heroSparklesSolid,
 } from '@ng-icons/heroicons/solid';
 import { bootstrapDice6Fill } from '@ng-icons/bootstrap-icons';
 
@@ -48,6 +49,7 @@ import { bootstrapDice6Fill } from '@ng-icons/bootstrap-icons';
       heroChevronRightSolid,
       heroSwatchSolid,
       bootstrapDice6Fill,
+      heroSparklesSolid,
     }),
   ],
 })

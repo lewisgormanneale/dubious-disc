@@ -1,6 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { switchMap, tap } from 'rxjs';
+import { map, switchMap, tap, concatMap } from 'rxjs';
 import { Database } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
@@ -14,8 +14,14 @@ export class PokemonComponent implements OnInit {
   pokemonSpecies: Database['public']['Tables']['pokemon_species']['Row'] =
     {} as any;
   pokemonTypes: any;
+  shiny: boolean = false;
+
   pokedexGeneration: string = '';
+  pokedexOptions: any[] = [];
+
   imageUrl: string = '';
+  previousPokemonImageUrl: string = '';
+  nextPokemonImageUrl: string = '';
 
   private supabase: SupabaseService = inject(SupabaseService);
   private route: ActivatedRoute = inject(ActivatedRoute);
@@ -52,8 +58,35 @@ export class PokemonComponent implements OnInit {
 
   handleNewSelectedForm(form: any) {
     this.selectedForm = form;
-    this.imageUrl = this.supabase.storage
-      .from('pokemon')
-      .getPublicUrl('home-previews/' + form.id + '.png').data.publicUrl;
+    if (this.shiny) {
+      this.imageUrl = this.supabase.storage
+        .from('pokemon')
+        .getPublicUrl('home-previews/shiny/' + form.id + '.png').data.publicUrl;
+    } else {
+      this.imageUrl = this.supabase.storage
+        .from('pokemon')
+        .getPublicUrl('home-previews/' + form.id + '.png').data.publicUrl;
+    }
+  }
+
+  getPokedexOptions() {
+    this.supabase.getAllVersionGroups();
+  }
+
+  shinyToggle() {
+    this.shiny = !this.shiny;
+    if (this.shiny) {
+      this.imageUrl = this.supabase.storage
+        .from('pokemon')
+        .getPublicUrl(
+          'home-previews/shiny/' + this.selectedForm.id + '.png'
+        ).data.publicUrl;
+    } else {
+      this.imageUrl = this.supabase.storage
+        .from('pokemon')
+        .getPublicUrl(
+          'home-previews/' + this.selectedForm.id + '.png'
+        ).data.publicUrl;
+    }
   }
 }
