@@ -14,6 +14,7 @@ export class PokemonComponent implements OnInit {
   pokemonSpecies: Database['public']['Tables']['pokemon_species']['Row'] =
     {} as any;
   pokemonTypes: any;
+  pokedexGeneration: string = '';
   imageUrl: string = '';
 
   private supabase: SupabaseService = inject(SupabaseService);
@@ -24,6 +25,7 @@ export class PokemonComponent implements OnInit {
       .pipe(
         switchMap((params) => {
           const identifier = params['pokemon'];
+          this.pokedexGeneration = params['generation'];
           return this.supabase.getPokemonSpeciesByIdentifier(identifier);
         }),
         tap((data) => {

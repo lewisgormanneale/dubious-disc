@@ -110,7 +110,8 @@ export class SupabaseService {
     const request = this.supabase
       .from('pokemon')
       .select('*')
-      .eq('species_id', id);
+      .eq('species_id', id)
+      .order('form_order', { ascending: true });
 
     return from(request).pipe(map((response) => response.data || []));
   }
