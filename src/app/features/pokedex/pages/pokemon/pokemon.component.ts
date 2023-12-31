@@ -1,6 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { map, switchMap, tap, concatMap } from 'rxjs';
+import { map, switchMap, tap, concatMap, toArray, forkJoin } from 'rxjs';
 import { Database } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
@@ -22,7 +22,9 @@ export class PokemonComponent implements OnInit {
   shiny: boolean = false;
 
   pokedexGeneration: string = '';
-  pokedexOptions: DropdownLinkOption[] = [];
+
+  pokedexDropdownOptions: DropdownLinkOption[] = [];
+  pokemonDropdownOptions: DropdownLinkOption[] = [];
 
   imageUrl: string = '';
   previousPokemonImageUrl: string = '';
@@ -60,7 +62,8 @@ export class PokemonComponent implements OnInit {
         })
       )
       .subscribe();
-    this.getPokedexOptions();
+    this.getPokedexDropdownOptions();
+    this.getPokemonDropdownOptions();
   }
 
   handleNewSelectedForm(form: any) {
@@ -79,7 +82,7 @@ export class PokemonComponent implements OnInit {
     }
   }
 
-  getPokedexOptions() {
+  getPokedexDropdownOptions() {
     let versionGroups = [] as any;
     this.supabase
       .getAllVersionGroups()
@@ -120,8 +123,43 @@ export class PokemonComponent implements OnInit {
         )
       )
       .subscribe((versionGroupsWithPokedexes) => {
-        this.pokedexOptions = versionGroupsWithPokedexes;
-        console.log(this.pokedexOptions);
+        this.pokedexDropdownOptions = versionGroupsWithPokedexes;
+      });
+  }
+
+  getPokemonDropdownOptions() {
+    this.supabase
+      .getVersionGroupByIdentifier(this.pokedexGeneration)
+      .pipe(
+        switchMap((versionGroup) => {
+          return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);
+        }),
+        switchMap((pokedexes) => {
+          return forkJoin(
+            pokedexes.map((pokedex: any) =>
+              this.supabase.getPokemonByDexId(pokedex.id)
+            )
+          );
+        }),
+        map((pokemonArray: any) => {
+          const mappedPokemon = pokemonArray.reduce(
+            (acc: any, curr: any) => acc.concat(curr),
+            []
+          );
+          return mappedPokemon.map((pokemon: any) => {
+            return {
+              name: pokemon.species_id.name,
+              path:
+                '/pokedex/' +
+                this.pokedexGeneration +
+                '/' +
+                pokemon.species_id.identifier,
+            };
+          });
+        })
+      )
+      .subscribe((data) => {
+        this.pokemonDropdownOptions = data;
       });
   }
 
