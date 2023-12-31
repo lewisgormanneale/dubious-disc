@@ -26,15 +26,15 @@ export const headerNavItems: NavigationItem[] = [
           },
         ],
       },
-      {
-        sectionTitle: 'Tools',
-        options: [
-          {
-            label: 'Team Builder',
-            link: 'team-builder',
-          },
-        ],
-      },
+      // {
+      //   sectionTitle: 'Tools',
+      //   options: [
+      //     {
+      //       label: 'Team Builder',
+      //       link: 'team-builder',
+      //     },
+      //   ],
+      // },
     ],
   },
   // {
