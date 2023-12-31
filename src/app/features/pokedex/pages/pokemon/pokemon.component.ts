@@ -4,6 +4,11 @@ import { map, switchMap, tap, concatMap } from 'rxjs';
 import { Database } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
+interface DropdownLinkOption {
+  name: string;
+  path: string;
+}
+
 @Component({
   selector: 'app-pokemon',
   templateUrl: './pokemon.component.html',
@@ -17,7 +22,7 @@ export class PokemonComponent implements OnInit {
   shiny: boolean = false;
 
   pokedexGeneration: string = '';
-  pokedexOptions: any[] = [];
+  pokedexOptions: DropdownLinkOption[] = [];
 
   imageUrl: string = '';
   previousPokemonImageUrl: string = '';
@@ -49,11 +54,13 @@ export class PokemonComponent implements OnInit {
         }),
         switchMap((data) => {
           return this.supabase.getPokemonTypesByPokemonId(data[0].id);
+        }),
+        tap((data) => {
+          this.pokemonTypes = data;
         })
       )
-      .subscribe((data) => {
-        this.pokemonTypes = data;
-      });
+      .subscribe();
+    this.getPokedexOptions();
   }
 
   handleNewSelectedForm(form: any) {
@@ -73,7 +80,49 @@ export class PokemonComponent implements OnInit {
   }
 
   getPokedexOptions() {
-    this.supabase.getAllVersionGroups();
+    let versionGroups = [] as any;
+    this.supabase
+      .getAllVersionGroups()
+      .pipe(
+        tap((data) => {
+          versionGroups = data;
+        }),
+        concatMap(() => this.supabase.getAllPokedexVersionGroups()),
+        map((pokedexVersionGroups) =>
+          pokedexVersionGroups
+            .filter((item: any) =>
+              versionGroups
+                .map((group: any) => group.id)
+                .includes(item.version_group_id)
+            )
+            .map((item: any) => {
+              const versionGroup = versionGroups.find(
+                (group: any) => group.id === item.version_group_id
+              );
+              return {
+                name: versionGroup ? versionGroup.name : '',
+                path: versionGroup
+                  ? '/pokedex/' +
+                    versionGroup.identifier +
+                    '/' +
+                    this.pokemonSpecies.identifier
+                  : '',
+              };
+            })
+            .reduce((unique: any[], item: any) => {
+              return unique.findIndex(
+                (uniqueItem: any) =>
+                  uniqueItem.name === item.name && uniqueItem.path === item.path
+              ) >= 0
+                ? unique
+                : [...unique, item];
+            }, [])
+        )
+      )
+      .subscribe((versionGroupsWithPokedexes) => {
+        this.pokedexOptions = versionGroupsWithPokedexes;
+        console.log(this.pokedexOptions);
+      });
   }
 
   shinyToggle() {

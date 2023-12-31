@@ -1,11 +1,35 @@
-<ul
-  class="flex justify-center items-center w-36 h-10 text-xs font-sans-semi-bold bg-zinc-700 rounded cursor-pointer"
->
-  <li class="flex w-full justify-between items-center p-2 px-3">
-    <span>{{ placeholder }}</span
-    ><ng-icon [name]="'heroChevronDownSolid'"></ng-icon>
-  </li>
-  <li *ngFor="let option of options">
-    <a [routerLink]="option.path">{{ option.name }}</a>
-  </li>
-</ul>
+<div class="relative inline-block text-left rounded" *ngIf="options.length > 0">
+  <div>
+    <button
+      type="button"
+      class="inline-flex justify-center items-center w-36 h-10 gap-x-1.5 bg-zinc-700 px-3 py-2 text-xs font-semibold rounded"
+      id="menu-button"
+      aria-expanded="true"
+      aria-haspopup="true"
+      (click)="toggleDropdown()"
+    >
+      {{ placeholder }}
+      <ng-icon [name]="'heroChevronDownSolid'"></ng-icon>
+    </button>
+  </div>
+  <div
+    class="absolute right-0 z-40 mt-2 w-56 origin-top rounded bg-zinc-700 max-h-[60vh] overflow-y-scroll"
+    role="menu"
+    aria-orientation="vertical"
+    aria-labelledby="menu-button"
+    tabindex="-1"
+    *ngIf="showDropdown"
+  >
+    <div class="py-1" role="none">
+      <a
+        *ngFor="let option of options"
+        [routerLink]="option.path"
+        class="block px-4 py-2 text-sm"
+        role="menuitem"
+        tabindex="-1"
+        id="menu-item-0"
+        >{{ option.name }}</a
+      >
+    </div>
+  </div>
+</div>

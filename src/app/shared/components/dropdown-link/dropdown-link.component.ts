@@ -12,4 +12,9 @@ interface DropdownLinkOption {
 export class DropdownLinkComponent {
   @Input() options: DropdownLinkOption[] = [];
   @Input() placeholder: string = '';
+  showDropdown: boolean = false;
+
+  toggleDropdown() {
+    this.showDropdown = !this.showDropdown;
+  }
 }
