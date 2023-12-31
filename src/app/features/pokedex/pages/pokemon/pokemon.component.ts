@@ -25,6 +25,7 @@ export class PokemonComponent implements OnInit {
 
   pokedexDropdownOptions: DropdownLinkOption[] = [];
   pokemonDropdownOptions: DropdownLinkOption[] = [];
+  randomPokemonIdentifier: string = '';
 
   imageUrl: string = '';
   previousPokemonImageUrl: string = '';
@@ -146,6 +147,10 @@ export class PokemonComponent implements OnInit {
             (acc: any, curr: any) => acc.concat(curr),
             []
           );
+          this.randomPokemonIdentifier =
+            mappedPokemon[
+              Math.floor(Math.random() * mappedPokemon.length)
+            ].species_id.identifier;
           return mappedPokemon.map((pokemon: any) => {
             return {
               name: pokemon.species_id.name,

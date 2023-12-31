@@ -42,6 +42,12 @@
             >
               <a
                 class="flex justify-center items-center w-10 h-10 rounded bg-zinc-700 cursor-pointer"
+                [routerLink]="[
+                  '/pokedex/' +
+                    pokedexGeneration +
+                    '/' +
+                    randomPokemonIdentifier
+                ]"
                 ><ng-icon [name]="'bootstrapDice6Fill'"></ng-icon
               ></a>
               <a
