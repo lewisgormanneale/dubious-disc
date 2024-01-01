@@ -22,6 +22,7 @@ export class PokemonComponent implements OnInit {
   shiny: boolean = false;
 
   pokedexGeneration: string = '';
+  selectedVersionGroup: any = '';
 
   pokedexDropdownOptions: DropdownLinkOption[] = [];
   pokemonDropdownOptions: DropdownLinkOption[] = [];
@@ -103,6 +104,9 @@ export class PokemonComponent implements OnInit {
               const versionGroup = versionGroups.find(
                 (group: any) => group.id === item.version_group_id
               );
+              if (versionGroup.identifier === this.pokedexGeneration) {
+                this.selectedVersionGroup = versionGroup;
+              }
               return {
                 name: versionGroup ? versionGroup.name : '',
                 path: versionGroup
