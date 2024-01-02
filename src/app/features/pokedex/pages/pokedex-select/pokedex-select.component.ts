@@ -1,5 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { concatMap, map, tap } from 'rxjs';
+import { Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -7,10 +8,10 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   templateUrl: './pokedex-select.component.html',
 })
 export class PokedexSelectComponent implements OnInit {
-  public versionGroups: any[] = [];
+  public versionGroups: Tables<'version_groups'>[] = [];
   public versionGroupIds: number[] = [];
-  public generations: any[] = [];
-  public versionGroupsWithPokedexes: any[] = [];
+  public generations: Tables<'generations'>[] = [];
+  public versionGroupsWithPokedexes: Set<number> = new Set();
   private supabase: SupabaseService = inject(SupabaseService);
 
   ngOnInit(): void {
@@ -28,22 +29,26 @@ export class PokedexSelectComponent implements OnInit {
         concatMap(() => this.supabase.getAllPokedexVersionGroups()),
         map((pokedexVersionGroups) =>
           pokedexVersionGroups
-            .filter((item: any) =>
-              this.versionGroupIds.includes(item.version_group_id)
+            .filter((pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>
+              this.versionGroupIds.includes(
+                pokedexVersionGroup.version_group_id
+              )
             )
             .map((item: any) => item.version_group_id)
         )
       )
       .subscribe((versionGroupsWithPokedexes) => {
-        this.versionGroupsWithPokedexes = versionGroupsWithPokedexes;
+        this.versionGroupsWithPokedexes = new Set(
+          versionGroupsWithPokedexes.map((item) => item.version_group_id)
+        );
       });
   }
 
-  getVersionGroupsByGenerationId(id: number): any[] {
+  getVersionGroupsByGenerationId(id: number): Tables<'version_groups'>[] {
     return this.versionGroups.filter(
-      (versionGroup) =>
+      (versionGroup): boolean =>
         versionGroup.generation_id === id &&
-        this.versionGroupsWithPokedexes.includes(versionGroup.id)
+        this.versionGroupsWithPokedexes.has(versionGroup.id)
     );
   }
 }

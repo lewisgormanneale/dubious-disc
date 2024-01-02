@@ -1,7 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { map, switchMap, tap, concatMap, toArray, forkJoin } from 'rxjs';
-import { Database } from 'src/app/core/models';
+import { Database, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 interface DropdownLinkOption {
@@ -14,11 +14,9 @@ interface DropdownLinkOption {
   templateUrl: './pokemon.component.html',
 })
 export class PokemonComponent implements OnInit {
-  pokemonForms: Database['public']['Tables']['pokemon']['Row'][] = [];
-  selectedForm: Database['public']['Tables']['pokemon']['Row'] =
-    {} as Database['public']['Tables']['pokemon']['Row'];
-  pokemonSpecies: Database['public']['Tables']['pokemon_species']['Row'] =
-    {} as Database['public']['Tables']['pokemon_species']['Row'];
+  pokemonForms: Tables<'pokemon'>[] = [];
+  selectedForm: Tables<'pokemon'> = {} as Tables<'pokemon'>;
+  pokemonSpecies: Tables<'pokemon_species'> = {} as Tables<'pokemon_species'>;
   pokemonTypes: any;
   shiny: boolean = false;
 

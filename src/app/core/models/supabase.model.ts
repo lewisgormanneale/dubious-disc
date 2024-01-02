@@ -1757,18 +1757,18 @@ export interface Database {
       pokedex_version_groups: {
         Row: {
           id: string
-          pokedex_id: number | null
-          version_group_id: number | null
+          pokedex_id: number
+          version_group_id: number
         }
         Insert: {
           id?: string
-          pokedex_id?: number | null
-          version_group_id?: number | null
+          pokedex_id: number
+          version_group_id: number
         }
         Update: {
           id?: string
-          pokedex_id?: number | null
-          version_group_id?: number | null
+          pokedex_id?: number
+          version_group_id?: number
         }
         Relationships: [
           {
@@ -1830,15 +1830,14 @@ export interface Database {
           form_order: number | null
           height: number | null
           id: number
-          identifier: string | null
+          identifier: string
           introduced_in_version_group_id: number | null
           is_battle_only: boolean
-          is_default: boolean | null
-          is_gigantamax: boolean | null
+          is_default: boolean
+          is_gigantamax: boolean
           is_mega: boolean
           name: string | null
-          order: number | null
-          species_id: number | null
+          species_id: number
           weight: number | null
         }
         Insert: {
@@ -1848,15 +1847,14 @@ export interface Database {
           form_order?: number | null
           height?: number | null
           id: number
-          identifier?: string | null
+          identifier: string
           introduced_in_version_group_id?: number | null
           is_battle_only?: boolean
-          is_default?: boolean | null
-          is_gigantamax?: boolean | null
+          is_default?: boolean
+          is_gigantamax?: boolean
           is_mega?: boolean
           name?: string | null
-          order?: number | null
-          species_id?: number | null
+          species_id: number
           weight?: number | null
         }
         Update: {
@@ -1866,15 +1864,14 @@ export interface Database {
           form_order?: number | null
           height?: number | null
           id?: number
-          identifier?: string | null
+          identifier?: string
           introduced_in_version_group_id?: number | null
           is_battle_only?: boolean
-          is_default?: boolean | null
-          is_gigantamax?: boolean | null
+          is_default?: boolean
+          is_gigantamax?: boolean
           is_mega?: boolean
           name?: string | null
-          order?: number | null
-          species_id?: number | null
+          species_id?: number
           weight?: number | null
         }
         Relationships: [
