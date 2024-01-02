@@ -56,7 +56,21 @@ export class SupabaseService {
 
   // Pokémon
 
-  getPokemonByDexId(id: number): Observable<any> {
+  getPokemonBySpeciesId(id: number): Observable<Tables<'pokemon'>[]> {
+    const request = this.supabase
+      .from('pokemon')
+      .select('*')
+      .eq('species_id', id)
+      .order('form_order', { ascending: true });
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Pokemon Dex Numbers
+
+  getPokemonByPokedexId(
+    id: number
+  ): Observable<Tables<'pokemon_dex_numbers'>[]> {
     const request = this.supabase
       .from('pokemon_dex_numbers')
       .select('species_id (id, identifier, name, genus), pokedex_number')
@@ -66,14 +80,65 @@ export class SupabaseService {
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getPokemonBySpeciesId(
-    id: number
-  ): Observable<Database['public']['Tables']['pokemon']['Row'][]> {
+  // Pokemon Species
+
+  getPokemonSpeciesByIdentifier(
+    identifier: string
+  ): Observable<Tables<'pokemon_species'>> {
     const request = this.supabase
-      .from('pokemon')
+      .from('pokemon_species')
       .select('*')
-      .eq('species_id', id)
-      .order('form_order', { ascending: true });
+      .eq('identifier', identifier)
+      .single();
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  getAllPokemonSpeciesIdentifiers(): Observable<any> {
+    const request = this.supabase.from('pokemon_species').select('identifier');
+    return from(request).pipe(
+      map((response) => response.data || []),
+      map((data) => data.map((item: any) => item.identifier))
+    );
+  }
+
+  // Pokemon Species Flavor Text
+
+  getPokemonSpeciesFlavorTextById(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_species_flavor_text')
+      .select('*')
+      .eq('species_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Pokemon Stats
+
+  getPokemonStatsByPokemonId(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_stats')
+      .select('stat_id (id, identifier, name), base_stat, effort')
+      .eq('pokemon_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Pokemon Types
+
+  getPokemonTypesByPokemonId(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_types')
+      .select('type_id (id, identifier, name, type_color), slot')
+      .eq('pokemon_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Types
+
+  getTypeById(id: number): Observable<any> {
+    const request = this.supabase.from('types').select('*').eq('id', id);
 
     return from(request).pipe(map((response) => response.data || []));
   }
@@ -98,65 +163,5 @@ export class SupabaseService {
       .single();
 
     return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getPokemonSpeciesByIdentifier(identifier: string): Observable<any> {
-    const request = this.supabase
-      .from('pokemon_species')
-      .select('*')
-      .eq('identifier', identifier)
-      .single();
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getPokemonSpeciesFlavorTextById(id: number): Observable<any> {
-    const request = this.supabase
-      .from('pokemon_species_flavor_text')
-      .select('*')
-      .eq('species_id', id);
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getPokemonTypesByPokemonId(id: number): Observable<any> {
-    const request = this.supabase
-      .from('pokemon_types')
-      .select('type_id (id, identifier, name, type_color), slot')
-      .eq('pokemon_id', id);
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getTypeById(id: number): Observable<any> {
-    const request = this.supabase.from('types').select('*').eq('id', id);
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getPokemonStatsByPokemonId(id: number): Observable<any> {
-    const request = this.supabase
-      .from('pokemon_stats')
-      .select('stat_id (id, identifier, name), base_stat, effort')
-      .eq('pokemon_id', id);
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getPokemonDescriptionsBySpeciesId(id: number): Observable<any> {
-    const request = this.supabase
-      .from('pokemon_species_flavor_text')
-      .select('*')
-      .eq('species_id', id);
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getAllPokemonSpeciesIdentifiers(): Observable<any> {
-    const request = this.supabase.from('pokemon_species').select('identifier');
-    return from(request).pipe(
-      map((response) => response.data || []),
-      map((data) => data.map((item: any) => item.identifier))
-    );
   }
 }
