@@ -28,13 +28,12 @@ export class PokedexSelectComponent implements OnInit {
         }),
         concatMap(() => this.supabase.getAllPokedexVersionGroups()),
         map((pokedexVersionGroups) =>
-          pokedexVersionGroups
-            .filter((pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>
+          pokedexVersionGroups.filter(
+            (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>
               this.versionGroupIds.includes(
                 pokedexVersionGroup.version_group_id
               )
-            )
-            .map((item: any) => item.version_group_id)
+          )
         )
       )
       .subscribe((versionGroupsWithPokedexes) => {

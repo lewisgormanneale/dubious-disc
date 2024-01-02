@@ -42,16 +42,14 @@ export class SupabaseService {
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getPokedexesByVersionGroupId(
-    id: number
-  ): Observable<Tables<'pokedex_version_groups'>> {
+  getPokedexesByVersionGroupId(id: number): Observable<any> {
     const request = this.supabase
       .from('pokedex_version_groups')
-      .select(
-        'pokedex_id (id, identifier, name, description, region_id, is_main_series)'
-      )
+      .select('pokedex_id (*)')
       .eq('version_group_id', id);
-    return from(request).pipe(map((response) => response.data || []));
+    return from(request).pipe(
+      map((response) => response.data?.map((item) => item.pokedex_id) || [])
+    );
   }
 
   // Pokémon
@@ -66,20 +64,6 @@ export class SupabaseService {
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  // Pokemon Dex Numbers
-
-  getPokemonByPokedexId(
-    id: number
-  ): Observable<Tables<'pokemon_dex_numbers'>[]> {
-    const request = this.supabase
-      .from('pokemon_dex_numbers')
-      .select('species_id (id, identifier, name, genus), pokedex_number')
-      .eq('pokedex_id', id)
-      .order('pokedex_number', { ascending: true });
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
   // Pokemon Species
 
   getPokemonSpeciesByIdentifier(
@@ -90,6 +74,21 @@ export class SupabaseService {
       .select('*')
       .eq('identifier', identifier)
       .single();
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  getPokemonSpeciesByPokedexId(id: number): Observable<
+    {
+      species_id: any;
+      pokedex_number: number;
+    }[]
+  > {
+    const request = this.supabase
+      .from('pokemon_dex_numbers')
+      .select('species_id (id, identifier, name, genus), pokedex_number')
+      .eq('pokedex_id', id)
+      .order('pokedex_number', { ascending: true });
 
     return from(request).pipe(map((response) => response.data || []));
   }

@@ -143,7 +143,7 @@ export class PokemonComponent implements OnInit {
         switchMap((pokedexes) => {
           return forkJoin(
             pokedexes.map((pokedex: any) =>
-              this.supabase.getPokemonByDexId(pokedex.id)
+              this.supabase.getPokemonSpeciesByPokedexId(pokedex.id)
             )
           );
         }),

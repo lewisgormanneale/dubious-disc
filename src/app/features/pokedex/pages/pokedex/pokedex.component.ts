@@ -13,7 +13,7 @@ export class PokedexComponent implements OnInit {
   public urlValue: string = '';
   public formattedVersionGroupName: string = '';
 
-  public pokedexes: Tables<'pokedexes'>[] = [];
+  public pokedexes: any = [];
   public versionGroup: Tables<'version_groups'> =
     {} as Tables<'version_groups'>;
 
@@ -35,12 +35,14 @@ export class PokedexComponent implements OnInit {
           return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);
         })
       )
-      .subscribe((data) => {
+      .subscribe((data: Tables<'pokedexes'>[]) => {
         this.pokedexes = data;
         this.pokedexes.forEach((pokedex: any) => {
-          this.supabase.getPokemonByPokedexId(pokedex.id).subscribe((data) => {
-            pokedex.pokemon_entries = data;
-          });
+          this.supabase
+            .getPokemonSpeciesByPokedexId(pokedex.id)
+            .subscribe((data) => {
+              pokedex.pokemon_entries = data;
+            });
         });
       });
   }

@@ -3182,22 +3182,22 @@ export interface Database {
         Row: {
           generation_id: number | null
           id: number
-          identifier: string | null
-          name: string | null
+          identifier: string
+          name: string
           order: number | null
         }
         Insert: {
           generation_id?: number | null
           id: number
-          identifier?: string | null
-          name?: string | null
+          identifier: string
+          name: string
           order?: number | null
         }
         Update: {
           generation_id?: number | null
           id?: number
-          identifier?: string | null
-          name?: string | null
+          identifier?: string
+          name?: string
           order?: number | null
         }
         Relationships: [
