@@ -1,19 +1,14 @@
 import { Injectable } from '@angular/core';
-import {
-  AuthSession,
-  createClient,
-  SupabaseClient,
-} from '@supabase/supabase-js';
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import { from, map, Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { Database } from '../models/supabase.model';
+import { Database, Tables } from '../models/supabase.model';
 
 @Injectable({
   providedIn: 'root',
 })
 export class SupabaseService {
   private supabase: SupabaseClient;
-  _session: AuthSession | null = null;
 
   constructor() {
     this.supabase = createClient<Database>(
@@ -26,9 +21,16 @@ export class SupabaseService {
     return this.supabase.storage;
   }
 
-  getAllVersionGroups(): Observable<
-    Database['public']['Tables']['version_groups'][]
-  > {
+  // Generations
+
+  getAllGenerations(): Observable<Tables<'generations'>[]> {
+    const request = this.supabase.from('generations').select('*');
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Version Groups
+
+  getAllVersionGroups(): Observable<Tables<'version_groups'>[]> {
     const request = this.supabase
       .from('version_groups')
       .select('*')
@@ -36,7 +38,9 @@ export class SupabaseService {
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getVersionGroupByIdentifier(identifier: string): Observable<any> {
+  getVersionGroupByIdentifier(
+    identifier: string
+  ): Observable<Tables<'version_groups'>> {
     const request = this.supabase
       .from('version_groups')
       .select('*')
@@ -46,17 +50,12 @@ export class SupabaseService {
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getAllGenerations(): Observable<any> {
-    const request = this.supabase.from('generations').select('*');
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getAllPokedexes(): Observable<any> {
+  getAllPokedexes(): Observable<Tables<'pokedexes'>[]> {
     const request = this.supabase.from('pokedexes').select('*');
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getAllPokedexVersionGroups(): Observable<any> {
+  getAllPokedexVersionGroups(): Observable<Tables<'pokedex_version_groups'>[]> {
     const request = this.supabase.from('pokedex_version_groups').select('*');
     return from(request).pipe(map((response) => response.data || []));
   }

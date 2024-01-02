@@ -15,9 +15,10 @@ interface DropdownLinkOption {
 })
 export class PokemonComponent implements OnInit {
   pokemonForms: Database['public']['Tables']['pokemon']['Row'][] = [];
-  selectedForm: Database['public']['Tables']['pokemon']['Row'] = {} as any;
+  selectedForm: Database['public']['Tables']['pokemon']['Row'] =
+    {} as Database['public']['Tables']['pokemon']['Row'];
   pokemonSpecies: Database['public']['Tables']['pokemon_species']['Row'] =
-    {} as any;
+    {} as Database['public']['Tables']['pokemon_species']['Row'];
   pokemonTypes: any;
   shiny: boolean = false;
 
@@ -67,6 +68,8 @@ export class PokemonComponent implements OnInit {
     this.getPokedexDropdownOptions();
     this.getPokemonDropdownOptions();
   }
+
+  ngOnChanges() {}
 
   handleNewSelectedForm(form: any) {
     this.selectedForm = form;
