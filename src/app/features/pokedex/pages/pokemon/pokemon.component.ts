@@ -93,7 +93,6 @@ export class PokemonComponent implements OnInit {
         }),
         switchMap((pokedexes) => {
           availablePokedexes = pokedexes;
-          console.log(availablePokedexes);
           return forkJoin(
             pokedexes.map((pokedex: any) =>
               this.supabase.getPokemonSpeciesByPokedexId(pokedex.id)
@@ -101,6 +100,10 @@ export class PokemonComponent implements OnInit {
           );
         }),
         map((pokemonArray: any) => {
+          console.log(pokemonArray);
+          //TODO: Set this properly
+          this.randomPokemonIdentifier =
+            pokemonArray[0][0].species_id.identifier;
           return availablePokedexes.map((pokedex: any, index: number) => {
             return {
               name: pokedex.name,
