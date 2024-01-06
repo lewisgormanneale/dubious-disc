@@ -100,7 +100,6 @@ export class PokemonComponent implements OnInit {
           );
         }),
         map((pokemonArray: any) => {
-          console.log(pokemonArray);
           //TODO: Set this properly
           this.randomPokemonIdentifier =
             pokemonArray[0][0].species_id.identifier;
