@@ -1,5 +1,5 @@
 import { Component, Input, inject } from '@angular/core';
-import { concatMap, map, tap } from 'rxjs';
+import { concatMap, forkJoin, map, tap } from 'rxjs';
 import { DropdownLinkSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
@@ -25,112 +25,54 @@ export class PokedexSelectDropdownComponent {
   ];
   public placeholder: string = 'Select Pokedex';
 
-  public versionGroups: Tables<'version_groups'>[] = [];
   public versionGroupsWithPokedexes: Set<number> = new Set();
 
   private supabase: SupabaseService = inject(SupabaseService);
 
   ngOnInit(): void {
-    if (
-      this.selectedPokemonSpeciesId &&
-      this.selectedPokemonSpeciesIdentifier
-    ) {
-      this.getPokedexVersionGroupsWithPokemonAvailable();
-    } else {
-      this.getAllPokedexVersionGroups();
-    }
+    this.getAllPokedexVersionGroups();
   }
 
   getAllPokedexVersionGroups(): void {
-    let versionGroupIds: number[] = [];
-    let generations: Tables<'generations'>[] = [];
-    this.supabase
-      .getAllVersionGroups()
-      .pipe(
-        tap((versionGroups) => {
-          this.versionGroups = versionGroups;
-          versionGroupIds = versionGroups.map((item: any) => item.id);
-        }),
-        concatMap(() => this.supabase.getAllGenerations()),
-        tap((data) => {
-          generations = data.reverse();
-        }),
-        concatMap(() => this.supabase.getAllPokedexVersionGroups()),
-        map((pokedexVersionGroups) =>
-          pokedexVersionGroups.filter(
-            (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>
-              versionGroupIds.includes(pokedexVersionGroup.version_group_id)
-          )
-        )
-      )
-      .subscribe((versionGroupsWithPokedexes) => {
-        this.versionGroupsWithPokedexes = new Set(
-          versionGroupsWithPokedexes.map((item) => item.version_group_id)
-        );
-        const newSections = generations.map((generation) => {
-          return {
-            name: generation.name ? generation.name : '',
-            options: this.getVersionGroupsByGenerationId(generation.id).map(
-              (versionGroup) => {
-                return {
-                  name: versionGroup.name,
-                  path: `/pokedex/${versionGroup.identifier}`,
-                };
-              }
-            ),
-          };
-        });
-        this.sections.push(...newSections);
+    forkJoin({
+      versionGroups: this.supabase.getAllVersionGroups(),
+      generations: this.supabase.getAllGenerations(),
+      pokedexVersionGroups: this.supabase.getAllPokedexVersionGroups(),
+    }).subscribe(({ versionGroups, generations, pokedexVersionGroups }) => {
+      const versionGroupIds = versionGroups.map((item: any) => item.id);
+      const filteredPokedexVersionGroups = pokedexVersionGroups.filter(
+        (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>
+          versionGroupIds.includes(pokedexVersionGroup.version_group_id)
+      );
+
+      this.versionGroupsWithPokedexes = new Set(
+        filteredPokedexVersionGroups.map((item) => item.version_group_id)
+      );
+
+      const newSections = generations.reverse().map((generation) => {
+        return {
+          name: generation.name ?? '',
+          options: this.filterVersionGroupsByGenerationId(
+            versionGroups,
+            generation.id
+          ).map((versionGroup) => ({
+            name: versionGroup.name,
+            path: `/pokedex/${versionGroup.identifier}`,
+          })),
+        };
       });
+
+      this.sections.push(...newSections);
+    });
   }
 
-  getPokedexVersionGroupsWithPokemonAvailable(): void {
-    let versionGroupIds: number[] = [];
-    let generations: Tables<'generations'>[] = [];
-    this.supabase
-      .getAllVersionGroups()
-      .pipe(
-        tap((versionGroups) => {
-          this.versionGroups = versionGroups;
-          versionGroupIds = versionGroups.map((item: any) => item.id);
-        }),
-        concatMap(() => this.supabase.getAllGenerations()),
-        tap((data) => {
-          generations = data.reverse();
-        }),
-        concatMap(() => this.supabase.getAllPokedexVersionGroups()),
-        map((pokedexVersionGroups) =>
-          pokedexVersionGroups.filter(
-            (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>
-              versionGroupIds.includes(pokedexVersionGroup.version_group_id)
-          )
-        )
-      )
-      .subscribe((versionGroupsWithPokedexes) => {
-        this.versionGroupsWithPokedexes = new Set(
-          versionGroupsWithPokedexes.map((item) => item.version_group_id)
-        );
-        const newSections = generations.map((generation) => {
-          return {
-            name: generation.name ? generation.name : '',
-            options: this.getVersionGroupsByGenerationId(generation.id).map(
-              (versionGroup) => {
-                return {
-                  name: versionGroup.name,
-                  path: `/pokedex/${versionGroup.identifier}`,
-                };
-              }
-            ),
-          };
-        });
-        this.sections.push(...newSections);
-      });
-  }
-
-  getVersionGroupsByGenerationId(id: number): Tables<'version_groups'>[] {
-    return this.versionGroups.filter(
+  filterVersionGroupsByGenerationId(
+    versionGroups: Tables<'version_groups'>[] = [],
+    generationId: number
+  ): Tables<'version_groups'>[] {
+    return versionGroups.filter(
       (versionGroup): boolean =>
-        versionGroup.generation_id === id &&
+        versionGroup.generation_id === generationId &&
         this.versionGroupsWithPokedexes.has(versionGroup.id)
     );
   }
