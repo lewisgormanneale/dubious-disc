@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { DropdownLinkOption, DropdownLinkSection } from 'src/app/core/models';
+import { DropdownLinkSection } from 'src/app/core/models';
 
 @Component({
   selector: 'app-dropdown-link',
