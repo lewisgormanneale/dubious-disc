@@ -25,8 +25,6 @@ export class PokedexSelectDropdownComponent {
   ];
   public placeholder: string = 'Select Pokedex';
 
-  public versionGroupsWithPokedexes: Set<number> = new Set();
-
   private supabase: SupabaseService = inject(SupabaseService);
 
   ngOnInit(): void {
@@ -44,36 +42,27 @@ export class PokedexSelectDropdownComponent {
         (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>
           versionGroupIds.includes(pokedexVersionGroup.version_group_id)
       );
-
-      this.versionGroupsWithPokedexes = new Set(
+      const versionGroupsWithPokedexes = new Set(
         filteredPokedexVersionGroups.map((item) => item.version_group_id)
       );
 
-      const newSections = generations.reverse().map((generation) => {
-        return {
-          name: generation.name ?? '',
-          options: this.filterVersionGroupsByGenerationId(
-            versionGroups,
-            generation.id
-          ).map((versionGroup) => ({
-            name: versionGroup.name,
-            path: `/pokedex/${versionGroup.identifier}`,
-          })),
-        };
-      });
-
-      this.sections.push(...newSections);
+      this.sections.push(
+        ...generations.reverse().map((generation) => {
+          return {
+            name: generation.name ?? '',
+            options: versionGroups
+              .filter(
+                (versionGroup): boolean =>
+                  versionGroup.generation_id === generation.id &&
+                  versionGroupsWithPokedexes.has(versionGroup.id)
+              )
+              .map((versionGroup) => ({
+                name: versionGroup.name,
+                path: `/pokedex/${versionGroup.identifier}`,
+              })),
+          };
+        })
+      );
     });
-  }
-
-  filterVersionGroupsByGenerationId(
-    versionGroups: Tables<'version_groups'>[] = [],
-    generationId: number
-  ): Tables<'version_groups'>[] {
-    return versionGroups.filter(
-      (versionGroup): boolean =>
-        versionGroup.generation_id === generationId &&
-        this.versionGroupsWithPokedexes.has(versionGroup.id)
-    );
   }
 }
