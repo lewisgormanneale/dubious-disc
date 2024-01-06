@@ -13,6 +13,7 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
 import { DropdownLinkComponent } from './components/dropdown-link/dropdown-link.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { heroChevronDownSolid } from '@ng-icons/heroicons/solid';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { heroChevronDownSolid } from '@ng-icons/heroicons/solid';
     NgIconsModule.withIcons({
       heroChevronDownSolid,
     }),
+    BrowserAnimationsModule,
   ],
   exports: [
     DecimetersToFeetAndInchesPipe,

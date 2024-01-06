@@ -26,5 +26,5 @@ module.exports = {
       righteous: ["Righteous", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
