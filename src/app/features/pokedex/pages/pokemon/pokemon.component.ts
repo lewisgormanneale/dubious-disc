@@ -1,7 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { map, switchMap, tap, concatMap, toArray, forkJoin } from 'rxjs';
-import { Database, Tables } from 'src/app/core/models';
+import { map, switchMap, tap, forkJoin } from 'rxjs';
+import { DropdownLinkSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 interface DropdownLinkOption {
@@ -23,7 +23,7 @@ export class PokemonComponent implements OnInit {
   pokedexGeneration: string = '';
   selectedVersionGroup: any = '';
 
-  pokemonDropdownOptions: DropdownLinkOption[] = [];
+  pokemonDropdownOptions: DropdownLinkSection[] = [];
   randomPokemonIdentifier: string = '';
 
   imageUrl: string = '';
@@ -65,8 +65,6 @@ export class PokemonComponent implements OnInit {
     this.getPokemonDropdownOptions();
   }
 
-  ngOnChanges() {}
-
   handleNewSelectedForm(form: any) {
     this.selectedForm = form;
     this.supabase.getPokemonTypesByPokemonId(form.id).subscribe((data) => {
@@ -84,6 +82,7 @@ export class PokemonComponent implements OnInit {
   }
 
   getPokemonDropdownOptions() {
+    let availablePokedexes: Tables<'pokedexes'>[] = [];
     this.supabase
       .getVersionGroupByIdentifier(this.pokedexGeneration)
       .pipe(
@@ -91,6 +90,8 @@ export class PokemonComponent implements OnInit {
           return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);
         }),
         switchMap((pokedexes) => {
+          availablePokedexes = pokedexes;
+          console.log(availablePokedexes);
           return forkJoin(
             pokedexes.map((pokedex: any) =>
               this.supabase.getPokemonSpeciesByPokedexId(pokedex.id)
@@ -98,22 +99,21 @@ export class PokemonComponent implements OnInit {
           );
         }),
         map((pokemonArray: any) => {
-          const mappedPokemon = pokemonArray.reduce(
-            (acc: any, curr: any) => acc.concat(curr),
-            []
-          );
-          this.randomPokemonIdentifier =
-            mappedPokemon[
-              Math.floor(Math.random() * mappedPokemon.length)
-            ].species_id.identifier;
-          return mappedPokemon.map((pokemon: any) => {
+          return availablePokedexes.map((pokedex: any, index: number) => {
             return {
-              name: pokemon.species_id.name,
-              path:
-                '/pokedex/' +
-                this.pokedexGeneration +
-                '/' +
-                pokemon.species_id.identifier,
+              name: pokedex.name,
+              options: pokemonArray[index].map(
+                (pokemon: any, index: number) => {
+                  return {
+                    name: `№ ${index + 1} ` + pokemon.species_id.name,
+                    path:
+                      '/pokedex/' +
+                      this.pokedexGeneration +
+                      '/' +
+                      pokemon.species_id.identifier,
+                  };
+                }
+              ),
             };
           });
         })

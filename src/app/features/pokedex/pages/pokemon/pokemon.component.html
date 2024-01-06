@@ -32,12 +32,13 @@
               <app-pokedex-select-dropdown
                 [selectedPokemonSpecies]="this.pokemonSpecies"
                 [currentVersionGroupName]="this.selectedVersionGroup.name"
+                [origin]="'right'"
               ></app-pokedex-select-dropdown>
-              <!-- <app-dropdown-link
+              <app-dropdown-link
                 [placeholder]="'Select Pokémon'"
-                [options]="pokemonDropdownOptions"
+                [sections]="pokemonDropdownOptions"
                 [origin]="'left'"
-              ></app-dropdown-link> -->
+              ></app-dropdown-link>
             </div>
             <div
               class="flex flex-col gap-2 sm:flex-row sm:items-center items-end"
