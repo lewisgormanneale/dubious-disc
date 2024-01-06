@@ -61,8 +61,9 @@ export class PokemonComponent implements OnInit {
           this.pokemonTypes = data;
         })
       )
-      .subscribe();
-    this.getPokemonDropdownOptions();
+      .subscribe(() => {
+        this.getPokemonDropdownOptions();
+      });
   }
 
   handleNewSelectedForm(form: any) {
@@ -87,6 +88,7 @@ export class PokemonComponent implements OnInit {
       .getVersionGroupByIdentifier(this.pokedexGeneration)
       .pipe(
         switchMap((versionGroup) => {
+          this.selectedVersionGroup = versionGroup;
           return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);
         }),
         switchMap((pokedexes) => {

@@ -35,7 +35,7 @@
                 [origin]="'right'"
               ></app-pokedex-select-dropdown>
               <app-dropdown-link
-                [placeholder]="'Select Pokémon'"
+                [placeholder]="this.pokemonSpecies.name ?? 'Select Pokémon'"
                 [sections]="pokemonDropdownOptions"
                 [origin]="'left'"
               ></app-dropdown-link>
