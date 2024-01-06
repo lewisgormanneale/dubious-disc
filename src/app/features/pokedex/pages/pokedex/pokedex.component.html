@@ -28,7 +28,9 @@
           [title]="'Filters & Options'"
         ></app-container-header>
         <div class="p-4 flex gap-2">
-          <app-pokedex-select-dropdown></app-pokedex-select-dropdown>
+          <app-pokedex-select-dropdown
+            [currentVersionGroupName]="this.versionGroup.name"
+          ></app-pokedex-select-dropdown>
           <button
             (click)="listView = !listView"
             class="flex justify-center items-center py-2 px-4 text-center text-xs cursor-pointer font-bold rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700"

@@ -64,6 +64,20 @@ export class SupabaseService {
     return from(request).pipe(map((response) => response.data || []));
   }
 
+  // Pokémon Dex Numbers
+
+  getPokemonDexNumbersBySpeciesId(
+    id: number
+  ): Observable<Tables<'pokemon_dex_numbers'>[]> {
+    const request = this.supabase
+      .from('pokemon_dex_numbers')
+      .select('*')
+      .eq('species_id', id)
+      .order('pokedex_id', { ascending: true });
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
   // Pokemon Species
 
   getPokemonSpeciesByIdentifier(

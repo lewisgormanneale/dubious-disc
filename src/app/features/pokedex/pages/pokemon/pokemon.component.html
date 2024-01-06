@@ -25,18 +25,20 @@
                 ><ng-icon [name]="'heroSwatchSolid'"></ng-icon
               ></a>
             </div>
-            <!-- <div class="flex flex-col sm:flex-row items-center gap-3">
-              <app-dropdown-link
-                [placeholder]="selectedVersionGroup.name"
-                [options]="pokedexDropdownOptions"
-                [origin]="'right'"
-              ></app-dropdown-link>
-              <app-dropdown-link
+            <div class="flex flex-col sm:flex-row items-center gap-3">
+              <app-pokedex-select-dropdown
+                [selectedPokemonSpeciesId]="this.pokemonSpecies.id"
+                [selectedPokemonSpeciesIdentifier]="
+                  this.pokemonSpecies.identifier
+                "
+                [currentVersionGroupName]="this.selectedVersionGroup.name"
+              ></app-pokedex-select-dropdown>
+              <!-- <app-dropdown-link
                 [placeholder]="'Select Pokémon'"
                 [options]="pokemonDropdownOptions"
                 [origin]="'left'"
-              ></app-dropdown-link>
-            </div> -->
+              ></app-dropdown-link> -->
+            </div>
             <div
               class="flex flex-col gap-2 sm:flex-row sm:items-center items-end"
             >

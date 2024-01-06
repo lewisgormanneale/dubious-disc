@@ -1,5 +1,9 @@
 <app-dropdown-link
   [sections]="sections"
-  [placeholder]="'Select Pokédex'"
+  [placeholder]="
+    this.currentVersionGroupName
+      ? this.currentVersionGroupName
+      : 'Select Pokédex'
+  "
   [origin]="'left'"
 ></app-dropdown-link>

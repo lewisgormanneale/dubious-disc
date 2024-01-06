@@ -2614,7 +2614,7 @@ export interface Database {
           has_gender_differences: boolean | null
           hatch_counter: number | null
           id: number
-          identifier: string | null
+          identifier: string
           is_baby: boolean | null
           is_legendary: boolean | null
           is_mythical: boolean | null
@@ -2637,7 +2637,7 @@ export interface Database {
           has_gender_differences?: boolean | null
           hatch_counter?: number | null
           id?: number
-          identifier?: string | null
+          identifier: string
           is_baby?: boolean | null
           is_legendary?: boolean | null
           is_mythical?: boolean | null
@@ -2660,7 +2660,7 @@ export interface Database {
           has_gender_differences?: boolean | null
           hatch_counter?: number | null
           id?: number
-          identifier?: string | null
+          identifier?: string
           is_baby?: boolean | null
           is_legendary?: boolean | null
           is_mythical?: boolean | null

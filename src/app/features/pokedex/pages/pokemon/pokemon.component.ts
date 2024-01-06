@@ -23,7 +23,6 @@ export class PokemonComponent implements OnInit {
   pokedexGeneration: string = '';
   selectedVersionGroup: any = '';
 
-  pokedexDropdownOptions: DropdownLinkOption[] = [];
   pokemonDropdownOptions: DropdownLinkOption[] = [];
   randomPokemonIdentifier: string = '';
 
@@ -63,7 +62,6 @@ export class PokemonComponent implements OnInit {
         })
       )
       .subscribe();
-    this.getPokedexDropdownOptions();
     this.getPokemonDropdownOptions();
   }
 
@@ -83,54 +81,6 @@ export class PokemonComponent implements OnInit {
         .from('pokemon')
         .getPublicUrl('home-previews/' + form.id + '.png').data.publicUrl;
     }
-  }
-
-  getPokedexDropdownOptions() {
-    let versionGroups = [] as any;
-    this.supabase
-      .getAllVersionGroups()
-      .pipe(
-        tap((data) => {
-          versionGroups = data;
-        }),
-        concatMap(() => this.supabase.getAllPokedexVersionGroups()),
-        map((pokedexVersionGroups) =>
-          pokedexVersionGroups
-            .filter((item: any) =>
-              versionGroups
-                .map((group: any) => group.id)
-                .includes(item.version_group_id)
-            )
-            .map((item: any) => {
-              const versionGroup = versionGroups.find(
-                (group: any) => group.id === item.version_group_id
-              );
-              if (versionGroup.identifier === this.pokedexGeneration) {
-                this.selectedVersionGroup = versionGroup;
-              }
-              return {
-                name: versionGroup ? versionGroup.name : '',
-                path: versionGroup
-                  ? '/pokedex/' +
-                    versionGroup.identifier +
-                    '/' +
-                    this.pokemonSpecies.identifier
-                  : '',
-              };
-            })
-            .reduce((unique: any[], item: any) => {
-              return unique.findIndex(
-                (uniqueItem: any) =>
-                  uniqueItem.name === item.name && uniqueItem.path === item.path
-              ) >= 0
-                ? unique
-                : [...unique, item];
-            }, [])
-        )
-      )
-      .subscribe((versionGroupsWithPokedexes) => {
-        this.pokedexDropdownOptions = versionGroupsWithPokedexes;
-      });
   }
 
   getPokemonDropdownOptions() {
