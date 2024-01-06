@@ -1,0 +1,17 @@
+<div
+  class="flex flex-wrap items-center gap-2 rounded-b-sm w-full p-3 border-y border-zinc-700"
+>
+  <div
+    *ngFor="let pokemonForm of pokemonForms"
+    class="flex flex-col items-center p-2 cursor-pointer rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700"
+    (click)="selectForm(pokemonForm)"
+  >
+    <img
+      [src]="getFormImage(pokemonForm.id)"
+      height="100"
+      width="100"
+      class="object-contain rounded-t"
+    />
+    <span class="text-center text-sm py-2">{{ pokemonForm.name }}</span>
+  </div>
+</div>

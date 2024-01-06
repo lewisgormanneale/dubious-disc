@@ -1,17 +1,25 @@
-import { Component, inject, Input, OnInit } from '@angular/core';
+import { Component, inject, Input, OnChanges, OnInit } from '@angular/core';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
   selector: 'app-pokemon-stats',
   templateUrl: './pokemon-stats.component.html',
 })
-export class PokemonStatsComponent implements OnInit {
+export class PokemonStatsComponent implements OnInit, OnChanges {
   @Input() pokemon_id: number = 0;
   stats: any = [] as any;
 
   private supabase: SupabaseService = inject(SupabaseService);
 
   ngOnInit(): void {
+    this.supabase
+      .getPokemonStatsByPokemonId(this.pokemon_id)
+      .subscribe((data) => {
+        this.stats = data;
+      });
+  }
+
+  ngOnChanges() {
     this.supabase
       .getPokemonStatsByPokemonId(this.pokemon_id)
       .subscribe((data) => {

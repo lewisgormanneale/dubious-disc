@@ -1,4 +1,5 @@
 import { Component, inject, Input } from '@angular/core';
+import { Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -7,15 +8,15 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
 })
 export class PokemonDescriptionsComponent {
   @Input() pokemon_species_id: number = 0;
-
-  descriptions: any[] = [];
   showMore = false;
+
+  descriptions: Tables<'pokemon_species_flavor_text'>[] = [];
 
   private supabase: SupabaseService = inject(SupabaseService);
 
   ngOnInit(): void {
     this.supabase
-      .getPokemonDescriptionsBySpeciesId(this.pokemon_species_id)
+      .getPokemonSpeciesFlavorTextById(this.pokemon_species_id)
       .subscribe((data) => {
         data.forEach((element: any) => {
           if (!this.descriptions.includes(element.flavor_text)) {

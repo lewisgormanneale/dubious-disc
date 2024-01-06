@@ -12,6 +12,7 @@ import { HomeModule } from './features/home/home.module';
 import { TeamBuilderModule } from './features/team-builder/team-builder.module';
 import { NewsModule } from './features/news/news.module';
 import { GamesModule } from './features/games/games.module';
+import { NgIconComponent, provideIcons } from '@ng-icons/core';
 
 @NgModule({
   declarations: [AppComponent],

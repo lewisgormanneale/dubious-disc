@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subject, switchMap } from 'rxjs';
+import { Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -9,17 +10,18 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
 })
 export class PokedexComponent implements OnInit {
   public listView: boolean = false;
-  public pokedexes: any[] = [];
-  public versionGroup: any = {};
   public urlValue: string = '';
   public formattedVersionGroupName: string = '';
-  private ngUnsubscribe = new Subject<void>();
 
-  constructor(
-    private readonly supabase: SupabaseService,
-    private router: Router,
-    private route: ActivatedRoute
-  ) {}
+  public pokedexes: any = [];
+  public versionGroup: Tables<'version_groups'> =
+    {} as Tables<'version_groups'>;
+
+  private supabase: SupabaseService = inject(SupabaseService);
+  private router: Router = inject(Router);
+  private route: ActivatedRoute = inject(ActivatedRoute);
+
+  private ngUnsubscribe = new Subject<void>();
 
   ngOnInit(): void {
     this.route.paramMap
@@ -33,12 +35,14 @@ export class PokedexComponent implements OnInit {
           return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);
         })
       )
-      .subscribe((data) => {
+      .subscribe((data: Tables<'pokedexes'>[]) => {
         this.pokedexes = data;
         this.pokedexes.forEach((pokedex: any) => {
-          this.supabase.getPokemonByDexId(pokedex.id).subscribe((data) => {
-            pokedex.pokemon_entries = data;
-          });
+          this.supabase
+            .getPokemonSpeciesByPokedexId(pokedex.id)
+            .subscribe((data) => {
+              pokedex.pokemon_entries = data;
+            });
         });
       });
   }

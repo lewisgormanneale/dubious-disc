@@ -17,17 +17,17 @@
           ></app-container-header>
           <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 w-full p-4">
             <app-quick-link
-              [url]="'/pokedex'"
+              [url]="'/pokedex/scarlet-violet'"
               [imageUrl]="'assets/images/bdsp-pokedex-icon.png'"
               [title]="'Pokédex'"
               [description]="'View data from any main series game'"
             ></app-quick-link>
-            <app-quick-link
+            <!-- <app-quick-link
               [url]="'/team-builder'"
               [imageUrl]="'assets/images/poryphone.png'"
               [title]="'Team Builder'"
               [description]="'Plan a team for a playthrough'"
-            ></app-quick-link>
+            ></app-quick-link> -->
             <app-quick-link
               [url]="'/pokedex/national/' + randomPokemonIdentifier"
               [imageUrl]="'assets/images/question-icon.png'"

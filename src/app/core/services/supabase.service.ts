@@ -1,19 +1,14 @@
 import { Injectable } from '@angular/core';
-import {
-  AuthSession,
-  createClient,
-  SupabaseClient,
-} from '@supabase/supabase-js';
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import { from, map, Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { Database } from '../models/supabase.model';
+import { Database, Tables } from '../models/supabase.model';
 
 @Injectable({
   providedIn: 'root',
 })
 export class SupabaseService {
   private supabase: SupabaseClient;
-  _session: AuthSession | null = null;
 
   constructor() {
     this.supabase = createClient<Database>(
@@ -26,35 +21,23 @@ export class SupabaseService {
     return this.supabase.storage;
   }
 
-  getAllVersionGroups(): Observable<any> {
-    const request = this.supabase
-      .from('version_groups')
-      .select('*')
-      .order('order', { ascending: true });
-    return from(request).pipe(map((response) => response.data || []));
-  }
+  // Generations
 
-  getVersionGroupByIdentifier(identifier: string): Observable<any> {
-    const request = this.supabase
-      .from('version_groups')
-      .select('*')
-      .eq('identifier', identifier)
-      .single();
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getAllGenerations(): Observable<any> {
+  getAllGenerations(): Observable<Tables<'generations'>[]> {
     const request = this.supabase.from('generations').select('*');
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getAllPokedexes(): Observable<any> {
+  // Pokedexes
+
+  getAllPokedexes(): Observable<Tables<'pokedexes'>[]> {
     const request = this.supabase.from('pokedexes').select('*');
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getAllPokedexVersionGroups(): Observable<any> {
+  // Pokedex Version Groups
+
+  getAllPokedexVersionGroups(): Observable<Tables<'pokedex_version_groups'>[]> {
     const request = this.supabase.from('pokedex_version_groups').select('*');
     return from(request).pipe(map((response) => response.data || []));
   }
@@ -62,28 +45,44 @@ export class SupabaseService {
   getPokedexesByVersionGroupId(id: number): Observable<any> {
     const request = this.supabase
       .from('pokedex_version_groups')
-      .select(
-        'pokedex_id (id, identifier, name, description, region_id, is_main_series)'
-      )
+      .select('pokedex_id (*)')
       .eq('version_group_id', id);
-
     return from(request).pipe(
-      map((response) => response.data || []),
-      map((data) => data.map((item) => item.pokedex_id))
+      map((response) => response.data?.map((item) => item.pokedex_id) || [])
     );
   }
 
-  getPokemonByDexId(id: number): Observable<any> {
+  // Pokémon
+
+  getPokemonBySpeciesId(id: number): Observable<Tables<'pokemon'>[]> {
     const request = this.supabase
-      .from('pokemon_dex_numbers')
-      .select('species_id (id, identifier, name, genus), pokedex_number')
-      .eq('pokedex_id', id)
-      .order('pokedex_number', { ascending: true });
+      .from('pokemon')
+      .select('*')
+      .eq('species_id', id)
+      .order('form_order', { ascending: true });
 
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getPokemonSpeciesByIdentifier(identifier: string): Observable<any> {
+  // Pokémon Dex Numbers
+
+  getPokemonDexNumbersBySpeciesId(
+    id: number
+  ): Observable<Tables<'pokemon_dex_numbers'>[]> {
+    const request = this.supabase
+      .from('pokemon_dex_numbers')
+      .select('*')
+      .eq('species_id', id)
+      .order('pokedex_id', { ascending: true });
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Pokemon Species
+
+  getPokemonSpeciesByIdentifier(
+    identifier: string
+  ): Observable<Tables<'pokemon_species'>> {
     const request = this.supabase
       .from('pokemon_species')
       .select('*')
@@ -93,53 +92,17 @@ export class SupabaseService {
     return from(request).pipe(map((response) => response.data || []));
   }
 
-  getPokemonSpeciesFlavorTextById(id: number): Observable<any> {
+  getPokemonSpeciesByPokedexId(id: number): Observable<
+    {
+      species_id: any;
+      pokedex_number: number;
+    }[]
+  > {
     const request = this.supabase
-      .from('pokemon_species_flavor_text')
-      .select('*')
-      .eq('species_id', id);
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getPokemonBySpeciesId(id: number): Observable<any> {
-    const request = this.supabase
-      .from('pokemon')
-      .select('*')
-      .eq('species_id', id);
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getPokemonTypesByPokemonId(id: number): Observable<any> {
-    const request = this.supabase
-      .from('pokemon_types')
-      .select('type_id (id, identifier, name, type_color), slot')
-      .eq('pokemon_id', id);
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getTypeById(id: number): Observable<any> {
-    const request = this.supabase.from('types').select('*').eq('id', id);
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getPokemonStatsByPokemonId(id: number): Observable<any> {
-    const request = this.supabase
-      .from('pokemon_stats')
-      .select('stat_id (id, identifier, name), base_stat, effort')
-      .eq('pokemon_id', id);
-
-    return from(request).pipe(map((response) => response.data || []));
-  }
-
-  getPokemonDescriptionsBySpeciesId(id: number): Observable<any> {
-    const request = this.supabase
-      .from('pokemon_species_flavor_text')
-      .select('*')
-      .eq('species_id', id);
+      .from('pokemon_dex_numbers')
+      .select('species_id (id, identifier, name, genus), pokedex_number')
+      .eq('pokedex_id', id)
+      .order('pokedex_number', { ascending: true });
 
     return from(request).pipe(map((response) => response.data || []));
   }
@@ -150,5 +113,68 @@ export class SupabaseService {
       map((response) => response.data || []),
       map((data) => data.map((item: any) => item.identifier))
     );
+  }
+
+  // Pokemon Species Flavor Text
+
+  getPokemonSpeciesFlavorTextById(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_species_flavor_text')
+      .select('*')
+      .eq('species_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Pokemon Stats
+
+  getPokemonStatsByPokemonId(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_stats')
+      .select('stat_id (id, identifier, name), base_stat, effort')
+      .eq('pokemon_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Pokemon Types
+
+  getPokemonTypesByPokemonId(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_types')
+      .select('type_id (id, identifier, name, type_color), slot')
+      .eq('pokemon_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Types
+
+  getTypeById(id: number): Observable<any> {
+    const request = this.supabase.from('types').select('*').eq('id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Version Groups
+
+  getAllVersionGroups(): Observable<Tables<'version_groups'>[]> {
+    const request = this.supabase
+      .from('version_groups')
+      .select('*')
+      .order('order', { ascending: true });
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  getVersionGroupByIdentifier(
+    identifier: string
+  ): Observable<Tables<'version_groups'>> {
+    const request = this.supabase
+      .from('version_groups')
+      .select('*')
+      .eq('identifier', identifier)
+      .single();
+
+    return from(request).pipe(map((response) => response.data || []));
   }
 }

@@ -33,7 +33,7 @@ export class SanityService {
   }
 
   async urlFor(source: string) {
-    return this.builder.image(source);
+    return this.builder.image(source).toString();
   }
 
   async getAuthorByRefence(author: string) {
