@@ -1,13 +1,14 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { concatMap, map, tap } from 'rxjs';
-import { Tables } from 'src/app/core/models';
+import { DropdownLinkSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokedex-select',
-  templateUrl: './pokedex-select.component.html',
+  selector: 'app-pokedex-select-dropdown',
+  templateUrl: './pokedex-select-dropdown.component.html',
 })
-export class PokedexSelectComponent implements OnInit {
+export class PokedexSelectDropdownComponent {
+  public sections: DropdownLinkSection[] = [];
   public versionGroups: Tables<'version_groups'>[] = [];
   public versionGroupIds: number[] = [];
   public generations: Tables<'generations'>[] = [];
@@ -40,6 +41,19 @@ export class PokedexSelectComponent implements OnInit {
         this.versionGroupsWithPokedexes = new Set(
           versionGroupsWithPokedexes.map((item) => item.version_group_id)
         );
+        this.sections = this.generations.map((generation) => {
+          return {
+            name: generation.name ? generation.name : '',
+            options: this.getVersionGroupsByGenerationId(generation.id).map(
+              (versionGroup) => {
+                return {
+                  name: versionGroup.name,
+                  path: `/pokedex/${versionGroup.identifier}`,
+                };
+              }
+            ),
+          };
+        });
       });
   }
 

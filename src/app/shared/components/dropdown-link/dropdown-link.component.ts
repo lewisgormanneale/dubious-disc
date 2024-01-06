@@ -1,18 +1,14 @@
 import { Component, Input } from '@angular/core';
-
-interface DropdownLinkOption {
-  name: string;
-  path: string;
-}
+import { DropdownLinkOption, DropdownLinkSection } from 'src/app/core/models';
 
 @Component({
   selector: 'app-dropdown-link',
   templateUrl: './dropdown-link.component.html',
 })
 export class DropdownLinkComponent {
-  @Input() options: DropdownLinkOption[] = [];
+  @Input() sections: DropdownLinkSection[] = [];
   @Input() placeholder: string = '';
-  @Input() origin: string = '';
+  @Input() origin?: string = '';
   showDropdown: boolean = false;
 
   toggleDropdown() {

@@ -5,8 +5,6 @@ import { CoreModule } from 'src/app/core/core.module';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { PokedexComponent } from './pages/pokedex/pokedex.component';
 import { PokedexGridViewItemComponent } from './components/pokedex-grid-view-item/pokedex-grid-view-item.component';
-import { PokedexSelectComponent } from './pages/pokedex-select/pokedex-select.component';
-import { PokedexSelectItemComponent } from './components/pokedex-select-item/pokedex-select-item.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { PokemonComponent } from './pages/pokemon/pokemon.component';
 import { PokemonDataComponent } from './components/pokemon-data/pokemon-data.component';
@@ -23,14 +21,14 @@ import {
   heroSparklesSolid,
 } from '@ng-icons/heroicons/solid';
 import { bootstrapDice6Fill } from '@ng-icons/bootstrap-icons';
+import { PokedexSelectDropdownComponent } from './components/pokedex-select-dropdown/pokedex-select-dropdown.component';
 
 @NgModule({
   declarations: [
     PokedexComponent,
     PokedexGridViewItemComponent,
     PokedexListViewItemComponent,
-    PokedexSelectComponent,
-    PokedexSelectItemComponent,
+    PokedexSelectDropdownComponent,
     PokemonComponent,
     PokemonDataComponent,
     PokemonFormsComponent,

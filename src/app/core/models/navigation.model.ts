@@ -22,7 +22,7 @@ export const headerNavItems: NavigationItem[] = [
         options: [
           {
             label: 'Pokédex',
-            link: 'pokedex',
+            link: 'pokedex/scarlet-violet',
           },
         ],
       },
