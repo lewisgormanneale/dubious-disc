@@ -22,6 +22,7 @@ import {
 } from '@ng-icons/heroicons/solid';
 import { bootstrapDice6Fill } from '@ng-icons/bootstrap-icons';
 import { PokedexSelectDropdownComponent } from './components/pokedex-select-dropdown/pokedex-select-dropdown.component';
+import { PokedexTabComponent } from './components/pokedex-tab/pokedex-tab.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { PokedexSelectDropdownComponent } from './components/pokedex-select-drop
     PokemonDescriptionsComponent,
     PokemonGenderRatioComponent,
     PokemonStatsComponent,
+    PokedexTabComponent,
   ],
   imports: [
     CommonModule,
