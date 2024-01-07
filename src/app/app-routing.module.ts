@@ -9,8 +9,8 @@ import { TeamBuilderComponent } from './features/team-builder/pages/team-builder
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'pokedex/:generation', component: PokedexComponent },
-  { path: 'pokedex/:generation/:pokemon', component: PokemonComponent },
+  { path: 'pokedex/:version-group', component: PokedexComponent },
+  { path: 'pokedex/:version-group/:pokemon', component: PokemonComponent },
   { path: 'games/:slug', component: GamesComponent },
   { path: 'news/:slug', component: NewsComponent },
   { path: 'team-builder', component: TeamBuilderComponent },
