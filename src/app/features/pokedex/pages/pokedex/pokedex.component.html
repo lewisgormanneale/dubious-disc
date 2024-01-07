@@ -49,13 +49,31 @@
             : 'Pokedex'
         "
       ></app-container-header>
-      <ng-container *ngIf="pokedexes.length > 0; else elseBlock">
-        <app-pokedex-tab
-          *ngFor="let pokedex of pokedexes"
-          [pokedex]="pokedex"
-          [listView]="listView"
-        ></app-pokedex-tab>
-      </ng-container>
+      <div *ngIf="pokedexes.length > 0; else elseBlock" class="p-4">
+        <ul class="flex flex-wrap text-sm text-center">
+          <li class="me-2" *ngFor="let pokedex of pokedexes">
+            <button
+              (click)="selectedPokedex = pokedex"
+              class="inline-block p-4 rounded-t cursor-pointer hover:bg-zinc-800"
+              [ngClass]="{
+                'bg-zinc-800': selectedPokedex === pokedex,
+                'bg-zinc-900': selectedPokedex !== pokedex
+              }"
+              aria-current="page"
+            >
+              {{ pokedex.name }}
+            </button>
+          </li>
+        </ul>
+        <div></div>
+        <ng-container *ngFor="let pokedex of pokedexes">
+          <app-pokedex-tab
+            *ngIf="pokedex === selectedPokedex"
+            [pokedex]="pokedex"
+            [listView]="listView"
+          ></app-pokedex-tab>
+        </ng-container>
+      </div>
       <ng-template #elseBlock>
         <div class="flex w-full h-64 justify-center items-center">
           <app-spinner></app-spinner>

@@ -13,7 +13,8 @@ export class PokedexComponent implements OnInit {
   public versionGroupIdentifier: string = '';
   public formattedVersionGroupName: string = '';
 
-  public pokedexes: any = [];
+  public pokedexes: Tables<'pokedexes'>[] = [];
+  public selectedPokedex: Tables<'pokedexes'> = {} as Tables<'pokedexes'>;
   public versionGroup: Tables<'version_groups'> =
     {} as Tables<'version_groups'>;
 
@@ -38,6 +39,7 @@ export class PokedexComponent implements OnInit {
       )
       .subscribe((data: Tables<'pokedexes'>[]) => {
         this.pokedexes = data;
+        this.selectedPokedex = data[0];
       });
   }
   ngOnDestroy(): void {
