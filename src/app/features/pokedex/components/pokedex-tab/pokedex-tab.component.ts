@@ -25,7 +25,11 @@ export class PokedexTabComponent {
   }
 
   onPokemonClick(pokemon: any) {
-    let pokemonID = pokemon.species_id.identifier;
-    this.router.navigate(['pokedex', this.versionGroupIdentifier, pokemonID]);
+    let pokemonSpeciesIdentifier = pokemon.species_id.identifier;
+    this.router.navigate([
+      'pokedex',
+      this.versionGroupIdentifier,
+      pokemonSpeciesIdentifier,
+    ]);
   }
 }

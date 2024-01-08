@@ -54,9 +54,9 @@
           <li class="me-2" *ngFor="let pokedex of pokedexes">
             <button
               (click)="selectedPokedex = pokedex"
-              class="inline-block p-4 rounded-t cursor-pointer hover:bg-zinc-800"
+              class="inline-block p-4 rounded-t hover:bg-zinc-800"
               [ngClass]="{
-                'bg-zinc-800': selectedPokedex === pokedex,
+                'bg-zinc-800 cursor-default': selectedPokedex === pokedex,
                 'bg-zinc-900': selectedPokedex !== pokedex
               }"
               aria-current="page"
@@ -71,6 +71,7 @@
             *ngIf="pokedex === selectedPokedex"
             [pokedex]="pokedex"
             [listView]="listView"
+            [versionGroupIdentifier]="versionGroupIdentifier"
           ></app-pokedex-tab>
         </ng-container>
       </div>

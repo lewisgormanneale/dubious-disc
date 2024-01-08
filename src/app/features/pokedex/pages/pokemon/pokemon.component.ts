@@ -38,7 +38,7 @@ export class PokemonComponent implements OnInit {
       .pipe(
         switchMap((params) => {
           const identifier = params['pokemon'];
-          this.pokedexGeneration = params['generation'];
+          this.pokedexGeneration = params['version-group'];
           return this.supabase.getPokemonSpeciesByIdentifier(identifier);
         }),
         tap((data) => {
