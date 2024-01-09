@@ -79,7 +79,10 @@
                   class="absolute top-2 left-2 flex justify-center items-center w-10 h-10 rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 cursor-pointer"
                   (click)="shinyToggle()"
                 >
-                  <ng-icon [name]="'heroSparklesSolid'"></ng-icon>
+                  <ng-icon
+                    [name]="'heroSparklesSolid'"
+                    [ngClass]="{ 'text-orange-300': shiny }"
+                  ></ng-icon>
                 </button>
                 <img
                   src="{{ this.imageUrl }}"

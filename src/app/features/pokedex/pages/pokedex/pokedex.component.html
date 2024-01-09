@@ -50,7 +50,7 @@
         "
       ></app-container-header>
       <div *ngIf="pokedexes.length > 0; else elseBlock" class="p-4">
-        <ul class="flex flex-wrap text-sm text-center">
+        <ul class="flex flex-wrap text-xs text-center">
           <li class="me-2" *ngFor="let pokedex of pokedexes">
             <button
               (click)="selectedPokedex = pokedex"
