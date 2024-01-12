@@ -45,9 +45,6 @@ export class PokemonComponent implements OnInit {
         }),
         tap((data) => {
           this.pokemonSpecies = data;
-          this.imageUrl = this.supabase.storage
-            .from('pokemon')
-            .getPublicUrl('home-previews/' + data.id + '.png').data.publicUrl;
         }),
         switchMap((data) => {
           return this.supabase.getPokemonBySpeciesId(data.id);
@@ -55,6 +52,7 @@ export class PokemonComponent implements OnInit {
         tap((data) => {
           this.pokemonForms = data;
           this.selectedForm = data[0];
+          this.getImageUrl();
         }),
         switchMap((data) => {
           return this.supabase.getPokemonTypesByPokemonId(data[0].id);
@@ -73,15 +71,7 @@ export class PokemonComponent implements OnInit {
     this.supabase.getPokemonTypesByPokemonId(form.id).subscribe((data) => {
       this.pokemonTypes = data;
     });
-    if (this.shiny) {
-      this.imageUrl = this.supabase.storage
-        .from('pokemon')
-        .getPublicUrl('home-previews/shiny/' + form.id + '.png').data.publicUrl;
-    } else {
-      this.imageUrl = this.supabase.storage
-        .from('pokemon')
-        .getPublicUrl('home-previews/' + form.id + '.png').data.publicUrl;
-    }
+    this.getImageUrl();
   }
 
   getPokemonDropdownOptions() {
@@ -161,6 +151,10 @@ export class PokemonComponent implements OnInit {
 
   shinyToggle() {
     this.shiny = !this.shiny;
+    this.getImageUrl();
+  }
+
+  getImageUrl() {
     if (this.shiny) {
       this.imageUrl = this.supabase.storage
         .from('pokemon')
