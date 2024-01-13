@@ -20,7 +20,11 @@ import {
   heroSwatchSolid,
   heroSparklesSolid,
 } from '@ng-icons/heroicons/solid';
-import { bootstrapDice6Fill } from '@ng-icons/bootstrap-icons';
+import {
+  bootstrapDice6Fill,
+  bootstrapGenderFemale,
+  bootstrapGenderMale,
+} from '@ng-icons/bootstrap-icons';
 import { PokedexSelectDropdownComponent } from './components/pokedex-select-dropdown/pokedex-select-dropdown.component';
 import { PokedexTabComponent } from './components/pokedex-tab/pokedex-tab.component';
 
@@ -49,6 +53,8 @@ import { PokedexTabComponent } from './components/pokedex-tab/pokedex-tab.compon
       heroChevronRightSolid,
       heroSwatchSolid,
       bootstrapDice6Fill,
+      bootstrapGenderFemale,
+      bootstrapGenderMale,
       heroSparklesSolid,
     }),
   ],

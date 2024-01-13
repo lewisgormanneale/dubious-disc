@@ -95,6 +95,16 @@
                     [ngClass]="{ 'text-orange-300': shiny }"
                   ></ng-icon>
                 </button>
+                <button
+                  *ngIf="pokemonSpecies.has_gender_differences"
+                  class="absolute top-14 left-2 flex justify-center items-center w-10 h-10 rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 cursor-pointer"
+                  (click)="genderToggle()"
+                >
+                  <ng-icon
+                    [name]="'bootstrapGenderFemale'"
+                    [ngClass]="{ 'text-pink-400': female }"
+                  ></ng-icon>
+                </button>
                 <img
                   src="{{ this.imageUrl }}"
                   class="w-full h-full object-contain min-w-[300px] rounded-t"

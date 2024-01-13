@@ -19,6 +19,7 @@ export class PokemonComponent implements OnInit {
   pokemonSpecies: Tables<'pokemon_species'> = {} as Tables<'pokemon_species'>;
   pokemonTypes: any;
   shiny: boolean = false;
+  female: boolean = false;
 
   pokedexGeneration: string = '';
   selectedVersionGroup: any = '';
@@ -52,6 +53,9 @@ export class PokemonComponent implements OnInit {
         tap((data) => {
           this.pokemonForms = data;
           this.selectedForm = data[0];
+          if (!this.pokemonSpecies.has_gender_differences) {
+            this.female = false;
+          }
           this.getImageUrl();
         }),
         switchMap((data) => {
@@ -154,19 +158,26 @@ export class PokemonComponent implements OnInit {
     this.getImageUrl();
   }
 
+  genderToggle() {
+    this.female = !this.female;
+    this.getImageUrl();
+  }
+
   getImageUrl() {
+    let url = 'home-previews/';
+
     if (this.shiny) {
-      this.imageUrl = this.supabase.storage
-        .from('pokemon')
-        .getPublicUrl(
-          'home-previews/shiny/' + this.selectedForm.id + '.png'
-        ).data.publicUrl;
-    } else {
-      this.imageUrl = this.supabase.storage
-        .from('pokemon')
-        .getPublicUrl(
-          'home-previews/' + this.selectedForm.id + '.png'
-        ).data.publicUrl;
+      url += 'shiny/';
     }
+
+    if (this.female) {
+      url += 'female/';
+    }
+
+    url += this.selectedForm.id + '.png';
+
+    this.imageUrl = this.supabase.storage
+      .from('pokemon')
+      .getPublicUrl(url).data.publicUrl;
   }
 }
