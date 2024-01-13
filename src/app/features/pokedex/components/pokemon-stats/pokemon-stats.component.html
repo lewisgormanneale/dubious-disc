@@ -3,31 +3,37 @@
     [title]="'Pokémon Base Stats'"
     class="text-sm"
   ></app-container-header>
-  <ul class="w-full flex flex-col bg-zinc-800 rounded-b text-sm">
-    <li
+  <table class="table-fixed w-full bg-zinc-800 rounded-b text-sm">
+    <tr
       *ngFor="let stat of stats; index as i"
-      class="border-y-zinc-700 border-b p-2"
       [ngClass]="{ 'border-b': i !== stats.length - 1 }"
     >
-      <div class="grid grid-cols-5 items-center">
-        <p class="inline pr-2 col-span-2 font-sans-semi-bold text-sm">
-          {{ stat.stat_id.name }}
-        </p>
+      <td
+        class="border-y-zinc-700 border-b p-2 text-left w-32 font-sans-semi-bold"
+      >
+        {{ stat.stat_id.name }}
+      </td>
+      <td class="border-y-zinc-700 border-b p-2 text-right w-12">
+        {{ stat.base_stat }}
+      </td>
+      <td class="border-y-zinc-700 border-b p-2">
         <div
-          class="w-full h-[20px] col-span-3 rounded border-zinc-700 box-border border-[1px] bg-zinc-600"
+          class="w-full h-[20px] rounded border-zinc-700 box-border border-[1px] bg-zinc-600"
         >
           <div
             class="rounded-l h-full flex justify-center items-center"
-            [ngClass]="getProgressBarClass(stat.stat_id.id)"
+            [ngClass]="getProgressBarClass(stat.base_stat)"
             [ngStyle]="getProgressBarStyle(stat.base_stat)"
             aria-valuemin="0"
             aria-valuemax="255"
             [attr.aria-valuenow]="stat.base_stat"
-          >
-            <span class="white-outlined text-sm"> {{ stat.base_stat }}</span>
-          </div>
+          ></div>
         </div>
-      </div>
-    </li>
-  </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-2 font-sans-semi-bold text-sm text-left">Total</td>
+      <td class="p-2 font-sans-semi-bold text-sm text-right">{{ total }}</td>
+    </tr>
+  </table>
 </div>

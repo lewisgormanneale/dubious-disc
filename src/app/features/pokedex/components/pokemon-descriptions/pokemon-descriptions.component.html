@@ -1,9 +1,12 @@
-<div class="flex flex-col rounded bg-byzantium w-full">
+<div
+  class="flex flex-col rounded bg-byzantium w-full"
+  *ngIf="descriptions.length > 0 && versions"
+>
   <app-container-header
     [title]="'Pokédex Descriptions'"
     class="text-sm"
   ></app-container-header>
-  <div *ngIf="versions" class="flex flex-col text-center rounded bg-zinc-800">
+  <div class="flex flex-col text-center rounded bg-zinc-800">
     <ul class="w-full flex flex-col">
       <li
         *ngFor="
