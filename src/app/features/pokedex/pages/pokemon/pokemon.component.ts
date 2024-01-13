@@ -1,6 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { map, switchMap, tap, forkJoin } from 'rxjs';
+import { versions } from 'process';
+import { map, switchMap, tap, forkJoin, Subject, takeUntil } from 'rxjs';
 import { DropdownLinkSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
@@ -23,6 +24,7 @@ export class PokemonComponent implements OnInit {
 
   pokedexGeneration: string = '';
   selectedVersionGroup: any = '';
+  versions: Tables<'versions'>[] = [];
 
   pokemonDropdownOptions: DropdownLinkSection[] = [];
   randomPokemonIdentifier: string = '';
@@ -35,6 +37,7 @@ export class PokemonComponent implements OnInit {
 
   private supabase: SupabaseService = inject(SupabaseService);
   private route: ActivatedRoute = inject(ActivatedRoute);
+  private destroy$ = new Subject<void>();
 
   ngOnInit(): void {
     this.route.params
@@ -44,25 +47,25 @@ export class PokemonComponent implements OnInit {
           this.pokedexGeneration = params['version-group'];
           return this.supabase.getPokemonSpeciesByIdentifier(identifier);
         }),
-        tap((data) => {
-          this.pokemonSpecies = data;
+        tap((pokemonSpecies) => {
+          this.pokemonSpecies = pokemonSpecies;
         }),
-        switchMap((data) => {
-          return this.supabase.getPokemonBySpeciesId(data.id);
+        switchMap((pokemonSpecies) => {
+          return this.supabase.getPokemonBySpeciesId(pokemonSpecies.id);
         }),
-        tap((data) => {
-          this.pokemonForms = data;
-          this.selectedForm = data[0];
+        tap((pokemon) => {
+          this.pokemonForms = pokemon;
+          this.selectedForm = pokemon[0];
           if (!this.pokemonSpecies.has_gender_differences) {
             this.female = false;
           }
           this.getImageUrl();
         }),
-        switchMap((data) => {
-          return this.supabase.getPokemonTypesByPokemonId(data[0].id);
+        switchMap((pokemon) => {
+          return this.supabase.getPokemonTypesByPokemonId(pokemon[0].id);
         }),
-        tap((data) => {
-          this.pokemonTypes = data;
+        tap((pokemonTypes) => {
+          this.pokemonTypes = pokemonTypes;
         })
       )
       .subscribe(() => {
@@ -83,8 +86,16 @@ export class PokemonComponent implements OnInit {
     this.supabase
       .getVersionGroupByIdentifier(this.pokedexGeneration)
       .pipe(
-        switchMap((versionGroup) => {
+        takeUntil(this.destroy$),
+        tap((versionGroup) => {
           this.selectedVersionGroup = versionGroup;
+          this.supabase
+            .getVersionsByVersionGroupId(versionGroup.id)
+            .subscribe((versions) => {
+              this.versions = versions;
+            });
+        }),
+        switchMap((versionGroup) => {
           return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);
         }),
         switchMap((pokedexes) => {
@@ -166,18 +177,17 @@ export class PokemonComponent implements OnInit {
   getImageUrl() {
     let url = 'home-previews/';
 
-    if (this.shiny) {
-      url += 'shiny/';
-    }
-
-    if (this.female) {
-      url += 'female/';
-    }
-
+    this.shiny ? (url += 'shiny/') : null;
+    this.female ? (url += 'female/') : null;
     url += this.selectedForm.id + '.png';
 
     this.imageUrl = this.supabase.storage
       .from('pokemon')
       .getPublicUrl(url).data.publicUrl;
+  }
+
+  ngOnDestroy(): void {
+    this.destroy$.next();
+    this.destroy$.complete();
   }
 }

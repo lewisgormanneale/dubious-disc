@@ -170,9 +170,13 @@
               [selectedForm]="selectedForm"
             ></app-pokemon-forms>
           </section>
-          <section class="w-full my-3" *ngIf="pokemonSpecies.id">
+          <section
+            class="w-full my-3"
+            *ngIf="pokemonSpecies.id && versions.length > 0"
+          >
             <app-pokemon-descriptions
               [pokemon_species_id]="pokemonSpecies.id"
+              [versions]="versions"
             ></app-pokemon-descriptions>
           </section>
         </div>
