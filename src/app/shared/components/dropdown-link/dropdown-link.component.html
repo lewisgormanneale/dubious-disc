@@ -6,14 +6,16 @@
   <div>
     <button
       type="button"
-      class="inline-flex justify-center items-center w-36 h-10 gap-x-1.5 px-3 py-2 text-xs font-semibold rounded cursor-pointer bg-zinc-900 hover:bg-zinc-800 border border-zinc-700"
+      class="inline-flex justify-center items-center w-36 h-10 gap-x-1.5 px-1 py-2 text-xs rounded cursor-pointer bg-zinc-900 hover:bg-zinc-800 border border-zinc-700"
       id="menu-button"
       aria-expanded="true"
       aria-haspopup="true"
       (click)="toggleDropdown()"
     >
-      {{ placeholder }}
-      <ng-icon [name]="'heroChevronDownSolid'"></ng-icon>
+      <span class="w-5/6"> {{ placeholder }}</span>
+      <div class="w-1/6 flex justify-center items-center">
+        <ng-icon [name]="'heroChevronDownSolid'"></ng-icon>
+      </div>
     </button>
   </div>
   <div

@@ -819,42 +819,6 @@ export interface Database {
         }
         Relationships: []
       }
-      item_game_indices: {
-        Row: {
-          game_index: number | null
-          generation_id: number | null
-          id: string
-          item_id: number | null
-        }
-        Insert: {
-          game_index?: number | null
-          generation_id?: number | null
-          id?: string
-          item_id?: number | null
-        }
-        Update: {
-          game_index?: number | null
-          generation_id?: number | null
-          id?: string
-          item_id?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "item_game_indices_generation_id_fkey"
-            columns: ["generation_id"]
-            isOneToOne: false
-            referencedRelation: "generations"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "item_game_indices_item_id_fkey"
-            columns: ["item_id"]
-            isOneToOne: false
-            referencedRelation: "items"
-            referencedColumns: ["id"]
-          }
-        ]
-      }
       item_names: {
         Row: {
           item_id: number | null
@@ -2213,223 +2177,6 @@ export interface Database {
           }
         ]
       }
-      pokemon_form_generations: {
-        Row: {
-          game_index: number | null
-          generation_id: number | null
-          id: string
-          pokemon_form_id: number | null
-        }
-        Insert: {
-          game_index?: number | null
-          generation_id?: number | null
-          id?: string
-          pokemon_form_id?: number | null
-        }
-        Update: {
-          game_index?: number | null
-          generation_id?: number | null
-          id?: string
-          pokemon_form_id?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "pokemon_form_generations_generation_id_fkey"
-            columns: ["generation_id"]
-            isOneToOne: false
-            referencedRelation: "generations"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "pokemon_form_generations_pokemon_form_id_fkey"
-            columns: ["pokemon_form_id"]
-            isOneToOne: false
-            referencedRelation: "pokemon_forms"
-            referencedColumns: ["id"]
-          }
-        ]
-      }
-      pokemon_form_pokeathlon_stats: {
-        Row: {
-          base_stat: number | null
-          id: string
-          maximum_stat: number | null
-          minimum_stat: number | null
-          pokeathlon_stat_id: number | null
-          pokemon_form_id: number | null
-          pokemon_id: number | null
-        }
-        Insert: {
-          base_stat?: number | null
-          id?: string
-          maximum_stat?: number | null
-          minimum_stat?: number | null
-          pokeathlon_stat_id?: number | null
-          pokemon_form_id?: number | null
-          pokemon_id?: number | null
-        }
-        Update: {
-          base_stat?: number | null
-          id?: string
-          maximum_stat?: number | null
-          minimum_stat?: number | null
-          pokeathlon_stat_id?: number | null
-          pokemon_form_id?: number | null
-          pokemon_id?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "pokemon_form_pokeathlon_stats_pokeathlon_stat_id_fkey"
-            columns: ["pokeathlon_stat_id"]
-            isOneToOne: false
-            referencedRelation: "pokeathlon_stats"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "pokemon_form_pokeathlon_stats_pokemon_form_id_fkey"
-            columns: ["pokemon_form_id"]
-            isOneToOne: false
-            referencedRelation: "pokemon_forms"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "pokemon_form_pokeathlon_stats_pokemon_id_fkey"
-            columns: ["pokemon_id"]
-            isOneToOne: false
-            referencedRelation: "pokemon"
-            referencedColumns: ["id"]
-          }
-        ]
-      }
-      pokemon_form_types: {
-        Row: {
-          id: string
-          pokemon_form_id: number | null
-          slot: number | null
-          type_id: number | null
-        }
-        Insert: {
-          id?: string
-          pokemon_form_id?: number | null
-          slot?: number | null
-          type_id?: number | null
-        }
-        Update: {
-          id?: string
-          pokemon_form_id?: number | null
-          slot?: number | null
-          type_id?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "pokemon_form_types_pokemon_form_id_fkey"
-            columns: ["pokemon_form_id"]
-            isOneToOne: false
-            referencedRelation: "pokemon_forms"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "pokemon_form_types_type_id_fkey"
-            columns: ["type_id"]
-            isOneToOne: false
-            referencedRelation: "types"
-            referencedColumns: ["id"]
-          }
-        ]
-      }
-      pokemon_forms: {
-        Row: {
-          form_identifier: string | null
-          form_name: string | null
-          form_order: number | null
-          id: number
-          identifier: string | null
-          introduced_in_version_group_id: number | null
-          is_battle_only: boolean | null
-          is_default: boolean | null
-          is_mega: boolean | null
-          order: number | null
-          pokemon_id: number | null
-          pokemon_name: string | null
-        }
-        Insert: {
-          form_identifier?: string | null
-          form_name?: string | null
-          form_order?: number | null
-          id: number
-          identifier?: string | null
-          introduced_in_version_group_id?: number | null
-          is_battle_only?: boolean | null
-          is_default?: boolean | null
-          is_mega?: boolean | null
-          order?: number | null
-          pokemon_id?: number | null
-          pokemon_name?: string | null
-        }
-        Update: {
-          form_identifier?: string | null
-          form_name?: string | null
-          form_order?: number | null
-          id?: number
-          identifier?: string | null
-          introduced_in_version_group_id?: number | null
-          is_battle_only?: boolean | null
-          is_default?: boolean | null
-          is_mega?: boolean | null
-          order?: number | null
-          pokemon_id?: number | null
-          pokemon_name?: string | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "pokemon_forms_introduced_in_version_group_id_fkey"
-            columns: ["introduced_in_version_group_id"]
-            isOneToOne: false
-            referencedRelation: "version_groups"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "pokemon_forms_pokemon_id_fkey"
-            columns: ["pokemon_id"]
-            isOneToOne: false
-            referencedRelation: "pokemon"
-            referencedColumns: ["id"]
-          }
-        ]
-      }
-      pokemon_game_indices: {
-        Row: {
-          game_index: number | null
-          pokemon_id: number | null
-          version_id: number | null
-        }
-        Insert: {
-          game_index?: number | null
-          pokemon_id?: number | null
-          version_id?: number | null
-        }
-        Update: {
-          game_index?: number | null
-          pokemon_id?: number | null
-          version_id?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "pokemon_game_indices_pokemon_id_fkey"
-            columns: ["pokemon_id"]
-            isOneToOne: false
-            referencedRelation: "pokemon"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "pokemon_game_indices_version_id_fkey"
-            columns: ["version_id"]
-            isOneToOne: false
-            referencedRelation: "versions"
-            referencedColumns: ["id"]
-          }
-        ]
-      }
       pokemon_habitats: {
         Row: {
           id: number
@@ -2570,6 +2317,48 @@ export interface Database {
             columns: ["version_group_id"]
             isOneToOne: false
             referencedRelation: "version_groups"
+            referencedColumns: ["id"]
+          }
+        ]
+      }
+      pokemon_pokeathlon_stats: {
+        Row: {
+          base_stat: number | null
+          id: string
+          maximum_stat: number | null
+          minimum_stat: number | null
+          pokeathlon_stat_id: number | null
+          pokemon_id: number | null
+        }
+        Insert: {
+          base_stat?: number | null
+          id?: string
+          maximum_stat?: number | null
+          minimum_stat?: number | null
+          pokeathlon_stat_id?: number | null
+          pokemon_id?: number | null
+        }
+        Update: {
+          base_stat?: number | null
+          id?: string
+          maximum_stat?: number | null
+          minimum_stat?: number | null
+          pokeathlon_stat_id?: number | null
+          pokemon_id?: number | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "pokemon_pokeathlon_stats_pokeathlon_stat_id_fkey"
+            columns: ["pokeathlon_stat_id"]
+            isOneToOne: false
+            referencedRelation: "pokeathlon_stats"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "pokemon_pokeathlon_stats_pokemon_id_fkey"
+            columns: ["pokemon_id"]
+            isOneToOne: false
+            referencedRelation: "pokemon"
             referencedColumns: ["id"]
           }
         ]
@@ -2722,22 +2511,22 @@ export interface Database {
       }
       pokemon_species_flavor_text: {
         Row: {
-          flavor_text: string | null
+          flavor_text: string
           id: string
-          species_id: number | null
-          version_id: number | null
+          species_id: number
+          version_id: number
         }
         Insert: {
-          flavor_text?: string | null
+          flavor_text: string
           id?: string
-          species_id?: number | null
-          version_id?: number | null
+          species_id: number
+          version_id: number
         }
         Update: {
-          flavor_text?: string | null
+          flavor_text?: string
           id?: string
-          species_id?: number | null
-          version_id?: number | null
+          species_id?: number
+          version_id?: number
         }
         Relationships: [
           {
@@ -2798,21 +2587,21 @@ export interface Database {
       pokemon_types: {
         Row: {
           id: string
-          pokemon_id: number | null
-          slot: number | null
-          type_id: number | null
+          pokemon_id: number
+          slot: number
+          type_id: number
         }
         Insert: {
           id?: string
-          pokemon_id?: number | null
-          slot?: number | null
-          type_id?: number | null
+          pokemon_id: number
+          slot: number
+          type_id: number
         }
         Update: {
           id?: string
-          pokemon_id?: number | null
-          slot?: number | null
-          type_id?: number | null
+          pokemon_id?: number
+          slot?: number
+          type_id?: number
         }
         Relationships: [
           {
@@ -3034,42 +2823,6 @@ export interface Database {
           }
         ]
       }
-      type_game_indices: {
-        Row: {
-          game_index: number | null
-          generation_id: number | null
-          id: string
-          type_id: number | null
-        }
-        Insert: {
-          game_index?: number | null
-          generation_id?: number | null
-          id?: string
-          type_id?: number | null
-        }
-        Update: {
-          game_index?: number | null
-          generation_id?: number | null
-          id?: string
-          type_id?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "type_game_indices_generation_id_fkey"
-            columns: ["generation_id"]
-            isOneToOne: false
-            referencedRelation: "generations"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "type_game_indices_type_id_fkey"
-            columns: ["type_id"]
-            isOneToOne: false
-            referencedRelation: "types"
-            referencedColumns: ["id"]
-          }
-        ]
-      }
       types: {
         Row: {
           damage_class_id: number | null
@@ -3213,21 +2966,21 @@ export interface Database {
       versions: {
         Row: {
           id: number
-          identifier: string | null
-          name: string | null
-          version_group_id: number | null
+          identifier: string
+          name: string
+          version_group_id: number
         }
         Insert: {
           id: number
-          identifier?: string | null
-          name?: string | null
-          version_group_id?: number | null
+          identifier: string
+          name: string
+          version_group_id: number
         }
         Update: {
           id?: number
-          identifier?: string | null
-          name?: string | null
-          version_group_id?: number | null
+          identifier?: string
+          name?: string
+          version_group_id?: number
         }
         Relationships: [
           {

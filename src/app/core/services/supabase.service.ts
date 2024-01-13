@@ -117,11 +117,24 @@ export class SupabaseService {
 
   // Pokemon Species Flavor Text
 
-  getPokemonSpeciesFlavorTextById(id: number): Observable<any> {
+  getPokemonSpeciesFlavorTextBySpeciesId(id: number): Observable<any> {
     const request = this.supabase
       .from('pokemon_species_flavor_text')
       .select('*')
       .eq('species_id', id);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  getPokemonSpeciesFlavorTextWithVersionIdBySpeciesId(
+    speciesId: number,
+    versionIds: number[]
+  ): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_species_flavor_text')
+      .select('*')
+      .eq('species_id', speciesId)
+      .in('version_id', versionIds);
 
     return from(request).pipe(map((response) => response.data || []));
   }
@@ -153,6 +166,16 @@ export class SupabaseService {
   getTypeById(id: number): Observable<any> {
     const request = this.supabase.from('types').select('*').eq('id', id);
 
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Versions
+
+  getVersionsByVersionGroupId(id: number): Observable<Tables<'versions'>[]> {
+    const request = this.supabase
+      .from('versions')
+      .select('*')
+      .eq('version_group_id', id);
     return from(request).pipe(map((response) => response.data || []));
   }
 

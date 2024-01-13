@@ -49,43 +49,32 @@
             : 'Pokedex'
         "
       ></app-container-header>
-      <ng-container *ngIf="pokedexes.length > 0; else elseBlock">
-        <ng-container *ngFor="let pokedex of pokedexes">
-          <div class="flex flex-col rounded py-2 w-full">
-            <h3
-              *ngIf="pokedexes.length > 1"
-              class="text-lg mx-3 text-center font-sans-semi-bold pb-2"
+      <div *ngIf="pokedexes.length > 0; else elseBlock" class="p-4">
+        <ul class="flex text-xs text-center overflow-x-scroll">
+          <li class="me-2" *ngFor="let pokedex of pokedexes">
+            <button
+              (click)="selectedPokedex = pokedex"
+              class="inline-block whitespace-nowrap p-4 rounded-t hover:bg-zinc-800"
+              [ngClass]="{
+                'bg-zinc-800 cursor-default': selectedPokedex === pokedex,
+                'bg-zinc-900': selectedPokedex !== pokedex
+              }"
+              aria-current="page"
             >
-              {{ pokedex.name + " Pokedex" }}
-            </h3>
-            <ng-container *ngIf="listView; else gridView">
-              <div class="flex flex-col w-full">
-                <app-pokedex-list-view-item
-                  *ngFor="
-                    let pokemon of pokedex.pokemon_entries;
-                    index as index
-                  "
-                  [pokemon]="pokemon"
-                  (click)="onPokemonClick(pokemon)"
-                  class=""
-                  [ngClass]="{
-                    'border-t border-zinc-700': index === 0
-                  }"
-                ></app-pokedex-list-view-item>
-              </div>
-            </ng-container>
-            <ng-template #gridView>
-              <div class="flex flex-wrap gap-2 justify-center p-2">
-                <app-pokedex-grid-view-item
-                  *ngFor="let pokemon of pokedex.pokemon_entries"
-                  [pokemon]="pokemon"
-                  (click)="onPokemonClick(pokemon)"
-                ></app-pokedex-grid-view-item>
-              </div>
-            </ng-template>
-          </div>
+              <span>{{ pokedex.name }}</span>
+            </button>
+          </li>
+        </ul>
+        <div></div>
+        <ng-container *ngFor="let pokedex of pokedexes">
+          <app-pokedex-tab
+            *ngIf="pokedex === selectedPokedex"
+            [pokedex]="pokedex"
+            [listView]="listView"
+            [versionGroupIdentifier]="versionGroupIdentifier"
+          ></app-pokedex-tab>
         </ng-container>
-      </ng-container>
+      </div>
       <ng-template #elseBlock>
         <div class="flex w-full h-64 justify-center items-center">
           <app-spinner></app-spinner>

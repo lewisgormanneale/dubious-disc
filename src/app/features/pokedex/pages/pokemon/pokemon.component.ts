@@ -1,6 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { map, switchMap, tap, forkJoin } from 'rxjs';
+import { versions } from 'process';
+import { map, switchMap, tap, forkJoin, Subject, takeUntil } from 'rxjs';
 import { DropdownLinkSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
@@ -19,46 +20,52 @@ export class PokemonComponent implements OnInit {
   pokemonSpecies: Tables<'pokemon_species'> = {} as Tables<'pokemon_species'>;
   pokemonTypes: any;
   shiny: boolean = false;
+  female: boolean = false;
 
   pokedexGeneration: string = '';
   selectedVersionGroup: any = '';
+  versions: Tables<'versions'>[] = [];
 
   pokemonDropdownOptions: DropdownLinkSection[] = [];
   randomPokemonIdentifier: string = '';
 
   imageUrl: string = '';
   previousPokemonImageUrl: string = '';
+  previousPokemonIdentifier: string = '';
   nextPokemonImageUrl: string = '';
+  nextPokemonIdentifier: string = '';
 
   private supabase: SupabaseService = inject(SupabaseService);
   private route: ActivatedRoute = inject(ActivatedRoute);
+  private destroy$ = new Subject<void>();
 
   ngOnInit(): void {
     this.route.params
       .pipe(
         switchMap((params) => {
           const identifier = params['pokemon'];
-          this.pokedexGeneration = params['generation'];
+          this.pokedexGeneration = params['version-group'];
           return this.supabase.getPokemonSpeciesByIdentifier(identifier);
         }),
-        tap((data) => {
-          this.pokemonSpecies = data;
-          this.imageUrl = this.supabase.storage
-            .from('pokemon')
-            .getPublicUrl('home-previews/' + data.id + '.png').data.publicUrl;
+        tap((pokemonSpecies) => {
+          this.pokemonSpecies = pokemonSpecies;
         }),
-        switchMap((data) => {
-          return this.supabase.getPokemonBySpeciesId(data.id);
+        switchMap((pokemonSpecies) => {
+          return this.supabase.getPokemonBySpeciesId(pokemonSpecies.id);
         }),
-        tap((data) => {
-          this.pokemonForms = data;
-          this.selectedForm = data[0];
+        tap((pokemon) => {
+          this.pokemonForms = pokemon;
+          this.selectedForm = pokemon[0];
+          if (!this.pokemonSpecies.has_gender_differences) {
+            this.female = false;
+          }
+          this.getImageUrl();
         }),
-        switchMap((data) => {
-          return this.supabase.getPokemonTypesByPokemonId(data[0].id);
+        switchMap((pokemon) => {
+          return this.supabase.getPokemonTypesByPokemonId(pokemon[0].id);
         }),
-        tap((data) => {
-          this.pokemonTypes = data;
+        tap((pokemonTypes) => {
+          this.pokemonTypes = pokemonTypes;
         })
       )
       .subscribe(() => {
@@ -71,15 +78,7 @@ export class PokemonComponent implements OnInit {
     this.supabase.getPokemonTypesByPokemonId(form.id).subscribe((data) => {
       this.pokemonTypes = data;
     });
-    if (this.shiny) {
-      this.imageUrl = this.supabase.storage
-        .from('pokemon')
-        .getPublicUrl('home-previews/shiny/' + form.id + '.png').data.publicUrl;
-    } else {
-      this.imageUrl = this.supabase.storage
-        .from('pokemon')
-        .getPublicUrl('home-previews/' + form.id + '.png').data.publicUrl;
-    }
+    this.getImageUrl();
   }
 
   getPokemonDropdownOptions() {
@@ -87,8 +86,16 @@ export class PokemonComponent implements OnInit {
     this.supabase
       .getVersionGroupByIdentifier(this.pokedexGeneration)
       .pipe(
-        switchMap((versionGroup) => {
+        takeUntil(this.destroy$),
+        tap((versionGroup) => {
           this.selectedVersionGroup = versionGroup;
+          this.supabase
+            .getVersionsByVersionGroupId(versionGroup.id)
+            .subscribe((versions) => {
+              this.versions = versions;
+            });
+        }),
+        switchMap((versionGroup) => {
           return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);
         }),
         switchMap((pokedexes) => {
@@ -100,9 +107,39 @@ export class PokemonComponent implements OnInit {
           );
         }),
         map((pokemonArray: any) => {
-          //TODO: Set this properly
+          const combined = pokemonArray.flat();
           this.randomPokemonIdentifier =
-            pokemonArray[0][0].species_id.identifier;
+            combined[
+              Math.floor(Math.random() * combined.length)
+            ]?.species_id.identifier;
+
+          const currentPokemonIndex = combined.findIndex(
+            (pokemon: any) =>
+              pokemon.species_id.identifier === this.pokemonSpecies.identifier
+          );
+
+          const previousPokemon = combined[currentPokemonIndex - 1]?.species_id;
+
+          if (previousPokemon) {
+            this.previousPokemonIdentifier = previousPokemon.identifier;
+            this.previousPokemonImageUrl = this.supabase.storage
+              .from('pokemon')
+              .getPublicUrl(
+                'home-previews/' + previousPokemon.id + '.png'
+              ).data.publicUrl;
+          }
+
+          const nextPokemon = combined[currentPokemonIndex + 1]?.species_id;
+
+          if (nextPokemon) {
+            this.nextPokemonIdentifier = nextPokemon.identifier;
+            this.nextPokemonImageUrl = this.supabase.storage
+              .from('pokemon')
+              .getPublicUrl(
+                'home-previews/' + nextPokemon.id + '.png'
+              ).data.publicUrl;
+          }
+
           return availablePokedexes.map((pokedex: any, index: number) => {
             return {
               name: pokedex.name,
@@ -129,18 +166,28 @@ export class PokemonComponent implements OnInit {
 
   shinyToggle() {
     this.shiny = !this.shiny;
-    if (this.shiny) {
-      this.imageUrl = this.supabase.storage
-        .from('pokemon')
-        .getPublicUrl(
-          'home-previews/shiny/' + this.selectedForm.id + '.png'
-        ).data.publicUrl;
-    } else {
-      this.imageUrl = this.supabase.storage
-        .from('pokemon')
-        .getPublicUrl(
-          'home-previews/' + this.selectedForm.id + '.png'
-        ).data.publicUrl;
-    }
+    this.getImageUrl();
+  }
+
+  genderToggle() {
+    this.female = !this.female;
+    this.getImageUrl();
+  }
+
+  getImageUrl() {
+    let url = 'home-previews/';
+
+    this.shiny ? (url += 'shiny/') : null;
+    this.female ? (url += 'female/') : null;
+    url += this.selectedForm.id + '.png';
+
+    this.imageUrl = this.supabase.storage
+      .from('pokemon')
+      .getPublicUrl(url).data.publicUrl;
+  }
+
+  ngOnDestroy(): void {
+    this.destroy$.next();
+    this.destroy$.complete();
   }
 }
