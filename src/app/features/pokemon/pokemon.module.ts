@@ -3,10 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { CoreModule } from 'src/app/core/core.module';
 import { SharedModule } from 'src/app/shared/shared.module';
-import { PokedexComponent } from './pages/pokedex/pokedex.component';
-import { PokedexGridViewItemComponent } from './components/pokedex-grid-view-item/pokedex-grid-view-item.component';
-import { PokedexListViewItemComponent } from './components/pokedex-list-view-item/pokedex-list-view-item.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { PokemonComponent } from './pages/pokemon/pokemon.component';
+import { PokemonDataComponent } from './components/pokemon-data/pokemon-data.component';
+import { PokemonDescriptionsComponent } from './components/pokemon-descriptions/pokemon-descriptions.component';
+import { PokemonGenderRatioComponent } from './components/pokemon-gender-ratio/pokemon-gender-ratio.component';
+import { PokemonStatsComponent } from './components/pokemon-stats/pokemon-stats.component';
+import { PokemonFormsComponent } from './components/pokemon-forms/pokemon-forms.component';
 import { NgIconsModule } from '@ng-icons/core';
 import {
   heroChevronLeftSolid,
@@ -19,16 +22,17 @@ import {
   bootstrapGenderFemale,
   bootstrapGenderMale,
 } from '@ng-icons/bootstrap-icons';
-import { PokedexTabComponent } from './components/pokedex-tab/pokedex-tab.component';
 
-const routes = [{ path: '', component: PokedexComponent }];
+const routes = [{ path: '', component: PokemonComponent }];
 
 @NgModule({
   declarations: [
-    PokedexComponent,
-    PokedexGridViewItemComponent,
-    PokedexListViewItemComponent,
-    PokedexTabComponent,
+    PokemonComponent,
+    PokemonDataComponent,
+    PokemonFormsComponent,
+    PokemonDescriptionsComponent,
+    PokemonGenderRatioComponent,
+    PokemonStatsComponent,
   ],
   imports: [
     CommonModule,
@@ -47,4 +51,4 @@ const routes = [{ path: '', component: PokedexComponent }];
     }),
   ],
 })
-export class PokedexModule {}
+export class PokemonModule {}

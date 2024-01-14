@@ -11,9 +11,9 @@ import { RouterModule } from '@angular/router';
 import { NewsContainerComponent } from './components/news-container/news-container.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
 import { DropdownLinkComponent } from './components/dropdown-link/dropdown-link.component';
+import { PokedexSelectDropdownComponent } from './components/pokedex-select-dropdown/pokedex-select-dropdown.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { heroChevronDownSolid } from '@ng-icons/heroicons/solid';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,6 +22,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TypeBoxComponent,
     PostCardComponent,
     DropdownLinkComponent,
+    PokedexSelectDropdownComponent,
     HeaderDropdownItemComponent,
     ContainerHeaderComponent,
     NewsContainerComponent,
@@ -34,7 +35,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NgIconsModule.withIcons({
       heroChevronDownSolid,
     }),
-    BrowserAnimationsModule,
   ],
   exports: [
     DecimetersToFeetAndInchesPipe,
@@ -42,6 +42,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TypeBoxComponent,
     HeaderDropdownItemComponent,
     DropdownLinkComponent,
+    PokedexSelectDropdownComponent,
     PostCardComponent,
     ContainerHeaderComponent,
     NewsContainerComponent,
