@@ -103,7 +103,11 @@
                   <ng-icon
                     [name]="'heroSparklesSolid'"
                     [ngClass]="{ 'text-orange-300': shiny }"
+                    aria-labelledby="shiny-button-label"
                   ></ng-icon>
+                  <div class="sr-only" id="shiny-button-label">
+                    Toggle Pokémon's Shiny Sprite
+                  </div>
                 </button>
                 <button
                   *ngIf="pokemonSpecies.has_gender_differences"
@@ -113,7 +117,11 @@
                   <ng-icon
                     [name]="'bootstrapGenderFemale'"
                     [ngClass]="{ 'text-pink-400': female }"
+                    aria-labelledby="gender-button-label"
                   ></ng-icon>
+                  <div class="sr-only" id="gender-button-label">
+                    Toggle Pokémon's Gender, When It Affects Appearance
+                  </div>
                 </button>
                 <img
                   src="{{ this.imageUrl }}"
