@@ -2,30 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Righteous";
-  src: url("../assets/fonts/righteous/Righteous-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Noto Sans";
-  src: url("../assets/fonts/noto-sans/NotoSans-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Noto Sans Light";
-  src: url("../assets/fonts/noto-sans/NotoSans-Light.ttf");
-}
-
-@font-face {
-  font-family: "Noto Sans Semi-Bold";
-  src: url("../assets/fonts/noto-sans/NotoSans-SemiBold.ttf");
-}
-
-@font-face {
-  font-family: "Noto Sans Bold";
-  src: url("../assets/fonts/noto-sans/NotoSans-Bold.ttf");
-}
 html,
 body {
   box-sizing: border-box;

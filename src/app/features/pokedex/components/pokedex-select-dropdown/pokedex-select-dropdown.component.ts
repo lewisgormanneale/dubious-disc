@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, inject } from '@angular/core';
-import { Subject, concatMap, forkJoin, map, takeUntil, tap } from 'rxjs';
+import { Subject, forkJoin, takeUntil } from 'rxjs';
 import { DropdownLinkSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
@@ -13,7 +13,6 @@ export class PokedexSelectDropdownComponent implements OnChanges {
   @Input() origin: string = 'left';
 
   public sections: DropdownLinkSection[] = [];
-
   public placeholder: string = 'Select Pokedex';
 
   private supabase: SupabaseService = inject(SupabaseService);
