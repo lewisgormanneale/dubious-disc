@@ -9,7 +9,7 @@
   >
     {{ navItem.label }}
   </button>
-  <div
+  <ul
     *ngIf="navItem.sections && navItem.sections.length > 0"
     [ngClass]="{
       'visible, scale-y-100': isOpen,
@@ -18,7 +18,7 @@
     class="absolute right-0 bg-zinc-950 sm:rounded-b border-old_mauve border-[1px] mr-[1px] border-t-0 w-screen sm:w-80 overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform"
   >
     <ng-container *ngFor="let section of navItem.sections">
-      <div class="">
+      <li class="">
         <div class="text-sm font-semibold px-2 py-1 bg-old_mauve">
           {{ section.sectionTitle }}
         </div>
@@ -32,7 +32,7 @@
             </a>
           </li>
         </ul>
-      </div>
+      </li>
     </ng-container>
-  </div>
+  </ul>
 </li>
