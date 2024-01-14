@@ -31,10 +31,11 @@
     *ngIf="showDropdown"
     [@fadeInOut]
   >
-    <ng-container *ngFor="let section of sections">
+    <ng-container *ngFor="let section of sections; let i = index">
       <ng-container>
         <div
-          class="text-xs font-sans-semi-bold px-2 py-1 bg-old_mauve"
+          id="menuitem-{{ i }}-{{ section.name }}"
+          class="text-xs font-semibold px-2 py-1 bg-old_mauve"
           role="menuitem"
           tabindex="-1"
         >
@@ -42,9 +43,11 @@
         </div>
       </ng-container>
       <div class="h-0.5 bg-zinc-800" role="none"></div>
-      <ng-container *ngFor="let option of section.options">
+      <ng-container *ngFor="let option of section.options; let i = index">
         <a
+          id="menuitem-{{ i }}-{{ option.name }}"
           routerLink="{{ option.path }}"
+          role="menuitem"
           class="block px-4 py-2 font-sans text-sm hover:bg-zinc-800"
         >
           {{ option.name }}

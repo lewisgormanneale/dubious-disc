@@ -1,0 +1,43 @@
+<div class="flex flex-col rounded w-full bg-byzantium">
+  <app-container-header
+    [title]="'Pokémon Base Stats'"
+    class="text-sm"
+  ></app-container-header>
+  <table class="table-fixed w-full bg-zinc-800 rounded-b text-sm">
+    <thead class="sr-only">
+      <tr>
+        <th class="border-y-zinc-700 border-b p-2 text-left w-32 font-semibold">
+          Stat
+        </th>
+        <th class="border-y-zinc-700 border-b p-2 text-right w-12">Base</th>
+        <th class="border-y-zinc-700 border-b p-2">Progress</th>
+      </tr>
+    </thead>
+    <tr
+      *ngFor="let stat of stats; index as i"
+      [ngClass]="{ 'border-b': i !== stats.length - 1 }"
+    >
+      <td class="border-y-zinc-700 border-b p-2 text-left w-32 font-semibold">
+        {{ stat.stat_id.name }}
+      </td>
+      <td class="border-y-zinc-700 border-b p-2 text-right w-12">
+        {{ stat.base_stat }}
+      </td>
+      <td class="border-y-zinc-700 border-b p-2">
+        <div
+          class="w-full h-[20px] rounded border-zinc-700 box-border border-[1px] bg-zinc-600"
+        >
+          <div
+            class="rounded-l h-full flex justify-center items-center"
+            [ngClass]="getProgressBarClass(stat.base_stat)"
+            [ngStyle]="getProgressBarStyle(stat.base_stat)"
+          ></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-2 font-semibold text-sm text-left">Total</td>
+      <td class="p-2 font-semibold text-sm text-right">{{ total }}</td>
+    </tr>
+  </table>
+</div>

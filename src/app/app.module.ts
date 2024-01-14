@@ -1,7 +1,4 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { NgModule, isDevMode } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/layout/header/header.component';
 import { FooterComponent } from './core/layout/footer/footer.component';
@@ -12,22 +9,66 @@ import { HomeModule } from './features/home/home.module';
 import { TeamBuilderModule } from './features/team-builder/team-builder.module';
 import { NewsModule } from './features/news/news.module';
 import { GamesModule } from './features/games/games.module';
-import { NgIconComponent, provideIcons } from '@ng-icons/core';
+import { RouterModule, Routes } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ServiceWorkerModule } from '@angular/service-worker';
+
+const routes: Routes = [
+  {
+    path: '',
+    loadChildren: () =>
+      import('./features/home/home.module').then((m) => m.HomeModule),
+  },
+  {
+    path: 'pokedex/:version-group',
+    loadChildren: () =>
+      import('./features/pokedex/pokedex.module').then((m) => m.PokedexModule),
+  },
+  {
+    path: 'pokedex/:version-group/:pokemon',
+    loadChildren: () =>
+      import('./features/pokemon/pokemon.module').then((m) => m.PokemonModule),
+  },
+  {
+    path: 'games/:slug',
+    loadChildren: () =>
+      import('./features/games/games.module').then((m) => m.GamesModule),
+  },
+  {
+    path: 'news/:slug',
+    loadChildren: () =>
+      import('./features/news/news.module').then((m) => m.NewsModule),
+  },
+  {
+    path: 'team-builder',
+    loadChildren: () =>
+      import('./features/team-builder/team-builder.module').then(
+        (m) => m.TeamBuilderModule
+      ),
+  },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
+];
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
-    BrowserModule,
+    BrowserAnimationsModule,
     CoreModule,
     SharedModule,
     HeaderComponent,
     FooterComponent,
     HomeModule,
     PokedexModule,
-    AppRoutingModule,
+    RouterModule.forRoot(routes),
     TeamBuilderModule,
     NewsModule,
     GamesModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000',
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

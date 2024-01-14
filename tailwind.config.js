@@ -15,6 +15,9 @@ module.exports = {
         special_attack: "#6890eb",
         special_defense: "#75c853",
         speed: "#f6588b",
+        good_stat: "#94D710",
+        medium_stat: "#F7D343",
+        bad_stat: "#F3790F",
       },
     },
     fontFamily: {
