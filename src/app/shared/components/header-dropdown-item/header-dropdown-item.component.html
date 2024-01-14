@@ -5,7 +5,7 @@
       'bg-old_mauve': isOpen,
       'bg-byzantium': !isOpen,
     }"
-    class="flex items-center justify-center rounded-t sm:rounded-none transition h-full px-4 font-sans-semi-bold text-sm hover:bg-old_mauve"
+    class="flex items-center justify-center rounded-t sm:rounded-none transition h-full px-4 font-semibold text-sm hover:bg-old_mauve"
   >
     {{ navItem.label }}
   </button>
@@ -19,7 +19,7 @@
   >
     <ng-container *ngFor="let section of navItem.sections">
       <div class="">
-        <div class="text-sm font-sans-semi-bold px-2 py-1 bg-old_mauve">
+        <div class="text-sm font-semibold px-2 py-1 bg-old_mauve">
           {{ section.sectionTitle }}
         </div>
         <ul class="space-y-1">

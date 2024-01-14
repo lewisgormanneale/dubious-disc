@@ -8,19 +8,19 @@
   ></app-container-header>
   <ul class="w-full flex flex-col bg-zinc-800 rounded-b text-sm">
     <li class="border-y-zinc-700 border-b p-2">
-      <span class="font-sans-semi-bold">Classification:</span>
+      <span class="font-semibold">Classification:</span>
       {{ pokemon_species.genus }}
     </li>
     <li class="border-y-zinc-700 border-b p-2">
-      <span class="font-sans-semi-bold">Height:</span>
+      <span class="font-semibold">Height:</span>
       {{ pokemon.height | decimetersToFeetAndInches }}
     </li>
     <li class="border-y-zinc-700 border-b p-2">
-      <span class="font-sans-semi-bold">Weight:</span>
+      <span class="font-semibold">Weight:</span>
       {{ pokemon.weight | decimetersToPounds }}
     </li>
     <li class="p-2">
-      <p class="font-sans-semi-bold mb-1">Gender Ratio:</p>
+      <p class="font-semibold mb-2">Gender Ratio:</p>
       <app-pokemon-gender-ratio
         [rate]="pokemon_species.gender_rate"
       ></app-pokemon-gender-ratio>
