@@ -1,0 +1,77 @@
+<div
+  *ngIf="pokemonTypes && pokemonTypes.length > 0"
+  class="text-center border border-zinc-800 w-full rounded flex flex-col justify-between"
+>
+  <div class="relative h-full w-full">
+    <button
+      class="absolute top-2 left-2 flex justify-center items-center w-10 h-10 rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 cursor-pointer"
+      (click)="shinyToggle()"
+    >
+      <ng-icon
+        [name]="'heroSparklesSolid'"
+        [ngClass]="{ 'text-orange-300': shiny }"
+        aria-labelledby="shiny-button-label"
+      ></ng-icon>
+      <div class="sr-only" id="shiny-button-label">
+        Toggle Pokémon's Shiny Sprite
+      </div>
+    </button>
+    <button
+      *ngIf="pokemonSpecies.has_gender_differences"
+      class="absolute top-14 left-2 flex justify-center items-center w-10 h-10 rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 cursor-pointer"
+      (click)="genderToggle()"
+    >
+      <ng-icon
+        [name]="'bootstrapGenderFemale'"
+        [ngClass]="{ 'text-pink-400': female }"
+        aria-labelledby="gender-button-label"
+      ></ng-icon>
+      <div class="sr-only" id="gender-button-label">
+        Toggle Pokémon's Gender, When It Affects Appearance
+      </div>
+    </button>
+    <div
+      class="w-full h-full"
+      [style.background]="
+        pokemonTypes && pokemonTypes.length > 1
+          ? 'linear-gradient(to bottom right, #' +
+            pokemonTypes[0].type_id.type_color +
+            ',' +
+            '#' +
+            pokemonTypes[1].type_id.type_color +
+            ')'
+          : '#' + pokemonTypes[0].type_id.type_color
+      "
+    >
+      <img
+        src="{{ this.imageUrl }}"
+        class="w-full h-full object-contain min-w-[300px] rounded-t"
+        alt="pokemon: {{ selectedForm.name }}"
+      />
+    </div>
+  </div>
+  <div>
+    <div class="bg-byzantium border-t border-zinc-800" style="height: 50px">
+      <h2 class="p-2">
+        <!-- <span class="white-outlined text-xl"
+                      >#{{ pokemonSpecies.id }}</span
+                    > -->
+        <span class="font-bold text-xl"> {{ selectedForm.name }}</span>
+      </h2>
+    </div>
+    <div
+      class="flex justify-between items-center px-2 bg-zinc-800"
+      [ngClass]="
+        pokemonTypes.length > 1
+          ? 'justify-content-between'
+          : 'justify-content-center'
+      "
+      style="height: 50px"
+    >
+      <app-type-box
+        *ngFor="let type of pokemonTypes"
+        [type]="type.type_id"
+      ></app-type-box>
+    </div>
+  </div>
+</div>

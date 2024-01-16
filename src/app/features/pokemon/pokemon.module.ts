@@ -7,9 +7,10 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { PokemonComponent } from './pages/pokemon/pokemon.component';
 import { PokemonDataComponent } from './components/pokemon-data/pokemon-data.component';
 import { PokemonDescriptionsComponent } from './components/pokemon-descriptions/pokemon-descriptions.component';
-import { PokemonGenderRatioComponent } from './components/pokemon-gender-ratio/pokemon-gender-ratio.component';
-import { PokemonStatsComponent } from './components/pokemon-stats/pokemon-stats.component';
 import { PokemonFormsComponent } from './components/pokemon-forms/pokemon-forms.component';
+import { PokemonGenderRatioComponent } from './components/pokemon-gender-ratio/pokemon-gender-ratio.component';
+import { PokemonNavigationComponent } from './components/pokemon-navigation/pokemon-navigation.component';
+import { PokemonStatsComponent } from './components/pokemon-stats/pokemon-stats.component';
 import { NgIconsModule } from '@ng-icons/core';
 import {
   heroChevronLeftSolid,
@@ -22,6 +23,7 @@ import {
   bootstrapGenderFemale,
   bootstrapGenderMale,
 } from '@ng-icons/bootstrap-icons';
+import { PokemonSummaryComponent } from './components/pokemon-summary/pokemon-summary.component';
 
 const routes = [{ path: '', component: PokemonComponent }];
 
@@ -29,10 +31,12 @@ const routes = [{ path: '', component: PokemonComponent }];
   declarations: [
     PokemonComponent,
     PokemonDataComponent,
-    PokemonFormsComponent,
     PokemonDescriptionsComponent,
+    PokemonFormsComponent,
     PokemonGenderRatioComponent,
+    PokemonNavigationComponent,
     PokemonStatsComponent,
+    PokemonSummaryComponent,
   ],
   imports: [
     CommonModule,
