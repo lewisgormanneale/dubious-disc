@@ -24,6 +24,7 @@ import {
   bootstrapGenderMale,
 } from '@ng-icons/bootstrap-icons';
 import { PokemonSummaryComponent } from './components/pokemon-summary/pokemon-summary.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 const routes = [{ path: '', component: PokemonComponent }];
 
@@ -53,6 +54,7 @@ const routes = [{ path: '', component: PokemonComponent }];
       bootstrapGenderMale,
       heroSparklesSolid,
     }),
+    CarouselModule,
   ],
 })
 export class PokemonModule {}

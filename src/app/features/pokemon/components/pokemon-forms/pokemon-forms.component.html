@@ -1,19 +1,18 @@
-<div
-  class="flex flex-wrap items-center gap-2 rounded-b-sm w-full p-3 border-y border-zinc-700"
->
-  <div
-    *ngFor="let pokemonForm of pokemonForms"
-    class="flex flex-col items-center p-2 cursor-pointer rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700"
-    (click)="selectForm(pokemonForm)"
-  >
-    <img
-      [src]="getFormImage(pokemonForm.id)"
-      height="100"
-      width="100"
-      class="object-contain rounded-t"
-    />
-    <span class="text-center text-xs text-clip py-2">{{
-      pokemonForm.form_name ? pokemonForm.form_name : pokemonForm.name
-    }}</span>
-  </div>
-</div>
+<owl-carousel-o [options]="customOptions">
+  <ng-template *ngFor="let pokemonForm of pokemonForms" carouselSlide>
+    <div
+      class="flex flex-col gap-1 items-center p-2 cursor-pointer rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700"
+      (click)="selectForm(pokemonForm)"
+    >
+      <img
+        [src]="getFormImage(pokemonForm.id)"
+        height="50"
+        width="50"
+        class="object-contain rounded-t"
+      />
+      <span class="text-center text-xs text-clip">{{
+        pokemonForm.form_name ? pokemonForm.form_name : pokemonForm.name
+      }}</span>
+    </div>
+  </ng-template>
+</owl-carousel-o>
