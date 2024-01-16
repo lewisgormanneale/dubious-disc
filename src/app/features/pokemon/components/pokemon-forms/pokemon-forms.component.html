@@ -4,7 +4,10 @@
     class="text-sm"
   ></app-container-header>
   <div class="flex bg-zinc-800 w-full">
-    <button class="w-1/12 bg-zinc-900" (click)="owlCarousel.prev()">
+    <button
+      class="w-1/12 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 rounded-bl"
+      (click)="owlCarousel.prev()"
+    >
       <ng-icon [name]="'heroChevronLeftSolid'"></ng-icon>
     </button>
     <owl-carousel-o [options]="customOptions" class="w-10/12 py-2" #owlCarousel>
@@ -24,7 +27,10 @@
         </div>
       </ng-template>
     </owl-carousel-o>
-    <button class="w-1/12 bg-zinc-900" (click)="owlCarousel.next()">
+    <button
+      class="w-1/12 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 rounded-br"
+      (click)="owlCarousel.next()"
+    >
       <ng-icon [name]="'heroChevronRightSolid'"></ng-icon>
     </button>
   </div>
