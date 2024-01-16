@@ -1,19 +1,15 @@
-<div
-  class="flex flex-col rounded bg-byzantium w-full"
-  *ngIf="descriptions.length > 0 && versions"
->
+<div class="flex flex-col rounded bg-byzantium w-full">
   <app-container-header
     [title]="'Pokédex Descriptions'"
     class="text-sm"
   ></app-container-header>
   <div class="flex flex-col text-center rounded bg-zinc-800">
-    <ul class="w-full flex flex-col">
+    <ul
+      *ngIf="descriptions.length > 0 && versions; else noDescriptions"
+      class="w-full flex flex-col"
+    >
       <li
-        *ngFor="
-          let description of showMore
-            ? descriptions
-            : (descriptions | slice : 0 : 3)
-        "
+        *ngFor="let description of descriptions"
         class="flex gap-2 text-start text-sm border-y-zinc-700 border-b border-zinc-700 px-2 py-3"
         [ngClass]="descriptions.length <= 3 ? 'rounded-b' : ''"
       >
@@ -27,11 +23,12 @@
         </span>
       </li>
     </ul>
-    <a
-      class="flex justify-center text-sm items-center py-2 px-4 transition rounded-b-sm cursor-pointer bg-old_mauve"
-      *ngIf="descriptions.length > 3"
-      (click)="toggleShowMore()"
-      >{{ showMore ? "Show Less" : "Show More" }}
-    </a>
+    <ng-template #noDescriptions>
+      <div class="flex flex-col items-center justify-center w-full h-full">
+        <span class="text-sm text-center">
+          No descriptions available for this Pokémon
+        </span>
+      </div>
+    </ng-template>
   </div>
 </div>
