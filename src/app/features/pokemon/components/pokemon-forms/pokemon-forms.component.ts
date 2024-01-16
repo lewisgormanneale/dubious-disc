@@ -17,28 +17,10 @@ export class PokemonFormsComponent {
     touchDrag: true,
     pullDrag: true,
     dots: true,
+    loop: false,
     slideBy: 'page',
-    nav: true,
-    margin: 10,
-    navSpeed: 100,
-    navText: ['<<', '>>'],
-    responsive: {
-      0: {
-        items: 2,
-      },
-      320: {
-        items: 4,
-      },
-      400: {
-        items: 5,
-      },
-      740: {
-        items: 6,
-      },
-      940: {
-        items: 8,
-      },
-    },
+    nav: false,
+    margin: 5,
   };
 
   private supabase: SupabaseService = inject(SupabaseService);
