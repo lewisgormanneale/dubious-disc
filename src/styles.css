@@ -19,12 +19,3 @@ body {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-
-.owl-theme .owl-dots .owl-dot span {
-  background: #e4e4e7 !important;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #702f63 !important;
-}
