@@ -3,35 +3,21 @@
     [title]="'Pokémon Forms'"
     class="text-sm"
   ></app-container-header>
-  <div class="flex bg-zinc-800 w-full">
-    <button
-      class="w-1/12 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 rounded-bl"
-      (click)="owlCarousel.prev()"
-    >
-      <ng-icon [name]="'heroChevronLeftSolid'"></ng-icon>
-    </button>
-    <owl-carousel-o [options]="customOptions" class="w-10/12 py-2" #owlCarousel>
-      <ng-template
-        *ngFor="let pokemonForm of pokemonForms"
-        [width]="25"
-        carouselSlide
+  <owl-carousel-o
+    [options]="customOptions"
+    class="w-full py-2 bg-zinc-800 rounded-b"
+    #owlCarousel
+  >
+    <ng-template *ngFor="let pokemonForm of pokemonForms" carouselSlide>
+      <div
+        class="flex flex-col justify-center items-center h-36 w-32 ml-2 gap-1 cursor-pointer rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700"
+        (click)="selectForm(pokemonForm)"
       >
-        <div
-          class="flex flex-col justify-center items-center h-32 ml-2 gap-1 cursor-pointer rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700"
-          (click)="selectForm(pokemonForm)"
-        >
-          <img [src]="getFormImage(pokemonForm.id)" class="object-contain" />
-          <span class="text-center text-xs text-clip">{{
-            pokemonForm.form_name ? pokemonForm.form_name : pokemonForm.name
-          }}</span>
-        </div>
-      </ng-template>
-    </owl-carousel-o>
-    <button
-      class="w-1/12 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 rounded-br"
-      (click)="owlCarousel.next()"
-    >
-      <ng-icon [name]="'heroChevronRightSolid'"></ng-icon>
-    </button>
-  </div>
+        <img [src]="getFormImage(pokemonForm.id)" class="object-contain h-24" />
+        <span class="text-center text-xs text-clip">{{
+          pokemonForm.form_name ? pokemonForm.form_name : pokemonForm.name
+        }}</span>
+      </div>
+    </ng-template>
+  </owl-carousel-o>
 </div>

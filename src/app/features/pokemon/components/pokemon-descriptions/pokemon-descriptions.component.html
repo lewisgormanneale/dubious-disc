@@ -3,32 +3,36 @@
     [title]="'Pokédex Descriptions'"
     class="text-sm"
   ></app-container-header>
-  <div class="flex flex-col text-center rounded bg-zinc-800">
-    <ul
-      *ngIf="descriptions.length > 0 && versions; else noDescriptions"
-      class="w-full flex flex-col"
+  <table
+    *ngIf="descriptions.length > 0 && versions; else noDescriptions"
+    class="table-auto w-full bg-zinc-800 rounded-b text-sm"
+  >
+    <thead class="sr-only">
+      <tr>
+        <th>Game</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tr
+      *ngFor="let description of descriptions; let i = index"
+      [ngClass]="{ 'border-b': i !== descriptions.length - 1 }"
     >
-      <li
-        *ngFor="let description of descriptions"
-        class="flex gap-2 text-start text-sm border-y-zinc-700 border-b border-zinc-700 px-2 py-3"
-        [ngClass]="descriptions.length <= 3 ? 'rounded-b' : ''"
-      >
-        <div>
-          <span class="font-bold text-sm text-center">
-            {{ getVersionName(description.version_id) }}
-          </span>
-        </div>
-        <span>
-          {{ description.flavor_text }}
-        </span>
-      </li>
-    </ul>
-    <ng-template #noDescriptions>
-      <div class="flex flex-col items-center justify-center w-full h-full">
-        <span class="text-sm text-center">
-          No descriptions available for this Pokémon
-        </span>
-      </div>
-    </ng-template>
-  </div>
+      <td class="border-y-zinc-700 border-b p-2 text-left w-2/8 font-semibold">
+        {{ getVersionName(description.version_id) }}
+      </td>
+      <td class="border-y-zinc-700 border-b p-2 text-left">
+        {{ description.flavor_text }}
+      </td>
+    </tr>
+  </table>
+  <ng-template #noDescriptions>
+    <div
+      class="flex flex-col bg-zinc-800 items-center justify-center w-full h-full p-4 rounded-b"
+    >
+      <span class="text-sm text-center">
+        No Pokédex descriptions are available for this Pokémon for any Pokédex
+        in this version group.
+      </span>
+    </div>
+  </ng-template>
 </div>

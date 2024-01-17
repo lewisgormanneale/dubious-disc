@@ -1,6 +1,6 @@
 <div
   *ngIf="pokemonTypes && pokemonTypes.length > 0"
-  class="text-center border border-zinc-800 w-full rounded flex flex-col justify-between"
+  class="text-center border border-zinc-800 h-full w-full rounded flex flex-col justify-between"
 >
   <div class="relative h-full w-full">
     <button
@@ -31,7 +31,7 @@
       </div>
     </button>
     <div
-      class="w-full h-full"
+      class="w-full h-full flex justify-center items-center"
       [style.background]="
         pokemonTypes && pokemonTypes.length > 1
           ? 'linear-gradient(to bottom right, #' +
@@ -45,7 +45,7 @@
     >
       <img
         src="{{ this.imageUrl }}"
-        class="w-full h-full object-contain min-w-[300px] rounded-t"
+        class="w-full h-full object-contain min-w-[300px] max-w-[390px] rounded-t"
         alt="pokemon: {{ selectedForm.name }}"
       />
     </div>

@@ -10,43 +10,42 @@
             (versions)="handleVersions($event)"
             class="w-full"
           ></app-pokemon-navigation>
-          <section
-            class="flex flex-col md:flex-row items-center md:items-start gap-3 w-full"
-          >
-            <app-pokemon-summary
-              [selectedForm]="selectedForm"
-              [pokemonSpecies]="pokemonSpecies"
-              class="h-full w-full"
-            >
-            </app-pokemon-summary>
-            <div
-              class="flex flex-col justify-between w-full md:w-1/2 gap-3 rounded"
-              *ngIf="selectedForm.id"
-            >
+          <div class="flex flex-col gap-3 w-full">
+            <section class="flex flex-col sm:flex-row gap-3 w-full">
+              <app-pokemon-summary
+                [selectedForm]="selectedForm"
+                [pokemonSpecies]="pokemonSpecies"
+                class="h-full w-full sm:w-1/2"
+              >
+              </app-pokemon-summary>
+              <app-pokemon-data
+                [pokemon]="selectedForm"
+                [pokemon_species]="pokemonSpecies"
+                class="h-full w-full sm:w-1/2"
+              ></app-pokemon-data>
+            </section>
+            <section class="w-full">
               <app-pokemon-forms
                 *ngIf="pokemonForms.length > 1"
                 (newSelectedForm)="handleNewSelectedForm($event)"
                 [pokemonForms]="pokemonForms"
                 [selectedForm]="selectedForm"
               ></app-pokemon-forms>
-              <app-pokemon-data
-                [pokemon]="selectedForm"
-                [pokemon_species]="pokemonSpecies"
-              ></app-pokemon-data>
-            </div>
-          </section>
-          <section class="w-full my-3 flex flex-col items-center gap-3">
-            <app-pokemon-stats
-              *ngIf="selectedForm.id"
-              [pokemon_id]="selectedForm.id"
-            ></app-pokemon-stats>
-            <app-pokemon-descriptions
-              *ngIf="pokemonSpecies.id && versions.length > 0"
-              class="w-full"
-              [pokemon_species_id]="pokemonSpecies.id"
-              [versions]="versions"
-            ></app-pokemon-descriptions>
-          </section>
+            </section>
+            <section class="flex flex-col sm:flex-row gap-3 w-full">
+              <app-pokemon-stats
+                *ngIf="selectedForm.id"
+                [pokemon_id]="selectedForm.id"
+                class="h-full w-full sm:w-1/2"
+              ></app-pokemon-stats>
+              <app-pokemon-descriptions
+                *ngIf="pokemonSpecies.id"
+                [pokemon_species_id]="pokemonSpecies.id"
+                [versions]="versions"
+                class="h-full w-full sm:w-1/2"
+              ></app-pokemon-descriptions>
+            </section>
+          </div>
         </div>
       </div>
     </ng-container>

@@ -12,6 +12,22 @@
       {{ pokemon_species.genus }}
     </li>
     <li class="border-y-zinc-700 border-b p-2">
+      <span class="font-semibold">Abilities:</span>
+      <ul class="ml-5">
+        <li>National: #{{ pokemon_species.id }}</li>
+        <li>Local 1: #{{ pokemon_species.id }}</li>
+        <li>Local 2: #{{ pokemon_species.id }}</li>
+      </ul>
+    </li>
+    <li class="border-y-zinc-700 border-b p-2">
+      <span class="font-semibold">Pokédex №:</span>
+      <ul class="ml-5">
+        <li>National: #{{ pokemon_species.id }}</li>
+        <li>Local 1: #{{ pokemon_species.id }}</li>
+        <li>Local 2: #{{ pokemon_species.id }}</li>
+      </ul>
+    </li>
+    <li class="border-y-zinc-700 border-b p-2">
       <span class="font-semibold">Height:</span>
       {{ pokemon.height | decimetersToFeetAndInches }}
     </li>

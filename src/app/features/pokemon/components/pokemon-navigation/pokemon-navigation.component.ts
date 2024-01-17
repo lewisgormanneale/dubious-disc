@@ -5,7 +5,6 @@ import {
   Input,
   OnChanges,
   Output,
-  SimpleChanges,
 } from '@angular/core';
 import { takeUntil, tap, switchMap, forkJoin, map, Subject } from 'rxjs';
 import { DropdownLinkSection, Tables } from 'src/app/core/models';
