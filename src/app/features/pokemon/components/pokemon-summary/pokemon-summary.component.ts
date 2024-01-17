@@ -49,6 +49,23 @@ export class PokemonSummaryComponent implements OnChanges {
       .getPublicUrl(url).data.publicUrl;
   }
 
+  getTypeBackgroundColor() {
+    if (this.pokemonTypes && this.pokemonTypes.length > 1) {
+      return (
+        'linear-gradient(to bottom right, #' +
+        this.pokemonTypes[0].type_id.type_color +
+        ',' +
+        '#' +
+        this.pokemonTypes[1].type_id.type_color +
+        ')'
+      );
+    } else if (this.pokemonTypes && this.pokemonTypes.length == 1) {
+      return '#' + this.pokemonTypes[0].type_id.type_color;
+    } else {
+      return 'linear-gradient(to bottom right, #27272a, #27272a)';
+    }
+  }
+
   shinyToggle() {
     this.shiny = !this.shiny;
     this.getImageUrl();

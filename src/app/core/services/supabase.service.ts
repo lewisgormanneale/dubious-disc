@@ -64,6 +64,22 @@ export class SupabaseService {
     return from(request).pipe(map((response) => response.data || []));
   }
 
+  // Pokémon Abilities
+
+  getPokemonAbilitiesByPokemonId(id: number): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_abilities')
+      .select(
+        'pokemon_id, ability_id (id, identifier, name, generation_id, short_effect), is_hidden, slot'
+      )
+      .eq('pokemon_id', id)
+      .order('slot', { ascending: true });
+
+    console.log(request);
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
   // Pokémon Dex Numbers
 
   getPokemonDexNumbersBySpeciesId(

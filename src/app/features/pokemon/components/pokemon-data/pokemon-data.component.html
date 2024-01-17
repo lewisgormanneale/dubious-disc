@@ -21,7 +21,16 @@
     </tr>
     <tr class="border-b border-y-zinc-700">
       <td class="w-1/4 p-2 font-semibold">Abilities:</td>
-      <td class="p-2">TO-DO</td>
+      <td class="p-2">
+        <ul>
+          <li
+            *ngFor="let pokemonAbility of pokemonAbilities"
+            [ngClass]="pokemonAbility.is_hidden ? 'italic' : ''"
+          >
+            {{ pokemonAbility.ability_id.name }}
+          </li>
+        </ul>
+      </td>
     </tr>
     <tr class="border-b border-y-zinc-700">
       <td class="w-1/4 p-2 font-semibold">Pokédex №:</td>
