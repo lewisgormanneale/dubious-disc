@@ -3,30 +3,26 @@
     [title]="'Pokémon Base Stats'"
     class="text-sm"
   ></app-container-header>
-  <table class="table-fixed w-full bg-zinc-800 rounded-b text-sm">
+  <table class="table-auto w-full bg-zinc-800 rounded-b text-sm">
     <thead class="sr-only">
       <tr>
-        <th class="border-y-zinc-700 border-b p-2 text-left w-32 font-semibold">
-          Stat
-        </th>
-        <th class="border-y-zinc-700 border-b p-2 text-right w-12">Base</th>
-        <th class="border-y-zinc-700 border-b p-2">Progress</th>
+        <th>Stat</th>
+        <th>Base</th>
+        <th>Progress</th>
       </tr>
     </thead>
     <tr
       *ngFor="let stat of stats; index as i"
-      [ngClass]="{ 'border-b': i !== stats.length - 1 }"
+      class="border-b border-y-zinc-700"
     >
-      <td class="border-y-zinc-700 border-b p-2 text-left w-32 font-semibold">
+      <td class="p-2 pr-0 w-2/4 font-semibold">
         {{ stat.stat_id.name }}
       </td>
-      <td class="border-y-zinc-700 border-b p-2 text-right w-12">
+      <td class="p-2 text-right w-1/4">
         {{ stat.base_stat }}
       </td>
-      <td class="border-y-zinc-700 border-b p-2">
-        <div
-          class="w-full h-[20px] rounded border-zinc-700 box-border border-[1px] bg-zinc-600"
-        >
+      <td class="p-2">
+        <div class="w-full h-5 rounded bg-zinc-600">
           <div
             class="rounded-l h-full flex justify-center items-center"
             [ngClass]="getProgressBarClass(stat.base_stat)"

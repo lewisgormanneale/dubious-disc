@@ -1,203 +1,59 @@
 <div class="flex flex-col items-center p-4">
-  <div class="max-w-screen-xl bg-zinc-950 rounded p-4">
+  <div class="max-w-screen-lg bg-zinc-950 rounded p-4 w-full min-h-[500px]">
     <ng-container *ngIf="pokemonSpecies && pokemonForms; else loading">
-      <div class="flex flex-col items-center">
-        <div class="flex flex-col items-center" style="max-width: 900px">
-          <section class="w-full flex justify-between items-center mb-2">
-            <div
-              class="flex flex-col-reverse gap-2 sm:flex-row sm:items-center"
-            >
-              <a
-                *ngIf="previousPokemonIdentifier && previousPokemonImageUrl"
-                [routerLink]="[
-                  '/pokedex/' +
-                    pokedexGeneration +
-                    '/' +
-                    previousPokemonIdentifier
-                ]"
-                attr.aria-label="Go To Previous Pokémon In Pokédex: {{
-                  previousPokemonIdentifier
-                }}"
-                class="flex justify-evenly items-center h-10 w-16 rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 cursor-pointer"
+      <div class="flex flex-col items-center w-full">
+        <div class="flex flex-col items-center w-full">
+          <app-pokemon-navigation
+            [pokedexGeneration]="versionGroupIdentifier"
+            [pokemonSpecies]="pokemonSpecies"
+            (selectedVersionGroup)="handleSelectedVersionGroup($event)"
+            (versions)="handleVersions($event)"
+            class="w-full"
+          ></app-pokemon-navigation>
+          <div class="flex flex-col gap-3 w-full">
+            <section class="flex flex-col sm:flex-row gap-3 w-full">
+              <app-pokemon-summary
+                [selectedForm]="selectedForm"
+                [pokemonSpecies]="pokemonSpecies"
+                class="h-full w-full sm:w-1/2"
               >
-                <ng-icon [name]="'heroChevronLeftSolid'"></ng-icon>
-                <img
-                  class="transition-all duration-300 ease-in-out"
-                  [defaultImage]="'assets/images/question-icon.png'"
-                  [lazyLoad]="previousPokemonImageUrl"
-                  height="20"
-                  width="20"
-                  alt=""
-                />
-              </a>
-              <a
-                class="flex justify-center items-center w-10 h-10 rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 cursor-pointer"
-                [routerLink]="['/pokedex/' + pokedexGeneration]"
-                attr.aria-label="Go To Pokédex: {{ pokedexGeneration }}"
-                ><ng-icon [name]="'heroSwatchSolid'"></ng-icon
-              ></a>
-            </div>
-            <div
-              class="flex flex-col sm:flex-row items-center gap-3"
-              *ngIf="this.pokemonSpecies.id"
-            >
-              <app-pokedex-select-dropdown
-                [selectedPokemonSpecies]="this.pokemonSpecies"
-                [currentVersionGroupName]="this.selectedVersionGroup.name"
-                [origin]="'right'"
-              ></app-pokedex-select-dropdown>
-              <app-dropdown-link
-                [placeholder]="this.pokemonSpecies.name ?? 'Select Pokémon'"
-                [sections]="pokemonDropdownOptions"
-                [origin]="'left'"
-              ></app-dropdown-link>
-            </div>
-            <div
-              class="flex flex-col gap-2 sm:flex-row sm:items-center items-end"
-            >
-              <a
-                class="flex justify-center items-center w-10 h-10 rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 cursor-pointer"
-                [routerLink]="[
-                  '/pokedex/' +
-                    pokedexGeneration +
-                    '/' +
-                    randomPokemonIdentifier
-                ]"
-                aria-label="Go To A Random Pokémon In The Pokédex"
-                ><ng-icon [name]="'bootstrapDice6Fill'"></ng-icon
-              ></a>
-              <a
-                *ngIf="nextPokemonIdentifier && nextPokemonImageUrl"
-                [routerLink]="[
-                  '/pokedex/' + pokedexGeneration + '/' + nextPokemonIdentifier
-                ]"
-                attr.aria-label="Go To Next Pokémon In Pokédex: {{
-                  nextPokemonIdentifier
-                }}"
-                class="flex justify-evenly items-center h-10 w-16 rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 cursor-pointer"
-              >
-                <img
-                  class="transition-all duration-300 ease-in-out"
-                  [defaultImage]="'assets/images/question-icon.png'"
-                  [lazyLoad]="nextPokemonImageUrl"
-                  height="20"
-                  width="20"
-                  alt=""
-                />
-                <ng-icon [name]="'heroChevronRightSolid'"></ng-icon>
-              </a>
-            </div>
-          </section>
-          <section
-            *ngIf="pokemonTypes && pokemonTypes.length > 0"
-            class="flex flex-col md:flex-row items-center md:items-start gap-3 w-full"
-          >
-            <div
-              class="text-center border border-zinc-800 w-full rounded flex flex-col justify-between"
-            >
-              <div class="relative h-full w-full">
-                <button
-                  class="absolute top-2 left-2 flex justify-center items-center w-10 h-10 rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 cursor-pointer"
-                  (click)="shinyToggle()"
-                >
-                  <ng-icon
-                    [name]="'heroSparklesSolid'"
-                    [ngClass]="{ 'text-orange-300': shiny }"
-                    aria-labelledby="shiny-button-label"
-                  ></ng-icon>
-                  <div class="sr-only" id="shiny-button-label">
-                    Toggle Pokémon's Shiny Sprite
-                  </div>
-                </button>
-                <button
-                  *ngIf="pokemonSpecies.has_gender_differences"
-                  class="absolute top-14 left-2 flex justify-center items-center w-10 h-10 rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 cursor-pointer"
-                  (click)="genderToggle()"
-                >
-                  <ng-icon
-                    [name]="'bootstrapGenderFemale'"
-                    [ngClass]="{ 'text-pink-400': female }"
-                    aria-labelledby="gender-button-label"
-                  ></ng-icon>
-                  <div class="sr-only" id="gender-button-label">
-                    Toggle Pokémon's Gender, When It Affects Appearance
-                  </div>
-                </button>
-                <img
-                  src="{{ this.imageUrl }}"
-                  class="w-full h-full object-contain min-w-[300px] rounded-t"
-                  alt="pokemon: {{ pokemonSpecies.name }}"
-                  [style.background]="
-                    pokemonTypes && pokemonTypes.length > 1
-                      ? 'linear-gradient(to bottom right, #' +
-                        pokemonTypes[0].type_id.type_color +
-                        ',' +
-                        '#' +
-                        pokemonTypes[1].type_id.type_color +
-                        ')'
-                      : '#' + pokemonTypes[0].type_id.type_color
-                  "
-                />
-              </div>
-              <div>
-                <div
-                  class="bg-byzantium border-t border-zinc-800"
-                  style="height: 50px"
-                >
-                  <h2 class="p-2">
-                    <!-- <span class="white-outlined text-xl"
-                      >#{{ pokemonSpecies.id }}</span
-                    > -->
-                    <span class="font-bold text-xl">
-                      {{ selectedForm.name }}</span
-                    >
-                  </h2>
-                </div>
-                <div
-                  class="flex justify-between items-center px-2 bg-zinc-800"
-                  [ngClass]="
-                    pokemonTypes.length > 1
-                      ? 'justify-content-between'
-                      : 'justify-content-center'
-                  "
-                  style="height: 50px"
-                >
-                  <app-type-box
-                    *ngFor="let type of pokemonTypes"
-                    [type]="type.type_id"
-                  ></app-type-box>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex flex-col justify-between w-full gap-3 rounded"
-              *ngIf="selectedForm.id"
-            >
+              </app-pokemon-summary>
               <app-pokemon-data
                 [pokemon]="selectedForm"
                 [pokemon_species]="pokemonSpecies"
+                class="h-full w-full sm:w-1/2"
               ></app-pokemon-data>
+            </section>
+            <section class="w-full">
+              <app-pokemon-forms
+                *ngIf="pokemonForms.length > 1"
+                (newSelectedForm)="handleNewSelectedForm($event)"
+                [pokemonForms]="pokemonForms"
+                [selectedForm]="selectedForm"
+              ></app-pokemon-forms>
+            </section>
+            <section class="flex flex-col sm:flex-row gap-3 w-full">
               <app-pokemon-stats
-                [pokemon_id]="selectedForm.id"
+                *ngIf="selectedForm.id"
+                [pokemonId]="selectedForm.id"
+                class="h-full w-full sm:w-1/2"
               ></app-pokemon-stats>
-            </div>
-          </section>
-          <section class="w-full my-3" *ngIf="pokemonForms.length > 1">
-            <app-pokemon-forms
-              (newSelectedForm)="handleNewSelectedForm($event)"
-              [pokemonForms]="pokemonForms"
-              [selectedForm]="selectedForm"
-            ></app-pokemon-forms>
-          </section>
-          <section
-            class="w-full my-3"
-            *ngIf="pokemonSpecies.id && versions.length > 0"
-          >
-            <app-pokemon-descriptions
-              [pokemon_species_id]="pokemonSpecies.id"
-              [versions]="versions"
-            ></app-pokemon-descriptions>
-          </section>
+              <app-pokemon-descriptions
+                *ngIf="pokemonSpecies.id"
+                [pokemonSpeciesId]="pokemonSpecies.id"
+                [versions]="versions"
+                class="h-full w-full sm:w-1/2"
+              ></app-pokemon-descriptions>
+            </section>
+            <section class="flex flex-col gap-3 w-full">
+              <app-pokemon-moves
+                *ngIf="selectedForm.id"
+                [pokemonId]="selectedForm.id"
+                [versionGroupId]="selectedVersionGroup.id"
+                class="h-full w-full"
+              ></app-pokemon-moves>
+            </section>
+          </div>
         </div>
       </div>
     </ng-container>

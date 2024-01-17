@@ -29,7 +29,7 @@
               "src/_redirects",
               "src/manifest.webmanifest"
             ],
-            "styles": ["src/styles/styles.css"],
+            "styles": ["src/styles.css"],
             "scripts": [],
             "allowedCommonJsDependencies": [
               "@sanity/image-url",
@@ -79,10 +79,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "dubious-disc:build:production"
+              "buildTarget": "dubious-disc:build:production"
             },
             "development": {
-              "browserTarget": "dubious-disc:build:development"
+              "buildTarget": "dubious-disc:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -90,7 +90,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "dubious-disc:build"
+            "buildTarget": "dubious-disc:build"
           }
         },
         "test": {

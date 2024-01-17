@@ -1,0 +1,30 @@
+<div class="flex flex-col rounded w-full bg-byzantium">
+  <app-container-header
+    [title]="'Learnable Moves'"
+    class="text-sm"
+  ></app-container-header>
+  <div *ngIf="moveGroups.length > 0">
+    <ul class="flex text-xs text-center overflow-x-scroll pt-2 bg-zinc-900">
+      <li class="me-2" *ngFor="let moveGroup of moveGroups">
+        <button
+          (click)="selectedMoveGroup = moveGroup"
+          class="inline-block whitespace-nowrap p-4 rounded-t hover:bg-zinc-800"
+          [ngClass]="{
+            'bg-zinc-800 cursor-default': selectedMoveGroup === moveGroup,
+            'bg-zinc-900': selectedMoveGroup !== moveGroup
+          }"
+          aria-current="page"
+        >
+          <span>{{ moveGroup[0].pokemon_move_method_id.name }}</span>
+        </button>
+      </li>
+    </ul>
+    <ng-container *ngFor="let moveGroup of moveGroups">
+      <app-pokemon-move-table
+        *ngIf="moveGroup === selectedMoveGroup"
+        [moveGroup]="moveGroup"
+      >
+      </app-pokemon-move-table>
+    </ng-container>
+  </div>
+</div>

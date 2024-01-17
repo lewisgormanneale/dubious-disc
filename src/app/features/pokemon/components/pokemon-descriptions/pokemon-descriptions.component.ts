@@ -8,9 +8,8 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   templateUrl: './pokemon-descriptions.component.html',
 })
 export class PokemonDescriptionsComponent implements OnChanges {
-  @Input() pokemon_species_id: number = 0;
+  @Input() pokemonSpeciesId: number = 0;
   @Input() versions: Tables<'versions'>[] = [];
-  showMore = false;
 
   descriptions: Tables<'pokemon_species_flavor_text'>[] = [];
 
@@ -22,17 +21,13 @@ export class PokemonDescriptionsComponent implements OnChanges {
 
     this.supabase
       .getPokemonSpeciesFlavorTextWithVersionIdBySpeciesId(
-        this.pokemon_species_id,
+        this.pokemonSpeciesId,
         versionIds
       )
       .pipe(takeUntil(this.destroy$))
       .subscribe((descriptions) => {
         this.descriptions = descriptions;
       });
-  }
-
-  toggleShowMore() {
-    this.showMore = !this.showMore;
   }
 
   getVersionName(versionId: number): string {

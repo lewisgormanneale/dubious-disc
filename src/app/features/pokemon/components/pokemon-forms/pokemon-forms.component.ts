@@ -1,11 +1,5 @@
-import {
-  Component,
-  EventEmitter,
-  inject,
-  Input,
-  OnInit,
-  Output,
-} from '@angular/core';
+import { Component, EventEmitter, inject, Input, Output } from '@angular/core';
+import { OwlOptions } from 'ngx-owl-carousel-o';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
