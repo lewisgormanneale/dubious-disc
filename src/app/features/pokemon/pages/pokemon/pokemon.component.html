@@ -6,7 +6,7 @@
           <app-pokemon-navigation
             [pokedexGeneration]="versionGroupIdentifier"
             [pokemonSpecies]="pokemonSpecies"
-            [selectedVersionGroup]="selectedVersionGroup"
+            (selectedVersionGroup)="handleSelectedVersionGroup($event)"
             (versions)="handleVersions($event)"
             class="w-full"
           ></app-pokemon-navigation>
@@ -49,6 +49,7 @@
               <app-pokemon-moves
                 *ngIf="selectedForm.id"
                 [pokemonId]="selectedForm.id"
+                [versionGroupId]="selectedVersionGroup.id"
                 class="h-full w-full"
               ></app-pokemon-moves>
             </section>

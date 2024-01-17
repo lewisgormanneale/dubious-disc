@@ -57,6 +57,10 @@ export class PokemonComponent implements OnInit {
     this.versions = versions;
   }
 
+  handleSelectedVersionGroup(versionGroup: any) {
+    this.selectedVersionGroup = versionGroup;
+  }
+
   ngOnDestroy(): void {
     this.destroy$.next();
     this.destroy$.complete();

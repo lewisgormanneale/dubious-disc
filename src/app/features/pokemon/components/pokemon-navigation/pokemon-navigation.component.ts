@@ -18,10 +18,11 @@ export class PokemonNavigationComponent implements OnChanges {
   @Input() pokedexGeneration = '';
   @Input() pokemonSpecies: Tables<'pokemon_species'> =
     {} as Tables<'pokemon_species'>;
-  @Input() selectedVersionGroup: any = '';
 
+  @Output() selectedVersionGroup = new EventEmitter<any>();
   @Output() versions = new EventEmitter<any>();
 
+  selectedVersionGroupName: string = '';
   pokemonDropdownOptions: DropdownLinkSection[] = [];
   randomPokemonIdentifier: string = '';
   previousPokemonImageUrl: string = '';
@@ -42,7 +43,8 @@ export class PokemonNavigationComponent implements OnChanges {
       .pipe(
         takeUntil(this.destroy$),
         tap((versionGroup) => {
-          this.selectedVersionGroup = versionGroup;
+          this.selectedVersionGroup.emit(versionGroup);
+          this.selectedVersionGroupName = versionGroup.name;
           this.supabase
             .getVersionsByVersionGroupId(versionGroup.id)
             .subscribe((versions) => {

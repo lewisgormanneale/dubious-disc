@@ -14,8 +14,8 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   templateUrl: './pokemon-moves.component.html',
 })
 export class PokemonMovesComponent implements OnChanges, OnDestroy {
-  @Input() pokemonId: number = 1;
-  @Input() versionGroupId: number = 2;
+  @Input() pokemonId: number = 0;
+  @Input() versionGroupId: number = 0;
   moves: any = [] as any;
 
   private supabase: SupabaseService = inject(SupabaseService);
