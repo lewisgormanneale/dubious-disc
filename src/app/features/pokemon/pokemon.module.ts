@@ -26,6 +26,7 @@ import {
 import { PokemonSummaryComponent } from './components/pokemon-summary/pokemon-summary.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { PokemonMovesComponent } from './components/pokemon-moves/pokemon-moves.component';
+import { PokemonMoveTableComponent } from './components/pokemon-move-table/pokemon-move-table.component';
 
 const routes = [{ path: '', component: PokemonComponent }];
 
@@ -37,6 +38,7 @@ const routes = [{ path: '', component: PokemonComponent }];
     PokemonFormsComponent,
     PokemonGenderRatioComponent,
     PokemonMovesComponent,
+    PokemonMoveTableComponent,
     PokemonNavigationComponent,
     PokemonStatsComponent,
     PokemonSummaryComponent,

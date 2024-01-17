@@ -1,0 +1,27 @@
+<table class="table-auto w-full bg-zinc-800 rounded-b text-sm">
+  <thead>
+    <tr class="text-left">
+      <th class="p-2">Level</th>
+      <th class="p-2">Move</th>
+      <th class="p-2">Type</th>
+      <th class="p-2">Power</th>
+      <th class="p-2">Accuracy</th>
+    </tr>
+  </thead>
+  <tr
+    *ngFor="let move of moveGroup; index as i"
+    class="border-b border-y-zinc-700"
+  >
+    <td class="p-2">{{ move.level }}</td>
+    <td class="p-2">{{ move.move_id.name }}</td>
+    <td class="p-2">
+      <div class="h-6 w-16 text-xs">
+        <app-type-box [type]="move.move_id.type_id"></app-type-box>
+      </div>
+    </td>
+    <td class="p-2">{{ move.move_id.power ? move.move_id.power : "—" }}</td>
+    <td class="p-2">
+      {{ move.move_id.accuracy ? move.move_id.accuracy : "—" }}
+    </td>
+  </tr>
+</table>

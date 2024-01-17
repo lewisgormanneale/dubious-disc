@@ -16,7 +16,9 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
 export class PokemonMovesComponent implements OnChanges, OnDestroy {
   @Input() pokemonId: number = 0;
   @Input() versionGroupId: number = 0;
-  moves: any = [] as any;
+
+  moveGroups: any = [] as any;
+  selectedMoveGroup: any = [] as any;
 
   private supabase: SupabaseService = inject(SupabaseService);
   private destroy$ = new Subject<void>();
@@ -27,8 +29,17 @@ export class PokemonMovesComponent implements OnChanges, OnDestroy {
       .getPokemonMovesByPokemonId(this.pokemonId, this.versionGroupId)
       .pipe(takeUntil(this.destroy$))
       .subscribe((data) => {
-        this.moves = data;
-        console.log(data);
+        this.moveGroups = Object.values(
+          data.reduce((acc: any, move: any) => {
+            const key = move.pokemon_move_method_id.id;
+            if (!acc[key]) {
+              acc[key] = [];
+            }
+            acc[key].push(move);
+            return acc;
+          }, {})
+        );
+        this.selectedMoveGroup = this.moveGroups[0];
       });
   }
 
