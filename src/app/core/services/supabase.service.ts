@@ -75,8 +75,6 @@ export class SupabaseService {
       .eq('pokemon_id', id)
       .order('slot', { ascending: true });
 
-    console.log(request);
-
     return from(request).pipe(map((response) => response.data || []));
   }
 
@@ -90,6 +88,24 @@ export class SupabaseService {
       .select('*')
       .eq('species_id', id)
       .order('pokedex_id', { ascending: true });
+
+    return from(request).pipe(map((response) => response.data || []));
+  }
+
+  // Pokemon Moves
+
+  getPokemonMovesByPokemonId(
+    id: number,
+    versionGroupId: number
+  ): Observable<any> {
+    const request = this.supabase
+      .from('pokemon_moves')
+      .select(
+        'pokemon_id, version_group_id, move_id (id, identifier, name, type_id ( id, identifier, name ), power, pp, accuracy), pokemon_move_method_id (id, identifier, name), level, order'
+      )
+      .eq('pokemon_id', id)
+      .eq('version_group_id', versionGroupId)
+      .order('order', { ascending: true });
 
     return from(request).pipe(map((response) => response.data || []));
   }

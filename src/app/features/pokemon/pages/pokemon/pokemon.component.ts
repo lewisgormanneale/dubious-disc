@@ -19,7 +19,7 @@ export class PokemonComponent implements OnInit {
   selectedForm: Tables<'pokemon'> = {} as Tables<'pokemon'>;
   pokemonSpecies: Tables<'pokemon_species'> = {} as Tables<'pokemon_species'>;
 
-  pokedexGeneration: string = '';
+  versionGroupIdentifier: string = '';
   selectedVersionGroup: any = '';
   versions: Tables<'versions'>[] = [];
 
@@ -31,9 +31,9 @@ export class PokemonComponent implements OnInit {
     this.route.params
       .pipe(
         switchMap((params) => {
-          const identifier = params['pokemon'];
-          this.pokedexGeneration = params['version-group'];
-          return this.supabase.getPokemonSpeciesByIdentifier(identifier);
+          const pokemonIdentifier = params['pokemon'];
+          this.versionGroupIdentifier = params['version-group'];
+          return this.supabase.getPokemonSpeciesByIdentifier(pokemonIdentifier);
         }),
         tap((pokemonSpecies) => {
           this.pokemonSpecies = pokemonSpecies;

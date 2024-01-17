@@ -4,7 +4,7 @@
       <div class="flex flex-col items-center w-full">
         <div class="flex flex-col items-center w-full">
           <app-pokemon-navigation
-            [pokedexGeneration]="pokedexGeneration"
+            [pokedexGeneration]="versionGroupIdentifier"
             [pokemonSpecies]="pokemonSpecies"
             [selectedVersionGroup]="selectedVersionGroup"
             (versions)="handleVersions($event)"
@@ -35,15 +35,22 @@
             <section class="flex flex-col sm:flex-row gap-3 w-full">
               <app-pokemon-stats
                 *ngIf="selectedForm.id"
-                [pokemon_id]="selectedForm.id"
+                [pokemonId]="selectedForm.id"
                 class="h-full w-full sm:w-1/2"
               ></app-pokemon-stats>
               <app-pokemon-descriptions
                 *ngIf="pokemonSpecies.id"
-                [pokemon_species_id]="pokemonSpecies.id"
+                [pokemonSpeciesId]="pokemonSpecies.id"
                 [versions]="versions"
                 class="h-full w-full sm:w-1/2"
               ></app-pokemon-descriptions>
+            </section>
+            <section class="flex flex-col gap-3 w-full">
+              <app-pokemon-moves
+                *ngIf="selectedForm.id"
+                [pokemonId]="selectedForm.id"
+                class="h-full w-full"
+              ></app-pokemon-moves>
             </section>
           </div>
         </div>

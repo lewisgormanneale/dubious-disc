@@ -14,7 +14,7 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   templateUrl: './pokemon-stats.component.html',
 })
 export class PokemonStatsComponent implements OnChanges, OnDestroy {
-  @Input() pokemon_id: number = 0;
+  @Input() pokemonId: number = 0;
   stats: any = [] as any;
   total: number = 0;
 
@@ -23,7 +23,7 @@ export class PokemonStatsComponent implements OnChanges, OnDestroy {
 
   ngOnChanges() {
     this.supabase
-      .getPokemonStatsByPokemonId(this.pokemon_id)
+      .getPokemonStatsByPokemonId(this.pokemonId)
       .pipe(takeUntil(this.destroy$))
       .subscribe((data) => {
         this.stats = data;
