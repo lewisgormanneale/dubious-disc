@@ -12,36 +12,6 @@ export class PokemonFormsComponent {
 
   @Output() newSelectedForm = new EventEmitter<any>();
 
-  customOptions: OwlOptions = {
-    mouseDrag: true,
-    touchDrag: true,
-    pullDrag: true,
-    dots: true,
-    loop: true,
-    slideBy: 'page',
-    nav: true,
-    navSpeed: 100,
-    navText: ['<<', '>>'],
-    margin: 5,
-    responsive: {
-      0: {
-        items: 2,
-      },
-      400: {
-        items: 3,
-      },
-      600: {
-        items: 4,
-      },
-      800: {
-        items: 5,
-      },
-      1000: {
-        items: 6,
-      },
-    },
-  };
-
   private supabase: SupabaseService = inject(SupabaseService);
 
   getFormImage(id: any) {
