@@ -9,27 +9,29 @@
   >
     <thead class="sr-only">
       <tr>
-        <th>Game</th>
+        <th>Version</th>
         <th>Description</th>
       </tr>
     </thead>
     <tr
       *ngFor="let description of descriptions; let i = index"
-      [ngClass]="{ 'border-b': i !== descriptions.length - 1 }"
+      [ngClass]="{
+        'border-b border-y-zinc-700': i !== descriptions.length - 1
+      }"
     >
-      <td class="border-y-zinc-700 border-b p-2 text-left w-2/8 font-semibold">
+      <td class="w-1/4 p-2 font-semibold">
         {{ getVersionName(description.version_id) }}
       </td>
-      <td class="border-y-zinc-700 border-b p-2 text-left">
+      <td class="p-2">
         {{ description.flavor_text }}
       </td>
     </tr>
   </table>
   <ng-template #noDescriptions>
     <div
-      class="flex flex-col bg-zinc-800 items-center justify-center w-full h-full p-4 rounded-b"
+      class="flex items-center justify-center w-full h-full bg-zinc-800 rounded-b"
     >
-      <span class="text-sm text-center">
+      <span class="text-sm p-4 text-center">
         No Pokédex descriptions are available for this Pokémon for any Pokédex
         in this version group.
       </span>

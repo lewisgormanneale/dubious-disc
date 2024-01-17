@@ -6,40 +6,50 @@
     [title]="'Pokédex Data'"
     class="text-sm"
   ></app-container-header>
-  <ul class="w-full flex flex-col bg-zinc-800 rounded-b text-sm">
-    <li class="border-y-zinc-700 border-b p-2">
-      <span class="font-semibold">Classification:</span>
-      {{ pokemon_species.genus }}
-    </li>
-    <li class="border-y-zinc-700 border-b p-2">
-      <span class="font-semibold">Abilities:</span>
-      <ul class="ml-5">
-        <li>National: #{{ pokemon_species.id }}</li>
-        <li>Local 1: #{{ pokemon_species.id }}</li>
-        <li>Local 2: #{{ pokemon_species.id }}</li>
-      </ul>
-    </li>
-    <li class="border-y-zinc-700 border-b p-2">
-      <span class="font-semibold">Pokédex №:</span>
-      <ul class="ml-5">
-        <li>National: #{{ pokemon_species.id }}</li>
-        <li>Local 1: #{{ pokemon_species.id }}</li>
-        <li>Local 2: #{{ pokemon_species.id }}</li>
-      </ul>
-    </li>
-    <li class="border-y-zinc-700 border-b p-2">
-      <span class="font-semibold">Height:</span>
-      {{ pokemon.height | decimetersToFeetAndInches }}
-    </li>
-    <li class="border-y-zinc-700 border-b p-2">
-      <span class="font-semibold">Weight:</span>
-      {{ pokemon.weight | decimetersToPounds }}
-    </li>
-    <li class="p-2">
-      <p class="font-semibold mb-2">Gender Ratio:</p>
-      <app-pokemon-gender-ratio
-        [rate]="pokemon_species.gender_rate"
-      ></app-pokemon-gender-ratio>
-    </li>
-  </ul>
+  <table class="table-auto w-full bg-zinc-800 rounded-b text-sm">
+    <thead class="sr-only">
+      <tr>
+        <th>Data</th>
+        <th>Value(s)</th>
+      </tr>
+    </thead>
+    <tr class="border-b border-y-zinc-700">
+      <td class="w-1/4 p-2 font-semibold">Classification:</td>
+      <td class="p-2">
+        {{ pokemon_species.genus }}
+      </td>
+    </tr>
+    <tr class="border-b border-y-zinc-700">
+      <td class="w-1/4 p-2 font-semibold">Abilities:</td>
+      <td class="p-2">TO-DO</td>
+    </tr>
+    <tr class="border-b border-y-zinc-700">
+      <td class="w-1/4 p-2 font-semibold">Pokédex №:</td>
+      <td class="p-2">
+        <ul>
+          <li>#{{ pokemon_species.id }} - National</li>
+        </ul>
+      </td>
+    </tr>
+    <tr class="border-b border-y-zinc-700">
+      <td class="w-1/4 p-2 font-semibold">Height:</td>
+      <td class="p-2">
+        {{ pokemon.height | decimetersToFeetAndInches }}
+      </td>
+    </tr>
+    <tr class="border-b border-y-zinc-700">
+      <td class="w-1/4 p-2 font-semibold">Weight:</td>
+      <td class="p-2">
+        {{ pokemon.weight | decimetersToPounds }}
+      </td>
+    </tr>
+    <tr class="border-b border-y-zinc-700">
+      <td class="w-1/4 p-2 font-semibold">Gender Ratio:</td>
+      <td class="p-2">
+        <app-pokemon-gender-ratio
+          [rate]="pokemon_species.gender_rate"
+        ></app-pokemon-gender-ratio>
+      </td>
+    </tr>
+  </table>
 </div>
