@@ -48,6 +48,8 @@ import { ButtonComponent } from './components/button/button.component';
     DropdownLinkComponent,
     PokedexSelectDropdownComponent,
     PostCardComponent,
+    ButtonComponent,
+    CardComponent,
     CardHeaderComponent,
     NewsContainerComponent,
     SpinnerComponent,

@@ -11,6 +11,7 @@ const meta: Meta<ButtonComponent> = {
 };
 
 export default meta;
+
 type Story = StoryObj<ButtonComponent>;
 
 export const Default: Story = {
