@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-team-builder',
+  selector: 'dd-team-builder',
   templateUrl: './team-builder.component.html',
 })
 export class TeamBuilderComponent {

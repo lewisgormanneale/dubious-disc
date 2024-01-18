@@ -10,7 +10,7 @@ import { Subject, takeUntil } from 'rxjs';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokemon-stats',
+  selector: 'dd-pokemon-stats',
   templateUrl: './pokemon-stats.component.html',
 })
 export class PokemonStatsComponent implements OnChanges, OnDestroy {

@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-pokemon-gender-ratio',
+  selector: 'dd-pokemon-gender-ratio',
   templateUrl: './pokemon-gender-ratio.component.html',
 })
 export class PokemonGenderRatioComponent {

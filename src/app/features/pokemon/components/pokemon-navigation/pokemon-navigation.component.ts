@@ -11,7 +11,7 @@ import { DropdownLinkSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokemon-navigation',
+  selector: 'dd-pokemon-navigation',
   templateUrl: './pokemon-navigation.component.html',
 })
 export class PokemonNavigationComponent implements OnChanges {

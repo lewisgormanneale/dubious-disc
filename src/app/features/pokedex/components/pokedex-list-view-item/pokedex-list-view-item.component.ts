@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pokedex-list-view-item',
+  selector: 'dd-pokedex-list-view-item',
   templateUrl: './pokedex-list-view-item.component.html',
 })
 export class PokedexListViewItemComponent implements OnInit {

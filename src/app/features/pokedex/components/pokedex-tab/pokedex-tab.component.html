@@ -1,6 +1,6 @@
 <div class="flex flex-col rounded-b py-2 w-full bg-zinc-800">
   <div *ngIf="listView; else gridView" class="flex flex-col w-full">
-    <app-pokedex-list-view-item
+    <dd-pokedex-list-view-item
       *ngFor="let pokemon of pokemonEntries; index as index"
       [pokemon]="pokemon"
       (click)="onPokemonClick(pokemon)"
@@ -8,15 +8,15 @@
       [ngClass]="{
         'border-t border-zinc-700': index === 0
       }"
-    ></app-pokedex-list-view-item>
+    ></dd-pokedex-list-view-item>
   </div>
   <ng-template #gridView>
     <div class="flex flex-wrap gap-2 justify-center p-2">
-      <app-pokedex-grid-view-item
+      <dd-pokedex-grid-view-item
         *ngFor="let pokemon of pokemonEntries"
         [pokemon]="pokemon"
         (click)="onPokemonClick(pokemon)"
-      ></app-pokedex-grid-view-item>
+      ></dd-pokedex-grid-view-item>
     </div>
   </ng-template>
 </div>

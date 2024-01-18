@@ -6,7 +6,7 @@ import { headerNavItems } from 'src/app/core/models';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @Component({
-  selector: 'app-header',
+  selector: 'dd-header',
   templateUrl: './header.component.html',
   standalone: true,
   imports: [CoreModule, SharedModule, CommonModule, RouterLink],

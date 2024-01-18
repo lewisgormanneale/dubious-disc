@@ -4,7 +4,7 @@ import { Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokedex-tab',
+  selector: 'dd-pokedex-tab',
   templateUrl: './pokedex-tab.component.html',
 })
 export class PokedexTabComponent {

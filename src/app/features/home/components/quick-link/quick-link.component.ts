@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { SanityService } from 'src/app/core/services/sanity.service';
 
 @Component({
-  selector: 'app-quick-link',
+  selector: 'dd-quick-link',
   templateUrl: './quick-link.component.html',
 })
 export class QuickLinkComponent implements OnInit {

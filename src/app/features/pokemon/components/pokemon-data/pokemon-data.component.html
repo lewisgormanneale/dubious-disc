@@ -2,10 +2,10 @@
   *ngIf="pokemon && pokemon_species"
   class="flex flex-col rounded w-full bg-byzantium border border-zinc-800"
 >
-  <app-container-header
+  <dd-container-header
     [title]="'Pokédex Data'"
     class="text-sm"
-  ></app-container-header>
+  ></dd-container-header>
   <table class="table-auto w-full bg-zinc-800 rounded-b text-sm">
     <thead class="sr-only">
       <tr>
@@ -55,9 +55,9 @@
     <tr class="border-b border-y-zinc-700">
       <td class="w-1/4 p-2 font-semibold">Gender Ratio:</td>
       <td class="p-2">
-        <app-pokemon-gender-ratio
+        <dd-pokemon-gender-ratio
           [rate]="pokemon_species.gender_rate"
-        ></app-pokemon-gender-ratio>
+        ></dd-pokemon-gender-ratio>
       </td>
     </tr>
   </table>

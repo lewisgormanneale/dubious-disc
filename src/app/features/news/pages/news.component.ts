@@ -6,7 +6,7 @@ import htm from 'htm';
 import vhtml from 'vhtml';
 
 @Component({
-  selector: 'app-news',
+  selector: 'dd-news',
   templateUrl: './news.component.html',
 })
 export class NewsComponent {

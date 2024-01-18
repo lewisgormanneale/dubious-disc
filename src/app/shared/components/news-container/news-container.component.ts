@@ -2,7 +2,7 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { SanityService } from 'src/app/core/services/sanity.service';
 
 @Component({
-  selector: 'app-news-container',
+  selector: 'dd-news-container',
   templateUrl: './news-container.component.html',
 })
 export class NewsContainerComponent implements OnChanges {

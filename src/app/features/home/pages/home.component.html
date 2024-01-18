@@ -8,32 +8,32 @@
     <div
       class="grid grid-cols-2 xl:grid-cols-3 gap-4 mb-4 mx-8 max-w-screen-2xl"
     >
-      <app-news-container class="col-span-2"></app-news-container>
+      <dd-news-container class="col-span-2"></dd-news-container>
       <div class="col-span-2 lg:col-span-1">
         <div class="bg-zinc-950 rounded">
-          <app-container-header
+          <dd-container-header
             [title]="'Quick Links'"
             class="text-sm"
-          ></app-container-header>
+          ></dd-container-header>
           <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 w-full p-4">
-            <app-quick-link
+            <dd-quick-link
               [url]="'/pokedex/scarlet-violet'"
               [imageUrl]="'assets/images/bdsp-pokedex-icon.png'"
               [title]="'Pokédex'"
               [description]="'View data from any main series game'"
-            ></app-quick-link>
-            <!-- <app-quick-link
+            ></dd-quick-link>
+            <!-- <dd-quick-link
               [url]="'/team-builder'"
               [imageUrl]="'assets/images/poryphone.png'"
               [title]="'Team Builder'"
               [description]="'Plan a team for a playthrough'"
-            ></app-quick-link> -->
-            <app-quick-link
+            ></dd-quick-link> -->
+            <dd-quick-link
               [url]="'/pokedex/national/' + randomPokemonIdentifier"
               [imageUrl]="'assets/images/question-icon.png'"
               [title]="'Random Pokémon'"
               [description]="'View a random Pokémon\'s information'"
-            ></app-quick-link>
+            ></dd-quick-link>
           </div>
         </div>
       </div>

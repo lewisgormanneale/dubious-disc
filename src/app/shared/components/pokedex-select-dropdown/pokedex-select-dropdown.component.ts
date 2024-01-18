@@ -4,7 +4,7 @@ import { DropdownLinkSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokedex-select-dropdown',
+  selector: 'dd-pokedex-select-dropdown',
   templateUrl: './pokedex-select-dropdown.component.html',
 })
 export class PokedexSelectDropdownComponent implements OnChanges {

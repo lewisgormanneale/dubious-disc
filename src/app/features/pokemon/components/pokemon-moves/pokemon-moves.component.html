@@ -1,8 +1,8 @@
 <div class="flex flex-col rounded w-full bg-byzantium">
-  <app-container-header
+  <dd-container-header
     [title]="'Learnable Moves'"
     class="text-sm"
-  ></app-container-header>
+  ></dd-container-header>
   <div *ngIf="moveGroups.length > 0">
     <ul class="flex text-xs text-center overflow-x-scroll pt-2 bg-zinc-900">
       <li class="me-2" *ngFor="let moveGroup of moveGroups">
@@ -20,11 +20,11 @@
       </li>
     </ul>
     <ng-container *ngFor="let moveGroup of moveGroups">
-      <app-pokemon-move-table
+      <dd-pokemon-move-table
         *ngIf="moveGroup === selectedMoveGroup"
         [moveGroup]="moveGroup"
       >
-      </app-pokemon-move-table>
+      </dd-pokemon-move-table>
     </ng-container>
   </div>
 </div>

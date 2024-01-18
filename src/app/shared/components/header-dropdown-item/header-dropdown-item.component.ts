@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs';
 import { NavigationItem } from 'src/app/core/models';
 import { HeaderDropdownItemService } from './header-dropdown-item.service';
 @Component({
-  selector: 'app-header-dropdown-item',
+  selector: 'dd-header-dropdown-item',
   templateUrl: './header-dropdown-item.component.html',
 })
 export class HeaderDropdownItemComponent implements OnInit, OnDestroy {

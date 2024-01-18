@@ -5,7 +5,7 @@ import htm from 'htm';
 import vhtml from 'vhtml';
 
 @Component({
-  selector: 'app-news-card',
+  selector: 'dd-news-card',
   templateUrl: './news-card.component.html',
 })
 export class PostCardComponent implements OnInit {

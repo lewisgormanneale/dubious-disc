@@ -2,7 +2,7 @@ import { Component, inject, Input, OnInit } from '@angular/core';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokedex-grid-view-item',
+  selector: 'dd-pokedex-grid-view-item',
   templateUrl: './pokedex-grid-view-item.component.html',
 })
 export class PokedexGridViewItemComponent implements OnInit {
