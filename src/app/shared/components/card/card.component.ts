@@ -4,6 +4,6 @@ import { Component, Input } from '@angular/core';
   selector: 'dd-card',
   templateUrl: './card.component.html',
 })
-export class ContainerHeaderComponent {
-  @Input() title: string = '';
+export class CardComponent {
+  @Input() title?: string;
 }

@@ -6,7 +6,7 @@
       class="col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 sticky top-0 z-30 xl:relative bg-zinc-900 py-2 xl:py-0 w-full"
     >
       <!-- <div class="bg-zinc-950 rounded w-full hidden sm:block">
-        <dd-container-header [title]="'Quick Links'"></dd-container-header>
+        <dd-card-header [title]="'Quick Links'"></dd-card-header>
         <div class="p-4 flex gap-2 justify-between">
           <dd-pokedex-select-dropdown></dd-pokedex-select-dropdown>
           <a
@@ -24,9 +24,7 @@
         </div>
       </div> -->
       <div class="bg-zinc-950 rounded w-full sticky top-2">
-        <dd-container-header
-          [title]="'Filters & Options'"
-        ></dd-container-header>
+        <dd-card-header [title]="'Filters & Options'"></dd-card-header>
         <div class="p-4 flex gap-2">
           <dd-pokedex-select-dropdown
             [currentVersionGroupName]="this.versionGroup.name"
@@ -41,14 +39,14 @@
       </div>
     </div>
     <div class="col-span-2 bg-zinc-950 rounded h-full w-full">
-      <dd-container-header
+      <dd-card-header
         class="mb-2"
         [title]="
           this.versionGroup.name
             ? this.versionGroup.name + ' Pokedex'
             : 'Pokedex'
         "
-      ></dd-container-header>
+      ></dd-card-header>
       <div *ngIf="pokedexes.length > 0; else elseBlock" class="p-4">
         <ul class="flex text-xs text-center overflow-x-scroll">
           <li class="me-2" *ngFor="let pokedex of pokedexes">
