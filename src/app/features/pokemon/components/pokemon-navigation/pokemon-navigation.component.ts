@@ -130,6 +130,10 @@ export class PokemonNavigationComponent implements OnChanges {
     ]);
   }
 
+  navigateToPokedex(pokedexGeneration: string) {
+    this.router.navigate(['/pokedex/' + pokedexGeneration]);
+  }
+
   ngOnDestroy(): void {
     this.destroy$.next();
     this.destroy$.complete();
