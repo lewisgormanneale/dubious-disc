@@ -1,46 +1,36 @@
-import { StoryObj, Meta } from '@storybook/angular';
+import { Meta, StoryObj } from '@storybook/angular';
 import { ButtonComponent } from './button.component';
 
-const meta: Meta<ButtonComponent> = {
+export default {
   title: 'Shared/Button',
   component: ButtonComponent,
   tags: ['autodocs'],
   argTypes: {
-    backgroundColor: { control: 'color' },
+    primary: {
+      control: 'boolean',
+    },
+    label: {
+      control: 'text',
+    },
   },
-};
-
-export default meta;
+  args: {
+    primary: true,
+    label: 'Primary',
+  },
+} as Meta;
 
 type Story = StoryObj<ButtonComponent>;
-
-export const Default: Story = {
-  args: {},
-};
 
 export const Primary: Story = {
   args: {
     primary: true,
-    label: 'Button',
+    label: 'Primary',
   },
 };
 
 export const Secondary: Story = {
   args: {
-    label: 'Button',
-  },
-};
-
-export const Large: Story = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small: Story = {
-  args: {
-    size: 'small',
-    label: 'Button',
+    primary: false,
+    label: 'Secondary',
   },
 };

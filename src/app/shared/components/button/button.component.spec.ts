@@ -23,13 +23,6 @@ describe('ButtonComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should have default values', () => {
-    expect(component.primary).toBeFalsy();
-    expect(component.backgroundColor).toBeUndefined();
-    expect(component.size).toBe('medium');
-    expect(component.label).toBe('Button');
-  });
-
   it('should emit onClick event', () => {
     const buttonElement = fixture.nativeElement.querySelector('button');
     buttonElement.click();

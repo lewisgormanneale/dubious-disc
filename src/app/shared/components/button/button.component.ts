@@ -5,16 +5,11 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   templateUrl: './button.component.html',
 })
 export class ButtonComponent {
-  @Input() primary = false;
-  @Input() backgroundColor?: string;
-  @Input() size: 'small' | 'medium' | 'large' = 'medium';
-  @Input() label = 'Button';
+  @Input() label = '';
+  @Input() primary: boolean = false;
+  @Output() onClick = new EventEmitter<void>();
 
-  @Output() onClick = new EventEmitter<Event>();
-
-  public get classes(): string[] {
-    const mode = this.primary ? 'bg-byzantium' : 'bg-zinc-900';
-
-    return ['storybook-button', `storybook-button--${this.size}`, mode];
+  handleClick() {
+    this.onClick.emit();
   }
 }

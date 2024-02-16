@@ -1,8 +1,10 @@
 <button
-  type="button"
-  (click)="onClick.emit($event)"
-  [ngClass]="classes"
-  [ngStyle]="{ 'background-color': backgroundColor }"
+  [ngClass]="{
+    'bg-byzantium hover:bg-old_mauve': primary,
+    'bg-zinc-900 hover:bg-zinc-800': !primary
+  }"
+  class="py-2 px-4 rounded border border-zinc-700 cursor-pointer"
+  (click)="handleClick()"
 >
   {{ label }}
 </button>
