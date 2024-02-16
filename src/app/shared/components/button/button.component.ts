@@ -5,7 +5,6 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   templateUrl: './button.component.html',
 })
 export class ButtonComponent {
-  @Input() label = '';
   @Input() primary: boolean = false;
   @Output() onClick = new EventEmitter<void>();
 
