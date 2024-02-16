@@ -29,12 +29,9 @@
           <dd-pokedex-select-dropdown
             [currentVersionGroupName]="this.versionGroup.name"
           ></dd-pokedex-select-dropdown>
-          <button
-            (click)="listView = !listView"
-            class="flex justify-center items-center py-2 px-4 text-center text-xs cursor-pointer font-bold rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700"
-          >
+          <dd-button (onClick)="listView = !listView" class="text-xs">
             List View
-          </button>
+          </dd-button>
         </div>
       </div>
     </div>

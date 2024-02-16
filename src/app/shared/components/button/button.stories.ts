@@ -47,3 +47,12 @@ export const Icon: Story = {
     template: `<dd-button [primary]=${args.primary}><ng-icon [name]="'heroUserCircleSolid'"></ng-icon></dd-button>`,
   }),
 };
+
+export const IconWithText: Story = {
+  args: {
+    primary: false,
+  },
+  render: (args: any) => ({
+    template: `<dd-button [primary]=${args.primary}><ng-icon [name]="'heroUserCircleSolid'"></ng-icon><span>View Profile</span></dd-button>`,
+  }),
+};
