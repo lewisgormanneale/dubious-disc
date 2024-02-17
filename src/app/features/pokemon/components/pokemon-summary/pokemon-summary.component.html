@@ -43,19 +43,17 @@
       </h2>
     </div>
     <div
-      class="flex justify-between items-center px-2 bg-zinc-800"
+      class="flex justify-between items-center p-2 bg-zinc-800"
       *ngIf="pokemonTypes && pokemonTypes.length > 0"
       [ngClass]="
         pokemonTypes.length > 1
           ? 'justify-content-between'
           : 'justify-content-center'
       "
-      style="height: 50px"
     >
       <dd-type-box
         *ngFor="let type of pokemonTypes"
         [type]="type.type_id"
-        class="h-8 w-24"
       ></dd-type-box>
     </div>
   </div>

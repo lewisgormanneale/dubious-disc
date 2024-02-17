@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 
 import { TypeBoxComponent } from './type-box.component';
+import { Tables } from 'src/app/core/models';
 
 const meta: Meta<TypeBoxComponent> = {
   title: 'Shared/Type Box',
@@ -11,15 +12,11 @@ const meta: Meta<TypeBoxComponent> = {
 export default meta;
 type Story = StoryObj<TypeBoxComponent>;
 
-export const Fire: Story = {
+export const Normal: Story = {
   args: {
     type: {
-      damage_class_id: 1,
-      generation_id: 1,
-      id: 1,
-      identifier: 'fire',
-      name: 'Fire',
-      type_color: 'ff4422',
-    },
+      name: 'Normal',
+      type_color: 'AAAA99',
+    } as Tables<'types'>,
   },
 };
