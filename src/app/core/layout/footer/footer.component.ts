@@ -4,7 +4,7 @@ import { CoreModule } from 'src/app/core/core.module';
 import { CommonModule, DOCUMENT } from '@angular/common';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'dd-footer',
   templateUrl: './footer.component.html',
   standalone: true,
   imports: [CoreModule, CommonModule, RouterLink],

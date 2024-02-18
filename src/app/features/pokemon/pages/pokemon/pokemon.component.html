@@ -3,55 +3,55 @@
     <ng-container *ngIf="pokemonSpecies && pokemonForms; else loading">
       <div class="flex flex-col items-center w-full">
         <div class="flex flex-col items-center w-full">
-          <app-pokemon-navigation
+          <dd-pokemon-navigation
             [pokedexGeneration]="versionGroupIdentifier"
             [pokemonSpecies]="pokemonSpecies"
             (selectedVersionGroup)="handleSelectedVersionGroup($event)"
             (versions)="handleVersions($event)"
             class="w-full"
-          ></app-pokemon-navigation>
+          ></dd-pokemon-navigation>
           <div class="flex flex-col gap-3 w-full">
             <section class="flex flex-col sm:flex-row gap-3 w-full">
-              <app-pokemon-summary
+              <dd-pokemon-summary
                 [selectedForm]="selectedForm"
                 [pokemonSpecies]="pokemonSpecies"
                 class="h-full w-full sm:w-1/2"
               >
-              </app-pokemon-summary>
-              <app-pokemon-data
+              </dd-pokemon-summary>
+              <dd-pokemon-data
                 [pokemon]="selectedForm"
                 [pokemon_species]="pokemonSpecies"
                 class="h-full w-full sm:w-1/2"
-              ></app-pokemon-data>
+              ></dd-pokemon-data>
             </section>
             <section class="w-full">
-              <app-pokemon-forms
+              <dd-pokemon-forms
                 *ngIf="pokemonForms.length > 1"
                 (newSelectedForm)="handleNewSelectedForm($event)"
                 [pokemonForms]="pokemonForms"
                 [selectedForm]="selectedForm"
-              ></app-pokemon-forms>
+              ></dd-pokemon-forms>
             </section>
             <section class="flex flex-col sm:flex-row gap-3 w-full">
-              <app-pokemon-stats
+              <dd-pokemon-stats
                 *ngIf="selectedForm.id"
                 [pokemonId]="selectedForm.id"
                 class="h-full w-full sm:w-1/2"
-              ></app-pokemon-stats>
-              <app-pokemon-descriptions
+              ></dd-pokemon-stats>
+              <dd-pokemon-descriptions
                 *ngIf="pokemonSpecies.id"
                 [pokemonSpeciesId]="pokemonSpecies.id"
                 [versions]="versions"
                 class="h-full w-full sm:w-1/2"
-              ></app-pokemon-descriptions>
+              ></dd-pokemon-descriptions>
             </section>
             <section class="flex flex-col gap-3 w-full">
-              <app-pokemon-moves
+              <dd-pokemon-moves
                 *ngIf="selectedForm.id"
                 [pokemonId]="selectedForm.id"
                 [versionGroupId]="selectedVersionGroup.id"
                 class="h-full w-full"
-              ></app-pokemon-moves>
+              ></dd-pokemon-moves>
             </section>
           </div>
         </div>
@@ -59,7 +59,7 @@
     </ng-container>
     <ng-template #loading>
       <div class="w-full">
-        <app-spinner></app-spinner>
+        <dd-spinner></dd-spinner>
       </div>
     </ng-template>
   </div>

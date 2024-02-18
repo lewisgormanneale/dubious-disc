@@ -11,7 +11,7 @@ interface DropdownLinkOption {
 }
 
 @Component({
-  selector: 'app-pokemon',
+  selector: 'dd-pokemon',
   templateUrl: './pokemon.component.html',
 })
 export class PokemonComponent implements OnInit {

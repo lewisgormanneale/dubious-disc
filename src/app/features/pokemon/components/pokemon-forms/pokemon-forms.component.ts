@@ -2,7 +2,7 @@ import { Component, EventEmitter, inject, Input, Output } from '@angular/core';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokemon-forms',
+  selector: 'dd-pokemon-forms',
   templateUrl: './pokemon-forms.component.html',
 })
 export class PokemonFormsComponent {

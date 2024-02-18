@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-home',
+  selector: 'dd-home',
   templateUrl: './home.component.html',
 })
 export class HomeComponent {

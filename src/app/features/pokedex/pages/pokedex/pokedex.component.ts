@@ -5,7 +5,7 @@ import { Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokedex',
+  selector: 'dd-pokedex',
   templateUrl: './pokedex.component.html',
 })
 export class PokedexComponent implements OnInit {

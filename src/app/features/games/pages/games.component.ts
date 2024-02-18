@@ -4,7 +4,7 @@ import { switchMap } from 'rxjs';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-games',
+  selector: 'dd-games',
   templateUrl: './games.component.html',
 })
 export class GamesComponent {

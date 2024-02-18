@@ -12,7 +12,7 @@ import { DropdownLinkSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokemon-summary',
+  selector: 'dd-pokemon-summary',
   templateUrl: './pokemon-summary.component.html',
 })
 export class PokemonSummaryComponent implements OnChanges {

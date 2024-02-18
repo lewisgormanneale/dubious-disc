@@ -6,12 +6,13 @@ import {
   OnChanges,
   Output,
 } from '@angular/core';
+import { Router } from '@angular/router';
 import { takeUntil, tap, switchMap, forkJoin, map, Subject } from 'rxjs';
 import { DropdownLinkSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokemon-navigation',
+  selector: 'dd-pokemon-navigation',
   templateUrl: './pokemon-navigation.component.html',
 })
 export class PokemonNavigationComponent implements OnChanges {
@@ -31,6 +32,7 @@ export class PokemonNavigationComponent implements OnChanges {
   nextPokemonIdentifier: string = '';
 
   private supabase: SupabaseService = inject(SupabaseService);
+  private router: Router = inject(Router);
   private destroy$ = new Subject<void>();
 
   ngOnChanges(): void {
@@ -118,6 +120,18 @@ export class PokemonNavigationComponent implements OnChanges {
       .subscribe((data) => {
         this.pokemonDropdownOptions = data;
       });
+  }
+
+  navigateToPokemon(pokemonIdentifier: string) {
+    this.router.navigate([
+      '/pokedex',
+      this.pokedexGeneration,
+      pokemonIdentifier,
+    ]);
+  }
+
+  navigateToPokedex(pokedexGeneration: string) {
+    this.router.navigate(['/pokedex/' + pokedexGeneration]);
   }
 
   ngOnDestroy(): void {

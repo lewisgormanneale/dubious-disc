@@ -17,7 +17,7 @@ import { Subscription, filter } from 'rxjs';
 import { DropdownLinkSection } from 'src/app/core/models';
 
 @Component({
-  selector: 'app-dropdown-link',
+  selector: 'dd-dropdown-link',
   templateUrl: './dropdown-link.component.html',
   animations: [
     trigger('fadeInOut', [

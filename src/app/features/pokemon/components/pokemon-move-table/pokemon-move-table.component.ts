@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-pokemon-move-table',
+  selector: 'dd-pokemon-move-table',
   templateUrl: './pokemon-move-table.component.html',
 })
 export class PokemonMoveTableComponent {

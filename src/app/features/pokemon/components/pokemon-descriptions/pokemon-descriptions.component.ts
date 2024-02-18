@@ -4,7 +4,7 @@ import { Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'app-pokemon-descriptions',
+  selector: 'dd-pokemon-descriptions',
   templateUrl: './pokemon-descriptions.component.html',
 })
 export class PokemonDescriptionsComponent implements OnChanges {
