@@ -4580,7 +4580,7 @@
             "implements": [
                 "OnChanges"
             ],
-            "templateData": "<div\n  class=\"text-center border border-zinc-800 h-full w-full rounded flex flex-col justify-between\"\n>\n  <div class=\"relative h-full w-full\">\n    <dd-button class=\"absolute top-2 left-2\" (onClick)=\"shinyToggle()\">\n      <ng-icon\n        [name]=\"'heroSparklesSolid'\"\n        [ngClass]=\"{ 'text-orange-300': shiny }\"\n        aria-labelledby=\"shiny-button-label\"\n      ></ng-icon>\n      <div class=\"sr-only\" id=\"shiny-button-label\">\n        Toggle Pokémon's Shiny Sprite\n      </div>\n    </dd-button>\n    <dd-button\n      *ngIf=\"pokemonSpecies.has_gender_differences\"\n      class=\"absolute top-14 left-2\"\n      (onClick)=\"genderToggle()\"\n    >\n      <ng-icon\n        [name]=\"'bootstrapGenderFemale'\"\n        [ngClass]=\"{ 'text-pink-400': female }\"\n        aria-labelledby=\"gender-button-label\"\n      ></ng-icon>\n      <div class=\"sr-only\" id=\"gender-button-label\">\n        Toggle Pokémon's Gender, When It Affects Appearance\n      </div>\n    </dd-button>\n    <div\n      class=\"w-full h-full flex justify-center items-center\"\n      [style.background]=\"getTypeBackgroundColor()\"\n    >\n      <img\n        src=\"{{ this.imageUrl }}\"\n        class=\"w-full h-full object-contain min-w-[300px] max-w-[390px] rounded-t\"\n      />\n    </div>\n  </div>\n  <div>\n    <div class=\"bg-byzantium border-t border-zinc-800\" style=\"height: 50px\">\n      <h2 class=\"p-2\">\n        <span class=\"font-bold text-xl\"> {{ selectedForm.name }}</span>\n      </h2>\n    </div>\n    <div\n      class=\"flex justify-between items-center px-2 bg-zinc-800\"\n      *ngIf=\"pokemonTypes && pokemonTypes.length > 0\"\n      [ngClass]=\"\n        pokemonTypes.length > 1\n          ? 'justify-content-between'\n          : 'justify-content-center'\n      \"\n      style=\"height: 50px\"\n    >\n      <dd-type-box\n        *ngFor=\"let type of pokemonTypes\"\n        [type]=\"type.type_id\"\n        class=\"h-8 w-24\"\n      ></dd-type-box>\n    </div>\n  </div>\n</div>\n"
+            "templateData": "<div\n  class=\"text-center border border-zinc-800 h-full w-full rounded flex flex-col justify-between\"\n>\n  <div class=\"relative h-full w-full\">\n    <dd-button class=\"absolute top-2 left-2\" (onClick)=\"shinyToggle()\">\n      <ng-icon\n        [name]=\"'heroSparklesSolid'\"\n        [ngClass]=\"{ 'text-orange-300': shiny }\"\n        aria-labelledby=\"shiny-button-label\"\n      ></ng-icon>\n      <div class=\"sr-only\" id=\"shiny-button-label\">\n        Toggle Pokémon's Shiny Sprite\n      </div>\n    </dd-button>\n    <dd-button\n      *ngIf=\"pokemonSpecies.has_gender_differences\"\n      class=\"absolute top-14 left-2\"\n      (onClick)=\"genderToggle()\"\n    >\n      <ng-icon\n        [name]=\"'bootstrapGenderFemale'\"\n        [ngClass]=\"{ 'text-pink-400': female }\"\n        aria-labelledby=\"gender-button-label\"\n      ></ng-icon>\n      <div class=\"sr-only\" id=\"gender-button-label\">\n        Toggle Pokémon's Gender, When It Affects Appearance\n      </div>\n    </dd-button>\n    <div\n      class=\"w-full h-full flex justify-center items-center\"\n      [style.background]=\"getTypeBackgroundColor()\"\n    >\n      <img\n        src=\"{{ this.imageUrl }}\"\n        class=\"w-full h-full object-contain min-w-[300px] max-w-[390px] rounded-t\"\n      />\n    </div>\n  </div>\n  <div>\n    <div class=\"bg-byzantium border-t border-zinc-800\" style=\"height: 50px\">\n      <h2 class=\"p-2\">\n        <span class=\"font-bold text-xl\"> {{ selectedForm.name }}</span>\n      </h2>\n    </div>\n    <div\n      class=\"flex justify-between items-center p-2 bg-zinc-800\"\n      *ngIf=\"pokemonTypes && pokemonTypes.length > 0\"\n      [ngClass]=\"\n        pokemonTypes.length > 1\n          ? 'justify-content-between'\n          : 'justify-content-center'\n      \"\n    >\n      <dd-type-box\n        *ngFor=\"let type of pokemonTypes\"\n        [type]=\"type.type_id\"\n      ></dd-type-box>\n    </div>\n  </div>\n</div>\n"
         },
         {
             "name": "PostCardComponent",
@@ -4979,7 +4979,7 @@
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<div\n  class=\"flex justify-center items-center rounded h-full w-full\"\n  data-testid=\"type-box\"\n  [style.background]=\"'#' + type.type_color\"\n>\n  <span class=\"font-bold white-outlined\" data-testid=\"type-box-text\">{{\n    type.name\n  }}</span>\n</div>\n"
+            "templateData": "<div\n  class=\"flex justify-center items-center rounded py-2 px-4 w-24\"\n  data-testid=\"type-box\"\n  [style.background]=\"'#' + type.type_color\"\n>\n  <span class=\"font-bold text-sm white-outlined\" data-testid=\"type-box-text\">{{\n    type.name\n  }}</span>\n</div>\n"
         }
     ],
     "modules": [
@@ -5566,16 +5566,6 @@
                 "defaultValue": "{\n  production: false,\n  supabaseUrl: 'https://ghqcgxobyvkaqyagxoqg.supabase.co',\n  supabaseKey:\n    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdocWNneG9ieXZrYXF5YWd4b3FnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDI3Mzg5NzksImV4cCI6MjAxODMxNDk3OX0.j243cyUqgCZZaXYtteW0rcdEDX9CtIAr9xxuA26rAn8',\n  apiUrl: 'https://pokeapi.co/api/v2/',\n}"
             },
             {
-                "name": "Fire",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/shared/components/type-box/type-box.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\n  args: {\n    type: {\n      damage_class_id: 1,\n      generation_id: 1,\n      id: 1,\n      identifier: 'fire',\n      name: 'Fire',\n      type_color: 'ff4422',\n    },\n  },\n}"
-            },
-            {
                 "name": "headerNavItems",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -5634,6 +5624,16 @@
                 "deprecationMessage": "",
                 "type": "Meta<TypeBoxComponent>",
                 "defaultValue": "{\n  title: 'Shared/Type Box',\n  component: TypeBoxComponent,\n  tags: ['autodocs'],\n}"
+            },
+            {
+                "name": "Normal",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/shared/components/type-box/type-box.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    type: {\n      name: 'Normal',\n      type_color: 'AAAA99',\n    } as Tables<'types'>,\n  },\n}"
             },
             {
                 "name": "preview",
@@ -5888,28 +5888,6 @@
                     "defaultValue": "{\n  production: false,\n  supabaseUrl: 'https://ghqcgxobyvkaqyagxoqg.supabase.co',\n  supabaseKey:\n    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdocWNneG9ieXZrYXF5YWd4b3FnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDI3Mzg5NzksImV4cCI6MjAxODMxNDk3OX0.j243cyUqgCZZaXYtteW0rcdEDX9CtIAr9xxuA26rAn8',\n  apiUrl: 'https://pokeapi.co/api/v2/',\n}"
                 }
             ],
-            "src/app/shared/components/type-box/type-box.stories.ts": [
-                {
-                    "name": "Fire",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/shared/components/type-box/type-box.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "{\n  args: {\n    type: {\n      damage_class_id: 1,\n      generation_id: 1,\n      id: 1,\n      identifier: 'fire',\n      name: 'Fire',\n      type_color: 'ff4422',\n    },\n  },\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/shared/components/type-box/type-box.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<TypeBoxComponent>",
-                    "defaultValue": "{\n  title: 'Shared/Type Box',\n  component: TypeBoxComponent,\n  tags: ['autodocs'],\n}"
-                }
-            ],
             "src/app/core/models/navigation.model.ts": [
                 {
                     "name": "headerNavItems",
@@ -5962,6 +5940,28 @@
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\n  args: {\n    primary: false,\n  },\n  render: (args: any) => ({\n    template: `<dd-button [primary]=${args.primary}>Secondary</dd-button>`,\n  }),\n}"
+                }
+            ],
+            "src/app/shared/components/type-box/type-box.stories.ts": [
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/type-box/type-box.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<TypeBoxComponent>",
+                    "defaultValue": "{\n  title: 'Shared/Type Box',\n  component: TypeBoxComponent,\n  tags: ['autodocs'],\n}"
+                },
+                {
+                    "name": "Normal",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/type-box/type-box.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    type: {\n      name: 'Normal',\n      type_color: 'AAAA99',\n    } as Tables<'types'>,\n  },\n}"
                 }
             ],
             ".storybook/preview.ts": [
@@ -6689,7 +6689,7 @@
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
-                "name": "Fire",
+                "name": "meta",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -6699,7 +6699,7 @@
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
-                "name": "meta",
+                "name": "Normal",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
