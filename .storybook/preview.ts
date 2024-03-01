@@ -1,11 +1,12 @@
-import type { Preview } from "@storybook/angular";
-import { setCompodocJson } from "@storybook/addon-docs/angular";
-import docJson from "../documentation.json";
+import type { Preview, AngularRenderer } from '@storybook/angular';
+import { setCompodocJson } from '@storybook/addon-docs/angular';
+import { withThemeByClassName } from '@storybook/addon-themes';
+import docJson from '../documentation.json';
 setCompodocJson(docJson);
 
 const preview: Preview = {
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
+    actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {
         color: /(background|color)$/i,
@@ -13,6 +14,15 @@ const preview: Preview = {
       },
     },
   },
+  decorators: [
+    withThemeByClassName<AngularRenderer>({
+      themes: {
+        Light: '',
+        Dark: 'dark',
+      },
+      defaultTheme: 'Light',
+    }),
+  ],
 };
 
 export default preview;
