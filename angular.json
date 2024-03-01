@@ -111,7 +111,8 @@
             "browserTarget": "dubious-disc:build",
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "."],
-            "port": 6006
+            "port": 6006,
+            "styles": ["src/styles.css"]
           }
         },
         "build-storybook": {
@@ -121,7 +122,8 @@
             "browserTarget": "dubious-disc:build",
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "."],
-            "outputDir": "storybook-static"
+            "outputDir": "storybook-static",
+            "styles": ["src/styles.css"]
           }
         }
       }

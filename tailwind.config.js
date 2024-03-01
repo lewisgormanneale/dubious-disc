@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,ts}"],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
-        byzantium: "#702f63 ",
+        byzantium: "#702f63",
         old_mauve: "#522248",
         male: "#6890cb",
         female: "#f15d69",
