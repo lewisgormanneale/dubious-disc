@@ -2720,7 +2720,7 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<div class=\"flex flex-col justify-start items-center w-full h-full\">\n  <div\n    class=\"grid grid-cols-2 xl:grid-cols-3 gap-2 m-4 max-w-screen-2xl h-full w-full\"\n  >\n    <div\n      class=\"col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 sticky top-0 z-30 xl:relative bg-zinc-900 py-2 xl:py-0 w-full\"\n    >\n      <!-- <div class=\"bg-zinc-950 rounded w-full hidden sm:block\">\n        <dd-card-header [title]=\"'Quick Links'\"></dd-card-header>\n        <div class=\"p-4 flex gap-2 justify-between\">\n          <dd-pokedex-select-dropdown></dd-pokedex-select-dropdown>\n          <a\n            class=\"flex justify-center items-center text-center text-xs bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded\"\n            [routerLink]=\"'/games/' + this.urlValue\"\n          >\n            Game Page\n          </a>\n          <a\n            class=\"flex justify-center items-center text-center text-xs bg-zinc-800 hover:bg-green-800 outline outline-1 outline-zinc-500 hover:outline-2 font-bold py-2 px-4 rounded\"\n            routerLink=\"/team-builder\"\n          >\n            Team Builder\n          </a>\n        </div>\n      </div> -->\n      <div class=\"bg-zinc-950 rounded w-full sticky top-2\">\n        <dd-card-header [title]=\"'Filters & Options'\"></dd-card-header>\n        <div class=\"p-4 flex gap-2\">\n          <dd-pokedex-select-dropdown\n            [currentVersionGroupName]=\"this.versionGroup.name\"\n          ></dd-pokedex-select-dropdown>\n          <dd-button (onClick)=\"listView = !listView\" class=\"text-xs\">\n            List View\n          </dd-button>\n        </div>\n      </div>\n    </div>\n    <div class=\"col-span-2 bg-zinc-950 rounded h-full w-full\">\n      <dd-card-header\n        class=\"mb-2\"\n        [title]=\"\n          this.versionGroup.name\n            ? this.versionGroup.name + ' Pokedex'\n            : 'Pokedex'\n        \"\n      ></dd-card-header>\n      <div *ngIf=\"pokedexes.length > 0; else elseBlock\" class=\"p-4\">\n        <ul class=\"flex text-xs text-center overflow-x-scroll\">\n          <li class=\"me-2\" *ngFor=\"let pokedex of pokedexes\">\n            <button\n              (click)=\"selectedPokedex = pokedex\"\n              class=\"inline-block whitespace-nowrap p-4 rounded-t hover:bg-zinc-800\"\n              [ngClass]=\"{\n                'bg-zinc-800 cursor-default': selectedPokedex === pokedex,\n                'bg-zinc-900': selectedPokedex !== pokedex\n              }\"\n              aria-current=\"page\"\n            >\n              <span>{{ pokedex.name }}</span>\n            </button>\n          </li>\n        </ul>\n        <ng-container *ngFor=\"let pokedex of pokedexes\">\n          <dd-pokedex-tab\n            *ngIf=\"pokedex === selectedPokedex\"\n            [pokedex]=\"pokedex\"\n            [listView]=\"listView\"\n            [versionGroupIdentifier]=\"versionGroupIdentifier\"\n          ></dd-pokedex-tab>\n        </ng-container>\n      </div>\n      <ng-template #elseBlock>\n        <div class=\"flex w-full h-64 justify-center items-center\">\n          <dd-spinner></dd-spinner>\n        </div>\n      </ng-template>\n    </div>\n  </div>\n</div>\n"
+            "templateData": "<div class=\"flex flex-col justify-start items-center w-full h-full\">\n  <div\n    class=\"grid grid-cols-2 xl:grid-cols-3 gap-2 m-4 max-w-screen-2xl h-full w-full\"\n  >\n    <div\n      class=\"col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 sticky top-0 z-30 xl:relative bg-zinc-900 py-2 xl:py-0 w-full\"\n    >\n      <div class=\"bg-zinc-950 rounded w-full sticky top-2\">\n        <dd-card-header [title]=\"'Filters & Options'\"></dd-card-header>\n        <div class=\"p-4 flex gap-2\">\n          <dd-pokedex-select-dropdown\n            [currentVersionGroupName]=\"this.versionGroup.name\"\n          ></dd-pokedex-select-dropdown>\n          <dd-button (onClick)=\"listView = !listView\" class=\"text-xs\">\n            List View\n          </dd-button>\n        </div>\n      </div>\n    </div>\n    <div class=\"col-span-2 bg-zinc-950 rounded h-full w-full\">\n      <dd-card-header\n        class=\"mb-2\"\n        [title]=\"\n          this.versionGroup.name\n            ? this.versionGroup.name + ' Pokedex'\n            : 'Pokedex'\n        \"\n      ></dd-card-header>\n      <div *ngIf=\"pokedexes.length > 0; else elseBlock\" class=\"p-4\">\n        <ul class=\"flex text-xs text-center overflow-x-scroll\">\n          <li class=\"me-2\" *ngFor=\"let pokedex of pokedexes\">\n            <button\n              (click)=\"selectedPokedex = pokedex\"\n              class=\"inline-block whitespace-nowrap p-4 rounded-t hover:bg-zinc-800\"\n              [ngClass]=\"{\n                'bg-zinc-800 cursor-default': selectedPokedex === pokedex,\n                'bg-zinc-900': selectedPokedex !== pokedex\n              }\"\n              aria-current=\"page\"\n            >\n              <span>{{ pokedex.name }}</span>\n            </button>\n          </li>\n        </ul>\n        <ng-container *ngFor=\"let pokedex of pokedexes\">\n          <dd-pokedex-tab\n            *ngIf=\"pokedex === selectedPokedex\"\n            [pokedex]=\"pokedex\"\n            [listView]=\"listView\"\n            [versionGroupIdentifier]=\"versionGroupIdentifier\"\n          ></dd-pokedex-tab>\n        </ng-container>\n      </div>\n      <ng-template #elseBlock>\n        <div class=\"flex w-full h-64 justify-center items-center\">\n          <dd-spinner></dd-spinner>\n        </div>\n      </ng-template>\n    </div>\n  </div>\n</div>\n"
         },
         {
             "name": "PokedexGridViewItemComponent",
@@ -5020,6 +5020,62 @@
             "templateData": "<div class=\"w-8\" role=\"status\">\n  <svg\n    aria-hidden=\"true\"\n    class=\"w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-byzantium\"\n    viewBox=\"0 0 100 101\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z\"\n      fill=\"currentColor\"\n    />\n    <path\n      d=\"M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z\"\n      fill=\"currentFill\"\n    />\n  </svg>\n  <span class=\"sr-only\">Loading...</span>\n</div>\n"
         },
         {
+            "name": "TableComponent",
+            "id": "component-TableComponent-b07067b781cc4bc4b54979cb50680bb272df024807f7f38923b92ce73779e79cf590cb6d4b66bb96b6c771b51a9b5dfe956bc2eb905da343d200291376c87e69",
+            "file": "src/app/shared/components/table/table.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "dd-table",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./table.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "columns",
+                    "defaultValue": "[]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 9,
+                    "type": "string[]",
+                    "decorators": []
+                },
+                {
+                    "name": "data",
+                    "defaultValue": "[]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 8,
+                    "type": "any[]",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input } from '@angular/core';\n\n@Component({\n  selector: 'dd-table',\n  templateUrl: './table.component.html',\n})\nexport class TableComponent {\n  @Input() data: any[] = [];\n  @Input() columns: string[] = [];\n\n  // Add any additional properties or methods here\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<table>\n  <thead>\n    <tr *ngFor=\"let column of columns\">\n      <th>{{ column }}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let item of data\">\n      <td>{{ item.column1 }}</td>\n      <td>{{ item.column2 }}</td>\n      <td>{{ item.column3 }}</td>\n    </tr>\n  </tbody>\n</table>\n"
+        },
+        {
             "name": "TeamBuilderComponent",
             "id": "component-TeamBuilderComponent-0b84644c70cf44f5ca5c2c2bbebd13032fdfecbdebce7e17bd4608e5fd12ca87953f06b4d0613c7cc5a7e96de01b2ba70636920d9043ffe816e73d98d516a685",
             "file": "src/app/features/team-builder/pages/team-builder.component.ts",
@@ -5687,6 +5743,16 @@
                 "defaultValue": "{\n  args: {},\n}"
             },
             {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/shared/components/table/table.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {},\n}"
+            },
+            {
                 "name": "environment",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -5760,6 +5826,16 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/shared/components/table/table.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<TableComponent>",
+                "defaultValue": "{\n  title: 'Shared/Table',\n  component: TableComponent,\n  tags: ['autodocs'],\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/shared/components/type-box/type-box.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -5810,16 +5886,6 @@
                 "name": "routes",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/features/pokedex/pokedex.module.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "[]",
-                "defaultValue": "[{ path: '', component: PokedexComponent }]"
-            },
-            {
-                "name": "routes",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/features/news/news.module.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -5830,11 +5896,11 @@
                 "name": "routes",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/features/team-builder/team-builder.module.ts",
+                "file": "src/app/features/pokedex/pokedex.module.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "[]",
-                "defaultValue": "[{ path: '', component: TeamBuilderComponent }]"
+                "defaultValue": "[{ path: '', component: PokedexComponent }]"
             },
             {
                 "name": "routes",
@@ -5845,6 +5911,16 @@
                 "deprecationMessage": "",
                 "type": "[]",
                 "defaultValue": "[{ path: '', component: PokemonComponent }]"
+            },
+            {
+                "name": "routes",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/features/team-builder/team-builder.module.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "[]",
+                "defaultValue": "[{ path: '', component: TeamBuilderComponent }]"
             },
             {
                 "name": "Secondary",
@@ -5885,17 +5961,6 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<CardComponent>",
-                "file": "src/app/shared/components/card/card.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 183
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
                 "rawtype": "StoryObj<ButtonComponent>",
                 "file": "src/app/shared/components/button/button.stories.ts",
                 "deprecated": false,
@@ -5907,8 +5972,30 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
+                "rawtype": "StoryObj<CardComponent>",
+                "file": "src/app/shared/components/card/card.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
                 "rawtype": "StoryObj<SpinnerComponent>",
                 "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<TableComponent>",
+                "file": "src/app/shared/components/table/table.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -6003,6 +6090,28 @@
                     "deprecationMessage": "",
                     "type": "Meta<SpinnerComponent>",
                     "defaultValue": "{\n  title: 'Shared/Spinner',\n  component: SpinnerComponent,\n  tags: ['autodocs'],\n}"
+                }
+            ],
+            "src/app/shared/components/table/table.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/table/table.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {},\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/table/table.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<TableComponent>",
+                    "defaultValue": "{\n  title: 'Shared/Table',\n  component: TableComponent,\n  tags: ['autodocs'],\n}"
                 }
             ],
             "src/environments/environment.development.ts": [
@@ -6129,18 +6238,6 @@
                     "defaultValue": "[{ path: '', component: HomeComponent }]"
                 }
             ],
-            "src/app/features/pokedex/pokedex.module.ts": [
-                {
-                    "name": "routes",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/features/pokedex/pokedex.module.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "[]",
-                    "defaultValue": "[{ path: '', component: PokedexComponent }]"
-                }
-            ],
             "src/app/features/news/news.module.ts": [
                 {
                     "name": "routes",
@@ -6153,16 +6250,16 @@
                     "defaultValue": "[{ path: '', component: NewsComponent }]"
                 }
             ],
-            "src/app/features/team-builder/team-builder.module.ts": [
+            "src/app/features/pokedex/pokedex.module.ts": [
                 {
                     "name": "routes",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/features/team-builder/team-builder.module.ts",
+                    "file": "src/app/features/pokedex/pokedex.module.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "[]",
-                    "defaultValue": "[{ path: '', component: TeamBuilderComponent }]"
+                    "defaultValue": "[{ path: '', component: PokedexComponent }]"
                 }
             ],
             "src/app/features/pokemon/pokemon.module.ts": [
@@ -6175,6 +6272,18 @@
                     "deprecationMessage": "",
                     "type": "[]",
                     "defaultValue": "[{ path: '', component: PokemonComponent }]"
+                }
+            ],
+            "src/app/features/team-builder/team-builder.module.ts": [
+                {
+                    "name": "routes",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/features/team-builder/team-builder.module.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "[]",
+                    "defaultValue": "[{ path: '', component: TeamBuilderComponent }]"
                 }
             ]
         },
@@ -6238,19 +6347,6 @@
                     "kind": 194
                 }
             ],
-            "src/app/shared/components/card/card.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<CardComponent>",
-                    "file": "src/app/shared/components/card/card.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
             "src/app/shared/components/button/button.stories.ts": [
                 {
                     "name": "Story",
@@ -6264,6 +6360,19 @@
                     "kind": 183
                 }
             ],
+            "src/app/shared/components/card/card.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<CardComponent>",
+                    "file": "src/app/shared/components/card/card.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
             "src/app/shared/components/spinner/spinner.stories.ts": [
                 {
                     "name": "Story",
@@ -6271,6 +6380,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<SpinnerComponent>",
                     "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "src/app/shared/components/table/table.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<TableComponent>",
+                    "file": "src/app/shared/components/table/table.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -6817,6 +6939,35 @@
             },
             {
                 "filePath": "src/app/shared/components/spinner/spinner.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/table/table.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "TableComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/table/table.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/table/table.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
