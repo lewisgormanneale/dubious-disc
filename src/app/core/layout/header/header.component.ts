@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { CoreModule } from 'src/app/core/core.module';
 import { CommonModule } from '@angular/common';
 import { headerNavItems } from 'src/app/core/models';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'dd-header',
@@ -12,7 +13,10 @@ import { SharedModule } from 'src/app/shared/shared.module';
   imports: [CoreModule, SharedModule, CommonModule, RouterLink],
 })
 export class HeaderComponent {
-  constructor() {}
+  private _themeService = inject(ThemeService);
+  public navItems = headerNavItems;
 
-  navItems = headerNavItems;
+  toggleDarkMode(): void {
+    this._themeService.toggleDarkMode();
+  }
 }

@@ -1,9 +1,11 @@
-<header class="z-50 w-screen bg-byzantium h-[10vh] sm:h-[6vh]">
+<header
+  class="z-50 w-screen bg-byzantium h-[10vh] sm:h-[6vh] flex flex-nowrap justify-between items-center px-4"
+>
   <div
-    class="flex flex-wrap sm:flex-nowrap max-w-screen-xl items-center sm:gap-8"
+    class="flex flex-nowrap sm:flex-nowrap max-w-screen-xl justify-between items-center sm:gap-8"
   >
     <a
-      class="flex justify-center items-center gap-2 h-[6vh] w-full sm:w-auto sm:pl-4"
+      class="flex justify-center items-center gap-2 h-[6vh] w-full sm:w-auto"
       routerLink="/"
     >
       <img
@@ -27,5 +29,8 @@
         </ng-container>
       </ul>
     </nav>
+  </div>
+  <div>
+    <button (click)="toggleDarkMode()" class="text-zinc-50">Dark Mode</button>
   </div>
 </header>
