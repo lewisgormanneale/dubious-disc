@@ -13,16 +13,16 @@
       ></dd-card>
       <div class="col-span-2 lg:col-span-1">
         <dd-card [title]="'Quick Links'">
-          <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 w-full p-4">
+          <div class="flex flex-wrap p-4 gap-2 justify-center">
             <dd-compound-button
               [url]="'/pokedex/scarlet-violet'"
-              [imageUrl]="'assets/images/bdsp-pokedex-icon.png'"
+              [icon]="'heroSwatchSolid'"
               [buttonText]="'Pokédex'"
               [secondaryText]="'View data from any main series game'"
             ></dd-compound-button>
             <dd-compound-button
               [url]="'/pokedex/national/' + randomPokemonIdentifier"
-              [imageUrl]="'assets/images/question-icon.png'"
+              [icon]="'heroQuestionMarkCircleSolid'"
               [buttonText]="'Random Pokémon'"
               [secondaryText]="'View a random Pokémon\'s information'"
             ></dd-compound-button>

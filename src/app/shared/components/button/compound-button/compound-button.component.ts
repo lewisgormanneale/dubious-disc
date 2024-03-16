@@ -6,10 +6,11 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 })
 export class CompoundButtonComponent {
   @Input() appearance: 'primary' | 'secondary' = 'primary';
-  @Input() url: string = '';
-  @Input() imageUrl: string = '';
   @Input() buttonText: string = '';
-  @Input() secondaryText: string = '';
+  @Input() icon: string = '';
+  @Input() secondaryText?: string;
+  @Input() url?: string;
+
   @Output() onClick = new EventEmitter<void>();
 
   handleClick() {
