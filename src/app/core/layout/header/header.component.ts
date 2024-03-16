@@ -6,6 +6,8 @@ import { headerNavItems } from 'src/app/core/models';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { ThemeService } from '../../services/theme.service';
 import { HeaderDropdownItemComponent } from './components/header-dropdown-item/header-dropdown-item.component';
+import { NgIconsModule } from '@ng-icons/core';
+import { heroSunSolid, heroMoonSolid } from '@ng-icons/heroicons/solid';
 
 @Component({
   selector: 'dd-header',
@@ -17,6 +19,10 @@ import { HeaderDropdownItemComponent } from './components/header-dropdown-item/h
     SharedModule,
     RouterLink,
     HeaderDropdownItemComponent,
+    // NgIconsModule.withIcons({
+    //   heroSunSolid,
+    //   heroMoonSolid,
+    // }),
   ],
 })
 export class HeaderComponent {

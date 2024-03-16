@@ -1,58 +1,43 @@
 import { Meta, StoryObj, moduleMetadata } from '@storybook/angular';
 import { ButtonComponent } from './button.component';
-import { NgIconsModule } from '@ng-icons/core';
-import { heroUserCircleSolid } from '@ng-icons/heroicons/solid';
 
 export default {
   title: 'Shared/Button',
   component: ButtonComponent,
   tags: ['autodocs'],
-  decorators: [
-    moduleMetadata({
-      declarations: [ButtonComponent],
-      imports: [
-        NgIconsModule.withIcons({
-          heroUserCircleSolid,
-        }),
-      ],
-    }),
-  ],
 } as Meta;
 
 type Story = StoryObj<ButtonComponent>;
 
+export const Default: Story = {
+  render: () => ({
+    template: `<dd-button>Default</dd-button>`,
+  }),
+};
+
 export const Primary: Story = {
   args: {
-    primary: true,
+    appearance: 'primary',
   },
   render: (args: any) => ({
-    template: `<dd-button [primary]=${args.primary}>Primary</dd-button>`,
+    template: `<dd-button [appearance]="'${args.appearance}'">Primary</dd-button>`,
   }),
 };
 
 export const Secondary: Story = {
   args: {
-    primary: false,
+    appearance: 'secondary',
   },
   render: (args: any) => ({
-    template: `<dd-button [primary]=${args.primary}>Secondary</dd-button>`,
+    template: `<dd-button [appearance]="'${args.appearance}'">Secondary</dd-button>`,
   }),
 };
 
-export const Icon: Story = {
+export const Outline: Story = {
   args: {
-    primary: false,
+    appearance: 'outline',
   },
   render: (args: any) => ({
-    template: `<dd-button [primary]=${args.primary}><ng-icon [name]="'heroUserCircleSolid'"></ng-icon></dd-button>`,
-  }),
-};
-
-export const IconWithText: Story = {
-  args: {
-    primary: false,
-  },
-  render: (args: any) => ({
-    template: `<dd-button [primary]=${args.primary}><ng-icon [name]="'heroUserCircleSolid'"></ng-icon><span>View Profile</span></dd-button>`,
+    template: `<dd-button [appearance]="'${args.appearance}'">Outline</dd-button>`,
   }),
 };
