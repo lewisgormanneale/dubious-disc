@@ -1096,60 +1096,139 @@
         },
         {
             "name": "ThemeService",
-            "id": "injectable-ThemeService-35a209f552c4e218ba3db08b09be0d67e384a510df50b235d6de4b5224824262272cdbeb17d6d7142394cfe1d4bd7d41b54e5ca678aa54a5bd6d85a2596aa119",
+            "id": "injectable-ThemeService-f86cd930257da53faf0fe1fd3b4b564509d7b0c41d6429149e74c67fdb61bdeb5fb0032534c9f174d8a144434886b755340ac4b9ae01621aa150840e3edac1f0",
             "file": "src/app/core/services/theme.service.ts",
             "properties": [
                 {
-                    "name": "darkTheme",
-                    "defaultValue": "new BehaviorSubject<boolean>(false)",
+                    "name": "_destroyed$",
+                    "defaultValue": "new Subject<void>()",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 8,
+                    "line": 19,
                     "modifierKind": [
                         123
                     ]
                 },
                 {
-                    "name": "isDarkTheme",
-                    "defaultValue": "this.darkTheme.asObservable()",
+                    "name": "_document",
+                    "defaultValue": "inject(DOCUMENT)",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 9
+                    "line": 17,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "_platformId",
+                    "defaultValue": "inject(PLATFORM_ID)",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 15,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "_renderer",
+                    "defaultValue": "inject(RendererFactory2).createRenderer(null, null)",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 16,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "_theme$",
+                    "defaultValue": "new ReplaySubject<'light' | 'dark'>(1)",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 18,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "theme$",
+                    "defaultValue": "this._theme$.asObservable()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 21,
+                    "modifierKind": [
+                        125
+                    ]
                 }
             ],
             "methods": [
                 {
-                    "name": "setDarkTheme",
-                    "args": [
-                        {
-                            "name": "isDarkTheme",
-                            "type": "boolean",
-                            "deprecated": false,
-                            "deprecationMessage": ""
-                        }
-                    ],
+                    "name": "ngOnDestroy",
+                    "args": [],
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 11,
+                    "line": 55,
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "jsdoctags": [
-                        {
-                            "name": "isDarkTheme",
-                            "type": "boolean",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "tagName": {
-                                "text": "param"
-                            }
-                        }
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "syncThemeFromLocalStorage",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 28,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "toggleClassOnThemeChanges",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 36,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "toggleDarkMode",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 48,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "modifierKind": [
+                        125
                     ]
                 }
             ],
@@ -1157,7 +1236,15 @@
             "deprecationMessage": "",
             "description": "",
             "rawdescription": "\n",
-            "sourceCode": "import { Injectable } from '@angular/core';\nimport { BehaviorSubject } from 'rxjs';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class ThemeService {\n  private darkTheme = new BehaviorSubject<boolean>(false);\n  isDarkTheme = this.darkTheme.asObservable();\n\n  setDarkTheme(isDarkTheme: boolean) {\n    this.darkTheme.next(isDarkTheme);\n  }\n}\n",
+            "sourceCode": "import { DOCUMENT, isPlatformBrowser } from '@angular/common';\nimport {\n  Injectable,\n  OnDestroy,\n  PLATFORM_ID,\n  RendererFactory2,\n  inject,\n} from '@angular/core';\nimport { ReplaySubject, Subject, takeUntil } from 'rxjs';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class ThemeService implements OnDestroy {\n  private _platformId = inject(PLATFORM_ID);\n  private _renderer = inject(RendererFactory2).createRenderer(null, null);\n  private _document = inject(DOCUMENT);\n  private _theme$ = new ReplaySubject<'light' | 'dark'>(1);\n  private _destroyed$ = new Subject<void>();\n\n  public theme$ = this._theme$.asObservable();\n\n  constructor() {\n    this.syncThemeFromLocalStorage();\n    this.toggleClassOnThemeChanges();\n  }\n\n  private syncThemeFromLocalStorage(): void {\n    if (isPlatformBrowser(this._platformId)) {\n      this._theme$.next(\n        localStorage.getItem('theme') === 'dark' ? 'dark' : 'light'\n      );\n    }\n  }\n\n  private toggleClassOnThemeChanges(): void {\n    this.theme$.pipe(takeUntil(this._destroyed$)).subscribe((theme) => {\n      if (theme === 'dark') {\n        this._renderer.addClass(this._document.documentElement, 'dark');\n      } else {\n        if (this._document.documentElement.className.includes('dark')) {\n          this._renderer.removeClass(this._document.documentElement, 'dark');\n        }\n      }\n    });\n  }\n\n  public toggleDarkMode(): void {\n    const newTheme =\n      localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';\n    localStorage.setItem('theme', newTheme);\n    this._theme$.next(newTheme);\n  }\n\n  public ngOnDestroy(): void {\n    this._destroyed$.next();\n    this._destroyed$.complete();\n  }\n}\n",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 21
+            },
             "extends": [],
             "type": "injectable"
         }
@@ -1169,7 +1256,7 @@
     "components": [
         {
             "name": "AppComponent",
-            "id": "component-AppComponent-4ddb80195dc56cf8836c3718759a5a6cdc74d42f692a8fe40f65682e6194123d6a272b1f4a5bf0ac04766de0e33592561884fa85a8fac28fdc28f2a82d48fd8c",
+            "id": "component-AppComponent-7dafed3b69f0d63732b6133e9ec9d6cd761a00b9fa4ce7b0cde0af85b48f503b636a6711f207051ca6c0f62bf61992226b31a4cc889753e7603073866db1d41d",
             "file": "src/app/app.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1186,52 +1273,8 @@
             "hostDirectives": [],
             "inputsClass": [],
             "outputsClass": [],
-            "propertiesClass": [
-                {
-                    "name": "themeService",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "ThemeService",
-                    "optional": false,
-                    "description": "",
-                    "line": 12,
-                    "modifierKind": [
-                        125
-                    ]
-                },
-                {
-                    "name": "themeSubscription",
-                    "defaultValue": "new Subscription()",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Subscription",
-                    "optional": false,
-                    "description": "",
-                    "line": 10
-                }
-            ],
-            "methodsClass": [
-                {
-                    "name": "ngOnDestroy",
-                    "args": [],
-                    "optional": false,
-                    "returnType": "void",
-                    "typeParameters": [],
-                    "line": 24,
-                    "deprecated": false,
-                    "deprecationMessage": ""
-                },
-                {
-                    "name": "ngOnInit",
-                    "args": [],
-                    "optional": false,
-                    "returnType": "void",
-                    "typeParameters": [],
-                    "line": 14,
-                    "deprecated": false,
-                    "deprecationMessage": ""
-                }
-            ],
+            "propertiesClass": [],
+            "methodsClass": [],
             "deprecated": false,
             "deprecationMessage": "",
             "hostBindings": [],
@@ -1241,42 +1284,12 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, OnDestroy, OnInit } from '@angular/core';\nimport { Subscription } from 'rxjs';\nimport { ThemeService } from './core/services/theme.service';\n\n@Component({\n  selector: 'dd-root',\n  templateUrl: './app.component.html',\n})\nexport class AppComponent implements OnInit, OnDestroy {\n  themeSubscription: Subscription = new Subscription();\n\n  constructor(public themeService: ThemeService) {}\n\n  ngOnInit() {\n    this.themeSubscription = this.themeService.isDarkTheme.subscribe((dark) => {\n      if (dark) {\n        document.body.classList.add('dark');\n      } else {\n        document.body.classList.remove('dark');\n      }\n    });\n  }\n\n  ngOnDestroy() {\n    this.themeSubscription.unsubscribe();\n  }\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'dd-root',\n  templateUrl: './app.component.html',\n})\nexport class AppComponent {}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [
-                    {
-                        "name": "themeService",
-                        "type": "ThemeService",
-                        "deprecated": false,
-                        "deprecationMessage": ""
-                    }
-                ],
-                "line": 10,
-                "jsdoctags": [
-                    {
-                        "name": "themeService",
-                        "type": "ThemeService",
-                        "deprecated": false,
-                        "deprecationMessage": "",
-                        "tagName": {
-                            "text": "param"
-                        }
-                    }
-                ]
-            },
             "extends": [],
-            "implements": [
-                "OnInit",
-                "OnDestroy"
-            ],
-            "templateData": "<dd-header></dd-header>\n<div class=\"h-[94vh] overflow-y-scroll border-box\">\n  <main class=\"bg-zinc-900\">\n    <router-outlet></router-outlet>\n  </main>\n  <dd-footer></dd-footer>\n</div>\n"
+            "templateData": "<dd-header></dd-header>\n<div class=\"h-[94vh] overflow-y-scroll border-box\">\n  <main class=\"bg-light_primary dark:dark_primary\">\n    <router-outlet></router-outlet>\n  </main>\n  <dd-footer></dd-footer>\n</div>\n"
         },
         {
             "name": "ButtonComponent",
@@ -1709,7 +1722,7 @@
                 "line": 12
             },
             "extends": [],
-            "templateData": "<footer class=\"flex flex-col justify-center items-center bg-zinc-950 p-4 gap-4\">\n  <p class=\"text-center text-sm text-zinc-600 h-20 sm:h-6\">\n    Pokémon images & names © 1995-2023 Nintendo/Game Freak. Pokémon data thanks\n    to\n    <a\n      href=\"https://pokeapi.co/\"\n      rel=\"noreferrer\"\n      target=\"_blank\"\n      class=\"underline text-byzantium transition hover:text-old_mauve\"\n      >PokéAPI</a\n    >.\n  </p>\n</footer>\n"
+            "templateData": "<footer\n  class=\"flex flex-col justify-center items-center bg-zinc-100 dark:bg-zinc-950 p-4 gap-4\"\n>\n  <p class=\"text-center text-sm text-zinc-600 h-20 sm:h-6\">\n    Pokémon images & names © 1995-2023 Nintendo/Game Freak. Pokémon data thanks\n    to\n    <a\n      href=\"https://pokeapi.co/\"\n      rel=\"noreferrer\"\n      target=\"_blank\"\n      class=\"underline text-byzantium transition hover:text-old_mauve\"\n      >PokéAPI</a\n    >.\n  </p>\n</footer>\n"
         },
         {
             "name": "GamesComponent",
@@ -1813,7 +1826,7 @@
         },
         {
             "name": "HeaderComponent",
-            "id": "component-HeaderComponent-27298870b45071543cba6089c66cf4f33fc142356b5ee084f006df3591202005383acd5bb0bba3d2b3d7894900d3ab35d8783c7016f88628aa4b83894bdabd60",
+            "id": "component-HeaderComponent-4024b140ba3d256040e9bbedf1daef83e8a480701561a871ae8afa8e1747516deda5c77b8f308491095bd4aff38a3a2a28706ecc93927ef5090fe79d1c9352ed",
             "file": "src/app/core/layout/header/header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1832,6 +1845,19 @@
             "outputsClass": [],
             "propertiesClass": [
                 {
+                    "name": "_themeService",
+                    "defaultValue": "inject(ThemeService)",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 16,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
                     "name": "navItems",
                     "defaultValue": "headerNavItems",
                     "deprecated": false,
@@ -1839,10 +1865,24 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 17
+                    "line": 17,
+                    "modifierKind": [
+                        125
+                    ]
                 }
             ],
-            "methodsClass": [],
+            "methodsClass": [
+                {
+                    "name": "toggleDarkMode",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 19,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
             "deprecated": false,
             "deprecationMessage": "",
             "hostBindings": [],
@@ -1868,20 +1908,12 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\nimport { RouterLink } from '@angular/router';\nimport { CoreModule } from 'src/app/core/core.module';\nimport { CommonModule } from '@angular/common';\nimport { headerNavItems } from 'src/app/core/models';\nimport { SharedModule } from 'src/app/shared/shared.module';\n\n@Component({\n  selector: 'dd-header',\n  templateUrl: './header.component.html',\n  standalone: true,\n  imports: [CoreModule, SharedModule, CommonModule, RouterLink],\n})\nexport class HeaderComponent {\n  constructor() {}\n\n  navItems = headerNavItems;\n}\n",
+            "sourceCode": "import { Component, inject } from '@angular/core';\nimport { RouterLink } from '@angular/router';\nimport { CoreModule } from 'src/app/core/core.module';\nimport { CommonModule } from '@angular/common';\nimport { headerNavItems } from 'src/app/core/models';\nimport { SharedModule } from 'src/app/shared/shared.module';\nimport { ThemeService } from '../../services/theme.service';\n\n@Component({\n  selector: 'dd-header',\n  templateUrl: './header.component.html',\n  standalone: true,\n  imports: [CoreModule, SharedModule, CommonModule, RouterLink],\n})\nexport class HeaderComponent {\n  private _themeService = inject(ThemeService);\n  public navItems = headerNavItems;\n\n  toggleDarkMode(): void {\n    this._themeService.toggleDarkMode();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [],
-                "line": 14
-            },
             "extends": [],
-            "templateData": "<header class=\"z-50 w-screen bg-byzantium h-[10vh] sm:h-[6vh]\">\n  <div\n    class=\"flex flex-wrap sm:flex-nowrap max-w-screen-xl items-center sm:gap-8\"\n  >\n    <a\n      class=\"flex justify-center items-center gap-2 h-[6vh] w-full sm:w-auto sm:pl-4\"\n      routerLink=\"/\"\n    >\n      <img\n        src=\"../../assets/images/dubious-disc.png\"\n        width=\"40\"\n        height=\"40\"\n        alt=\"\"\n      />\n      <span class=\"font-righteous text-3xl uppercase\"> Dubious Disc </span>\n    </a>\n    <nav\n      aria-label=\"Global\"\n      class=\"flex flex-1 justify-center sm:justify-start items-center h-[4vh] sm:h-[6vh] w-full z-50\"\n    >\n      <ul class=\"flex justify-center sm:justify-start items-center h-full\">\n        <ng-container *ngFor=\"let navItem of navItems\">\n          <dd-header-dropdown-item\n            [navItem]=\"navItem\"\n            class=\"h-full\"\n          ></dd-header-dropdown-item>\n        </ng-container>\n      </ul>\n    </nav>\n  </div>\n</header>\n"
+            "templateData": "<header\n  class=\"z-50 w-screen bg-byzantium h-[10vh] sm:h-[6vh] flex flex-nowrap justify-between items-center px-4\"\n>\n  <div\n    class=\"flex flex-nowrap sm:flex-nowrap max-w-screen-xl justify-between items-center sm:gap-8\"\n  >\n    <a\n      class=\"flex justify-center items-center gap-2 h-[6vh] w-full sm:w-auto\"\n      routerLink=\"/\"\n    >\n      <img\n        src=\"../../assets/images/dubious-disc.png\"\n        width=\"40\"\n        height=\"40\"\n        alt=\"\"\n      />\n      <span class=\"font-righteous text-3xl uppercase\"> Dubious Disc </span>\n    </a>\n    <nav\n      aria-label=\"Global\"\n      class=\"flex flex-1 justify-center sm:justify-start items-center h-[4vh] sm:h-[6vh] w-full z-50\"\n    >\n      <ul class=\"flex justify-center sm:justify-start items-center h-full\">\n        <ng-container *ngFor=\"let navItem of navItems\">\n          <dd-header-dropdown-item\n            [navItem]=\"navItem\"\n            class=\"h-full\"\n          ></dd-header-dropdown-item>\n        </ng-container>\n      </ul>\n    </nav>\n  </div>\n  <div>\n    <button (click)=\"toggleDarkMode()\" class=\"text-zinc-50\">Dark Mode</button>\n  </div>\n</header>\n"
         },
         {
             "name": "HeaderDropdownItemComponent",
@@ -6435,7 +6467,7 @@
                 "linktype": "component",
                 "name": "AppComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/6",
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
@@ -6453,7 +6485,7 @@
                 "linktype": "component",
                 "name": "HeaderComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/3",
+                "coverageCount": "0/4",
                 "status": "low"
             },
             {
@@ -6544,7 +6576,7 @@
                 "linktype": "injectable",
                 "name": "ThemeService",
                 "coveragePercent": 0,
-                "coverageCount": "0/4",
+                "coverageCount": "0/12",
                 "status": "low"
             },
             {
