@@ -5,10 +5,10 @@ import htm from 'htm';
 import vhtml from 'vhtml';
 
 @Component({
-  selector: 'dd-news-card',
-  templateUrl: './news-card.component.html',
+  selector: 'dd-news-preview',
+  templateUrl: './news-preview.component.html',
 })
-export class PostCardComponent implements OnInit {
+export class NewsPreviewComponent implements OnInit {
   @Input() post: any = {} as any;
   imageUrl: string = '';
 

@@ -8,13 +8,11 @@
     <div
       class="grid grid-cols-2 xl:grid-cols-3 gap-4 mb-4 mx-8 max-w-screen-2xl"
     >
-      <dd-news-container class="col-span-2"></dd-news-container>
+      <dd-card [title]="'News & Updates'" class="col-span-2">
+        <dd-news-preview-list class="col-span-2"></dd-news-preview-list
+      ></dd-card>
       <div class="col-span-2 lg:col-span-1">
-        <div class="bg-zinc-950 rounded">
-          <dd-card-header
-            [title]="'Quick Links'"
-            class="text-sm"
-          ></dd-card-header>
+        <dd-card [title]="'Quick Links'">
           <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 w-full p-4">
             <dd-quick-link
               [url]="'/pokedex/scarlet-violet'"
@@ -35,7 +33,7 @@
               [description]="'View a random Pokémon\'s information'"
             ></dd-quick-link>
           </div>
-        </div>
+        </dd-card>
       </div>
     </div>
   </div>

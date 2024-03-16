@@ -2,10 +2,10 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { SanityService } from 'src/app/core/services/sanity.service';
 
 @Component({
-  selector: 'dd-news-container',
-  templateUrl: './news-container.component.html',
+  selector: 'dd-news-preview-list',
+  templateUrl: './news-preview-list.component.html',
 })
-export class NewsContainerComponent implements OnChanges {
+export class NewsPreviewListComponent implements OnChanges {
   @Input() category?: string;
   posts: any;
 

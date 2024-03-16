@@ -1,0 +1,12 @@
+<div class="flex flex-col gap-3 items-center p-4">
+  <ng-container *ngFor="let group of posts">
+    <div class="w-full flex">{{ group[0] }}</div>
+    <dd-news-preview
+      *ngFor="let post of group[1]"
+      [post]="post"
+    ></dd-news-preview>
+  </ng-container>
+</div>
+<ng-template #elseBlock>
+  <dd-spinner></dd-spinner>
+</ng-template>

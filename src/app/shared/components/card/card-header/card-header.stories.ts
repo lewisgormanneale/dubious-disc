@@ -1,15 +1,14 @@
 import { StoryObj, Meta, moduleMetadata } from '@storybook/angular';
-import { CardComponent } from './card.component';
-import { CardHeaderComponent } from './card-header/card-header.component';
+import { CardHeaderComponent } from './card-header.component';
 
-const meta: Meta<CardComponent> = {
-  title: 'Shared/Card',
-  component: CardComponent,
+const meta: Meta<CardHeaderComponent> = {
+  title: 'Shared/Card/CardHeader',
+  component: CardHeaderComponent,
   tags: ['autodocs'],
   decorators: [
     moduleMetadata({
       //👇 Imports both components to allow component composition with Storybook
-      declarations: [CardComponent, CardHeaderComponent],
+      declarations: [CardHeaderComponent],
       imports: [],
     }),
   ],
@@ -17,7 +16,7 @@ const meta: Meta<CardComponent> = {
 
 export default meta;
 
-type Story = StoryObj<CardComponent>;
+type Story = StoryObj<CardHeaderComponent>;
 
 export const Default: Story = {
   args: {
