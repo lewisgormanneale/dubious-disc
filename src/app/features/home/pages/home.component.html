@@ -14,24 +14,18 @@
       <div class="col-span-2 lg:col-span-1">
         <dd-card [title]="'Quick Links'">
           <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 w-full p-4">
-            <dd-quick-link
+            <dd-compound-button
               [url]="'/pokedex/scarlet-violet'"
               [imageUrl]="'assets/images/bdsp-pokedex-icon.png'"
-              [title]="'Pokédex'"
-              [description]="'View data from any main series game'"
-            ></dd-quick-link>
-            <!-- <dd-quick-link
-              [url]="'/team-builder'"
-              [imageUrl]="'assets/images/poryphone.png'"
-              [title]="'Team Builder'"
-              [description]="'Plan a team for a playthrough'"
-            ></dd-quick-link> -->
-            <dd-quick-link
+              [buttonText]="'Pokédex'"
+              [secondaryText]="'View data from any main series game'"
+            ></dd-compound-button>
+            <dd-compound-button
               [url]="'/pokedex/national/' + randomPokemonIdentifier"
               [imageUrl]="'assets/images/question-icon.png'"
-              [title]="'Random Pokémon'"
-              [description]="'View a random Pokémon\'s information'"
-            ></dd-quick-link>
+              [buttonText]="'Random Pokémon'"
+              [secondaryText]="'View a random Pokémon\'s information'"
+            ></dd-compound-button>
           </div>
         </dd-card>
       </div>

@@ -12,10 +12,11 @@ import { DropdownLinkComponent } from './components/dropdown-link/dropdown-link.
 import { PokedexSelectDropdownComponent } from './components/pokedex-select-dropdown/pokedex-select-dropdown.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { heroChevronDownSolid } from '@ng-icons/heroicons/solid';
-import { CardComponent } from './components/card/card.component';
-import { ButtonComponent } from './components/button/button.component';
+import { CardComponent } from './components/card/card/card.component';
+import { ButtonComponent } from './components/button/button/button.component';
 import { NewsPreviewComponent } from './components/news-preview/news-preview.component';
 import { NewsPreviewListComponent } from './components/news-preview-list/news-preview-list.component';
+import { CompoundButtonComponent } from './components/button/compound-button/compound-button.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { NewsPreviewListComponent } from './components/news-preview-list/news-pr
     PokedexSelectDropdownComponent,
     HeaderDropdownItemComponent,
     ButtonComponent,
+    CompoundButtonComponent,
     CardComponent,
     CardHeaderComponent,
     NewsPreviewListComponent,
@@ -49,6 +51,7 @@ import { NewsPreviewListComponent } from './components/news-preview-list/news-pr
     PokedexSelectDropdownComponent,
     NewsPreviewComponent,
     ButtonComponent,
+    CompoundButtonComponent,
     CardComponent,
     CardHeaderComponent,
     NewsPreviewListComponent,

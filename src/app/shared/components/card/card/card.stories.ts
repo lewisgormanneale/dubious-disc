@@ -1,6 +1,6 @@
 import { StoryObj, Meta, moduleMetadata } from '@storybook/angular';
 import { CardComponent } from './card.component';
-import { CardHeaderComponent } from './card-header/card-header.component';
+import { CardHeaderComponent } from '../card-header/card-header.component';
 
 const meta: Meta<CardComponent> = {
   title: 'Shared/Card',

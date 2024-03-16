@@ -1,5 +1,5 @@
 <div class="flex flex-col items-center p-4">
-  <div class="max-w-screen-md bg-zinc-950 rounded w-full">
+  <dd-card class="max-w-screen-md">
     <div
       *ngIf="post && post.mainImage && imagesLoaded; else elseBlock"
       class="flex flex-col pb-4 w-full rounded"
@@ -8,7 +8,9 @@
       <h2 class="font-bold text-4xl p-4">
         {{ post.title }}
       </h2>
-      <div class="bg-zinc-700 h-[1px] w-full rounded"></div>
+      <div
+        class="bg-light_tertiary dark:bg-dark_tertiary h-[1px] w-full rounded"
+      ></div>
       <div class="flex flex-row justify-between items-center p-4 w-full">
         <div
           class="flex flex-row items-center gap-2"
@@ -34,7 +36,9 @@
           {{ formatDate(post.publishedAt) }}
         </span>
       </div>
-      <div class="bg-zinc-700 h-[1px] w-full rounded"></div>
+      <div
+        class="bg-light_tertiary dark:bg-dark_tertiary h-[1px] w-full rounded"
+      ></div>
       <div
         class="p-4 flex flex-col gap-3"
         [innerHTML]="toHTML(post.body)"
@@ -45,5 +49,5 @@
         <dd-spinner></dd-spinner>
       </div>
     </ng-template>
-  </div>
+  </dd-card>
 </div>
