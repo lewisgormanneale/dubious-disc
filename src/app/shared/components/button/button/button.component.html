@@ -1,11 +1,7 @@
 <button
-  [ngClass]="
-    isPrimary
-      ? 'bg-byzantium hover:bg-old_mauve'
-      : 'bg-zinc-900 hover:bg-zinc-800'
-  "
+  [ngClass]="isPrimary ? 'bg-disc hover:bg-disc_darker text-light_primary' : ''"
   type="button"
-  class="py-2 px-4 h-10 text-sm flex justify-center items-center gap-2 rounded border border-zinc-700 cursor-pointer"
+  class="py-2 px-4 h-10 bg-white hover:bg-light_tertiary dark:bg-black dark:hover:bg-dark_tertiary text-sm flex justify-center items-center gap-2 rounded border border-zinc-700 cursor-pointer"
   (click)="handleClick()"
 >
   <ng-content></ng-content>

@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        byzantium: "#702f63",
-        old_mauve: "#522248",
+        disc: "#702f63",
+        disc_darker: "#522248",
         dark_primary: "#18181b",
         dark_secondary: "#09090b",
         dark_tertiary: "#3a3a3a",

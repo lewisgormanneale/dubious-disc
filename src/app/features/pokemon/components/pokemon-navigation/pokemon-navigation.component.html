@@ -1,6 +1,7 @@
 <section class="flex justify-between items-center w-full mb-2">
   <div class="flex flex-col-reverse gap-2 sm:flex-row sm:items-center">
     <dd-button
+      [appearance]="'primary'"
       *ngIf="previousPokemonIdentifier && previousPokemonImageUrl"
       (onClick)="navigateToPokemon(previousPokemonIdentifier)"
     >

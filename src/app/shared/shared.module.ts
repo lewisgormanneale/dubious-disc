@@ -4,7 +4,6 @@ import { DecimetersToFeetAndInchesPipe } from './pipes/decimeters-to-feet-and-in
 import { DecimetersToPoundsPipe } from './pipes/decimeters-to-pounds/decimeters-to-pounds.pipe';
 import { FormsModule } from '@angular/forms';
 import { TypeBoxComponent } from './components/type-box/type-box.component';
-import { HeaderDropdownItemComponent } from './components/header-dropdown-item/header-dropdown-item.component';
 import { CardHeaderComponent } from './components/card/card-header/card-header.component';
 import { RouterModule } from '@angular/router';
 import { SpinnerComponent } from './components/spinner/spinner.component';
@@ -26,7 +25,6 @@ import { CompoundButtonComponent } from './components/button/compound-button/com
     NewsPreviewComponent,
     DropdownLinkComponent,
     PokedexSelectDropdownComponent,
-    HeaderDropdownItemComponent,
     ButtonComponent,
     CompoundButtonComponent,
     CardComponent,
@@ -46,7 +44,6 @@ import { CompoundButtonComponent } from './components/button/compound-button/com
     DecimetersToFeetAndInchesPipe,
     DecimetersToPoundsPipe,
     TypeBoxComponent,
-    HeaderDropdownItemComponent,
     DropdownLinkComponent,
     PokedexSelectDropdownComponent,
     NewsPreviewComponent,

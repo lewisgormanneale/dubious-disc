@@ -1,6 +1,8 @@
 <div class="flex flex-col gap-3 items-center p-4">
   <ng-container *ngFor="let group of posts">
-    <div class="w-full flex">{{ group[0] }}</div>
+    <div class="w-full flex font-semibold underline-offset-8 underline">
+      {{ group[0] }}
+    </div>
     <dd-news-preview
       *ngFor="let post of group[1]"
       [post]="post"

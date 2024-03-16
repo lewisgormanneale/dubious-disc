@@ -5,7 +5,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   templateUrl: './button.component.html',
 })
 export class ButtonComponent {
-  @Input() appearence: 'primary' | 'secondary' = 'primary';
+  @Input() appearance: 'primary' | 'secondary' = 'secondary';
   @Input() as: 'button' | 'a' = 'button';
   @Output() onClick = new EventEmitter<void>();
 
@@ -14,6 +14,6 @@ export class ButtonComponent {
   }
 
   get isPrimary() {
-    return this.appearence === 'primary';
+    return this.appearance === 'primary';
   }
 }

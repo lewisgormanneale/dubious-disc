@@ -1,5 +1,6 @@
-<article
-  class="flex bg-light_primary dark:bg-dark_primary transition hover:shadow-xl rounded"
+<a
+  class="flex bg-light_primary dark:bg-dark_primary transition hover:shadow-xl rounded cursor-pointer"
+  [routerLink]="['/', 'news', post.slug.current]"
 >
   <div class="hidden sm:block sm:basis-56">
     <img
@@ -26,10 +27,10 @@
     <div class="sm:flex sm:items-end sm:justify-end">
       <a
         [routerLink]="['/', 'news', post.slug.current]"
-        class="block bg-byzantium px-5 py-3 text-center text-xs font-semibold uppercase transition hover:bg-old_mauve rounded-br text-zinc-200"
+        class="block bg-disc px-5 py-3 text-center text-xs font-semibold uppercase transition hover:bg-disc_darker rounded-br text-zinc-200"
       >
         View Full Post
       </a>
     </div>
   </div>
-</article>
+</a>

@@ -9,9 +9,14 @@ import {
 import { Subscription } from 'rxjs';
 import { NavigationItem } from 'src/app/core/models';
 import { HeaderDropdownItemService } from './header-dropdown-item.service';
+import { RouterLink } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { CoreModule } from 'src/app/core/core.module';
 @Component({
   selector: 'dd-header-dropdown-item',
   templateUrl: './header-dropdown-item.component.html',
+  standalone: true,
+  imports: [CoreModule, CommonModule, RouterLink],
 })
 export class HeaderDropdownItemComponent implements OnInit, OnDestroy {
   @Input() navItem!: NavigationItem;

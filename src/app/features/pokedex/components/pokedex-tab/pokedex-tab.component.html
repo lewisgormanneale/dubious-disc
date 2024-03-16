@@ -1,4 +1,6 @@
-<div class="flex flex-col rounded-b py-2 w-full bg-zinc-800">
+<div
+  class="flex flex-col rounded-b py-2 w-full bg-light_primary dark:bg-dark_primary"
+>
   <div *ngIf="listView; else gridView" class="flex flex-col w-full">
     <dd-pokedex-list-view-item
       *ngFor="let pokemon of pokemonEntries; index as index"
