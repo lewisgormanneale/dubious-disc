@@ -33,6 +33,7 @@
     </nav>
   </div>
   <div>
-    <button (click)="toggleDarkMode()">Dark Mode</button>
+    <dd-switch [checked]="isDarkMode" (checkedChange)="toggleDarkMode()">
+    </dd-switch>
   </div>
 </header>

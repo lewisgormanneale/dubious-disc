@@ -52,6 +52,10 @@ export class ThemeService implements OnDestroy {
     this._theme$.next(newTheme);
   }
 
+  public isDarkMode(): boolean {
+    return localStorage.getItem('theme') === 'dark';
+  }
+
   public ngOnDestroy(): void {
     this._destroyed$.next();
     this._destroyed$.complete();

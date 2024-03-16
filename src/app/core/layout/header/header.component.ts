@@ -11,7 +11,13 @@ import { HeaderDropdownItemComponent } from './components/header-dropdown-item/h
   selector: 'dd-header',
   templateUrl: './header.component.html',
   standalone: true,
-  imports: [CoreModule, CommonModule, RouterLink, HeaderDropdownItemComponent],
+  imports: [
+    CoreModule,
+    CommonModule,
+    SharedModule,
+    RouterLink,
+    HeaderDropdownItemComponent,
+  ],
 })
 export class HeaderComponent {
   private _themeService = inject(ThemeService);
@@ -19,5 +25,9 @@ export class HeaderComponent {
 
   toggleDarkMode(): void {
     this._themeService.toggleDarkMode();
+  }
+
+  get isDarkMode(): boolean {
+    return this._themeService.isDarkMode();
   }
 }

@@ -16,6 +16,7 @@ import { ButtonComponent } from './components/button/button/button.component';
 import { NewsPreviewComponent } from './components/news-preview/news-preview.component';
 import { NewsPreviewListComponent } from './components/news-preview-list/news-preview-list.component';
 import { CompoundButtonComponent } from './components/button/compound-button/compound-button.component';
+import { SwitchComponent } from './components/switch/switch.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { CompoundButtonComponent } from './components/button/compound-button/com
     CardHeaderComponent,
     NewsPreviewListComponent,
     SpinnerComponent,
+    SwitchComponent,
   ],
   imports: [
     CommonModule,
@@ -53,6 +55,7 @@ import { CompoundButtonComponent } from './components/button/compound-button/com
     CardHeaderComponent,
     NewsPreviewListComponent,
     SpinnerComponent,
+    SwitchComponent,
   ],
 })
 export class SharedModule {}
