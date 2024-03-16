@@ -14,11 +14,11 @@ import {
 } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { Subscription, filter } from 'rxjs';
-import { DropdownLinkSection } from 'src/app/core/models';
+import { DropdownSection } from 'src/app/core/models';
 
 @Component({
-  selector: 'dd-dropdown-link',
-  templateUrl: './dropdown-link.component.html',
+  selector: 'dd-dropdown',
+  templateUrl: './dropdown.component.html',
   animations: [
     trigger('fadeInOut', [
       state(
@@ -32,8 +32,8 @@ import { DropdownLinkSection } from 'src/app/core/models';
     ]),
   ],
 })
-export class DropdownLinkComponent implements OnDestroy {
-  @Input() sections: DropdownLinkSection[] = [];
+export class DropdownComponent implements OnDestroy {
+  @Input() sections: DropdownSection[] = [];
   @Input() placeholder: string = '';
   @Input() origin?: string = '';
   showDropdown: boolean = false;

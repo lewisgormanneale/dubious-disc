@@ -1,14 +1,6 @@
-import {
-  Component,
-  EventEmitter,
-  inject,
-  Input,
-  OnChanges,
-  Output,
-  SimpleChanges,
-} from '@angular/core';
-import { takeUntil, tap, switchMap, forkJoin, map, Subject } from 'rxjs';
-import { DropdownLinkSection, Tables } from 'src/app/core/models';
+import { Component, inject, Input, OnChanges } from '@angular/core';
+import { Subject } from 'rxjs';
+import { Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({

@@ -1,9 +1,9 @@
-export interface DropdownLinkOption {
+export interface DropdownOption {
   name: string;
   path: string;
 }
 
-export interface DropdownLinkSection {
+export interface DropdownSection {
   name: string;
-  options: DropdownLinkOption[];
+  options: DropdownOption[];
 }

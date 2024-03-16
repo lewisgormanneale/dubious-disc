@@ -1,14 +1,8 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { versions } from 'process';
-import { map, switchMap, tap, forkJoin, Subject, takeUntil } from 'rxjs';
-import { DropdownLinkSection, Tables } from 'src/app/core/models';
+import { map, switchMap, tap, Subject } from 'rxjs';
+import { Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
-
-interface DropdownLinkOption {
-  name: string;
-  path: string;
-}
 
 @Component({
   selector: 'dd-pokemon',

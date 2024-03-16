@@ -8,7 +8,7 @@ import {
 } from '@angular/core';
 import { Router } from '@angular/router';
 import { takeUntil, tap, switchMap, forkJoin, map, Subject } from 'rxjs';
-import { DropdownLinkSection, Tables } from 'src/app/core/models';
+import { DropdownSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -24,7 +24,7 @@ export class PokemonNavigationComponent implements OnChanges {
   @Output() versions = new EventEmitter<any>();
 
   selectedVersionGroupName: string = '';
-  pokemonDropdownOptions: DropdownLinkSection[] = [];
+  pokemonDropdownOptions: DropdownSection[] = [];
   randomPokemonIdentifier: string = '';
   previousPokemonImageUrl: string = '';
   previousPokemonIdentifier: string = '';

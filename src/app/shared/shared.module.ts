@@ -7,7 +7,7 @@ import { TypeBoxComponent } from './components/type-box/type-box.component';
 import { CardHeaderComponent } from './components/card/card-header/card-header.component';
 import { RouterModule } from '@angular/router';
 import { SpinnerComponent } from './components/spinner/spinner.component';
-import { DropdownLinkComponent } from './components/dropdown-link/dropdown-link.component';
+import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { PokedexSelectDropdownComponent } from './components/pokedex-select-dropdown/pokedex-select-dropdown.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { heroChevronDownSolid } from '@ng-icons/heroicons/solid';
@@ -24,7 +24,7 @@ import { SwitchComponent } from './components/switch/switch.component';
     DecimetersToPoundsPipe,
     TypeBoxComponent,
     NewsPreviewComponent,
-    DropdownLinkComponent,
+    DropdownComponent,
     PokedexSelectDropdownComponent,
     ButtonComponent,
     CompoundButtonComponent,
@@ -46,7 +46,7 @@ import { SwitchComponent } from './components/switch/switch.component';
     DecimetersToFeetAndInchesPipe,
     DecimetersToPoundsPipe,
     TypeBoxComponent,
-    DropdownLinkComponent,
+    DropdownComponent,
     PokedexSelectDropdownComponent,
     NewsPreviewComponent,
     ButtonComponent,

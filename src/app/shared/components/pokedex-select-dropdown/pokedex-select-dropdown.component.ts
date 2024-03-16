@@ -1,6 +1,6 @@
 import { Component, Input, OnChanges, inject } from '@angular/core';
 import { Subject, forkJoin, takeUntil } from 'rxjs';
-import { DropdownLinkSection, Tables } from 'src/app/core/models';
+import { DropdownSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -12,7 +12,7 @@ export class PokedexSelectDropdownComponent implements OnChanges {
   @Input() currentVersionGroupName: string = '';
   @Input() origin: string = 'left';
 
-  public sections: DropdownLinkSection[] = [];
+  public sections: DropdownSection[] = [];
   public placeholder: string = 'Select Pokedex';
 
   private supabase: SupabaseService = inject(SupabaseService);
@@ -98,7 +98,7 @@ export class PokedexSelectDropdownComponent implements OnChanges {
           this.sections = [
             ...generations
               .reverse()
-              .reduce((acc: DropdownLinkSection[], generation) => {
+              .reduce((acc: DropdownSection[], generation) => {
                 const matchingVersionGroups = versionGroups.filter(
                   (versionGroup): boolean =>
                     versionGroup.generation_id === generation.id &&
