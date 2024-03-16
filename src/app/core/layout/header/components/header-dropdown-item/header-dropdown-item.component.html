@@ -2,10 +2,10 @@
   <button
     (click)="toggleDropdown()"
     [ngClass]="{
-      'bg-porygon_blue_darker': isOpen,
-      'bg-porygon_blue': !isOpen,
+      'bg-light_tertiary dark:bg-dark_tertiary': isOpen,
+      'bg-white dark:bg-black': !isOpen,
     }"
-    class="flex items-center justify-center rounded-t sm:rounded-none transition h-full px-4 font-semibold text-sm hover:bg-porygon_blue_darker"
+    class="flex items-center justify-center transition h-full px-4 font-semibold text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary"
   >
     {{ navItem.label }}
   </button>
@@ -15,18 +15,20 @@
       'visible, scale-y-100': isOpen,
       'invisible, scale-y-0': !isOpen,
     }"
-    class="absolute right-0 bg-zinc-950 sm:rounded-b border-disc_darker border-[1px] mr-[1px] border-t-0 w-screen sm:w-80 overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform"
+    class="absolute right-0 bg-white dark:bg-black sm:rounded-b border-light_tertiary dark:border-dark_tertiary border-[1px] mr-[1px] border-t-0 w-screen sm:w-80 overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform"
   >
     <ng-container *ngFor="let section of navItem.sections">
       <li class="">
-        <div class="text-sm font-semibold px-2 py-1 bg-porygon_blue_darker">
+        <div
+          class="text-sm font-semibold px-2 py-1 bg-porygon_blue_darker text-light_primary"
+        >
           {{ section.sectionTitle }}
         </div>
         <ul class="space-y-1">
           <li *ngFor="let option of section.options">
             <a
               routerLink="{{ option.link }}"
-              class="block px-4 py-2 font-sans text-sm hover:bg-zinc-800"
+              class="block px-4 py-2 font-sans text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary"
             >
               {{ option.label }}
             </a>
