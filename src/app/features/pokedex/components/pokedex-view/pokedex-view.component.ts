@@ -1,13 +1,13 @@
-import { Component, Input, inject } from '@angular/core';
+import { Component, Input, OnChanges, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
-  selector: 'dd-pokedex-tab',
-  templateUrl: './pokedex-tab.component.html',
+  selector: 'dd-pokedex-view',
+  templateUrl: './pokedex-view.component.html',
 })
-export class PokedexTabComponent {
+export class PokedexViewComponent implements OnChanges {
   @Input() pokedex: Tables<'pokedexes'> = {} as Tables<'pokedexes'>;
   @Input() versionGroupIdentifier: string = '';
   @Input() listView: boolean = false;
@@ -16,7 +16,7 @@ export class PokedexTabComponent {
   private supabase: SupabaseService = inject(SupabaseService);
   private router: Router = inject(Router);
 
-  ngOnInit() {
+  ngOnChanges() {
     this.supabase
       .getPokemonSpeciesByPokedexId(this.pokedex.id)
       .subscribe((data: any) => {

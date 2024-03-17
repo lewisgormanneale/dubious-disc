@@ -19,7 +19,7 @@ import {
   bootstrapGenderFemale,
   bootstrapGenderMale,
 } from '@ng-icons/bootstrap-icons';
-import { PokedexTabComponent } from './components/pokedex-tab/pokedex-tab.component';
+import { PokedexViewComponent } from './components/pokedex-view/pokedex-view.component';
 
 const routes = [{ path: '', component: PokedexComponent }];
 
@@ -28,7 +28,7 @@ const routes = [{ path: '', component: PokedexComponent }];
     PokedexComponent,
     PokedexGridViewItemComponent,
     PokedexListViewItemComponent,
-    PokedexTabComponent,
+    PokedexViewComponent,
   ],
   imports: [
     CommonModule,

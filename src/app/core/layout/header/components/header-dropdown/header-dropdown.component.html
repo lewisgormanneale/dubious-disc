@@ -5,7 +5,7 @@
       'bg-light_tertiary dark:bg-dark_tertiary': isOpen,
       'bg-white dark:bg-black': !isOpen,
     }"
-    class="flex items-center justify-center transition h-full px-4 font-semibold text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary"
+    class="flex items-center justify-center transition h-full px-2 font-semibold text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary"
   >
     {{ navItem.label }}
   </button>
@@ -15,7 +15,7 @@
       'visible, scale-y-100': isOpen,
       'invisible, scale-y-0': !isOpen,
     }"
-    class="absolute right-0 bg-white dark:bg-black sm:rounded-b border-light_tertiary dark:border-dark_tertiary border-[1px] mr-[1px] border-t-0 w-screen sm:w-80 overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform"
+    class="absolute right-0 z-50 bg-white dark:bg-black sm:rounded-b border-light_tertiary dark:border-dark_tertiary border-[1px] mr-[1px] border-t-0 w-screen sm:w-80 overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform"
   >
     <ng-container *ngFor="let section of navItem.sections">
       <li class="">

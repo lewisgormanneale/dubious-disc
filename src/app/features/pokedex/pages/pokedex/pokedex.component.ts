@@ -1,7 +1,7 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subject, switchMap } from 'rxjs';
-import { Tables } from 'src/app/core/models';
+import { Tab, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -42,6 +42,21 @@ export class PokedexComponent implements OnInit {
         this.selectedPokedex = data[0];
       });
   }
+
+  get pokedexTabs() {
+    return this.pokedexes.map((pokedex) => ({
+      name: pokedex.name,
+      identifier: pokedex.identifier,
+    }));
+  }
+
+  selectTab(tab: Tab) {
+    this.selectedPokedex =
+      this.pokedexes.find((pokedex) => pokedex.identifier === tab.identifier) ||
+      this.pokedexes[0];
+    console.log(this.selectedPokedex);
+  }
+
   ngOnDestroy(): void {
     this.ngUnsubscribe.next();
     this.ngUnsubscribe.complete();

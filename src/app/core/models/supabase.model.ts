@@ -6,7 +6,7 @@ export type Json =
   | { [key: string]: Json | undefined }
   | Json[]
 
-export interface Database {
+export type Database = {
   public: {
     Tables: {
       abilities: {
@@ -1755,25 +1755,25 @@ export interface Database {
         Row: {
           description: string | null
           id: number
-          identifier: string | null
+          identifier: string
           is_main_series: boolean | null
-          name: string | null
+          name: string
           region_id: number | null
         }
         Insert: {
           description?: string | null
           id: number
-          identifier?: string | null
+          identifier: string
           is_main_series?: boolean | null
-          name?: string | null
+          name: string
           region_id?: number | null
         }
         Update: {
           description?: string | null
           id?: number
-          identifier?: string | null
+          identifier?: string
           is_main_series?: boolean | null
-          name?: string | null
+          name?: string
           region_id?: number | null
         }
         Relationships: [
