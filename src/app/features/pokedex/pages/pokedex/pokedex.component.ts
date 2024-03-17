@@ -54,7 +54,6 @@ export class PokedexComponent implements OnInit {
     this.selectedPokedex =
       this.pokedexes.find((pokedex) => pokedex.identifier === tab.identifier) ||
       this.pokedexes[0];
-    console.log(this.selectedPokedex);
   }
 
   ngOnDestroy(): void {

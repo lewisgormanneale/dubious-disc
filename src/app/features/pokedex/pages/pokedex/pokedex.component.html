@@ -23,7 +23,11 @@
       "
     >
       <div *ngIf="pokedexes.length > 0; else elseBlock" class="p-4">
-        <dd-tab-list [tabs]="pokedexTabs" (tabChange)="selectTab($event)">
+        <dd-tab-list
+          [tabs]="pokedexTabs"
+          [activeTab]="selectedPokedex"
+          (tabChange)="selectTab($event)"
+        >
           <dd-pokedex-view
             [pokedex]="selectedPokedex"
             [listView]="listView"

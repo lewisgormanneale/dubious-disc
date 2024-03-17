@@ -6,14 +6,12 @@ import { Tab } from 'src/app/core/models';
   templateUrl: './tab-list.component.html',
 })
 export class TabListComponent {
-  @Input() tabs: Tab[] = []; // Array of tab names
-  @Input() activeTab: Tab = this.tabs[0]; // Currently active tab
-  @Output() tabChange: EventEmitter<Tab> = new EventEmitter<Tab>(); // Event emitter for tab change
+  @Input() tabs: Tab[] = [];
+  @Input() activeTab: Tab = this.tabs[0];
+  @Output() tabChange: EventEmitter<Tab> = new EventEmitter<Tab>();
 
-  // Method to handle tab selection
   selectTab(tab: Tab) {
     this.activeTab = tab;
     this.tabChange.emit(tab);
-    console.log('Tab selected: ', tab);
   }
 }

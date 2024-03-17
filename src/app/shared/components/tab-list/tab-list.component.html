@@ -1,25 +1,22 @@
-<div>
-  <ul class="flex text-xs text-center overflow-x-scroll">
+<div class="flex flex-col">
+  <ul class="flex text-xs text-center">
     <li
       *ngFor="let tab of tabs"
-      class="me-2 inline-block whitespace-nowrap p-4 rounded-t hover:bg-light_tertiary dark:hover:bg-dark_tertiary"
+      class="my-2 flex flex-col hover:bg-light_tertiary dark:hover:bg-dark_tertiary"
       (click)="selectTab(tab)"
       [ngClass]="{
-        'cursor-default font-sans-semi-bold': tab === activeTab,
-        'cursor-pointer': tab !== activeTab
+        'cursor-default': tab.identifier === activeTab.identifier,
+        'cursor-pointer': tab.identifier !== activeTab.identifier
       }"
-      aria-current="page"
     >
-      <span>
+      <span class="py-2 px-3">
         {{ tab.name }}
       </span>
       <div
-        *ngIf="tab === activeTab"
-        class="h-2 w-4 bg-porygon_blue_darker"
+        *ngIf="tab.identifier === activeTab.identifier"
+        class="h-[2px] w-full bg-porygon_blue_darker"
       ></div>
     </li>
   </ul>
-  <div class="">
-    <ng-content></ng-content>
-  </div>
+  <ng-content></ng-content>
 </div>
