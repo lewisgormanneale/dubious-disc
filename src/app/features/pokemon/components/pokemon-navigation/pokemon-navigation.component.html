@@ -28,10 +28,11 @@
     class="flex flex-col sm:flex-row items-center gap-3"
     *ngIf="this.pokemonSpecies.id"
   >
-    <dd-pokedex-select-dropdown
-      [selectedPokemonSpecies]="this.pokemonSpecies"
-      [currentVersionGroupName]="this.selectedVersionGroupName"
-    ></dd-pokedex-select-dropdown>
+    <dd-dropdown
+      [sections]="this.pokedexDropdownOptions"
+      [placeholder]="this.selectedVersionGroupName ?? 'Select Pokédex'"
+    >
+    </dd-dropdown>
     <dd-dropdown
       [placeholder]="this.pokemonSpecies.name ?? 'Select Pokémon'"
       [sections]="pokemonDropdownOptions"
