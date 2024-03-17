@@ -1,27 +1,16 @@
-<div class="flex flex-col rounded w-full bg-porygon_blue">
-  <dd-card-header [title]="'Learnable Moves'" class="text-sm"></dd-card-header>
-  <div *ngIf="moveGroups.length > 0">
-    <ul class="flex text-xs text-center overflow-x-scroll pt-2 bg-zinc-900">
-      <li class="me-2" *ngFor="let moveGroup of moveGroups">
-        <button
-          (click)="selectedMoveGroup = moveGroup"
-          class="inline-block whitespace-nowrap p-4 rounded-t hover:bg-zinc-800"
-          [ngClass]="{
-            'bg-zinc-800 cursor-default': selectedMoveGroup === moveGroup,
-            'bg-zinc-900': selectedMoveGroup !== moveGroup
-          }"
-          aria-current="page"
-        >
-          <span>{{ moveGroup[0].pokemon_move_method_id.name }}</span>
-        </button>
-      </li>
-    </ul>
-    <ng-container *ngFor="let moveGroup of moveGroups">
-      <dd-pokemon-move-table
-        *ngIf="moveGroup === selectedMoveGroup"
-        [moveGroup]="moveGroup"
-      >
+<dd-card [title]="'Learnable Moves'">
+  <div
+    *ngIf="moveGroups.length > 0"
+    class="flex text-xs w-full text-center overflow-x-scroll pt-2 bg-light_primary dark:bg-dark_primary"
+  >
+    <dd-tab-list
+      class="w-full"
+      [tabs]="tabs"
+      [activeTab]="activeTab"
+      (tabChange)="selectMoveGroup($event)"
+    >
+      <dd-pokemon-move-table [moveGroup]="selectedMoveGroup">
       </dd-pokemon-move-table>
-    </ng-container>
+    </dd-tab-list>
   </div>
-</div>
+</dd-card>

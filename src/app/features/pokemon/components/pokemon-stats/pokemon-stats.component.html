@@ -1,9 +1,7 @@
-<div class="flex flex-col rounded w-full bg-porygon_blue">
-  <dd-card-header
-    [title]="'Pokémon Base Stats'"
-    class="text-sm"
-  ></dd-card-header>
-  <table class="table-auto w-full bg-zinc-800 rounded-b text-sm">
+<dd-card [title]="'Pokémon Base Stats'">
+  <table
+    class="table-auto w-full bg-light_primary dark:bg-dark_primary rounded-b text-sm"
+  >
     <thead class="sr-only">
       <tr>
         <th>Stat</th>
@@ -13,7 +11,7 @@
     </thead>
     <tr
       *ngFor="let stat of stats; index as i"
-      class="border-b border-y-zinc-700"
+      class="border-b border-y-light_tertiary dark:border-y-dark_tertiary"
     >
       <td class="p-2 pr-0 w-2/4 font-semibold">
         {{ stat.stat_id.name }}
@@ -22,7 +20,7 @@
         {{ stat.base_stat }}
       </td>
       <td class="p-2">
-        <div class="w-full h-5 rounded bg-zinc-600">
+        <div class="w-full h-5 rounded bg-light_tertiary dark:bg-dark_tertiary">
           <div
             class="rounded-l h-full flex justify-center items-center"
             [ngClass]="getProgressBarClass(stat.base_stat)"
@@ -36,4 +34,4 @@
       <td class="p-2 font-semibold text-sm text-right">{{ total }}</td>
     </tr>
   </table>
-</div>
+</dd-card>

@@ -1,11 +1,10 @@
-<div class="rounded w-full bg-porygon_blue">
-  <dd-card-header [title]="'Pokémon Forms'" class="text-sm"></dd-card-header>
-  <div
-    class="flex flex-row gap-2 justify-start items-center bg-zinc-800 p-2 rounded-b overflow-x-scroll pb-4"
+<dd-card [title]="'Pokémon Forms'"
+  ><div
+    class="flex flex-row gap-2 justify-start items-center bg-light_primary dark:bg-dark_primary p-2 rounded-b overflow-x-scroll pb-4"
   >
     <div
       *ngFor="let pokemonForm of pokemonForms"
-      class="flex flex-col flex-shrink-0 justify-center items-center h-36 w-36 gap-1 cursor-pointer rounded bg-zinc-900 hover:bg-zinc-800 border border-zinc-700"
+      class="flex flex-col flex-shrink-0 justify-center items-center h-36 w-36 gap-1 cursor-pointer rounded bg-light_secondary dark:bg-dark_secondary hover:bg-light_tertiary dark:hover:bg-dark_tertiary border border-light_tertiary dark:border-dark_tertiary"
       (click)="selectForm(pokemonForm)"
     >
       <img [src]="getFormImage(pokemonForm.id)" class="object-contain h-24" />
@@ -13,5 +12,5 @@
         pokemonForm.form_name ? pokemonForm.form_name : pokemonForm.name
       }}</span>
     </div>
-  </div>
-</div>
+  </div></dd-card
+>

@@ -7,6 +7,7 @@ import {
   OnInit,
 } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
+import { Tab } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -17,6 +18,8 @@ export class PokemonMovesComponent implements OnChanges, OnDestroy {
   @Input() pokemonId: number = 0;
   @Input() versionGroupId: number = 0;
 
+  tabs: Tab[] = [] as any;
+  activeTab: Tab = {} as Tab;
   moveGroups: any = [] as any;
   selectedMoveGroup: any = [] as any;
 
@@ -39,8 +42,21 @@ export class PokemonMovesComponent implements OnChanges, OnDestroy {
             return acc;
           }, {})
         );
+        this.tabs = this.moveGroups.map((group: any) => ({
+          name: group[0].pokemon_move_method_id.name,
+          identifier: group[0].pokemon_move_method_id.identifier,
+        }));
         this.selectedMoveGroup = this.moveGroups[0];
+        this.activeTab = this.tabs[0];
       });
+  }
+
+  selectMoveGroup(tab: Tab) {
+    this.activeTab = tab;
+    this.selectedMoveGroup = this.moveGroups.find(
+      (group: any) =>
+        group[0].pokemon_move_method_id.identifier === tab.identifier
+    );
   }
 
   ngOnDestroy(): void {
