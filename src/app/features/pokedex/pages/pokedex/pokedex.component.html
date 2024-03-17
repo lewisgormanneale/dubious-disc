@@ -25,8 +25,9 @@
         this.versionGroup.name ? this.versionGroup.name + ' Pokedex' : 'Pokedex'
       "
     >
-      <div *ngIf="pokedexes.length > 0; else elseBlock" class="p-4">
+      <div *ngIf="pokedexes.length > 0; else spinner" class="p-4">
         <dd-tab-list
+          *ngIf="pokedexTabs.length > 1; else noTabsView"
           [tabs]="pokedexTabs"
           [activeTab]="selectedPokedex"
           (tabChange)="selectTab($event)"
@@ -37,8 +38,15 @@
             [versionGroupIdentifier]="versionGroupIdentifier"
           ></dd-pokedex-view
         ></dd-tab-list>
+        <ng-template #noTabsView>
+          <dd-pokedex-view
+            [pokedex]="selectedPokedex"
+            [listView]="listView"
+            [versionGroupIdentifier]="versionGroupIdentifier"
+          ></dd-pokedex-view>
+        </ng-template>
       </div>
-      <ng-template #elseBlock>
+      <ng-template #spinner>
         <div class="flex w-full h-64 justify-center items-center">
           <dd-spinner></dd-spinner>
         </div>
