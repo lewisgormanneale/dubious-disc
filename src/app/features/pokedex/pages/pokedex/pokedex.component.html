@@ -7,9 +7,13 @@
     >
       <dd-card [title]="'Filters & Options'">
         <div class="p-4 flex gap-2 items-center">
-          <dd-pokedex-select-dropdown
-            [currentVersionGroupName]="this.versionGroup.name"
-          ></dd-pokedex-select-dropdown>
+          <dd-dropdown
+            [sections]="dropdownSections"
+            [placeholder]="
+              this.versionGroup.name ? this.versionGroup.name : 'Select Pokédex'
+            "
+          >
+          </dd-dropdown>
           <dd-switch
             [checked]="listView"
             [label]="'List View'"
