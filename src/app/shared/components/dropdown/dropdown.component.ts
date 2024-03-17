@@ -35,7 +35,6 @@ import { DropdownSection } from 'src/app/core/models';
 export class DropdownComponent implements OnDestroy {
   @Input() sections: DropdownSection[] = [];
   @Input() placeholder: string = '';
-  @Input() origin?: string = '';
   showDropdown: boolean = false;
   routerSubscription: Subscription;
 

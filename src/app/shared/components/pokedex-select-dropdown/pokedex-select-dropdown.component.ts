@@ -10,7 +10,6 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
 export class PokedexSelectDropdownComponent implements OnChanges {
   @Input() selectedPokemonSpecies?: Tables<'pokemon_species'>;
   @Input() currentVersionGroupName: string = '';
-  @Input() origin: string = 'left';
 
   public sections: DropdownSection[] = [];
   public placeholder: string = 'Select Pokedex';

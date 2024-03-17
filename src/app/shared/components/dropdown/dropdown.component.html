@@ -1,29 +1,22 @@
-<div></div>
 <div
-  class="relative inline-block text-left rounded"
+  class="relative inline-block text-left rounded w-56 text-xs"
   *ngIf="sections && sections.length > 0"
 >
   <div>
     <button
       type="button"
-      class="inline-flex justify-center items-center w-36 h-10 gap-x-1.5 px-1 py-2 text-xs rounded cursor-pointer bg-white hover:bg-light_tertiary dark:bg-black dark:hover:bg-dark_tertiary border border-light_tertiary dark:border-dark_tertiary"
+      class="inline-flex justify-between items-center w-full h-10 gap-x-1.5 px-3 py-2 rounded cursor-pointer bg-white hover:bg-light_tertiary dark:bg-black dark:hover:bg-dark_tertiary border border-light_tertiary dark:border-dark_tertiary"
       id="menu-button"
       aria-expanded="true"
       aria-haspopup="true"
       (click)="toggleDropdown()"
     >
-      <span class="w-5/6"> {{ placeholder }}</span>
-      <div class="w-1/6 flex justify-center items-center">
-        <ng-icon [name]="'heroChevronDownSolid'"></ng-icon>
-      </div>
+      <span> {{ placeholder }}</span>
+      <ng-icon [name]="'heroChevronDownSolid'"></ng-icon>
     </button>
   </div>
-  <div
-    class="absolute z-40 mt-2 w-56 rounded-b bg-zinc-950 max-h-[60vh] overflow-y-scroll border-light_tertiary dark:border-dark_tertiary scrollbar-thumb-zinc-800 scrollbar-track-zinc-950"
-    [ngClass]="{
-      'right-0 origin-top-right': origin === 'right',
-      'left-0 origin-top-left': origin === 'left',
-    }"
+  <ul
+    class="absolute z-40 left-0 origin-top w-full rounded-b bg-white dark:bg-black sm:rounded-b max-h-[60vh] overflow-y-scroll border-light_tertiary dark:border-dark_tertiary border-[1px] border-t-0 scrollbar-thumb-zinc-800 scrollbar-track-zinc-950"
     role="menu"
     aria-orientation="vertical"
     aria-labelledby="menu-button"
@@ -35,24 +28,23 @@
       <ng-container>
         <div
           id="menuitem-{{ i }}-{{ section.name }}"
-          class="text-xs font-semibold px-2 py-1 bg-porygon_blue_darker"
+          class="font-semibold px-2 py-1 bg-porygon_blue_darker text-light_primary"
           role="menuitem"
           tabindex="-1"
         >
           {{ section.name }}
         </div>
       </ng-container>
-      <div class="h-0.5 bg-zinc-800" role="none"></div>
       <ng-container *ngFor="let option of section.options; let i = index">
         <a
           id="menuitem-{{ i }}-{{ option.name }}"
           routerLink="{{ option.path }}"
           role="menuitem"
-          class="block px-4 py-2 font-sans text-sm hover:bg-zinc-800"
+          class="block px-4 py-2 font-sans hover:bg-light_tertiary dark:hover:bg-dark_tertiary"
         >
           {{ option.name }}
         </a>
       </ng-container>
     </ng-container>
-  </div>
+  </ul>
 </div>
