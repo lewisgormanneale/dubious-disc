@@ -4,7 +4,7 @@ import { Subject } from 'rxjs';
 @Injectable({
   providedIn: 'root',
 })
-export class HeaderDropdownItemService {
+export class HeaderDropdownService {
   private openDropdown = new Subject<string>();
 
   getOpenDropdown() {

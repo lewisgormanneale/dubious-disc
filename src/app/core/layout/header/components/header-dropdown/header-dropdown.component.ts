@@ -8,29 +8,29 @@ import {
 } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { NavigationItem } from 'src/app/core/models';
-import { HeaderDropdownItemService } from './header-dropdown-item.service';
+import { HeaderDropdownService } from './header-dropdown.service';
 import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { CoreModule } from 'src/app/core/core.module';
 @Component({
-  selector: 'dd-header-dropdown-item',
-  templateUrl: './header-dropdown-item.component.html',
+  selector: 'dd-header-dropdown',
+  templateUrl: './header-dropdown.component.html',
   standalone: true,
   imports: [CoreModule, CommonModule, RouterLink],
 })
-export class HeaderDropdownItemComponent implements OnInit, OnDestroy {
+export class HeaderDropdownComponent implements OnInit, OnDestroy {
   @Input() navItem!: NavigationItem;
   isHovered = false;
   isOpen = false;
   private subscription: Subscription = new Subscription();
 
   constructor(
-    private headerDropdownItemService: HeaderDropdownItemService,
+    private headerDropdownService: HeaderDropdownService,
     private elementRef: ElementRef
   ) {}
 
   ngOnInit() {
-    this.subscription = this.headerDropdownItemService
+    this.subscription = this.headerDropdownService
       .getOpenDropdown()
       .subscribe((label) => {
         if (label !== this.navItem.label) {
@@ -47,7 +47,7 @@ export class HeaderDropdownItemComponent implements OnInit, OnDestroy {
     this.isOpen = !this.isOpen;
 
     if (this.isOpen) {
-      this.headerDropdownItemService.setOpenDropdown(this.navItem.label);
+      this.headerDropdownService.setOpenDropdown(this.navItem.label);
     }
   }
 

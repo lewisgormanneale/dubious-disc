@@ -119,13 +119,13 @@
             "extends": []
         },
         {
-            "name": "DropdownLinkOption",
-            "id": "interface-DropdownLinkOption-0c29cfd92a74e4b3cfd953b5b53f0d78eafb75c06bab4e309188553b997e1f692e3cc81474990536d17e7654c130bd0da74bce61caf0b1e55e6d88fb4e827d2e",
+            "name": "DropdownOption",
+            "id": "interface-DropdownOption-5f6edc1690bc17c4419316b9ffc105753691b6618ada718a1203284c1ac4785ea3c9f5f17146d4167df3b487f8a3f3c786167f3f7bf5738f2e6656299e5c4734",
             "file": "src/app/core/models/layout.model.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "interface",
-            "sourceCode": "export interface DropdownLinkOption {\n  name: string;\n  path: string;\n}\n\nexport interface DropdownLinkSection {\n  name: string;\n  options: DropdownLinkOption[];\n}\n",
+            "sourceCode": "export interface DropdownOption {\n  name: string;\n  path: string;\n}\n\nexport interface DropdownSection {\n  name: string;\n  options: DropdownOption[];\n}\n",
             "properties": [
                 {
                     "name": "name",
@@ -152,49 +152,13 @@
             "extends": []
         },
         {
-            "name": "DropdownLinkOption",
-            "id": "interface-DropdownLinkOption-0cc512ef77eba1945146257dc7e848f61ac91a572a05c71cded414ef189b29714c03b3a937cb89326bb54cabef31ee00117affec2d04ef12de4fb9c472af95da-1",
-            "file": "src/app/features/pokemon/pages/pokemon/pokemon.component.ts",
-            "deprecated": false,
-            "deprecationMessage": "",
-            "type": "interface",
-            "sourceCode": "import { Component, inject, OnInit } from '@angular/core';\nimport { ActivatedRoute } from '@angular/router';\nimport { versions } from 'process';\nimport { map, switchMap, tap, forkJoin, Subject, takeUntil } from 'rxjs';\nimport { DropdownLinkSection, Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\ninterface DropdownLinkOption {\n  name: string;\n  path: string;\n}\n\n@Component({\n  selector: 'dd-pokemon',\n  templateUrl: './pokemon.component.html',\n})\nexport class PokemonComponent implements OnInit {\n  pokemonForms: Tables<'pokemon'>[] = [];\n  selectedForm: Tables<'pokemon'> = {} as Tables<'pokemon'>;\n  pokemonSpecies: Tables<'pokemon_species'> = {} as Tables<'pokemon_species'>;\n\n  versionGroupIdentifier: string = '';\n  selectedVersionGroup: any = '';\n  versions: Tables<'versions'>[] = [];\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private route: ActivatedRoute = inject(ActivatedRoute);\n  private destroy$ = new Subject<void>();\n\n  ngOnInit(): void {\n    this.route.params\n      .pipe(\n        switchMap((params) => {\n          const pokemonIdentifier = params['pokemon'];\n          this.versionGroupIdentifier = params['version-group'];\n          return this.supabase.getPokemonSpeciesByIdentifier(pokemonIdentifier);\n        }),\n        tap((pokemonSpecies) => {\n          this.pokemonSpecies = pokemonSpecies;\n        }),\n        switchMap((pokemonSpecies) => {\n          return this.supabase.getPokemonBySpeciesId(pokemonSpecies.id);\n        }),\n        tap((pokemon) => {\n          this.pokemonForms = pokemon;\n          this.selectedForm = pokemon[0];\n        })\n      )\n      .subscribe(() => {});\n  }\n\n  handleNewSelectedForm(form: any) {\n    this.selectedForm = form;\n  }\n\n  handleVersions(versions: any) {\n    this.versions = versions;\n  }\n\n  handleSelectedVersionGroup(versionGroup: any) {\n    this.selectedVersionGroup = versionGroup;\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
-            "properties": [
-                {
-                    "name": "name",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "string",
-                    "optional": false,
-                    "description": "",
-                    "line": 9
-                },
-                {
-                    "name": "path",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "string",
-                    "optional": false,
-                    "description": "",
-                    "line": 10
-                }
-            ],
-            "indexSignatures": [],
-            "kind": 171,
-            "methods": [],
-            "extends": [],
-            "isDuplicate": true,
-            "duplicateId": 1,
-            "duplicateName": "DropdownLinkOption-1"
-        },
-        {
-            "name": "DropdownLinkSection",
-            "id": "interface-DropdownLinkSection-0c29cfd92a74e4b3cfd953b5b53f0d78eafb75c06bab4e309188553b997e1f692e3cc81474990536d17e7654c130bd0da74bce61caf0b1e55e6d88fb4e827d2e",
+            "name": "DropdownSection",
+            "id": "interface-DropdownSection-5f6edc1690bc17c4419316b9ffc105753691b6618ada718a1203284c1ac4785ea3c9f5f17146d4167df3b487f8a3f3c786167f3f7bf5738f2e6656299e5c4734",
             "file": "src/app/core/models/layout.model.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "interface",
-            "sourceCode": "export interface DropdownLinkOption {\n  name: string;\n  path: string;\n}\n\nexport interface DropdownLinkSection {\n  name: string;\n  options: DropdownLinkOption[];\n}\n",
+            "sourceCode": "export interface DropdownOption {\n  name: string;\n  path: string;\n}\n\nexport interface DropdownSection {\n  name: string;\n  options: DropdownOption[];\n}\n",
             "properties": [
                 {
                     "name": "name",
@@ -209,7 +173,7 @@
                     "name": "options",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "DropdownLinkOption[]",
+                    "type": "DropdownOption[]",
                     "optional": false,
                     "description": "",
                     "line": 8
@@ -322,9 +286,9 @@
     ],
     "injectables": [
         {
-            "name": "HeaderDropdownItemService",
-            "id": "injectable-HeaderDropdownItemService-b49bcb17139fd0fb299adac3c25e735772f018b19a0506a294f7f736497a833ff25f6a1dde8fc623726da465fe09b481ba0a6a61a0e4923c4ed0c18bf3898e2a",
-            "file": "src/app/core/layout/header/components/header-dropdown-item/header-dropdown-item.service.ts",
+            "name": "HeaderDropdownService",
+            "id": "injectable-HeaderDropdownService-64dba4f60e9893835ed2a6c7dfb82e537ecbd2d89412830cb615158faa93049681569140799590df1140281240d9f4002acd8d82921c1953c598d771d2a852c5",
+            "file": "src/app/core/layout/header/components/header-dropdown/header-dropdown.service.ts",
             "properties": [
                 {
                     "name": "openDropdown",
@@ -384,7 +348,7 @@
             "deprecationMessage": "",
             "description": "",
             "rawdescription": "\n",
-            "sourceCode": "import { Injectable } from '@angular/core';\nimport { Subject } from 'rxjs';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class HeaderDropdownItemService {\n  private openDropdown = new Subject<string>();\n\n  getOpenDropdown() {\n    return this.openDropdown.asObservable();\n  }\n\n  setOpenDropdown(label: string) {\n    this.openDropdown.next(label);\n  }\n}\n",
+            "sourceCode": "import { Injectable } from '@angular/core';\nimport { Subject } from 'rxjs';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class HeaderDropdownService {\n  private openDropdown = new Subject<string>();\n\n  getOpenDropdown() {\n    return this.openDropdown.asObservable();\n  }\n\n  setOpenDropdown(label: string) {\n    this.openDropdown.next(label);\n  }\n}\n",
             "extends": [],
             "type": "injectable"
         },
@@ -1378,7 +1342,7 @@
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<button\n  [ngClass]=\"{\n    'bg-porygon_blue hover:bg-porygon_blue_darker text-light_primary':\n      appearance === 'primary',\n    'bg-white hover:bg-light_tertiary dark:bg-black dark:hover:bg-dark_tertiary text-dark_primary dark:text-light_primary':\n      appearance === 'secondary',\n    'text-dark_primary dark:text-light_primary': appearance === 'outline'\n  }\"\n  type=\"button\"\n  class=\"py-2 px-4 h-10 text-sm flex justify-center items-center gap-2 rounded border border-zinc-700 cursor-pointer\"\n  (click)=\"handleClick()\"\n>\n  <ng-content></ng-content>\n</button>\n"
+            "templateData": "<button\n  [ngClass]=\"{\n    'bg-porygon_blue hover:bg-porygon_blue_darker text-light_primary':\n      appearance === 'primary',\n    'bg-white hover:bg-light_tertiary dark:bg-black dark:hover:bg-dark_tertiary text-dark_primary dark:text-light_primary':\n      appearance === 'secondary',\n    'text-dark_primary dark:text-light_primary': appearance === 'outline'\n  }\"\n  type=\"button\"\n  class=\"py-2 px-4 h-10 text-sm flex justify-center items-center gap-2 rounded border border-light_tertiary dark:border-dark_tertiary cursor-pointer\"\n  (click)=\"handleClick()\"\n>\n  <ng-content></ng-content>\n</button>\n"
         },
         {
             "name": "CardComponent",
@@ -1586,19 +1550,19 @@
             "templateData": "<button *ngIf=\"!url; else link\" (click)=\"handleClick()\"></button>\n<ng-template #link>\n  <a\n    class=\"flex justify-center items-center rounded gap-3 h-32 w-48 cursor-pointer bg-light_primary dark:bg-dark_primary p-4\"\n    routerLink=\"{{ url }}\"\n  >\n    <div class=\"flex justify-center items-center\">\n      <ng-icon class=\"text-3xl\" [name]=\"icon\"></ng-icon>\n    </div>\n    <div class=\"flex flex-col justify-center items-center\">\n      <h2 class=\"font-bold w-full\">{{ buttonText }}</h2>\n      <p class=\"hidden sm:mt-1 sm:block sm:text-[10px]\">\n        {{ secondaryText }}\n      </p>\n    </div>\n  </a>\n</ng-template>\n"
         },
         {
-            "name": "DropdownLinkComponent",
-            "id": "component-DropdownLinkComponent-fdf87935379f8d216a6b323ebd2d40bb15b8dd6b4240b33b49daad973cd1f880acb6f178e1b4dcf5be99c3d58913dc84b0f2b63debe050130d520497b22bce99",
-            "file": "src/app/shared/components/dropdown-link/dropdown-link.component.ts",
+            "name": "DropdownComponent",
+            "id": "component-DropdownComponent-fc6a8dfef7179a35f78e0ae004a8100e4c5730385c979dfa543bd01c14400bdad555ed51268696c8ae1d5e80664ff0ed90ae8dcd97d29aa30d01b8bd2eb78467",
+            "file": "src/app/shared/components/dropdown/dropdown.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
             "outputs": [],
             "providers": [],
-            "selector": "dd-dropdown-link",
+            "selector": "dd-dropdown",
             "styleUrls": [],
             "styles": [],
             "templateUrl": [
-                "./dropdown-link.component.html"
+                "./dropdown.component.html"
             ],
             "viewProviders": [],
             "hostDirectives": [],
@@ -1627,7 +1591,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "line": 36,
-                    "type": "DropdownLinkSection[]",
+                    "type": "DropdownSection[]",
                     "decorators": []
                 }
             ],
@@ -1739,7 +1703,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {\n  trigger,\n  state,\n  style,\n  transition,\n  animate,\n} from '@angular/animations';\nimport {\n  Component,\n  ElementRef,\n  HostListener,\n  Input,\n  OnDestroy,\n} from '@angular/core';\nimport { NavigationEnd, Router } from '@angular/router';\nimport { Subscription, filter } from 'rxjs';\nimport { DropdownLinkSection } from 'src/app/core/models';\n\n@Component({\n  selector: 'dd-dropdown-link',\n  templateUrl: './dropdown-link.component.html',\n  animations: [\n    trigger('fadeInOut', [\n      state(\n        'void',\n        style({\n          opacity: 0,\n          transform: 'scale(0.95)',\n        })\n      ),\n      transition('void <=> *', animate('100ms ease-in-out')),\n    ]),\n  ],\n})\nexport class DropdownLinkComponent implements OnDestroy {\n  @Input() sections: DropdownLinkSection[] = [];\n  @Input() placeholder: string = '';\n  @Input() origin?: string = '';\n  showDropdown: boolean = false;\n  routerSubscription: Subscription;\n\n  constructor(private eRef: ElementRef, private router: Router) {\n    this.routerSubscription = this.router.events\n      .pipe(filter((event) => event instanceof NavigationEnd))\n      .subscribe(() => {\n        this.showDropdown = false;\n      });\n  }\n\n  toggleDropdown() {\n    this.showDropdown = !this.showDropdown;\n  }\n\n  @HostListener('document:click', ['$event'])\n  clickout(event: any) {\n    if (!this.eRef.nativeElement.contains(event.target)) {\n      this.showDropdown = false;\n    }\n  }\n\n  ngOnDestroy() {\n    this.routerSubscription.unsubscribe();\n  }\n}\n",
+            "sourceCode": "import {\n  trigger,\n  state,\n  style,\n  transition,\n  animate,\n} from '@angular/animations';\nimport {\n  Component,\n  ElementRef,\n  HostListener,\n  Input,\n  OnDestroy,\n} from '@angular/core';\nimport { NavigationEnd, Router } from '@angular/router';\nimport { Subscription, filter } from 'rxjs';\nimport { DropdownSection } from 'src/app/core/models';\n\n@Component({\n  selector: 'dd-dropdown',\n  templateUrl: './dropdown.component.html',\n  animations: [\n    trigger('fadeInOut', [\n      state(\n        'void',\n        style({\n          opacity: 0,\n          transform: 'scale(0.95)',\n        })\n      ),\n      transition('void <=> *', animate('100ms ease-in-out')),\n    ]),\n  ],\n})\nexport class DropdownComponent implements OnDestroy {\n  @Input() sections: DropdownSection[] = [];\n  @Input() placeholder: string = '';\n  @Input() origin?: string = '';\n  showDropdown: boolean = false;\n  routerSubscription: Subscription;\n\n  constructor(private eRef: ElementRef, private router: Router) {\n    this.routerSubscription = this.router.events\n      .pipe(filter((event) => event instanceof NavigationEnd))\n      .subscribe(() => {\n        this.showDropdown = false;\n      });\n  }\n\n  toggleDropdown() {\n    this.showDropdown = !this.showDropdown;\n  }\n\n  @HostListener('document:click', ['$event'])\n  clickout(event: any) {\n    if (!this.eRef.nativeElement.contains(event.target)) {\n      this.showDropdown = false;\n    }\n  }\n\n  ngOnDestroy() {\n    this.routerSubscription.unsubscribe();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -1788,7 +1752,7 @@
             "implements": [
                 "OnDestroy"
             ],
-            "templateData": "<div></div>\n<div\n  class=\"relative inline-block text-left rounded\"\n  *ngIf=\"sections && sections.length > 0\"\n>\n  <div>\n    <button\n      type=\"button\"\n      class=\"inline-flex justify-center items-center w-36 h-10 gap-x-1.5 px-1 py-2 text-xs rounded cursor-pointer bg-zinc-900 hover:bg-zinc-800 border border-zinc-700\"\n      id=\"menu-button\"\n      aria-expanded=\"true\"\n      aria-haspopup=\"true\"\n      (click)=\"toggleDropdown()\"\n    >\n      <span class=\"w-5/6\"> {{ placeholder }}</span>\n      <div class=\"w-1/6 flex justify-center items-center\">\n        <ng-icon [name]=\"'heroChevronDownSolid'\"></ng-icon>\n      </div>\n    </button>\n  </div>\n  <div\n    class=\"absolute z-40 mt-2 w-56 rounded bg-zinc-950 max-h-[60vh] overflow-y-scroll border border-zinc-700 scrollbar-thumb-zinc-800 scrollbar-track-zinc-950\"\n    [ngClass]=\"{\n      'right-0 origin-top-right': origin === 'right',\n      'left-0 origin-top-left': origin === 'left',\n    }\"\n    role=\"menu\"\n    aria-orientation=\"vertical\"\n    aria-labelledby=\"menu-button\"\n    tabindex=\"-1\"\n    *ngIf=\"showDropdown\"\n    [@fadeInOut]\n  >\n    <ng-container *ngFor=\"let section of sections; let i = index\">\n      <ng-container>\n        <div\n          id=\"menuitem-{{ i }}-{{ section.name }}\"\n          class=\"text-xs font-semibold px-2 py-1 bg-porygon_blue_darker\"\n          role=\"menuitem\"\n          tabindex=\"-1\"\n        >\n          {{ section.name }}\n        </div>\n      </ng-container>\n      <div class=\"h-0.5 bg-zinc-800\" role=\"none\"></div>\n      <ng-container *ngFor=\"let option of section.options; let i = index\">\n        <a\n          id=\"menuitem-{{ i }}-{{ option.name }}\"\n          routerLink=\"{{ option.path }}\"\n          role=\"menuitem\"\n          class=\"block px-4 py-2 font-sans text-sm hover:bg-zinc-800\"\n        >\n          {{ option.name }}\n        </a>\n      </ng-container>\n    </ng-container>\n  </div>\n</div>\n"
+            "templateData": "<div></div>\n<div\n  class=\"relative inline-block text-left rounded\"\n  *ngIf=\"sections && sections.length > 0\"\n>\n  <div>\n    <button\n      type=\"button\"\n      class=\"inline-flex justify-center items-center w-36 h-10 gap-x-1.5 px-1 py-2 text-xs rounded cursor-pointer bg-white hover:bg-light_tertiary dark:bg-black dark:hover:bg-dark_tertiary border border-light_tertiary dark:border-dark_tertiary\"\n      id=\"menu-button\"\n      aria-expanded=\"true\"\n      aria-haspopup=\"true\"\n      (click)=\"toggleDropdown()\"\n    >\n      <span class=\"w-5/6\"> {{ placeholder }}</span>\n      <div class=\"w-1/6 flex justify-center items-center\">\n        <ng-icon [name]=\"'heroChevronDownSolid'\"></ng-icon>\n      </div>\n    </button>\n  </div>\n  <div\n    class=\"absolute z-40 mt-2 w-56 rounded-b bg-zinc-950 max-h-[60vh] overflow-y-scroll border-light_tertiary dark:border-dark_tertiary scrollbar-thumb-zinc-800 scrollbar-track-zinc-950\"\n    [ngClass]=\"{\n      'right-0 origin-top-right': origin === 'right',\n      'left-0 origin-top-left': origin === 'left',\n    }\"\n    role=\"menu\"\n    aria-orientation=\"vertical\"\n    aria-labelledby=\"menu-button\"\n    tabindex=\"-1\"\n    *ngIf=\"showDropdown\"\n    [@fadeInOut]\n  >\n    <ng-container *ngFor=\"let section of sections; let i = index\">\n      <ng-container>\n        <div\n          id=\"menuitem-{{ i }}-{{ section.name }}\"\n          class=\"text-xs font-semibold px-2 py-1 bg-porygon_blue_darker\"\n          role=\"menuitem\"\n          tabindex=\"-1\"\n        >\n          {{ section.name }}\n        </div>\n      </ng-container>\n      <div class=\"h-0.5 bg-zinc-800\" role=\"none\"></div>\n      <ng-container *ngFor=\"let option of section.options; let i = index\">\n        <a\n          id=\"menuitem-{{ i }}-{{ option.name }}\"\n          routerLink=\"{{ option.path }}\"\n          role=\"menuitem\"\n          class=\"block px-4 py-2 font-sans text-sm hover:bg-zinc-800\"\n        >\n          {{ option.name }}\n        </a>\n      </ng-container>\n    </ng-container>\n  </div>\n</div>\n"
         },
         {
             "name": "FooterComponent",
@@ -1960,7 +1924,7 @@
         },
         {
             "name": "HeaderComponent",
-            "id": "component-HeaderComponent-c13ca9f28b3d4c446d178f4b05411132932c17256f60d24e1e1609e27ce0781553a669f14f6665ede655ca0ca110e3f57e16f9367a7cf8b0b0d035d05041e0b6",
+            "id": "component-HeaderComponent-4cd06f398bcb6649ee51cec76abff405cd2e7b60ab907201d9205f7d3d33e04e12663e509e2ecc8a73399691167df560d24b93d819edae99a98c3e9a76c51b13",
             "file": "src/app/core/layout/header/header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1986,7 +1950,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 29,
+                    "line": 23,
                     "modifierKind": [
                         123
                     ]
@@ -1999,7 +1963,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 30,
+                    "line": 24,
                     "modifierKind": [
                         125
                     ]
@@ -2012,7 +1976,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 32,
+                    "line": 26,
                     "deprecated": false,
                     "deprecationMessage": ""
                 }
@@ -2039,14 +2003,14 @@
                     "name": "RouterLink"
                 },
                 {
-                    "name": "HeaderDropdownItemComponent",
+                    "name": "HeaderDropdownComponent",
                     "type": "component"
                 }
             ],
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, inject } from '@angular/core';\nimport { RouterLink } from '@angular/router';\nimport { CoreModule } from 'src/app/core/core.module';\nimport { CommonModule } from '@angular/common';\nimport { headerNavItems } from 'src/app/core/models';\nimport { SharedModule } from 'src/app/shared/shared.module';\nimport { ThemeService } from '../../services/theme.service';\nimport { HeaderDropdownItemComponent } from './components/header-dropdown-item/header-dropdown-item.component';\nimport { NgIconsModule } from '@ng-icons/core';\nimport { heroSunSolid, heroMoonSolid } from '@ng-icons/heroicons/solid';\n\n@Component({\n  selector: 'dd-header',\n  templateUrl: './header.component.html',\n  standalone: true,\n  imports: [\n    CoreModule,\n    CommonModule,\n    SharedModule,\n    RouterLink,\n    HeaderDropdownItemComponent,\n    // NgIconsModule.withIcons({\n    //   heroSunSolid,\n    //   heroMoonSolid,\n    // }),\n  ],\n})\nexport class HeaderComponent {\n  private _themeService = inject(ThemeService);\n  public navItems = headerNavItems;\n\n  toggleDarkMode(): void {\n    this._themeService.toggleDarkMode();\n  }\n\n  get isDarkMode(): boolean {\n    return this._themeService.isDarkMode();\n  }\n}\n",
+            "sourceCode": "import { Component, inject } from '@angular/core';\nimport { RouterLink } from '@angular/router';\nimport { CoreModule } from 'src/app/core/core.module';\nimport { CommonModule } from '@angular/common';\nimport { headerNavItems } from 'src/app/core/models';\nimport { SharedModule } from 'src/app/shared/shared.module';\nimport { ThemeService } from '../../services/theme.service';\nimport { HeaderDropdownComponent } from './components/header-dropdown/header-dropdown.component';\n\n@Component({\n  selector: 'dd-header',\n  templateUrl: './header.component.html',\n  standalone: true,\n  imports: [\n    CoreModule,\n    CommonModule,\n    SharedModule,\n    RouterLink,\n    HeaderDropdownComponent,\n  ],\n})\nexport class HeaderComponent {\n  private _themeService = inject(ThemeService);\n  public navItems = headerNavItems;\n\n  toggleDarkMode(): void {\n    this._themeService.toggleDarkMode();\n  }\n\n  get isDarkMode(): boolean {\n    return this._themeService.isDarkMode();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -2058,26 +2022,26 @@
                         "name": "isDarkMode",
                         "type": "boolean",
                         "returnType": "boolean",
-                        "line": 36
+                        "line": 30
                     }
                 }
             },
-            "templateData": "<header\n  class=\"z-50 w-screen bg-white dark:bg-black h-[8vh] sm:h-[6vh] flex flex-nowrap justify-between items-center px-4 shadow-md drop-shadow-md\"\n>\n  <div\n    class=\"flex flex-nowrap max-w-screen-xl justify-between items-center sm:gap-8\"\n  >\n    <a\n      class=\"flex justify-center items-center gap-2 h-[6vh] w-full sm:w-auto\"\n      routerLink=\"/\"\n    >\n      <img\n        src=\"../../assets/images/dubious-disc.png\"\n        width=\"40\"\n        height=\"40\"\n        alt=\"\"\n      />\n      <span class=\"font-righteous text-xl sm:text-3xl uppercase\">\n        Dubious Disc\n      </span>\n    </a>\n    <nav\n      aria-label=\"Global\"\n      class=\"flex flex-1 justify-center sm:justify-start items-center h-[8vh] sm:h-[6vh] w-full z-50\"\n    >\n      <ul class=\"flex justify-center sm:justify-start items-center h-full\">\n        <ng-container *ngFor=\"let navItem of navItems\">\n          <dd-header-dropdown-item\n            [navItem]=\"navItem\"\n            class=\"h-full\"\n          ></dd-header-dropdown-item>\n        </ng-container>\n      </ul>\n    </nav>\n  </div>\n  <div class=\"flex items-center gap-2\">\n    <span class=\"sm:block hidden\">\n      <svg\n        class=\"h-6 w-6 text-gray-500\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        stroke=\"currentColor\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"2\"\n          d=\"M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z\"\n        />\n      </svg>\n    </span>\n    <dd-switch [checked]=\"isDarkMode\" (checkedChange)=\"toggleDarkMode()\">\n    </dd-switch>\n    <span class=\"\">\n      <svg\n        class=\"h-6 w-6 text-gray-500\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        stroke=\"currentColor\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"2\"\n          d=\"M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z\"\n        />\n      </svg>\n    </span>\n  </div>\n</header>\n"
+            "templateData": "<header\n  class=\"z-50 w-screen bg-white dark:bg-black h-[8vh] sm:h-[6vh] flex flex-nowrap justify-between items-center px-4 shadow-md drop-shadow-md\"\n>\n  <div\n    class=\"flex flex-nowrap max-w-screen-xl justify-between items-center sm:gap-8\"\n  >\n    <a\n      class=\"flex justify-center items-center gap-2 h-[6vh] w-full sm:w-auto\"\n      routerLink=\"/\"\n    >\n      <img\n        src=\"../../assets/images/dubious-disc.png\"\n        width=\"40\"\n        height=\"40\"\n        alt=\"\"\n      />\n      <span class=\"font-righteous text-xl sm:text-3xl uppercase\">\n        Dubious Disc\n      </span>\n    </a>\n    <nav\n      aria-label=\"Global\"\n      class=\"flex flex-1 justify-center sm:justify-start items-center h-[8vh] sm:h-[6vh] w-full z-50\"\n    >\n      <ul class=\"flex justify-center sm:justify-start items-center h-full\">\n        <ng-container *ngFor=\"let navItem of navItems\">\n          <dd-header-dropdown\n            [navItem]=\"navItem\"\n            class=\"h-full\"\n          ></dd-header-dropdown>\n        </ng-container>\n      </ul>\n    </nav>\n  </div>\n  <div class=\"flex items-center gap-2\">\n    <span class=\"sm:block hidden\">\n      <svg\n        class=\"h-6 w-6 text-gray-500\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        stroke=\"currentColor\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"2\"\n          d=\"M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z\"\n        />\n      </svg>\n    </span>\n    <dd-switch [checked]=\"isDarkMode\" (checkedChange)=\"toggleDarkMode()\">\n    </dd-switch>\n    <span class=\"\">\n      <svg\n        class=\"h-6 w-6 text-gray-500\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        stroke=\"currentColor\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"2\"\n          d=\"M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z\"\n        />\n      </svg>\n    </span>\n  </div>\n</header>\n"
         },
         {
-            "name": "HeaderDropdownItemComponent",
-            "id": "component-HeaderDropdownItemComponent-c99abeb625f75dd66d421aa3505f4ed177276cb36dc29c08c32dd478fcad7ebbe6b5466b677acecbfc43f8d39d1f56faf316db09270e2c15e9008bfcd43d8687",
-            "file": "src/app/core/layout/header/components/header-dropdown-item/header-dropdown-item.component.ts",
+            "name": "HeaderDropdownComponent",
+            "id": "component-HeaderDropdownComponent-0df167b26c3bf27b6448be2688802bdaf345fbb87d1dc3fbae357f1c8213f79990d54ddc23d0e121785c34b96b3862e0f37e98db1b2fc39fb1fdb0004ecb5f09",
+            "file": "src/app/core/layout/header/components/header-dropdown/header-dropdown.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
             "outputs": [],
             "providers": [],
-            "selector": "dd-header-dropdown-item",
+            "selector": "dd-header-dropdown",
             "styleUrls": [],
             "styles": [],
             "templateUrl": [
-                "./header-dropdown-item.component.html"
+                "./header-dropdown.component.html"
             ],
             "viewProviders": [],
             "hostDirectives": [],
@@ -2235,7 +2199,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {\n  Component,\n  HostListener,\n  Input,\n  ElementRef,\n  OnInit,\n  OnDestroy,\n} from '@angular/core';\nimport { Subscription } from 'rxjs';\nimport { NavigationItem } from 'src/app/core/models';\nimport { HeaderDropdownItemService } from './header-dropdown-item.service';\nimport { RouterLink } from '@angular/router';\nimport { CommonModule } from '@angular/common';\nimport { CoreModule } from 'src/app/core/core.module';\n@Component({\n  selector: 'dd-header-dropdown-item',\n  templateUrl: './header-dropdown-item.component.html',\n  standalone: true,\n  imports: [CoreModule, CommonModule, RouterLink],\n})\nexport class HeaderDropdownItemComponent implements OnInit, OnDestroy {\n  @Input() navItem!: NavigationItem;\n  isHovered = false;\n  isOpen = false;\n  private subscription: Subscription = new Subscription();\n\n  constructor(\n    private headerDropdownItemService: HeaderDropdownItemService,\n    private elementRef: ElementRef\n  ) {}\n\n  ngOnInit() {\n    this.subscription = this.headerDropdownItemService\n      .getOpenDropdown()\n      .subscribe((label) => {\n        if (label !== this.navItem.label) {\n          this.isOpen = false;\n        }\n      });\n  }\n\n  ngOnDestroy() {\n    this.subscription.unsubscribe();\n  }\n\n  toggleDropdown() {\n    this.isOpen = !this.isOpen;\n\n    if (this.isOpen) {\n      this.headerDropdownItemService.setOpenDropdown(this.navItem.label);\n    }\n  }\n\n  @HostListener('document:click', ['$event'])\n  closeDropdown(event: Event) {\n    if (!this.elementRef.nativeElement.contains(event.target)) {\n      this.isOpen = false;\n    }\n  }\n}\n",
+            "sourceCode": "import {\n  Component,\n  HostListener,\n  Input,\n  ElementRef,\n  OnInit,\n  OnDestroy,\n} from '@angular/core';\nimport { Subscription } from 'rxjs';\nimport { NavigationItem } from 'src/app/core/models';\nimport { HeaderDropdownService } from './header-dropdown.service';\nimport { RouterLink } from '@angular/router';\nimport { CommonModule } from '@angular/common';\nimport { CoreModule } from 'src/app/core/core.module';\n@Component({\n  selector: 'dd-header-dropdown',\n  templateUrl: './header-dropdown.component.html',\n  standalone: true,\n  imports: [CoreModule, CommonModule, RouterLink],\n})\nexport class HeaderDropdownComponent implements OnInit, OnDestroy {\n  @Input() navItem!: NavigationItem;\n  isHovered = false;\n  isOpen = false;\n  private subscription: Subscription = new Subscription();\n\n  constructor(\n    private headerDropdownService: HeaderDropdownService,\n    private elementRef: ElementRef\n  ) {}\n\n  ngOnInit() {\n    this.subscription = this.headerDropdownService\n      .getOpenDropdown()\n      .subscribe((label) => {\n        if (label !== this.navItem.label) {\n          this.isOpen = false;\n        }\n      });\n  }\n\n  ngOnDestroy() {\n    this.subscription.unsubscribe();\n  }\n\n  toggleDropdown() {\n    this.isOpen = !this.isOpen;\n\n    if (this.isOpen) {\n      this.headerDropdownService.setOpenDropdown(this.navItem.label);\n    }\n  }\n\n  @HostListener('document:click', ['$event'])\n  closeDropdown(event: Event) {\n    if (!this.elementRef.nativeElement.contains(event.target)) {\n      this.isOpen = false;\n    }\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -2246,8 +2210,8 @@
                 "deprecationMessage": "",
                 "args": [
                     {
-                        "name": "headerDropdownItemService",
-                        "type": "HeaderDropdownItemService",
+                        "name": "headerDropdownService",
+                        "type": "HeaderDropdownService",
                         "deprecated": false,
                         "deprecationMessage": ""
                     },
@@ -2261,8 +2225,8 @@
                 "line": 25,
                 "jsdoctags": [
                     {
-                        "name": "headerDropdownItemService",
-                        "type": "HeaderDropdownItemService",
+                        "name": "headerDropdownService",
+                        "type": "HeaderDropdownService",
                         "deprecated": false,
                         "deprecationMessage": "",
                         "tagName": {
@@ -3076,7 +3040,7 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<div class=\"flex flex-col justify-start items-center w-full h-full\">\n  <div\n    class=\"grid grid-cols-2 xl:grid-cols-3 gap-2 m-4 max-w-screen-2xl h-full w-full\"\n  >\n    <div\n      class=\"col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 sticky top-0 z-30 xl:relative p-2 xl:py-0 w-full\"\n    >\n      <dd-card [title]=\"'Filters & Options'\" class=\"sticky top-2\">\n        <div class=\"p-4 flex gap-2\">\n          <dd-pokedex-select-dropdown\n            [currentVersionGroupName]=\"this.versionGroup.name\"\n          ></dd-pokedex-select-dropdown>\n          <dd-button (onClick)=\"listView = !listView\" class=\"text-xs\">\n            List View\n          </dd-button>\n        </div>\n      </dd-card>\n    </div>\n    <dd-card\n      class=\"col-span-2 h-full\"\n      [title]=\"\n        this.versionGroup.name ? this.versionGroup.name + ' Pokedex' : 'Pokedex'\n      \"\n    >\n      <div *ngIf=\"pokedexes.length > 0; else elseBlock\" class=\"p-4\">\n        <ul class=\"flex text-xs text-center overflow-x-scroll\">\n          <li class=\"me-2\" *ngFor=\"let pokedex of pokedexes\">\n            <button\n              (click)=\"selectedPokedex = pokedex\"\n              class=\"inline-block whitespace-nowrap p-4 rounded-t hover:bg-zinc-800\"\n              [ngClass]=\"{\n                'bg-zinc-800 cursor-default': selectedPokedex === pokedex,\n                'bg-zinc-900': selectedPokedex !== pokedex\n              }\"\n              aria-current=\"page\"\n            >\n              <span>{{ pokedex.name }}</span>\n            </button>\n          </li>\n        </ul>\n        <ng-container *ngFor=\"let pokedex of pokedexes\">\n          <dd-pokedex-tab\n            *ngIf=\"pokedex === selectedPokedex\"\n            [pokedex]=\"pokedex\"\n            [listView]=\"listView\"\n            [versionGroupIdentifier]=\"versionGroupIdentifier\"\n          ></dd-pokedex-tab>\n        </ng-container>\n      </div>\n      <ng-template #elseBlock>\n        <div class=\"flex w-full h-64 justify-center items-center\">\n          <dd-spinner></dd-spinner>\n        </div>\n      </ng-template>\n    </dd-card>\n  </div>\n</div>\n"
+            "templateData": "<div class=\"flex flex-col justify-start items-center w-full h-full\">\n  <div\n    class=\"grid grid-cols-2 xl:grid-cols-3 gap-2 m-4 max-w-screen-2xl h-full w-full\"\n  >\n    <div\n      class=\"col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 sticky top-0 z-20 xl:relative p-2 xl:py-0 w-full\"\n    >\n      <dd-card [title]=\"'Filters & Options'\" class=\"sticky top-2\">\n        <div class=\"p-4 flex gap-2\">\n          <dd-pokedex-select-dropdown\n            [currentVersionGroupName]=\"this.versionGroup.name\"\n          ></dd-pokedex-select-dropdown>\n          <dd-button (onClick)=\"listView = !listView\" class=\"text-xs\">\n            List View\n          </dd-button>\n        </div>\n      </dd-card>\n    </div>\n    <dd-card\n      class=\"col-span-2 h-full\"\n      [title]=\"\n        this.versionGroup.name ? this.versionGroup.name + ' Pokedex' : 'Pokedex'\n      \"\n    >\n      <div *ngIf=\"pokedexes.length > 0; else elseBlock\" class=\"p-4\">\n        <ul class=\"flex text-xs text-center overflow-x-scroll\">\n          <li class=\"me-2\" *ngFor=\"let pokedex of pokedexes\">\n            <button\n              (click)=\"selectedPokedex = pokedex\"\n              class=\"inline-block whitespace-nowrap p-4 rounded-t hover:bg-zinc-800\"\n              [ngClass]=\"{\n                'bg-zinc-800 cursor-default': selectedPokedex === pokedex,\n                'bg-zinc-900': selectedPokedex !== pokedex\n              }\"\n              aria-current=\"page\"\n            >\n              <span>{{ pokedex.name }}</span>\n            </button>\n          </li>\n        </ul>\n        <ng-container *ngFor=\"let pokedex of pokedexes\">\n          <dd-pokedex-tab\n            *ngIf=\"pokedex === selectedPokedex\"\n            [pokedex]=\"pokedex\"\n            [listView]=\"listView\"\n            [versionGroupIdentifier]=\"versionGroupIdentifier\"\n          ></dd-pokedex-tab>\n        </ng-container>\n      </div>\n      <ng-template #elseBlock>\n        <div class=\"flex w-full h-64 justify-center items-center\">\n          <dd-spinner></dd-spinner>\n        </div>\n      </ng-template>\n    </dd-card>\n  </div>\n</div>\n"
         },
         {
             "name": "PokedexGridViewItemComponent",
@@ -3237,7 +3201,7 @@
         },
         {
             "name": "PokedexSelectDropdownComponent",
-            "id": "component-PokedexSelectDropdownComponent-070b231125f64b64ce387b3843d8455273e9b9e793c9547c6dddd2c7c3b05b95a119c99d73f0d619d99fd6dac8cecf9e5a1795963a34d20dbb9efeb4e5ec2ffe",
+            "id": "component-PokedexSelectDropdownComponent-f3eead18eb9732034caa62872e007e08211f077f65476220c33ff0e385168244b8a9045ea16cb79dd8c89b57caef3c19188b66a229ae8630c992f214f1f35165",
             "file": "src/app/shared/components/pokedex-select-dropdown/pokedex-select-dropdown.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -3313,7 +3277,7 @@
                     "defaultValue": "[]",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "DropdownLinkSection[]",
+                    "type": "DropdownSection[]",
                     "optional": false,
                     "description": "",
                     "line": 15,
@@ -3386,7 +3350,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, OnChanges, inject } from '@angular/core';\nimport { Subject, forkJoin, takeUntil } from 'rxjs';\nimport { DropdownLinkSection, Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokedex-select-dropdown',\n  templateUrl: './pokedex-select-dropdown.component.html',\n})\nexport class PokedexSelectDropdownComponent implements OnChanges {\n  @Input() selectedPokemonSpecies?: Tables<'pokemon_species'>;\n  @Input() currentVersionGroupName: string = '';\n  @Input() origin: string = 'left';\n\n  public sections: DropdownLinkSection[] = [];\n  public placeholder: string = 'Select Pokedex';\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private destroy$ = new Subject<void>();\n\n  ngOnChanges(): void {\n    if (this.selectedPokemonSpecies) {\n      this.getPokedexVersionGroupsWithPokemon();\n    } else {\n      this.getAllPokedexVersionGroups();\n    }\n  }\n\n  getAllPokedexVersionGroups(): void {\n    forkJoin({\n      versionGroups: this.supabase.getAllVersionGroups(),\n      generations: this.supabase.getAllGenerations(),\n      pokedexVersionGroups: this.supabase.getAllPokedexVersionGroups(),\n    })\n      .pipe(takeUntil(this.destroy$))\n      .subscribe(({ versionGroups, generations, pokedexVersionGroups }) => {\n        const versionGroupIds = versionGroups.map((item: any) => item.id);\n        let filteredPokedexVersionGroups = pokedexVersionGroups.filter(\n          (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>\n            versionGroupIds.includes(pokedexVersionGroup.version_group_id)\n        );\n        const versionGroupsWithPokedexes = new Set(\n          filteredPokedexVersionGroups.map((item) => item.version_group_id)\n        );\n\n        this.sections = [\n          ...generations.reverse().map((generation) => {\n            return {\n              name: generation.name ?? '',\n              options: versionGroups\n                .filter(\n                  (versionGroup): boolean =>\n                    versionGroup.generation_id === generation.id &&\n                    versionGroupsWithPokedexes.has(versionGroup.id)\n                )\n                .map((versionGroup) => ({\n                  name: versionGroup.name,\n                  path: `/pokedex/${versionGroup.identifier}`,\n                })),\n            };\n          }),\n        ];\n      });\n  }\n\n  getPokedexVersionGroupsWithPokemon(): void {\n    if (!this.selectedPokemonSpecies) return;\n    forkJoin({\n      versionGroups: this.supabase.getAllVersionGroups(),\n      generations: this.supabase.getAllGenerations(),\n      pokedexVersionGroups: this.supabase.getAllPokedexVersionGroups(),\n      pokemonDexNumbers: this.supabase.getPokemonDexNumbersBySpeciesId(\n        this.selectedPokemonSpecies.id\n      ),\n    })\n      .pipe(takeUntil(this.destroy$))\n      .subscribe(\n        ({\n          versionGroups,\n          generations,\n          pokedexVersionGroups,\n          pokemonDexNumbers,\n        }) => {\n          const versionGroupIds = versionGroups.map((item: any) => item.id);\n          let filteredPokedexVersionGroups = pokedexVersionGroups.filter(\n            (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>\n              versionGroupIds.includes(pokedexVersionGroup.version_group_id)\n          );\n          const dexNumbers = pokemonDexNumbers.map((item) => item.pokedex_id);\n          filteredPokedexVersionGroups = filteredPokedexVersionGroups.filter(\n            (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>\n              dexNumbers.includes(pokedexVersionGroup.pokedex_id)\n          );\n          const versionGroupsWithPokedexes = new Set(\n            filteredPokedexVersionGroups.map((item) => item.version_group_id)\n          );\n\n          this.sections = [\n            ...generations\n              .reverse()\n              .reduce((acc: DropdownLinkSection[], generation) => {\n                const matchingVersionGroups = versionGroups.filter(\n                  (versionGroup): boolean =>\n                    versionGroup.generation_id === generation.id &&\n                    versionGroupsWithPokedexes.has(versionGroup.id)\n                );\n\n                if (matchingVersionGroups.length > 0) {\n                  acc.push({\n                    name: generation.name ?? '',\n                    options: matchingVersionGroups.map((versionGroup) => ({\n                      name: versionGroup.name,\n                      path: `/pokedex/${versionGroup.identifier}/${this.selectedPokemonSpecies?.identifier}`,\n                    })),\n                  });\n                }\n\n                return acc;\n              }, []),\n          ];\n        }\n      );\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
+            "sourceCode": "import { Component, Input, OnChanges, inject } from '@angular/core';\nimport { Subject, forkJoin, takeUntil } from 'rxjs';\nimport { DropdownSection, Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokedex-select-dropdown',\n  templateUrl: './pokedex-select-dropdown.component.html',\n})\nexport class PokedexSelectDropdownComponent implements OnChanges {\n  @Input() selectedPokemonSpecies?: Tables<'pokemon_species'>;\n  @Input() currentVersionGroupName: string = '';\n  @Input() origin: string = 'left';\n\n  public sections: DropdownSection[] = [];\n  public placeholder: string = 'Select Pokedex';\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private destroy$ = new Subject<void>();\n\n  ngOnChanges(): void {\n    if (this.selectedPokemonSpecies) {\n      this.getPokedexVersionGroupsWithPokemon();\n    } else {\n      this.getAllPokedexVersionGroups();\n    }\n  }\n\n  getAllPokedexVersionGroups(): void {\n    forkJoin({\n      versionGroups: this.supabase.getAllVersionGroups(),\n      generations: this.supabase.getAllGenerations(),\n      pokedexVersionGroups: this.supabase.getAllPokedexVersionGroups(),\n    })\n      .pipe(takeUntil(this.destroy$))\n      .subscribe(({ versionGroups, generations, pokedexVersionGroups }) => {\n        const versionGroupIds = versionGroups.map((item: any) => item.id);\n        let filteredPokedexVersionGroups = pokedexVersionGroups.filter(\n          (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>\n            versionGroupIds.includes(pokedexVersionGroup.version_group_id)\n        );\n        const versionGroupsWithPokedexes = new Set(\n          filteredPokedexVersionGroups.map((item) => item.version_group_id)\n        );\n\n        this.sections = [\n          ...generations.reverse().map((generation) => {\n            return {\n              name: generation.name ?? '',\n              options: versionGroups\n                .filter(\n                  (versionGroup): boolean =>\n                    versionGroup.generation_id === generation.id &&\n                    versionGroupsWithPokedexes.has(versionGroup.id)\n                )\n                .map((versionGroup) => ({\n                  name: versionGroup.name,\n                  path: `/pokedex/${versionGroup.identifier}`,\n                })),\n            };\n          }),\n        ];\n      });\n  }\n\n  getPokedexVersionGroupsWithPokemon(): void {\n    if (!this.selectedPokemonSpecies) return;\n    forkJoin({\n      versionGroups: this.supabase.getAllVersionGroups(),\n      generations: this.supabase.getAllGenerations(),\n      pokedexVersionGroups: this.supabase.getAllPokedexVersionGroups(),\n      pokemonDexNumbers: this.supabase.getPokemonDexNumbersBySpeciesId(\n        this.selectedPokemonSpecies.id\n      ),\n    })\n      .pipe(takeUntil(this.destroy$))\n      .subscribe(\n        ({\n          versionGroups,\n          generations,\n          pokedexVersionGroups,\n          pokemonDexNumbers,\n        }) => {\n          const versionGroupIds = versionGroups.map((item: any) => item.id);\n          let filteredPokedexVersionGroups = pokedexVersionGroups.filter(\n            (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>\n              versionGroupIds.includes(pokedexVersionGroup.version_group_id)\n          );\n          const dexNumbers = pokemonDexNumbers.map((item) => item.pokedex_id);\n          filteredPokedexVersionGroups = filteredPokedexVersionGroups.filter(\n            (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>\n              dexNumbers.includes(pokedexVersionGroup.pokedex_id)\n          );\n          const versionGroupsWithPokedexes = new Set(\n            filteredPokedexVersionGroups.map((item) => item.version_group_id)\n          );\n\n          this.sections = [\n            ...generations\n              .reverse()\n              .reduce((acc: DropdownSection[], generation) => {\n                const matchingVersionGroups = versionGroups.filter(\n                  (versionGroup): boolean =>\n                    versionGroup.generation_id === generation.id &&\n                    versionGroupsWithPokedexes.has(versionGroup.id)\n                );\n\n                if (matchingVersionGroups.length > 0) {\n                  acc.push({\n                    name: generation.name ?? '',\n                    options: matchingVersionGroups.map((versionGroup) => ({\n                      name: versionGroup.name,\n                      path: `/pokedex/${versionGroup.identifier}/${this.selectedPokemonSpecies?.identifier}`,\n                    })),\n                  });\n                }\n\n                return acc;\n              }, []),\n          ];\n        }\n      );\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -3394,7 +3358,7 @@
             "implements": [
                 "OnChanges"
             ],
-            "templateData": "<dd-dropdown-link\n  [sections]=\"sections\"\n  [placeholder]=\"\n    this.currentVersionGroupName\n      ? this.currentVersionGroupName\n      : 'Select Pokédex'\n  \"\n  [origin]=\"origin\"\n></dd-dropdown-link>\n"
+            "templateData": "<dd-dropdown\n  [sections]=\"sections\"\n  [placeholder]=\"\n    this.currentVersionGroupName\n      ? this.currentVersionGroupName\n      : 'Select Pokédex'\n  \"\n  [origin]=\"origin\"\n></dd-dropdown>\n"
         },
         {
             "name": "PokedexTabComponent",
@@ -3539,7 +3503,7 @@
         },
         {
             "name": "PokemonComponent",
-            "id": "component-PokemonComponent-0cc512ef77eba1945146257dc7e848f61ac91a572a05c71cded414ef189b29714c03b3a937cb89326bb54cabef31ee00117affec2d04ef12de4fb9c472af95da",
+            "id": "component-PokemonComponent-26e91110a3d80c7bbf13d2e964dc32d829f48dd0021131565046b5546150ebf4b00ec7e3c5bcafb7b81a09eefbff0069a3c806067258e72b2af2e59e513c640f",
             "file": "src/app/features/pokemon/pages/pokemon/pokemon.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -3565,7 +3529,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 28,
+                    "line": 22,
                     "modifierKind": [
                         123
                     ]
@@ -3578,7 +3542,7 @@
                     "type": "Tables<pokemon>[]",
                     "optional": false,
                     "description": "",
-                    "line": 18
+                    "line": 12
                 },
                 {
                     "name": "pokemonSpecies",
@@ -3588,7 +3552,7 @@
                     "type": "Tables<pokemon_species>",
                     "optional": false,
                     "description": "",
-                    "line": 20
+                    "line": 14
                 },
                 {
                     "name": "route",
@@ -3598,7 +3562,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 27,
+                    "line": 21,
                     "modifierKind": [
                         123
                     ]
@@ -3611,7 +3575,7 @@
                     "type": "Tables<pokemon>",
                     "optional": false,
                     "description": "",
-                    "line": 19
+                    "line": 13
                 },
                 {
                     "name": "selectedVersionGroup",
@@ -3621,7 +3585,7 @@
                     "type": "any",
                     "optional": false,
                     "description": "",
-                    "line": 23
+                    "line": 17
                 },
                 {
                     "name": "supabase",
@@ -3631,7 +3595,7 @@
                     "type": "SupabaseService",
                     "optional": false,
                     "description": "",
-                    "line": 26,
+                    "line": 20,
                     "modifierKind": [
                         123
                     ]
@@ -3644,7 +3608,7 @@
                     "type": "string",
                     "optional": false,
                     "description": "",
-                    "line": 22
+                    "line": 16
                 },
                 {
                     "name": "versions",
@@ -3654,7 +3618,7 @@
                     "type": "Tables<versions>[]",
                     "optional": false,
                     "description": "",
-                    "line": 24
+                    "line": 18
                 }
             ],
             "methodsClass": [
@@ -3671,7 +3635,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 52,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -3699,7 +3663,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 54,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -3727,7 +3691,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 50,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -3748,7 +3712,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 58,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -3758,7 +3722,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 30,
+                    "line": 24,
                     "deprecated": false,
                     "deprecationMessage": ""
                 }
@@ -3772,7 +3736,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, inject, OnInit } from '@angular/core';\nimport { ActivatedRoute } from '@angular/router';\nimport { versions } from 'process';\nimport { map, switchMap, tap, forkJoin, Subject, takeUntil } from 'rxjs';\nimport { DropdownLinkSection, Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\ninterface DropdownLinkOption {\n  name: string;\n  path: string;\n}\n\n@Component({\n  selector: 'dd-pokemon',\n  templateUrl: './pokemon.component.html',\n})\nexport class PokemonComponent implements OnInit {\n  pokemonForms: Tables<'pokemon'>[] = [];\n  selectedForm: Tables<'pokemon'> = {} as Tables<'pokemon'>;\n  pokemonSpecies: Tables<'pokemon_species'> = {} as Tables<'pokemon_species'>;\n\n  versionGroupIdentifier: string = '';\n  selectedVersionGroup: any = '';\n  versions: Tables<'versions'>[] = [];\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private route: ActivatedRoute = inject(ActivatedRoute);\n  private destroy$ = new Subject<void>();\n\n  ngOnInit(): void {\n    this.route.params\n      .pipe(\n        switchMap((params) => {\n          const pokemonIdentifier = params['pokemon'];\n          this.versionGroupIdentifier = params['version-group'];\n          return this.supabase.getPokemonSpeciesByIdentifier(pokemonIdentifier);\n        }),\n        tap((pokemonSpecies) => {\n          this.pokemonSpecies = pokemonSpecies;\n        }),\n        switchMap((pokemonSpecies) => {\n          return this.supabase.getPokemonBySpeciesId(pokemonSpecies.id);\n        }),\n        tap((pokemon) => {\n          this.pokemonForms = pokemon;\n          this.selectedForm = pokemon[0];\n        })\n      )\n      .subscribe(() => {});\n  }\n\n  handleNewSelectedForm(form: any) {\n    this.selectedForm = form;\n  }\n\n  handleVersions(versions: any) {\n    this.versions = versions;\n  }\n\n  handleSelectedVersionGroup(versionGroup: any) {\n    this.selectedVersionGroup = versionGroup;\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
+            "sourceCode": "import { Component, inject, OnInit } from '@angular/core';\nimport { ActivatedRoute } from '@angular/router';\nimport { map, switchMap, tap, Subject } from 'rxjs';\nimport { Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokemon',\n  templateUrl: './pokemon.component.html',\n})\nexport class PokemonComponent implements OnInit {\n  pokemonForms: Tables<'pokemon'>[] = [];\n  selectedForm: Tables<'pokemon'> = {} as Tables<'pokemon'>;\n  pokemonSpecies: Tables<'pokemon_species'> = {} as Tables<'pokemon_species'>;\n\n  versionGroupIdentifier: string = '';\n  selectedVersionGroup: any = '';\n  versions: Tables<'versions'>[] = [];\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private route: ActivatedRoute = inject(ActivatedRoute);\n  private destroy$ = new Subject<void>();\n\n  ngOnInit(): void {\n    this.route.params\n      .pipe(\n        switchMap((params) => {\n          const pokemonIdentifier = params['pokemon'];\n          this.versionGroupIdentifier = params['version-group'];\n          return this.supabase.getPokemonSpeciesByIdentifier(pokemonIdentifier);\n        }),\n        tap((pokemonSpecies) => {\n          this.pokemonSpecies = pokemonSpecies;\n        }),\n        switchMap((pokemonSpecies) => {\n          return this.supabase.getPokemonBySpeciesId(pokemonSpecies.id);\n        }),\n        tap((pokemon) => {\n          this.pokemonForms = pokemon;\n          this.selectedForm = pokemon[0];\n        })\n      )\n      .subscribe(() => {});\n  }\n\n  handleNewSelectedForm(form: any) {\n    this.selectedForm = form;\n  }\n\n  handleVersions(versions: any) {\n    this.versions = versions;\n  }\n\n  handleSelectedVersionGroup(versionGroup: any) {\n    this.selectedVersionGroup = versionGroup;\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -4447,7 +4411,7 @@
         },
         {
             "name": "PokemonNavigationComponent",
-            "id": "component-PokemonNavigationComponent-beed65be3c8be04c3ddc1fab3b8b88e00a7a6226cfbd12b3a7f07d22e0e3027536cecb10b1a582d3e983e017465dcd4a4b823861bcf41fa07f691601ae88e4a1",
+            "id": "component-PokemonNavigationComponent-43b03bf26145662fdb7a96fec8417f25b82aa3d43c88e9a27fb81060697af1345b56090a42823dec71db4990fd4ec672c67da80b8b4bd21007944c41c28348a4",
             "file": "src/app/features/pokemon/components/pokemon-navigation/pokemon-navigation.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -4539,7 +4503,7 @@
                     "defaultValue": "[]",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "DropdownLinkSection[]",
+                    "type": "DropdownSection[]",
                     "optional": false,
                     "description": "",
                     "line": 27
@@ -4708,7 +4672,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {\n  Component,\n  EventEmitter,\n  inject,\n  Input,\n  OnChanges,\n  Output,\n} from '@angular/core';\nimport { Router } from '@angular/router';\nimport { takeUntil, tap, switchMap, forkJoin, map, Subject } from 'rxjs';\nimport { DropdownLinkSection, Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokemon-navigation',\n  templateUrl: './pokemon-navigation.component.html',\n})\nexport class PokemonNavigationComponent implements OnChanges {\n  @Input() pokedexGeneration = '';\n  @Input() pokemonSpecies: Tables<'pokemon_species'> =\n    {} as Tables<'pokemon_species'>;\n\n  @Output() selectedVersionGroup = new EventEmitter<any>();\n  @Output() versions = new EventEmitter<any>();\n\n  selectedVersionGroupName: string = '';\n  pokemonDropdownOptions: DropdownLinkSection[] = [];\n  randomPokemonIdentifier: string = '';\n  previousPokemonImageUrl: string = '';\n  previousPokemonIdentifier: string = '';\n  nextPokemonImageUrl: string = '';\n  nextPokemonIdentifier: string = '';\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private router: Router = inject(Router);\n  private destroy$ = new Subject<void>();\n\n  ngOnChanges(): void {\n    this.getPokemonDropdownOptions();\n  }\n  getPokemonDropdownOptions() {\n    let availablePokedexes: Tables<'pokedexes'>[] = [];\n    this.supabase\n      .getVersionGroupByIdentifier(this.pokedexGeneration)\n      .pipe(\n        takeUntil(this.destroy$),\n        tap((versionGroup) => {\n          this.selectedVersionGroup.emit(versionGroup);\n          this.selectedVersionGroupName = versionGroup.name;\n          this.supabase\n            .getVersionsByVersionGroupId(versionGroup.id)\n            .subscribe((versions) => {\n              this.versions.emit(versions);\n            });\n        }),\n        switchMap((versionGroup) => {\n          return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);\n        }),\n        switchMap((pokedexes) => {\n          availablePokedexes = pokedexes;\n          return forkJoin(\n            pokedexes.map((pokedex: any) =>\n              this.supabase.getPokemonSpeciesByPokedexId(pokedex.id)\n            )\n          );\n        }),\n        map((pokemonArray: any) => {\n          const combined = pokemonArray.flat();\n          this.randomPokemonIdentifier =\n            combined[\n              Math.floor(Math.random() * combined.length)\n            ]?.species_id.identifier;\n\n          const currentPokemonIndex = combined.findIndex(\n            (pokemon: any) =>\n              pokemon.species_id.identifier === this.pokemonSpecies.identifier\n          );\n\n          const previousPokemon = combined[currentPokemonIndex - 1]?.species_id;\n\n          if (previousPokemon) {\n            this.previousPokemonIdentifier = previousPokemon.identifier;\n            this.previousPokemonImageUrl = this.supabase.storage\n              .from('pokemon')\n              .getPublicUrl(\n                'home-previews/' + previousPokemon.id + '.png'\n              ).data.publicUrl;\n          }\n\n          const nextPokemon = combined[currentPokemonIndex + 1]?.species_id;\n\n          if (nextPokemon) {\n            this.nextPokemonIdentifier = nextPokemon.identifier;\n            this.nextPokemonImageUrl = this.supabase.storage\n              .from('pokemon')\n              .getPublicUrl(\n                'home-previews/' + nextPokemon.id + '.png'\n              ).data.publicUrl;\n          }\n\n          return availablePokedexes.map((pokedex: any, index: number) => {\n            return {\n              name: pokedex.name,\n              options: pokemonArray[index].map(\n                (pokemon: any, index: number) => {\n                  return {\n                    name: `№ ${index + 1} ` + pokemon.species_id.name,\n                    path:\n                      '/pokedex/' +\n                      this.pokedexGeneration +\n                      '/' +\n                      pokemon.species_id.identifier,\n                  };\n                }\n              ),\n            };\n          });\n        })\n      )\n      .subscribe((data) => {\n        this.pokemonDropdownOptions = data;\n      });\n  }\n\n  navigateToPokemon(pokemonIdentifier: string) {\n    this.router.navigate([\n      '/pokedex',\n      this.pokedexGeneration,\n      pokemonIdentifier,\n    ]);\n  }\n\n  navigateToPokedex(pokedexGeneration: string) {\n    this.router.navigate(['/pokedex/' + pokedexGeneration]);\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
+            "sourceCode": "import {\n  Component,\n  EventEmitter,\n  inject,\n  Input,\n  OnChanges,\n  Output,\n} from '@angular/core';\nimport { Router } from '@angular/router';\nimport { takeUntil, tap, switchMap, forkJoin, map, Subject } from 'rxjs';\nimport { DropdownSection, Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokemon-navigation',\n  templateUrl: './pokemon-navigation.component.html',\n})\nexport class PokemonNavigationComponent implements OnChanges {\n  @Input() pokedexGeneration = '';\n  @Input() pokemonSpecies: Tables<'pokemon_species'> =\n    {} as Tables<'pokemon_species'>;\n\n  @Output() selectedVersionGroup = new EventEmitter<any>();\n  @Output() versions = new EventEmitter<any>();\n\n  selectedVersionGroupName: string = '';\n  pokemonDropdownOptions: DropdownSection[] = [];\n  randomPokemonIdentifier: string = '';\n  previousPokemonImageUrl: string = '';\n  previousPokemonIdentifier: string = '';\n  nextPokemonImageUrl: string = '';\n  nextPokemonIdentifier: string = '';\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private router: Router = inject(Router);\n  private destroy$ = new Subject<void>();\n\n  ngOnChanges(): void {\n    this.getPokemonDropdownOptions();\n  }\n  getPokemonDropdownOptions() {\n    let availablePokedexes: Tables<'pokedexes'>[] = [];\n    this.supabase\n      .getVersionGroupByIdentifier(this.pokedexGeneration)\n      .pipe(\n        takeUntil(this.destroy$),\n        tap((versionGroup) => {\n          this.selectedVersionGroup.emit(versionGroup);\n          this.selectedVersionGroupName = versionGroup.name;\n          this.supabase\n            .getVersionsByVersionGroupId(versionGroup.id)\n            .subscribe((versions) => {\n              this.versions.emit(versions);\n            });\n        }),\n        switchMap((versionGroup) => {\n          return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);\n        }),\n        switchMap((pokedexes) => {\n          availablePokedexes = pokedexes;\n          return forkJoin(\n            pokedexes.map((pokedex: any) =>\n              this.supabase.getPokemonSpeciesByPokedexId(pokedex.id)\n            )\n          );\n        }),\n        map((pokemonArray: any) => {\n          const combined = pokemonArray.flat();\n          this.randomPokemonIdentifier =\n            combined[\n              Math.floor(Math.random() * combined.length)\n            ]?.species_id.identifier;\n\n          const currentPokemonIndex = combined.findIndex(\n            (pokemon: any) =>\n              pokemon.species_id.identifier === this.pokemonSpecies.identifier\n          );\n\n          const previousPokemon = combined[currentPokemonIndex - 1]?.species_id;\n\n          if (previousPokemon) {\n            this.previousPokemonIdentifier = previousPokemon.identifier;\n            this.previousPokemonImageUrl = this.supabase.storage\n              .from('pokemon')\n              .getPublicUrl(\n                'home-previews/' + previousPokemon.id + '.png'\n              ).data.publicUrl;\n          }\n\n          const nextPokemon = combined[currentPokemonIndex + 1]?.species_id;\n\n          if (nextPokemon) {\n            this.nextPokemonIdentifier = nextPokemon.identifier;\n            this.nextPokemonImageUrl = this.supabase.storage\n              .from('pokemon')\n              .getPublicUrl(\n                'home-previews/' + nextPokemon.id + '.png'\n              ).data.publicUrl;\n          }\n\n          return availablePokedexes.map((pokedex: any, index: number) => {\n            return {\n              name: pokedex.name,\n              options: pokemonArray[index].map(\n                (pokemon: any, index: number) => {\n                  return {\n                    name: `№ ${index + 1} ` + pokemon.species_id.name,\n                    path:\n                      '/pokedex/' +\n                      this.pokedexGeneration +\n                      '/' +\n                      pokemon.species_id.identifier,\n                  };\n                }\n              ),\n            };\n          });\n        })\n      )\n      .subscribe((data) => {\n        this.pokemonDropdownOptions = data;\n      });\n  }\n\n  navigateToPokemon(pokemonIdentifier: string) {\n    this.router.navigate([\n      '/pokedex',\n      this.pokedexGeneration,\n      pokemonIdentifier,\n    ]);\n  }\n\n  navigateToPokedex(pokedexGeneration: string) {\n    this.router.navigate(['/pokedex/' + pokedexGeneration]);\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -4716,7 +4680,7 @@
             "implements": [
                 "OnChanges"
             ],
-            "templateData": "<section class=\"flex justify-between items-center w-full mb-2\">\n  <div class=\"flex flex-col-reverse gap-2 sm:flex-row sm:items-center\">\n    <dd-button\n      [appearance]=\"'primary'\"\n      *ngIf=\"previousPokemonIdentifier && previousPokemonImageUrl\"\n      (onClick)=\"navigateToPokemon(previousPokemonIdentifier)\"\n    >\n      <div class=\"flex justify-evenly items-center\">\n        <ng-icon [name]=\"'heroChevronLeftSolid'\"></ng-icon>\n        <img\n          class=\"transition-all duration-300 ease-in-out\"\n          [defaultImage]=\"'assets/images/question-icon.png'\"\n          [lazyLoad]=\"previousPokemonImageUrl\"\n          height=\"20\"\n          width=\"20\"\n          alt=\"\"\n        />\n      </div>\n    </dd-button>\n    <dd-button\n      attr.aria-label=\"Go To Pokédex: {{ pokedexGeneration }}\"\n      (onClick)=\"navigateToPokedex(pokedexGeneration)\"\n    >\n      <ng-icon [name]=\"'heroSwatchSolid'\"></ng-icon>\n    </dd-button>\n  </div>\n  <div\n    class=\"flex flex-col sm:flex-row items-center gap-3\"\n    *ngIf=\"this.pokemonSpecies.id\"\n  >\n    <dd-pokedex-select-dropdown\n      [selectedPokemonSpecies]=\"this.pokemonSpecies\"\n      [currentVersionGroupName]=\"this.selectedVersionGroupName\"\n      [origin]=\"'right'\"\n    ></dd-pokedex-select-dropdown>\n    <dd-dropdown-link\n      [placeholder]=\"this.pokemonSpecies.name ?? 'Select Pokémon'\"\n      [sections]=\"pokemonDropdownOptions\"\n      [origin]=\"'left'\"\n    ></dd-dropdown-link>\n  </div>\n  <div class=\"flex flex-col gap-2 sm:flex-row sm:items-center items-end\">\n    <dd-button\n      aria-label=\"Go To A Random Pokémon In The Pokédex\"\n      (onClick)=\"navigateToPokemon(randomPokemonIdentifier)\"\n    >\n      <ng-icon [name]=\"'bootstrapDice6Fill'\"></ng-icon>\n    </dd-button>\n    <dd-button\n      *ngIf=\"nextPokemonIdentifier && nextPokemonImageUrl\"\n      (onClick)=\"navigateToPokemon(nextPokemonIdentifier)\"\n    >\n      <div class=\"flex justify-evenly items-center\">\n        <img\n          class=\"transition-all duration-300 ease-in-out\"\n          [defaultImage]=\"'assets/images/question-icon.png'\"\n          [lazyLoad]=\"nextPokemonImageUrl\"\n          height=\"20\"\n          width=\"20\"\n          alt=\"\"\n        />\n        <ng-icon [name]=\"'heroChevronRightSolid'\"></ng-icon>\n      </div>\n    </dd-button>\n  </div>\n</section>\n"
+            "templateData": "<section class=\"flex justify-between items-center w-full mb-2\">\n  <div class=\"flex flex-col-reverse gap-2 sm:flex-row sm:items-center\">\n    <dd-button\n      [appearance]=\"'primary'\"\n      *ngIf=\"previousPokemonIdentifier && previousPokemonImageUrl\"\n      (onClick)=\"navigateToPokemon(previousPokemonIdentifier)\"\n    >\n      <div class=\"flex justify-evenly items-center\">\n        <ng-icon [name]=\"'heroChevronLeftSolid'\"></ng-icon>\n        <img\n          class=\"transition-all duration-300 ease-in-out\"\n          [defaultImage]=\"'assets/images/question-icon.png'\"\n          [lazyLoad]=\"previousPokemonImageUrl\"\n          height=\"20\"\n          width=\"20\"\n          alt=\"\"\n        />\n      </div>\n    </dd-button>\n    <dd-button\n      attr.aria-label=\"Go To Pokédex: {{ pokedexGeneration }}\"\n      (onClick)=\"navigateToPokedex(pokedexGeneration)\"\n    >\n      <ng-icon [name]=\"'heroSwatchSolid'\"></ng-icon>\n    </dd-button>\n  </div>\n  <div\n    class=\"flex flex-col sm:flex-row items-center gap-3\"\n    *ngIf=\"this.pokemonSpecies.id\"\n  >\n    <dd-pokedex-select-dropdown\n      [selectedPokemonSpecies]=\"this.pokemonSpecies\"\n      [currentVersionGroupName]=\"this.selectedVersionGroupName\"\n      [origin]=\"'right'\"\n    ></dd-pokedex-select-dropdown>\n    <dd-dropdown\n      [placeholder]=\"this.pokemonSpecies.name ?? 'Select Pokémon'\"\n      [sections]=\"pokemonDropdownOptions\"\n      [origin]=\"'left'\"\n    ></dd-dropdown>\n  </div>\n  <div class=\"flex flex-col gap-2 sm:flex-row sm:items-center items-end\">\n    <dd-button\n      aria-label=\"Go To A Random Pokémon In The Pokédex\"\n      (onClick)=\"navigateToPokemon(randomPokemonIdentifier)\"\n    >\n      <ng-icon [name]=\"'bootstrapDice6Fill'\"></ng-icon>\n    </dd-button>\n    <dd-button\n      *ngIf=\"nextPokemonIdentifier && nextPokemonImageUrl\"\n      (onClick)=\"navigateToPokemon(nextPokemonIdentifier)\"\n    >\n      <div class=\"flex justify-evenly items-center\">\n        <img\n          class=\"transition-all duration-300 ease-in-out\"\n          [defaultImage]=\"'assets/images/question-icon.png'\"\n          [lazyLoad]=\"nextPokemonImageUrl\"\n          height=\"20\"\n          width=\"20\"\n          alt=\"\"\n        />\n        <ng-icon [name]=\"'heroChevronRightSolid'\"></ng-icon>\n      </div>\n    </dd-button>\n  </div>\n</section>\n"
         },
         {
             "name": "PokemonStatsComponent",
@@ -4895,7 +4859,7 @@
         },
         {
             "name": "PokemonSummaryComponent",
-            "id": "component-PokemonSummaryComponent-2dbf6336d656880accf40098f6ef668f776efea1df8ec16f18045165808fd5cf1bbd147eee7b37dc7436a9c42bfdc9a4e1a4b0022aa08a7788e6b66d0b9e669a",
+            "id": "component-PokemonSummaryComponent-cb3b228aa614b1a2a66979c3c8d2b9c5b7a63bf406fd210f693b383a9c5e5f3c2b06f527c40206eb0aeadaf56cb2ef8d0b0ec9eb891f6907d12215527e6abbf5",
             "file": "src/app/features/pokemon/components/pokemon-summary/pokemon-summary.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -4916,7 +4880,7 @@
                     "defaultValue": "{} as Tables<'pokemon_species'>",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 20,
+                    "line": 12,
                     "type": "Tables<pokemon_species>",
                     "decorators": []
                 },
@@ -4925,7 +4889,7 @@
                     "defaultValue": "{} as Tables<'pokemon'>",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 19,
+                    "line": 11,
                     "type": "Tables<pokemon>",
                     "decorators": []
                 }
@@ -4940,7 +4904,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 28,
+                    "line": 20,
                     "modifierKind": [
                         123
                     ]
@@ -4953,7 +4917,7 @@
                     "type": "boolean",
                     "optional": false,
                     "description": "",
-                    "line": 25
+                    "line": 17
                 },
                 {
                     "name": "imageUrl",
@@ -4963,7 +4927,7 @@
                     "type": "string",
                     "optional": false,
                     "description": "",
-                    "line": 23
+                    "line": 15
                 },
                 {
                     "name": "pokemonTypes",
@@ -4972,7 +4936,7 @@
                     "type": "any",
                     "optional": false,
                     "description": "",
-                    "line": 22
+                    "line": 14
                 },
                 {
                     "name": "shiny",
@@ -4982,7 +4946,7 @@
                     "type": "boolean",
                     "optional": false,
                     "description": "",
-                    "line": 24
+                    "line": 16
                 },
                 {
                     "name": "supabase",
@@ -4992,7 +4956,7 @@
                     "type": "SupabaseService",
                     "optional": false,
                     "description": "",
-                    "line": 27,
+                    "line": 19,
                     "modifierKind": [
                         123
                     ]
@@ -5005,7 +4969,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 74,
+                    "line": 66,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -5015,7 +4979,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 40,
+                    "line": 32,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -5025,7 +4989,7 @@
                     "optional": false,
                     "returnType": "string",
                     "typeParameters": [],
-                    "line": 52,
+                    "line": 44,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -5035,7 +4999,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 30,
+                    "line": 22,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -5045,7 +5009,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 79,
+                    "line": 71,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -5055,7 +5019,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 69,
+                    "line": 61,
                     "deprecated": false,
                     "deprecationMessage": ""
                 }
@@ -5069,7 +5033,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {\n  Component,\n  EventEmitter,\n  inject,\n  Input,\n  OnChanges,\n  Output,\n  SimpleChanges,\n} from '@angular/core';\nimport { takeUntil, tap, switchMap, forkJoin, map, Subject } from 'rxjs';\nimport { DropdownLinkSection, Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokemon-summary',\n  templateUrl: './pokemon-summary.component.html',\n})\nexport class PokemonSummaryComponent implements OnChanges {\n  @Input() selectedForm: Tables<'pokemon'> = {} as Tables<'pokemon'>;\n  @Input() pokemonSpecies: Tables<'pokemon_species'> =\n    {} as Tables<'pokemon_species'>;\n  pokemonTypes: any;\n  imageUrl: string = '';\n  shiny: boolean = false;\n  female: boolean = false;\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private destroy$ = new Subject<void>();\n\n  ngOnChanges(): void {\n    if (!this.selectedForm.id) return;\n    this.supabase\n      .getPokemonTypesByPokemonId(this.selectedForm.id)\n      .subscribe((data) => {\n        this.pokemonTypes = data;\n      });\n    this.getImageUrl();\n  }\n\n  getImageUrl() {\n    let url = 'home-previews/';\n\n    this.shiny ? (url += 'shiny/') : null;\n    this.female ? (url += 'female/') : null;\n    url += this.selectedForm.id + '.png';\n\n    this.imageUrl = this.supabase.storage\n      .from('pokemon')\n      .getPublicUrl(url).data.publicUrl;\n  }\n\n  getTypeBackgroundColor() {\n    if (this.pokemonTypes && this.pokemonTypes.length > 1) {\n      return (\n        'linear-gradient(to bottom right, #' +\n        this.pokemonTypes[0].type_id.type_color +\n        ',' +\n        '#' +\n        this.pokemonTypes[1].type_id.type_color +\n        ')'\n      );\n    } else if (this.pokemonTypes && this.pokemonTypes.length == 1) {\n      return '#' + this.pokemonTypes[0].type_id.type_color;\n    } else {\n      return 'linear-gradient(to bottom right, #27272a, #27272a)';\n    }\n  }\n\n  shinyToggle() {\n    this.shiny = !this.shiny;\n    this.getImageUrl();\n  }\n\n  genderToggle() {\n    this.female = !this.female;\n    this.getImageUrl();\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
+            "sourceCode": "import { Component, inject, Input, OnChanges } from '@angular/core';\nimport { Subject } from 'rxjs';\nimport { Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokemon-summary',\n  templateUrl: './pokemon-summary.component.html',\n})\nexport class PokemonSummaryComponent implements OnChanges {\n  @Input() selectedForm: Tables<'pokemon'> = {} as Tables<'pokemon'>;\n  @Input() pokemonSpecies: Tables<'pokemon_species'> =\n    {} as Tables<'pokemon_species'>;\n  pokemonTypes: any;\n  imageUrl: string = '';\n  shiny: boolean = false;\n  female: boolean = false;\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private destroy$ = new Subject<void>();\n\n  ngOnChanges(): void {\n    if (!this.selectedForm.id) return;\n    this.supabase\n      .getPokemonTypesByPokemonId(this.selectedForm.id)\n      .subscribe((data) => {\n        this.pokemonTypes = data;\n      });\n    this.getImageUrl();\n  }\n\n  getImageUrl() {\n    let url = 'home-previews/';\n\n    this.shiny ? (url += 'shiny/') : null;\n    this.female ? (url += 'female/') : null;\n    url += this.selectedForm.id + '.png';\n\n    this.imageUrl = this.supabase.storage\n      .from('pokemon')\n      .getPublicUrl(url).data.publicUrl;\n  }\n\n  getTypeBackgroundColor() {\n    if (this.pokemonTypes && this.pokemonTypes.length > 1) {\n      return (\n        'linear-gradient(to bottom right, #' +\n        this.pokemonTypes[0].type_id.type_color +\n        ',' +\n        '#' +\n        this.pokemonTypes[1].type_id.type_color +\n        ')'\n      );\n    } else if (this.pokemonTypes && this.pokemonTypes.length == 1) {\n      return '#' + this.pokemonTypes[0].type_id.type_color;\n    } else {\n      return 'linear-gradient(to bottom right, #27272a, #27272a)';\n    }\n  }\n\n  shinyToggle() {\n    this.shiny = !this.shiny;\n    this.getImageUrl();\n  }\n\n  genderToggle() {\n    this.female = !this.female;\n    this.getImageUrl();\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -5725,13 +5689,13 @@
         },
         {
             "name": "SharedModule",
-            "id": "module-SharedModule-e5fb535c7072245cbafe433d43cc4beccc29fc001dcef2e86af3aebdcb23535c61ac1b91a65afba4f48ce4e7dd5072fbcf9185d7e49b91ad763b8a9289b33ed8",
+            "id": "module-SharedModule-cdd05c28eb4a03535873a50ae0ee6d99ef12a34e54644c7565ab248ef7ddc8c5f25e5d4c0e727da992e374f0813c78e6c3b5247540f505d952750233c779cf40",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/shared/shared.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { DecimetersToFeetAndInchesPipe } from './pipes/decimeters-to-feet-and-inches/decimeters-to-feet-and-inches.pipe';\nimport { DecimetersToPoundsPipe } from './pipes/decimeters-to-pounds/decimeters-to-pounds.pipe';\nimport { FormsModule } from '@angular/forms';\nimport { TypeBoxComponent } from './components/type-box/type-box.component';\nimport { CardHeaderComponent } from './components/card/card-header/card-header.component';\nimport { RouterModule } from '@angular/router';\nimport { SpinnerComponent } from './components/spinner/spinner.component';\nimport { DropdownLinkComponent } from './components/dropdown-link/dropdown-link.component';\nimport { PokedexSelectDropdownComponent } from './components/pokedex-select-dropdown/pokedex-select-dropdown.component';\nimport { NgIconsModule } from '@ng-icons/core';\nimport { heroChevronDownSolid } from '@ng-icons/heroicons/solid';\nimport { CardComponent } from './components/card/card/card.component';\nimport { ButtonComponent } from './components/button/button/button.component';\nimport { NewsPreviewComponent } from './components/news-preview/news-preview.component';\nimport { NewsPreviewListComponent } from './components/news-preview-list/news-preview-list.component';\nimport { CompoundButtonComponent } from './components/button/compound-button/compound-button.component';\nimport { SwitchComponent } from './components/switch/switch.component';\n\n@NgModule({\n  declarations: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    NewsPreviewComponent,\n    DropdownLinkComponent,\n    PokedexSelectDropdownComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n  ],\n  imports: [\n    CommonModule,\n    FormsModule,\n    RouterModule,\n    NgIconsModule.withIcons({\n      heroChevronDownSolid,\n    }),\n  ],\n  exports: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    DropdownLinkComponent,\n    PokedexSelectDropdownComponent,\n    NewsPreviewComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n  ],\n})\nexport class SharedModule {}\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { DecimetersToFeetAndInchesPipe } from './pipes/decimeters-to-feet-and-inches/decimeters-to-feet-and-inches.pipe';\nimport { DecimetersToPoundsPipe } from './pipes/decimeters-to-pounds/decimeters-to-pounds.pipe';\nimport { FormsModule } from '@angular/forms';\nimport { TypeBoxComponent } from './components/type-box/type-box.component';\nimport { CardHeaderComponent } from './components/card/card-header/card-header.component';\nimport { RouterModule } from '@angular/router';\nimport { SpinnerComponent } from './components/spinner/spinner.component';\nimport { DropdownComponent } from './components/dropdown/dropdown.component';\nimport { PokedexSelectDropdownComponent } from './components/pokedex-select-dropdown/pokedex-select-dropdown.component';\nimport { NgIconsModule } from '@ng-icons/core';\nimport { heroChevronDownSolid } from '@ng-icons/heroicons/solid';\nimport { CardComponent } from './components/card/card/card.component';\nimport { ButtonComponent } from './components/button/button/button.component';\nimport { NewsPreviewComponent } from './components/news-preview/news-preview.component';\nimport { NewsPreviewListComponent } from './components/news-preview-list/news-preview-list.component';\nimport { CompoundButtonComponent } from './components/button/compound-button/compound-button.component';\nimport { SwitchComponent } from './components/switch/switch.component';\n\n@NgModule({\n  declarations: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    NewsPreviewComponent,\n    DropdownComponent,\n    PokedexSelectDropdownComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n  ],\n  imports: [\n    CommonModule,\n    FormsModule,\n    RouterModule,\n    NgIconsModule.withIcons({\n      heroChevronDownSolid,\n    }),\n  ],\n  exports: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    DropdownComponent,\n    PokedexSelectDropdownComponent,\n    NewsPreviewComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n  ],\n})\nexport class SharedModule {}\n",
             "children": [
                 {
                     "type": "providers",
@@ -5759,7 +5723,7 @@
                             "name": "DecimetersToPoundsPipe"
                         },
                         {
-                            "name": "DropdownLinkComponent"
+                            "name": "DropdownComponent"
                         },
                         {
                             "name": "NewsPreviewComponent"
@@ -5807,7 +5771,7 @@
                             "name": "DecimetersToPoundsPipe"
                         },
                         {
-                            "name": "DropdownLinkComponent"
+                            "name": "DropdownComponent"
                         },
                         {
                             "name": "NewsPreviewComponent"
@@ -5893,16 +5857,6 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\n  args: {},\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/shared/components/switch/switch.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -5914,6 +5868,16 @@
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "src/app/shared/components/table/table.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {},\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/shared/components/spinner/spinner.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -5983,21 +5947,21 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<SpinnerComponent>",
-                "defaultValue": "{\n  title: 'Shared/Spinner',\n  component: SpinnerComponent,\n  tags: ['autodocs'],\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/shared/components/table/table.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<TableComponent>",
                 "defaultValue": "{\n  title: 'Shared/Table',\n  component: TableComponent,\n  tags: ['autodocs'],\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<SpinnerComponent>",
+                "defaultValue": "{\n  title: 'Shared/Spinner',\n  component: SpinnerComponent,\n  tags: ['autodocs'],\n}"
             },
             {
                 "name": "meta",
@@ -6073,21 +6037,21 @@
                 "name": "routes",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/features/news/news.module.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "[]",
-                "defaultValue": "[{ path: '', component: NewsComponent }]"
-            },
-            {
-                "name": "routes",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/features/home/home.module.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "[]",
                 "defaultValue": "[{ path: '', component: HomeComponent }]"
+            },
+            {
+                "name": "routes",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/features/news/news.module.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "[]",
+                "defaultValue": "[{ path: '', component: NewsComponent }]"
             },
             {
                 "name": "routes",
@@ -6158,17 +6122,6 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<SpinnerComponent>",
-                "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 183
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
                 "rawtype": "StoryObj<SwitchComponent>",
                 "file": "src/app/shared/components/switch/switch.stories.ts",
                 "deprecated": false,
@@ -6182,6 +6135,17 @@
                 "subtype": "typealias",
                 "rawtype": "StoryObj<TableComponent>",
                 "file": "src/app/shared/components/table/table.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<SpinnerComponent>",
+                "file": "src/app/shared/components/spinner/spinner.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -6278,28 +6242,6 @@
         ],
         "enumerations": [],
         "groupedVariables": {
-            "src/app/shared/components/spinner/spinner.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "{\n  args: {},\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<SpinnerComponent>",
-                    "defaultValue": "{\n  title: 'Shared/Spinner',\n  component: SpinnerComponent,\n  tags: ['autodocs'],\n}"
-                }
-            ],
             "src/app/shared/components/switch/switch.stories.ts": [
                 {
                     "name": "Default",
@@ -6332,6 +6274,28 @@
                     "deprecationMessage": "",
                     "type": "Meta<TableComponent>",
                     "defaultValue": "{\n  title: 'Shared/Table',\n  component: TableComponent,\n  tags: ['autodocs'],\n}"
+                }
+            ],
+            "src/app/shared/components/spinner/spinner.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {},\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<SpinnerComponent>",
+                    "defaultValue": "{\n  title: 'Shared/Spinner',\n  component: SpinnerComponent,\n  tags: ['autodocs'],\n}"
                 }
             ],
             "src/app/shared/components/button/button/button.stories.ts": [
@@ -6490,18 +6454,6 @@
                     "defaultValue": "{\n  parameters: {\n    actions: { argTypesRegex: '^on[A-Z].*' },\n    controls: {\n      matchers: {\n        color: /(background|color)$/i,\n        date: /Date$/i,\n      },\n    },\n  },\n  decorators: [\n    withThemeByClassName<AngularRenderer>({\n      themes: {\n        Light: '',\n        Dark: 'dark',\n      },\n      defaultTheme: 'Light',\n    }),\n  ],\n}"
                 }
             ],
-            "src/app/features/news/news.module.ts": [
-                {
-                    "name": "routes",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/features/news/news.module.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "[]",
-                    "defaultValue": "[{ path: '', component: NewsComponent }]"
-                }
-            ],
             "src/app/features/home/home.module.ts": [
                 {
                     "name": "routes",
@@ -6512,6 +6464,18 @@
                     "deprecationMessage": "",
                     "type": "[]",
                     "defaultValue": "[{ path: '', component: HomeComponent }]"
+                }
+            ],
+            "src/app/features/news/news.module.ts": [
+                {
+                    "name": "routes",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/features/news/news.module.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "[]",
+                    "defaultValue": "[{ path: '', component: NewsComponent }]"
                 }
             ],
             "src/app/features/pokedex/pokedex.module.ts": [
@@ -6611,19 +6575,6 @@
                     "kind": 194
                 }
             ],
-            "src/app/shared/components/spinner/spinner.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<SpinnerComponent>",
-                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
             "src/app/shared/components/switch/switch.stories.ts": [
                 {
                     "name": "Story",
@@ -6644,6 +6595,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<TableComponent>",
                     "file": "src/app/shared/components/table/table.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "src/app/shared/components/spinner/spinner.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<SpinnerComponent>",
+                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -6751,19 +6715,19 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/core/layout/header/components/header-dropdown-item/header-dropdown-item.component.ts",
+                "filePath": "src/app/core/layout/header/components/header-dropdown/header-dropdown.component.ts",
                 "type": "component",
                 "linktype": "component",
-                "name": "HeaderDropdownItemComponent",
+                "name": "HeaderDropdownComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/11",
                 "status": "low"
             },
             {
-                "filePath": "src/app/core/layout/header/components/header-dropdown-item/header-dropdown-item.service.ts",
+                "filePath": "src/app/core/layout/header/components/header-dropdown/header-dropdown.service.ts",
                 "type": "injectable",
                 "linktype": "injectable",
-                "name": "HeaderDropdownItemService",
+                "name": "HeaderDropdownService",
                 "coveragePercent": 0,
                 "coverageCount": "0/4",
                 "status": "low"
@@ -6781,7 +6745,7 @@
                 "filePath": "src/app/core/models/layout.model.ts",
                 "type": "interface",
                 "linktype": "interface",
-                "name": "DropdownLinkOption",
+                "name": "DropdownOption",
                 "coveragePercent": 0,
                 "coverageCount": "0/3",
                 "status": "low"
@@ -6790,7 +6754,7 @@
                 "filePath": "src/app/core/models/layout.model.ts",
                 "type": "interface",
                 "linktype": "interface",
-                "name": "DropdownLinkSection",
+                "name": "DropdownSection",
                 "coveragePercent": 0,
                 "coverageCount": "0/3",
                 "status": "low"
@@ -7052,15 +7016,6 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/features/pokemon/pages/pokemon/pokemon.component.ts",
-                "type": "interface",
-                "linktype": "interface",
-                "name": "DropdownLinkOption",
-                "coveragePercent": 0,
-                "coverageCount": "0/3",
-                "status": "low"
-            },
-            {
                 "filePath": "src/app/features/pokemon/pokemon.module.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
@@ -7206,10 +7161,10 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/shared/components/dropdown-link/dropdown-link.component.ts",
+                "filePath": "src/app/shared/components/dropdown/dropdown.component.ts",
                 "type": "component",
                 "linktype": "component",
-                "name": "DropdownLinkComponent",
+                "name": "DropdownComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/11",
                 "status": "low"
