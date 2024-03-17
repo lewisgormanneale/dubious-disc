@@ -12,11 +12,41 @@ const meta: Meta<TypeBoxComponent> = {
 export default meta;
 type Story = StoryObj<TypeBoxComponent>;
 
-export const Normal: Story = {
+export const Default: Story = {
   args: {
     type: {
       name: 'Normal',
       type_color: 'AAAA99',
     } as Tables<'types'>,
+  },
+};
+
+export const Small: Story = {
+  args: {
+    type: {
+      name: 'Normal',
+      type_color: 'AAAA99',
+    } as Tables<'types'>,
+    size: 'sm',
+  },
+};
+
+export const Medium: Story = {
+  args: {
+    type: {
+      name: 'Normal',
+      type_color: 'AAAA99',
+    } as Tables<'types'>,
+    size: 'md',
+  },
+};
+
+export const Large: Story = {
+  args: {
+    type: {
+      name: 'Normal',
+      type_color: 'AAAA99',
+    } as Tables<'types'>,
+    size: 'lg',
   },
 };

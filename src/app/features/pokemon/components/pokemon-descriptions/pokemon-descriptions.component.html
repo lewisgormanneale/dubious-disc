@@ -1,11 +1,7 @@
-<div class="flex flex-col rounded bg-byzantium w-full">
-  <dd-card-header
-    [title]="'Pokédex Descriptions'"
-    class="text-sm"
-  ></dd-card-header>
+<dd-card [title]="'Pokédex Descriptions'">
   <table
     *ngIf="descriptions.length > 0 && versions; else noDescriptions"
-    class="table-auto w-full bg-zinc-800 rounded-b text-sm"
+    class="table-auto w-full bg-light_primary dark:bg-dark_primary rounded-b text-sm"
   >
     <thead class="sr-only">
       <tr>
@@ -29,7 +25,7 @@
   </table>
   <ng-template #noDescriptions>
     <div
-      class="flex items-center justify-center w-full h-full bg-zinc-800 rounded-b"
+      class="flex items-center justify-center w-full h-full bg-light_primary dark:bg-dark_primary rounded-b"
     >
       <span class="text-sm p-4 text-center">
         No Pokédex descriptions are available for this Pokémon for any Pokédex
@@ -37,4 +33,4 @@
       </span>
     </div>
   </ng-template>
-</div>
+</dd-card>

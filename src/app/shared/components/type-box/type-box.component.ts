@@ -7,4 +7,5 @@ import { Tables } from 'src/app/core/models';
 })
 export class TypeBoxComponent {
   @Input() type: Tables<'types'> = {} as Tables<'types'>;
+  @Input() size: 'sm' | 'md' | 'lg' = 'md';
 }

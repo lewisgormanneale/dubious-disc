@@ -1,0 +1,22 @@
+<div class="flex flex-col">
+  <ul class="flex text-xs text-center">
+    <li
+      *ngFor="let tab of tabs"
+      class="my-2 flex flex-col hover:bg-light_tertiary dark:hover:bg-dark_tertiary"
+      (click)="selectTab(tab)"
+      [ngClass]="{
+        'cursor-default': tab.identifier === activeTab.identifier,
+        'cursor-pointer': tab.identifier !== activeTab.identifier
+      }"
+    >
+      <span class="py-2 px-3">
+        {{ tab.name }}
+      </span>
+      <div
+        *ngIf="tab.identifier === activeTab.identifier"
+        class="h-[2px] w-full bg-porygon_blue_darker"
+      ></div>
+    </li>
+  </ul>
+  <ng-content></ng-content>
+</div>

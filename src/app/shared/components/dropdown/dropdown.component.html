@@ -1,0 +1,50 @@
+<div
+  class="relative inline-block text-left rounded w-56 text-xs"
+  *ngIf="sections && sections.length > 0"
+>
+  <div>
+    <button
+      type="button"
+      class="inline-flex justify-between items-center w-full h-10 gap-x-1.5 px-3 py-2 rounded cursor-pointer bg-white hover:bg-light_tertiary dark:bg-black dark:hover:bg-dark_tertiary border border-light_tertiary dark:border-dark_tertiary"
+      id="menu-button"
+      aria-expanded="true"
+      aria-haspopup="true"
+      (click)="toggleDropdown()"
+    >
+      <span> {{ placeholder }}</span>
+      <ng-icon [name]="'heroChevronDownSolid'"></ng-icon>
+    </button>
+  </div>
+  <ul
+    class="absolute z-40 left-0 origin-top w-full rounded-b bg-white dark:bg-black sm:rounded-b max-h-[60vh] overflow-y-scroll border-light_tertiary dark:border-dark_tertiary border-[1px] border-t-0 scrollbar-thumb-zinc-800 scrollbar-track-zinc-950"
+    role="menu"
+    aria-orientation="vertical"
+    aria-labelledby="menu-button"
+    tabindex="-1"
+    *ngIf="showDropdown"
+    [@fadeInOut]
+  >
+    <ng-container *ngFor="let section of sections; let i = index">
+      <ng-container>
+        <div
+          id="menuitem-{{ i }}-{{ section.name }}"
+          class="font-semibold px-2 py-1 bg-porygon_blue_darker text-light_primary"
+          role="menuitem"
+          tabindex="-1"
+        >
+          {{ section.name }}
+        </div>
+      </ng-container>
+      <ng-container *ngFor="let option of section.options; let i = index">
+        <a
+          id="menuitem-{{ i }}-{{ option.name }}"
+          routerLink="{{ option.path }}"
+          role="menuitem"
+          class="block px-4 py-2 font-sans hover:bg-light_tertiary dark:hover:bg-dark_tertiary"
+        >
+          {{ option.name }}
+        </a>
+      </ng-container>
+    </ng-container>
+  </ul>
+</div>

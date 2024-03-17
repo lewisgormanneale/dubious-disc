@@ -1,0 +1,10 @@
+<div
+  class="bg-light_secondary dark:bg-dark_secondary rounded w-full border-[1px] border-light_tertiary dark:border-dark_tertiary"
+>
+  <dd-card-header
+    *ngIf="title"
+    [title]="title"
+    class="text-sm"
+  ></dd-card-header>
+  <ng-content></ng-content>
+</div>

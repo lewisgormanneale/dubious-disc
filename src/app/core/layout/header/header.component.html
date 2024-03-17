@@ -1,9 +1,11 @@
-<header class="z-50 w-screen bg-byzantium h-[10vh] sm:h-[6vh]">
+<header
+  class="z-50 w-screen bg-white dark:bg-black h-[8vh] sm:h-[6vh] flex flex-nowrap gap-2 justify-between items-center px-4 shadow-md drop-shadow-md"
+>
   <div
-    class="flex flex-wrap sm:flex-nowrap max-w-screen-xl items-center sm:gap-8"
+    class="flex flex-nowrap max-w-screen-xl justify-between items-center sm:gap-8"
   >
     <a
-      class="flex justify-center items-center gap-2 h-[6vh] w-full sm:w-auto sm:pl-4"
+      class="flex justify-center items-center gap-2 h-[6vh] w-full sm:w-auto"
       routerLink="/"
     >
       <img
@@ -12,20 +14,58 @@
         height="40"
         alt=""
       />
-      <span class="font-righteous text-3xl uppercase"> Dubious Disc </span>
+      <span
+        class="font-righteous pr-2 text-lg sm:text-xl md:text-3xl uppercase"
+      >
+        Dubious Disc
+      </span>
     </a>
     <nav
       aria-label="Global"
-      class="flex flex-1 justify-center sm:justify-start items-center h-[4vh] sm:h-[6vh] w-full z-50"
+      class="flex flex-1 justify-center sm:justify-start items-center h-[8vh] sm:h-[6vh] w-full z-50"
     >
       <ul class="flex justify-center sm:justify-start items-center h-full">
         <ng-container *ngFor="let navItem of navItems">
-          <dd-header-dropdown-item
+          <dd-header-dropdown
             [navItem]="navItem"
             class="h-full"
-          ></dd-header-dropdown-item>
+          ></dd-header-dropdown>
         </ng-container>
       </ul>
     </nav>
+  </div>
+  <div class="flex items-center gap-2">
+    <span class="sm:block hidden">
+      <svg
+        class="h-6 w-6 text-gray-500"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+        />
+      </svg>
+    </span>
+    <dd-switch [checked]="isDarkMode" (checkedChange)="toggleDarkMode()">
+    </dd-switch>
+    <span class="">
+      <svg
+        class="h-6 w-6 text-gray-500"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+        />
+      </svg>
+    </span>
   </div>
 </header>

@@ -6,6 +6,23 @@
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#702f63" />
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        if (document && document.documentElement) {
+          document.documentElement.classList.add("dark");
+          localStorage.setItem("theme", "dark");
+        }
+      } else {
+        if (document && document.documentElement) {
+          document.documentElement.classList.remove("dark");
+          localStorage.setItem("theme", "light");
+        }
+      }
+    </script>
     <link
       rel="icon"
       type="image/x-icon"
@@ -24,7 +41,9 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <meta name="theme-color" content="#1976d2" />
   </head>
-  <body class="h-screen overflow-hidden">
+  <body
+    class="h-screen overflow-hidden bg-light_secondary dark:bg-dark_secondary text-dark_primary dark:text-light_primary"
+  >
     <dd-root></dd-root>
     <noscript
       >Please enable JavaScript to continue using this application.</noscript

@@ -8,7 +8,7 @@ import {
 } from '@angular/core';
 import { Router } from '@angular/router';
 import { takeUntil, tap, switchMap, forkJoin, map, Subject } from 'rxjs';
-import { DropdownLinkSection, Tables } from 'src/app/core/models';
+import { DropdownSection, Tables } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
 
 @Component({
@@ -23,13 +23,14 @@ export class PokemonNavigationComponent implements OnChanges {
   @Output() selectedVersionGroup = new EventEmitter<any>();
   @Output() versions = new EventEmitter<any>();
 
-  selectedVersionGroupName: string = '';
-  pokemonDropdownOptions: DropdownLinkSection[] = [];
-  randomPokemonIdentifier: string = '';
-  previousPokemonImageUrl: string = '';
-  previousPokemonIdentifier: string = '';
-  nextPokemonImageUrl: string = '';
-  nextPokemonIdentifier: string = '';
+  public selectedVersionGroupName?: string;
+  public pokemonDropdownOptions: DropdownSection[] = [];
+  public pokedexDropdownOptions: DropdownSection[] = [];
+  public randomPokemonIdentifier: string = '';
+  public previousPokemonImageUrl: string = '';
+  public previousPokemonIdentifier: string = '';
+  public nextPokemonImageUrl: string = '';
+  public nextPokemonIdentifier: string = '';
 
   private supabase: SupabaseService = inject(SupabaseService);
   private router: Router = inject(Router);
@@ -37,7 +38,9 @@ export class PokemonNavigationComponent implements OnChanges {
 
   ngOnChanges(): void {
     this.getPokemonDropdownOptions();
+    this.getPokedexDropdownOptions();
   }
+
   getPokemonDropdownOptions() {
     let availablePokedexes: Tables<'pokedexes'>[] = [];
     this.supabase
@@ -120,6 +123,65 @@ export class PokemonNavigationComponent implements OnChanges {
       .subscribe((data) => {
         this.pokemonDropdownOptions = data;
       });
+  }
+
+  getPokedexDropdownOptions(): void {
+    if (!this.pokemonSpecies || !this.pokemonSpecies.id) return;
+    forkJoin({
+      versionGroups: this.supabase.getAllVersionGroups(),
+      generations: this.supabase.getAllGenerations(),
+      pokedexVersionGroups: this.supabase.getAllPokedexVersionGroups(),
+      pokemonDexNumbers: this.supabase.getPokemonDexNumbersBySpeciesId(
+        this.pokemonSpecies.id
+      ),
+    })
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(
+        ({
+          versionGroups,
+          generations,
+          pokedexVersionGroups,
+          pokemonDexNumbers,
+        }) => {
+          const versionGroupIds = versionGroups.map((item: any) => item.id);
+          let filteredPokedexVersionGroups = pokedexVersionGroups.filter(
+            (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>
+              versionGroupIds.includes(pokedexVersionGroup.version_group_id)
+          );
+          const dexNumbers = pokemonDexNumbers.map((item) => item.pokedex_id);
+          filteredPokedexVersionGroups = filteredPokedexVersionGroups.filter(
+            (pokedexVersionGroup: Tables<'pokedex_version_groups'>) =>
+              dexNumbers.includes(pokedexVersionGroup.pokedex_id)
+          );
+          const versionGroupsWithPokedexes = new Set(
+            filteredPokedexVersionGroups.map((item) => item.version_group_id)
+          );
+
+          this.pokedexDropdownOptions = [
+            ...generations
+              .reverse()
+              .reduce((acc: DropdownSection[], generation) => {
+                const matchingVersionGroups = versionGroups.filter(
+                  (versionGroup): boolean =>
+                    versionGroup.generation_id === generation.id &&
+                    versionGroupsWithPokedexes.has(versionGroup.id)
+                );
+
+                if (matchingVersionGroups.length > 0) {
+                  acc.push({
+                    name: generation.name ?? '',
+                    options: matchingVersionGroups.map((versionGroup) => ({
+                      name: versionGroup.name,
+                      path: `/pokedex/${versionGroup.identifier}/${this.pokemonSpecies?.identifier}`,
+                    })),
+                  });
+                }
+
+                return acc;
+              }, []),
+          ];
+        }
+      );
   }
 
   navigateToPokemon(pokemonIdentifier: string) {

@@ -1,0 +1,14 @@
+<button
+  [ngClass]="{
+    'bg-porygon_blue hover:bg-porygon_blue_darker text-light_primary':
+      appearance === 'primary',
+    'bg-white hover:bg-light_tertiary dark:bg-black dark:hover:bg-dark_tertiary text-dark_primary dark:text-light_primary':
+      appearance === 'secondary',
+    'text-dark_primary dark:text-light_primary': appearance === 'outline'
+  }"
+  type="button"
+  class="py-2 px-4 h-10 text-sm flex justify-center items-center gap-2 rounded border border-light_tertiary dark:border-dark_tertiary cursor-pointer"
+  (click)="handleClick()"
+>
+  <ng-content></ng-content>
+</button>
