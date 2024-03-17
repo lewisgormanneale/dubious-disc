@@ -1,5 +1,5 @@
 <div
-  class="text-center border border-zinc-800 h-full w-full rounded flex flex-col justify-between"
+  class="text-center border border-light_tertiary dark:border-dark_tertiary h-full w-full rounded flex flex-col justify-between"
 >
   <div class="relative h-full w-full">
     <dd-button class="absolute top-2 left-2" (onClick)="shinyToggle()">
@@ -37,13 +37,16 @@
     </div>
   </div>
   <div>
-    <div class="bg-porygon_blue border-t border-zinc-800" style="height: 50px">
+    <div
+      class="bg-white dark:bg-black border-b border-light_tertiary dark:border-dark_tertiary"
+      style="height: 50px"
+    >
       <h2 class="p-2">
         <span class="font-bold text-xl"> {{ selectedForm.name }}</span>
       </h2>
     </div>
     <div
-      class="flex justify-between items-center p-2 bg-zinc-800"
+      class="flex justify-between items-center p-2 bg-light_primary dark:bg-dark_tertiary"
       *ngIf="pokemonTypes && pokemonTypes.length > 0"
       [ngClass]="
         pokemonTypes.length > 1
