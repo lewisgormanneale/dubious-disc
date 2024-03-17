@@ -6,13 +6,16 @@
       class="col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 p-2 xl:py-0 w-full"
     >
       <dd-card [title]="'Filters & Options'">
-        <div class="p-4 flex gap-2">
+        <div class="p-4 flex gap-2 items-center">
           <dd-pokedex-select-dropdown
             [currentVersionGroupName]="this.versionGroup.name"
           ></dd-pokedex-select-dropdown>
-          <dd-button (onClick)="listView = !listView" class="text-xs">
-            List View
-          </dd-button>
+          <dd-switch
+            [checked]="listView"
+            [label]="'List View'"
+            (checkedChange)="toggleListView()"
+          >
+          </dd-switch>
         </div>
       </dd-card>
     </div>

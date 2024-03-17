@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnChanges, OnInit, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subject, switchMap } from 'rxjs';
 import { Tab, Tables } from 'src/app/core/models';
@@ -8,7 +8,7 @@ import { SupabaseService } from 'src/app/core/services/supabase.service';
   selector: 'dd-pokedex',
   templateUrl: './pokedex.component.html',
 })
-export class PokedexComponent implements OnInit {
+export class PokedexComponent implements OnInit, OnChanges {
   public listView: boolean = false;
   public versionGroupIdentifier: string = '';
   public formattedVersionGroupName: string = '';
@@ -43,11 +43,17 @@ export class PokedexComponent implements OnInit {
       });
   }
 
+  ngOnChanges() {}
+
   get pokedexTabs() {
     return this.pokedexes.map((pokedex) => ({
       name: pokedex.name,
       identifier: pokedex.identifier,
     }));
+  }
+
+  toggleListView() {
+    this.listView = !this.listView;
   }
 
   selectTab(tab: Tab) {

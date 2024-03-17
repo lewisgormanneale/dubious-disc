@@ -95,37 +95,13 @@
     ],
     "interfaces": [
         {
-            "name": "Database",
-            "id": "interface-Database-0536277e586bacdbc177f5f669a9baf21bcb6cce887a689f80293f751d509ffed33414158f3bb0a37d33fc027c4ed41f9b1f6c9a72acc542fd8bbed0e2ff2b17",
-            "file": "src/app/core/models/supabase.model.ts",
-            "deprecated": false,
-            "deprecationMessage": "",
-            "type": "interface",
-            "sourceCode": "export type Json =\n  | string\n  | number\n  | boolean\n  | null\n  | { [key: string]: Json | undefined }\n  | Json[]\n\nexport interface Database {\n  public: {\n    Tables: {\n      abilities: {\n        Row: {\n          effect: string | null\n          generation_id: number | null\n          id: number\n          identifier: string | null\n          name: string | null\n          short_effect: string | null\n        }\n        Insert: {\n          effect?: string | null\n          generation_id?: number | null\n          id: number\n          identifier?: string | null\n          name?: string | null\n          short_effect?: string | null\n        }\n        Update: {\n          effect?: string | null\n          generation_id?: number | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n          short_effect?: string | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"abilities_generation_id_fkey\"\n            columns: [\"generation_id\"]\n            isOneToOne: false\n            referencedRelation: \"generations\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      ability_changelog: {\n        Row: {\n          ability_id: number | null\n          changed_in_version_group_id: number | null\n          effect: string | null\n          id: number\n        }\n        Insert: {\n          ability_id?: number | null\n          changed_in_version_group_id?: number | null\n          effect?: string | null\n          id: number\n        }\n        Update: {\n          ability_id?: number | null\n          changed_in_version_group_id?: number | null\n          effect?: string | null\n          id?: number\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"ability_changelog_ability_id_fkey\"\n            columns: [\"ability_id\"]\n            isOneToOne: false\n            referencedRelation: \"abilities\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"ability_changelog_changed_in_version_group_id_fkey\"\n            columns: [\"changed_in_version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      ability_flavor_text: {\n        Row: {\n          ability_id: number | null\n          flavor_text: string | null\n          id: string\n          version_group_id: number | null\n        }\n        Insert: {\n          ability_id?: number | null\n          flavor_text?: string | null\n          id?: string\n          version_group_id?: number | null\n        }\n        Update: {\n          ability_id?: number | null\n          flavor_text?: string | null\n          id?: string\n          version_group_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"ability_flavor_text_ability_id_fkey\"\n            columns: [\"ability_id\"]\n            isOneToOne: false\n            referencedRelation: \"abilities\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"ability_flavor_text_version_group_id_fkey\"\n            columns: [\"version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      berries: {\n        Row: {\n          firmness_id: number | null\n          growth_time: number | null\n          id: number\n          item_id: number | null\n          max_harvest: number | null\n          natural_gift_power: number | null\n          natural_gift_type_id: number | null\n          size: number | null\n          smoothness: number | null\n          soil_dryness: number | null\n        }\n        Insert: {\n          firmness_id?: number | null\n          growth_time?: number | null\n          id: number\n          item_id?: number | null\n          max_harvest?: number | null\n          natural_gift_power?: number | null\n          natural_gift_type_id?: number | null\n          size?: number | null\n          smoothness?: number | null\n          soil_dryness?: number | null\n        }\n        Update: {\n          firmness_id?: number | null\n          growth_time?: number | null\n          id?: number\n          item_id?: number | null\n          max_harvest?: number | null\n          natural_gift_power?: number | null\n          natural_gift_type_id?: number | null\n          size?: number | null\n          smoothness?: number | null\n          soil_dryness?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"berries_firmness_id_fkey\"\n            columns: [\"firmness_id\"]\n            isOneToOne: false\n            referencedRelation: \"berry_firmness\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"berries_item_id_fkey\"\n            columns: [\"item_id\"]\n            isOneToOne: false\n            referencedRelation: \"items\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"berries_natural_gift_type_id_fkey\"\n            columns: [\"natural_gift_type_id\"]\n            isOneToOne: false\n            referencedRelation: \"types\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      berry_firmness: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      berry_flavors: {\n        Row: {\n          berry_id: number | null\n          contest_type_id: number | null\n          flavor: number | null\n          id: string\n        }\n        Insert: {\n          berry_id?: number | null\n          contest_type_id?: number | null\n          flavor?: number | null\n          id?: string\n        }\n        Update: {\n          berry_id?: number | null\n          contest_type_id?: number | null\n          flavor?: number | null\n          id?: string\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"berry_flavors_berry_id_fkey\"\n            columns: [\"berry_id\"]\n            isOneToOne: false\n            referencedRelation: \"berries\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"berry_flavors_contest_type_id_fkey\"\n            columns: [\"contest_type_id\"]\n            isOneToOne: false\n            referencedRelation: \"contest_types\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      characteristics: {\n        Row: {\n          gene_modulo: string | null\n          id: number\n          message: string | null\n          stat_id: number | null\n        }\n        Insert: {\n          gene_modulo?: string | null\n          id: number\n          message?: string | null\n          stat_id?: number | null\n        }\n        Update: {\n          gene_modulo?: string | null\n          id?: number\n          message?: string | null\n          stat_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"characteristics_stat_id_fkey\"\n            columns: [\"stat_id\"]\n            isOneToOne: false\n            referencedRelation: \"stats\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      contest_combos: {\n        Row: {\n          first_move_id: number | null\n          id: string\n          second_move_id: number | null\n        }\n        Insert: {\n          first_move_id?: number | null\n          id?: string\n          second_move_id?: number | null\n        }\n        Update: {\n          first_move_id?: number | null\n          id?: string\n          second_move_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"contest_combos_first_move_id_fkey\"\n            columns: [\"first_move_id\"]\n            isOneToOne: false\n            referencedRelation: \"moves\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"contest_combos_second_move_id_fkey\"\n            columns: [\"second_move_id\"]\n            isOneToOne: false\n            referencedRelation: \"moves\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      contest_effects: {\n        Row: {\n          appeal: number | null\n          effect: string | null\n          flavor_text: string | null\n          id: number\n          jam: string | null\n        }\n        Insert: {\n          appeal?: number | null\n          effect?: string | null\n          flavor_text?: string | null\n          id?: number\n          jam?: string | null\n        }\n        Update: {\n          appeal?: number | null\n          effect?: string | null\n          flavor_text?: string | null\n          id?: number\n          jam?: string | null\n        }\n        Relationships: []\n      }\n      contest_types: {\n        Row: {\n          color: string | null\n          flavor: string | null\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          color?: string | null\n          flavor?: string | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          color?: string | null\n          flavor?: string | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      egg_groups: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      encounter_condition_value_map: {\n        Row: {\n          encounter_condition_value_id: number | null\n          encounter_id: number | null\n          id: string\n        }\n        Insert: {\n          encounter_condition_value_id?: number | null\n          encounter_id?: number | null\n          id?: string\n        }\n        Update: {\n          encounter_condition_value_id?: number | null\n          encounter_id?: number | null\n          id?: string\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"encounter_condition_value_map_encounter_condition_value_id_fkey\"\n            columns: [\"encounter_condition_value_id\"]\n            isOneToOne: false\n            referencedRelation: \"encounter_condition_values\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"encounter_condition_value_map_encounter_id_fkey\"\n            columns: [\"encounter_id\"]\n            isOneToOne: false\n            referencedRelation: \"encounters\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      encounter_condition_values: {\n        Row: {\n          encounter_condition_id: number | null\n          id: number\n          identifier: string | null\n          is_default: boolean | null\n          name: string | null\n        }\n        Insert: {\n          encounter_condition_id?: number | null\n          id: number\n          identifier?: string | null\n          is_default?: boolean | null\n          name?: string | null\n        }\n        Update: {\n          encounter_condition_id?: number | null\n          id?: number\n          identifier?: string | null\n          is_default?: boolean | null\n          name?: string | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"encounter_condition_values_encounter_condition_id_fkey\"\n            columns: [\"encounter_condition_id\"]\n            isOneToOne: false\n            referencedRelation: \"encounter_conditions\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      encounter_conditions: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      encounter_methods: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n          order: number | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n          order?: number | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n          order?: number | null\n        }\n        Relationships: []\n      }\n      encounter_slots: {\n        Row: {\n          encounter_method_id: number | null\n          id: number\n          rarity: number | null\n          slot: number | null\n          version_group_id: number | null\n        }\n        Insert: {\n          encounter_method_id?: number | null\n          id: number\n          rarity?: number | null\n          slot?: number | null\n          version_group_id?: number | null\n        }\n        Update: {\n          encounter_method_id?: number | null\n          id?: number\n          rarity?: number | null\n          slot?: number | null\n          version_group_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"encounter_slots_version_group_id_fkey\"\n            columns: [\"version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      encounters: {\n        Row: {\n          encounter_slot_id: number | null\n          id: number\n          location_area_id: number | null\n          max_level: number | null\n          min_level: number | null\n          pokemon_id: number | null\n          version_id: number | null\n        }\n        Insert: {\n          encounter_slot_id?: number | null\n          id: number\n          location_area_id?: number | null\n          max_level?: number | null\n          min_level?: number | null\n          pokemon_id?: number | null\n          version_id?: number | null\n        }\n        Update: {\n          encounter_slot_id?: number | null\n          id?: number\n          location_area_id?: number | null\n          max_level?: number | null\n          min_level?: number | null\n          pokemon_id?: number | null\n          version_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"encounters_encounter_slot_id_fkey\"\n            columns: [\"encounter_slot_id\"]\n            isOneToOne: false\n            referencedRelation: \"encounter_slots\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"encounters_pokemon_id_fkey\"\n            columns: [\"pokemon_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"encounters_version_id_fkey\"\n            columns: [\"version_id\"]\n            isOneToOne: false\n            referencedRelation: \"versions\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      evolution_chains: {\n        Row: {\n          baby_trigger_item_id: number | null\n          id: number\n        }\n        Insert: {\n          baby_trigger_item_id?: number | null\n          id?: number\n        }\n        Update: {\n          baby_trigger_item_id?: number | null\n          id?: number\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"evolution_chains_baby_trigger_item_id_fkey\"\n            columns: [\"baby_trigger_item_id\"]\n            isOneToOne: false\n            referencedRelation: \"items\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      evolution_triggers: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      experience: {\n        Row: {\n          experience: number | null\n          growth_rate_id: number | null\n          id: string\n          level: number | null\n        }\n        Insert: {\n          experience?: number | null\n          growth_rate_id?: number | null\n          id?: string\n          level?: number | null\n        }\n        Update: {\n          experience?: number | null\n          growth_rate_id?: number | null\n          id?: string\n          level?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"experience_growth_rate_id_fkey\"\n            columns: [\"growth_rate_id\"]\n            isOneToOne: false\n            referencedRelation: \"growth_rates\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      genders: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      generations: {\n        Row: {\n          id: number\n          identifier: string | null\n          main_region_id: number | null\n          name: string | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          main_region_id?: number | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          main_region_id?: number | null\n          name?: string | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"generations_main_region_id_fkey\"\n            columns: [\"main_region_id\"]\n            isOneToOne: false\n            referencedRelation: \"regions\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      growth_rates: {\n        Row: {\n          formula: string | null\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          formula?: string | null\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          formula?: string | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      item_categories: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n          pocket_id: number | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n          pocket_id?: number | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n          pocket_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"item_categories_pocket_id_fkey\"\n            columns: [\"pocket_id\"]\n            isOneToOne: false\n            referencedRelation: \"item_pockets\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      item_flag_map: {\n        Row: {\n          id: string\n          item_flag_id: number | null\n          item_id: number | null\n        }\n        Insert: {\n          id?: string\n          item_flag_id?: number | null\n          item_id?: number | null\n        }\n        Update: {\n          id?: string\n          item_flag_id?: number | null\n          item_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"item_flag_map_item_flag_id_fkey\"\n            columns: [\"item_flag_id\"]\n            isOneToOne: false\n            referencedRelation: \"item_flags\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"item_flag_map_item_id_fkey\"\n            columns: [\"item_id\"]\n            isOneToOne: false\n            referencedRelation: \"items\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      item_flags: {\n        Row: {\n          description: string | null\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          description?: string | null\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          description?: string | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      item_flavor_text: {\n        Row: {\n          flavor_text: string | null\n          item_id: number | null\n          version_group_id: number | null\n        }\n        Insert: {\n          flavor_text?: string | null\n          item_id?: number | null\n          version_group_id?: number | null\n        }\n        Update: {\n          flavor_text?: string | null\n          item_id?: number | null\n          version_group_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"item_flavor_text_item_id_fkey\"\n            columns: [\"item_id\"]\n            isOneToOne: false\n            referencedRelation: \"items\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"item_flavor_text_version_group_id_fkey\"\n            columns: [\"version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      item_fling_effects: {\n        Row: {\n          effect: string | null\n          id: number\n          identifier: string | null\n        }\n        Insert: {\n          effect?: string | null\n          id: number\n          identifier?: string | null\n        }\n        Update: {\n          effect?: string | null\n          id?: number\n          identifier?: string | null\n        }\n        Relationships: []\n      }\n      item_names: {\n        Row: {\n          item_id: number | null\n          local_language_id: number | null\n          name: string | null\n        }\n        Insert: {\n          item_id?: number | null\n          local_language_id?: number | null\n          name?: string | null\n        }\n        Update: {\n          item_id?: number | null\n          local_language_id?: number | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      item_pockets: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      items: {\n        Row: {\n          category_id: number | null\n          cost: number | null\n          effect: string | null\n          fling_effect_id: number | null\n          fling_power: number | null\n          id: number\n          identifier: string | null\n          name: string | null\n          short_effect: string | null\n        }\n        Insert: {\n          category_id?: number | null\n          cost?: number | null\n          effect?: string | null\n          fling_effect_id?: number | null\n          fling_power?: number | null\n          id: number\n          identifier?: string | null\n          name?: string | null\n          short_effect?: string | null\n        }\n        Update: {\n          category_id?: number | null\n          cost?: number | null\n          effect?: string | null\n          fling_effect_id?: number | null\n          fling_power?: number | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n          short_effect?: string | null\n        }\n        Relationships: []\n      }\n      location_area_encounter_rates: {\n        Row: {\n          encounter_method_id: number | null\n          id: string\n          location_area_id: number | null\n          rate: number | null\n          version_id: number | null\n        }\n        Insert: {\n          encounter_method_id?: number | null\n          id?: string\n          location_area_id?: number | null\n          rate?: number | null\n          version_id?: number | null\n        }\n        Update: {\n          encounter_method_id?: number | null\n          id?: string\n          location_area_id?: number | null\n          rate?: number | null\n          version_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"location_area_encounter_rates_location_area_id_fkey\"\n            columns: [\"location_area_id\"]\n            isOneToOne: false\n            referencedRelation: \"location_areas\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"location_area_encounter_rates_version_id_fkey\"\n            columns: [\"version_id\"]\n            isOneToOne: false\n            referencedRelation: \"versions\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      location_areas: {\n        Row: {\n          game_index: number | null\n          id: number\n          identifier: string | null\n          location_id: number | null\n          name: string | null\n        }\n        Insert: {\n          game_index?: number | null\n          id: number\n          identifier?: string | null\n          location_id?: number | null\n          name?: string | null\n        }\n        Update: {\n          game_index?: number | null\n          id?: number\n          identifier?: string | null\n          location_id?: number | null\n          name?: string | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"location_areas_location_id_fkey\"\n            columns: [\"location_id\"]\n            isOneToOne: false\n            referencedRelation: \"locations\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      location_game_indices: {\n        Row: {\n          game_index: number | null\n          generation_id: number | null\n          id: string\n          location_id: number | null\n        }\n        Insert: {\n          game_index?: number | null\n          generation_id?: number | null\n          id?: string\n          location_id?: number | null\n        }\n        Update: {\n          game_index?: number | null\n          generation_id?: number | null\n          id?: string\n          location_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"location_game_indices_generation_id_fkey\"\n            columns: [\"generation_id\"]\n            isOneToOne: false\n            referencedRelation: \"generations\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"location_game_indices_location_id_fkey\"\n            columns: [\"location_id\"]\n            isOneToOne: false\n            referencedRelation: \"locations\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      locations: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n          region_id: number | null\n          subtitle: string | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n          region_id?: number | null\n          subtitle?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n          region_id?: number | null\n          subtitle?: string | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"locations_region_id_fkey\"\n            columns: [\"region_id\"]\n            isOneToOne: false\n            referencedRelation: \"regions\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      machines: {\n        Row: {\n          id: string\n          item_id: number | null\n          machine_number: number | null\n          move_id: number | null\n          version_group_id: number | null\n        }\n        Insert: {\n          id?: string\n          item_id?: number | null\n          machine_number?: number | null\n          move_id?: number | null\n          version_group_id?: number | null\n        }\n        Update: {\n          id?: string\n          item_id?: number | null\n          machine_number?: number | null\n          move_id?: number | null\n          version_group_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"machines_item_id_fkey\"\n            columns: [\"item_id\"]\n            isOneToOne: false\n            referencedRelation: \"items\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"machines_move_id_fkey\"\n            columns: [\"move_id\"]\n            isOneToOne: false\n            referencedRelation: \"moves\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"machines_version_group_id_fkey\"\n            columns: [\"version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      move_battle_styles: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      move_changelog: {\n        Row: {\n          accuracy: string | null\n          changed_in_version_group_id: number | null\n          effect_chance: string | null\n          effect_id: string | null\n          id: string\n          move_id: number | null\n          power: string | null\n          pp: string | null\n          priority: string | null\n          target_id: string | null\n          type_id: number | null\n        }\n        Insert: {\n          accuracy?: string | null\n          changed_in_version_group_id?: number | null\n          effect_chance?: string | null\n          effect_id?: string | null\n          id?: string\n          move_id?: number | null\n          power?: string | null\n          pp?: string | null\n          priority?: string | null\n          target_id?: string | null\n          type_id?: number | null\n        }\n        Update: {\n          accuracy?: string | null\n          changed_in_version_group_id?: number | null\n          effect_chance?: string | null\n          effect_id?: string | null\n          id?: string\n          move_id?: number | null\n          power?: string | null\n          pp?: string | null\n          priority?: string | null\n          target_id?: string | null\n          type_id?: number | null\n        }\n        Relationships: []\n      }\n      move_damage_classes: {\n        Row: {\n          description: string | null\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          description?: string | null\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          description?: string | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      move_effect_changelog: {\n        Row: {\n          changed_in_version_group_id: number | null\n          effect: string | null\n          effect_id: number | null\n          id: number\n        }\n        Insert: {\n          changed_in_version_group_id?: number | null\n          effect?: string | null\n          effect_id?: number | null\n          id: number\n        }\n        Update: {\n          changed_in_version_group_id?: number | null\n          effect?: string | null\n          effect_id?: number | null\n          id?: number\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"move_effect_changelog_changed_in_version_group_id_fkey\"\n            columns: [\"changed_in_version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"move_effect_changelog_effect_id_fkey\"\n            columns: [\"effect_id\"]\n            isOneToOne: false\n            referencedRelation: \"move_effects\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      move_effects: {\n        Row: {\n          effect: string | null\n          id: number\n          short_effect: string | null\n        }\n        Insert: {\n          effect?: string | null\n          id: number\n          short_effect?: string | null\n        }\n        Update: {\n          effect?: string | null\n          id?: number\n          short_effect?: string | null\n        }\n        Relationships: []\n      }\n      move_flag_map: {\n        Row: {\n          id: string\n          move_flag_id: number | null\n          move_id: number | null\n        }\n        Insert: {\n          id?: string\n          move_flag_id?: number | null\n          move_id?: number | null\n        }\n        Update: {\n          id?: string\n          move_flag_id?: number | null\n          move_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"move_flag_map_move_flag_id_fkey\"\n            columns: [\"move_flag_id\"]\n            isOneToOne: false\n            referencedRelation: \"move_flags\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"move_flag_map_move_id_fkey\"\n            columns: [\"move_id\"]\n            isOneToOne: false\n            referencedRelation: \"moves\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      move_flags: {\n        Row: {\n          description: string | null\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          description?: string | null\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          description?: string | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      move_flavor_text: {\n        Row: {\n          flavor_text: string | null\n          id: string\n          move_id: number | null\n          version_group_id: number | null\n        }\n        Insert: {\n          flavor_text?: string | null\n          id?: string\n          move_id?: number | null\n          version_group_id?: number | null\n        }\n        Update: {\n          flavor_text?: string | null\n          id?: string\n          move_id?: number | null\n          version_group_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"move_flavor_text_move_id_fkey\"\n            columns: [\"move_id\"]\n            isOneToOne: false\n            referencedRelation: \"moves\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"move_flavor_text_version_group_id_fkey\"\n            columns: [\"version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      move_meta: {\n        Row: {\n          ailment_chance: string | null\n          crit_rate: string | null\n          drain: string | null\n          flinch_chance: string | null\n          healing: string | null\n          id: string\n          max_hits: string | null\n          max_turns: string | null\n          meta_ailment_id: string | null\n          meta_category_id: string | null\n          min_hits: string | null\n          min_turns: string | null\n          move_id: number | null\n          stat_chance: string | null\n        }\n        Insert: {\n          ailment_chance?: string | null\n          crit_rate?: string | null\n          drain?: string | null\n          flinch_chance?: string | null\n          healing?: string | null\n          id?: string\n          max_hits?: string | null\n          max_turns?: string | null\n          meta_ailment_id?: string | null\n          meta_category_id?: string | null\n          min_hits?: string | null\n          min_turns?: string | null\n          move_id?: number | null\n          stat_chance?: string | null\n        }\n        Update: {\n          ailment_chance?: string | null\n          crit_rate?: string | null\n          drain?: string | null\n          flinch_chance?: string | null\n          healing?: string | null\n          id?: string\n          max_hits?: string | null\n          max_turns?: string | null\n          meta_ailment_id?: string | null\n          meta_category_id?: string | null\n          min_hits?: string | null\n          min_turns?: string | null\n          move_id?: number | null\n          stat_chance?: string | null\n        }\n        Relationships: []\n      }\n      move_meta_ailments: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      move_meta_categories: {\n        Row: {\n          description: string | null\n          id: number\n          identifier: string | null\n        }\n        Insert: {\n          description?: string | null\n          id: number\n          identifier?: string | null\n        }\n        Update: {\n          description?: string | null\n          id?: number\n          identifier?: string | null\n        }\n        Relationships: []\n      }\n      move_meta_stat_changes: {\n        Row: {\n          change: number | null\n          move_id: number | null\n          stat_id: number | null\n        }\n        Insert: {\n          change?: number | null\n          move_id?: number | null\n          stat_id?: number | null\n        }\n        Update: {\n          change?: number | null\n          move_id?: number | null\n          stat_id?: number | null\n        }\n        Relationships: []\n      }\n      move_targets: {\n        Row: {\n          description: string | null\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          description?: string | null\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          description?: string | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      moves: {\n        Row: {\n          accuracy: number | null\n          contest_effect_id: number | null\n          contest_type_id: number | null\n          damage_class_id: number | null\n          effect_chance: number | null\n          effect_id: number | null\n          generation_id: number | null\n          id: number\n          identifier: string | null\n          name: string | null\n          power: number | null\n          pp: number | null\n          priority: number | null\n          super_contest_effect_id: number | null\n          target_id: number | null\n          type_id: number | null\n        }\n        Insert: {\n          accuracy?: number | null\n          contest_effect_id?: number | null\n          contest_type_id?: number | null\n          damage_class_id?: number | null\n          effect_chance?: number | null\n          effect_id?: number | null\n          generation_id?: number | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n          power?: number | null\n          pp?: number | null\n          priority?: number | null\n          super_contest_effect_id?: number | null\n          target_id?: number | null\n          type_id?: number | null\n        }\n        Update: {\n          accuracy?: number | null\n          contest_effect_id?: number | null\n          contest_type_id?: number | null\n          damage_class_id?: number | null\n          effect_chance?: number | null\n          effect_id?: number | null\n          generation_id?: number | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n          power?: number | null\n          pp?: number | null\n          priority?: number | null\n          super_contest_effect_id?: number | null\n          target_id?: number | null\n          type_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"moves_contest_effect_id_fkey\"\n            columns: [\"contest_effect_id\"]\n            isOneToOne: false\n            referencedRelation: \"contest_effects\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"moves_contest_type_id_fkey\"\n            columns: [\"contest_type_id\"]\n            isOneToOne: false\n            referencedRelation: \"contest_types\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"moves_damage_class_id_fkey\"\n            columns: [\"damage_class_id\"]\n            isOneToOne: false\n            referencedRelation: \"move_damage_classes\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"moves_generation_id_fkey\"\n            columns: [\"generation_id\"]\n            isOneToOne: false\n            referencedRelation: \"generations\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"moves_super_contest_effect_id_fkey\"\n            columns: [\"super_contest_effect_id\"]\n            isOneToOne: false\n            referencedRelation: \"super_contest_effects\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"moves_target_id_fkey\"\n            columns: [\"target_id\"]\n            isOneToOne: false\n            referencedRelation: \"move_targets\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"moves_type_id_fkey\"\n            columns: [\"type_id\"]\n            isOneToOne: false\n            referencedRelation: \"types\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      nature_battle_style_preferences: {\n        Row: {\n          high_hp_preference: number | null\n          id: string\n          low_hp_preference: number | null\n          move_battle_style_id: number | null\n          nature_id: number | null\n        }\n        Insert: {\n          high_hp_preference?: number | null\n          id?: string\n          low_hp_preference?: number | null\n          move_battle_style_id?: number | null\n          nature_id?: number | null\n        }\n        Update: {\n          high_hp_preference?: number | null\n          id?: string\n          low_hp_preference?: number | null\n          move_battle_style_id?: number | null\n          nature_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"nature_battle_style_preferences_nature_id_fkey\"\n            columns: [\"nature_id\"]\n            isOneToOne: false\n            referencedRelation: \"natures\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      nature_pokeathlon_stats: {\n        Row: {\n          id: string\n          max_change: number | null\n          nature_id: number | null\n          pokeathlon_stat_id: number | null\n        }\n        Insert: {\n          id?: string\n          max_change?: number | null\n          nature_id?: number | null\n          pokeathlon_stat_id?: number | null\n        }\n        Update: {\n          id?: string\n          max_change?: number | null\n          nature_id?: number | null\n          pokeathlon_stat_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"nature_pokeathlon_stats_nature_id_fkey\"\n            columns: [\"nature_id\"]\n            isOneToOne: false\n            referencedRelation: \"natures\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"nature_pokeathlon_stats_pokeathlon_stat_id_fkey\"\n            columns: [\"pokeathlon_stat_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokeathlon_stats\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      natures: {\n        Row: {\n          decreased_stat_id: number | null\n          game_index: number | null\n          hates_flavor_id: number | null\n          id: number\n          identifier: string | null\n          increased_stat_id: number | null\n          likes_flavor_id: number | null\n          name: string | null\n        }\n        Insert: {\n          decreased_stat_id?: number | null\n          game_index?: number | null\n          hates_flavor_id?: number | null\n          id: number\n          identifier?: string | null\n          increased_stat_id?: number | null\n          likes_flavor_id?: number | null\n          name?: string | null\n        }\n        Update: {\n          decreased_stat_id?: number | null\n          game_index?: number | null\n          hates_flavor_id?: number | null\n          id?: number\n          identifier?: string | null\n          increased_stat_id?: number | null\n          likes_flavor_id?: number | null\n          name?: string | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"natures_decreased_stat_id_fkey\"\n            columns: [\"decreased_stat_id\"]\n            isOneToOne: false\n            referencedRelation: \"stats\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"natures_increased_stat_id_fkey\"\n            columns: [\"increased_stat_id\"]\n            isOneToOne: false\n            referencedRelation: \"stats\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pal_park: {\n        Row: {\n          area_id: number | null\n          base_score: number | null\n          id: string\n          rate: number | null\n          species_id: number | null\n        }\n        Insert: {\n          area_id?: number | null\n          base_score?: number | null\n          id?: string\n          rate?: number | null\n          species_id?: number | null\n        }\n        Update: {\n          area_id?: number | null\n          base_score?: number | null\n          id?: string\n          rate?: number | null\n          species_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pal_park_species_id_fkey\"\n            columns: [\"species_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_species\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pal_park_areas: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      pokeathlon_stats: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      pokedex_version_groups: {\n        Row: {\n          id: string\n          pokedex_id: number\n          version_group_id: number\n        }\n        Insert: {\n          id?: string\n          pokedex_id: number\n          version_group_id: number\n        }\n        Update: {\n          id?: string\n          pokedex_id?: number\n          version_group_id?: number\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokedex_version_groups_pokedex_id_fkey\"\n            columns: [\"pokedex_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokedexes\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokedex_version_groups_version_group_id_fkey\"\n            columns: [\"version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokedexes: {\n        Row: {\n          description: string | null\n          id: number\n          identifier: string | null\n          is_main_series: boolean | null\n          name: string | null\n          region_id: number | null\n        }\n        Insert: {\n          description?: string | null\n          id: number\n          identifier?: string | null\n          is_main_series?: boolean | null\n          name?: string | null\n          region_id?: number | null\n        }\n        Update: {\n          description?: string | null\n          id?: number\n          identifier?: string | null\n          is_main_series?: boolean | null\n          name?: string | null\n          region_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokedexes_region_id_fkey\"\n            columns: [\"region_id\"]\n            isOneToOne: false\n            referencedRelation: \"regions\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon: {\n        Row: {\n          base_experience: number | null\n          form_identifier: string | null\n          form_name: string | null\n          form_order: number | null\n          height: number | null\n          id: number\n          identifier: string\n          introduced_in_version_group_id: number | null\n          is_battle_only: boolean\n          is_default: boolean\n          is_gigantamax: boolean\n          is_mega: boolean\n          name: string | null\n          species_id: number\n          weight: number | null\n        }\n        Insert: {\n          base_experience?: number | null\n          form_identifier?: string | null\n          form_name?: string | null\n          form_order?: number | null\n          height?: number | null\n          id: number\n          identifier: string\n          introduced_in_version_group_id?: number | null\n          is_battle_only?: boolean\n          is_default?: boolean\n          is_gigantamax?: boolean\n          is_mega?: boolean\n          name?: string | null\n          species_id: number\n          weight?: number | null\n        }\n        Update: {\n          base_experience?: number | null\n          form_identifier?: string | null\n          form_name?: string | null\n          form_order?: number | null\n          height?: number | null\n          id?: number\n          identifier?: string\n          introduced_in_version_group_id?: number | null\n          is_battle_only?: boolean\n          is_default?: boolean\n          is_gigantamax?: boolean\n          is_mega?: boolean\n          name?: string | null\n          species_id?: number\n          weight?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_introduced_in_version_group_id_fkey\"\n            columns: [\"introduced_in_version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_species_id_fkey\"\n            columns: [\"species_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_species\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_abilities: {\n        Row: {\n          ability_id: number | null\n          id: string\n          is_hidden: boolean | null\n          pokemon_id: number | null\n          slot: number | null\n        }\n        Insert: {\n          ability_id?: number | null\n          id?: string\n          is_hidden?: boolean | null\n          pokemon_id?: number | null\n          slot?: number | null\n        }\n        Update: {\n          ability_id?: number | null\n          id?: string\n          is_hidden?: boolean | null\n          pokemon_id?: number | null\n          slot?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_abilities_ability_id_fkey\"\n            columns: [\"ability_id\"]\n            isOneToOne: false\n            referencedRelation: \"abilities\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_abilities_pokemon_id_fkey\"\n            columns: [\"pokemon_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_abilities_past: {\n        Row: {\n          ability_id: number | null\n          generation_id: number | null\n          id: string\n          is_hidden: boolean | null\n          pokemon_id: number | null\n          slot: number | null\n        }\n        Insert: {\n          ability_id?: number | null\n          generation_id?: number | null\n          id?: string\n          is_hidden?: boolean | null\n          pokemon_id?: number | null\n          slot?: number | null\n        }\n        Update: {\n          ability_id?: number | null\n          generation_id?: number | null\n          id?: string\n          is_hidden?: boolean | null\n          pokemon_id?: number | null\n          slot?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_abilities_past_ability_id_fkey\"\n            columns: [\"ability_id\"]\n            isOneToOne: false\n            referencedRelation: \"abilities\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_abilities_past_generation_id_fkey\"\n            columns: [\"generation_id\"]\n            isOneToOne: false\n            referencedRelation: \"generations\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_abilities_past_pokemon_id_fkey\"\n            columns: [\"pokemon_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_colors: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      pokemon_dex_numbers: {\n        Row: {\n          id: string\n          pokedex_id: number | null\n          pokedex_number: number | null\n          species_id: number | null\n        }\n        Insert: {\n          id?: string\n          pokedex_id?: number | null\n          pokedex_number?: number | null\n          species_id?: number | null\n        }\n        Update: {\n          id?: string\n          pokedex_id?: number | null\n          pokedex_number?: number | null\n          species_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_dex_numbers_pokedex_id_fkey\"\n            columns: [\"pokedex_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokedexes\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_dex_numbers_species_id_fkey\"\n            columns: [\"species_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_species\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_egg_groups: {\n        Row: {\n          egg_group_id: number | null\n          id: string\n          species_id: number | null\n        }\n        Insert: {\n          egg_group_id?: number | null\n          id?: string\n          species_id?: number | null\n        }\n        Update: {\n          egg_group_id?: number | null\n          id?: string\n          species_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_egg_groups_egg_group_id_fkey\"\n            columns: [\"egg_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"egg_groups\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_egg_groups_species_id_fkey\"\n            columns: [\"species_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_species\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_evolution: {\n        Row: {\n          evolution_trigger_id: number | null\n          evolved_species_id: number | null\n          gender_id: number | null\n          held_item_id: number | null\n          id: number\n          known_move_id: number | null\n          known_move_type_id: number | null\n          location_id: number | null\n          minimum_affection: number | null\n          minimum_beauty: number | null\n          minimum_happiness: number | null\n          minimum_level: number | null\n          needs_overworld_rain: boolean | null\n          party_species_id: number | null\n          party_type_id: number | null\n          relative_physical_stats: number | null\n          time_of_day: string | null\n          trade_species_id: number | null\n          trigger_item_id: number | null\n          turn_upside_down: boolean | null\n        }\n        Insert: {\n          evolution_trigger_id?: number | null\n          evolved_species_id?: number | null\n          gender_id?: number | null\n          held_item_id?: number | null\n          id: number\n          known_move_id?: number | null\n          known_move_type_id?: number | null\n          location_id?: number | null\n          minimum_affection?: number | null\n          minimum_beauty?: number | null\n          minimum_happiness?: number | null\n          minimum_level?: number | null\n          needs_overworld_rain?: boolean | null\n          party_species_id?: number | null\n          party_type_id?: number | null\n          relative_physical_stats?: number | null\n          time_of_day?: string | null\n          trade_species_id?: number | null\n          trigger_item_id?: number | null\n          turn_upside_down?: boolean | null\n        }\n        Update: {\n          evolution_trigger_id?: number | null\n          evolved_species_id?: number | null\n          gender_id?: number | null\n          held_item_id?: number | null\n          id?: number\n          known_move_id?: number | null\n          known_move_type_id?: number | null\n          location_id?: number | null\n          minimum_affection?: number | null\n          minimum_beauty?: number | null\n          minimum_happiness?: number | null\n          minimum_level?: number | null\n          needs_overworld_rain?: boolean | null\n          party_species_id?: number | null\n          party_type_id?: number | null\n          relative_physical_stats?: number | null\n          time_of_day?: string | null\n          trade_species_id?: number | null\n          trigger_item_id?: number | null\n          turn_upside_down?: boolean | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_evolution_evolution_trigger_id_fkey\"\n            columns: [\"evolution_trigger_id\"]\n            isOneToOne: false\n            referencedRelation: \"evolution_triggers\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_evolution_evolved_species_id_fkey\"\n            columns: [\"evolved_species_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_species\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_evolution_gender_id_fkey\"\n            columns: [\"gender_id\"]\n            isOneToOne: false\n            referencedRelation: \"genders\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_evolution_held_item_id_fkey\"\n            columns: [\"held_item_id\"]\n            isOneToOne: false\n            referencedRelation: \"items\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_evolution_known_move_id_fkey\"\n            columns: [\"known_move_id\"]\n            isOneToOne: false\n            referencedRelation: \"moves\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_evolution_known_move_type_id_fkey\"\n            columns: [\"known_move_type_id\"]\n            isOneToOne: false\n            referencedRelation: \"types\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_evolution_location_id_fkey\"\n            columns: [\"location_id\"]\n            isOneToOne: false\n            referencedRelation: \"locations\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_evolution_party_species_id_fkey\"\n            columns: [\"party_species_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_species\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_evolution_party_type_id_fkey\"\n            columns: [\"party_type_id\"]\n            isOneToOne: false\n            referencedRelation: \"types\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_evolution_trade_species_id_fkey\"\n            columns: [\"trade_species_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_species\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_evolution_trigger_item_id_fkey\"\n            columns: [\"trigger_item_id\"]\n            isOneToOne: false\n            referencedRelation: \"items\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_habitats: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      pokemon_items: {\n        Row: {\n          id: string\n          item_id: number | null\n          pokemon_id: number | null\n          rarity: number | null\n          version_id: number | null\n        }\n        Insert: {\n          id?: string\n          item_id?: number | null\n          pokemon_id?: number | null\n          rarity?: number | null\n          version_id?: number | null\n        }\n        Update: {\n          id?: string\n          item_id?: number | null\n          pokemon_id?: number | null\n          rarity?: number | null\n          version_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_items_item_id_fkey\"\n            columns: [\"item_id\"]\n            isOneToOne: false\n            referencedRelation: \"items\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_items_pokemon_id_fkey\"\n            columns: [\"pokemon_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_items_version_id_fkey\"\n            columns: [\"version_id\"]\n            isOneToOne: false\n            referencedRelation: \"versions\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_move_methods: {\n        Row: {\n          description: string | null\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          description?: string | null\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          description?: string | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      pokemon_moves: {\n        Row: {\n          id: string\n          level: number | null\n          move_id: number | null\n          order: number | null\n          pokemon_id: number | null\n          pokemon_move_method_id: number | null\n          version_group_id: number | null\n        }\n        Insert: {\n          id?: string\n          level?: number | null\n          move_id?: number | null\n          order?: number | null\n          pokemon_id?: number | null\n          pokemon_move_method_id?: number | null\n          version_group_id?: number | null\n        }\n        Update: {\n          id?: string\n          level?: number | null\n          move_id?: number | null\n          order?: number | null\n          pokemon_id?: number | null\n          pokemon_move_method_id?: number | null\n          version_group_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_moves_move_id_fkey\"\n            columns: [\"move_id\"]\n            isOneToOne: false\n            referencedRelation: \"moves\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_moves_pokemon_id_fkey\"\n            columns: [\"pokemon_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_moves_pokemon_move_method_id_fkey\"\n            columns: [\"pokemon_move_method_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_move_methods\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_moves_version_group_id_fkey\"\n            columns: [\"version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_pokeathlon_stats: {\n        Row: {\n          base_stat: number | null\n          id: string\n          maximum_stat: number | null\n          minimum_stat: number | null\n          pokeathlon_stat_id: number | null\n          pokemon_id: number | null\n        }\n        Insert: {\n          base_stat?: number | null\n          id?: string\n          maximum_stat?: number | null\n          minimum_stat?: number | null\n          pokeathlon_stat_id?: number | null\n          pokemon_id?: number | null\n        }\n        Update: {\n          base_stat?: number | null\n          id?: string\n          maximum_stat?: number | null\n          minimum_stat?: number | null\n          pokeathlon_stat_id?: number | null\n          pokemon_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_pokeathlon_stats_pokeathlon_stat_id_fkey\"\n            columns: [\"pokeathlon_stat_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokeathlon_stats\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_pokeathlon_stats_pokemon_id_fkey\"\n            columns: [\"pokemon_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_shapes: {\n        Row: {\n          description: string | null\n          id: number\n          identifier: string | null\n          name: string | null\n          scientific_name: string | null\n        }\n        Insert: {\n          description?: string | null\n          id: number\n          identifier?: string | null\n          name?: string | null\n          scientific_name?: string | null\n        }\n        Update: {\n          description?: string | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n          scientific_name?: string | null\n        }\n        Relationships: []\n      }\n      pokemon_species: {\n        Row: {\n          base_happiness: number | null\n          capture_rate: number | null\n          color_id: number | null\n          evolution_chain_id: number | null\n          evolves_from_species_id: number | null\n          forms_switchable: boolean | null\n          gender_rate: number | null\n          generation_id: number | null\n          genus: string | null\n          growth_rate_id: number | null\n          habitat_id: number | null\n          has_gender_differences: boolean | null\n          hatch_counter: number | null\n          id: number\n          identifier: string\n          is_baby: boolean | null\n          is_legendary: boolean | null\n          is_mythical: boolean | null\n          name: string | null\n          order: number | null\n          shape_id: number | null\n        }\n        Insert: {\n          base_happiness?: number | null\n          capture_rate?: number | null\n          color_id?: number | null\n          evolution_chain_id?: number | null\n          evolves_from_species_id?: number | null\n          forms_switchable?: boolean | null\n          gender_rate?: number | null\n          generation_id?: number | null\n          genus?: string | null\n          growth_rate_id?: number | null\n          habitat_id?: number | null\n          has_gender_differences?: boolean | null\n          hatch_counter?: number | null\n          id?: number\n          identifier: string\n          is_baby?: boolean | null\n          is_legendary?: boolean | null\n          is_mythical?: boolean | null\n          name?: string | null\n          order?: number | null\n          shape_id?: number | null\n        }\n        Update: {\n          base_happiness?: number | null\n          capture_rate?: number | null\n          color_id?: number | null\n          evolution_chain_id?: number | null\n          evolves_from_species_id?: number | null\n          forms_switchable?: boolean | null\n          gender_rate?: number | null\n          generation_id?: number | null\n          genus?: string | null\n          growth_rate_id?: number | null\n          habitat_id?: number | null\n          has_gender_differences?: boolean | null\n          hatch_counter?: number | null\n          id?: number\n          identifier?: string\n          is_baby?: boolean | null\n          is_legendary?: boolean | null\n          is_mythical?: boolean | null\n          name?: string | null\n          order?: number | null\n          shape_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_species_color_id_fkey\"\n            columns: [\"color_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_colors\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_species_evolution_chain_id_fkey\"\n            columns: [\"evolution_chain_id\"]\n            isOneToOne: false\n            referencedRelation: \"evolution_chains\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_species_evolves_from_species_id_fkey\"\n            columns: [\"evolves_from_species_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_species\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_species_generation_id_fkey\"\n            columns: [\"generation_id\"]\n            isOneToOne: false\n            referencedRelation: \"generations\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_species_growth_rate_id_fkey\"\n            columns: [\"growth_rate_id\"]\n            isOneToOne: false\n            referencedRelation: \"growth_rates\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_species_habitat_id_fkey\"\n            columns: [\"habitat_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_habitats\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_species_shape_id_fkey\"\n            columns: [\"shape_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_shapes\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_species_flavor_text: {\n        Row: {\n          flavor_text: string\n          id: string\n          species_id: number\n          version_id: number\n        }\n        Insert: {\n          flavor_text: string\n          id?: string\n          species_id: number\n          version_id: number\n        }\n        Update: {\n          flavor_text?: string\n          id?: string\n          species_id?: number\n          version_id?: number\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_species_flavor_text_species_id_fkey\"\n            columns: [\"species_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_species\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_species_flavor_text_version_id_fkey\"\n            columns: [\"version_id\"]\n            isOneToOne: false\n            referencedRelation: \"versions\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_stats: {\n        Row: {\n          base_stat: number | null\n          effort: number | null\n          id: string\n          pokemon_id: number | null\n          stat_id: number | null\n        }\n        Insert: {\n          base_stat?: number | null\n          effort?: number | null\n          id?: string\n          pokemon_id?: number | null\n          stat_id?: number | null\n        }\n        Update: {\n          base_stat?: number | null\n          effort?: number | null\n          id?: string\n          pokemon_id?: number | null\n          stat_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_stats_pokemon_id_fkey\"\n            columns: [\"pokemon_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_stats_stat_id_fkey\"\n            columns: [\"stat_id\"]\n            isOneToOne: false\n            referencedRelation: \"stats\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_types: {\n        Row: {\n          id: string\n          pokemon_id: number\n          slot: number\n          type_id: number\n        }\n        Insert: {\n          id?: string\n          pokemon_id: number\n          slot: number\n          type_id: number\n        }\n        Update: {\n          id?: string\n          pokemon_id?: number\n          slot?: number\n          type_id?: number\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_types_pokemon_id_fkey\"\n            columns: [\"pokemon_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_types_type_id_fkey\"\n            columns: [\"type_id\"]\n            isOneToOne: false\n            referencedRelation: \"types\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      pokemon_types_past: {\n        Row: {\n          generation_id: number | null\n          id: string\n          pokemon_id: number | null\n          slot: number | null\n          type_id: number | null\n        }\n        Insert: {\n          generation_id?: number | null\n          id?: string\n          pokemon_id?: number | null\n          slot?: number | null\n          type_id?: number | null\n        }\n        Update: {\n          generation_id?: number | null\n          id?: string\n          pokemon_id?: number | null\n          slot?: number | null\n          type_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"pokemon_types_past_generation_id_fkey\"\n            columns: [\"generation_id\"]\n            isOneToOne: false\n            referencedRelation: \"generations\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_types_past_pokemon_id_fkey\"\n            columns: [\"pokemon_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"pokemon_types_past_type_id_fkey\"\n            columns: [\"type_id\"]\n            isOneToOne: false\n            referencedRelation: \"types\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      regions: {\n        Row: {\n          id: number\n          identifier: string | null\n          name: string | null\n        }\n        Insert: {\n          id: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Update: {\n          id?: number\n          identifier?: string | null\n          name?: string | null\n        }\n        Relationships: []\n      }\n      stats: {\n        Row: {\n          damage_class_id: number | null\n          game_index: number | null\n          id: number\n          identifier: string | null\n          is_battle_only: boolean | null\n          name: string | null\n        }\n        Insert: {\n          damage_class_id?: number | null\n          game_index?: number | null\n          id: number\n          identifier?: string | null\n          is_battle_only?: boolean | null\n          name?: string | null\n        }\n        Update: {\n          damage_class_id?: number | null\n          game_index?: number | null\n          id?: number\n          identifier?: string | null\n          is_battle_only?: boolean | null\n          name?: string | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"stats_damage_class_id_fkey\"\n            columns: [\"damage_class_id\"]\n            isOneToOne: false\n            referencedRelation: \"move_damage_classes\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      super_contest_combos: {\n        Row: {\n          first_move_id: number | null\n          id: string\n          second_move_id: number | null\n        }\n        Insert: {\n          first_move_id?: number | null\n          id?: string\n          second_move_id?: number | null\n        }\n        Update: {\n          first_move_id?: number | null\n          id?: string\n          second_move_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"super_contest_combos_first_move_id_fkey\"\n            columns: [\"first_move_id\"]\n            isOneToOne: false\n            referencedRelation: \"moves\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"super_contest_combos_second_move_id_fkey\"\n            columns: [\"second_move_id\"]\n            isOneToOne: false\n            referencedRelation: \"moves\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      super_contest_effects: {\n        Row: {\n          appeal: number | null\n          flavor_text: string | null\n          id: number\n        }\n        Insert: {\n          appeal?: number | null\n          flavor_text?: string | null\n          id: number\n        }\n        Update: {\n          appeal?: number | null\n          flavor_text?: string | null\n          id?: number\n        }\n        Relationships: []\n      }\n      type_efficacy: {\n        Row: {\n          damage_factor: number | null\n          damage_type_id: number | null\n          id: string\n          target_type_id: number | null\n        }\n        Insert: {\n          damage_factor?: number | null\n          damage_type_id?: number | null\n          id?: string\n          target_type_id?: number | null\n        }\n        Update: {\n          damage_factor?: number | null\n          damage_type_id?: number | null\n          id?: string\n          target_type_id?: number | null\n        }\n        Relationships: []\n      }\n      type_efficacy_past: {\n        Row: {\n          damage_factor: number | null\n          damage_type_id: number | null\n          generation_id: number | null\n          id: string\n          target_type_id: number | null\n        }\n        Insert: {\n          damage_factor?: number | null\n          damage_type_id?: number | null\n          generation_id?: number | null\n          id?: string\n          target_type_id?: number | null\n        }\n        Update: {\n          damage_factor?: number | null\n          damage_type_id?: number | null\n          generation_id?: number | null\n          id?: string\n          target_type_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"type_efficacy_past_generation_id_fkey\"\n            columns: [\"generation_id\"]\n            isOneToOne: false\n            referencedRelation: \"generations\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      types: {\n        Row: {\n          damage_class_id: number | null\n          generation_id: number | null\n          id: number\n          identifier: string | null\n          name: string | null\n          type_color: string | null\n        }\n        Insert: {\n          damage_class_id?: number | null\n          generation_id?: number | null\n          id: number\n          identifier?: string | null\n          name?: string | null\n          type_color?: string | null\n        }\n        Update: {\n          damage_class_id?: number | null\n          generation_id?: number | null\n          id?: number\n          identifier?: string | null\n          name?: string | null\n          type_color?: string | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"types_damage_class_id_fkey\"\n            columns: [\"damage_class_id\"]\n            isOneToOne: false\n            referencedRelation: \"move_damage_classes\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"types_generation_id_fkey\"\n            columns: [\"generation_id\"]\n            isOneToOne: false\n            referencedRelation: \"generations\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      version_group_pokemon_move_methods: {\n        Row: {\n          id: string\n          pokemon_move_method_id: number | null\n          version_group_id: number | null\n        }\n        Insert: {\n          id?: string\n          pokemon_move_method_id?: number | null\n          version_group_id?: number | null\n        }\n        Update: {\n          id?: string\n          pokemon_move_method_id?: number | null\n          version_group_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"version_group_pokemon_move_methods_pokemon_move_method_id_fkey\"\n            columns: [\"pokemon_move_method_id\"]\n            isOneToOne: false\n            referencedRelation: \"pokemon_move_methods\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"version_group_pokemon_move_methods_version_group_id_fkey\"\n            columns: [\"version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      version_group_regions: {\n        Row: {\n          id: string\n          region_id: number | null\n          version_group_id: number | null\n        }\n        Insert: {\n          id?: string\n          region_id?: number | null\n          version_group_id?: number | null\n        }\n        Update: {\n          id?: string\n          region_id?: number | null\n          version_group_id?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"version_group_regions_region_id_fkey\"\n            columns: [\"region_id\"]\n            isOneToOne: false\n            referencedRelation: \"regions\"\n            referencedColumns: [\"id\"]\n          },\n          {\n            foreignKeyName: \"version_group_regions_version_group_id_fkey\"\n            columns: [\"version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      version_groups: {\n        Row: {\n          generation_id: number | null\n          id: number\n          identifier: string\n          name: string\n          order: number | null\n        }\n        Insert: {\n          generation_id?: number | null\n          id: number\n          identifier: string\n          name: string\n          order?: number | null\n        }\n        Update: {\n          generation_id?: number | null\n          id?: number\n          identifier?: string\n          name?: string\n          order?: number | null\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"version_groups_generation_id_fkey\"\n            columns: [\"generation_id\"]\n            isOneToOne: false\n            referencedRelation: \"generations\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n      versions: {\n        Row: {\n          id: number\n          identifier: string\n          name: string\n          version_group_id: number\n        }\n        Insert: {\n          id: number\n          identifier: string\n          name: string\n          version_group_id: number\n        }\n        Update: {\n          id?: number\n          identifier?: string\n          name?: string\n          version_group_id?: number\n        }\n        Relationships: [\n          {\n            foreignKeyName: \"versions_version_group_id_fkey\"\n            columns: [\"version_group_id\"]\n            isOneToOne: false\n            referencedRelation: \"version_groups\"\n            referencedColumns: [\"id\"]\n          }\n        ]\n      }\n    }\n    Views: {\n      [_ in never]: never\n    }\n    Functions: {\n      [_ in never]: never\n    }\n    Enums: {\n      [_ in never]: never\n    }\n    CompositeTypes: {\n      [_ in never]: never\n    }\n  }\n}\n\nexport type Tables<\n  PublicTableNameOrOptions extends\n    | keyof (Database[\"public\"][\"Tables\"] & Database[\"public\"][\"Views\"])\n    | { schema: keyof Database },\n  TableName extends PublicTableNameOrOptions extends { schema: keyof Database }\n    ? keyof (Database[PublicTableNameOrOptions[\"schema\"]][\"Tables\"] &\n        Database[PublicTableNameOrOptions[\"schema\"]][\"Views\"])\n    : never = never\n> = PublicTableNameOrOptions extends { schema: keyof Database }\n  ? (Database[PublicTableNameOrOptions[\"schema\"]][\"Tables\"] &\n      Database[PublicTableNameOrOptions[\"schema\"]][\"Views\"])[TableName] extends {\n      Row: infer R\n    }\n    ? R\n    : never\n  : PublicTableNameOrOptions extends keyof (Database[\"public\"][\"Tables\"] &\n      Database[\"public\"][\"Views\"])\n  ? (Database[\"public\"][\"Tables\"] &\n      Database[\"public\"][\"Views\"])[PublicTableNameOrOptions] extends {\n      Row: infer R\n    }\n    ? R\n    : never\n  : never\n\nexport type TablesInsert<\n  PublicTableNameOrOptions extends\n    | keyof Database[\"public\"][\"Tables\"]\n    | { schema: keyof Database },\n  TableName extends PublicTableNameOrOptions extends { schema: keyof Database }\n    ? keyof Database[PublicTableNameOrOptions[\"schema\"]][\"Tables\"]\n    : never = never\n> = PublicTableNameOrOptions extends { schema: keyof Database }\n  ? Database[PublicTableNameOrOptions[\"schema\"]][\"Tables\"][TableName] extends {\n      Insert: infer I\n    }\n    ? I\n    : never\n  : PublicTableNameOrOptions extends keyof Database[\"public\"][\"Tables\"]\n  ? Database[\"public\"][\"Tables\"][PublicTableNameOrOptions] extends {\n      Insert: infer I\n    }\n    ? I\n    : never\n  : never\n\nexport type TablesUpdate<\n  PublicTableNameOrOptions extends\n    | keyof Database[\"public\"][\"Tables\"]\n    | { schema: keyof Database },\n  TableName extends PublicTableNameOrOptions extends { schema: keyof Database }\n    ? keyof Database[PublicTableNameOrOptions[\"schema\"]][\"Tables\"]\n    : never = never\n> = PublicTableNameOrOptions extends { schema: keyof Database }\n  ? Database[PublicTableNameOrOptions[\"schema\"]][\"Tables\"][TableName] extends {\n      Update: infer U\n    }\n    ? U\n    : never\n  : PublicTableNameOrOptions extends keyof Database[\"public\"][\"Tables\"]\n  ? Database[\"public\"][\"Tables\"][PublicTableNameOrOptions] extends {\n      Update: infer U\n    }\n    ? U\n    : never\n  : never\n\nexport type Enums<\n  PublicEnumNameOrOptions extends\n    | keyof Database[\"public\"][\"Enums\"]\n    | { schema: keyof Database },\n  EnumName extends PublicEnumNameOrOptions extends { schema: keyof Database }\n    ? keyof Database[PublicEnumNameOrOptions[\"schema\"]][\"Enums\"]\n    : never = never\n> = PublicEnumNameOrOptions extends { schema: keyof Database }\n  ? Database[PublicEnumNameOrOptions[\"schema\"]][\"Enums\"][EnumName]\n  : PublicEnumNameOrOptions extends keyof Database[\"public\"][\"Enums\"]\n  ? Database[\"public\"][\"Enums\"][PublicEnumNameOrOptions]\n  : never\n",
-            "properties": [
-                {
-                    "name": "public",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "literal type",
-                    "optional": false,
-                    "description": "",
-                    "line": 10
-                }
-            ],
-            "indexSignatures": [],
-            "kind": 171,
-            "methods": [],
-            "extends": []
-        },
-        {
             "name": "DropdownOption",
-            "id": "interface-DropdownOption-5f6edc1690bc17c4419316b9ffc105753691b6618ada718a1203284c1ac4785ea3c9f5f17146d4167df3b487f8a3f3c786167f3f7bf5738f2e6656299e5c4734",
+            "id": "interface-DropdownOption-875c67cc11ac50b7d047c6b9e77b5acc321ddc16a81d5112f7d5b2aaa4872392c6432c13064c294b7fadfc3ef0a28ae4e15f11e97d56cf05453ff1f2077e380f",
             "file": "src/app/core/models/layout.model.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "interface",
-            "sourceCode": "export interface DropdownOption {\n  name: string;\n  path: string;\n}\n\nexport interface DropdownSection {\n  name: string;\n  options: DropdownOption[];\n}\n",
+            "sourceCode": "export interface DropdownOption {\n  name: string;\n  path: string;\n}\n\nexport interface DropdownSection {\n  name: string;\n  options: DropdownOption[];\n}\n\nexport interface Tab {\n  name: string;\n  identifier: string;\n}\n",
             "properties": [
                 {
                     "name": "name",
@@ -153,12 +129,12 @@
         },
         {
             "name": "DropdownSection",
-            "id": "interface-DropdownSection-5f6edc1690bc17c4419316b9ffc105753691b6618ada718a1203284c1ac4785ea3c9f5f17146d4167df3b487f8a3f3c786167f3f7bf5738f2e6656299e5c4734",
+            "id": "interface-DropdownSection-875c67cc11ac50b7d047c6b9e77b5acc321ddc16a81d5112f7d5b2aaa4872392c6432c13064c294b7fadfc3ef0a28ae4e15f11e97d56cf05453ff1f2077e380f",
             "file": "src/app/core/models/layout.model.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "interface",
-            "sourceCode": "export interface DropdownOption {\n  name: string;\n  path: string;\n}\n\nexport interface DropdownSection {\n  name: string;\n  options: DropdownOption[];\n}\n",
+            "sourceCode": "export interface DropdownOption {\n  name: string;\n  path: string;\n}\n\nexport interface DropdownSection {\n  name: string;\n  options: DropdownOption[];\n}\n\nexport interface Tab {\n  name: string;\n  identifier: string;\n}\n",
             "properties": [
                 {
                     "name": "name",
@@ -276,6 +252,39 @@
                     "optional": false,
                     "description": "",
                     "line": 13
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 171,
+            "methods": [],
+            "extends": []
+        },
+        {
+            "name": "Tab",
+            "id": "interface-Tab-875c67cc11ac50b7d047c6b9e77b5acc321ddc16a81d5112f7d5b2aaa4872392c6432c13064c294b7fadfc3ef0a28ae4e15f11e97d56cf05453ff1f2077e380f",
+            "file": "src/app/core/models/layout.model.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface DropdownOption {\n  name: string;\n  path: string;\n}\n\nexport interface DropdownSection {\n  name: string;\n  options: DropdownOption[];\n}\n\nexport interface Tab {\n  name: string;\n  identifier: string;\n}\n",
+            "properties": [
+                {
+                    "name": "identifier",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 13
+                },
+                {
+                    "name": "name",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 12
                 }
             ],
             "indexSignatures": [],
@@ -2026,7 +2035,7 @@
                     }
                 }
             },
-            "templateData": "<header\n  class=\"z-50 w-screen bg-white dark:bg-black h-[8vh] sm:h-[6vh] flex flex-nowrap justify-between items-center px-4 shadow-md drop-shadow-md\"\n>\n  <div\n    class=\"flex flex-nowrap max-w-screen-xl justify-between items-center sm:gap-8\"\n  >\n    <a\n      class=\"flex justify-center items-center gap-2 h-[6vh] w-full sm:w-auto\"\n      routerLink=\"/\"\n    >\n      <img\n        src=\"../../assets/images/dubious-disc.png\"\n        width=\"40\"\n        height=\"40\"\n        alt=\"\"\n      />\n      <span class=\"font-righteous text-xl sm:text-3xl uppercase\">\n        Dubious Disc\n      </span>\n    </a>\n    <nav\n      aria-label=\"Global\"\n      class=\"flex flex-1 justify-center sm:justify-start items-center h-[8vh] sm:h-[6vh] w-full z-50\"\n    >\n      <ul class=\"flex justify-center sm:justify-start items-center h-full\">\n        <ng-container *ngFor=\"let navItem of navItems\">\n          <dd-header-dropdown\n            [navItem]=\"navItem\"\n            class=\"h-full\"\n          ></dd-header-dropdown>\n        </ng-container>\n      </ul>\n    </nav>\n  </div>\n  <div class=\"flex items-center gap-2\">\n    <span class=\"sm:block hidden\">\n      <svg\n        class=\"h-6 w-6 text-gray-500\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        stroke=\"currentColor\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"2\"\n          d=\"M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z\"\n        />\n      </svg>\n    </span>\n    <dd-switch [checked]=\"isDarkMode\" (checkedChange)=\"toggleDarkMode()\">\n    </dd-switch>\n    <span class=\"\">\n      <svg\n        class=\"h-6 w-6 text-gray-500\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        stroke=\"currentColor\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"2\"\n          d=\"M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z\"\n        />\n      </svg>\n    </span>\n  </div>\n</header>\n"
+            "templateData": "<header\n  class=\"z-50 w-screen bg-white dark:bg-black h-[8vh] sm:h-[6vh] flex flex-nowrap gap-2 justify-between items-center px-4 shadow-md drop-shadow-md\"\n>\n  <div\n    class=\"flex flex-nowrap max-w-screen-xl justify-between items-center sm:gap-8\"\n  >\n    <a\n      class=\"flex justify-center items-center gap-2 h-[6vh] w-full sm:w-auto\"\n      routerLink=\"/\"\n    >\n      <img\n        src=\"../../assets/images/dubious-disc.png\"\n        width=\"40\"\n        height=\"40\"\n        alt=\"\"\n      />\n      <span\n        class=\"font-righteous pr-2 text-lg sm:text-xl md:text-3xl uppercase\"\n      >\n        Dubious Disc\n      </span>\n    </a>\n    <nav\n      aria-label=\"Global\"\n      class=\"flex flex-1 justify-center sm:justify-start items-center h-[8vh] sm:h-[6vh] w-full z-50\"\n    >\n      <ul class=\"flex justify-center sm:justify-start items-center h-full\">\n        <ng-container *ngFor=\"let navItem of navItems\">\n          <dd-header-dropdown\n            [navItem]=\"navItem\"\n            class=\"h-full\"\n          ></dd-header-dropdown>\n        </ng-container>\n      </ul>\n    </nav>\n  </div>\n  <div class=\"flex items-center gap-2\">\n    <span class=\"sm:block hidden\">\n      <svg\n        class=\"h-6 w-6 text-gray-500\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        stroke=\"currentColor\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"2\"\n          d=\"M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z\"\n        />\n      </svg>\n    </span>\n    <dd-switch [checked]=\"isDarkMode\" (checkedChange)=\"toggleDarkMode()\">\n    </dd-switch>\n    <span class=\"\">\n      <svg\n        class=\"h-6 w-6 text-gray-500\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        stroke=\"currentColor\"\n      >\n        <path\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          stroke-width=\"2\"\n          d=\"M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z\"\n        />\n      </svg>\n    </span>\n  </div>\n</header>\n"
         },
         {
             "name": "HeaderDropdownComponent",
@@ -2249,7 +2258,7 @@
                 "OnInit",
                 "OnDestroy"
             ],
-            "templateData": "<li class=\"group h-full w-full z-50 sm:relative\">\n  <button\n    (click)=\"toggleDropdown()\"\n    [ngClass]=\"{\n      'bg-light_tertiary dark:bg-dark_tertiary': isOpen,\n      'bg-white dark:bg-black': !isOpen,\n    }\"\n    class=\"flex items-center justify-center transition h-full px-4 font-semibold text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary\"\n  >\n    {{ navItem.label }}\n  </button>\n  <ul\n    *ngIf=\"navItem.sections && navItem.sections.length > 0\"\n    [ngClass]=\"{\n      'visible, scale-y-100': isOpen,\n      'invisible, scale-y-0': !isOpen,\n    }\"\n    class=\"absolute right-0 bg-white dark:bg-black sm:rounded-b border-light_tertiary dark:border-dark_tertiary border-[1px] mr-[1px] border-t-0 w-screen sm:w-80 overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform\"\n  >\n    <ng-container *ngFor=\"let section of navItem.sections\">\n      <li class=\"\">\n        <div\n          class=\"text-sm font-semibold px-2 py-1 bg-porygon_blue_darker text-light_primary\"\n        >\n          {{ section.sectionTitle }}\n        </div>\n        <ul class=\"space-y-1\">\n          <li *ngFor=\"let option of section.options\">\n            <a\n              routerLink=\"{{ option.link }}\"\n              class=\"block px-4 py-2 font-sans text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary\"\n            >\n              {{ option.label }}\n            </a>\n          </li>\n        </ul>\n      </li>\n    </ng-container>\n  </ul>\n</li>\n"
+            "templateData": "<li class=\"group h-full w-full z-50 sm:relative\">\n  <button\n    (click)=\"toggleDropdown()\"\n    [ngClass]=\"{\n      'bg-light_tertiary dark:bg-dark_tertiary': isOpen,\n      'bg-white dark:bg-black': !isOpen,\n    }\"\n    class=\"flex items-center justify-center transition h-full px-2 font-semibold text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary\"\n  >\n    {{ navItem.label }}\n  </button>\n  <ul\n    *ngIf=\"navItem.sections && navItem.sections.length > 0\"\n    [ngClass]=\"{\n      'visible, scale-y-100': isOpen,\n      'invisible, scale-y-0': !isOpen,\n    }\"\n    class=\"absolute right-0 z-50 bg-white dark:bg-black sm:rounded-b border-light_tertiary dark:border-dark_tertiary border-[1px] mr-[1px] border-t-0 w-screen sm:w-80 overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform\"\n  >\n    <ng-container *ngFor=\"let section of navItem.sections\">\n      <li class=\"\">\n        <div\n          class=\"text-sm font-semibold px-2 py-1 bg-porygon_blue_darker text-light_primary\"\n        >\n          {{ section.sectionTitle }}\n        </div>\n        <ul class=\"space-y-1\">\n          <li *ngFor=\"let option of section.options\">\n            <a\n              routerLink=\"{{ option.link }}\"\n              class=\"block px-4 py-2 font-sans text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary\"\n            >\n              {{ option.label }}\n            </a>\n          </li>\n        </ul>\n      </li>\n    </ng-container>\n  </ul>\n</li>\n"
         },
         {
             "name": "HomeComponent",
@@ -2865,7 +2874,7 @@
         },
         {
             "name": "PokedexComponent",
-            "id": "component-PokedexComponent-8fdac3ed3e9212168bb16a060727915cc0b13d3a6bcd230f50d905d5f789fb9170038f2ffbccce242a1ac1479cdfde2b627f41d72d60b0663088b094618901da",
+            "id": "component-PokedexComponent-def56102d5f297f3571cf25f6afad1b9dc26133a6dfcb8af05a40b5b87e694c039dfe79998e745b7e3806ab95e5f5be6cf7df88197a3cb8c2734b195aedbabf2",
             "file": "src/app/features/pokedex/pages/pokedex/pokedex.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -3008,7 +3017,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 45,
+                    "line": 63,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -3021,6 +3030,62 @@
                     "line": 26,
                     "deprecated": false,
                     "deprecationMessage": ""
+                },
+                {
+                    "name": "selectTab",
+                    "args": [
+                        {
+                            "name": "tab",
+                            "type": "Tab",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 57,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "tab",
+                            "type": "Tab",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "toggleListView",
+                    "args": [
+                        {
+                            "name": "event",
+                            "type": "boolean",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 53,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "event",
+                            "type": "boolean",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
                 }
             ],
             "deprecated": false,
@@ -3032,7 +3097,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, OnInit, inject } from '@angular/core';\nimport { ActivatedRoute, Router } from '@angular/router';\nimport { Subject, switchMap } from 'rxjs';\nimport { Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokedex',\n  templateUrl: './pokedex.component.html',\n})\nexport class PokedexComponent implements OnInit {\n  public listView: boolean = false;\n  public versionGroupIdentifier: string = '';\n  public formattedVersionGroupName: string = '';\n\n  public pokedexes: Tables<'pokedexes'>[] = [];\n  public selectedPokedex: Tables<'pokedexes'> = {} as Tables<'pokedexes'>;\n  public versionGroup: Tables<'version_groups'> =\n    {} as Tables<'version_groups'>;\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private route: ActivatedRoute = inject(ActivatedRoute);\n\n  private ngUnsubscribe = new Subject<void>();\n\n  ngOnInit(): void {\n    this.route.paramMap\n      .pipe(\n        switchMap((params) => {\n          this.versionGroupIdentifier = params.get('version-group') || '';\n          return this.supabase.getVersionGroupByIdentifier(\n            this.versionGroupIdentifier\n          );\n        }),\n        switchMap((versionGroup) => {\n          this.versionGroup = versionGroup;\n          return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);\n        })\n      )\n      .subscribe((data: Tables<'pokedexes'>[]) => {\n        this.pokedexes = data;\n        this.selectedPokedex = data[0];\n      });\n  }\n  ngOnDestroy(): void {\n    this.ngUnsubscribe.next();\n    this.ngUnsubscribe.complete();\n  }\n}\n",
+            "sourceCode": "import { Component, OnInit, inject } from '@angular/core';\nimport { ActivatedRoute, Router } from '@angular/router';\nimport { Subject, switchMap } from 'rxjs';\nimport { Tab, Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokedex',\n  templateUrl: './pokedex.component.html',\n})\nexport class PokedexComponent implements OnInit {\n  public listView: boolean = false;\n  public versionGroupIdentifier: string = '';\n  public formattedVersionGroupName: string = '';\n\n  public pokedexes: Tables<'pokedexes'>[] = [];\n  public selectedPokedex: Tables<'pokedexes'> = {} as Tables<'pokedexes'>;\n  public versionGroup: Tables<'version_groups'> =\n    {} as Tables<'version_groups'>;\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private route: ActivatedRoute = inject(ActivatedRoute);\n\n  private ngUnsubscribe = new Subject<void>();\n\n  ngOnInit(): void {\n    this.route.paramMap\n      .pipe(\n        switchMap((params) => {\n          this.versionGroupIdentifier = params.get('version-group') || '';\n          return this.supabase.getVersionGroupByIdentifier(\n            this.versionGroupIdentifier\n          );\n        }),\n        switchMap((versionGroup) => {\n          this.versionGroup = versionGroup;\n          return this.supabase.getPokedexesByVersionGroupId(versionGroup.id);\n        })\n      )\n      .subscribe((data: Tables<'pokedexes'>[]) => {\n        this.pokedexes = data;\n        this.selectedPokedex = data[0];\n      });\n  }\n\n  get pokedexTabs() {\n    return this.pokedexes.map((pokedex) => ({\n      name: pokedex.name,\n      identifier: pokedex.identifier,\n    }));\n  }\n\n  toggleListView(event: boolean) {\n    this.listView = event;\n  }\n\n  selectTab(tab: Tab) {\n    this.selectedPokedex =\n      this.pokedexes.find((pokedex) => pokedex.identifier === tab.identifier) ||\n      this.pokedexes[0];\n  }\n\n  ngOnDestroy(): void {\n    this.ngUnsubscribe.next();\n    this.ngUnsubscribe.complete();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -3040,7 +3105,18 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<div class=\"flex flex-col justify-start items-center w-full h-full\">\n  <div\n    class=\"grid grid-cols-2 xl:grid-cols-3 gap-2 m-4 max-w-screen-2xl h-full w-full\"\n  >\n    <div\n      class=\"col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 sticky top-0 z-20 xl:relative p-2 xl:py-0 w-full\"\n    >\n      <dd-card [title]=\"'Filters & Options'\" class=\"sticky top-2\">\n        <div class=\"p-4 flex gap-2\">\n          <dd-pokedex-select-dropdown\n            [currentVersionGroupName]=\"this.versionGroup.name\"\n          ></dd-pokedex-select-dropdown>\n          <dd-button (onClick)=\"listView = !listView\" class=\"text-xs\">\n            List View\n          </dd-button>\n        </div>\n      </dd-card>\n    </div>\n    <dd-card\n      class=\"col-span-2 h-full\"\n      [title]=\"\n        this.versionGroup.name ? this.versionGroup.name + ' Pokedex' : 'Pokedex'\n      \"\n    >\n      <div *ngIf=\"pokedexes.length > 0; else elseBlock\" class=\"p-4\">\n        <ul class=\"flex text-xs text-center overflow-x-scroll\">\n          <li class=\"me-2\" *ngFor=\"let pokedex of pokedexes\">\n            <button\n              (click)=\"selectedPokedex = pokedex\"\n              class=\"inline-block whitespace-nowrap p-4 rounded-t hover:bg-zinc-800\"\n              [ngClass]=\"{\n                'bg-zinc-800 cursor-default': selectedPokedex === pokedex,\n                'bg-zinc-900': selectedPokedex !== pokedex\n              }\"\n              aria-current=\"page\"\n            >\n              <span>{{ pokedex.name }}</span>\n            </button>\n          </li>\n        </ul>\n        <ng-container *ngFor=\"let pokedex of pokedexes\">\n          <dd-pokedex-tab\n            *ngIf=\"pokedex === selectedPokedex\"\n            [pokedex]=\"pokedex\"\n            [listView]=\"listView\"\n            [versionGroupIdentifier]=\"versionGroupIdentifier\"\n          ></dd-pokedex-tab>\n        </ng-container>\n      </div>\n      <ng-template #elseBlock>\n        <div class=\"flex w-full h-64 justify-center items-center\">\n          <dd-spinner></dd-spinner>\n        </div>\n      </ng-template>\n    </dd-card>\n  </div>\n</div>\n"
+            "accessors": {
+                "pokedexTabs": {
+                    "name": "pokedexTabs",
+                    "getSignature": {
+                        "name": "pokedexTabs",
+                        "type": "",
+                        "returnType": "",
+                        "line": 46
+                    }
+                }
+            },
+            "templateData": "<div class=\"flex flex-col justify-start items-center w-full h-full\">\n  <div\n    class=\"grid grid-cols-2 xl:grid-cols-3 gap-2 m-4 max-w-screen-2xl h-full w-full\"\n  >\n    <div\n      class=\"col-span-2 xl:col-span-1 columns-2 xl:columns-1 flex flex-row xl:flex-col gap-4 p-2 xl:py-0 w-full\"\n    >\n      <dd-card [title]=\"'Filters & Options'\">\n        <div class=\"p-4 flex gap-2 items-center\">\n          <dd-pokedex-select-dropdown\n            [currentVersionGroupName]=\"this.versionGroup.name\"\n          ></dd-pokedex-select-dropdown>\n          <dd-switch\n            [checked]=\"listView\"\n            [label]=\"'List View'\"\n            (checkedChange)=\"toggleListView($event)\"\n          >\n          </dd-switch>\n        </div>\n      </dd-card>\n    </div>\n    <dd-card\n      class=\"col-span-2 h-full\"\n      [title]=\"\n        this.versionGroup.name ? this.versionGroup.name + ' Pokedex' : 'Pokedex'\n      \"\n    >\n      <div *ngIf=\"pokedexes.length > 0; else elseBlock\" class=\"p-4\">\n        <dd-tab-list\n          [tabs]=\"pokedexTabs\"\n          [activeTab]=\"selectedPokedex\"\n          (tabChange)=\"selectTab($event)\"\n        >\n          <dd-pokedex-view\n            [pokedex]=\"selectedPokedex\"\n            [listView]=\"listView\"\n            [versionGroupIdentifier]=\"versionGroupIdentifier\"\n          ></dd-pokedex-view\n        ></dd-tab-list>\n      </div>\n      <ng-template #elseBlock>\n        <div class=\"flex w-full h-64 justify-center items-center\">\n          <dd-spinner></dd-spinner>\n        </div>\n      </ng-template>\n    </dd-card>\n  </div>\n</div>\n"
         },
         {
             "name": "PokedexGridViewItemComponent",
@@ -3361,19 +3437,19 @@
             "templateData": "<dd-dropdown\n  [sections]=\"sections\"\n  [placeholder]=\"\n    this.currentVersionGroupName\n      ? this.currentVersionGroupName\n      : 'Select Pokédex'\n  \"\n  [origin]=\"origin\"\n></dd-dropdown>\n"
         },
         {
-            "name": "PokedexTabComponent",
-            "id": "component-PokedexTabComponent-c8bb34bcdf3e94075fcb98d27befcb3d325b0f8c1fbd11d09c94fe277abbe36c325182fd47ba0a62fcc07b511629a89e88408fab5be706955cd8f506754afbf1",
-            "file": "src/app/features/pokedex/components/pokedex-tab/pokedex-tab.component.ts",
+            "name": "PokedexViewComponent",
+            "id": "component-PokedexViewComponent-6699e456d1b21b5ebbce19f2bf57008098068a79393bf612ebf87cc3b608376de8dc036d42f8e49a6d7b4aac9545068bb2074e48e10e1e18acfdd01cd383e75d",
+            "file": "src/app/features/pokedex/components/pokedex-view/pokedex-view.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
             "outputs": [],
             "providers": [],
-            "selector": "dd-pokedex-tab",
+            "selector": "dd-pokedex-view",
             "styleUrls": [],
             "styles": [],
             "templateUrl": [
-                "./pokedex-tab.component.html"
+                "./pokedex-view.component.html"
             ],
             "viewProviders": [],
             "hostDirectives": [],
@@ -3447,7 +3523,7 @@
             ],
             "methodsClass": [
                 {
-                    "name": "ngOnInit",
+                    "name": "ngOnChanges",
                     "args": [],
                     "optional": false,
                     "returnType": "void",
@@ -3494,11 +3570,14 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, inject } from '@angular/core';\nimport { Router } from '@angular/router';\nimport { Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokedex-tab',\n  templateUrl: './pokedex-tab.component.html',\n})\nexport class PokedexTabComponent {\n  @Input() pokedex: Tables<'pokedexes'> = {} as Tables<'pokedexes'>;\n  @Input() versionGroupIdentifier: string = '';\n  @Input() listView: boolean = false;\n  pokemonEntries: any = [];\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private router: Router = inject(Router);\n\n  ngOnInit() {\n    this.supabase\n      .getPokemonSpeciesByPokedexId(this.pokedex.id)\n      .subscribe((data: any) => {\n        this.pokemonEntries = data;\n      });\n  }\n\n  onPokemonClick(pokemon: any) {\n    let pokemonSpeciesIdentifier = pokemon.species_id.identifier;\n    this.router.navigate([\n      'pokedex',\n      this.versionGroupIdentifier,\n      pokemonSpeciesIdentifier,\n    ]);\n  }\n}\n",
+            "sourceCode": "import { Component, Input, OnChanges, inject } from '@angular/core';\nimport { Router } from '@angular/router';\nimport { Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokedex-view',\n  templateUrl: './pokedex-view.component.html',\n})\nexport class PokedexViewComponent implements OnChanges {\n  @Input() pokedex: Tables<'pokedexes'> = {} as Tables<'pokedexes'>;\n  @Input() versionGroupIdentifier: string = '';\n  @Input() listView: boolean = false;\n  pokemonEntries: any = [];\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private router: Router = inject(Router);\n\n  ngOnChanges() {\n    this.supabase\n      .getPokemonSpeciesByPokedexId(this.pokedex.id)\n      .subscribe((data: any) => {\n        this.pokemonEntries = data;\n      });\n  }\n\n  onPokemonClick(pokemon: any) {\n    let pokemonSpeciesIdentifier = pokemon.species_id.identifier;\n    this.router.navigate([\n      'pokedex',\n      this.versionGroupIdentifier,\n      pokemonSpeciesIdentifier,\n    ]);\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
+            "implements": [
+                "OnChanges"
+            ],
             "templateData": "<div\n  class=\"flex flex-col rounded-b py-2 w-full bg-light_primary dark:bg-dark_primary\"\n>\n  <div *ngIf=\"listView; else gridView\" class=\"flex flex-col w-full\">\n    <dd-pokedex-list-view-item\n      *ngFor=\"let pokemon of pokemonEntries; index as index\"\n      [pokemon]=\"pokemon\"\n      (click)=\"onPokemonClick(pokemon)\"\n      class=\"\"\n      [ngClass]=\"{\n        'border-t border-zinc-700': index === 0\n      }\"\n    ></dd-pokedex-list-view-item>\n  </div>\n  <ng-template #gridView>\n    <div class=\"flex flex-wrap gap-2 justify-center p-2\">\n      <dd-pokedex-grid-view-item\n        *ngFor=\"let pokemon of pokemonEntries\"\n        [pokemon]=\"pokemon\"\n        (click)=\"onPokemonClick(pokemon)\"\n      ></dd-pokedex-grid-view-item>\n    </div>\n  </ng-template>\n</div>\n"
         },
         {
@@ -5082,7 +5161,7 @@
         },
         {
             "name": "SwitchComponent",
-            "id": "component-SwitchComponent-453d53ebc10cb50abda8674936d411bbb29b67836c21438ab412cbb5e3d6ffa65c0f588838535717d5817d24e5f0d9d10f83702382dd6e8218153d553b06e91b",
+            "id": "component-SwitchComponent-4dab4be78b11dae2bbb4024cf6259cd27d1f640078d24d0bd3978330f9d343a9b41c90e41de75ab44dd80d19d194bc6a9ae7ab48aabb0467ce33aec3ecb4ceb2",
             "file": "src/app/shared/components/switch/switch.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -5106,6 +5185,14 @@
                     "line": 8,
                     "type": "boolean",
                     "decorators": []
+                },
+                {
+                    "name": "label",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 9,
+                    "type": "string",
+                    "decorators": []
                 }
             ],
             "outputsClass": [
@@ -5114,7 +5201,7 @@
                     "defaultValue": "new EventEmitter<boolean>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 9,
+                    "line": 10,
                     "type": "EventEmitter<boolean>"
                 }
             ],
@@ -5126,7 +5213,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 11,
+                    "line": 12,
                     "deprecated": false,
                     "deprecationMessage": ""
                 }
@@ -5140,12 +5227,12 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  selector: 'dd-switch',\n  templateUrl: './switch.component.html',\n})\nexport class SwitchComponent {\n  @Input() checked: boolean = false;\n  @Output() checkedChange: EventEmitter<boolean> = new EventEmitter<boolean>();\n\n  toggleSwitch(): void {\n    this.checked = !this.checked;\n    this.checkedChange.emit(this.checked);\n  }\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  selector: 'dd-switch',\n  templateUrl: './switch.component.html',\n})\nexport class SwitchComponent {\n  @Input() checked: boolean = false;\n  @Input() label?: string;\n  @Output() checkedChange: EventEmitter<boolean> = new EventEmitter<boolean>();\n\n  toggleSwitch(): void {\n    this.checked = !this.checked;\n    this.checkedChange.emit(this.checked);\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<div class=\"relative inline-block w-10 align-middle select-none\">\n  <input\n    type=\"checkbox\"\n    id=\"toggle\"\n    [(ngModel)]=\"checked\"\n    (change)=\"toggleSwitch()\"\n    class=\"absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:bg-porygon_blue checked:top-0 checked:end-0 focus:outline-none active:bg-porygon_blue_darker\"\n  />\n  <label\n    for=\"toggle\"\n    [ngClass]=\"checked ? 'bg-porygon_blue' : 'bg-light_tertiary'\"\n    class=\"toggle-label block overflow-hidden h-6 rounded-full cursor-pointer\"\n  ></label>\n</div>\n"
+            "templateData": "<div class=\"flex justify-center items-center gap-2\">\n  <div class=\"relative inline-block w-10 align-middle select-none\">\n    <input\n      type=\"checkbox\"\n      id=\"toggle\"\n      [(ngModel)]=\"checked\"\n      (change)=\"toggleSwitch()\"\n      class=\"absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:bg-porygon_blue checked:top-0 checked:end-0 focus:outline-none active:bg-porygon_blue_darker\"\n    />\n    <label\n      for=\"toggle\"\n      [ngClass]=\"checked ? 'bg-porygon_blue' : 'bg-light_tertiary'\"\n      class=\"toggle-label block overflow-hidden h-6 rounded-full cursor-pointer\"\n    ></label>\n  </div>\n  <span class=\"text-sm\">\n    {{ label }}\n  </span>\n</div>\n"
         },
         {
             "name": "TableComponent",
@@ -5202,6 +5289,100 @@
             "stylesData": "",
             "extends": [],
             "templateData": "<table>\n  <thead>\n    <tr *ngFor=\"let column of columns\">\n      <th>{{ column }}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let item of data\">\n      <td>{{ item.column1 }}</td>\n      <td>{{ item.column2 }}</td>\n      <td>{{ item.column3 }}</td>\n    </tr>\n  </tbody>\n</table>\n"
+        },
+        {
+            "name": "TabListComponent",
+            "id": "component-TabListComponent-e83d30f31bae6aeadf0316364ba7e9ee1acf55a6c567a575f2ef87806c283d263604f82de2103ff1ebc735868c290112b1031af23ffe7136275cef78c47263f4",
+            "file": "src/app/shared/components/tab-list/tab-list.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "dd-tab-list",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./tab-list.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "activeTab",
+                    "defaultValue": "this.tabs[0]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 10,
+                    "type": "Tab",
+                    "decorators": []
+                },
+                {
+                    "name": "tabs",
+                    "defaultValue": "[]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 9,
+                    "type": "Tab[]",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [
+                {
+                    "name": "tabChange",
+                    "defaultValue": "new EventEmitter<Tab>()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 11,
+                    "type": "EventEmitter<Tab>"
+                }
+            ],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "selectTab",
+                    "args": [
+                        {
+                            "name": "tab",
+                            "type": "Tab",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 13,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "tab",
+                            "type": "Tab",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { Tab } from 'src/app/core/models';\n\n@Component({\n  selector: 'dd-tab-list',\n  templateUrl: './tab-list.component.html',\n})\nexport class TabListComponent {\n  @Input() tabs: Tab[] = [];\n  @Input() activeTab: Tab = this.tabs[0];\n  @Output() tabChange: EventEmitter<Tab> = new EventEmitter<Tab>();\n\n  selectTab(tab: Tab) {\n    this.activeTab = tab;\n    this.tabChange.emit(tab);\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<div class=\"flex flex-col\">\n  <ul class=\"flex text-xs text-center\">\n    <li\n      *ngFor=\"let tab of tabs\"\n      class=\"my-2 flex flex-col hover:bg-light_tertiary dark:hover:bg-dark_tertiary\"\n      (click)=\"selectTab(tab)\"\n      [ngClass]=\"{\n        'cursor-default': tab.identifier === activeTab.identifier,\n        'cursor-pointer': tab.identifier !== activeTab.identifier\n      }\"\n    >\n      <span class=\"py-2 px-3\">\n        {{ tab.name }}\n      </span>\n      <div\n        *ngIf=\"tab.identifier === activeTab.identifier\"\n        class=\"h-[2px] w-full bg-porygon_blue_darker\"\n      ></div>\n    </li>\n  </ul>\n  <ng-content></ng-content>\n</div>\n"
         },
         {
             "name": "TeamBuilderComponent",
@@ -5559,13 +5740,13 @@
         },
         {
             "name": "PokedexModule",
-            "id": "module-PokedexModule-69632c68a8436bdb7decc9d56bc6e2e52db4cdffc4b94c593fae5b737bd3c9775fde43031faffdad454a98ce411825fa26c678c7728d820b2b490549dc2c03dd",
+            "id": "module-PokedexModule-b3c14e021a485036dce15de148084999fec8847dcf6913aa696bb9bb450af574506ba6302fe289baaa02f25c639b44ebc651c8eb7c0648ac2de1eb0bae9dd5d1",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/features/pokedex/pokedex.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { RouterModule } from '@angular/router';\nimport { CoreModule } from 'src/app/core/core.module';\nimport { SharedModule } from 'src/app/shared/shared.module';\nimport { PokedexComponent } from './pages/pokedex/pokedex.component';\nimport { PokedexGridViewItemComponent } from './components/pokedex-grid-view-item/pokedex-grid-view-item.component';\nimport { PokedexListViewItemComponent } from './components/pokedex-list-view-item/pokedex-list-view-item.component';\nimport { LazyLoadImageModule } from 'ng-lazyload-image';\nimport { NgIconsModule } from '@ng-icons/core';\nimport {\n  heroChevronLeftSolid,\n  heroChevronRightSolid,\n  heroSwatchSolid,\n  heroSparklesSolid,\n} from '@ng-icons/heroicons/solid';\nimport {\n  bootstrapDice6Fill,\n  bootstrapGenderFemale,\n  bootstrapGenderMale,\n} from '@ng-icons/bootstrap-icons';\nimport { PokedexTabComponent } from './components/pokedex-tab/pokedex-tab.component';\n\nconst routes = [{ path: '', component: PokedexComponent }];\n\n@NgModule({\n  declarations: [\n    PokedexComponent,\n    PokedexGridViewItemComponent,\n    PokedexListViewItemComponent,\n    PokedexTabComponent,\n  ],\n  imports: [\n    CommonModule,\n    CoreModule,\n    SharedModule,\n    RouterModule.forChild(routes),\n    LazyLoadImageModule,\n    NgIconsModule.withIcons({\n      heroChevronLeftSolid,\n      heroChevronRightSolid,\n      heroSwatchSolid,\n      bootstrapDice6Fill,\n      bootstrapGenderFemale,\n      bootstrapGenderMale,\n      heroSparklesSolid,\n    }),\n  ],\n})\nexport class PokedexModule {}\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { RouterModule } from '@angular/router';\nimport { CoreModule } from 'src/app/core/core.module';\nimport { SharedModule } from 'src/app/shared/shared.module';\nimport { PokedexComponent } from './pages/pokedex/pokedex.component';\nimport { PokedexGridViewItemComponent } from './components/pokedex-grid-view-item/pokedex-grid-view-item.component';\nimport { PokedexListViewItemComponent } from './components/pokedex-list-view-item/pokedex-list-view-item.component';\nimport { LazyLoadImageModule } from 'ng-lazyload-image';\nimport { NgIconsModule } from '@ng-icons/core';\nimport {\n  heroChevronLeftSolid,\n  heroChevronRightSolid,\n  heroSwatchSolid,\n  heroSparklesSolid,\n} from '@ng-icons/heroicons/solid';\nimport {\n  bootstrapDice6Fill,\n  bootstrapGenderFemale,\n  bootstrapGenderMale,\n} from '@ng-icons/bootstrap-icons';\nimport { PokedexViewComponent } from './components/pokedex-view/pokedex-view.component';\n\nconst routes = [{ path: '', component: PokedexComponent }];\n\n@NgModule({\n  declarations: [\n    PokedexComponent,\n    PokedexGridViewItemComponent,\n    PokedexListViewItemComponent,\n    PokedexViewComponent,\n  ],\n  imports: [\n    CommonModule,\n    CoreModule,\n    SharedModule,\n    RouterModule.forChild(routes),\n    LazyLoadImageModule,\n    NgIconsModule.withIcons({\n      heroChevronLeftSolid,\n      heroChevronRightSolid,\n      heroSwatchSolid,\n      bootstrapDice6Fill,\n      bootstrapGenderFemale,\n      bootstrapGenderMale,\n      heroSparklesSolid,\n    }),\n  ],\n})\nexport class PokedexModule {}\n",
             "children": [
                 {
                     "type": "providers",
@@ -5584,7 +5765,7 @@
                             "name": "PokedexListViewItemComponent"
                         },
                         {
-                            "name": "PokedexTabComponent"
+                            "name": "PokedexViewComponent"
                         }
                     ]
                 },
@@ -5689,13 +5870,13 @@
         },
         {
             "name": "SharedModule",
-            "id": "module-SharedModule-cdd05c28eb4a03535873a50ae0ee6d99ef12a34e54644c7565ab248ef7ddc8c5f25e5d4c0e727da992e374f0813c78e6c3b5247540f505d952750233c779cf40",
+            "id": "module-SharedModule-7c50853702aa504a5c1b7443c2d802c7325259c400cdafd836ac6ca7cf1580404b24b247bdbed3e0087c7eba4197cac9c456468823270b1271f919a69ecee45d",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/shared/shared.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { DecimetersToFeetAndInchesPipe } from './pipes/decimeters-to-feet-and-inches/decimeters-to-feet-and-inches.pipe';\nimport { DecimetersToPoundsPipe } from './pipes/decimeters-to-pounds/decimeters-to-pounds.pipe';\nimport { FormsModule } from '@angular/forms';\nimport { TypeBoxComponent } from './components/type-box/type-box.component';\nimport { CardHeaderComponent } from './components/card/card-header/card-header.component';\nimport { RouterModule } from '@angular/router';\nimport { SpinnerComponent } from './components/spinner/spinner.component';\nimport { DropdownComponent } from './components/dropdown/dropdown.component';\nimport { PokedexSelectDropdownComponent } from './components/pokedex-select-dropdown/pokedex-select-dropdown.component';\nimport { NgIconsModule } from '@ng-icons/core';\nimport { heroChevronDownSolid } from '@ng-icons/heroicons/solid';\nimport { CardComponent } from './components/card/card/card.component';\nimport { ButtonComponent } from './components/button/button/button.component';\nimport { NewsPreviewComponent } from './components/news-preview/news-preview.component';\nimport { NewsPreviewListComponent } from './components/news-preview-list/news-preview-list.component';\nimport { CompoundButtonComponent } from './components/button/compound-button/compound-button.component';\nimport { SwitchComponent } from './components/switch/switch.component';\n\n@NgModule({\n  declarations: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    NewsPreviewComponent,\n    DropdownComponent,\n    PokedexSelectDropdownComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n  ],\n  imports: [\n    CommonModule,\n    FormsModule,\n    RouterModule,\n    NgIconsModule.withIcons({\n      heroChevronDownSolid,\n    }),\n  ],\n  exports: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    DropdownComponent,\n    PokedexSelectDropdownComponent,\n    NewsPreviewComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n  ],\n})\nexport class SharedModule {}\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { DecimetersToFeetAndInchesPipe } from './pipes/decimeters-to-feet-and-inches/decimeters-to-feet-and-inches.pipe';\nimport { DecimetersToPoundsPipe } from './pipes/decimeters-to-pounds/decimeters-to-pounds.pipe';\nimport { FormsModule } from '@angular/forms';\nimport { TypeBoxComponent } from './components/type-box/type-box.component';\nimport { CardHeaderComponent } from './components/card/card-header/card-header.component';\nimport { RouterModule } from '@angular/router';\nimport { SpinnerComponent } from './components/spinner/spinner.component';\nimport { DropdownComponent } from './components/dropdown/dropdown.component';\nimport { PokedexSelectDropdownComponent } from './components/pokedex-select-dropdown/pokedex-select-dropdown.component';\nimport { NgIconsModule } from '@ng-icons/core';\nimport { heroChevronDownSolid } from '@ng-icons/heroicons/solid';\nimport { CardComponent } from './components/card/card/card.component';\nimport { ButtonComponent } from './components/button/button/button.component';\nimport { NewsPreviewComponent } from './components/news-preview/news-preview.component';\nimport { NewsPreviewListComponent } from './components/news-preview-list/news-preview-list.component';\nimport { CompoundButtonComponent } from './components/button/compound-button/compound-button.component';\nimport { SwitchComponent } from './components/switch/switch.component';\nimport { TabListComponent } from './components/tab-list/tab-list.component';\n\n@NgModule({\n  declarations: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    NewsPreviewComponent,\n    DropdownComponent,\n    PokedexSelectDropdownComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n    TabListComponent,\n  ],\n  imports: [\n    CommonModule,\n    FormsModule,\n    RouterModule,\n    NgIconsModule.withIcons({\n      heroChevronDownSolid,\n    }),\n  ],\n  exports: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    DropdownComponent,\n    PokedexSelectDropdownComponent,\n    NewsPreviewComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n    TabListComponent,\n  ],\n})\nexport class SharedModule {}\n",
             "children": [
                 {
                     "type": "providers",
@@ -5739,6 +5920,9 @@
                         },
                         {
                             "name": "SwitchComponent"
+                        },
+                        {
+                            "name": "TabListComponent"
                         },
                         {
                             "name": "TypeBoxComponent"
@@ -5787,6 +5971,9 @@
                         },
                         {
                             "name": "SwitchComponent"
+                        },
+                        {
+                            "name": "TabListComponent"
                         },
                         {
                             "name": "TypeBoxComponent"
@@ -5857,6 +6044,16 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {},\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/shared/components/switch/switch.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -5877,16 +6074,6 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\n  args: {},\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/shared/components/button/button/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -5897,7 +6084,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/shared/components/card/card/card.stories.ts",
+                "file": "src/app/shared/components/card/card-header/card-header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -5907,7 +6094,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/shared/components/card/card-header/card-header.stories.ts",
+                "file": "src/app/shared/components/card/card/card.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -5947,21 +6134,21 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/shared/components/table/table.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<TableComponent>",
-                "defaultValue": "{\n  title: 'Shared/Table',\n  component: TableComponent,\n  tags: ['autodocs'],\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/shared/components/spinner/spinner.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<SpinnerComponent>",
                 "defaultValue": "{\n  title: 'Shared/Spinner',\n  component: SpinnerComponent,\n  tags: ['autodocs'],\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/shared/components/table/table.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<TableComponent>",
+                "defaultValue": "{\n  title: 'Shared/Table',\n  component: TableComponent,\n  tags: ['autodocs'],\n}"
             },
             {
                 "name": "meta",
@@ -5977,21 +6164,21 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/shared/components/card/card/card.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<CardComponent>",
-                "defaultValue": "{\n  title: 'Shared/Card',\n  component: CardComponent,\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      //👇 Imports both components to allow component composition with Storybook\n      declarations: [CardComponent, CardHeaderComponent],\n      imports: [],\n    }),\n  ],\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/shared/components/card/card-header/card-header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<CardHeaderComponent>",
                 "defaultValue": "{\n  title: 'Shared/Card/CardHeader',\n  component: CardHeaderComponent,\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      //👇 Imports both components to allow component composition with Storybook\n      declarations: [CardHeaderComponent],\n      imports: [],\n    }),\n  ],\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/shared/components/card/card/card.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<CardComponent>",
+                "defaultValue": "{\n  title: 'Shared/Card',\n  component: CardComponent,\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      //👇 Imports both components to allow component composition with Storybook\n      declarations: [CardComponent, CardHeaderComponent],\n      imports: [],\n    }),\n  ],\n}"
             },
             {
                 "name": "Normal",
@@ -6097,6 +6284,17 @@
         "functions": [],
         "typealiases": [
             {
+                "name": "Database",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "literal type",
+                "file": "src/app/core/models/supabase.model.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 187
+            },
+            {
                 "name": "Enums",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
@@ -6122,6 +6320,17 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
+                "rawtype": "StoryObj<SpinnerComponent>",
+                "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
                 "rawtype": "StoryObj<SwitchComponent>",
                 "file": "src/app/shared/components/switch/switch.stories.ts",
                 "deprecated": false,
@@ -6135,17 +6344,6 @@
                 "subtype": "typealias",
                 "rawtype": "StoryObj<TableComponent>",
                 "file": "src/app/shared/components/table/table.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 183
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
-                "rawtype": "StoryObj<SpinnerComponent>",
-                "file": "src/app/shared/components/spinner/spinner.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -6188,8 +6386,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<CardComponent>",
-                "file": "src/app/shared/components/card/card/card.stories.ts",
+                "rawtype": "StoryObj<CardHeaderComponent>",
+                "file": "src/app/shared/components/card/card-header/card-header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -6199,8 +6397,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<CardHeaderComponent>",
-                "file": "src/app/shared/components/card/card-header/card-header.stories.ts",
+                "rawtype": "StoryObj<CardComponent>",
+                "file": "src/app/shared/components/card/card/card.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -6242,6 +6440,28 @@
         ],
         "enumerations": [],
         "groupedVariables": {
+            "src/app/shared/components/spinner/spinner.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {},\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<SpinnerComponent>",
+                    "defaultValue": "{\n  title: 'Shared/Spinner',\n  component: SpinnerComponent,\n  tags: ['autodocs'],\n}"
+                }
+            ],
             "src/app/shared/components/switch/switch.stories.ts": [
                 {
                     "name": "Default",
@@ -6274,28 +6494,6 @@
                     "deprecationMessage": "",
                     "type": "Meta<TableComponent>",
                     "defaultValue": "{\n  title: 'Shared/Table',\n  component: TableComponent,\n  tags: ['autodocs'],\n}"
-                }
-            ],
-            "src/app/shared/components/spinner/spinner.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "{\n  args: {},\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<SpinnerComponent>",
-                    "defaultValue": "{\n  title: 'Shared/Spinner',\n  component: SpinnerComponent,\n  tags: ['autodocs'],\n}"
                 }
             ],
             "src/app/shared/components/button/button/button.stories.ts": [
@@ -6340,28 +6538,6 @@
                     "defaultValue": "{\n  args: {\n    appearance: 'secondary',\n  },\n  render: (args: any) => ({\n    template: `<dd-button [appearance]=\"'${args.appearance}'\">Secondary</dd-button>`,\n  }),\n}"
                 }
             ],
-            "src/app/shared/components/card/card/card.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/shared/components/card/card/card.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "{\n  args: {\n    title: 'Card Title',\n  },\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/shared/components/card/card/card.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<CardComponent>",
-                    "defaultValue": "{\n  title: 'Shared/Card',\n  component: CardComponent,\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      //👇 Imports both components to allow component composition with Storybook\n      declarations: [CardComponent, CardHeaderComponent],\n      imports: [],\n    }),\n  ],\n}"
-                }
-            ],
             "src/app/shared/components/card/card-header/card-header.stories.ts": [
                 {
                     "name": "Default",
@@ -6382,6 +6558,28 @@
                     "deprecationMessage": "",
                     "type": "Meta<CardHeaderComponent>",
                     "defaultValue": "{\n  title: 'Shared/Card/CardHeader',\n  component: CardHeaderComponent,\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      //👇 Imports both components to allow component composition with Storybook\n      declarations: [CardHeaderComponent],\n      imports: [],\n    }),\n  ],\n}"
+                }
+            ],
+            "src/app/shared/components/card/card/card.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/card/card/card.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    title: 'Card Title',\n  },\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/card/card/card.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<CardComponent>",
+                    "defaultValue": "{\n  title: 'Shared/Card',\n  component: CardComponent,\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      //👇 Imports both components to allow component composition with Storybook\n      declarations: [CardComponent, CardHeaderComponent],\n      imports: [],\n    }),\n  ],\n}"
                 }
             ],
             "src/environments/environment.development.ts": [
@@ -6520,6 +6718,17 @@
         "groupedTypeAliases": {
             "src/app/core/models/supabase.model.ts": [
                 {
+                    "name": "Database",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "literal type",
+                    "file": "src/app/core/models/supabase.model.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 187
+                },
+                {
                     "name": "Enums",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
@@ -6575,6 +6784,19 @@
                     "kind": 194
                 }
             ],
+            "src/app/shared/components/spinner/spinner.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<SpinnerComponent>",
+                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
             "src/app/shared/components/switch/switch.stories.ts": [
                 {
                     "name": "Story",
@@ -6595,19 +6817,6 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<TableComponent>",
                     "file": "src/app/shared/components/table/table.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
-            "src/app/shared/components/spinner/spinner.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<SpinnerComponent>",
-                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -6653,19 +6862,6 @@
                     "kind": 183
                 }
             ],
-            "src/app/shared/components/card/card/card.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<CardComponent>",
-                    "file": "src/app/shared/components/card/card/card.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
             "src/app/shared/components/card/card-header/card-header.stories.ts": [
                 {
                     "name": "Story",
@@ -6673,6 +6869,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<CardHeaderComponent>",
                     "file": "src/app/shared/components/card/card-header/card-header.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "src/app/shared/components/card/card/card.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<CardComponent>",
+                    "file": "src/app/shared/components/card/card/card.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -6760,6 +6969,15 @@
                 "status": "low"
             },
             {
+                "filePath": "src/app/core/models/layout.model.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "Tab",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/core/models/navigation.model.ts",
                 "type": "interface",
                 "linktype": "interface",
@@ -6794,15 +7012,6 @@
                 "name": "headerNavItems",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/core/models/supabase.model.ts",
-                "type": "interface",
-                "linktype": "interface",
-                "name": "Database",
-                "coveragePercent": 0,
-                "coverageCount": "0/2",
                 "status": "low"
             },
             {
@@ -6898,10 +7107,10 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/features/pokedex/components/pokedex-tab/pokedex-tab.component.ts",
+                "filePath": "src/app/features/pokedex/components/pokedex-view/pokedex-view.component.ts",
                 "type": "component",
                 "linktype": "component",
-                "name": "PokedexTabComponent",
+                "name": "PokedexViewComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/9",
                 "status": "low"
@@ -6912,7 +7121,7 @@
                 "linktype": "component",
                 "name": "PokedexComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/12",
+                "coverageCount": "0/14",
                 "status": "low"
             },
             {
@@ -7231,7 +7440,7 @@
                 "linktype": "component",
                 "name": "SwitchComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/4",
+                "coverageCount": "0/5",
                 "status": "low"
             },
             {
@@ -7242,6 +7451,15 @@
                 "name": "Default",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/tab-list/tab-list.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "TabListComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
                 "status": "low"
             },
             {
