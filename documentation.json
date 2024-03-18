@@ -550,7 +550,7 @@
         },
         {
             "name": "SupabaseService",
-            "id": "injectable-SupabaseService-394a2c5238c6ade0314f5b52c360d64cc91056c81ca7b725d78fc297cee66243fc7157782d92787497cd56a06a93b9f0de1b7506745fd7b1d5e5b35067005fae",
+            "id": "injectable-SupabaseService-d12c0f36144614a9e4032c6b5b0ce2f903789ea8db098d7d5d93ee25a70b7b6f5655da27715193490bf4af99e39c80fcf44eaf568d1c9014a652bbe5e0946c1e",
             "file": "src/app/core/services/supabase.service.ts",
             "properties": [
                 {
@@ -613,7 +613,7 @@
                     "optional": false,
                     "returnType": "Observable<Tables[]>",
                     "typeParameters": [],
-                    "line": 216,
+                    "line": 218,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -968,7 +968,7 @@
                     "optional": false,
                     "returnType": "Observable<any>",
                     "typeParameters": [],
-                    "line": 198,
+                    "line": 200,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -996,7 +996,7 @@
                     "optional": false,
                     "returnType": "Observable<Tables<version_groups>>",
                     "typeParameters": [],
-                    "line": 224,
+                    "line": 226,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -1024,7 +1024,7 @@
                     "optional": false,
                     "returnType": "Observable<Tables[]>",
                     "typeParameters": [],
-                    "line": 206,
+                    "line": 208,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -1044,7 +1044,7 @@
             "deprecationMessage": "",
             "description": "",
             "rawdescription": "\n",
-            "sourceCode": "import { Injectable } from '@angular/core';\nimport { createClient, SupabaseClient } from '@supabase/supabase-js';\nimport { from, map, Observable } from 'rxjs';\nimport { environment } from 'src/environments/environment';\nimport { Database, Tables } from '../models/supabase.model';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class SupabaseService {\n  private supabase: SupabaseClient;\n\n  constructor() {\n    this.supabase = createClient<Database>(\n      environment.supabaseUrl,\n      environment.supabaseKey\n    );\n  }\n\n  get storage() {\n    return this.supabase.storage;\n  }\n\n  // Generations\n\n  getAllGenerations(): Observable<Tables<'generations'>[]> {\n    const request = this.supabase.from('generations').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokedexes\n\n  getAllPokedexes(): Observable<Tables<'pokedexes'>[]> {\n    const request = this.supabase.from('pokedexes').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokedex Version Groups\n\n  getAllPokedexVersionGroups(): Observable<Tables<'pokedex_version_groups'>[]> {\n    const request = this.supabase.from('pokedex_version_groups').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokedexesByVersionGroupId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokedex_version_groups')\n      .select('pokedex_id (*)')\n      .eq('version_group_id', id);\n    return from(request).pipe(\n      map((response) => response.data?.map((item) => item.pokedex_id) || [])\n    );\n  }\n\n  // Pokémon\n\n  getPokemonBySpeciesId(id: number): Observable<Tables<'pokemon'>[]> {\n    const request = this.supabase\n      .from('pokemon')\n      .select('*')\n      .eq('species_id', id)\n      .order('form_order', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokémon Abilities\n\n  getPokemonAbilitiesByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_abilities')\n      .select(\n        'pokemon_id, ability_id (id, identifier, name, generation_id, short_effect), is_hidden, slot'\n      )\n      .eq('pokemon_id', id)\n      .order('slot', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokémon Dex Numbers\n\n  getPokemonDexNumbersBySpeciesId(\n    id: number\n  ): Observable<Tables<'pokemon_dex_numbers'>[]> {\n    const request = this.supabase\n      .from('pokemon_dex_numbers')\n      .select('*')\n      .eq('species_id', id)\n      .order('pokedex_id', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Moves\n\n  getPokemonMovesByPokemonId(\n    id: number,\n    versionGroupId: number\n  ): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_moves')\n      .select(\n        'pokemon_id, version_group_id, move_id (id, identifier, name, type_id ( id, identifier, name, type_color ), power, pp, accuracy), pokemon_move_method_id (id, identifier, name), level, order'\n      )\n      .eq('pokemon_id', id)\n      .eq('version_group_id', versionGroupId)\n      .order('order', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Species\n\n  getPokemonSpeciesByIdentifier(\n    identifier: string\n  ): Observable<Tables<'pokemon_species'>> {\n    const request = this.supabase\n      .from('pokemon_species')\n      .select('*')\n      .eq('identifier', identifier)\n      .single();\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokemonSpeciesByPokedexId(id: number): Observable<\n    {\n      species_id: any;\n      pokedex_number: number;\n    }[]\n  > {\n    const request = this.supabase\n      .from('pokemon_dex_numbers')\n      .select('species_id (id, identifier, name, genus), pokedex_number')\n      .eq('pokedex_id', id)\n      .order('pokedex_number', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getAllPokemonSpeciesIdentifiers(): Observable<any> {\n    const request = this.supabase.from('pokemon_species').select('identifier');\n    return from(request).pipe(\n      map((response) => response.data || []),\n      map((data) => data.map((item: any) => item.identifier))\n    );\n  }\n\n  // Pokemon Species Flavor Text\n\n  getPokemonSpeciesFlavorTextBySpeciesId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_species_flavor_text')\n      .select('*')\n      .eq('species_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokemonSpeciesFlavorTextWithVersionIdBySpeciesId(\n    speciesId: number,\n    versionIds: number[]\n  ): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_species_flavor_text')\n      .select('*')\n      .eq('species_id', speciesId)\n      .in('version_id', versionIds);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Stats\n\n  getPokemonStatsByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_stats')\n      .select('stat_id (id, identifier, name), base_stat, effort')\n      .eq('pokemon_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Types\n\n  getPokemonTypesByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_types')\n      .select('type_id (id, identifier, name, type_color), slot')\n      .eq('pokemon_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Types\n\n  getTypeById(id: number): Observable<any> {\n    const request = this.supabase.from('types').select('*').eq('id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Versions\n\n  getVersionsByVersionGroupId(id: number): Observable<Tables<'versions'>[]> {\n    const request = this.supabase\n      .from('versions')\n      .select('*')\n      .eq('version_group_id', id);\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Version Groups\n\n  getAllVersionGroups(): Observable<Tables<'version_groups'>[]> {\n    const request = this.supabase\n      .from('version_groups')\n      .select('*')\n      .order('order', { ascending: true });\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getVersionGroupByIdentifier(\n    identifier: string\n  ): Observable<Tables<'version_groups'>> {\n    const request = this.supabase\n      .from('version_groups')\n      .select('*')\n      .eq('identifier', identifier)\n      .single();\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n}\n",
+            "sourceCode": "import { Injectable } from '@angular/core';\nimport { createClient, SupabaseClient } from '@supabase/supabase-js';\nimport { from, map, Observable } from 'rxjs';\nimport { environment } from 'src/environments/environment';\nimport { Database, Tables } from '../models/supabase.model';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class SupabaseService {\n  private supabase: SupabaseClient;\n\n  constructor() {\n    this.supabase = createClient<Database>(\n      environment.supabaseUrl,\n      environment.supabaseKey\n    );\n  }\n\n  get storage() {\n    return this.supabase.storage;\n  }\n\n  // Generations\n\n  getAllGenerations(): Observable<Tables<'generations'>[]> {\n    const request = this.supabase.from('generations').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokedexes\n\n  getAllPokedexes(): Observable<Tables<'pokedexes'>[]> {\n    const request = this.supabase.from('pokedexes').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokedex Version Groups\n\n  getAllPokedexVersionGroups(): Observable<Tables<'pokedex_version_groups'>[]> {\n    const request = this.supabase.from('pokedex_version_groups').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokedexesByVersionGroupId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokedex_version_groups')\n      .select('pokedex_id (*)')\n      .eq('version_group_id', id);\n    return from(request).pipe(\n      map((response) => response.data?.map((item) => item.pokedex_id) || [])\n    );\n  }\n\n  // Pokémon\n\n  getPokemonBySpeciesId(id: number): Observable<Tables<'pokemon'>[]> {\n    const request = this.supabase\n      .from('pokemon')\n      .select('*')\n      .eq('species_id', id)\n      .order('form_order', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokémon Abilities\n\n  getPokemonAbilitiesByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_abilities')\n      .select(\n        'pokemon_id, ability_id (id, identifier, name, generation_id, short_effect), is_hidden, slot'\n      )\n      .eq('pokemon_id', id)\n      .order('slot', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokémon Dex Numbers\n\n  getPokemonDexNumbersBySpeciesId(\n    id: number\n  ): Observable<Tables<'pokemon_dex_numbers'>[]> {\n    const request = this.supabase\n      .from('pokemon_dex_numbers')\n      .select('*')\n      .eq('species_id', id)\n      .order('pokedex_id', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Moves\n\n  getPokemonMovesByPokemonId(\n    id: number,\n    versionGroupId: number\n  ): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_moves')\n      .select(\n        'pokemon_id, version_group_id, move_id (id, identifier, name, type_id ( id, identifier, name, type_color ), power, pp, accuracy), pokemon_move_method_id (id, identifier, name), level, order'\n      )\n      .eq('pokemon_id', id)\n      .eq('version_group_id', versionGroupId)\n      .order('order', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Species\n\n  getPokemonSpeciesByIdentifier(\n    identifier: string\n  ): Observable<Tables<'pokemon_species'>> {\n    const request = this.supabase\n      .from('pokemon_species')\n      .select('*')\n      .eq('identifier', identifier)\n      .single();\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokemonSpeciesByPokedexId(id: number): Observable<\n    {\n      species_id: any;\n      pokedex_number: number;\n    }[]\n  > {\n    const request = this.supabase\n      .from('pokemon_dex_numbers')\n      .select('species_id (id, identifier, name, genus), pokedex_number')\n      .eq('pokedex_id', id)\n      .order('pokedex_number', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getAllPokemonSpeciesIdentifiers(): Observable<any> {\n    const request = this.supabase.from('pokemon_species').select('identifier');\n    return from(request).pipe(\n      map((response) => response.data || []),\n      map((data) => data.map((item: any) => item.identifier))\n    );\n  }\n\n  // Pokemon Species Flavor Text\n\n  getPokemonSpeciesFlavorTextBySpeciesId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_species_flavor_text')\n      .select('*')\n      .eq('species_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokemonSpeciesFlavorTextWithVersionIdBySpeciesId(\n    speciesId: number,\n    versionIds: number[]\n  ): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_species_flavor_text')\n      .select('*')\n      .eq('species_id', speciesId)\n      .in('version_id', versionIds);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Stats\n\n  getPokemonStatsByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_stats')\n      .select('stat_id (id, identifier, name), base_stat, effort')\n      .eq('pokemon_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Types\n\n  getPokemonTypesByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_types')\n      .select(\n        'type_id (id, identifier, name, type_color, darker_type_color), slot'\n      )\n      .eq('pokemon_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Types\n\n  getTypeById(id: number): Observable<any> {\n    const request = this.supabase.from('types').select('*').eq('id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Versions\n\n  getVersionsByVersionGroupId(id: number): Observable<Tables<'versions'>[]> {\n    const request = this.supabase\n      .from('versions')\n      .select('*')\n      .eq('version_group_id', id);\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Version Groups\n\n  getAllVersionGroups(): Observable<Tables<'version_groups'>[]> {\n    const request = this.supabase\n      .from('version_groups')\n      .select('*')\n      .order('order', { ascending: true });\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getVersionGroupByIdentifier(\n    identifier: string\n  ): Observable<Tables<'version_groups'>> {\n    const request = this.supabase\n      .from('version_groups')\n      .select('*')\n      .eq('identifier', identifier)\n      .single();\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n}\n",
             "constructorObj": {
                 "name": "constructor",
                 "description": "",
@@ -2249,7 +2249,7 @@
                 "OnInit",
                 "OnDestroy"
             ],
-            "templateData": "<li class=\"group h-full w-full z-50 sm:relative\">\n  <button\n    (click)=\"toggleDropdown()\"\n    [ngClass]=\"{\n      'bg-light_tertiary dark:bg-dark_tertiary': isOpen,\n      'bg-white dark:bg-black': !isOpen,\n    }\"\n    class=\"flex items-center justify-center transition h-full px-2 font-semibold text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary\"\n  >\n    {{ navItem.label }}\n  </button>\n  <ul\n    *ngIf=\"navItem.sections && navItem.sections.length > 0\"\n    [ngClass]=\"{\n      'visible, scale-y-100': isOpen,\n      'invisible, scale-y-0': !isOpen,\n    }\"\n    class=\"absolute right-0 z-50 bg-white dark:bg-black sm:rounded-b border-light_tertiary dark:border-dark_tertiary border-[1px] mr-[1px] border-t-0 w-screen sm:w-80 overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform\"\n  >\n    <ng-container *ngFor=\"let section of navItem.sections\">\n      <li class=\"\">\n        <div\n          class=\"text-sm font-semibold px-2 py-1 bg-porygon_blue_darker text-light_primary\"\n        >\n          {{ section.sectionTitle }}\n        </div>\n        <ul class=\"space-y-1\">\n          <li *ngFor=\"let option of section.options\">\n            <a\n              routerLink=\"{{ option.link }}\"\n              class=\"block px-4 py-2 font-sans text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary\"\n            >\n              {{ option.label }}\n            </a>\n          </li>\n        </ul>\n      </li>\n    </ng-container>\n  </ul>\n</li>\n"
+            "templateData": "<li class=\"group h-full w-full z-50 sm:relative\">\n  <button\n    (click)=\"toggleDropdown()\"\n    [ngClass]=\"{\n      'bg-light_tertiary dark:bg-dark_tertiary': isOpen,\n    }\"\n    class=\"flex items-center justify-center transition h-full px-2 font-semibold text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary\"\n  >\n    {{ navItem.label }}\n  </button>\n  <ul\n    *ngIf=\"navItem.sections && navItem.sections.length > 0\"\n    [ngClass]=\"{\n      'visible, scale-y-100': isOpen,\n      'invisible, scale-y-0': !isOpen,\n    }\"\n    class=\"absolute right-0 z-50 bg-white dark:bg-black sm:rounded-b border-light_tertiary dark:border-dark_tertiary border-[1px] mr-[1px] border-t-0 w-screen sm:w-80 overflow-y-auto max-h-[60vh] origin-top sm:origin-top-right transition ease-in-out duration-200 transform\"\n  >\n    <ng-container *ngFor=\"let section of navItem.sections\">\n      <li class=\"\">\n        <div\n          class=\"text-sm font-semibold px-2 py-1 bg-porygon_blue_darker text-light_primary\"\n        >\n          {{ section.sectionTitle }}\n        </div>\n        <ul class=\"space-y-1\">\n          <li *ngFor=\"let option of section.options\">\n            <a\n              routerLink=\"{{ option.link }}\"\n              class=\"block px-4 py-2 font-sans text-sm hover:bg-light_tertiary dark:hover:bg-dark_tertiary\"\n            >\n              {{ option.label }}\n            </a>\n          </li>\n        </ul>\n      </li>\n    </ng-container>\n  </ul>\n</li>\n"
         },
         {
             "name": "HomeComponent",
@@ -4851,7 +4851,7 @@
         },
         {
             "name": "PokemonSummaryComponent",
-            "id": "component-PokemonSummaryComponent-cb3b228aa614b1a2a66979c3c8d2b9c5b7a63bf406fd210f693b383a9c5e5f3c2b06f527c40206eb0aeadaf56cb2ef8d0b0ec9eb891f6907d12215527e6abbf5",
+            "id": "component-PokemonSummaryComponent-a438f346a36a4872fcba2bb66d8d97e0e996cac69b2f0382410d3d1f9b7e0b4c26eafa901ae51b6ef80954d89f7642cac0abe7eafcc70486fc9b56cbd127aaab",
             "file": "src/app/features/pokemon/components/pokemon-summary/pokemon-summary.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -5025,7 +5025,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, inject, Input, OnChanges } from '@angular/core';\nimport { Subject } from 'rxjs';\nimport { Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokemon-summary',\n  templateUrl: './pokemon-summary.component.html',\n})\nexport class PokemonSummaryComponent implements OnChanges {\n  @Input() selectedForm: Tables<'pokemon'> = {} as Tables<'pokemon'>;\n  @Input() pokemonSpecies: Tables<'pokemon_species'> =\n    {} as Tables<'pokemon_species'>;\n  pokemonTypes: any;\n  imageUrl: string = '';\n  shiny: boolean = false;\n  female: boolean = false;\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private destroy$ = new Subject<void>();\n\n  ngOnChanges(): void {\n    if (!this.selectedForm.id) return;\n    this.supabase\n      .getPokemonTypesByPokemonId(this.selectedForm.id)\n      .subscribe((data) => {\n        this.pokemonTypes = data;\n      });\n    this.getImageUrl();\n  }\n\n  getImageUrl() {\n    let url = 'home-previews/';\n\n    this.shiny ? (url += 'shiny/') : null;\n    this.female ? (url += 'female/') : null;\n    url += this.selectedForm.id + '.png';\n\n    this.imageUrl = this.supabase.storage\n      .from('pokemon')\n      .getPublicUrl(url).data.publicUrl;\n  }\n\n  getTypeBackgroundColor() {\n    if (this.pokemonTypes && this.pokemonTypes.length > 1) {\n      return (\n        'linear-gradient(to bottom right, #' +\n        this.pokemonTypes[0].type_id.type_color +\n        ',' +\n        '#' +\n        this.pokemonTypes[1].type_id.type_color +\n        ')'\n      );\n    } else if (this.pokemonTypes && this.pokemonTypes.length == 1) {\n      return '#' + this.pokemonTypes[0].type_id.type_color;\n    } else {\n      return 'linear-gradient(to bottom right, #27272a, #27272a)';\n    }\n  }\n\n  shinyToggle() {\n    this.shiny = !this.shiny;\n    this.getImageUrl();\n  }\n\n  genderToggle() {\n    this.female = !this.female;\n    this.getImageUrl();\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
+            "sourceCode": "import { Component, inject, Input, OnChanges } from '@angular/core';\nimport { Subject } from 'rxjs';\nimport { Tables } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokemon-summary',\n  templateUrl: './pokemon-summary.component.html',\n})\nexport class PokemonSummaryComponent implements OnChanges {\n  @Input() selectedForm: Tables<'pokemon'> = {} as Tables<'pokemon'>;\n  @Input() pokemonSpecies: Tables<'pokemon_species'> =\n    {} as Tables<'pokemon_species'>;\n  pokemonTypes: any;\n  imageUrl: string = '';\n  shiny: boolean = false;\n  female: boolean = false;\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private destroy$ = new Subject<void>();\n\n  ngOnChanges(): void {\n    if (!this.selectedForm.id) return;\n    this.supabase\n      .getPokemonTypesByPokemonId(this.selectedForm.id)\n      .subscribe((data) => {\n        this.pokemonTypes = data;\n      });\n    this.getImageUrl();\n  }\n\n  getImageUrl() {\n    let url = 'home-previews/';\n\n    this.shiny ? (url += 'shiny/') : null;\n    this.female ? (url += 'female/') : null;\n    url += this.selectedForm.id + '.png';\n\n    this.imageUrl = this.supabase.storage\n      .from('pokemon')\n      .getPublicUrl(url).data.publicUrl;\n  }\n\n  getTypeBackgroundColor() {\n    if (this.pokemonTypes && this.pokemonTypes.length > 1) {\n      return (\n        'linear-gradient(to bottom right, #' +\n        this.pokemonTypes[0].type_id.darker_type_color +\n        ',' +\n        '#' +\n        this.pokemonTypes[1].type_id.darker_type_color +\n        ')'\n      );\n    } else if (this.pokemonTypes && this.pokemonTypes.length == 1) {\n      return '#' + this.pokemonTypes[0].type_id.darker_type_color;\n    } else {\n      return 'linear-gradient(to bottom right, #27272a, #27272a)';\n    }\n  }\n\n  shinyToggle() {\n    this.shiny = !this.shiny;\n    this.getImageUrl();\n  }\n\n  genderToggle() {\n    this.female = !this.female;\n    this.getImageUrl();\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -5033,7 +5033,7 @@
             "implements": [
                 "OnChanges"
             ],
-            "templateData": "<div\n  class=\"text-center border border-light_tertiary dark:border-dark_tertiary h-full w-full rounded flex flex-col justify-between\"\n>\n  <div class=\"relative h-full w-full\">\n    <dd-button class=\"absolute top-2 left-2\" (onClick)=\"shinyToggle()\">\n      <ng-icon\n        [name]=\"'heroSparklesSolid'\"\n        [ngClass]=\"{ 'text-orange-300': shiny }\"\n        aria-labelledby=\"shiny-button-label\"\n      ></ng-icon>\n      <div class=\"sr-only\" id=\"shiny-button-label\">\n        Toggle Pokémon's Shiny Sprite\n      </div>\n    </dd-button>\n    <dd-button\n      *ngIf=\"pokemonSpecies.has_gender_differences\"\n      class=\"absolute top-14 left-2\"\n      (onClick)=\"genderToggle()\"\n    >\n      <ng-icon\n        [name]=\"'bootstrapGenderFemale'\"\n        [ngClass]=\"{ 'text-pink-400': female }\"\n        aria-labelledby=\"gender-button-label\"\n      ></ng-icon>\n      <div class=\"sr-only\" id=\"gender-button-label\">\n        Toggle Pokémon's Gender, When It Affects Appearance\n      </div>\n    </dd-button>\n    <div\n      class=\"w-full h-full flex justify-center items-center rounded-t\"\n      [style.background]=\"getTypeBackgroundColor()\"\n    >\n      <img\n        src=\"{{ this.imageUrl }}\"\n        class=\"w-full h-full object-contain min-w-[300px] max-w-[390px] rounded-t\"\n      />\n    </div>\n  </div>\n  <div>\n    <div\n      class=\"bg-white dark:bg-black border-b border-light_tertiary dark:border-dark_tertiary\"\n      style=\"height: 50px\"\n    >\n      <h2 class=\"p-2\">\n        <span class=\"font-bold text-xl\"> {{ selectedForm.name }}</span>\n      </h2>\n    </div>\n    <div\n      class=\"flex justify-between items-center p-2 bg-light_primary dark:bg-dark_tertiary\"\n      *ngIf=\"pokemonTypes && pokemonTypes.length > 0\"\n      [ngClass]=\"\n        pokemonTypes.length > 1\n          ? 'justify-content-between'\n          : 'justify-content-center'\n      \"\n    >\n      <dd-type-box\n        *ngFor=\"let type of pokemonTypes\"\n        [type]=\"type.type_id\"\n      ></dd-type-box>\n    </div>\n  </div>\n</div>\n"
+            "templateData": "<div\n  class=\"text-center border border-light_tertiary dark:border-dark_tertiary h-full w-full rounded flex flex-col justify-between\"\n>\n  <div class=\"relative h-full w-full\">\n    <dd-button class=\"absolute top-2 left-2\" (onClick)=\"shinyToggle()\">\n      <ng-icon\n        [name]=\"'heroSparklesSolid'\"\n        [ngClass]=\"{ 'text-orange-300': shiny }\"\n        aria-labelledby=\"shiny-button-label\"\n      ></ng-icon>\n      <div class=\"sr-only\" id=\"shiny-button-label\">\n        Toggle Pokémon's Shiny Sprite\n      </div>\n    </dd-button>\n    <dd-button\n      *ngIf=\"pokemonSpecies.has_gender_differences\"\n      class=\"absolute top-14 left-2\"\n      (onClick)=\"genderToggle()\"\n    >\n      <ng-icon\n        [name]=\"'bootstrapGenderFemale'\"\n        [ngClass]=\"{ 'text-pink-400': female }\"\n        aria-labelledby=\"gender-button-label\"\n      ></ng-icon>\n      <div class=\"sr-only\" id=\"gender-button-label\">\n        Toggle Pokémon's Gender, When It Affects Appearance\n      </div>\n    </dd-button>\n    <div\n      class=\"w-full h-full flex justify-center items-center rounded-t\"\n      [style.background]=\"getTypeBackgroundColor()\"\n    >\n      <img\n        src=\"{{ this.imageUrl }}\"\n        class=\"w-full h-full object-contain min-w-[300px] max-w-[390px] rounded-t\"\n      />\n    </div>\n  </div>\n  <div>\n    <div\n      class=\"bg-white dark:bg-black border-b border-light_tertiary dark:border-dark_tertiary\"\n      style=\"height: 50px\"\n    >\n      <h2 class=\"p-2\">\n        <span class=\"font-bold text-xl\"> {{ selectedForm.name }}</span>\n      </h2>\n    </div>\n    <div\n      class=\"flex justify-between items-center p-2 bg-light_primary dark:bg-dark_primary\"\n      *ngIf=\"pokemonTypes && pokemonTypes.length > 0\"\n      [ngClass]=\"\n        pokemonTypes.length > 1\n          ? 'justify-content-between'\n          : 'justify-content-center'\n      \"\n    >\n      <dd-type-box\n        *ngFor=\"let type of pokemonTypes\"\n        [type]=\"type.type_id\"\n      ></dd-type-box>\n    </div>\n  </div>\n</div>\n"
         },
         {
             "name": "SpinnerComponent",
@@ -5444,7 +5444,7 @@
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<div\n  class=\"flex justify-center items-center rounded py-2 px-4 w-24\"\n  data-testid=\"type-box\"\n  [ngClass]=\"{\n    'py-1 px-2 w-24 text-xs': size === 'sm',\n    'py-2 px-4 w-24 text-sm': size === 'md',\n    'py-3 px-6 w-24 text-md': size === 'lg'\n  }\"\n  [style.background]=\"'#' + type.type_color\"\n>\n  <span class=\"font-bold white-outlined\" data-testid=\"type-box-text\">{{\n    type.name\n  }}</span>\n</div>\n"
+            "templateData": "<div\n  class=\"flex justify-center items-center rounded\"\n  data-testid=\"type-box\"\n  [ngClass]=\"{\n    'py-1 px-2 w-20 text-xs': size === 'sm',\n    'py-2 px-4 w-24 text-sm': size === 'md',\n    'py-3 px-6 w-28 text-md': size === 'lg'\n  }\"\n  [style.background]=\"'#' + type.type_color\"\n>\n  <span class=\"font-bold white-outlined\" data-testid=\"type-box-text\">{{\n    type.name\n  }}</span>\n</div>\n"
         }
     ],
     "modules": [
@@ -5997,21 +5997,21 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\n  args: {},\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/shared/components/switch/switch.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "{}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {},\n}"
             },
             {
                 "name": "Default",
@@ -6092,6 +6092,26 @@
                 "deprecationMessage": "",
                 "type": "NavigationItem[]",
                 "defaultValue": "[\n  {\n    label: 'Resources',\n    sections: [\n      {\n        sectionTitle: 'Databases',\n        options: [\n          {\n            label: 'Pokédex',\n            link: 'pokedex/scarlet-violet',\n          },\n        ],\n      },\n      // {\n      //   sectionTitle: 'Tools',\n      //   options: [\n      //     {\n      //       label: 'Team Builder',\n      //       link: 'team-builder',\n      //     },\n      //   ],\n      // },\n    ],\n  },\n  // {\n  //   label: 'Games',\n  //   sections: [\n  //     {\n  //       sectionTitle: 'Generation IX',\n  //       options: [\n  //         {\n  //           label: 'Pokémon Scarlet & Violet',\n  //           link: 'games/scarlet-violet',\n  //         },\n  //       ],\n  //     },\n  //     {\n  //       sectionTitle: 'Generation VIII',\n  //       options: [\n  //         {\n  //           label: 'Pokémon Sword & Shield',\n  //           link: 'games/sword-shield',\n  //         },\n  //         {\n  //           label: 'Pokémon Brilliant Diamond & Shining Pearl',\n  //           link: 'games/brilliant-diamond-shining-pearl',\n  //         },\n  //         {\n  //           label: 'Pokémon Legends Arceus',\n  //           link: 'games/legends-arceus',\n  //         },\n  //       ],\n  //     },\n  //     {\n  //       sectionTitle: 'Generation VII',\n  //       options: [\n  //         {\n  //           label: 'Pokémon Sun & Moon',\n  //           link: 'games/sun-moon',\n  //         },\n  //         {\n  //           label: 'Pokémon Ultra Sun & Ultra Moon',\n  //           link: 'games/ultra-sun-ultra-moon',\n  //         },\n  //         {\n  //           label: \"Pokémon Let's Go Pikachu & Eevee\",\n  //           link: 'games/lets-go-pikachu-lets-go-eevee',\n  //         },\n  //       ],\n  //     },\n  //     {\n  //       sectionTitle: 'Generation VI',\n  //       options: [\n  //         {\n  //           label: 'Pokémon X & Y',\n  //           link: 'games/x-y',\n  //         },\n  //         {\n  //           label: 'Pokémon Omega Ruby & Alpha Sapphire',\n  //           link: 'games/omega-ruby-alpha-sapphire',\n  //         },\n  //       ],\n  //     },\n  //     {\n  //       sectionTitle: 'Generation V',\n  //       options: [\n  //         {\n  //           label: 'Pokémon Black & White',\n  //           link: 'games/black-white',\n  //         },\n  //         {\n  //           label: 'Pokémon Black 2 & White 2',\n  //           link: 'games/black-2-white-2',\n  //         },\n  //       ],\n  //     },\n  //     {\n  //       sectionTitle: 'Generation IV',\n  //       options: [\n  //         {\n  //           label: 'Pokémon Diamond & Pearl',\n  //           link: 'games/diamond-pearl',\n  //         },\n  //         {\n  //           label: 'Pokémon Platinum',\n  //           link: 'games/platinum',\n  //         },\n  //         {\n  //           label: 'Pokémon HeartGold & SoulSilver',\n  //           link: 'games/heartgold-soulsilver',\n  //         },\n  //       ],\n  //     },\n  //     {\n  //       sectionTitle: 'Generation III',\n  //       options: [\n  //         {\n  //           label: 'Pokémon Ruby & Sapphire',\n  //           link: 'games/ruby-sapphire',\n  //         },\n  //         {\n  //           label: 'Pokémon FireRed & LeafGreen',\n  //           link: 'games/firered-leafgreen',\n  //         },\n  //         {\n  //           label: 'Pokémon Emerald',\n  //           link: 'games/emerald',\n  //         },\n  //       ],\n  //     },\n  //     {\n  //       sectionTitle: 'Generation II',\n  //       options: [\n  //         {\n  //           label: 'Pokémon Gold & Silver',\n  //           link: 'games/gold-silver',\n  //         },\n  //         {\n  //           label: 'Pokémon Crystal',\n  //           link: 'games/crystal',\n  //         },\n  //       ],\n  //     },\n  //     {\n  //       sectionTitle: 'Generation I',\n  //       options: [\n  //         {\n  //           label: 'Pokémon Red & Blue',\n  //           link: 'games/red-blue',\n  //         },\n  //         {\n  //           label: 'Pokémon Yellow',\n  //           link: 'games/yellow',\n  //         },\n  //       ],\n  //     },\n  //   ],\n  // },\n  // {\n  //   label: 'Videos',\n  //   sections: [\n  //     {\n  //       sectionTitle: 'Watch Online',\n  //       options: [\n  //         {\n  //           label: 'Video Hub',\n  //           link: '/videos',\n  //         },\n  //       ],\n  //     },\n  //     {\n  //       sectionTitle: 'Series',\n  //       options: [\n  //         {\n  //           label: 'Paldean Winds',\n  //           link: 'videos/paldean-winds',\n  //         },\n  //         {\n  //           label: 'Twilight Wings',\n  //           link: 'videos/twilight-wings',\n  //         },\n  //       ],\n  //     },\n  //   ],\n  // },\n  // {\n  //   label: 'Other',\n  //   sections: [\n  //     {\n  //       sectionTitle: 'Community',\n  //       options: [\n  //         {\n  //           label: 'About/Contact Us',\n  //           link: 'about',\n  //         },\n  //       ],\n  //     },\n  //   ],\n  // },\n]"
+            },
+            {
+                "name": "Large",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/shared/components/type-box/type-box.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    type: {\n      name: 'Normal',\n      type_color: 'AAAA99',\n    } as Tables<'types'>,\n    size: 'lg',\n  },\n}"
+            },
+            {
+                "name": "Medium",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/shared/components/type-box/type-box.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    type: {\n      name: 'Normal',\n      type_color: 'AAAA99',\n    } as Tables<'types'>,\n    size: 'md',\n  },\n}"
             },
             {
                 "name": "meta",
@@ -6283,8 +6303,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<SpinnerComponent>",
-                "file": "src/app/shared/components/spinner/spinner.stories.ts",
+                "rawtype": "StoryObj<SwitchComponent>",
+                "file": "src/app/shared/components/switch/switch.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -6294,8 +6314,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<SwitchComponent>",
-                "file": "src/app/shared/components/switch/switch.stories.ts",
+                "rawtype": "StoryObj<SpinnerComponent>",
+                "file": "src/app/shared/components/spinner/spinner.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -6403,6 +6423,18 @@
         ],
         "enumerations": [],
         "groupedVariables": {
+            "src/app/shared/components/switch/switch.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/switch/switch.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{}"
+                }
+            ],
             "src/app/shared/components/spinner/spinner.stories.ts": [
                 {
                     "name": "Default",
@@ -6423,18 +6455,6 @@
                     "deprecationMessage": "",
                     "type": "Meta<SpinnerComponent>",
                     "defaultValue": "{\n  title: 'Shared/Spinner',\n  component: SpinnerComponent,\n  tags: ['autodocs'],\n}"
-                }
-            ],
-            "src/app/shared/components/switch/switch.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/shared/components/switch/switch.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "{}"
                 }
             ],
             "src/app/shared/components/table/table.stories.ts": [
@@ -6469,6 +6489,26 @@
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\n  args: {\n    type: {\n      name: 'Normal',\n      type_color: 'AAAA99',\n    } as Tables<'types'>,\n  },\n}"
+                },
+                {
+                    "name": "Large",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/type-box/type-box.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    type: {\n      name: 'Normal',\n      type_color: 'AAAA99',\n    } as Tables<'types'>,\n    size: 'lg',\n  },\n}"
+                },
+                {
+                    "name": "Medium",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/type-box/type-box.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    type: {\n      name: 'Normal',\n      type_color: 'AAAA99',\n    } as Tables<'types'>,\n    size: 'md',\n  },\n}"
                 },
                 {
                     "name": "meta",
@@ -6757,19 +6797,6 @@
                     "kind": 194
                 }
             ],
-            "src/app/shared/components/spinner/spinner.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<SpinnerComponent>",
-                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
             "src/app/shared/components/switch/switch.stories.ts": [
                 {
                     "name": "Story",
@@ -6777,6 +6804,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<SwitchComponent>",
                     "file": "src/app/shared/components/switch/switch.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "src/app/shared/components/spinner/spinner.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<SpinnerComponent>",
+                    "file": "src/app/shared/components/spinner/spinner.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -7470,6 +7510,26 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/type-box/type-box.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Large",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/type-box/type-box.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Medium",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
