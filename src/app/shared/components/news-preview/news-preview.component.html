@@ -17,7 +17,7 @@
       </a>
 
       <p
-        class="mt-2 line-clamp-3 text-sm/relaxed text-zinc-400"
+        class="mt-2 line-clamp-3 text-sm/relaxed text-dark_tertiary dark:text-light_tertiary"
         [innerHTML]="toHTML(post.body)"
       >
         {{ post.body[0]["children"][0]["text"] }}
@@ -27,7 +27,7 @@
     <div class="sm:flex sm:items-end sm:justify-end">
       <a
         [routerLink]="['/', 'news', post.slug.current]"
-        class="block bg-porygon_blue px-5 py-3 text-center text-xs font-semibold uppercase transition hover:bg-porygon_blue_darker rounded-br text-zinc-200"
+        class="block bg-porygon_blue px-5 py-3 text-center text-xs font-semibold uppercase transition hover:bg-porygon_blue_darker rounded-br text-light_primary"
       >
         View Full Post
       </a>

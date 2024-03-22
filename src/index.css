@@ -10,6 +10,11 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  color: theme("colors.dark_primary");
+}
+
+html.dark body {
+  color: theme("colors.light_primary");
 }
 
 .white-outlined {
