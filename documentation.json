@@ -1444,7 +1444,7 @@
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<h3\n  class=\"flex justify-center font-semibold bg-white dark:bg-black rounded-t p-2 border-b dark:border-dark_tertiary\"\n>\n  {{ title }}\n</h3>\n"
+            "templateData": "<h3\n  class=\"flex justify-center font-semibold bg-white dark:bg-black rounded-t p-2 border-b dark:border-dark_tertiary text-dark_primary dark:text-light_primary\"\n>\n  {{ title }}\n</h3>\n"
         },
         {
             "name": "CompoundButtonComponent",
@@ -2699,7 +2699,7 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<a\n  class=\"flex bg-light_primary dark:bg-dark_primary rounded cursor-pointer transition outline outline-1 hover:outline-2 outline-light_tertiary dark:outline-dark_tertiary\"\n  [routerLink]=\"['/', 'news', post.slug.current]\"\n>\n  <div class=\"hidden sm:block sm:basis-56\">\n    <img\n      alt=\"Guitar\"\n      src=\"{{ imageUrl }}\"\n      class=\"aspect-square h-full w-full object-cover\"\n    />\n  </div>\n\n  <div class=\"flex flex-1 flex-col justify-between\">\n    <div class=\"border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6\">\n      <a [routerLink]=\"['/', 'news', post.slug.current]\">\n        <h3 class=\"font-bold uppercase\">{{ post.title }}</h3>\n      </a>\n\n      <p\n        class=\"mt-2 line-clamp-3 text-sm/relaxed text-zinc-400\"\n        [innerHTML]=\"toHTML(post.body)\"\n      >\n        {{ post.body[0][\"children\"][0][\"text\"] }}\n      </p>\n    </div>\n\n    <div class=\"sm:flex sm:items-end sm:justify-end\">\n      <a\n        [routerLink]=\"['/', 'news', post.slug.current]\"\n        class=\"block bg-porygon_blue px-5 py-3 text-center text-xs font-semibold uppercase transition hover:bg-porygon_blue_darker rounded-br text-zinc-200\"\n      >\n        View Full Post\n      </a>\n    </div>\n  </div>\n</a>\n"
+            "templateData": "<a\n  class=\"flex bg-light_primary dark:bg-dark_primary rounded cursor-pointer transition outline outline-1 hover:outline-2 outline-light_tertiary dark:outline-dark_tertiary\"\n  [routerLink]=\"['/', 'news', post.slug.current]\"\n>\n  <div class=\"hidden sm:block sm:basis-56\">\n    <img\n      alt=\"Guitar\"\n      src=\"{{ imageUrl }}\"\n      class=\"aspect-square h-full w-full object-cover\"\n    />\n  </div>\n\n  <div class=\"flex flex-1 flex-col justify-between\">\n    <div class=\"border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6\">\n      <a [routerLink]=\"['/', 'news', post.slug.current]\">\n        <h3 class=\"font-bold uppercase\">{{ post.title }}</h3>\n      </a>\n\n      <p\n        class=\"mt-2 line-clamp-3 text-sm/relaxed text-dark_tertiary dark:text-light_tertiary\"\n        [innerHTML]=\"toHTML(post.body)\"\n      >\n        {{ post.body[0][\"children\"][0][\"text\"] }}\n      </p>\n    </div>\n\n    <div class=\"sm:flex sm:items-end sm:justify-end\">\n      <a\n        [routerLink]=\"['/', 'news', post.slug.current]\"\n        class=\"block bg-porygon_blue px-5 py-3 text-center text-xs font-semibold uppercase transition hover:bg-porygon_blue_darker rounded-br text-light_primary\"\n      >\n        View Full Post\n      </a>\n    </div>\n  </div>\n</a>\n"
         },
         {
             "name": "NewsPreviewListComponent",
@@ -5997,16 +5997,6 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/shared/components/switch/switch.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/shared/components/spinner/spinner.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -6037,6 +6027,16 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/shared/components/switch/switch.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/shared/components/button/button/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -6051,7 +6051,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\n  args: {\n    title: 'Card Title',\n  },\n}"
+                "defaultValue": "{\n  args: {\n    title: 'Card Title',\n  },\n  render: (args: any) => ({\n    template: `<dd-card [title]=\"'${args.title}'\"><p class=\"flex justify-center items-center px-4 py-12 text-sm\">Inner Content</p></dd-card>`,\n  }),\n}"
             },
             {
                 "name": "Default",
@@ -6181,7 +6181,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Preview",
-                "defaultValue": "{\n  parameters: {\n    actions: { argTypesRegex: '^on[A-Z].*' },\n    controls: {\n      matchers: {\n        color: /(background|color)$/i,\n        date: /Date$/i,\n      },\n    },\n  },\n  decorators: [\n    withThemeByClassName<AngularRenderer>({\n      themes: {\n        Light: '',\n        Dark: 'dark',\n      },\n      defaultTheme: 'Light',\n    }),\n  ],\n}"
+                "defaultValue": "{\n  parameters: {\n    controls: {\n      matchers: {\n        color: /(background|color)$/i,\n        date: /Date$/i,\n      },\n    },\n    darkMode: {\n      classTarget: 'html',\n      current: 'light',\n      dark: { ...themes.dark },\n      light: { ...themes.normal },\n      darkClass: 'dark',\n      lightClass: '',\n      stylePreview: true,\n    },\n  },\n  // decorators: [\n  //   withThemeByClassName<AngularRenderer>({\n  //     themes: {\n  //       Light: '',\n  //       Dark: 'dark',\n  //     },\n  //     defaultTheme: 'Light',\n  //   }),\n  // ],\n}"
             },
             {
                 "name": "Primary",
@@ -6303,17 +6303,6 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<SwitchComponent>",
-                "file": "src/app/shared/components/switch/switch.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 183
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
                 "rawtype": "StoryObj<SpinnerComponent>",
                 "file": "src/app/shared/components/spinner/spinner.stories.ts",
                 "deprecated": false,
@@ -6338,6 +6327,17 @@
                 "subtype": "typealias",
                 "rawtype": "StoryObj<TypeBoxComponent>",
                 "file": "src/app/shared/components/type-box/type-box.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<SwitchComponent>",
+                "file": "src/app/shared/components/switch/switch.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -6423,18 +6423,6 @@
         ],
         "enumerations": [],
         "groupedVariables": {
-            "src/app/shared/components/switch/switch.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/shared/components/switch/switch.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "{}"
-                }
-            ],
             "src/app/shared/components/spinner/spinner.stories.ts": [
                 {
                     "name": "Default",
@@ -6531,6 +6519,18 @@
                     "defaultValue": "{\n  args: {\n    type: {\n      name: 'Normal',\n      type_color: 'AAAA99',\n    } as Tables<'types'>,\n    size: 'sm',\n  },\n}"
                 }
             ],
+            "src/app/shared/components/switch/switch.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/shared/components/switch/switch.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{}"
+                }
+            ],
             "src/app/shared/components/button/button/button.stories.ts": [
                 {
                     "name": "Default",
@@ -6582,7 +6582,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\n  args: {\n    title: 'Card Title',\n  },\n}"
+                    "defaultValue": "{\n  args: {\n    title: 'Card Title',\n  },\n  render: (args: any) => ({\n    template: `<dd-card [title]=\"'${args.title}'\"><p class=\"flex justify-center items-center px-4 py-12 text-sm\">Inner Content</p></dd-card>`,\n  }),\n}"
                 },
                 {
                     "name": "meta",
@@ -6662,7 +6662,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Preview",
-                    "defaultValue": "{\n  parameters: {\n    actions: { argTypesRegex: '^on[A-Z].*' },\n    controls: {\n      matchers: {\n        color: /(background|color)$/i,\n        date: /Date$/i,\n      },\n    },\n  },\n  decorators: [\n    withThemeByClassName<AngularRenderer>({\n      themes: {\n        Light: '',\n        Dark: 'dark',\n      },\n      defaultTheme: 'Light',\n    }),\n  ],\n}"
+                    "defaultValue": "{\n  parameters: {\n    controls: {\n      matchers: {\n        color: /(background|color)$/i,\n        date: /Date$/i,\n      },\n    },\n    darkMode: {\n      classTarget: 'html',\n      current: 'light',\n      dark: { ...themes.dark },\n      light: { ...themes.normal },\n      darkClass: 'dark',\n      lightClass: '',\n      stylePreview: true,\n    },\n  },\n  // decorators: [\n  //   withThemeByClassName<AngularRenderer>({\n  //     themes: {\n  //       Light: '',\n  //       Dark: 'dark',\n  //     },\n  //     defaultTheme: 'Light',\n  //   }),\n  // ],\n}"
                 }
             ],
             "src/app/features/home/home.module.ts": [
@@ -6797,19 +6797,6 @@
                     "kind": 194
                 }
             ],
-            "src/app/shared/components/switch/switch.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<SwitchComponent>",
-                    "file": "src/app/shared/components/switch/switch.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
             "src/app/shared/components/spinner/spinner.stories.ts": [
                 {
                     "name": "Story",
@@ -6843,6 +6830,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<TypeBoxComponent>",
                     "file": "src/app/shared/components/type-box/type-box.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "src/app/shared/components/switch/switch.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<SwitchComponent>",
+                    "file": "src/app/shared/components/switch/switch.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
