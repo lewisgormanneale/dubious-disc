@@ -26,6 +26,9 @@ It started out as a technical test for my job at Codeweavers (a classic 'build a
 - **Vercel**: The website is hosted on Vercel. The live site can be viewed here: https://dubiousdisc.com/
 
 ## Screenshots
+![Screenshot 2024-03-23 at 14 59 51](https://github.com/lewisgormanneale/dubious-disc/assets/107112881/c3f7fbf0-94b0-459c-b680-7d0a4522ab6c)
+![Screenshot 2024-03-23 at 15 00 05](https://github.com/lewisgormanneale/dubious-disc/assets/107112881/c1b388e2-94bf-4b74-af29-8d585da7bfd2)
+![Screenshot 2024-03-23 at 15 01 24](https://github.com/lewisgormanneale/dubious-disc/assets/107112881/437c9588-61f4-43c3-917f-5af246369230)
 
 ## Roadmap
 
