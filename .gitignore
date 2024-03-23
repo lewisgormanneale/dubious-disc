@@ -46,4 +46,4 @@ Thumbs.db
 /playwright-report/
 /playwright/playwright-report/
 /playwright/.cache/
-./storybook-static
+/storybook-static
