@@ -2826,27 +2826,30 @@ export type Database = {
       types: {
         Row: {
           damage_class_id: number | null
+          darker_type_color: string
           generation_id: number | null
           id: number
-          identifier: string | null
-          name: string | null
-          type_color: string | null
+          identifier: string
+          name: string
+          type_color: string
         }
         Insert: {
           damage_class_id?: number | null
+          darker_type_color: string
           generation_id?: number | null
           id: number
-          identifier?: string | null
-          name?: string | null
-          type_color?: string | null
+          identifier: string
+          name: string
+          type_color: string
         }
         Update: {
           damage_class_id?: number | null
+          darker_type_color?: string
           generation_id?: number | null
           id?: number
-          identifier?: string | null
-          name?: string | null
-          type_color?: string | null
+          identifier?: string
+          name?: string
+          type_color?: string
         }
         Relationships: [
           {

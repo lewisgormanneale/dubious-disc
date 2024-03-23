@@ -23,4 +23,7 @@ export const Default: Story = {
   args: {
     title: 'Card Title',
   },
+  render: (args: any) => ({
+    template: `<dd-card [title]="'${args.title}'"><p class="flex justify-center items-center px-4 py-12 text-sm">Inner Content</p></dd-card>`,
+  }),
 };

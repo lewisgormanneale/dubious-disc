@@ -29,7 +29,7 @@
               "src/_redirects",
               "src/manifest.webmanifest"
             ],
-            "styles": ["src/styles.css"],
+            "styles": ["src/index.css"],
             "scripts": [],
             "allowedCommonJsDependencies": [
               "@sanity/image-url",
@@ -100,7 +100,7 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": ["css"],
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles/styles.css"],
+            "styles": ["src/styles/index.css"],
             "scripts": []
           }
         },
@@ -112,7 +112,7 @@
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "."],
             "port": 6006,
-            "styles": ["src/styles.css"]
+            "styles": ["src/index.css"]
           }
         },
         "build-storybook": {
@@ -123,7 +123,7 @@
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "."],
             "outputDir": "storybook-static",
-            "styles": ["src/styles.css"]
+            "styles": ["src/index.css"]
           }
         }
       }
