@@ -9,9 +9,9 @@
     "test": "ng test",
     "e2e": "npx playwright test",
     "e2e-ui": "npx playwright test --ui",
-    "update-supabase-types": "npx supabase gen types typescript --project-id \"ghqcgxobyvkaqyagxoqg\" > src/app/core/models/supabase.model.ts",
     "storybook": "ng run dubious-disc:storybook",
-    "build-storybook": "ng run dubious-disc:build-storybook"
+    "build-storybook": "ng run dubious-disc:build-storybook",
+    "update-supabase-types": "npx supabase gen types typescript --project-id \"ghqcgxobyvkaqyagxoqg\" > src/app/core/models/supabase.model.ts"
   },
   "private": true,
   "dependencies": {
