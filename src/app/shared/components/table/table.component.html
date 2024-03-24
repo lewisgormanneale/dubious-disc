@@ -1,4 +1,4 @@
-<table>
+<!-- <table>
   <thead>
     <tr *ngFor="let column of columns">
       <th>{{ column }}</th>
@@ -11,4 +11,51 @@
       <td>{{ item.column3 }}</td>
     </tr>
   </tbody>
+</table> -->
+
+<table class="table-auto w-full bg-light_primary dark:bg-dark_primary rounded-b text-sm">
+  <thead>
+    <tr class="text-left">
+      <th class="p-2" *ngFor="let column of columns">{{ column.label }}</th>
+    </tr>
+  </thead>
+  <tr *ngFor="let item of data" class="border-b border-y-light_tertiary dark:border-y-dark_tertiary">
+    <td class="p-2" *ngFor="let column of columns">
+      <ng-container *ngIf="column.property === 'type_id'; else itemTemplate">
+        <dd-type-box [type]="item[column.property]" [size]="'sm'"></dd-type-box>
+      </ng-container>
+      <ng-template #itemTemplate>
+        {{ item[column.property] }}
+      </ng-template>
+  </tr>
 </table>
+
+<!-- <table
+  class="table-auto w-full bg-light_primary dark:bg-dark_primary rounded-b text-sm"
+>
+  <thead>
+    <tr class="text-left">
+      <th class="p-2">Level</th>
+      <th class="p-2">Move</th>
+      <th class="p-2">Type</th>
+      <th class="p-2">Power</th>
+      <th class="p-2">Accuracy</th>
+    </tr>
+  </thead>
+  <tr
+    *ngFor="let move of moveGroup; index as i"
+    class="border-b border-y-light_tertiary dark:border-y-dark_tertiary"
+  >
+    <td class="p-2">{{ moveLevel(move) }}</td>
+    <td class="p-2">{{ move.move_id.name }}</td>
+    <td class="p-2">
+      <div class="h-6 w-16 text-xs">
+        <dd-type-box [type]="move.move_id.type_id" [size]="'sm'"></dd-type-box>
+      </div>
+    </td>
+    <td class="p-2">{{ move.move_id.power ? move.move_id.power : "—" }}</td>
+    <td class="p-2">
+      {{ move.move_id.accuracy ? move.move_id.accuracy : "—" }}
+    </td>
+  </tr>
+</table> -->
