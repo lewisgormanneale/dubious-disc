@@ -1,20 +1,5 @@
-<!-- <table>
-  <thead>
-    <tr *ngFor="let column of columns">
-      <th>{{ column }}</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let item of data">
-      <td>{{ item.column1 }}</td>
-      <td>{{ item.column2 }}</td>
-      <td>{{ item.column3 }}</td>
-    </tr>
-  </tbody>
-</table> -->
-
 <table class="table-auto w-full bg-light_primary dark:bg-dark_primary rounded-b text-sm">
-  <thead>
+  <thead [ngClass]="showTableHeaders ? '' : 'hidden'">
     <tr class="text-left">
       <th class="p-2" *ngFor="let column of columns">{{ column.label }}</th>
     </tr>

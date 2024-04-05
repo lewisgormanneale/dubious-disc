@@ -101,7 +101,7 @@ export class SupabaseService {
     const request = this.supabase
       .from('pokemon_moves')
       .select(
-        'pokemon_id, version_group_id, move_id (id, identifier, name, type_id ( id, identifier, name, type_color ), power, pp, accuracy), pokemon_move_method_id (id, identifier, name), level, order'
+        'pokemon_id, version_group_id, level, order, move_id (id, identifier, name, type_id ( id, identifier, name, type_color ), power, pp, accuracy), pokemon_move_method_id (id, identifier, name)'
       )
       .eq('pokemon_id', id)
       .eq('version_group_id', versionGroupId)

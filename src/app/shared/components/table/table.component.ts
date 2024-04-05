@@ -12,6 +12,7 @@ interface TableColumn {
 export class TableComponent {
   @Input() data: any[] = [];
   @Input() columns: TableColumn[] = [];
+  @Input() showTableHeaders?: boolean = true;
 
   // Add any additional properties or methods here
 }
