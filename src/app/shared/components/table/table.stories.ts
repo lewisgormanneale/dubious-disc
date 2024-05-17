@@ -1,13 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { TableComponent } from './table.component';
 
-const meta: Meta<TableComponent> = {
+export default {
   title: 'Shared/Table',
   component: TableComponent,
   tags: ['autodocs'],
-};
+} as Meta;
 
-export default meta;
 type Story = StoryObj<TableComponent>;
 
 export const Default: Story = {
