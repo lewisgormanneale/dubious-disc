@@ -291,6 +291,39 @@
             "kind": 171,
             "methods": [],
             "extends": []
+        },
+        {
+            "name": "TableColumn",
+            "id": "interface-TableColumn-ef5052ebff293f2f3574d84b6dff7dea683f0c7d43aa8e1d6e685d3a9276470e584554068983a4a1fef68b84d282e385e301db801bb065fb7b5730b806558666",
+            "file": "src/app/shared/components/table/table.component.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "import { Component, Input } from '@angular/core';\n\ninterface TableColumn {\n  label: string;\n  property: string;\n}\n\n@Component({\n  selector: 'dd-table',\n  templateUrl: './table.component.html',\n})\nexport class TableComponent {\n  @Input() data: any[] = [];\n  @Input() columns: TableColumn[] = [];\n  @Input() showTableHeaders?: boolean = true;\n\n  // Add any additional properties or methods here\n}\n",
+            "properties": [
+                {
+                    "name": "label",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 4
+                },
+                {
+                    "name": "property",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 5
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 171,
+            "methods": [],
+            "extends": []
         }
     ],
     "injectables": [
@@ -550,7 +583,7 @@
         },
         {
             "name": "SupabaseService",
-            "id": "injectable-SupabaseService-d12c0f36144614a9e4032c6b5b0ce2f903789ea8db098d7d5d93ee25a70b7b6f5655da27715193490bf4af99e39c80fcf44eaf568d1c9014a652bbe5e0946c1e",
+            "id": "injectable-SupabaseService-5284657bccd74f5f1a2ca063c0658bcdef88acf867c0a3fdcd8c1c060b1ade892b939b4cf9b634db8983ab4082122e795d0e7d12ca0f6dc80aab7413620c2b89",
             "file": "src/app/core/services/supabase.service.ts",
             "properties": [
                 {
@@ -1044,7 +1077,7 @@
             "deprecationMessage": "",
             "description": "",
             "rawdescription": "\n",
-            "sourceCode": "import { Injectable } from '@angular/core';\nimport { createClient, SupabaseClient } from '@supabase/supabase-js';\nimport { from, map, Observable } from 'rxjs';\nimport { environment } from 'src/environments/environment';\nimport { Database, Tables } from '../models/supabase.model';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class SupabaseService {\n  private supabase: SupabaseClient;\n\n  constructor() {\n    this.supabase = createClient<Database>(\n      environment.supabaseUrl,\n      environment.supabaseKey\n    );\n  }\n\n  get storage() {\n    return this.supabase.storage;\n  }\n\n  // Generations\n\n  getAllGenerations(): Observable<Tables<'generations'>[]> {\n    const request = this.supabase.from('generations').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokedexes\n\n  getAllPokedexes(): Observable<Tables<'pokedexes'>[]> {\n    const request = this.supabase.from('pokedexes').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokedex Version Groups\n\n  getAllPokedexVersionGroups(): Observable<Tables<'pokedex_version_groups'>[]> {\n    const request = this.supabase.from('pokedex_version_groups').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokedexesByVersionGroupId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokedex_version_groups')\n      .select('pokedex_id (*)')\n      .eq('version_group_id', id);\n    return from(request).pipe(\n      map((response) => response.data?.map((item) => item.pokedex_id) || [])\n    );\n  }\n\n  // Pokémon\n\n  getPokemonBySpeciesId(id: number): Observable<Tables<'pokemon'>[]> {\n    const request = this.supabase\n      .from('pokemon')\n      .select('*')\n      .eq('species_id', id)\n      .order('form_order', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokémon Abilities\n\n  getPokemonAbilitiesByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_abilities')\n      .select(\n        'pokemon_id, ability_id (id, identifier, name, generation_id, short_effect), is_hidden, slot'\n      )\n      .eq('pokemon_id', id)\n      .order('slot', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokémon Dex Numbers\n\n  getPokemonDexNumbersBySpeciesId(\n    id: number\n  ): Observable<Tables<'pokemon_dex_numbers'>[]> {\n    const request = this.supabase\n      .from('pokemon_dex_numbers')\n      .select('*')\n      .eq('species_id', id)\n      .order('pokedex_id', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Moves\n\n  getPokemonMovesByPokemonId(\n    id: number,\n    versionGroupId: number\n  ): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_moves')\n      .select(\n        'pokemon_id, version_group_id, move_id (id, identifier, name, type_id ( id, identifier, name, type_color ), power, pp, accuracy), pokemon_move_method_id (id, identifier, name), level, order'\n      )\n      .eq('pokemon_id', id)\n      .eq('version_group_id', versionGroupId)\n      .order('order', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Species\n\n  getPokemonSpeciesByIdentifier(\n    identifier: string\n  ): Observable<Tables<'pokemon_species'>> {\n    const request = this.supabase\n      .from('pokemon_species')\n      .select('*')\n      .eq('identifier', identifier)\n      .single();\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokemonSpeciesByPokedexId(id: number): Observable<\n    {\n      species_id: any;\n      pokedex_number: number;\n    }[]\n  > {\n    const request = this.supabase\n      .from('pokemon_dex_numbers')\n      .select('species_id (id, identifier, name, genus), pokedex_number')\n      .eq('pokedex_id', id)\n      .order('pokedex_number', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getAllPokemonSpeciesIdentifiers(): Observable<any> {\n    const request = this.supabase.from('pokemon_species').select('identifier');\n    return from(request).pipe(\n      map((response) => response.data || []),\n      map((data) => data.map((item: any) => item.identifier))\n    );\n  }\n\n  // Pokemon Species Flavor Text\n\n  getPokemonSpeciesFlavorTextBySpeciesId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_species_flavor_text')\n      .select('*')\n      .eq('species_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokemonSpeciesFlavorTextWithVersionIdBySpeciesId(\n    speciesId: number,\n    versionIds: number[]\n  ): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_species_flavor_text')\n      .select('*')\n      .eq('species_id', speciesId)\n      .in('version_id', versionIds);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Stats\n\n  getPokemonStatsByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_stats')\n      .select('stat_id (id, identifier, name), base_stat, effort')\n      .eq('pokemon_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Types\n\n  getPokemonTypesByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_types')\n      .select(\n        'type_id (id, identifier, name, type_color, darker_type_color), slot'\n      )\n      .eq('pokemon_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Types\n\n  getTypeById(id: number): Observable<any> {\n    const request = this.supabase.from('types').select('*').eq('id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Versions\n\n  getVersionsByVersionGroupId(id: number): Observable<Tables<'versions'>[]> {\n    const request = this.supabase\n      .from('versions')\n      .select('*')\n      .eq('version_group_id', id);\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Version Groups\n\n  getAllVersionGroups(): Observable<Tables<'version_groups'>[]> {\n    const request = this.supabase\n      .from('version_groups')\n      .select('*')\n      .order('order', { ascending: true });\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getVersionGroupByIdentifier(\n    identifier: string\n  ): Observable<Tables<'version_groups'>> {\n    const request = this.supabase\n      .from('version_groups')\n      .select('*')\n      .eq('identifier', identifier)\n      .single();\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n}\n",
+            "sourceCode": "import { Injectable } from '@angular/core';\nimport { createClient, SupabaseClient } from '@supabase/supabase-js';\nimport { from, map, Observable } from 'rxjs';\nimport { environment } from 'src/environments/environment';\nimport { Database, Tables } from '../models/supabase.model';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class SupabaseService {\n  private supabase: SupabaseClient;\n\n  constructor() {\n    this.supabase = createClient<Database>(\n      environment.supabaseUrl,\n      environment.supabaseKey\n    );\n  }\n\n  get storage() {\n    return this.supabase.storage;\n  }\n\n  // Generations\n\n  getAllGenerations(): Observable<Tables<'generations'>[]> {\n    const request = this.supabase.from('generations').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokedexes\n\n  getAllPokedexes(): Observable<Tables<'pokedexes'>[]> {\n    const request = this.supabase.from('pokedexes').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokedex Version Groups\n\n  getAllPokedexVersionGroups(): Observable<Tables<'pokedex_version_groups'>[]> {\n    const request = this.supabase.from('pokedex_version_groups').select('*');\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokedexesByVersionGroupId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokedex_version_groups')\n      .select('pokedex_id (*)')\n      .eq('version_group_id', id);\n    return from(request).pipe(\n      map((response) => response.data?.map((item) => item.pokedex_id) || [])\n    );\n  }\n\n  // Pokémon\n\n  getPokemonBySpeciesId(id: number): Observable<Tables<'pokemon'>[]> {\n    const request = this.supabase\n      .from('pokemon')\n      .select('*')\n      .eq('species_id', id)\n      .order('form_order', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokémon Abilities\n\n  getPokemonAbilitiesByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_abilities')\n      .select(\n        'pokemon_id, ability_id (id, identifier, name, generation_id, short_effect), is_hidden, slot'\n      )\n      .eq('pokemon_id', id)\n      .order('slot', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokémon Dex Numbers\n\n  getPokemonDexNumbersBySpeciesId(\n    id: number\n  ): Observable<Tables<'pokemon_dex_numbers'>[]> {\n    const request = this.supabase\n      .from('pokemon_dex_numbers')\n      .select('*')\n      .eq('species_id', id)\n      .order('pokedex_id', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Moves\n\n  getPokemonMovesByPokemonId(\n    id: number,\n    versionGroupId: number\n  ): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_moves')\n      .select(\n        'pokemon_id, version_group_id, level, order, move_id (id, identifier, name, type_id ( id, identifier, name, type_color ), power, pp, accuracy), pokemon_move_method_id (id, identifier, name)'\n      )\n      .eq('pokemon_id', id)\n      .eq('version_group_id', versionGroupId)\n      .order('order', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Species\n\n  getPokemonSpeciesByIdentifier(\n    identifier: string\n  ): Observable<Tables<'pokemon_species'>> {\n    const request = this.supabase\n      .from('pokemon_species')\n      .select('*')\n      .eq('identifier', identifier)\n      .single();\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokemonSpeciesByPokedexId(id: number): Observable<\n    {\n      species_id: any;\n      pokedex_number: number;\n    }[]\n  > {\n    const request = this.supabase\n      .from('pokemon_dex_numbers')\n      .select('species_id (id, identifier, name, genus), pokedex_number')\n      .eq('pokedex_id', id)\n      .order('pokedex_number', { ascending: true });\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getAllPokemonSpeciesIdentifiers(): Observable<any> {\n    const request = this.supabase.from('pokemon_species').select('identifier');\n    return from(request).pipe(\n      map((response) => response.data || []),\n      map((data) => data.map((item: any) => item.identifier))\n    );\n  }\n\n  // Pokemon Species Flavor Text\n\n  getPokemonSpeciesFlavorTextBySpeciesId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_species_flavor_text')\n      .select('*')\n      .eq('species_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getPokemonSpeciesFlavorTextWithVersionIdBySpeciesId(\n    speciesId: number,\n    versionIds: number[]\n  ): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_species_flavor_text')\n      .select('*')\n      .eq('species_id', speciesId)\n      .in('version_id', versionIds);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Stats\n\n  getPokemonStatsByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_stats')\n      .select('stat_id (id, identifier, name), base_stat, effort')\n      .eq('pokemon_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Pokemon Types\n\n  getPokemonTypesByPokemonId(id: number): Observable<any> {\n    const request = this.supabase\n      .from('pokemon_types')\n      .select(\n        'type_id (id, identifier, name, type_color, darker_type_color), slot'\n      )\n      .eq('pokemon_id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Types\n\n  getTypeById(id: number): Observable<any> {\n    const request = this.supabase.from('types').select('*').eq('id', id);\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Versions\n\n  getVersionsByVersionGroupId(id: number): Observable<Tables<'versions'>[]> {\n    const request = this.supabase\n      .from('versions')\n      .select('*')\n      .eq('version_group_id', id);\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  // Version Groups\n\n  getAllVersionGroups(): Observable<Tables<'version_groups'>[]> {\n    const request = this.supabase\n      .from('version_groups')\n      .select('*')\n      .order('order', { ascending: true });\n    return from(request).pipe(map((response) => response.data || []));\n  }\n\n  getVersionGroupByIdentifier(\n    identifier: string\n  ): Observable<Tables<'version_groups'>> {\n    const request = this.supabase\n      .from('version_groups')\n      .select('*')\n      .eq('identifier', identifier)\n      .single();\n\n    return from(request).pipe(map((response) => response.data || []));\n  }\n}\n",
             "constructorObj": {
                 "name": "constructor",
                 "description": "",
@@ -1351,7 +1384,7 @@
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<button\n  [ngClass]=\"{\n    'bg-porygon_blue hover:bg-porygon_blue_darker text-light_primary':\n      appearance === 'primary',\n    'bg-white hover:bg-light_tertiary dark:bg-black dark:hover:bg-dark_tertiary text-dark_primary dark:text-light_primary':\n      appearance === 'secondary',\n    'text-dark_primary dark:text-light_primary': appearance === 'outline'\n  }\"\n  type=\"button\"\n  class=\"py-2 px-4 h-10 text-sm flex justify-center items-center gap-2 rounded border border-light_tertiary dark:border-dark_tertiary cursor-pointer\"\n  (click)=\"handleClick()\"\n>\n  <ng-content></ng-content>\n</button>\n"
+            "templateData": "<button\n  [ngClass]=\"{\n    'bg-porygon_blue hover:bg-porygon_blue_darker text-light_primary':\n      appearance === 'primary',\n    'bg-white hover:bg-light_tertiary dark:bg-black dark:hover:bg-dark_tertiary text-dark_primary dark:text-light_primary':\n      appearance === 'secondary',\n  }\"\n  type=\"button\"\n  class=\"py-2 px-4 h-10 text-sm flex justify-center items-center gap-2 rounded border border-light_tertiary dark:border-dark_tertiary cursor-pointer\"\n  (click)=\"handleClick()\"\n>\n  <ng-content></ng-content>\n</button>\n"
         },
         {
             "name": "CardComponent",
@@ -3895,7 +3928,7 @@
             "implements": [
                 "OnChanges"
             ],
-            "templateData": "<dd-card [title]=\"'Pokédex Descriptions'\">\n  <table\n    *ngIf=\"descriptions.length > 0 && versions; else noDescriptions\"\n    class=\"table-auto w-full bg-light_primary dark:bg-dark_primary rounded-b text-sm\"\n  >\n    <thead class=\"sr-only\">\n      <tr>\n        <th>Version</th>\n        <th>Description</th>\n      </tr>\n    </thead>\n    <tr\n      *ngFor=\"let description of descriptions; let i = index\"\n      [ngClass]=\"{\n        'border-b border-y-zinc-700': i !== descriptions.length - 1\n      }\"\n    >\n      <td class=\"w-1/4 p-2 font-semibold\">\n        {{ getVersionName(description.version_id) }}\n      </td>\n      <td class=\"p-2\">\n        {{ description.flavor_text }}\n      </td>\n    </tr>\n  </table>\n  <ng-template #noDescriptions>\n    <div\n      class=\"flex items-center justify-center w-full h-full bg-light_primary dark:bg-dark_primary rounded-b\"\n    >\n      <span class=\"text-sm p-4 text-center\">\n        No Pokédex descriptions are available for this Pokémon for any Pokédex\n        in this version group.\n      </span>\n    </div>\n  </ng-template>\n</dd-card>\n"
+            "templateData": "<dd-card [title]=\"'Pokédex Descriptions'\">\n  <table\n    *ngIf=\"descriptions.length > 0 && versions; else noDescriptions\"\n    class=\"table-auto w-full bg-light_primary dark:bg-dark_primary rounded-b text-sm\"\n  >\n    <thead class=\"sr-only\">\n      <tr>\n        <th>Version</th>\n        <th>Description</th>\n      </tr>\n    </thead>\n    <tr\n      *ngFor=\"let description of descriptions; let i = index\"\n      [ngClass]=\"{\n        'border-b border-y-light_tertiary dark:border-y-dark_tertiary': i !== descriptions.length - 1\n      }\"\n    >\n      <td class=\"w-1/4 p-2 font-semibold\">\n        {{ getVersionName(description.version_id) }}\n      </td>\n      <td class=\"p-2\">\n        {{ description.flavor_text }}\n      </td>\n    </tr>\n  </table>\n  <ng-template #noDescriptions>\n    <div\n      class=\"flex items-center justify-center w-full h-full bg-light_primary dark:bg-dark_primary rounded-b\"\n    >\n      <span class=\"text-sm p-4 text-center\">\n        No Pokédex descriptions are available for this Pokémon for any Pokédex\n        in this version group.\n      </span>\n    </div>\n  </ng-template>\n</dd-card>\n"
         },
         {
             "name": "PokemonFormsComponent",
@@ -4137,7 +4170,7 @@
         },
         {
             "name": "PokemonMovesComponent",
-            "id": "component-PokemonMovesComponent-8f2a80f17348d41a448bdd31ce26894d6a8c580917c47bfe72bfffd6a35568384648f29a14008eef5b148ceb606dcd4f8948e61b40de07dea61b0baa540cd797",
+            "id": "component-PokemonMovesComponent-68066a673b4030b3dec2487dc526d8c0125c3e9efbbe30c5775feec772ef0bb2fc3b8b241ae02ba89239ae55098aed13dde0fd0641bebd2c147cfd5aba3a4937",
             "file": "src/app/features/pokemon/components/pokemon-moves/pokemon-moves.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -4158,7 +4191,7 @@
                     "defaultValue": "0",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 18,
+                    "line": 17,
                     "type": "number",
                     "decorators": []
                 },
@@ -4167,7 +4200,7 @@
                     "defaultValue": "0",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 19,
+                    "line": 18,
                     "type": "number",
                     "decorators": []
                 }
@@ -4182,7 +4215,27 @@
                     "type": "Tab",
                     "optional": false,
                     "description": "",
-                    "line": 22
+                    "line": 21
+                },
+                {
+                    "name": "columns",
+                    "defaultValue": "[] as any",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "any",
+                    "optional": false,
+                    "description": "",
+                    "line": 26
+                },
+                {
+                    "name": "data",
+                    "defaultValue": "[] as any",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "any",
+                    "optional": false,
+                    "description": "",
+                    "line": 27
                 },
                 {
                     "name": "destroy$",
@@ -4192,7 +4245,7 @@
                     "type": "",
                     "optional": false,
                     "description": "",
-                    "line": 27,
+                    "line": 30,
                     "modifierKind": [
                         123
                     ]
@@ -4225,7 +4278,7 @@
                     "type": "SupabaseService",
                     "optional": false,
                     "description": "",
-                    "line": 26,
+                    "line": 29,
                     "modifierKind": [
                         123
                     ]
@@ -4238,17 +4291,45 @@
                     "type": "Tab[]",
                     "optional": false,
                     "description": "",
-                    "line": 21
+                    "line": 20
                 }
             ],
             "methodsClass": [
+                {
+                    "name": "moveLevel",
+                    "args": [
+                        {
+                            "name": "move",
+                            "type": "any",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "any",
+                    "typeParameters": [],
+                    "line": 94,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "move",
+                            "type": "any",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
                 {
                     "name": "ngOnChanges",
                     "args": [],
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 29,
+                    "line": 32,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -4258,7 +4339,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 62,
+                    "line": 104,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -4275,7 +4356,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 54,
+                    "line": 71,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -4300,7 +4381,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {\n  Component,\n  inject,\n  Input,\n  OnChanges,\n  OnDestroy,\n  OnInit,\n} from '@angular/core';\nimport { Subject, takeUntil } from 'rxjs';\nimport { Tab } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokemon-moves',\n  templateUrl: './pokemon-moves.component.html',\n})\nexport class PokemonMovesComponent implements OnChanges, OnDestroy {\n  @Input() pokemonId: number = 0;\n  @Input() versionGroupId: number = 0;\n\n  tabs: Tab[] = [] as any;\n  activeTab: Tab = {} as Tab;\n  moveGroups: any = [] as any;\n  selectedMoveGroup: any = [] as any;\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private destroy$ = new Subject<void>();\n\n  ngOnChanges() {\n    if (this.pokemonId === 0 || this.versionGroupId === 0) return;\n    this.supabase\n      .getPokemonMovesByPokemonId(this.pokemonId, this.versionGroupId)\n      .pipe(takeUntil(this.destroy$))\n      .subscribe((data) => {\n        this.moveGroups = Object.values(\n          data.reduce((acc: any, move: any) => {\n            const key = move.pokemon_move_method_id.id;\n            if (!acc[key]) {\n              acc[key] = [];\n            }\n            acc[key].push(move);\n            return acc;\n          }, {})\n        );\n        this.tabs = this.moveGroups.map((group: any) => ({\n          name: group[0].pokemon_move_method_id.name,\n          identifier: group[0].pokemon_move_method_id.identifier,\n        }));\n        this.selectedMoveGroup = this.moveGroups[0];\n        this.activeTab = this.tabs[0];\n      });\n  }\n\n  selectMoveGroup(tab: Tab) {\n    this.activeTab = tab;\n    this.selectedMoveGroup = this.moveGroups.find(\n      (group: any) =>\n        group[0].pokemon_move_method_id.identifier === tab.identifier\n    );\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
+            "sourceCode": "import {\n  Component,\n  inject,\n  Input,\n  OnChanges,\n  OnDestroy,\n} from '@angular/core';\nimport { Subject, takeUntil } from 'rxjs';\nimport { Tab } from 'src/app/core/models';\nimport { SupabaseService } from 'src/app/core/services/supabase.service';\n\n@Component({\n  selector: 'dd-pokemon-moves',\n  templateUrl: './pokemon-moves.component.html',\n})\nexport class PokemonMovesComponent implements OnChanges, OnDestroy {\n  @Input() pokemonId: number = 0;\n  @Input() versionGroupId: number = 0;\n\n  tabs: Tab[] = [] as any;\n  activeTab: Tab = {} as Tab;\n\n  moveGroups: any = [] as any;\n  selectedMoveGroup: any = [] as any;\n\n  columns: any = [] as any;\n  data: any = [] as any;\n\n  private supabase: SupabaseService = inject(SupabaseService);\n  private destroy$ = new Subject<void>();\n\n  ngOnChanges() {\n    if (this.pokemonId === 0 || this.versionGroupId === 0) return;\n    this.supabase\n      .getPokemonMovesByPokemonId(this.pokemonId, this.versionGroupId)\n      .pipe(takeUntil(this.destroy$))\n      .subscribe((data) => {\n        this.moveGroups = Object.values(\n          data.reduce((acc: any, move: any) => {\n            const key = move.pokemon_move_method_id.id;\n            if (!acc[key]) {\n              acc[key] = [];\n            }\n            acc[key].push(move);\n            return acc;\n          }, {})\n        );\n        this.tabs = this.moveGroups.map((group: any) => ({\n          name: group[0].pokemon_move_method_id.name,\n          identifier: group[0].pokemon_move_method_id.identifier,\n        }));\n        this.selectedMoveGroup = this.moveGroups[0];\n        this.columns = [\n          { label: 'Level', property: 'level' },\n          { label: 'Move', property: 'move_name' },\n          { label: 'Type', property: 'type_id' },\n          { label: 'Power', property: 'power' },\n          { label: 'Accuracy', property: 'accuracy' },\n        ];\n        this.data = this.selectedMoveGroup.map((move: any) => ({\n          level: this.moveLevel(move),\n          move_name: move.move_id.name,\n          type_id: move.move_id.type_id,\n          power: move.move_id.power,\n          accuracy: move.move_id.accuracy,\n        }));\n        this.activeTab = this.tabs[0];\n      });\n  }\n\n  selectMoveGroup(tab: Tab) {\n    this.activeTab = tab;\n    this.columns = [\n      { label: 'Level', property: 'level' },\n      { label: 'Move', property: 'move_name' },\n      { label: 'Type', property: 'type_id' },\n      { label: 'Power', property: 'power' },\n      { label: 'Accuracy', property: 'accuracy' },\n    ];\n    this.selectedMoveGroup = this.moveGroups.find(\n      (group: any) =>\n        group[0].pokemon_move_method_id.identifier === tab.identifier\n    );\n    this.data = this.selectedMoveGroup.map((move: any) => ({\n      level: this.moveLevel(move),\n      move_name: move.move_id.name,\n      type_id: move.move_id.type_id,\n      power: move.move_id.power,\n      accuracy: move.move_id.accuracy,\n    }));\n  }\n\n\n  moveLevel(move: any) {\n    if (move.move_pokemon_move_method_id === 1 && move.level === 0) {\n      return 'evolve';\n    }\n    if (move.move_pokemon_move_method_id === 1 && move.level === 1) {\n      return '—';\n    }\n    return move.level;\n  }\n\n  ngOnDestroy(): void {\n    this.destroy$.next();\n    this.destroy$.complete();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -4309,54 +4390,7 @@
                 "OnChanges",
                 "OnDestroy"
             ],
-            "templateData": "<dd-card [title]=\"'Learnable Moves'\">\n  <div\n    *ngIf=\"moveGroups.length > 0\"\n    class=\"flex text-xs w-full text-center overflow-x-scroll pt-2 bg-light_primary dark:bg-dark_primary\"\n  >\n    <dd-tab-list\n      class=\"w-full\"\n      [tabs]=\"tabs\"\n      [activeTab]=\"activeTab\"\n      (tabChange)=\"selectMoveGroup($event)\"\n    >\n      <dd-pokemon-move-table [moveGroup]=\"selectedMoveGroup\">\n      </dd-pokemon-move-table>\n    </dd-tab-list>\n  </div>\n</dd-card>\n"
-        },
-        {
-            "name": "PokemonMoveTableComponent",
-            "id": "component-PokemonMoveTableComponent-1ba2e3c31dc841e862e8091f684d0e7f76aa218f61f051231518ae1498ac57f01cb6460ae5f4d11b7c9b5f97c03405d4805fc6863df03282f7606ed72e77b93c",
-            "file": "src/app/features/pokemon/components/pokemon-move-table/pokemon-move-table.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "dd-pokemon-move-table",
-            "styleUrls": [],
-            "styles": [],
-            "templateUrl": [
-                "./pokemon-move-table.component.html"
-            ],
-            "viewProviders": [],
-            "hostDirectives": [],
-            "inputsClass": [
-                {
-                    "name": "moveGroup",
-                    "defaultValue": "[] as any",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 8,
-                    "type": "any",
-                    "decorators": []
-                }
-            ],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "standalone": false,
-            "imports": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component, Input } from '@angular/core';\n\n@Component({\n  selector: 'dd-pokemon-move-table',\n  templateUrl: './pokemon-move-table.component.html',\n})\nexport class PokemonMoveTableComponent {\n  @Input() moveGroup: any = [] as any;\n}\n",
-            "assetsDirs": [],
-            "styleUrlsData": "",
-            "stylesData": "",
-            "extends": [],
-            "templateData": "<table\n  class=\"table-auto w-full bg-light_primary dark:bg-dark_primary rounded-b text-sm\"\n>\n  <thead>\n    <tr class=\"text-left\">\n      <th class=\"p-2\">Level</th>\n      <th class=\"p-2\">Move</th>\n      <th class=\"p-2\">Type</th>\n      <th class=\"p-2\">Power</th>\n      <th class=\"p-2\">Accuracy</th>\n    </tr>\n  </thead>\n  <tr\n    *ngFor=\"let move of moveGroup; index as i\"\n    class=\"border-b border-y-light_tertiary dark:border-y-dark_tertiary\"\n  >\n    <td class=\"p-2\">{{ move.level }}</td>\n    <td class=\"p-2\">{{ move.move_id.name }}</td>\n    <td class=\"p-2\">\n      <div class=\"h-6 w-16 text-xs\">\n        <dd-type-box [type]=\"move.move_id.type_id\" [size]=\"'sm'\"></dd-type-box>\n      </div>\n    </td>\n    <td class=\"p-2\">{{ move.move_id.power ? move.move_id.power : \"—\" }}</td>\n    <td class=\"p-2\">\n      {{ move.move_id.accuracy ? move.move_id.accuracy : \"—\" }}\n    </td>\n  </tr>\n</table>\n"
+            "templateData": "<dd-card [title]=\"'Learnable Moves'\">\n  <div\n    *ngIf=\"moveGroups.length > 0\"\n    class=\"flex text-xs w-full text-center overflow-x-scroll pt-2 bg-light_primary dark:bg-dark_primary\"\n  >\n    <dd-tab-list\n      class=\"w-full\"\n      [tabs]=\"tabs\"\n      [activeTab]=\"activeTab\"\n      (tabChange)=\"selectMoveGroup($event)\"\n    >\n      <dd-table [columns]=\"columns\" [data]=\"data\">\n      </dd-table>\n    </dd-tab-list>\n  </div>\n</dd-card>\n"
         },
         {
             "name": "PokemonNavigationComponent",
@@ -5186,7 +5220,7 @@
         },
         {
             "name": "TableComponent",
-            "id": "component-TableComponent-b07067b781cc4bc4b54979cb50680bb272df024807f7f38923b92ce73779e79cf590cb6d4b66bb96b6c771b51a9b5dfe956bc2eb905da343d200291376c87e69",
+            "id": "component-TableComponent-ef5052ebff293f2f3574d84b6dff7dea683f0c7d43aa8e1d6e685d3a9276470e584554068983a4a1fef68b84d282e385e301db801bb065fb7b5730b806558666",
             "file": "src/app/shared/components/table/table.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -5207,8 +5241,8 @@
                     "defaultValue": "[]",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 9,
-                    "type": "string[]",
+                    "line": 14,
+                    "type": "TableColumn[]",
                     "decorators": []
                 },
                 {
@@ -5216,8 +5250,17 @@
                     "defaultValue": "[]",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 8,
+                    "line": 13,
                     "type": "any[]",
+                    "decorators": []
+                },
+                {
+                    "name": "showTableHeaders",
+                    "defaultValue": "true",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 15,
+                    "type": "boolean",
                     "decorators": []
                 }
             ],
@@ -5233,12 +5276,12 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input } from '@angular/core';\n\n@Component({\n  selector: 'dd-table',\n  templateUrl: './table.component.html',\n})\nexport class TableComponent {\n  @Input() data: any[] = [];\n  @Input() columns: string[] = [];\n\n  // Add any additional properties or methods here\n}\n",
+            "sourceCode": "import { Component, Input } from '@angular/core';\n\ninterface TableColumn {\n  label: string;\n  property: string;\n}\n\n@Component({\n  selector: 'dd-table',\n  templateUrl: './table.component.html',\n})\nexport class TableComponent {\n  @Input() data: any[] = [];\n  @Input() columns: TableColumn[] = [];\n  @Input() showTableHeaders?: boolean = true;\n\n  // Add any additional properties or methods here\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<table>\n  <thead>\n    <tr *ngFor=\"let column of columns\">\n      <th>{{ column }}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let item of data\">\n      <td>{{ item.column1 }}</td>\n      <td>{{ item.column2 }}</td>\n      <td>{{ item.column3 }}</td>\n    </tr>\n  </tbody>\n</table>\n"
+            "templateData": "<table class=\"table-auto w-full bg-light_primary dark:bg-dark_primary rounded-b text-sm\">\n  <thead [ngClass]=\"showTableHeaders ? '' : 'hidden'\">\n    <tr class=\"text-left\">\n      <th class=\"p-2\" *ngFor=\"let column of columns\">{{ column.label }}</th>\n    </tr>\n  </thead>\n  <tr *ngFor=\"let item of data\" class=\"border-b border-y-light_tertiary dark:border-y-dark_tertiary\">\n    <td class=\"p-2\" *ngFor=\"let column of columns\">\n      <ng-container *ngIf=\"column.property === 'type_id'; else itemTemplate\">\n        <dd-type-box [type]=\"item[column.property]\" [size]=\"'sm'\"></dd-type-box>\n      </ng-container>\n      <ng-template #itemTemplate>\n        {{ item[column.property] }}\n      </ng-template>\n  </tr>\n</table>\n\n<!-- <table\n  class=\"table-auto w-full bg-light_primary dark:bg-dark_primary rounded-b text-sm\"\n>\n  <thead>\n    <tr class=\"text-left\">\n      <th class=\"p-2\">Level</th>\n      <th class=\"p-2\">Move</th>\n      <th class=\"p-2\">Type</th>\n      <th class=\"p-2\">Power</th>\n      <th class=\"p-2\">Accuracy</th>\n    </tr>\n  </thead>\n  <tr\n    *ngFor=\"let move of moveGroup; index as i\"\n    class=\"border-b border-y-light_tertiary dark:border-y-dark_tertiary\"\n  >\n    <td class=\"p-2\">{{ moveLevel(move) }}</td>\n    <td class=\"p-2\">{{ move.move_id.name }}</td>\n    <td class=\"p-2\">\n      <div class=\"h-6 w-16 text-xs\">\n        <dd-type-box [type]=\"move.move_id.type_id\" [size]=\"'sm'\"></dd-type-box>\n      </div>\n    </td>\n    <td class=\"p-2\">{{ move.move_id.power ? move.move_id.power : \"—\" }}</td>\n    <td class=\"p-2\">\n      {{ move.move_id.accuracy ? move.move_id.accuracy : \"—\" }}\n    </td>\n  </tr>\n</table> -->\n"
         },
         {
             "name": "TabListComponent",
@@ -5755,13 +5798,13 @@
         },
         {
             "name": "PokemonModule",
-            "id": "module-PokemonModule-8ea13cda2adea40e4235c0a139f3d12f746a7c80cab361c6c7b7296a6fb3507fad75499c7905480ac62a0786a36d88acee4e420414c7d5208184439c763fe730",
+            "id": "module-PokemonModule-e9921890da001d70e73325328d41dc494db482a1973944a44d2903e579d8573845378456b549f1d95fac3536bb1c63708b5fce7422bb38c174867e359b3bb23a",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/features/pokemon/pokemon.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { RouterModule } from '@angular/router';\nimport { CoreModule } from 'src/app/core/core.module';\nimport { SharedModule } from 'src/app/shared/shared.module';\nimport { LazyLoadImageModule } from 'ng-lazyload-image';\nimport { PokemonComponent } from './pages/pokemon/pokemon.component';\nimport { PokemonDataComponent } from './components/pokemon-data/pokemon-data.component';\nimport { PokemonDescriptionsComponent } from './components/pokemon-descriptions/pokemon-descriptions.component';\nimport { PokemonFormsComponent } from './components/pokemon-forms/pokemon-forms.component';\nimport { PokemonGenderRatioComponent } from './components/pokemon-gender-ratio/pokemon-gender-ratio.component';\nimport { PokemonNavigationComponent } from './components/pokemon-navigation/pokemon-navigation.component';\nimport { PokemonStatsComponent } from './components/pokemon-stats/pokemon-stats.component';\nimport { NgIconsModule } from '@ng-icons/core';\nimport {\n  heroChevronLeftSolid,\n  heroChevronRightSolid,\n  heroSwatchSolid,\n  heroSparklesSolid,\n} from '@ng-icons/heroicons/solid';\nimport {\n  bootstrapDice6Fill,\n  bootstrapGenderFemale,\n  bootstrapGenderMale,\n} from '@ng-icons/bootstrap-icons';\nimport { PokemonSummaryComponent } from './components/pokemon-summary/pokemon-summary.component';\nimport { PokemonMovesComponent } from './components/pokemon-moves/pokemon-moves.component';\nimport { PokemonMoveTableComponent } from './components/pokemon-move-table/pokemon-move-table.component';\n\nconst routes = [{ path: '', component: PokemonComponent }];\n\n@NgModule({\n  declarations: [\n    PokemonComponent,\n    PokemonDataComponent,\n    PokemonDescriptionsComponent,\n    PokemonFormsComponent,\n    PokemonGenderRatioComponent,\n    PokemonMovesComponent,\n    PokemonMoveTableComponent,\n    PokemonNavigationComponent,\n    PokemonStatsComponent,\n    PokemonSummaryComponent,\n  ],\n  imports: [\n    CommonModule,\n    CoreModule,\n    SharedModule,\n    RouterModule.forChild(routes),\n    LazyLoadImageModule,\n    NgIconsModule.withIcons({\n      heroChevronLeftSolid,\n      heroChevronRightSolid,\n      heroSwatchSolid,\n      bootstrapDice6Fill,\n      bootstrapGenderFemale,\n      bootstrapGenderMale,\n      heroSparklesSolid,\n    }),\n  ],\n})\nexport class PokemonModule {}\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { RouterModule } from '@angular/router';\nimport { CoreModule } from 'src/app/core/core.module';\nimport { SharedModule } from 'src/app/shared/shared.module';\nimport { LazyLoadImageModule } from 'ng-lazyload-image';\nimport { PokemonComponent } from './pages/pokemon/pokemon.component';\nimport { PokemonDataComponent } from './components/pokemon-data/pokemon-data.component';\nimport { PokemonDescriptionsComponent } from './components/pokemon-descriptions/pokemon-descriptions.component';\nimport { PokemonFormsComponent } from './components/pokemon-forms/pokemon-forms.component';\nimport { PokemonGenderRatioComponent } from './components/pokemon-gender-ratio/pokemon-gender-ratio.component';\nimport { PokemonNavigationComponent } from './components/pokemon-navigation/pokemon-navigation.component';\nimport { PokemonStatsComponent } from './components/pokemon-stats/pokemon-stats.component';\nimport { NgIconsModule } from '@ng-icons/core';\nimport {\n  heroChevronLeftSolid,\n  heroChevronRightSolid,\n  heroSwatchSolid,\n  heroSparklesSolid,\n} from '@ng-icons/heroicons/solid';\nimport {\n  bootstrapDice6Fill,\n  bootstrapGenderFemale,\n  bootstrapGenderMale,\n} from '@ng-icons/bootstrap-icons';\nimport { PokemonSummaryComponent } from './components/pokemon-summary/pokemon-summary.component';\nimport { PokemonMovesComponent } from './components/pokemon-moves/pokemon-moves.component';\n\nconst routes = [{ path: '', component: PokemonComponent }];\n\n@NgModule({\n  declarations: [\n    PokemonComponent,\n    PokemonDataComponent,\n    PokemonDescriptionsComponent,\n    PokemonFormsComponent,\n    PokemonGenderRatioComponent,\n    PokemonMovesComponent,\n    PokemonNavigationComponent,\n    PokemonStatsComponent,\n    PokemonSummaryComponent,\n  ],\n  imports: [\n    CommonModule,\n    CoreModule,\n    SharedModule,\n    RouterModule.forChild(routes),\n    LazyLoadImageModule,\n    NgIconsModule.withIcons({\n      heroChevronLeftSolid,\n      heroChevronRightSolid,\n      heroSwatchSolid,\n      bootstrapDice6Fill,\n      bootstrapGenderFemale,\n      bootstrapGenderMale,\n      heroSparklesSolid,\n    }),\n  ],\n})\nexport class PokemonModule {}\n",
             "children": [
                 {
                     "type": "providers",
@@ -5784,9 +5827,6 @@
                         },
                         {
                             "name": "PokemonGenderRatioComponent"
-                        },
-                        {
-                            "name": "PokemonMoveTableComponent"
                         },
                         {
                             "name": "PokemonMovesComponent"
@@ -5829,13 +5869,13 @@
         },
         {
             "name": "SharedModule",
-            "id": "module-SharedModule-bde87c852459c6a837bd46c35178021958ccbec359d53282585a54f45612e6b8d68c3d05f27d9d9ed2c529c31ae05d2cf01a0a38b10d7f124f19c89bd2f4602f",
+            "id": "module-SharedModule-7239a3177c409ee0ad9991106d35858e8e68f430ff72e996cdfe261c0e62073c7442e66ef021286ac6dad837411b35ad139c5ad3458ce36b4883a2e11efb18fc",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/shared/shared.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { DecimetersToFeetAndInchesPipe } from './pipes/decimeters-to-feet-and-inches/decimeters-to-feet-and-inches.pipe';\nimport { DecimetersToPoundsPipe } from './pipes/decimeters-to-pounds/decimeters-to-pounds.pipe';\nimport { FormsModule } from '@angular/forms';\nimport { TypeBoxComponent } from './components/type-box/type-box.component';\nimport { CardHeaderComponent } from './components/card/card-header/card-header.component';\nimport { RouterModule } from '@angular/router';\nimport { SpinnerComponent } from './components/spinner/spinner.component';\nimport { DropdownComponent } from './components/dropdown/dropdown.component';\nimport { NgIconsModule } from '@ng-icons/core';\nimport { heroChevronDownSolid } from '@ng-icons/heroicons/solid';\nimport { CardComponent } from './components/card/card/card.component';\nimport { ButtonComponent } from './components/button/button/button.component';\nimport { NewsPreviewComponent } from './components/news-preview/news-preview.component';\nimport { NewsPreviewListComponent } from './components/news-preview-list/news-preview-list.component';\nimport { CompoundButtonComponent } from './components/button/compound-button/compound-button.component';\nimport { SwitchComponent } from './components/switch/switch.component';\nimport { TabListComponent } from './components/tab-list/tab-list.component';\n\n@NgModule({\n  declarations: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    NewsPreviewComponent,\n    DropdownComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n    TabListComponent,\n  ],\n  imports: [\n    CommonModule,\n    FormsModule,\n    RouterModule,\n    NgIconsModule.withIcons({\n      heroChevronDownSolid,\n    }),\n  ],\n  exports: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    DropdownComponent,\n    NewsPreviewComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n    TabListComponent,\n  ],\n})\nexport class SharedModule {}\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { DecimetersToFeetAndInchesPipe } from './pipes/decimeters-to-feet-and-inches/decimeters-to-feet-and-inches.pipe';\nimport { DecimetersToPoundsPipe } from './pipes/decimeters-to-pounds/decimeters-to-pounds.pipe';\nimport { FormsModule } from '@angular/forms';\nimport { TypeBoxComponent } from './components/type-box/type-box.component';\nimport { CardHeaderComponent } from './components/card/card-header/card-header.component';\nimport { RouterModule } from '@angular/router';\nimport { SpinnerComponent } from './components/spinner/spinner.component';\nimport { DropdownComponent } from './components/dropdown/dropdown.component';\nimport { NgIconsModule } from '@ng-icons/core';\nimport { heroChevronDownSolid } from '@ng-icons/heroicons/solid';\nimport { CardComponent } from './components/card/card/card.component';\nimport { ButtonComponent } from './components/button/button/button.component';\nimport { NewsPreviewComponent } from './components/news-preview/news-preview.component';\nimport { NewsPreviewListComponent } from './components/news-preview-list/news-preview-list.component';\nimport { CompoundButtonComponent } from './components/button/compound-button/compound-button.component';\nimport { SwitchComponent } from './components/switch/switch.component';\nimport { TabListComponent } from './components/tab-list/tab-list.component';\nimport { TableComponent } from './components/table/table.component';\n\n@NgModule({\n  declarations: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    NewsPreviewComponent,\n    DropdownComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n    TableComponent,\n    TabListComponent\n  ],\n  imports: [\n    CommonModule,\n    FormsModule,\n    RouterModule,\n    NgIconsModule.withIcons({\n      heroChevronDownSolid,\n    }),\n  ],\n  exports: [\n    DecimetersToFeetAndInchesPipe,\n    DecimetersToPoundsPipe,\n    TypeBoxComponent,\n    DropdownComponent,\n    NewsPreviewComponent,\n    ButtonComponent,\n    CompoundButtonComponent,\n    CardComponent,\n    CardHeaderComponent,\n    NewsPreviewListComponent,\n    SpinnerComponent,\n    SwitchComponent,\n    TableComponent,\n    TabListComponent\n  ],\n})\nexport class SharedModule {}\n",
             "children": [
                 {
                     "type": "providers",
@@ -5879,6 +5919,9 @@
                         },
                         {
                             "name": "TabListComponent"
+                        },
+                        {
+                            "name": "TableComponent"
                         },
                         {
                             "name": "TypeBoxComponent"
@@ -5927,6 +5970,9 @@
                         },
                         {
                             "name": "TabListComponent"
+                        },
+                        {
+                            "name": "TableComponent"
                         },
                         {
                             "name": "TypeBoxComponent"
@@ -7184,21 +7230,12 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/features/pokemon/components/pokemon-move-table/pokemon-move-table.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "PokemonMoveTableComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/2",
-                "status": "low"
-            },
-            {
                 "filePath": "src/app/features/pokemon/components/pokemon-moves/pokemon-moves.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "PokemonMovesComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/12",
+                "coverageCount": "0/15",
                 "status": "low"
             },
             {
@@ -7471,6 +7508,15 @@
                 "type": "component",
                 "linktype": "component",
                 "name": "TableComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/4",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/table/table.component.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "TableColumn",
                 "coveragePercent": 0,
                 "coverageCount": "0/3",
                 "status": "low"

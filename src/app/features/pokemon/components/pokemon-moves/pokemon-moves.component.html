@@ -9,8 +9,8 @@
       [activeTab]="activeTab"
       (tabChange)="selectMoveGroup($event)"
     >
-      <dd-pokemon-move-table [moveGroup]="selectedMoveGroup">
-      </dd-pokemon-move-table>
+      <dd-table [columns]="columns" [data]="data">
+      </dd-table>
     </dd-tab-list>
   </div>
 </dd-card>

@@ -17,6 +17,7 @@ import { NewsPreviewListComponent } from './components/news-preview-list/news-pr
 import { CompoundButtonComponent } from './components/button/compound-button/compound-button.component';
 import { SwitchComponent } from './components/switch/switch.component';
 import { TabListComponent } from './components/tab-list/tab-list.component';
+import { TableComponent } from './components/table/table.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TabListComponent } from './components/tab-list/tab-list.component';
     NewsPreviewListComponent,
     SpinnerComponent,
     SwitchComponent,
-    TabListComponent,
+    TableComponent,
+    TabListComponent
   ],
   imports: [
     CommonModule,
@@ -55,7 +57,8 @@ import { TabListComponent } from './components/tab-list/tab-list.component';
     NewsPreviewListComponent,
     SpinnerComponent,
     SwitchComponent,
-    TabListComponent,
+    TableComponent,
+    TabListComponent
   ],
 })
 export class SharedModule {}

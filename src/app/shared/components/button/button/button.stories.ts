@@ -4,14 +4,24 @@ import { ButtonComponent } from './button.component';
 export default {
   title: 'Shared/Button',
   component: ButtonComponent,
+  argTypes: {
+    appearance: {
+      options: ['primary', 'secondary', 'outline'],
+      control: { type: 'radio' },
+    },
+    as: {
+      options: ['button', 'a'],
+      control: { type: 'radio' },
+    },
+  },
   tags: ['autodocs'],
 } as Meta;
 
 type Story = StoryObj<ButtonComponent>;
 
 export const Default: Story = {
-  render: () => ({
-    template: `<dd-button>Default</dd-button>`,
+  render: (args: any) => ({
+    template: `<dd-button [appearance]="'${args.appearance}'" [as]="'${args.as}'">Default</dd-button>`,
   }),
 };
 
@@ -20,7 +30,7 @@ export const Primary: Story = {
     appearance: 'primary',
   },
   render: (args: any) => ({
-    template: `<dd-button [appearance]="'${args.appearance}'">Primary</dd-button>`,
+    template: `<dd-button [appearance]="'${args.appearance}'" [as]="'${args.as}'">Primary</dd-button>`,
   }),
 };
 
@@ -29,7 +39,7 @@ export const Secondary: Story = {
     appearance: 'secondary',
   },
   render: (args: any) => ({
-    template: `<dd-button [appearance]="'${args.appearance}'">Secondary</dd-button>`,
+    template: `<dd-button [appearance]="'${args.appearance}'" [as]="'${args.as}'">Secondary</dd-button>`,
   }),
 };
 
@@ -38,6 +48,6 @@ export const Outline: Story = {
     appearance: 'outline',
   },
   render: (args: any) => ({
-    template: `<dd-button [appearance]="'${args.appearance}'">Outline</dd-button>`,
+    template: `<dd-button [appearance]="'${args.appearance}'" [as]="'${args.as}'">Outline</dd-button>`,
   }),
 };

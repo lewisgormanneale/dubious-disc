@@ -4,7 +4,6 @@ import {
   Input,
   OnChanges,
   OnDestroy,
-  OnInit,
 } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
 import { Tab } from 'src/app/core/models';
@@ -20,8 +19,12 @@ export class PokemonMovesComponent implements OnChanges, OnDestroy {
 
   tabs: Tab[] = [] as any;
   activeTab: Tab = {} as Tab;
+
   moveGroups: any = [] as any;
   selectedMoveGroup: any = [] as any;
+
+  columns: any = [] as any;
+  data: any = [] as any;
 
   private supabase: SupabaseService = inject(SupabaseService);
   private destroy$ = new Subject<void>();
@@ -47,16 +50,55 @@ export class PokemonMovesComponent implements OnChanges, OnDestroy {
           identifier: group[0].pokemon_move_method_id.identifier,
         }));
         this.selectedMoveGroup = this.moveGroups[0];
+        this.columns = [
+          { label: 'Level', property: 'level' },
+          { label: 'Move', property: 'move_name' },
+          { label: 'Type', property: 'type_id' },
+          { label: 'Power', property: 'power' },
+          { label: 'Accuracy', property: 'accuracy' },
+        ];
+        this.data = this.selectedMoveGroup.map((move: any) => ({
+          level: this.moveLevel(move),
+          move_name: move.move_id.name,
+          type_id: move.move_id.type_id,
+          power: move.move_id.power,
+          accuracy: move.move_id.accuracy,
+        }));
         this.activeTab = this.tabs[0];
       });
   }
 
   selectMoveGroup(tab: Tab) {
     this.activeTab = tab;
+    this.columns = [
+      { label: 'Level', property: 'level' },
+      { label: 'Move', property: 'move_name' },
+      { label: 'Type', property: 'type_id' },
+      { label: 'Power', property: 'power' },
+      { label: 'Accuracy', property: 'accuracy' },
+    ];
     this.selectedMoveGroup = this.moveGroups.find(
       (group: any) =>
         group[0].pokemon_move_method_id.identifier === tab.identifier
     );
+    this.data = this.selectedMoveGroup.map((move: any) => ({
+      level: this.moveLevel(move),
+      move_name: move.move_id.name,
+      type_id: move.move_id.type_id,
+      power: move.move_id.power,
+      accuracy: move.move_id.accuracy,
+    }));
+  }
+
+
+  moveLevel(move: any) {
+    if (move.move_pokemon_move_method_id === 1 && move.level === 0) {
+      return 'evolve';
+    }
+    if (move.move_pokemon_move_method_id === 1 && move.level === 1) {
+      return '—';
+    }
+    return move.level;
   }
 
   ngOnDestroy(): void {
