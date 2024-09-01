@@ -1,10 +1,4 @@
-import {
-  Component,
-  inject,
-  Input,
-  OnChanges,
-  OnDestroy,
-} from '@angular/core';
+import { Component, inject, Input, OnChanges, OnDestroy } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
 import { Tab } from 'src/app/core/models';
 import { SupabaseService } from 'src/app/core/services/supabase.service';
@@ -35,6 +29,12 @@ export class PokemonMovesComponent implements OnChanges, OnDestroy {
       .getPokemonMovesByPokemonId(this.pokemonId, this.versionGroupId)
       .pipe(takeUntil(this.destroy$))
       .subscribe((data) => {
+        if (!data.length) {
+          this.tabs = [];
+          this.columns = [];
+          this.data = [];
+          return;
+        }
         this.moveGroups = Object.values(
           data.reduce((acc: any, move: any) => {
             const key = move.pokemon_move_method_id.id;
@@ -89,7 +89,6 @@ export class PokemonMovesComponent implements OnChanges, OnDestroy {
       accuracy: move.move_id.accuracy,
     }));
   }
-
 
   moveLevel(move: any) {
     if (move.move_pokemon_move_method_id === 1 && move.level === 0) {
