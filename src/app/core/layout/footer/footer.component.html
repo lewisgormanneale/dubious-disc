@@ -1,9 +1,7 @@
 <footer
-  class="flex flex-col justify-center items-center bg-light_secondary dark:bg-dark_secondary p-4 gap-4"
+  class="flex flex-col sm:flex-row justify-between items-center bg-light_secondary dark:bg-dark_secondary p-4 gap-4 min-h-[70px]"
 >
-  <p
-    class="text-center text-sm text-dark_tertiary dark:text-light_tertiary h-20 sm:h-6"
-  >
+  <p class="text-center text-sm text-dark_tertiary dark:text-light_tertiary">
     Pokémon images & names © 1995-2023 Nintendo/Game Freak. Pokémon data thanks
     to
     <a
@@ -14,4 +12,38 @@
       >PokéAPI</a
     >.
   </p>
+  <div class="flex items-center gap-2">
+    <span class="sm:block hidden">
+      <svg
+        class="h-6 w-6 text-gray-500"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+        />
+      </svg>
+    </span>
+    <dd-switch [checked]="isDarkMode" (checkedChange)="toggleDarkMode()">
+    </dd-switch>
+    <span class="">
+      <svg
+        class="h-6 w-6 text-gray-500"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+        />
+      </svg>
+    </span>
+  </div>
 </footer>
