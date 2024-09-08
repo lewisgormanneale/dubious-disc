@@ -15,10 +15,12 @@
   <nav aria-label="Global" class="flex flex-1 items-center z-50 h-full">
     <ul class="flex items-center h-full">
       <ng-container *ngFor="let navItem of navItems">
-        <dd-header-dropdown
-          [navItem]="navItem"
-          class="h-full"
-        ></dd-header-dropdown>
+        <li class="h-full">
+          <dd-header-dropdown
+            [navItem]="navItem"
+            class="h-full"
+          ></dd-header-dropdown>
+        </li>
       </ng-container>
     </ul>
   </nav>
