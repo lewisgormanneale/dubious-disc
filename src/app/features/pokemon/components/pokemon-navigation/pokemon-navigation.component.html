@@ -2,6 +2,7 @@
   <div class="flex flex-col-reverse gap-2 sm:flex-row sm:items-center">
     <dd-button
       *ngIf="previousPokemonIdentifier && previousPokemonImageUrl"
+      [ariaLabel]="'Go To Previous Pokémon'"
       (onClick)="navigateToPokemon(previousPokemonIdentifier)"
     >
       <div class="flex justify-evenly items-center">
@@ -17,7 +18,7 @@
       </div>
     </dd-button>
     <dd-button
-      attr.aria-label="Go To Pokédex: {{ pokedexGeneration }}"
+      [ariaLabel]="'Go To Pokédex: ' + pokedexGeneration"
       (onClick)="navigateToPokedex(pokedexGeneration)"
     >
       <ng-icon [name]="'heroSwatchSolid'"></ng-icon>
@@ -39,13 +40,14 @@
   </div>
   <div class="flex flex-col gap-2 sm:flex-row sm:items-center items-end">
     <dd-button
-      aria-label="Go To A Random Pokémon In The Pokédex"
+      [ariaLabel]="'Go To A Random Pokémon In The Pokédex'"
       (onClick)="navigateToPokemon(randomPokemonIdentifier)"
     >
       <ng-icon [name]="'bootstrapDice6Fill'"></ng-icon>
     </dd-button>
     <dd-button
       *ngIf="nextPokemonIdentifier && nextPokemonImageUrl"
+      [ariaLabel]="'Go To Next Pokémon'"
       (onClick)="navigateToPokemon(nextPokemonIdentifier)"
     >
       <div class="flex justify-evenly items-center">

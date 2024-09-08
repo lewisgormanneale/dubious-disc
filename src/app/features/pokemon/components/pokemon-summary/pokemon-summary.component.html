@@ -2,19 +2,24 @@
   class="text-center border border-light_tertiary dark:border-dark_tertiary h-full w-full rounded flex flex-col justify-between"
 >
   <div class="relative h-full w-full">
-    <dd-button class="absolute top-2 left-2" (onClick)="shinyToggle()">
+    <dd-button
+      class="absolute top-2 left-2"
+      [ariaLabel]="'Toggle ' + selectedForm.name + '\'s Shiny Sprite'"
+      (onClick)="shinyToggle()"
+    >
       <ng-icon
         [name]="'heroSparklesSolid'"
         [ngClass]="{ 'text-orange-300': shiny }"
-        aria-labelledby="shiny-button-label"
       ></ng-icon>
-      <div class="sr-only" id="shiny-button-label">
-        Toggle Pokémon's Shiny Sprite
-      </div>
     </dd-button>
     <dd-button
       *ngIf="pokemonSpecies.has_gender_differences"
       class="absolute top-14 left-2"
+      [ariaLabel]="
+        'Toggle ' +
+        selectedForm.name +
+        '\'s gender (This Pokémon has gender differences)'
+      "
       (onClick)="genderToggle()"
     >
       <ng-icon
@@ -22,9 +27,6 @@
         [ngClass]="{ 'text-pink-400': female }"
         aria-labelledby="gender-button-label"
       ></ng-icon>
-      <div class="sr-only" id="gender-button-label">
-        Toggle Pokémon's Gender, When It Affects Appearance
-      </div>
     </dd-button>
     <div
       class="w-full h-full flex justify-center items-center rounded-t"
@@ -32,6 +34,7 @@
     >
       <img
         src="{{ this.imageUrl }}"
+        [alt]="selectedForm.name"
         class="w-full h-full object-contain min-w-[300px] max-w-[390px] rounded-t"
       />
     </div>
