@@ -25,6 +25,7 @@ import {
 } from '@ng-icons/bootstrap-icons';
 import { PokemonSummaryComponent } from './components/pokemon-summary/pokemon-summary.component';
 import { PokemonMovesComponent } from './components/pokemon-moves/pokemon-moves.component';
+import { NgOptimizedImage } from '@angular/common';
 
 const routes = [{ path: '', component: PokemonComponent }];
 
@@ -42,6 +43,7 @@ const routes = [{ path: '', component: PokemonComponent }];
   ],
   imports: [
     CommonModule,
+    NgOptimizedImage,
     CoreModule,
     SharedModule,
     RouterModule.forChild(routes),

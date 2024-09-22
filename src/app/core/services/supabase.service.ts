@@ -187,9 +187,7 @@ export class SupabaseService {
   getPokemonTypesByPokemonId(id: number): Observable<any> {
     const request = this.supabase
       .from('pokemon_types')
-      .select(
-        'type_id (id, identifier, name, type_color, darker_type_color), slot'
-      )
+      .select('type_id (id, identifier, name, type_color), slot')
       .eq('pokemon_id', id);
 
     return from(request).pipe(map((response) => response.data || []));
