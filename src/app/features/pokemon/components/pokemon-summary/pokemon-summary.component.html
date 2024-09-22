@@ -32,16 +32,19 @@
       class="w-full h-[450px] flex justify-center items-center rounded-t"
       [style.background]="getTypeBackgroundColor()"
     >
+      @defer (when imageLoaded) {
       <img
         style="font-size: 0"
-        *ngIf="this.imageUrl"
-        [ngSrc]="this.imageUrl"
+        [ngSrc]="imageUrl"
         [alt]="selectedForm.name"
         class="rounded-t text-opacity-0 object-contain"
         width="400"
         height="400"
         priority
       />
+      } @placeholder (minimum 1000ms) {
+      <dd-spinner></dd-spinner>
+      }
     </div>
     <div>
       <div
