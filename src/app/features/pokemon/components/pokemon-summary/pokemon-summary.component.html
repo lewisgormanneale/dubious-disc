@@ -29,38 +29,43 @@
       ></ng-icon>
     </dd-button>
     <div
-      class="w-full h-full flex justify-center items-center rounded-t"
+      class="w-full h-[450px] flex justify-center items-center rounded-t"
       [style.background]="getTypeBackgroundColor()"
     >
       <img
-        src="{{ this.imageUrl }}"
+        style="font-size: 0"
+        *ngIf="this.imageUrl"
+        [ngSrc]="this.imageUrl"
         [alt]="selectedForm.name"
-        class="w-full h-full object-contain min-w-[300px] max-w-[390px] rounded-t"
+        class="rounded-t text-opacity-0 object-contain"
+        width="400"
+        height="400"
+        priority
       />
     </div>
-  </div>
-  <div>
-    <div
-      class="bg-white dark:bg-black border-b border-light_tertiary dark:border-dark_tertiary"
-      style="height: 50px"
-    >
-      <h2 class="p-2">
-        <span class="font-bold text-xl"> {{ selectedForm.name }}</span>
-      </h2>
-    </div>
-    <div
-      class="flex justify-between items-center p-2 bg-light_primary dark:bg-dark_primary"
-      *ngIf="pokemonTypes && pokemonTypes.length > 0"
-      [ngClass]="
-        pokemonTypes.length > 1
-          ? 'justify-content-between'
-          : 'justify-content-center'
-      "
-    >
-      <dd-type-box
-        *ngFor="let type of pokemonTypes"
-        [type]="type.type_id"
-      ></dd-type-box>
+    <div>
+      <div
+        class="bg-white dark:bg-black border-b border-light_tertiary dark:border-dark_tertiary"
+        style="height: 50px"
+      >
+        <h2 class="p-2">
+          <span class="font-bold text-xl"> {{ selectedForm.name }}</span>
+        </h2>
+      </div>
+      <div
+        class="flex justify-between items-center p-2 bg-light_primary dark:bg-dark_primary"
+        *ngIf="pokemonTypes && pokemonTypes.length > 0"
+        [ngClass]="
+          pokemonTypes.length > 1
+            ? 'justify-content-between'
+            : 'justify-content-center'
+        "
+      >
+        <dd-type-box
+          *ngFor="let type of pokemonTypes"
+          [type]="type.type_id"
+        ></dd-type-box>
+      </div>
     </div>
   </div>
 </div>

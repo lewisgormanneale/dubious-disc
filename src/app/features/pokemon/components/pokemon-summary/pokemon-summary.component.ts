@@ -15,6 +15,7 @@ export class PokemonSummaryComponent implements OnChanges {
   imageUrl: string = '';
   shiny: boolean = false;
   female: boolean = false;
+  isLoading: boolean = true;
 
   private supabase: SupabaseService = inject(SupabaseService);
   private destroy$ = new Subject<void>();
@@ -39,6 +40,10 @@ export class PokemonSummaryComponent implements OnChanges {
     this.imageUrl = this.supabase.storage
       .from('pokemon')
       .getPublicUrl(url).data.publicUrl;
+  }
+
+  onImageLoad() {
+    this.isLoading = false;
   }
 
   getTypeBackgroundColor() {
